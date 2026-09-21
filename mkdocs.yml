@@ -1,0 +1,55 @@
+site_name: AKTV8 Fusion Library — Bibliothek
+site_description: Read-only mirror of the AKTV8 Fusion design library for browsing
+site_url: https://aktv8-tganss.github.io/Bibliothek/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - attr_list
+  - md_in_html
+
+nav:
+  - Home: index.md
+  - Designs:
+    - 00 - Parts:
+      - Arduino:
+        - Amplifier Board: designs/00-parts/arduino/amplifier-board.md
+    - A-0010 iAir6:
+      - CEPHALOPOD 2: designs/a-0010-iair6/cephalopod-2.md
+      - FAST26 Clamping Jaws: designs/a-0010-iair6/fast26-clamping-jaws.md
+  - Indexes:
+    - Shortlink Index: indexes/shortlinks.md
+    - BOM / Uses Index: indexes/bom-uses.md
+    - Migration Candidates: indexes/migration-candidates.md
+    - Leftovers: indexes/leftovers.md
