@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (8 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (2 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (13 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (3 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (3 total)
 
 ## Design Tree
@@ -24,6 +24,8 @@ Browse designs by project folder:
 - **[A-0010 iAir6](designs/a-0010-iair6/cephalopod-2.md)** — iAir6 project designs
     - [A8 Parts](designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md) — A8 subfolder designs
     - [OTS Parts](designs/a-0010-iair6/ots-parts/prox-switch.md) — off-the-shelf components (migration candidates)
+- **[A-0054 iAir3 Gen2](designs/a-0054-iair3-gen2/design-22.md)** — iAir3 Gen2 project designs
+    - [Flash Runner](designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) — Flash Runner assembly designs
 
 ## Batch Summary
 
@@ -31,8 +33,9 @@ Browse designs by project folder:
 |-------|---------|-------|
 | 001 | 3 | Initial harvest (Amplifier Board, CEPHALOPOD 2, FAST26 Clamping Jaws) |
 | 002 | 5 | A8 Parts (2), OTS parts (3 migration candidates) |
+| 003 | 5 | A-0054 iAir3 Gen2 (5 designs including Flash Runner subfolder) |
 
-**Total designs indexed: 8**
+**Total designs indexed: 13**
 
 ---
 
