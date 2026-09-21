@@ -55,6 +55,13 @@ nav:
         - Prox Switch: designs/a-0010-iair6/ots-parts/prox-switch.md
         - SS Relay Board: designs/a-0010-iair6/ots-parts/ss-relay-board.md
         - KQ2H03-33AS: designs/a-0010-iair6/ots-parts/kq2h03-33as.md
+    - A-0054 iAir3 Gen2:
+      - "22": designs/a-0054-iair3-gen2/design-22.md
+      - GEN2 PROC MODULE: designs/a-0054-iair3-gen2/gen2-proc-module.md
+      - GEN2 PROC MODULE 2026: designs/a-0054-iair3-gen2/gen2-proc-module-2026.md
+      - Weight Plate: designs/a-0054-iair3-gen2/weight-plate.md
+      - Flash Runner:
+        - iAIR3 Gen2 Flash Runner Bed: designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md

@@ -33,6 +33,14 @@ A design is flagged when:
 - **SS Relay Board** — OTS solid-state relay board in project-specific folder. **Migration candidate.**
 - **KQ2H03-33AS** — OTS pneumatic fitting (SMC part) in project-specific folder. **Migration candidate.**
 
+### Assessment Notes (Batch 003)
+
+- **iAIR3 Gen2 Flash Runner Bed** — Flash Runner assembly/bed under `A-0054 iAir3 Gen2 / Flash Runner`. Not an OTS part.
+- **22** — Design under `A-0054 iAir3 Gen2`. No design references; not an OTS part.
+- **GEN2 PROC MODULE** — Product-specific module under `A-0054 iAir3 Gen2`. Not an OTS part.
+- **GEN2 PROC MODULE 2026** — Module design under `A-0054 iAir3 Gen2`. Not an OTS part.
+- **Weight Plate** — Component under `A-0054 iAir3 Gen2`. Not an OTS part.
+
 ---
 
-*3 migration candidates identified.*
+*3 migration candidates identified (no new candidates in batch 003).*

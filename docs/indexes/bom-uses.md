@@ -8,6 +8,7 @@ Assemblies with non-empty component references (Uses).
 |----------|------------|-----------|
 | [CEPHALOPOD 2](../designs/a-0010-iair6/cephalopod-2.md) | 23 | [a360.co/3T3NpAv](https://a360.co/3T3NpAv) |
 | [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md) | 1 | [a360.co/4dgmDvx](https://a360.co/4dgmDvx) |
+| [iAIR3 Gen2 Flash Runner Bed](../designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) | 1 | [a360.co/4xytM1N](https://a360.co/4xytM1N) |
 
 ---
 
@@ -49,4 +50,12 @@ The 003270 FAST26 design references the following 1 component:
 
 ---
 
-*2 assemblies with BOM data indexed.*
+## iAIR3 Gen2 Flash Runner Bed — Bill of Materials
+
+The iAIR3 Gen2 Flash Runner Bed design references the following 1 component:
+
+1. PCB Sim
+
+---
+
+*3 assemblies with BOM data indexed.*

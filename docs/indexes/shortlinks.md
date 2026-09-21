@@ -12,7 +12,12 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Prox Switch](../designs/a-0010-iair6/ots-parts/prox-switch.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4h8evP1](https://a360.co/4h8evP1) |
 | [SS Relay Board](../designs/a-0010-iair6/ots-parts/ss-relay-board.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4j3bm5s](https://a360.co/4j3bm5s) |
 | [KQ2H03-33AS](../designs/a-0010-iair6/ots-parts/kq2h03-33as.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4AeGrcB](https://a360.co/4AeGrcB) |
+| [iAIR3 Gen2 Flash Runner Bed](../designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4xytM1N](https://a360.co/4xytM1N) |
+| [22](../designs/a-0054-iair3-gen2/design-22.md) | `A-0054 iAir3 Gen2` | [a360.co/4cHHnw6](https://a360.co/4cHHnw6) |
+| [GEN2 PROC MODULE](../designs/a-0054-iair3-gen2/gen2-proc-module.md) | `A-0054 iAir3 Gen2` | [a360.co/4A3LrAI](https://a360.co/4A3LrAI) |
+| [GEN2 PROC MODULE 2026](../designs/a-0054-iair3-gen2/gen2-proc-module-2026.md) | `A-0054 iAir3 Gen2` | [a360.co/4hoIqTh](https://a360.co/4hoIqTh) |
+| [Weight Plate](../designs/a-0054-iair3-gen2/weight-plate.md) | `A-0054 iAir3 Gen2` | [a360.co/3TkHabD](https://a360.co/3TkHabD) |
 
 ---
 
-*8 designs indexed.*
+*13 designs indexed.*
