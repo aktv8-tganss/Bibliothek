@@ -50,7 +50,7 @@ This assembly references **23 components**:
 | # | Component |
 |---|-----------|
 | 1 | Plunger passthru |
-| 2 | 003270 FAST26 |
+| 2 | [003270 FAST26](a8-parts/003270-fast26.md) |
 | 3 | Hexagon Socket Button Head Cap Screw ANSI B18.3 - 10-24 UNC x 0.5 Steel Grade 2 … |
 | 4 | KQ2H01-35AS |
 | 5 | Reg Sleeve Mount |
