@@ -7,6 +7,7 @@ Assemblies with non-empty component references (Uses).
 | Assembly | Components | Shortlink |
 |----------|------------|-----------|
 | [CEPHALOPOD 2](../designs/a-0010-iair6/cephalopod-2.md) | 23 | [a360.co/3T3NpAv](https://a360.co/3T3NpAv) |
+| [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md) | 1 | [a360.co/4dgmDvx](https://a360.co/4dgmDvx) |
 
 ---
 
@@ -15,7 +16,7 @@ Assemblies with non-empty component references (Uses).
 The CEPHALOPOD 2 assembly references the following 23 components:
 
 1. Plunger passthru
-2. 003270 FAST26
+2. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
 3. Hexagon Socket Button Head Cap Screw ANSI B18.3 - 10-24 UNC x 0.5 Steel Grade 2 …
 4. KQ2H01-35AS
 5. Reg Sleeve Mount
@@ -40,4 +41,12 @@ The CEPHALOPOD 2 assembly references the following 23 components:
 
 ---
 
-*1 assembly with BOM data indexed.*
+## 003270 FAST26 — Bill of Materials
+
+The 003270 FAST26 design references the following 1 component:
+
+1. OD-C1381-47_(VS-2W08E01_)__PB_NC___LINK_NEW__
+
+---
+
+*2 assemblies with BOM data indexed.*

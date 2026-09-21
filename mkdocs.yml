@@ -48,6 +48,13 @@ nav:
     - A-0010 iAir6:
       - CEPHALOPOD 2: designs/a-0010-iair6/cephalopod-2.md
       - FAST26 Clamping Jaws: designs/a-0010-iair6/fast26-clamping-jaws.md
+      - A8 Parts:
+        - 003234 X1a Manifold iAIR6: designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md
+        - 003270 FAST26: designs/a-0010-iair6/a8-parts/003270-fast26.md
+      - OTS Parts:
+        - Prox Switch: designs/a-0010-iair6/ots-parts/prox-switch.md
+        - SS Relay Board: designs/a-0010-iair6/ots-parts/ss-relay-board.md
+        - KQ2H03-33AS: designs/a-0010-iair6/ots-parts/kq2h03-33as.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md
