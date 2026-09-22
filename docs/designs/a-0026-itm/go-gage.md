@@ -26,7 +26,7 @@ This design references **1 component**:
 
 | # | Component |
 |---|-----------|
-| 1 | DESIATO 2 |
+| 1 | [DESIATO 2](asm-tooling-sow1/desiato/desiato-2.md) |
 
 ## Used In
 

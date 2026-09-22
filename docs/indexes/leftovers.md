@@ -214,51 +214,66 @@ All 20 designs from batch 011 were successfully indexed:
 19. ✓ PSI Filter Fitting
 20. ✓ Panel
 
+### Batch 012
+
+All 29 designs from batch 012 were successfully indexed:
+
+1. ✓ MARVIN OVERHAND 3
+2. ✓ PREFECT
+3. ✓ SLARTIBARTFARST
+4. ✓ Zaph Mount
+5. ✓ Zaphod Press Heads - Head 01
+6. ✓ Zaphod Press Heads - Head 02
+7. ✓ Zaphod Stack
+8. ✓ DESIATO
+9. ✓ DESIATO 2
+10. ✓ TUBE BRIDGE ASSEMBLY
+11. ✓ Tube Clamp
+12. ✓ FEN OLD
+13. ✓ FENCHURCH
+14. ✓ JET No.0 Press
+15. ✓ PRESS DIES
+16. ✓ Valve Bank
+17. ✓ Wiring Plate
+18. ✓ Inf Only Hose Cell
+19. ✓ Stator Plug Cell
+20. ✓ Hose Trays
+21. ✓ Tee Trays
+22. ✓ A8002783-01
+23. ✓ Colin Assy
+24. ✓ Hose Assembly Cell
+25. ✓ Tee Assembly Cell
+26. ✓ Million Mile Power Supply Mount
+27. ✓ Dyno Assy
+28. ✓ ENIGMA IV
+29. ✓ TT03_10Z_20Z_50Z
+
 ---
 
-## A-0026 iTM Remaining (After Batch 011)
+## A-0026 iTM Remaining (After Batch 012)
 
-Approximately **57 designs** remain unharvested in A-0026 iTM. Key areas include:
+Approximately **40 designs** remain unharvested in A-0026 iTM. Key areas include:
 
 ### Root
 - 880251 (duplicate row if distinct)
 
 ### AEETES
-- Valve Bank
-- Wiring Plate
-- OTS Parts/ (folder — harvest contents next)
+- OTS Parts/ (folder contents — partial inventory seen: 1, 1/2 Magnet, 1/8 Branch Tee, etc.)
 
 ### ASM TOOLING
-- Inf Only Hose Cell
-- Stator Plug Cell
 - OTS Parts/
+- Horseshoe Cell (referenced)
+- Dropper, LUBER, STORAGE TOTE-14GAL, Fieldmann Ratchet Handle, 4 inch Drill Press Vice (referenced)
 
 ### ASM TOOLING SOW1
-- BOWERICK
-- COLIN
-- COMPS
-- DESIATO
-- FENCHURCH
-- MARVIN
-- PREFECT
-- SLARTIBARTFARST
-- ZAPHOD
-- Hose Assembly Cell
-- Tee Assembly Cell
-
-### Alford
-- Million Mile Power Supply Mount
-
-### ENIGMA
-- Dyno Assy
-- ENIGMA IV
+- COMPS/ (folder)
+- Referenced but unharvested: Horseshoe Cell, Hose Cutter, Dropper, Support Press, Seal Press, 605 Press, HOSE FIXTURE, 2x8, 2x6, 688 Press, LUBER, PLT HEAD, 7x72, Zange_kpl, KV2L07-35S
 
 ### Jake - Print Copys
-- 880280
 - Piston Attachments and Parts/
+- (880280 skipped as drawing)
 
 ### MTT03
-- IT03_10Z_20Z_50Z
 - IT03_12_50_100
 - Torque Jig
 
@@ -304,4 +319,4 @@ Approximately **57 designs** remain unharvested in A-0026 iTM. Key areas include
 - USB Adapter
 - Whirlpool Motor
 
-*This summary was generated from the remaining-after-011 harvest manifest.*
+*This summary was generated from the remaining-after-012 harvest manifest.*

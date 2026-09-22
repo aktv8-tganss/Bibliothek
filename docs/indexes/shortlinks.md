@@ -157,7 +157,36 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Mounting Rail 3](../designs/a-0026-itm/aeetes/mounting-rail-3.md) | `A-0026 iTM / AEETES` | [a360.co/4iZjZ0T](https://a360.co/4iZjZ0T) |
 | [PSI Filter Fitting](../designs/a-0026-itm/aeetes/psi-filter-fitting.md) | `A-0026 iTM / AEETES` | [a360.co/4iZk5ph](https://a360.co/4iZk5ph) |
 | [Panel](../designs/a-0026-itm/aeetes/panel.md) | `A-0026 iTM / AEETES` | [a360.co/4xpJCvx](https://a360.co/4xpJCvx) |
+| [Valve Bank](../designs/a-0026-itm/aeetes/valve-bank.md) | `A-0026 iTM / AEETES` | [a360.co/3VaN7IF](https://a360.co/3VaN7IF) |
+| [Wiring Plate](../designs/a-0026-itm/aeetes/wiring-plate.md) | `A-0026 iTM / AEETES` | [a360.co/4xPyUPI](https://a360.co/4xPyUPI) |
+| [Million Mile Power Supply Mount](../designs/a-0026-itm/alford/million-mile-power-supply-mount.md) | `A-0026 iTM / Alford` | [a360.co/4yyu2OT](https://a360.co/4yyu2OT) |
+| [Inf Only Hose Cell](../designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md) | `A-0026 iTM / ASM TOOLING` | [a360.co/46koko0](https://a360.co/46koko0) |
+| [Stator Plug Cell](../designs/a-0026-itm/asm-tooling/stator-plug-cell.md) | `A-0026 iTM / ASM TOOLING` | [a360.co/4hmrZaW](https://a360.co/4hmrZaW) |
+| [Hose Assembly Cell](../designs/a-0026-itm/asm-tooling-sow1/hose-assembly-cell.md) | `A-0026 iTM / ASM TOOLING SOW1` | [a360.co/4r7GbYA](https://a360.co/4r7GbYA) |
+| [Tee Assembly Cell](../designs/a-0026-itm/asm-tooling-sow1/tee-assembly-cell.md) | `A-0026 iTM / ASM TOOLING SOW1` | [a360.co/4h7M4Rj](https://a360.co/4h7M4Rj) |
+| [Hose Trays](../designs/a-0026-itm/asm-tooling-sow1/bowerick/hose-trays.md) | `A-0026 iTM / ASM TOOLING SOW1 / BOWERICK` | [a360.co/3STEXnn](https://a360.co/3STEXnn) |
+| [Tee Trays](../designs/a-0026-itm/asm-tooling-sow1/bowerick/tee-trays.md) | `A-0026 iTM / ASM TOOLING SOW1 / BOWERICK` | [a360.co/4r40F4w](https://a360.co/4r40F4w) |
+| [A8002783-01](../designs/a-0026-itm/asm-tooling-sow1/colin/a8002783-01.md) | `A-0026 iTM / ASM TOOLING SOW1 / COLIN` | [a360.co/4hm7VFD](https://a360.co/4hm7VFD) |
+| [Colin Assy](../designs/a-0026-itm/asm-tooling-sow1/colin/colin-assy.md) | `A-0026 iTM / ASM TOOLING SOW1 / COLIN` | [a360.co/46SbJIJ](https://a360.co/46SbJIJ) |
+| [DESIATO](../designs/a-0026-itm/asm-tooling-sow1/desiato/desiato.md) | `A-0026 iTM / ASM TOOLING SOW1 / DESIATO` | [a360.co/4j53yA2](https://a360.co/4j53yA2) |
+| [DESIATO 2](../designs/a-0026-itm/asm-tooling-sow1/desiato/desiato-2.md) | `A-0026 iTM / ASM TOOLING SOW1 / DESIATO` | [a360.co/46fNZ14](https://a360.co/46fNZ14) |
+| [TUBE BRIDGE ASSEMBLY](../designs/a-0026-itm/asm-tooling-sow1/desiato/tube-bridge-assembly.md) | `A-0026 iTM / ASM TOOLING SOW1 / DESIATO` | [a360.co/4A8iAuX](https://a360.co/4A8iAuX) |
+| [Tube Clamp](../designs/a-0026-itm/asm-tooling-sow1/desiato/tube-clamp.md) | `A-0026 iTM / ASM TOOLING SOW1 / DESIATO` | [a360.co/4dbs3Ia](https://a360.co/4dbs3Ia) |
+| [FEN OLD](../designs/a-0026-itm/asm-tooling-sow1/fenchurch/fen-old.md) | `A-0026 iTM / ASM TOOLING SOW1 / FENCHURCH` | [a360.co/4gKf5U4](https://a360.co/4gKf5U4) |
+| [FENCHURCH](../designs/a-0026-itm/asm-tooling-sow1/fenchurch/fenchurch.md) | `A-0026 iTM / ASM TOOLING SOW1 / FENCHURCH` | [a360.co/3VpufWm](https://a360.co/3VpufWm) |
+| [JET No.0 Press](../designs/a-0026-itm/asm-tooling-sow1/fenchurch/jet-no-0-press.md) | `A-0026 iTM / ASM TOOLING SOW1 / FENCHURCH` | [a360.co/4cBR4MC](https://a360.co/4cBR4MC) |
+| [PRESS DIES](../designs/a-0026-itm/asm-tooling-sow1/fenchurch/press-dies.md) | `A-0026 iTM / ASM TOOLING SOW1 / FENCHURCH` | [a360.co/3UDVaxA](https://a360.co/3UDVaxA) |
+| [MARVIN OVERHAND 3](../designs/a-0026-itm/asm-tooling-sow1/marvin/marvin-overhand-3.md) | `A-0026 iTM / ASM TOOLING SOW1 / MARVIN` | [a360.co/4r9KEu6](https://a360.co/4r9KEu6) |
+| [PREFECT](../designs/a-0026-itm/asm-tooling-sow1/prefect/prefect.md) | `A-0026 iTM / ASM TOOLING SOW1 / PREFECT` | [a360.co/4r6yWjV](https://a360.co/4r6yWjV) |
+| [SLARTIBARTFARST](../designs/a-0026-itm/asm-tooling-sow1/slartibartfarst/slartibartfarst.md) | `A-0026 iTM / ASM TOOLING SOW1 / SLARTIBARTFARST` | [a360.co/4gQ0c2v](https://a360.co/4gQ0c2v) |
+| [Zaph Mount](../designs/a-0026-itm/asm-tooling-sow1/zaphod/zaph-mount.md) | `A-0026 iTM / ASM TOOLING SOW1 / ZAPHOD` | [a360.co/4yvBESe](https://a360.co/4yvBESe) |
+| [Zaphod Press Heads - Head 01](../designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-01.md) | `A-0026 iTM / ASM TOOLING SOW1 / ZAPHOD` | [a360.co/4gKitOM](https://a360.co/4gKitOM) |
+| [Zaphod Press Heads - Head 02](../designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-02.md) | `A-0026 iTM / ASM TOOLING SOW1 / ZAPHOD` | [a360.co/4xUSVoe](https://a360.co/4xUSVoe) |
+| [Zaphod Stack](../designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-stack.md) | `A-0026 iTM / ASM TOOLING SOW1 / ZAPHOD` | [a360.co/3Vpxr4i](https://a360.co/3Vpxr4i) |
+| [Dyno Assy](../designs/a-0026-itm/enigma/dyno-assy.md) | `A-0026 iTM / ENIGMA` | [a360.co/3US2V2U](https://a360.co/3US2V2U) |
+| [ENIGMA IV](../designs/a-0026-itm/enigma/enigma-iv.md) | `A-0026 iTM / ENIGMA` | [a360.co/4xhLupR](https://a360.co/4xhLupR) |
+| [TT03_10Z_20Z_50Z](../designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md) | `A-0026 iTM / MTT03` | [a360.co/4r49ATz](https://a360.co/4r49ATz) |
 
 ---
 
-*153 designs indexed.*
+*182 designs indexed.*

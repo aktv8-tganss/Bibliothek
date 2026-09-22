@@ -218,6 +218,48 @@ nav:
         - Mounting Rail 3: designs/a-0026-itm/aeetes/mounting-rail-3.md
         - PSI Filter Fitting: designs/a-0026-itm/aeetes/psi-filter-fitting.md
         - Panel: designs/a-0026-itm/aeetes/panel.md
+        - Valve Bank: designs/a-0026-itm/aeetes/valve-bank.md
+        - Wiring Plate: designs/a-0026-itm/aeetes/wiring-plate.md
+      - Alford:
+        - Million Mile Power Supply Mount: designs/a-0026-itm/alford/million-mile-power-supply-mount.md
+      - ASM TOOLING:
+        - Inf Only Hose Cell: designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md
+        - Stator Plug Cell: designs/a-0026-itm/asm-tooling/stator-plug-cell.md
+      - ASM TOOLING SOW1:
+        - Hose Assembly Cell: designs/a-0026-itm/asm-tooling-sow1/hose-assembly-cell.md
+        - Tee Assembly Cell: designs/a-0026-itm/asm-tooling-sow1/tee-assembly-cell.md
+        - BOWERICK:
+          - Hose Trays: designs/a-0026-itm/asm-tooling-sow1/bowerick/hose-trays.md
+          - Tee Trays: designs/a-0026-itm/asm-tooling-sow1/bowerick/tee-trays.md
+        - COLIN:
+          - A8002783-01: designs/a-0026-itm/asm-tooling-sow1/colin/a8002783-01.md
+          - Colin Assy: designs/a-0026-itm/asm-tooling-sow1/colin/colin-assy.md
+        - DESIATO:
+          - DESIATO: designs/a-0026-itm/asm-tooling-sow1/desiato/desiato.md
+          - DESIATO 2: designs/a-0026-itm/asm-tooling-sow1/desiato/desiato-2.md
+          - TUBE BRIDGE ASSEMBLY: designs/a-0026-itm/asm-tooling-sow1/desiato/tube-bridge-assembly.md
+          - Tube Clamp: designs/a-0026-itm/asm-tooling-sow1/desiato/tube-clamp.md
+        - FENCHURCH:
+          - FEN OLD: designs/a-0026-itm/asm-tooling-sow1/fenchurch/fen-old.md
+          - FENCHURCH: designs/a-0026-itm/asm-tooling-sow1/fenchurch/fenchurch.md
+          - JET No.0 Press: designs/a-0026-itm/asm-tooling-sow1/fenchurch/jet-no-0-press.md
+          - PRESS DIES: designs/a-0026-itm/asm-tooling-sow1/fenchurch/press-dies.md
+        - MARVIN:
+          - MARVIN OVERHAND 3: designs/a-0026-itm/asm-tooling-sow1/marvin/marvin-overhand-3.md
+        - PREFECT:
+          - PREFECT: designs/a-0026-itm/asm-tooling-sow1/prefect/prefect.md
+        - SLARTIBARTFARST:
+          - SLARTIBARTFARST: designs/a-0026-itm/asm-tooling-sow1/slartibartfarst/slartibartfarst.md
+        - ZAPHOD:
+          - Zaph Mount: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaph-mount.md
+          - Zaphod Press Heads - Head 01: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-01.md
+          - Zaphod Press Heads - Head 02: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-02.md
+          - Zaphod Stack: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-stack.md
+      - ENIGMA:
+        - Dyno Assy: designs/a-0026-itm/enigma/dyno-assy.md
+        - ENIGMA IV: designs/a-0026-itm/enigma/enigma-iv.md
+      - MTT03:
+        - TT03_10Z_20Z_50Z: designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md
