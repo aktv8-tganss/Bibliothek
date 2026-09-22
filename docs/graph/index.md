@@ -32,32 +32,32 @@ Navigable force-directed graph of assembly→part relationships from Fusion Desi
     <div id="settings-panel">
       <div class="slider-row">
         <span class="slider-label">Center</span>
-        <input type="range" id="slider-center" class="slider-input" min="0" max="0.2" step="0.01" value="0.05">
-        <span class="slider-value" id="slider-center-value">0.05</span>
+        <input type="range" id="slider-center" class="slider-input" min="0.01" max="0.3" step="0.01" value="0.1">
+        <span class="slider-value" id="slider-center-value">0.1</span>
       </div>
       <div class="slider-row">
         <span class="slider-label">Repel</span>
-        <input type="range" id="slider-repel" class="slider-input" min="-800" max="-50" step="10" value="-300">
-        <span class="slider-value" id="slider-repel-value">-300</span>
+        <input type="range" id="slider-repel" class="slider-input" min="-500" max="-50" step="10" value="-200">
+        <span class="slider-value" id="slider-repel-value">-200</span>
       </div>
       <div class="slider-row">
         <span class="slider-label">Link</span>
-        <input type="range" id="slider-link" class="slider-input" min="0" max="1" step="0.05" value="0.3">
-        <span class="slider-value" id="slider-link-value">0.3</span>
+        <input type="range" id="slider-link" class="slider-input" min="0.1" max="1" step="0.05" value="0.4">
+        <span class="slider-value" id="slider-link-value">0.4</span>
       </div>
       <div class="slider-row">
         <span class="slider-label">Distance</span>
-        <input type="range" id="slider-distance" class="slider-input" min="20" max="200" step="5" value="60">
-        <span class="slider-value" id="slider-distance-value">60</span>
+        <input type="range" id="slider-distance" class="slider-input" min="20" max="150" step="5" value="50">
+        <span class="slider-value" id="slider-distance-value">50</span>
       </div>
       <div class="slider-row">
         <span class="slider-label">Collide</span>
-        <input type="range" id="slider-collide" class="slider-input" min="0" max="50" step="2" value="20">
-        <span class="slider-value" id="slider-collide-value">20</span>
+        <input type="range" id="slider-collide" class="slider-input" min="0" max="40" step="2" value="15">
+        <span class="slider-value" id="slider-collide-value">15</span>
       </div>
       <div class="slider-row">
         <span class="slider-label">Damping</span>
-        <input type="range" id="slider-decay" class="slider-input" min="0.1" max="0.8" step="0.05" value="0.4">
+        <input type="range" id="slider-decay" class="slider-input" min="0.2" max="0.7" step="0.05" value="0.4">
         <span class="slider-value" id="slider-decay-value">0.4</span>
       </div>
       <button class="control-btn" id="btn-reset-settings">Reset Forces</button>

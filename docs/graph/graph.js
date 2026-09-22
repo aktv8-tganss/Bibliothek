@@ -6,15 +6,18 @@
   const STORAGE_KEY = 'bibliothek-graph-settings';
 
   const DEFAULT_SETTINGS = {
-    centerForce: 0.05,
-    repelForce: -300,
-    linkForce: 0.3,
-    linkDistance: 60,
-    collideRadius: 20,
+    centerForce: 0.1,
+    repelForce: -200,
+    linkForce: 0.4,
+    linkDistance: 50,
+    collideRadius: 15,
     velocityDecay: 0.4,
     showOrphans: false,
     projectFilter: ''
   };
+
+  let canvasWidth = 800;
+  let canvasHeight = 600;
 
   let settings = { ...DEFAULT_SETTINGS };
   let simulation = null;
@@ -141,17 +144,59 @@
     return '#b05010';
   }
 
+  function forceBoundary(margin, strength) {
+    let nodes;
+    
+    function force(alpha) {
+      const effectiveStrength = strength * alpha;
+      const minX = margin;
+      const maxX = canvasWidth - margin;
+      const minY = margin;
+      const maxY = canvasHeight - margin;
+      
+      for (const node of nodes) {
+        if (node.fx !== null && node.fx !== undefined) continue;
+        
+        if (node.x < minX) {
+          node.vx += (minX - node.x) * effectiveStrength;
+        } else if (node.x > maxX) {
+          node.vx += (maxX - node.x) * effectiveStrength;
+        }
+        
+        if (node.y < minY) {
+          node.vy += (minY - node.y) * effectiveStrength;
+        } else if (node.y > maxY) {
+          node.vy += (maxY - node.y) * effectiveStrength;
+        }
+      }
+    }
+    
+    force.initialize = function(_nodes) {
+      nodes = _nodes;
+    };
+    
+    force.margin = function(_) {
+      return arguments.length ? (margin = _, force) : margin;
+    };
+    
+    force.strength = function(_) {
+      return arguments.length ? (strength = _, force) : strength;
+    };
+    
+    return force;
+  }
+
   function initGraph(data) {
     const container = document.getElementById('cy');
-    const width = container.clientWidth;
-    const height = container.clientHeight;
+    canvasWidth = container.clientWidth;
+    canvasHeight = container.clientHeight;
 
     nodes = data.nodes.map(n => ({
       ...n,
       radius: computeNodeRadius(n),
       isAssembly: isAssemblyNode(n),
-      x: width / 2 + (Math.random() - 0.5) * 200,
-      y: height / 2 + (Math.random() - 0.5) * 200
+      x: canvasWidth / 2 + (Math.random() - 0.5) * 200,
+      y: canvasHeight / 2 + (Math.random() - 0.5) * 200
     }));
 
     const nodeById = new Map(nodes.map(n => [n.id, n]));
@@ -242,14 +287,17 @@
         .distance(settings.linkDistance))
       .force('charge', d3.forceManyBody()
         .strength(settings.repelForce))
-      .force('center', d3.forceCenter(width / 2, height / 2)
+      .force('centerX', d3.forceX(canvasWidth / 2)
+        .strength(settings.centerForce))
+      .force('centerY', d3.forceY(canvasHeight / 2)
         .strength(settings.centerForce))
       .force('collide', d3.forceCollide()
         .radius(d => d.radius + settings.collideRadius)
         .strength(0.7))
+      .force('boundary', forceBoundary(50, 0.3))
       .velocityDecay(settings.velocityDecay)
-      .alphaTarget(0.02)
-      .alphaDecay(0.01)
+      .alphaTarget(0.005)
+      .alphaDecay(0.005)
       .on('tick', ticked);
 
     applyFilters();
@@ -285,7 +333,7 @@
   }
 
   function dragEnded(event, d) {
-    if (!event.active) simulation.alphaTarget(0.02);
+    if (!event.active) simulation.alphaTarget(0.005);
     d.fx = null;
     d.fy = null;
   }
@@ -339,11 +387,12 @@
 
   function handleResize() {
     const container = document.getElementById('cy');
-    const width = container.clientWidth;
-    const height = container.clientHeight;
+    canvasWidth = container.clientWidth;
+    canvasHeight = container.clientHeight;
     
-    simulation.force('center', d3.forceCenter(width / 2, height / 2)
-      .strength(settings.centerForce));
+    simulation.force('centerX', d3.forceX(canvasWidth / 2).strength(settings.centerForce));
+    simulation.force('centerY', d3.forceY(canvasHeight / 2).strength(settings.centerForce));
+    simulation.force('boundary', forceBoundary(50, 0.3));
     simulation.alpha(0.3).restart();
   }
 
@@ -419,7 +468,8 @@
     }
 
     bindSlider('slider-center', 'centerForce', val => {
-      simulation.force('center').strength(val);
+      simulation.force('centerX').strength(val);
+      simulation.force('centerY').strength(val);
       simulation.alpha(0.3).restart();
     });
 
@@ -494,14 +544,15 @@
     document.getElementById('slider-decay-value').textContent = settings.velocityDecay;
 
     const container = document.getElementById('cy');
-    const width = container.clientWidth;
-    const height = container.clientHeight;
+    canvasWidth = container.clientWidth;
+    canvasHeight = container.clientHeight;
 
-    simulation
-      .force('link').strength(settings.linkForce).distance(settings.linkDistance);
+    simulation.force('link').strength(settings.linkForce).distance(settings.linkDistance);
     simulation.force('charge').strength(settings.repelForce);
-    simulation.force('center', d3.forceCenter(width / 2, height / 2).strength(settings.centerForce));
+    simulation.force('centerX', d3.forceX(canvasWidth / 2).strength(settings.centerForce));
+    simulation.force('centerY', d3.forceY(canvasHeight / 2).strength(settings.centerForce));
     simulation.force('collide').radius(d => d.radius + settings.collideRadius);
+    simulation.force('boundary', forceBoundary(50, 0.3));
     simulation.velocityDecay(settings.velocityDecay);
     simulation.alpha(0.5).restart();
   }
