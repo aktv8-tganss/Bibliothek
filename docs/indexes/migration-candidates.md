@@ -72,6 +72,22 @@ A design is flagged when:
 | [Shoulder Screw](../designs/a-0026-itm/acropora/shoulder-screw.md) | `A-0026 iTM / ACROPORA` | OTS hardware outside `00 - Parts` |
 | [Acropora](../designs/a-0026-itm/acropora/acropora.md) | `A-0026 iTM / ACROPORA` | Assembly contains OTS fasteners outside `00 - Parts` |
 | [Motor Adapter PSI](../designs/a-0026-itm/aeetes/motor-adapter-psi.md) | `A-0026 iTM / AEETES` | OTS fastener + PSI Tee outside `00 - Parts` |
+| [1](../designs/a-0026-itm/aeetes/ots-parts/1.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS part outside `00 - Parts` |
+| [1/2 Magnet](../designs/a-0026-itm/aeetes/ots-parts/1-2-magnet.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS magnet outside `00 - Parts` |
+| [1/8 Branch Tee](../designs/a-0026-itm/aeetes/ots-parts/1-8-branch-tee.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [1/8 Bulkhead Fitting](../designs/a-0026-itm/aeetes/ots-parts/1-8-bulkhead-fitting.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [1/8 Muffler](../designs/a-0026-itm/aeetes/ots-parts/1-8-muffler.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [1/8 Nipple](../designs/a-0026-itm/aeetes/ots-parts/1-8-nipple.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [1/8 Union Tee](../designs/a-0026-itm/aeetes/ots-parts/1-8-union-tee.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [12V10A](../designs/a-0026-itm/aeetes/ots-parts/12v10a.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS power supply outside `00 - Parts` |
+| [3/16 Machine Key](../designs/a-0026-itm/aeetes/ots-parts/3-16-machine-key.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS hardware outside `00 - Parts` |
+| [3way Solenoid (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/3way-solenoid.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS solenoid outside `00 - Parts` |
+| [400VA UPS](../designs/a-0026-itm/aeetes/ots-parts/400va-ups.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS UPS outside `00 - Parts` |
+| [54100-17X-02-A](../designs/a-0026-itm/aeetes/ots-parts/54100-17x-02-a.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS part outside `00 - Parts` |
+| [5V14A](../designs/a-0026-itm/aeetes/ots-parts/5v14a.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS power supply outside `00 - Parts` |
+| [5V3A](../designs/a-0026-itm/aeetes/ots-parts/5v3a.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS power supply outside `00 - Parts` |
+| [67CP3220](../designs/a-0026-itm/aeetes/ots-parts/67cp3220.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS part outside `00 - Parts` |
+| [ANMBEST 4-MOSFET](../designs/a-0026-itm/aeetes/ots-parts/anmbest-4-mosfet.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS MOSFET board outside `00 - Parts` |
 
 ---
 
@@ -326,6 +342,27 @@ The following items appear in Uses fields and appear to be off-the-shelf commodi
 !!! info "Batch 011 Fastener Migration Interest"
     Acropora and Motor Adapter PSI contain OTS fasteners (hex socket cap screws) and Tee components outside `00 - Parts` — flagged for potential migration.
 
+### Assessment Notes (Batch 013)
+
+Batch 013 contains 16 designs under `A-0026 iTM / AEETES / OTS Parts`. All 16 are OTS parts outside `00 - Parts` and are **migration candidates**:
+
+- **1** — OTS part in project-specific OTS Parts folder. **Migration candidate.**
+- **1/2 Magnet** — OTS magnet in project-specific OTS Parts folder. **Migration candidate.**
+- **1/8 Branch Tee** — OTS pneumatic fitting (Used In: AEETES Asm). **Migration candidate.**
+- **1/8 Bulkhead Fitting** — OTS pneumatic fitting (Used In: AEETES Asm). **Migration candidate.**
+- **1/8 Muffler** — OTS pneumatic fitting (Used In: AEETES Asm). **Migration candidate.**
+- **1/8 Nipple** — OTS pneumatic fitting (Used In: AEETES Asm). **Migration candidate.**
+- **1/8 Union Tee** — OTS pneumatic fitting in project-specific folder. **Migration candidate.**
+- **12V10A** — OTS power supply (12V 10A) in project-specific folder. **Migration candidate.**
+- **3/16 Machine Key** — OTS hardware in project-specific folder. **Migration candidate.**
+- **3way Solenoid (AEETES)** — OTS solenoid valve (distinct from A-0010 DUT Box 3way Solenoid). **Migration candidate.**
+- **400VA UPS** — OTS UPS in project-specific folder. **Migration candidate.**
+- **54100-17X-02-A** — OTS part (also under TAZ 4 tree). **Migration candidate.**
+- **5V14A** — OTS power supply (5V 14A) in project-specific folder. **Migration candidate.**
+- **5V3A** — OTS power supply (5V 3A) in project-specific folder. **Migration candidate.**
+- **67CP3220** — OTS part in project-specific folder. **Migration candidate.**
+- **ANMBEST 4-MOSFET** — OTS MOSFET board (related to 00 - Parts Amplifier Board). **Migration candidate.**
+
 ---
 
-*59 migration candidates identified (+2 in batch 011).*
+*75 migration candidates identified (+16 in batch 013).*

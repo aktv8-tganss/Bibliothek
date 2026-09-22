@@ -186,7 +186,23 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Dyno Assy](../designs/a-0026-itm/enigma/dyno-assy.md) | `A-0026 iTM / ENIGMA` | [a360.co/3US2V2U](https://a360.co/3US2V2U) |
 | [ENIGMA IV](../designs/a-0026-itm/enigma/enigma-iv.md) | `A-0026 iTM / ENIGMA` | [a360.co/4xhLupR](https://a360.co/4xhLupR) |
 | [TT03_10Z_20Z_50Z](../designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md) | `A-0026 iTM / MTT03` | [a360.co/4r49ATz](https://a360.co/4r49ATz) |
+| [1](../designs/a-0026-itm/aeetes/ots-parts/1.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4ypkBBi](https://a360.co/4ypkBBi) |
+| [1/2 Magnet](../designs/a-0026-itm/aeetes/ots-parts/1-2-magnet.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4gP2jDL](https://a360.co/4gP2jDL) |
+| [1/8 Branch Tee](../designs/a-0026-itm/aeetes/ots-parts/1-8-branch-tee.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/3UOaCXT](https://a360.co/3UOaCXT) |
+| [1/8 Bulkhead Fitting](../designs/a-0026-itm/aeetes/ots-parts/1-8-bulkhead-fitting.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4hlbDPU](https://a360.co/4hlbDPU) |
+| [1/8 Muffler](../designs/a-0026-itm/aeetes/ots-parts/1-8-muffler.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4y27d6k](https://a360.co/4y27d6k) |
+| [1/8 Nipple](../designs/a-0026-itm/aeetes/ots-parts/1-8-nipple.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4r5n8ya](https://a360.co/4r5n8ya) |
+| [1/8 Union Tee](../designs/a-0026-itm/aeetes/ots-parts/1-8-union-tee.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/3SF9epZ](https://a360.co/3SF9epZ) |
+| [12V10A](../designs/a-0026-itm/aeetes/ots-parts/12v10a.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4hokrVa](https://a360.co/4hokrVa) |
+| [3/16 Machine Key](../designs/a-0026-itm/aeetes/ots-parts/3-16-machine-key.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4yyofZQ](https://a360.co/4yyofZQ) |
+| [3way Solenoid (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/3way-solenoid.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4rpqv3f](https://a360.co/4rpqv3f) |
+| [400VA UPS](../designs/a-0026-itm/aeetes/ots-parts/400va-ups.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4h0Brzn](https://a360.co/4h0Brzn) |
+| [54100-17X-02-A](../designs/a-0026-itm/aeetes/ots-parts/54100-17x-02-a.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4xw7Rs4](https://a360.co/4xw7Rs4) |
+| [5V14A](../designs/a-0026-itm/aeetes/ots-parts/5v14a.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4iq4zTg](https://a360.co/4iq4zTg) |
+| [5V3A](../designs/a-0026-itm/aeetes/ots-parts/5v3a.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/46SIMwl](https://a360.co/46SIMwl) |
+| [67CP3220](../designs/a-0026-itm/aeetes/ots-parts/67cp3220.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4iDNMfz](https://a360.co/4iDNMfz) |
+| [ANMBEST 4-MOSFET](../designs/a-0026-itm/aeetes/ots-parts/anmbest-4-mosfet.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/46RcyS7](https://a360.co/46RcyS7) |
 
 ---
 
-*182 designs indexed.*
+*198 designs indexed.*

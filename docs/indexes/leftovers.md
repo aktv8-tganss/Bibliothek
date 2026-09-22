@@ -248,38 +248,103 @@ All 29 designs from batch 012 were successfully indexed:
 28. ✓ ENIGMA IV
 29. ✓ TT03_10Z_20Z_50Z
 
+### Batch 013
+
+All 16 designs from batch 013 were successfully indexed:
+
+1. ✓ 1
+2. ✓ 1/2 Magnet
+3. ✓ 1/8 Branch Tee
+4. ✓ 1/8 Bulkhead Fitting
+5. ✓ 1/8 Muffler
+6. ✓ 1/8 Nipple
+7. ✓ 1/8 Union Tee
+8. ✓ 12V10A
+9. ✓ 3/16 Machine Key
+10. ✓ 3way Solenoid (AEETES)
+11. ✓ 400VA UPS
+12. ✓ 54100-17X-02-A
+13. ✓ 5V14A
+14. ✓ 5V3A
+15. ✓ 67CP3220
+16. ✓ ANMBEST 4-MOSFET
+
 ---
 
-## A-0026 iTM Remaining (After Batch 012)
+## A-0026 iTM Remaining (After Batch 013)
 
-Approximately **40 designs** remain unharvested in A-0026 iTM. Key areas include:
+Approximately **93 designs** remain unharvested in A-0026 iTM. Key areas include:
 
-### Root
-- 880251 (duplicate row if distinct)
+### AEETES / OTS Parts (still unharvested)
+- ArduinoMega_STEP_AP203
+- Cable Duct
+- Compressor Motor
+- Compressor Screw
+- Flow Control Exhaust
+- Flow Valve (Out)
+- Frame Screw
+- H Cable Duct
+- KV2H03-34S
+- KV2H07-34S
+- KV2L07-34S
+- KV2T07-34S
+- Mini Regulator
+- Moonfish Base 2
+- Mount Screw
+- New Valve
+- Push Nut
+- Raspberry Pi
+- Rubber Washer
+- Snap-in Nut
+- Touchscreen
+- USB-TC
+- Untitled
+- V Cable Duct
 
-### AEETES
-- OTS Parts/ (folder contents — partial inventory seen: 1, 1/2 Magnet, 1/8 Branch Tee, etc.)
+### Named leftovers (other folders)
+- Horseshoe Cell
+- Hose Cutter
+- Dropper
+- Support Press
+- Seal Press
+- 605 Press
+- HOSE FIXTURE
+- LUBER
+- PLT HEAD
+- Torque Jig
+- ORTHRUS (+ OTS PARTS/)
+- Wheel End ASM
+- Tube Bridge
+- PSI Tee
+- Tee
+- Tee Body Solid
+- Tee Cap
+- Hose (PARTS/)
+- IT03_12_50_100
+- KV2L07-35S
+- KQ2H03-34AS
+- 655-1203-104F
+- Fieldmann Ratchet Handle
+- 4 inch Drill Press Vice
+- STORAGE TOTE-14GAL
+- 2x8
+- 2x6
+- 688 Press
+- 7x72
+- Zange_kpl
 
 ### ASM TOOLING
 - OTS Parts/
-- Horseshoe Cell (referenced)
-- Dropper, LUBER, STORAGE TOTE-14GAL, Fieldmann Ratchet Handle, 4 inch Drill Press Vice (referenced)
 
 ### ASM TOOLING SOW1
-- COMPS/ (folder)
-- Referenced but unharvested: Horseshoe Cell, Hose Cutter, Dropper, Support Press, Seal Press, 605 Press, HOSE FIXTURE, 2x8, 2x6, 688 Press, LUBER, PLT HEAD, 7x72, Zange_kpl, KV2L07-35S
+- COMPS/
 
 ### Jake - Print Copys
 - Piston Attachments and Parts/
-- (880280 skipped as drawing)
 
 ### MTT03
 - IT03_12_50_100
 - Torque Jig
-
-### ORTHRUS
-- ORTHRUS
-- OTS PARTS/
 
 ### PARTS
 - Hose
@@ -307,7 +372,6 @@ Approximately **40 designs** remain unharvested in A-0026 iTM. Key areas include
 - Taz 2.0
 
 ### TAZ 4
-- 54100-17X-02-A
 - Arduino_Uno
 - Arduino_Uno_w/Shield
 - Motor Controller
@@ -318,5 +382,6 @@ Approximately **40 designs** remain unharvested in A-0026 iTM. Key areas include
 - Thru Screw Terminal
 - USB Adapter
 - Whirlpool Motor
+- (54100-17X-02-A harvested under AEETES/OTS Parts this batch — confirm if TAZ 4 copy distinct)
 
-*This summary was generated from the remaining-after-012 harvest manifest.*
+*This summary was generated from the remaining-after-013 harvest manifest.*
