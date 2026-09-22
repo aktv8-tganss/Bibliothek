@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (133 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (30 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (57 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (153 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (32 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (59 total)
 
 ## Design Tree
 
@@ -35,9 +35,9 @@ Browse designs by project folder:
         - [Comps](designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) — IO Box components (32 designs, 28 migration candidates)
         - [Josh CAD](designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) — Josh CAD designs (3 designs, 3 migration candidates)
     - [Flash Runner](designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) — Flash Runner assembly designs (4 designs)
-- **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (15 designs, first pass)
-    - [ACROPORA](designs/a-0026-itm/acropora/bur.md) — ACROPORA subfolder (3 designs, 2 migration candidates)
-    - [AEETES](designs/a-0026-itm/aeetes/aeetes-asm.md) — AEETES subfolder (1 design)
+- **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (35 designs)
+    - [ACROPORA](designs/a-0026-itm/acropora/acropora.md) — ACROPORA subfolder (4 designs, 3 migration candidates)
+    - [AEETES](designs/a-0026-itm/aeetes/aeetes-asm.md) — AEETES subfolder (20 designs, 1 migration candidate)
 
 ## Batch Summary
 
@@ -53,11 +53,12 @@ Browse designs by project folder:
 | 008 | 20 | FFT (Obs) / IO Box (5), IO Box Comps (12), Flash Runner (3) — 8 OTS migration candidates |
 | 009 | 24 | FFT (Obs) / IO Box (1), IO Box Comps (20), Josh CAD (3) — all 24 migration candidates |
 | 010 | 15 | A-0026 iTM root (11), ACROPORA (3), AEETES (1) — 3 OTS migration candidates |
+| 011 | 20 | A-0026 iTM: ACROPORA (1), AEETES (19) — 2 OTS migration candidates |
 
-**Total designs indexed: 133**
+**Total designs indexed: 153**
 
 !!! info "A-0026 iTM Remaining"
-    Approximately **79 designs** remain in A-0026 iTM after batch 010. See [leftovers index](indexes/leftovers.md) for details.
+    Approximately **57 designs** remain in A-0026 iTM after batch 011. See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 
