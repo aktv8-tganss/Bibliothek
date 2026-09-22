@@ -431,6 +431,23 @@ nav:
         - Thru Screw Terminal: designs/a-0026-itm/taz-4/thru-screw-terminal.md
         - USB Adapter: designs/a-0026-itm/taz-4/usb-adapter.md
         - Whirlpool Motor: designs/a-0026-itm/taz-4/whirlpool-motor.md
+    - A-0047 TPMS:
+      - 002390 (1): designs/a-0047-tpms/002390-1.md
+      - 002582 AA TPMS Thru Conmet (2): designs/a-0047-tpms/002582-aa-tpms-thru-conmet-2.md
+      - 003281_x4: designs/a-0047-tpms/003281-x4.md
+      - 003501 Thru assembly: designs/a-0047-tpms/003501-thru-assembly.md
+      - 003501 Thru Sensor v2: designs/a-0047-tpms/003501-thru-sensor-v2.md
+      - Battery Adapter: designs/a-0047-tpms/battery-adapter.md
+      - Door Mount: designs/a-0047-tpms/door-mount.md
+      - Finger Stud Legacy: designs/a-0047-tpms/finger-stud-legacy.md
+      - TPMS Sanding Chuck: designs/a-0047-tpms/tpms-sanding-chuck.md
+      - Test Rig 3: designs/a-0047-tpms/test-rig-3.md
+      - OTS Parts:
+        - Ball Valve: designs/a-0047-tpms/ots-parts/ball-valve.md
+        - Large Schrader: designs/a-0047-tpms/ots-parts/large-schrader.md
+        - Manifold 5 Block: designs/a-0047-tpms/ots-parts/manifold-5-block.md
+        - Small Gauge: designs/a-0047-tpms/ots-parts/small-gauge.md
+        - Small Valve: designs/a-0047-tpms/ots-parts/small-valve.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md

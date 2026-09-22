@@ -446,7 +446,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [box lock subassy v3](../designs/a-9999-lab/team-prints/box-lock-subassy-v3.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3SYcH30](https://a360.co/3SYcH30) |
 | [SPPV Plunger V3](../designs/a-9999-lab/team-prints/20240917/sppv-plunger-v3.md) | `A-9999 Lab / TEAM PRINTS / 20240917` | [a360.co/3TzgwvH](https://a360.co/3TzgwvH) |
 | [check barb pill](../designs/a-9999-lab/team-prints/20240917/check-barb-pill.md) | `A-9999 Lab / TEAM PRINTS / 20240917` | [a360.co/46pnbvi](https://a360.co/46pnbvi) |
+| [002390 (1)](../designs/a-0047-tpms/002390-1.md) | `A-0047 TPMS` | [a360.co/4io8u2N](https://a360.co/4io8u2N) |
+| [002582 AA TPMS Thru Conmet (2)](../designs/a-0047-tpms/002582-aa-tpms-thru-conmet-2.md) | `A-0047 TPMS` | [a360.co/3SXAiRm](https://a360.co/3SXAiRm) |
+| [003281_x4](../designs/a-0047-tpms/003281-x4.md) | `A-0047 TPMS` | [a360.co/4A1O6Lr](https://a360.co/4A1O6Lr) |
+| [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md) | `A-0047 TPMS` | [a360.co/4io7hIN](https://a360.co/4io7hIN) |
+| [003501 Thru Sensor v2](../designs/a-0047-tpms/003501-thru-sensor-v2.md) | `A-0047 TPMS` | [a360.co/4h0A3ge](https://a360.co/4h0A3ge) |
+| [Battery Adapter](../designs/a-0047-tpms/battery-adapter.md) | `A-0047 TPMS` | [a360.co/4gVx7kX](https://a360.co/4gVx7kX) |
+| [Door Mount](../designs/a-0047-tpms/door-mount.md) | `A-0047 TPMS` | [a360.co/4cyhfnm](https://a360.co/4cyhfnm) |
+| [Finger Stud Legacy](../designs/a-0047-tpms/finger-stud-legacy.md) | `A-0047 TPMS` | [a360.co/4yzp0C0](https://a360.co/4yzp0C0) |
+| [TPMS Sanding Chuck](../designs/a-0047-tpms/tpms-sanding-chuck.md) | `A-0047 TPMS` | [a360.co/4xRXK1E](https://a360.co/4xRXK1E) |
+| [Test Rig 3](../designs/a-0047-tpms/test-rig-3.md) | `A-0047 TPMS` | [a360.co/3ULd3dQ](https://a360.co/3ULd3dQ) |
+| [Ball Valve](../designs/a-0047-tpms/ots-parts/ball-valve.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4ArT2th](https://a360.co/4ArT2th) |
+| [Large Schrader](../designs/a-0047-tpms/ots-parts/large-schrader.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4gOFNLh](https://a360.co/4gOFNLh) |
+| [Manifold 5 Block](../designs/a-0047-tpms/ots-parts/manifold-5-block.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4dpdlNR](https://a360.co/4dpdlNR) |
+| [Small Gauge](../designs/a-0047-tpms/ots-parts/small-gauge.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3T5N3cq](https://a360.co/3T5N3cq) |
+| [Small Valve](../designs/a-0047-tpms/ots-parts/small-valve.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4gNPuto](https://a360.co/4gNPuto) |
 
 ---
 
-*442 designs indexed.*
+*457 designs indexed.*

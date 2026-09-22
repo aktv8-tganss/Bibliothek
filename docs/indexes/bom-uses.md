@@ -81,6 +81,9 @@ Assemblies with non-empty component references (Uses).
 | [CAN Channel Setup](../designs/a-9999-lab/gegenees/can-channel-setup.md) | 1 | [a360.co/4AaUJeh](https://a360.co/4AaUJeh) |
 | [USB-2637 (Lab PARTS)](../designs/a-9999-lab/parts/usb-2637.md) | 1 | [a360.co/4rqQLtT](https://a360.co/4rqQLtT) |
 | [Wheel End Test Stand Assembly - Copy](../designs/a-9999-lab/wheel-end-test-stand-assembly-copy.md) | 1 | [a360.co/3Vncbw2](https://a360.co/3Vncbw2) |
+| [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md) | 1 | [a360.co/4io7hIN](https://a360.co/4io7hIN) |
+| [TPMS Sanding Chuck](../designs/a-0047-tpms/tpms-sanding-chuck.md) | 1 | [a360.co/4xRXK1E](https://a360.co/4xRXK1E) |
+| [Test Rig 3](../designs/a-0047-tpms/test-rig-3.md) | 10 | [a360.co/3ULd3dQ](https://a360.co/3ULd3dQ) |
 
 ---
 
@@ -911,4 +914,37 @@ The Wheel End Test Stand Assembly - Copy design references the following 1 compo
 
 ---
 
-*77 assemblies with BOM data indexed.*
+## 003501 Thru assembly — Bill of Materials
+
+The 003501 Thru assembly design references the following 1 component:
+
+1. Stickers
+
+---
+
+## TPMS Sanding Chuck — Bill of Materials
+
+The TPMS Sanding Chuck design references the following 1 component:
+
+1. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+
+---
+
+## Test Rig 3 — Bill of Materials
+
+The Test Rig 3 assembly references the following 10 components:
+
+1. [Small Valve](../designs/a-0047-tpms/ots-parts/small-valve.md)
+2. [Ball Valve](../designs/a-0047-tpms/ots-parts/ball-valve.md)
+3. [Large Schrader](../designs/a-0047-tpms/ots-parts/large-schrader.md)
+4. [Manifold 5 Block](../designs/a-0047-tpms/ots-parts/manifold-5-block.md)
+5. F Elbow
+6. Schrader Fitting
+7. Small Nipple
+8. [002390 (1)](../designs/a-0047-tpms/002390-1.md)
+9. [Small Gauge](../designs/a-0047-tpms/ots-parts/small-gauge.md)
+10. Elbow
+
+---
+
+*80 assemblies with BOM data indexed.*
