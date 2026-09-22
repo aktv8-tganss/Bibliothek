@@ -547,7 +547,38 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [TPMS G2 Tool v2](../designs/a-0047-tpms/moonfish/obs/tpms-g2-tool-v2.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4Afe4LA](https://a360.co/4Afe4LA) |
 | [Turret Base](../designs/a-0047-tpms/moonfish/obs/turret-base.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4A6aDXr](https://a360.co/4A6aDXr) |
 | [Worm Gear](../designs/a-0047-tpms/moonfish/obs/worm-gear.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4hFMC1Y](https://a360.co/4hFMC1Y) |
+| [1/4 spring](../designs/a-0047-tpms/ots-parts/1-4-spring.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3USdYsU](https://a360.co/3USdYsU) |
+| [1/4-28 Coupling](../designs/a-0047-tpms/ots-parts/1-4-28-coupling.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4ytzQsZ](https://a360.co/4ytzQsZ) |
+| [1/4-28 Stud](../designs/a-0047-tpms/ots-parts/1-4-28-stud.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4rcsF6m](https://a360.co/4rcsF6m) |
+| [1/4-28 button](../designs/a-0047-tpms/ots-parts/1-4-28-button.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3TqQ9be](https://a360.co/3TqQ9be) |
+| [1/8 brass nipple](../designs/a-0047-tpms/ots-parts/1-8-brass-nipple.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4rhwuaf](https://a360.co/4rhwuaf) |
+| [1/8 brass plug](../designs/a-0047-tpms/ots-parts/1-8-brass-plug.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3SKpHct](https://a360.co/3SKpHct) |
+| [1/8 brass tee](../designs/a-0047-tpms/ots-parts/1-8-brass-tee.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4dbisB6](https://a360.co/4dbisB6) |
+| [3 3/8 spacer](../designs/a-0047-tpms/ots-parts/3-3-8-spacer.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4iTKy7G](https://a360.co/4iTKy7G) |
+| [3/8 Bearing](../designs/a-0047-tpms/ots-parts/3-8-bearing.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xQqyHH](https://a360.co/4xQqyHH) |
+| [3/8 PTFE Bearing](../designs/a-0047-tpms/ots-parts/3-8-ptfe-bearing.md) | `A-0047 TPMS / OTS Parts` | [a360.co/46AFj5F](https://a360.co/46AFj5F) |
+| [3/8 Shoulder](../designs/a-0047-tpms/ots-parts/3-8-shoulder-upper.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4dgOtb1](https://a360.co/4dgOtb1) |
+| [3/8 shoulder](../designs/a-0047-tpms/ots-parts/3-8-shoulder-lower.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3USec3e](https://a360.co/3USec3e) |
+| [3way Solenoid (TPMS)](../designs/a-0047-tpms/ots-parts/3way-solenoid-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4hnbIBG](https://a360.co/4hnbIBG) |
+| [4040 12in](../designs/a-0047-tpms/ots-parts/4040-12in.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yTyxEf](https://a360.co/4yTyxEf) |
+| [ANMBEST 4-MOSFET (TPMS)](../designs/a-0047-tpms/ots-parts/anmbest-4-mosfet-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xEkDV8](https://a360.co/4xEkDV8) |
+| [ArduinoMega_STEP_AP203 (TPMS)](../designs/a-0047-tpms/ots-parts/arduinomega-step-ap203-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xLSBqZ](https://a360.co/4xLSBqZ) |
+| [Cable Duct Medium](../designs/a-0047-tpms/ots-parts/cable-duct-medium.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4gYhquM](https://a360.co/4gYhquM) |
+| [Cable Duct Short](../designs/a-0047-tpms/ots-parts/cable-duct-short.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4iTLEjO](https://a360.co/4iTLEjO) |
+| [KQ2H03-34AS](../designs/a-0047-tpms/ots-parts/kq2h03-34as.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4h71ZAq](https://a360.co/4h71ZAq) |
+| [KQ2H03-35AS (TPMS)](../designs/a-0047-tpms/ots-parts/kq2h03-35as-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/47i3l5q](https://a360.co/47i3l5q) |
+| [KQ2L03-33AS (TPMS)](../designs/a-0047-tpms/ots-parts/kq2l03-33as-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4rAC2gb](https://a360.co/4rAC2gb) |
+| [KQ2L03-34AS](../designs/a-0047-tpms/ots-parts/kq2l03-34as.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4iEASxT](https://a360.co/4iEASxT) |
+| [KQ2T03-34AS](../designs/a-0047-tpms/ots-parts/kq2t03-34as.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yMXvVt](https://a360.co/4yMXvVt) |
+| [KQ2T03-35AS](../designs/a-0047-tpms/ots-parts/kq2t03-35as.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yPdzWN](https://a360.co/4yPdzWN) |
+| [Mini Regulator (TPMS)](../designs/a-0047-tpms/ots-parts/mini-regulator-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4y4YSio](https://a360.co/4y4YSio) |
+| [Moonfish Inner Nut](../designs/a-0047-tpms/ots-parts/moonfish-inner-nut.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4iyLWg2](https://a360.co/4iyLWg2) |
+| [Nipple (TPMS)](../designs/a-0047-tpms/ots-parts/nipple-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3T5MMWW](https://a360.co/3T5MMWW) |
+| [Small Nipple](../designs/a-0047-tpms/ots-parts/small-nipple.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4AaSLKV](https://a360.co/4AaSLKV) |
+| [Tee (TPMS)](../designs/a-0047-tpms/ots-parts/tee-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3T5Ui4j](https://a360.co/3T5Ui4j) |
+| [Tee Fitting](../designs/a-0047-tpms/ots-parts/tee-fitting.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yrZa2C](https://a360.co/4yrZa2C) |
+| [Touchscreen (TPMS)](../designs/a-0047-tpms/ots-parts/touchscreen-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xQjfPG](https://a360.co/4xQjfPG) |
 
 ---
 
-*543 designs indexed.*
+*574 designs indexed.*

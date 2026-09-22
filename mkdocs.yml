@@ -544,6 +544,37 @@ nav:
         - 1/2 linear bearing: designs/a-0047-tpms/ots-parts/1-2-linear-bearing.md
         - 1/2 shoulder: designs/a-0047-tpms/ots-parts/1-2-shoulder.md
         - 1/4 Shoulder: designs/a-0047-tpms/ots-parts/1-4-shoulder.md
+        - 1/4 spring: designs/a-0047-tpms/ots-parts/1-4-spring.md
+        - 1/4-28 Coupling: designs/a-0047-tpms/ots-parts/1-4-28-coupling.md
+        - 1/4-28 Stud: designs/a-0047-tpms/ots-parts/1-4-28-stud.md
+        - 1/4-28 button: designs/a-0047-tpms/ots-parts/1-4-28-button.md
+        - 1/8 brass nipple: designs/a-0047-tpms/ots-parts/1-8-brass-nipple.md
+        - 1/8 brass plug: designs/a-0047-tpms/ots-parts/1-8-brass-plug.md
+        - 1/8 brass tee: designs/a-0047-tpms/ots-parts/1-8-brass-tee.md
+        - 3 3/8 spacer: designs/a-0047-tpms/ots-parts/3-3-8-spacer.md
+        - 3/8 Bearing: designs/a-0047-tpms/ots-parts/3-8-bearing.md
+        - 3/8 PTFE Bearing: designs/a-0047-tpms/ots-parts/3-8-ptfe-bearing.md
+        - 3/8 Shoulder (Upper): designs/a-0047-tpms/ots-parts/3-8-shoulder-upper.md
+        - 3/8 shoulder (lower): designs/a-0047-tpms/ots-parts/3-8-shoulder-lower.md
+        - 3way Solenoid (TPMS): designs/a-0047-tpms/ots-parts/3way-solenoid-tpms.md
+        - 4040 12in: designs/a-0047-tpms/ots-parts/4040-12in.md
+        - ANMBEST 4-MOSFET (TPMS): designs/a-0047-tpms/ots-parts/anmbest-4-mosfet-tpms.md
+        - ArduinoMega_STEP_AP203 (TPMS): designs/a-0047-tpms/ots-parts/arduinomega-step-ap203-tpms.md
+        - Cable Duct Medium: designs/a-0047-tpms/ots-parts/cable-duct-medium.md
+        - Cable Duct Short: designs/a-0047-tpms/ots-parts/cable-duct-short.md
+        - KQ2H03-34AS: designs/a-0047-tpms/ots-parts/kq2h03-34as.md
+        - KQ2H03-35AS (TPMS): designs/a-0047-tpms/ots-parts/kq2h03-35as-tpms.md
+        - KQ2L03-33AS (TPMS): designs/a-0047-tpms/ots-parts/kq2l03-33as-tpms.md
+        - KQ2L03-34AS: designs/a-0047-tpms/ots-parts/kq2l03-34as.md
+        - KQ2T03-34AS: designs/a-0047-tpms/ots-parts/kq2t03-34as.md
+        - KQ2T03-35AS: designs/a-0047-tpms/ots-parts/kq2t03-35as.md
+        - Mini Regulator (TPMS): designs/a-0047-tpms/ots-parts/mini-regulator-tpms.md
+        - Moonfish Inner Nut: designs/a-0047-tpms/ots-parts/moonfish-inner-nut.md
+        - Nipple (TPMS): designs/a-0047-tpms/ots-parts/nipple-tpms.md
+        - Small Nipple: designs/a-0047-tpms/ots-parts/small-nipple.md
+        - Tee (TPMS): designs/a-0047-tpms/ots-parts/tee-tpms.md
+        - Tee Fitting: designs/a-0047-tpms/ots-parts/tee-fitting.md
+        - Touchscreen (TPMS): designs/a-0047-tpms/ots-parts/touchscreen-tpms.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md
