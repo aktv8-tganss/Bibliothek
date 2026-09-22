@@ -26,9 +26,21 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [VMT Adapt Plate](../designs/a-0010-iair6/dut-box-parts/vmt-adapt-plate.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4gWUaMc](https://a360.co/4gWUaMc) |
 | [VMT Probe Carrier](../designs/a-0010-iair6/dut-box-parts/vmt-probe-carrier.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4hpoArY](https://a360.co/4hpoArY) |
 | [Valve mount](../designs/a-0010-iair6/dut-box-parts/valve-mount.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4xlh5qZ](https://a360.co/4xlh5qZ) |
+| [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4yHCrzC](https://a360.co/4yHCrzC) |
+| [1122740000](../designs/a-0010-iair6/ots-parts/1122740000.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4rasf0j](https://a360.co/4rasf0j) |
+| [2 Pin](../designs/a-0010-iair6/ots-parts/2-pin.md) | `A-0010 iAir6 / OTS parts` | [a360.co/3TddMnJ](https://a360.co/3TddMnJ) |
+| [2203663-5](../designs/a-0010-iair6/ots-parts/2203663-5.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4dcOL2E](https://a360.co/4dcOL2E) |
+| [4 Pin](../designs/a-0010-iair6/ots-parts/4-pin.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4xPurg0](https://a360.co/4xPurg0) |
+| [Clear Lid](../designs/a-0010-iair6/ots-parts/clear-lid.md) | `A-0010 iAir6 / OTS parts` | [a360.co/3UPuMkl](https://a360.co/3UPuMkl) |
+| [Cylinder](../designs/a-0010-iair6/ots-parts/cylinder.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4yAJ2fc](https://a360.co/4yAJ2fc) |
+| [KQ2H03-33AS](../designs/a-0010-iair6/ots-parts/kq2h03-33as.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4AeGrcB](https://a360.co/4AeGrcB) |
+| [KQ2H03-35AS](../designs/a-0010-iair6/ots-parts/kq2h03-35as.md) | `A-0010 iAir6 / OTS parts` | [a360.co/3UUqb0p](https://a360.co/3UUqb0p) |
+| [KQ2L03-33AS](../designs/a-0010-iair6/ots-parts/kq2l03-33as.md) | `A-0010 iAir6 / OTS parts` | [a360.co/49l2LzY](https://a360.co/49l2LzY) |
+| [KQ2LF03-34A](../designs/a-0010-iair6/ots-parts/kq2lf03-34a.md) | `A-0010 iAir6 / OTS parts` | [a360.co/3wJjR01](https://a360.co/3wJjR01) |
+| [KV2L07-34S](../designs/a-0010-iair6/ots-parts/kv2l07-34s.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4cILDvl](https://a360.co/4cILDvl) |
+| [KV2T07-34S](../designs/a-0010-iair6/ots-parts/kv2t07-34s.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4xz7lJB](https://a360.co/4xz7lJB) |
 | [Prox Switch](../designs/a-0010-iair6/ots-parts/prox-switch.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4h8evP1](https://a360.co/4h8evP1) |
 | [SS Relay Board](../designs/a-0010-iair6/ots-parts/ss-relay-board.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4j3bm5s](https://a360.co/4j3bm5s) |
-| [KQ2H03-33AS](../designs/a-0010-iair6/ots-parts/kq2h03-33as.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4AeGrcB](https://a360.co/4AeGrcB) |
 | [iAIR3 Gen2 Flash Runner Bed](../designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4xytM1N](https://a360.co/4xytM1N) |
 | [22](../designs/a-0054-iair3-gen2/design-22.md) | `A-0054 iAir3 Gen2` | [a360.co/4cHHnw6](https://a360.co/4cHHnw6) |
 | [GEN2 PROC MODULE](../designs/a-0054-iair3-gen2/gen2-proc-module.md) | `A-0054 iAir3 Gen2` | [a360.co/4A3LrAI](https://a360.co/4A3LrAI) |
@@ -37,4 +49,4 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 
 ---
 
-*30 designs indexed.*
+*42 designs indexed.*

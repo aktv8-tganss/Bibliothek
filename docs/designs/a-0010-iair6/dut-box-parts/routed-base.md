@@ -33,7 +33,7 @@ This assembly references **5 components**:
 |---|-----------|
 | 1 | [Valve mount](valve-mount.md) |
 | 2 | Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain |
-| 3 | 3way Solenoid |
+| 3 | [3way Solenoid](3way-solenoid.md) |
 | 4 | Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 8-32 UNC x 0.25 Steel Grade 2 Plain |
 | 5 | [SS Relay Board](../ots-parts/ss-relay-board.md) |
 
