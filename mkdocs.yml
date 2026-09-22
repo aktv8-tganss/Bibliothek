@@ -465,14 +465,26 @@ nav:
         - Main Tray: designs/a-9999-lab/gegenees/main-tray.md
         - Mounting rail 1 (GEGENEES): designs/a-9999-lab/gegenees/mounting-rail-1-gegenees.md
         - Proto-Half_v2.1: designs/a-9999-lab/gegenees/proto-half-v2-1.md
+        - RMCS190513: designs/a-9999-lab/gegenees/rmcs190513.md
+        - RMCS190713: designs/a-9999-lab/gegenees/rmcs190713.md
         - "RX24-200W-2\u03A9J": designs/a-9999-lab/gegenees/rx24-200w-2oj.md
+        - Teensy CAN Assem Holder: designs/a-9999-lab/gegenees/teensy-can-assem-holder.md
+        - Teensy CAN Standoff: designs/a-9999-lab/gegenees/teensy-can-standoff.md
+        - c-dt04-4p-l012-a-3d: designs/a-9999-lab/gegenees/c-dt04-4p-l012-a-3d.md
         - Sterling CAN Controller:
           - Sterling 6 DUT Controller: designs/a-9999-lab/gegenees/sterling-can-controller/sterling-6-dut-controller.md
+          - Sterling Controller Base: designs/a-9999-lab/gegenees/sterling-can-controller/sterling-controller-base.md
+          - Sterling Controller Rear Panel: designs/a-9999-lab/gegenees/sterling-can-controller/sterling-controller-rear-panel.md
+          - Sterling Controller Side Panel: designs/a-9999-lab/gegenees/sterling-can-controller/sterling-controller-side-panel.md
+      - CP Reg Assy: designs/a-9999-lab/cp-reg-assy.md
+      - Wheel End Test Stand Assembly - Copy: designs/a-9999-lab/wheel-end-test-stand-assembly-copy.md
       - PARTS:
         - 12V PSU: designs/a-9999-lab/parts/12v-psu.md
         - Gigadaq Mounting: designs/a-9999-lab/parts/gigadaq-mounting.md
+        - Mounting rail 1 (Lab PARTS): designs/a-9999-lab/parts/mounting-rail-1.md
         - NANUK_935_Bottom Shell_INNER SURFS_Step: designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md
         - NANUK_935_Top Shell_INNER SURFS_Step: designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md
+        - USB-2637 (Lab PARTS): designs/a-9999-lab/parts/usb-2637.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md

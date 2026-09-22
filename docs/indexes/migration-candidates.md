@@ -168,6 +168,7 @@ A design is flagged when:
 | [1/16 NPT Female](../designs/a-9999-lab/1-16-npt-female.md) | `A-9999 Lab` | OTS outside `00 - Parts`; PN: 1456N134 |
 | [BRINGSMART MOTOR](../designs/a-9999-lab/bringsmart-motor.md) | `A-9999 Lab` | OTS outside `00 - Parts`; was phantom under A-0026, found in Lab |
 | [DB9](../designs/a-9999-lab/gegenees/db9.md) | `A-9999 Lab / GEGENEES` | OTS-looking connector outside `00 - Parts` |
+| [c-dt04-4p-l012-a-3d](../designs/a-9999-lab/gegenees/c-dt04-4p-l012-a-3d.md) | `A-9999 Lab / GEGENEES` | OTS-looking connector outside `00 - Parts` |
 | [DTP04-4P-L012](../designs/a-9999-lab/gegenees/dtp04-4p-l012.md) | `A-9999 Lab / GEGENEES` | OTS-looking connector outside `00 - Parts` |
 | [RX24-200W-2ΩJ](../designs/a-9999-lab/gegenees/rx24-200w-2oj.md) | `A-9999 Lab / GEGENEES` | OTS-looking resistor outside `00 - Parts` |
 | [Locking Push Button](../designs/a-9999-lab/gegenees/locking-push-button.md) | `A-9999 Lab / GEGENEES` | OTS-looking button outside `00 - Parts` |
@@ -704,4 +705,28 @@ Batch 022 contains 18 designs under `A-9999 Lab / GEGENEES` (GEGENEES test fixtu
 
 ---
 
-*160 migration candidates identified (+4 in batch 022).*
+### Assessment Notes (Batch 023)
+
+Batch 023 contains 12 designs: 5 under GEGENEES root, 3 under Sterling CAN Controller, 2 under Lab PARTS, 2 under Lab root. 1 OTS migration candidate identified:
+
+**Migration Candidates (1 of 12):**
+
+- **c-dt04-4p-l012-a-3d** — OTS-looking connector in GEGENEES outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (11 of 12):**
+
+- **RMCS190513** — GEGENEES design. Not an OTS part.
+- **RMCS190713** — GEGENEES design. Not an OTS part.
+- **Teensy CAN Assem Holder** — GEGENEES design. Not an OTS part.
+- **Teensy CAN Standoff** — GEGENEES design. Not an OTS part.
+- **Sterling Controller Rear Panel** — GEGENEES / Sterling CAN Controller design. Not an OTS part.
+- **Sterling Controller Base** — GEGENEES / Sterling CAN Controller design. Not an OTS part.
+- **Sterling Controller Side Panel** — GEGENEES / Sterling CAN Controller design. Not an OTS part.
+- **USB-2637 (Lab PARTS)** — Lab PARTS design with distinct shortlink from ORTHRUS. Not an OTS part (already tracked under ORTHRUS).
+- **Mounting rail 1 (Lab PARTS)** — Lab PARTS design with distinct shortlink. Not an OTS part.
+- **Wheel End Test Stand Assembly - Copy** — Lab root assembly. Not an OTS part.
+- **CP Reg Assy** — Lab root assembly. Not an OTS part.
+
+---
+
+*161 migration candidates identified (+1 in batch 023).*

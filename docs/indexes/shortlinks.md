@@ -373,7 +373,19 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Proto-Half_v2.1](../designs/a-9999-lab/gegenees/proto-half-v2-1.md) | `A-9999 Lab / GEGENEES` | [a360.co/4dAO1ED](https://a360.co/4dAO1ED) |
 | [RX24-200W-2ΩJ](../designs/a-9999-lab/gegenees/rx24-200w-2oj.md) | `A-9999 Lab / GEGENEES` | [a360.co/4hoXNMk](https://a360.co/4hoXNMk) |
 | [Sterling 6 DUT Controller](../designs/a-9999-lab/gegenees/sterling-can-controller/sterling-6-dut-controller.md) | `A-9999 Lab / GEGENEES / Sterling CAN Controller` | [a360.co/4yqtmLE](https://a360.co/4yqtmLE) |
+| [RMCS190513](../designs/a-9999-lab/gegenees/rmcs190513.md) | `A-9999 Lab / GEGENEES` | [a360.co/4cG9QlS](https://a360.co/4cG9QlS) |
+| [RMCS190713](../designs/a-9999-lab/gegenees/rmcs190713.md) | `A-9999 Lab / GEGENEES` | [a360.co/4yDUK9b](https://a360.co/4yDUK9b) |
+| [Teensy CAN Assem Holder](../designs/a-9999-lab/gegenees/teensy-can-assem-holder.md) | `A-9999 Lab / GEGENEES` | [a360.co/4cGatvK](https://a360.co/4cGatvK) |
+| [Teensy CAN Standoff](../designs/a-9999-lab/gegenees/teensy-can-standoff.md) | `A-9999 Lab / GEGENEES` | [a360.co/4ra3aCC](https://a360.co/4ra3aCC) |
+| [c-dt04-4p-l012-a-3d](../designs/a-9999-lab/gegenees/c-dt04-4p-l012-a-3d.md) | `A-9999 Lab / GEGENEES` | [a360.co/4hmCN98](https://a360.co/4hmCN98) |
+| [Sterling Controller Rear Panel](../designs/a-9999-lab/gegenees/sterling-can-controller/sterling-controller-rear-panel.md) | `A-9999 Lab / GEGENEES / Sterling CAN Controller` | [a360.co/4ikaMQy](https://a360.co/4ikaMQy) |
+| [Sterling Controller Base](../designs/a-9999-lab/gegenees/sterling-can-controller/sterling-controller-base.md) | `A-9999 Lab / GEGENEES / Sterling CAN Controller` | [a360.co/4h4fEXC](https://a360.co/4h4fEXC) |
+| [Sterling Controller Side Panel](../designs/a-9999-lab/gegenees/sterling-can-controller/sterling-controller-side-panel.md) | `A-9999 Lab / GEGENEES / Sterling CAN Controller` | [a360.co/3T11LkX](https://a360.co/3T11LkX) |
+| [USB-2637 (Lab PARTS)](../designs/a-9999-lab/parts/usb-2637.md) | `A-9999 Lab / PARTS` | [a360.co/4rqQLtT](https://a360.co/4rqQLtT) |
+| [Mounting rail 1 (Lab PARTS)](../designs/a-9999-lab/parts/mounting-rail-1.md) | `A-9999 Lab / PARTS` | [a360.co/4Axj7Hi](https://a360.co/4Axj7Hi) |
+| [Wheel End Test Stand Assembly - Copy](../designs/a-9999-lab/wheel-end-test-stand-assembly-copy.md) | `A-9999 Lab` | [a360.co/3Vncbw2](https://a360.co/3Vncbw2) |
+| [CP Reg Assy](../designs/a-9999-lab/cp-reg-assy.md) | `A-9999 Lab` | [a360.co/46R8eSU](https://a360.co/46R8eSU) |
 
 ---
 
-*369 designs indexed.*
+*381 designs indexed.*

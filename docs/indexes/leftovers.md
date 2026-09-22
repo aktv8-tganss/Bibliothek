@@ -517,15 +517,15 @@ All 18 designs from batch 022 were successfully indexed:
 !!! info "A-9999 Lab: MORE remain"
     A-9999 Lab is NOT thin — significant designs remain unharvested.
 
-**GEGENEES still open:**
+**GEGENEES still open (as of batch 022, resolved in 023):**
 
-- RMCS190513, RMCS190713, Teensy CAN Assem Holder, Teensy CAN Standoff, c-dt04-4p-l012-a-3d
-- GEGENEES LITE / Face Plate (duplicate)
-- Sterling CAN Controller other contents (not fully enumerated)
+- ~~RMCS190513, RMCS190713, Teensy CAN Assem Holder, Teensy CAN Standoff, c-dt04-4p-l012-a-3d~~ ✓ harvested in batch 023
+- GEGENEES LITE / Face Plate (duplicate — skipped, same shortlink)
+- ~~Sterling CAN Controller other contents~~ ✓ harvested in batch 023
 
-**GIGADAQ/PARTS (deferred — batch capped at GEGENEES):**
+**GIGADAQ/PARTS (as of batch 022, resolved in 023):**
 
-- Mounting rail 1, USB-2637 (NANUK shells / 12V PSU / Gigadaq Mounting already in batch 019)
+- ~~Mounting rail 1, USB-2637~~ ✓ harvested in batch 023 (NANUK shells / 12V PSU / Gigadaq Mounting already in batch 019)
 
 **Folders:**
 
@@ -542,3 +542,59 @@ Barn Layout, Blower Cap, Boat* parts, Bushing, Button Valve, CI16-FCI06, CP Reg 
 
     - **GEN2 PROC MODULE** — GEGENEES copy (`a360.co/4hCZje1`) distinct from A-0054 (`a360.co/4A3LrAI`)
     - **Mounting rail 1** — GEGENEES (`a360.co/4rrJKsP`) distinct from A-0054/FFT/IO Box (`a360.co/4h80zFX`), SOW1 COMPS (`a360.co/4h7kPGr`), AEETES (`a360.co/4iZPPdO`), etc.
+
+---
+
+### Batch 023
+
+All 12 designs from batch 023 were successfully indexed:
+
+**GEGENEES (5):**
+
+1. ✓ RMCS190513
+2. ✓ RMCS190713
+3. ✓ Teensy CAN Assem Holder
+4. ✓ Teensy CAN Standoff
+5. ✓ c-dt04-4p-l012-a-3d
+
+**Sterling CAN Controller (3):**
+
+6. ✓ Sterling Controller Rear Panel
+7. ✓ Sterling Controller Base
+8. ✓ Sterling Controller Side Panel
+
+**Lab PARTS (2):**
+
+9. ✓ USB-2637 (Lab PARTS) — distinct shortlink `a360.co/4rqQLtT` from ORTHRUS `a360.co/4ipqppZ`
+10. ✓ Mounting rail 1 (Lab PARTS) — distinct shortlink `a360.co/4Axj7Hi` from GEGENEES `a360.co/4rrJKsP`
+
+**Lab Root (2):**
+
+11. ✓ Wheel End Test Stand Assembly - Copy
+12. ✓ CP Reg Assy
+
+### A-9999 Lab remaining after batch 023
+
+!!! info "A-9999 Lab: MORE remain (root large)"
+    GEGENEES is likely thin (Face Plate LITE duplicate skipped). GIGADAQ/PARTS named leftovers complete. Lab root still has large set remaining.
+
+**GEGENEES status:**
+
+- Likely thin — Face Plate LITE duplicate skipped (same shortlink as batch 022)
+- Sterling CAN Controller covered
+
+**GIGADAQ/PARTS status:**
+
+- Named leftovers complete (USB-2637 + Mounting rail 1 harvested as Lab/PARTS paths)
+
+**Lab root remaining (sample):**
+
+Barn Layout, Boat* parts, Marble Run*, Stool, connectors, etc. Large set still open from batch 021 leftover list.
+
+### Disambiguation Notes (Batch 023)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 023 designs share names with existing designs but have distinct shortlinks and project paths:
+
+    - **USB-2637** — Lab PARTS (`a360.co/4rqQLtT`) distinct from ORTHRUS ELEC (`a360.co/4ipqppZ`)
+    - **Mounting rail 1** — Lab PARTS (`a360.co/4Axj7Hi`) distinct from GEGENEES (`a360.co/4rrJKsP`), IO Box (`a360.co/4h80zFX`), SOW1 (`a360.co/4h7kPGr`), AEETES (`a360.co/4iZPPdO`)
