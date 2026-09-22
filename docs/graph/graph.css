@@ -2,14 +2,10 @@
 
 :root {
   --graph-bg: #0a0a0a;
-  --graph-node-root: #d4a017;
-  --graph-node-assembly: #c49515;
-  --graph-node-part: #e07020;
-  --graph-node-root-border: #ffcc00;
-  --graph-node-assembly-border: #a67c00;
-  --graph-node-part-border: #b05010;
-  --graph-node-orphan: #555555;
-  --graph-node-orphan-border: #444444;
+  --graph-node-folder: #d4a017;
+  --graph-node-folder-border: #a67c00;
+  --graph-node-file: #e07020;
+  --graph-node-file-border: #b05010;
   --graph-edge: #2a4a6a;
   --panel-bg: rgba(20, 20, 20, 0.92);
   --panel-border: #333333;
@@ -468,21 +464,16 @@
   border-radius: 50%;
 }
 
-.legend-dot.root {
-  background: var(--graph-node-root);
-  border: 1px solid var(--graph-node-root-border);
+.legend-dot.folder {
+  background: var(--graph-node-folder);
+  border: 1px solid var(--graph-node-folder-border);
   width: 10px;
   height: 10px;
 }
 
-.legend-dot.assembly {
-  background: var(--graph-node-assembly);
-  border: 1px solid var(--graph-node-assembly-border);
-}
-
-.legend-dot.part {
-  background: var(--graph-node-part);
-  border: 1px solid var(--graph-node-part-border);
+.legend-dot.file {
+  background: var(--graph-node-file);
+  border: 1px solid var(--graph-node-file-border);
 }
 
 /* Stats footer */
