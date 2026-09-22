@@ -220,6 +220,23 @@ nav:
         - Panel: designs/a-0026-itm/aeetes/panel.md
         - Valve Bank: designs/a-0026-itm/aeetes/valve-bank.md
         - Wiring Plate: designs/a-0026-itm/aeetes/wiring-plate.md
+        - OTS Parts:
+          - "1": designs/a-0026-itm/aeetes/ots-parts/1.md
+          - 1/2 Magnet: designs/a-0026-itm/aeetes/ots-parts/1-2-magnet.md
+          - 1/8 Branch Tee: designs/a-0026-itm/aeetes/ots-parts/1-8-branch-tee.md
+          - 1/8 Bulkhead Fitting: designs/a-0026-itm/aeetes/ots-parts/1-8-bulkhead-fitting.md
+          - 1/8 Muffler: designs/a-0026-itm/aeetes/ots-parts/1-8-muffler.md
+          - 1/8 Nipple: designs/a-0026-itm/aeetes/ots-parts/1-8-nipple.md
+          - 1/8 Union Tee: designs/a-0026-itm/aeetes/ots-parts/1-8-union-tee.md
+          - 12V10A: designs/a-0026-itm/aeetes/ots-parts/12v10a.md
+          - 3/16 Machine Key: designs/a-0026-itm/aeetes/ots-parts/3-16-machine-key.md
+          - 3way Solenoid (AEETES): designs/a-0026-itm/aeetes/ots-parts/3way-solenoid.md
+          - 400VA UPS: designs/a-0026-itm/aeetes/ots-parts/400va-ups.md
+          - 54100-17X-02-A: designs/a-0026-itm/aeetes/ots-parts/54100-17x-02-a.md
+          - 5V14A: designs/a-0026-itm/aeetes/ots-parts/5v14a.md
+          - 5V3A: designs/a-0026-itm/aeetes/ots-parts/5v3a.md
+          - 67CP3220: designs/a-0026-itm/aeetes/ots-parts/67cp3220.md
+          - ANMBEST 4-MOSFET: designs/a-0026-itm/aeetes/ots-parts/anmbest-4-mosfet.md
       - Alford:
         - Million Mile Power Supply Mount: designs/a-0026-itm/alford/million-mile-power-supply-mount.md
       - ASM TOOLING:
