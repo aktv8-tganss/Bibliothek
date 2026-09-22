@@ -29,14 +29,14 @@ ots_migration_candidate: false
 This assembly references **9 components**:
 
 1. Sensor Turret 2
-2. Cap Presser
+2. [Cap Presser](cap-presser.md)
 3. Toman TAS-2030
 4. Worm Gear 2
 5. Sensor Cradle 2
 6. Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 5/8 Steel Grade 2 Plain
-7. Moonfish Tool Head 3
+7. [Moonfish Tool Head 3](moonfish-tool-head-3.md)
 8. Turret Base 2
-9. Cylinder head stencil
+9. [Cylinder head stencil](cylinder-head-stencil.md)
 
 ## Used In
 

@@ -477,8 +477,28 @@ nav:
       - Mantis 2:
         - Mantis 2 Asm: designs/a-0047-tpms/mantis-2/mantis-2-asm.md
         - Cylinder Asembly: designs/a-0047-tpms/mantis-2/cylinder-asembly.md
+        - Cylinder Bracket: designs/a-0047-tpms/mantis-2/cylinder-bracket.md
+        - Enclosure: designs/a-0047-tpms/mantis-2/enclosure.md
+        - Enclosure mod: designs/a-0047-tpms/mantis-2/enclosure-mod.md
+        - Mantis Bed Plates: designs/a-0047-tpms/mantis-2/mantis-bed-plates.md
+        - Piston Bracket: designs/a-0047-tpms/mantis-2/piston-bracket.md
+        - Press Frame: designs/a-0047-tpms/mantis-2/press-frame.md
+        - Obs:
+          - Carriage Carrier: designs/a-0047-tpms/mantis-2/obs/carriage-carrier.md
+          - Flashing Bed: designs/a-0047-tpms/mantis-2/obs/flashing-bed.md
+          - Mantis 2 ASM Obs: designs/a-0047-tpms/mantis-2/obs/mantis-2-asm-obs.md
+          - Platen Carrier: designs/a-0047-tpms/mantis-2/obs/platen-carrier.md
+          - Press Platen: designs/a-0047-tpms/mantis-2/obs/press-platen.md
+          - Rail Guide Link: designs/a-0047-tpms/mantis-2/obs/rail-guide-link.md
+          - Shuttle Nest Plate: designs/a-0047-tpms/mantis-2/obs/shuttle-nest-plate.md
+          - Shuttle Plate: designs/a-0047-tpms/mantis-2/obs/shuttle-plate.md
       - Moonfish:
         - MOONFISH ASM 2: designs/a-0047-tpms/moonfish/moonfish-asm-2.md
+        - Adapter Plates: designs/a-0047-tpms/moonfish/adapter-plates.md
+        - Cap Presser: designs/a-0047-tpms/moonfish/cap-presser.md
+        - Cylinder head stencil: designs/a-0047-tpms/moonfish/cylinder-head-stencil.md
+        - Heat Probe Parts: designs/a-0047-tpms/moonfish/heat-probe-parts.md
+        - Moonfish Tool Head 3: designs/a-0047-tpms/moonfish/moonfish-tool-head-3.md
       - Obs:
         - Battery Spacing Blanks: designs/a-0047-tpms/obs/battery-spacing-blanks.md
         - TPMS 2 SENSOR: designs/a-0047-tpms/obs/tpms-2-sensor.md

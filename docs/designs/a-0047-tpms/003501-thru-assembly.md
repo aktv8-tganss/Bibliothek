@@ -35,13 +35,13 @@ This design references the following 1 component:
 
 This design is referenced by the following 10 assemblies:
 
-1. Oyster Bed 3UP TPMS
-2. Mantis Bed Plates
+1. [Oyster Bed 3UP TPMS](flash-runner/oyster-bed-3up-tpms.md)
+2. [Mantis Bed Plates](mantis-2/mantis-bed-plates.md)
 3. Cap carrier
 4. 003501 Print Proof
 5. [TPMS Sanding Chuck](tpms-sanding-chuck.md)
-6. Moonfish Tool Head 3
+6. [Moonfish Tool Head 3](moonfish/moonfish-tool-head-3.md)
 7. Moonfish Tool Head
 8. Moonfish Tool Head 2.0
 9. Pearl 5
-10. Mantis 2 ASM Obs
+10. [Mantis 2 ASM Obs](mantis-2/obs/mantis-2-asm-obs.md)
