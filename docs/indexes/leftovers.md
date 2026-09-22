@@ -778,6 +778,73 @@ All 18 designs from batch 026 were successfully indexed:
 
 ## A-0047 TPMS — Remaining (MORE remain)
 
+### Batch 031
+
+All 18 designs from batch 031 were successfully indexed:
+
+**Obs (root) (2):**
+
+1. ✓ Hose Support
+2. ✓ Stickers
+
+**Stepper Control (3):**
+
+3. ✓ ALITOV 24VDC — OTS migration candidate
+4. ✓ DM332T Driver — OTS migration candidate
+5. ✓ Teensy and Proto
+
+**Moonfish / Obs (9):**
+
+6. ✓ Adapter plate top
+7. ✓ Moonfish ASM
+8. ✓ Moonfish Base ASM
+9. ✓ Moonfish Tool Head
+10. ✓ Sensor Cradle
+11. ✓ Sensor Turret
+12. ✓ TPMS G2 Tool v2
+13. ✓ Turret Base
+14. ✓ Worm Gear
+
+**Mantis 2 (4):**
+
+15. ✓ Prox Shrouod (spelling preserved from Fusion)
+16. ✓ Rail Bracket
+17. ✓ Reed Bracket Probe
+18. ✓ Screen VESA
+
+### A-0047 TPMS remaining after batch 031
+
+!!! info "A-0047 TPMS: MORE remain"
+    A-0047 TPMS is NOT complete — OTS Parts folder still largely unharvested. Do NOT declare A-0047 COMPLETE.
+
+**Product folders covered:**
+
+- ✓ Root (batch 027)
+- ✓ Clam (batches 028–029)
+- ✓ Flash Runner (batch 028)
+- ✓ Limpet (batches 028–029)
+- ✓ Mantis (batches 028–029)
+- ✓ Mantis 2 + Obs nested (batches 028, 030, 031)
+- ✓ Moonfish + Obs nested (batches 028, 030, 031)
+- ✓ Obs root (batches 028, 031)
+- ✓ Stepper Control (batches 028, 031)
+
+**OTS Parts (still largely unharvested):**
+
+1-4 bearing, 1-8 brass schrader, 1/2 Barrel, Cable Duct, Cylinder, Finger Stud, Gauge, NUC Pro Chassis, Schrader Fitting, Stepper, Worm Shaft, and others.
+
+### Disambiguation Notes (Batch 031)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 031 designs live under nested paths that differ from similar designs:
+
+    - **Moonfish / Obs** — nested under `docs/designs/a-0047-tpms/moonfish/obs/`; distinct from root **Obs** folder at `docs/designs/a-0047-tpms/obs/`
+    - **Sensor Cradle** (Moonfish / Obs) — distinct from Sensor Cradle 2 in MOONFISH ASM 2
+    - **Sensor Turret** (Moonfish / Obs) — distinct from Sensor Turret 2 in MOONFISH ASM 2
+    - **Worm Gear** (Moonfish / Obs) — distinct from Worm Gear 2 in MOONFISH ASM 2
+
+---
+
 ### Batch 027
 
 All 15 designs from batch 027 were successfully indexed:

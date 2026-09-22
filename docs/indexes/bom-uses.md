@@ -104,6 +104,11 @@ Assemblies with non-empty component references (Uses).
 | [Moonfish Tool Head 3](../designs/a-0047-tpms/moonfish/moonfish-tool-head-3.md) | 9 | [a360.co/4iJ0j1p](https://a360.co/4iJ0j1p) |
 | [TPMS 2 SENSOR](../designs/a-0047-tpms/obs/tpms-2-sensor.md) | 1 | [a360.co/4h1zR0l](https://a360.co/4h1zR0l) |
 | [Stepper Enclosure](../designs/a-0047-tpms/stepper-control/stepper-enclosure.md) | 3 | [a360.co/4xTaa9x](https://a360.co/4xTaa9x) |
+| [Moonfish ASM](../designs/a-0047-tpms/moonfish/obs/moonfish-asm.md) | 7 | [a360.co/4ytc3td](https://a360.co/4ytc3td) |
+| [Moonfish Base ASM](../designs/a-0047-tpms/moonfish/obs/moonfish-base-asm.md) | 11 | [a360.co/3SU0kVD](https://a360.co/3SU0kVD) |
+| [Moonfish Tool Head](../designs/a-0047-tpms/moonfish/obs/moonfish-tool-head.md) | 3 | [a360.co/4gNslHz](https://a360.co/4gNslHz) |
+| [Reed Bracket Probe](../designs/a-0047-tpms/mantis-2/reed-bracket-probe.md) | 1 | [a360.co/4iEuyGF](https://a360.co/4iEuyGF) |
+| [TPMS G2 Tool v2](../designs/a-0047-tpms/moonfish/obs/tpms-g2-tool-v2.md) | 1 | [a360.co/4Afe4LA](https://a360.co/4Afe4LA) |
 
 ---
 
@@ -1220,4 +1225,62 @@ The Moonfish Tool Head 3 assembly references the following 9 components:
 
 ---
 
-*100 assemblies with BOM data indexed.*
+## Moonfish ASM — Bill of Materials
+
+The Moonfish ASM assembly references the following 7 components:
+
+1. Moonfish Tool Head 2.0
+2. [Adapter plate top](../designs/a-0047-tpms/moonfish/obs/adapter-plate-top.md)
+3. [Hose Support](../designs/a-0047-tpms/obs/hose-support.md)
+4. [Moonfish Base ASM](../designs/a-0047-tpms/moonfish/obs/moonfish-base-asm.md)
+5. [Heat Probe Parts](../designs/a-0047-tpms/moonfish/heat-probe-parts.md)
+6. [Cap Presser](../designs/a-0047-tpms/moonfish/cap-presser.md)
+7. Toman TAS-2030
+
+---
+
+## Moonfish Base ASM — Bill of Materials
+
+The Moonfish Base ASM assembly references the following 11 components:
+
+1. 1-4 bearing
+2. 3/4 dowel
+3. [Worm Gear](../designs/a-0047-tpms/moonfish/obs/worm-gear.md)
+4. 3/8 Bearing
+5. [Sensor Cradle](../designs/a-0047-tpms/moonfish/obs/sensor-cradle.md)
+6. 1/4 Shoulder
+7. [Sensor Turret](../designs/a-0047-tpms/moonfish/obs/sensor-turret.md)
+8. [Turret Base](../designs/a-0047-tpms/moonfish/obs/turret-base.md)
+9. 1/2 Dowel
+10. 3/8 Shoulder
+11. Stepper
+
+---
+
+## Moonfish Tool Head — Bill of Materials
+
+The Moonfish Tool Head assembly references the following 3 components:
+
+1. [TPMS G2 Tool v2](../designs/a-0047-tpms/moonfish/obs/tpms-g2-tool-v2.md)
+2. 1/4 spring
+3. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+
+---
+
+## Reed Bracket Probe — Bill of Materials
+
+The Reed Bracket Probe design references the following 1 component:
+
+1. Reed Switch
+
+---
+
+## TPMS G2 Tool v2 — Bill of Materials
+
+The TPMS G2 Tool v2 design references the following 1 component:
+
+1. [1/16 NPT Female](../designs/a-9999-lab/1-16-npt-female.md)
+
+---
+
+*105 assemblies with BOM data indexed.*

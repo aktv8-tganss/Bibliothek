@@ -514,7 +514,25 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Battery Spacing Blanks](../designs/a-0047-tpms/obs/battery-spacing-blanks.md) | `A-0047 TPMS / Obs` | [a360.co/3UOzDCh](https://a360.co/3UOzDCh) |
 | [TPMS 2 SENSOR](../designs/a-0047-tpms/obs/tpms-2-sensor.md) | `A-0047 TPMS / Obs` | [a360.co/4h1zR0l](https://a360.co/4h1zR0l) |
 | [Stepper Enclosure](../designs/a-0047-tpms/stepper-control/stepper-enclosure.md) | `A-0047 TPMS / Stepper Control` | [a360.co/4xTaa9x](https://a360.co/4xTaa9x) |
+| [ALITOV 24VDC](../designs/a-0047-tpms/stepper-control/alitov-24vdc.md) | `A-0047 TPMS / Stepper Control` | [a360.co/3VrKP83](https://a360.co/3VrKP83) |
+| [DM332T Driver](../designs/a-0047-tpms/stepper-control/dm332t-driver.md) | `A-0047 TPMS / Stepper Control` | [a360.co/4dsl2mj](https://a360.co/4dsl2mj) |
+| [Teensy and Proto](../designs/a-0047-tpms/stepper-control/teensy-and-proto.md) | `A-0047 TPMS / Stepper Control` | [a360.co/4xMa3MJ](https://a360.co/4xMa3MJ) |
+| [Hose Support](../designs/a-0047-tpms/obs/hose-support.md) | `A-0047 TPMS / Obs` | [a360.co/4cC8icK](https://a360.co/4cC8icK) |
+| [Stickers](../designs/a-0047-tpms/obs/stickers.md) | `A-0047 TPMS / Obs` | [a360.co/4r7TZCo](https://a360.co/4r7TZCo) |
+| [Prox Shrouod](../designs/a-0047-tpms/mantis-2/prox-shrouod.md) | `A-0047 TPMS / Mantis 2` | [a360.co/3VKaMjj](https://a360.co/3VKaMjj) |
+| [Rail Bracket](../designs/a-0047-tpms/mantis-2/rail-bracket.md) | `A-0047 TPMS / Mantis 2` | [a360.co/3TGyo81](https://a360.co/3TGyo81) |
+| [Reed Bracket Probe](../designs/a-0047-tpms/mantis-2/reed-bracket-probe.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4iEuyGF](https://a360.co/4iEuyGF) |
+| [Screen VESA](../designs/a-0047-tpms/mantis-2/screen-vesa.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4xEKDQo](https://a360.co/4xEKDQo) |
+| [Adapter plate top](../designs/a-0047-tpms/moonfish/obs/adapter-plate-top.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4gWXozu](https://a360.co/4gWXozu) |
+| [Moonfish ASM](../designs/a-0047-tpms/moonfish/obs/moonfish-asm.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4ytc3td](https://a360.co/4ytc3td) |
+| [Moonfish Base ASM](../designs/a-0047-tpms/moonfish/obs/moonfish-base-asm.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/3SU0kVD](https://a360.co/3SU0kVD) |
+| [Moonfish Tool Head](../designs/a-0047-tpms/moonfish/obs/moonfish-tool-head.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4gNslHz](https://a360.co/4gNslHz) |
+| [Sensor Cradle](../designs/a-0047-tpms/moonfish/obs/sensor-cradle.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4ipCZpd](https://a360.co/4ipCZpd) |
+| [Sensor Turret](../designs/a-0047-tpms/moonfish/obs/sensor-turret.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4dbkW2o](https://a360.co/4dbkW2o) |
+| [TPMS G2 Tool v2](../designs/a-0047-tpms/moonfish/obs/tpms-g2-tool-v2.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4Afe4LA](https://a360.co/4Afe4LA) |
+| [Turret Base](../designs/a-0047-tpms/moonfish/obs/turret-base.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4A6aDXr](https://a360.co/4A6aDXr) |
+| [Worm Gear](../designs/a-0047-tpms/moonfish/obs/worm-gear.md) | `A-0047 TPMS / Moonfish / Obs` | [a360.co/4hFMC1Y](https://a360.co/4hFMC1Y) |
 
 ---
 
-*491 designs indexed.*
+*528 designs indexed.*

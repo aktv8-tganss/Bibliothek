@@ -37,17 +37,17 @@ OTS outside 00 - Parts.
 
 This design references the following 11 components:
 
-1. Sensor Cradle
+1. [Sensor Cradle](../../../a-0047-tpms/moonfish/obs/sensor-cradle.md)
 2. 3/8 Shoulder
 3. 1/2 Dowel
 4. 3/4 dowel
-5. Turret Base
+5. [Turret Base](../../../a-0047-tpms/moonfish/obs/turret-base.md)
 6. Stepper
 7. 1-4 bearing
 8. 3/8 Bearing
 9. 1/4 Shoulder
-10. Worm Gear
-11. Sensor Turret
+10. [Worm Gear](../../../a-0047-tpms/moonfish/obs/worm-gear.md)
+11. [Sensor Turret](../../../a-0047-tpms/moonfish/obs/sensor-turret.md)
 
 ## Used In
 

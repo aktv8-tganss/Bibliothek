@@ -483,6 +483,10 @@ nav:
         - Mantis Bed Plates: designs/a-0047-tpms/mantis-2/mantis-bed-plates.md
         - Piston Bracket: designs/a-0047-tpms/mantis-2/piston-bracket.md
         - Press Frame: designs/a-0047-tpms/mantis-2/press-frame.md
+        - Prox Shrouod: designs/a-0047-tpms/mantis-2/prox-shrouod.md
+        - Rail Bracket: designs/a-0047-tpms/mantis-2/rail-bracket.md
+        - Reed Bracket Probe: designs/a-0047-tpms/mantis-2/reed-bracket-probe.md
+        - Screen VESA: designs/a-0047-tpms/mantis-2/screen-vesa.md
         - Obs:
           - Carriage Carrier: designs/a-0047-tpms/mantis-2/obs/carriage-carrier.md
           - Flashing Bed: designs/a-0047-tpms/mantis-2/obs/flashing-bed.md
@@ -499,11 +503,26 @@ nav:
         - Cylinder head stencil: designs/a-0047-tpms/moonfish/cylinder-head-stencil.md
         - Heat Probe Parts: designs/a-0047-tpms/moonfish/heat-probe-parts.md
         - Moonfish Tool Head 3: designs/a-0047-tpms/moonfish/moonfish-tool-head-3.md
+        - Obs:
+          - Adapter plate top: designs/a-0047-tpms/moonfish/obs/adapter-plate-top.md
+          - Moonfish ASM: designs/a-0047-tpms/moonfish/obs/moonfish-asm.md
+          - Moonfish Base ASM: designs/a-0047-tpms/moonfish/obs/moonfish-base-asm.md
+          - Moonfish Tool Head: designs/a-0047-tpms/moonfish/obs/moonfish-tool-head.md
+          - Sensor Cradle: designs/a-0047-tpms/moonfish/obs/sensor-cradle.md
+          - Sensor Turret: designs/a-0047-tpms/moonfish/obs/sensor-turret.md
+          - TPMS G2 Tool v2: designs/a-0047-tpms/moonfish/obs/tpms-g2-tool-v2.md
+          - Turret Base: designs/a-0047-tpms/moonfish/obs/turret-base.md
+          - Worm Gear: designs/a-0047-tpms/moonfish/obs/worm-gear.md
       - Obs:
         - Battery Spacing Blanks: designs/a-0047-tpms/obs/battery-spacing-blanks.md
+        - Hose Support: designs/a-0047-tpms/obs/hose-support.md
+        - Stickers: designs/a-0047-tpms/obs/stickers.md
         - TPMS 2 SENSOR: designs/a-0047-tpms/obs/tpms-2-sensor.md
       - Stepper Control:
         - Stepper Enclosure: designs/a-0047-tpms/stepper-control/stepper-enclosure.md
+        - ALITOV 24VDC: designs/a-0047-tpms/stepper-control/alitov-24vdc.md
+        - DM332T Driver: designs/a-0047-tpms/stepper-control/dm332t-driver.md
+        - Teensy and Proto: designs/a-0047-tpms/stepper-control/teensy-and-proto.md
       - OTS Parts:
         - Ball Valve: designs/a-0047-tpms/ots-parts/ball-valve.md
         - Large Schrader: designs/a-0047-tpms/ots-parts/large-schrader.md
