@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (334 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (335 total)
 - [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (72 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (153 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (154 total)
 
 ## Design Tree
 
@@ -84,11 +84,12 @@ Browse designs by project folder:
 | 017 | 22 | A-0026 iTM: ASM TOOLING/OTS (3), PARTS (1), SOW1 COMPS (12), ORTHRUS (3), PLT (3) — 6 OTS migration candidates |
 | 018 | 16 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (8), ORTHRUS / OTS PARTS / ELEC (5), ORTHRUS / OTS PARTS (1), PLT / COMPS (2) — 14 OTS migration candidates |
 | 019 | 36 | A-0026 iTM: ORTHRUS / OTS PARTS / ELEC (13), ORTHRUS / OTS PARTS / PNEU (6), PLT / COMPS (13); A-9999 Lab / PARTS (4 GIGADAQ children) — 22 OTS migration candidates |
+| 020 | 1 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (1/4 1/8 NPT M Reducer) — 1 OTS migration candidate; mop-up concludes A-0026 |
 
-**Total designs indexed: 334**
+**Total designs indexed: 335**
 
-!!! warning "A-0026 iTM MORE_REMAIN (thin)"
-    A-0026 iTM still contains some unharvested designs after batch 019. See [leftovers index](indexes/leftovers.md) for details.
+!!! success "A-0026 iTM COMPLETE for Bibliothek"
+    A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 

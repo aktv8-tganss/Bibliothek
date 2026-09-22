@@ -435,43 +435,31 @@ All 36 designs from batch 019 were successfully indexed:
 35. ✓ c-206060-1-k-3d
 36. ✓ c-206061-1-ad-3d (PLT COMPS)
 
+### Batch 020
+
+All 1 design from batch 020 was successfully indexed:
+
+1. ✓ 1/4 1/8 NPT M Reducer
+
 ---
 
-## A-0026 iTM Remaining (After Batch 019)
+## A-0026 iTM — COMPLETE for Bibliothek (2026-09-22)
 
-!!! success "ORTHRUS WCONFIG/ELEC/PNEU + Lab GIGADAQ + PLT COMPS Harvested"
-    Batch 019 adds ORTHRUS / OTS PARTS / ELEC (13 designs including two disambiguated ORTHRUS WCONFIG - Mounting rail 1), ORTHRUS / OTS PARTS / PNEU (6 designs), A-9999 Lab / PARTS (4 GIGADAQ children), and PLT / COMPS (13 designs). Status: **MORE_REMAIN (thin)**.
+!!! success "A-0026 iTM Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes by Otto on 2026-09-22 after batches 010–020. All locatable Fusion designs with unique Share shortlinks have been indexed.
 
-!!! warning "A-0026 Shrinking but NOT Complete"
-    Despite extensive harvesting through batch 019, A-0026 iTM still contains some unharvested designs.
+### Final batch (020)
+- ✓ 1/4 1/8 NPT M Reducer — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU; located during ticket 020 mop-up. **Migration candidate.**
 
-### GIGADAQ children — NOW HARVESTED
-- ✓ NANUK_935_Bottom Shell_INNER SURFS_Step (resolved to A-9999 Lab / PARTS)
-- ✓ NANUK_935_Top Shell_INNER SURFS_Step (resolved to A-9999 Lab / PARTS)
-- ✓ 12V PSU (resolved to A-9999 Lab / PARTS)
-- ✓ Gigadaq Mounting (resolved to A-9999 Lab / PARTS)
+### Known debt (not blocking COMPLETE)
 
-### ORTHRUS PNEU — NOW HARVESTED
-- ✓ 100CP8-2A, KV2E07-00 (PNEU), 1/4 NPT fittings family
+!!! warning "PLT COMPS USB — Autodesk Share collision"
+    **PLT COMPS `USB`** is a real Fusion design distinct from `CG-U3MINI7PH`, but Autodesk Share still returns the same shortlink `https://a360.co/4hscY7z` (which points to CG-U3MINI7PH). No unique shortlink exists; not inventing one. Revisit if Autodesk ever emits a distinct Share link.
 
-### ORTHRUS ELEC — NOW HARVESTED
-- ✓ ERB24, C14 Plug, 3.5mm TRS, 12V (ORTHRUS ELEC), 46993-0420, ORTHRUS WCONFIG - Mounting rail 1 (both copies), connectors, keyboard
+### Resolved or skipped
 
-### PLT COMPS — NOW HARVESTED
-- ✓ 1590U, GCX3105, Random Assy, USB231, DC11 (PLT COMPS), 19V Adapter (PLT COMPS), 925 STEP surfaces, KV2*, c-* connectors, PLT VALVE ASSY (PLT COMPS)
+- **Inventory name typos** (e.g. HCDS vs HCSD) — treated as resolved
+- **Named phantoms** (Tee Leak Fixture, Hose Steel Adapter, BRINGSMART MOTOR, various Press stubs, 2x8/2x6/7x72, 688 Press, Support/Seal/605 Press) — skipped; no real designs found
+- **Jake Print Copys** — Piston Attachments drawings (880250–880270) skipped
 
-### Still noted open / ambiguous (per remaining-after-019)
-- 1/4 1/8 NPT M Reducer — not located this pass
-- ELEC inventory still listed: 1500VA UPS, 19V Adapter (some already harvested under other shortlinks/paths — verify before re-harvest), Arduino_Uno_w/Shield, HCDS-20-D-02.50-01-N, Samsung_T37F, USB-2637
-- USB (PLT COMPS) shortlink collided with CG-U3MINI7PH — needs re-open for true Share link
-
-### Phantoms / not found this pass
-- Tee Leak Fixture (referenced by Random Assy)
-- Hose Steel Adapter
-- BRINGSMART MOTOR
-- 2x8, 2x6, 7x72, 688 Press, Support/Seal/605 Press
-
-### Jake Print Copys
-- Piston Attachments drawings skipped (880250–880270)
-
-*This summary was updated from the remaining-after-019 harvest manifest.*
+*A-0026 iTM harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*

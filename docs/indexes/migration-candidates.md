@@ -154,6 +154,7 @@ A design is flagged when:
 | [1/4 NPT Street Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-street-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
 | [100CP8-2A](../designs/a-0026-itm/orthrus/ots-parts/pneu/100cp8-2a.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
 | [KV2E07-00 (PNEU)](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2e07-00.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [1/4 1/8 NPT M Reducer](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-1-8-npt-m-reducer.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
 | [12V (ORTHRUS ELEC)](../designs/a-0026-itm/orthrus/ots-parts/elec/12v.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
 | [3.5mm TRS](../designs/a-0026-itm/orthrus/ots-parts/elec/35mm-trs.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
 | [46993-0420](../designs/a-0026-itm/orthrus/ots-parts/elec/46993-0420.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
@@ -631,6 +632,14 @@ Batch 019 contains 36 designs: ORTHRUS / OTS PARTS / ELEC (13), ORTHRUS / OTS PA
 - **c-206060-1-k-3d** — PLT/COMPS connector (Used In: HOSE FIXTURE). Product component.
 - **c-206061-1-ad-3d (PLT COMPS)** — PLT/COMPS connector; distinct shortlink from A-0054. Product component.
 
+### Assessment Notes (Batch 020)
+
+Batch 020 contains 1 design: ORTHRUS / OTS PARTS / PNEU (1). 1 OTS migration candidate identified. Located during ticket 020 mop-up.
+
+**Migration Candidates (1 of 1):**
+
+- **1/4 1/8 NPT M Reducer** — OTS pneumatic reducer fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+
 ---
 
-*153 migration candidates identified (+22 in batch 019).*
+*154 migration candidates identified (+1 in batch 020).*
