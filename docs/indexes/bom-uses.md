@@ -79,6 +79,8 @@ Assemblies with non-empty component references (Uses).
 | [6 DUT Assem](../designs/a-9999-lab/gegenees/6-dut-assem.md) | 6 | [a360.co/4xpVlu2](https://a360.co/4xpVlu2) |
 | [Front Panel Assem](../designs/a-9999-lab/gegenees/front-panel-assem.md) | 6 | [a360.co/4gXLTrr](https://a360.co/4gXLTrr) |
 | [CAN Channel Setup](../designs/a-9999-lab/gegenees/can-channel-setup.md) | 1 | [a360.co/4AaUJeh](https://a360.co/4AaUJeh) |
+| [USB-2637 (Lab PARTS)](../designs/a-9999-lab/parts/usb-2637.md) | 1 | [a360.co/4rqQLtT](https://a360.co/4rqQLtT) |
+| [Wheel End Test Stand Assembly - Copy](../designs/a-9999-lab/wheel-end-test-stand-assembly-copy.md) | 1 | [a360.co/3Vncbw2](https://a360.co/3Vncbw2) |
 
 ---
 
@@ -893,4 +895,20 @@ The CAN Channel Setup design references the following 1 component:
 
 ---
 
-*75 assemblies with BOM data indexed.*
+## USB-2637 (Lab PARTS) — Bill of Materials
+
+The USB-2637 (Lab PARTS) design references the following 1 component:
+
+1. [GIGADAQ](../designs/a-0026-itm/orthrus/ots-parts/gigadaq.md)
+
+---
+
+## Wheel End Test Stand Assembly - Copy — Bill of Materials
+
+The Wheel End Test Stand Assembly - Copy design references the following 1 component:
+
+1. [54100-17X-02-A](../designs/a-0026-itm/aeetes/ots-parts/54100-17x-02-a.md)
+
+---
+
+*77 assemblies with BOM data indexed.*
