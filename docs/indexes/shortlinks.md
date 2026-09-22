@@ -578,7 +578,29 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Tee (TPMS)](../designs/a-0047-tpms/ots-parts/tee-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3T5Ui4j](https://a360.co/3T5Ui4j) |
 | [Tee Fitting](../designs/a-0047-tpms/ots-parts/tee-fitting.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yrZa2C](https://a360.co/4yrZa2C) |
 | [Touchscreen (TPMS)](../designs/a-0047-tpms/ots-parts/touchscreen-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xQjfPG](https://a360.co/4xQjfPG) |
+| [250mm rail](../designs/a-0047-tpms/ots-parts/250mm-rail.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3TqQwCE](https://a360.co/3TqQwCE) |
+| [3-8 Ball](../designs/a-0047-tpms/ots-parts/3-8-ball.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4cG55c0](https://a360.co/4cG55c0) |
+| [3/4 dowel](../designs/a-0047-tpms/ots-parts/3-4-dowel.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4ywLIui](https://a360.co/4ywLIui) |
+| [4.5in screw](../designs/a-0047-tpms/ots-parts/4-5in-screw.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4raV6l9](https://a360.co/4raV6l9) |
+| [6" Hinge](../designs/a-0047-tpms/ots-parts/6-inch-hinge.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4y1txNB](https://a360.co/4y1txNB) |
+| [67CP3220 (TPMS)](../designs/a-0047-tpms/ots-parts/67cp3220-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xDh55C](https://a360.co/4xDh55C) |
+| [7/16 Shoulder](../designs/a-0047-tpms/ots-parts/7-16-shoulder.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3VrK0vZ](https://a360.co/3VrK0vZ) |
+| [9lb spring](../designs/a-0047-tpms/ots-parts/9lb-spring.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4dgPAaH](https://a360.co/4dgPAaH) |
+| [Detent Sprintg](../designs/a-0047-tpms/ots-parts/detent-sprintg.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4d0bdfx](https://a360.co/4d0bdfx) |
+| [Elbow (TPMS)](../designs/a-0047-tpms/ots-parts/elbow-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3UF2TeP](https://a360.co/3UF2TeP) |
+| [F Elbow (TPMS)](../designs/a-0047-tpms/ots-parts/f-elbow-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3SKzrn4](https://a360.co/3SKzrn4) |
+| [GCX3105 (TPMS)](../designs/a-0047-tpms/ots-parts/gcx3105-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4ycYMW8](https://a360.co/4ycYMW8) |
+| [MDX1000_1500_Head](../designs/a-0047-tpms/ots-parts/mdx1000-1500-head.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yxvEbK](https://a360.co/4yxvEbK) |
+| [Manifold Block (TPMS)](../designs/a-0047-tpms/ots-parts/manifold-block-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4y5nhVg](https://a360.co/4y5nhVg) |
+| [Moonfish Tool Head 2.0](../designs/a-0047-tpms/ots-parts/moonfish-tool-head-2-0.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4ipEL9R](https://a360.co/4ipEL9R) |
+| [NANUK_935_Bottom Shell_INNER SURFS_Step (TPMS)](../designs/a-0047-tpms/ots-parts/nanuk-935-bottom-shell-inner-surfs-step-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4hq38SE](https://a360.co/4hq38SE) |
+| [NANUK_935_Top Shell_INNER SURFS_Step (TPMS)](../designs/a-0047-tpms/ots-parts/nanuk-935-top-shell-inner-surfs-step-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4AtIXM4](https://a360.co/4AtIXM4) |
+| [New Valve (TPMS)](../designs/a-0047-tpms/ots-parts/new-valve-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4Au55Gk](https://a360.co/4Au55Gk) |
+| [Screen 2 (TPMS)](../designs/a-0047-tpms/ots-parts/screen-2-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4h0HcwX](https://a360.co/4h0HcwX) |
+| [TPMS PCBA Silh](../designs/a-0047-tpms/ots-parts/tpms-pcba-silh.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3SVOfzh](https://a360.co/3SVOfzh) |
+| [pxc_1411244_00_01_A-INL-M32-N-S_3D](../designs/a-0047-tpms/ots-parts/pxc-1411244-00-01-a-inl-m32-n-s-3d.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yDRuut](https://a360.co/4yDRuut) |
+| [655-1203-104F (TPMS)](../designs/a-0047-tpms/ots-parts/655-1203-104f-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/46zyPnz](https://a360.co/46zyPnz) |
 
 ---
 
-*574 designs indexed.*
+*596 designs indexed.*

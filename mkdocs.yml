@@ -575,6 +575,28 @@ nav:
         - Tee (TPMS): designs/a-0047-tpms/ots-parts/tee-tpms.md
         - Tee Fitting: designs/a-0047-tpms/ots-parts/tee-fitting.md
         - Touchscreen (TPMS): designs/a-0047-tpms/ots-parts/touchscreen-tpms.md
+        - 250mm rail: designs/a-0047-tpms/ots-parts/250mm-rail.md
+        - 3-8 Ball: designs/a-0047-tpms/ots-parts/3-8-ball.md
+        - 3/4 dowel: designs/a-0047-tpms/ots-parts/3-4-dowel.md
+        - 4.5in screw: designs/a-0047-tpms/ots-parts/4-5in-screw.md
+        - "6\" Hinge": designs/a-0047-tpms/ots-parts/6-inch-hinge.md
+        - 67CP3220 (TPMS): designs/a-0047-tpms/ots-parts/67cp3220-tpms.md
+        - 7/16 Shoulder: designs/a-0047-tpms/ots-parts/7-16-shoulder.md
+        - 9lb spring: designs/a-0047-tpms/ots-parts/9lb-spring.md
+        - Detent Sprintg: designs/a-0047-tpms/ots-parts/detent-sprintg.md
+        - Elbow (TPMS): designs/a-0047-tpms/ots-parts/elbow-tpms.md
+        - F Elbow (TPMS): designs/a-0047-tpms/ots-parts/f-elbow-tpms.md
+        - GCX3105 (TPMS): designs/a-0047-tpms/ots-parts/gcx3105-tpms.md
+        - MDX1000_1500_Head: designs/a-0047-tpms/ots-parts/mdx1000-1500-head.md
+        - Manifold Block (TPMS): designs/a-0047-tpms/ots-parts/manifold-block-tpms.md
+        - Moonfish Tool Head 2.0: designs/a-0047-tpms/ots-parts/moonfish-tool-head-2-0.md
+        - NANUK_935_Bottom Shell_INNER SURFS_Step (TPMS): designs/a-0047-tpms/ots-parts/nanuk-935-bottom-shell-inner-surfs-step-tpms.md
+        - NANUK_935_Top Shell_INNER SURFS_Step (TPMS): designs/a-0047-tpms/ots-parts/nanuk-935-top-shell-inner-surfs-step-tpms.md
+        - New Valve (TPMS): designs/a-0047-tpms/ots-parts/new-valve-tpms.md
+        - Screen 2 (TPMS): designs/a-0047-tpms/ots-parts/screen-2-tpms.md
+        - TPMS PCBA Silh: designs/a-0047-tpms/ots-parts/tpms-pcba-silh.md
+        - pxc_1411244_00_01_A-INL-M32-N-S_3D: designs/a-0047-tpms/ots-parts/pxc-1411244-00-01-a-inl-m32-n-s-3d.md
+        - 655-1203-104F (TPMS): designs/a-0047-tpms/ots-parts/655-1203-104f-tpms.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md

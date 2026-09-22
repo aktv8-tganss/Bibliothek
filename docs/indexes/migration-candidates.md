@@ -231,6 +231,28 @@ A design is flagged when:
 | [Tee (TPMS)](../designs/a-0047-tpms/ots-parts/tee-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog tee outside `00 - Parts`; distinct from A-0026 PARTS |
 | [Tee Fitting](../designs/a-0047-tpms/ots-parts/tee-fitting.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog tee fitting outside `00 - Parts` |
 | [Touchscreen (TPMS)](../designs/a-0047-tpms/ots-parts/touchscreen-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog touchscreen outside `00 - Parts`; distinct from AEETES |
+| [250mm rail](../designs/a-0047-tpms/ots-parts/250mm-rail.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog rail outside `00 - Parts` |
+| [3-8 Ball](../designs/a-0047-tpms/ots-parts/3-8-ball.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog ball outside `00 - Parts` |
+| [3/4 dowel](../designs/a-0047-tpms/ots-parts/3-4-dowel.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog dowel outside `00 - Parts` |
+| [4.5in screw](../designs/a-0047-tpms/ots-parts/4-5in-screw.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog screw outside `00 - Parts` |
+| [6" Hinge](../designs/a-0047-tpms/ots-parts/6-inch-hinge.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog hinge outside `00 - Parts` |
+| [67CP3220 (TPMS)](../designs/a-0047-tpms/ots-parts/67cp3220-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog part outside `00 - Parts`; distinct from AEETES |
+| [7/16 Shoulder](../designs/a-0047-tpms/ots-parts/7-16-shoulder.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shoulder screw outside `00 - Parts` |
+| [9lb spring](../designs/a-0047-tpms/ots-parts/9lb-spring.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog spring outside `00 - Parts` |
+| [Detent Sprintg](../designs/a-0047-tpms/ots-parts/detent-sprintg.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog spring outside `00 - Parts`; Fusion name spelling preserved |
+| [Elbow (TPMS)](../designs/a-0047-tpms/ots-parts/elbow-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog elbow fitting outside `00 - Parts` |
+| [F Elbow (TPMS)](../designs/a-0047-tpms/ots-parts/f-elbow-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog female elbow fitting outside `00 - Parts` |
+| [GCX3105 (TPMS)](../designs/a-0047-tpms/ots-parts/gcx3105-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog fitting outside `00 - Parts`; distinct from PLT COMPS |
+| [MDX1000_1500_Head](../designs/a-0047-tpms/ots-parts/mdx1000-1500-head.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog head outside `00 - Parts` |
+| [Manifold Block (TPMS)](../designs/a-0047-tpms/ots-parts/manifold-block-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog manifold block outside `00 - Parts` |
+| [Moonfish Tool Head 2.0](../designs/a-0047-tpms/ots-parts/moonfish-tool-head-2-0.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog tool head outside `00 - Parts` |
+| [NANUK_935_Bottom Shell_INNER SURFS_Step (TPMS)](../designs/a-0047-tpms/ots-parts/nanuk-935-bottom-shell-inner-surfs-step-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog STEP surface outside `00 - Parts`; distinct from Lab PARTS |
+| [NANUK_935_Top Shell_INNER SURFS_Step (TPMS)](../designs/a-0047-tpms/ots-parts/nanuk-935-top-shell-inner-surfs-step-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog STEP surface outside `00 - Parts`; distinct from Lab PARTS |
+| [New Valve (TPMS)](../designs/a-0047-tpms/ots-parts/new-valve-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog valve outside `00 - Parts`; distinct from A-0054, AEETES, ORTHRUS |
+| [Screen 2 (TPMS)](../designs/a-0047-tpms/ots-parts/screen-2-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog screen outside `00 - Parts`; distinct from A-0054 |
+| [TPMS PCBA Silh](../designs/a-0047-tpms/ots-parts/tpms-pcba-silh.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog PCBA silhouette outside `00 - Parts` |
+| [pxc_1411244_00_01_A-INL-M32-N-S_3D](../designs/a-0047-tpms/ots-parts/pxc-1411244-00-01-a-inl-m32-n-s-3d.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog connector outside `00 - Parts` |
+| [655-1203-104F (TPMS)](../designs/a-0047-tpms/ots-parts/655-1203-104f-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog part outside `00 - Parts`; distinct from A-0026 PLT |
 
 ---
 
@@ -977,6 +999,48 @@ Batch 033 contains 31 designs under `A-0047 TPMS / OTS Parts`. All 31 are OTS pa
     - **Tee** — TPMS (`a360.co/3T5Ui4j`) distinct from A-0026 PARTS (`a360.co/4ydkdGC`)
     - **Touchscreen** — TPMS (`a360.co/4xQjfPG`) distinct from A-0026 AEETES (`a360.co/4A3qq9f`)
 
+### Assessment Notes (Batch 034)
+
+Batch 034 contains 22 designs under `A-0047 TPMS / OTS Parts`. All 22 are OTS parts outside `00 - Parts` and are **migration candidates**. This batch completes the A-0047 TPMS harvest.
+
+**Migration Candidates (22 of 22):**
+
+- **250mm rail** — OTS/catalog rail in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **3-8 Ball** — OTS/catalog ball in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **3/4 dowel** — OTS/catalog dowel in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **4.5in screw** — OTS/catalog screw in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **6" Hinge** — OTS/catalog hinge in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **67CP3220 (TPMS)** — OTS/catalog part in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 AEETES. **Migration candidate.**
+- **7/16 Shoulder** — OTS/catalog shoulder screw in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **9lb spring** — OTS/catalog spring in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Detent Sprintg** — OTS/catalog spring in A-0047 TPMS / OTS Parts outside `00 - Parts`; Fusion name spelling preserved. **Migration candidate.**
+- **Elbow (TPMS)** — OTS/catalog elbow fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **F Elbow (TPMS)** — OTS/catalog female elbow fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **GCX3105 (TPMS)** — OTS/catalog fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 PLT COMPS. **Migration candidate.**
+- **MDX1000_1500_Head** — OTS/catalog head in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Manifold Block (TPMS)** — OTS/catalog manifold block in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Moonfish Tool Head 2.0** — OTS/catalog tool head in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **NANUK_935_Bottom Shell_INNER SURFS_Step (TPMS)** — OTS/catalog STEP surface in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-9999 Lab PARTS. **Migration candidate.**
+- **NANUK_935_Top Shell_INNER SURFS_Step (TPMS)** — OTS/catalog STEP surface in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-9999 Lab PARTS. **Migration candidate.**
+- **New Valve (TPMS)** — OTS/catalog valve in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0054, A-0026 AEETES, and A-0026 ORTHRUS. **Migration candidate.**
+- **Screen 2 (TPMS)** — OTS/catalog screen in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0054 FFT / IO Box / Comps. **Migration candidate.**
+- **TPMS PCBA Silh** — OTS/catalog PCBA silhouette in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **pxc_1411244_00_01_A-INL-M32-N-S_3D** — OTS/catalog connector in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **655-1203-104F (TPMS)** — OTS/catalog part in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 PLT. **Migration candidate.**
+
+### Disambiguation Notes (Batch 034)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 034 designs have names that exist elsewhere in the Bibliothek with different shortlinks:
+
+    - **67CP3220** — TPMS (`a360.co/4xDh55C`) distinct from A-0026 AEETES (`a360.co/4iDNMfz`)
+    - **GCX3105** — TPMS (`a360.co/4ycYMW8`) distinct from A-0026 PLT COMPS (`a360.co/4xINJmq`)
+    - **NANUK_935_Bottom Shell_INNER SURFS_Step** — TPMS (`a360.co/4hq38SE`) distinct from A-9999 Lab PARTS (`a360.co/4rnSPmy`)
+    - **NANUK_935_Top Shell_INNER SURFS_Step** — TPMS (`a360.co/4AtIXM4`) distinct from A-9999 Lab PARTS (`a360.co/4jhSMqm`)
+    - **New Valve** — TPMS (`a360.co/4Au55Gk`) distinct from A-0054 (`a360.co/4ybIvRj`), A-0026 AEETES (`a360.co/4cZPPXB`), and A-0026 ORTHRUS (`a360.co/3V7sixP`)
+    - **Screen 2** — TPMS (`a360.co/4h0HcwX`) distinct from A-0054 (`a360.co/4xEFMPi`)
+    - **655-1203-104F** — TPMS (`a360.co/46zyPnz`) distinct from A-0026 PLT (`a360.co/4xwgW3X`)
+
 ---
 
-*222 migration candidates identified (+31 in batch 033).*
+*244 migration candidates identified (+22 in batch 034).*
