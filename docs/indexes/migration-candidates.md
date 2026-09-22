@@ -172,6 +172,8 @@ A design is flagged when:
 | [DTP04-4P-L012](../designs/a-9999-lab/gegenees/dtp04-4p-l012.md) | `A-9999 Lab / GEGENEES` | OTS-looking connector outside `00 - Parts` |
 | [RX24-200W-2ΩJ](../designs/a-9999-lab/gegenees/rx24-200w-2oj.md) | `A-9999 Lab / GEGENEES` | OTS-looking resistor outside `00 - Parts` |
 | [Locking Push Button](../designs/a-9999-lab/gegenees/locking-push-button.md) | `A-9999 Lab / GEGENEES` | OTS-looking button outside `00 - Parts` |
+| [CI16-FCI06](../designs/a-9999-lab/ci16-fci06.md) | `A-9999 Lab` | OTS-looking catalog part outside `00 - Parts` |
+| [Drill press - Ferm FTB-13M](../designs/a-9999-lab/drill-press-ferm-ftb-13m.md) | `A-9999 Lab` | OTS tool model outside `00 - Parts` |
 
 ---
 
@@ -729,4 +731,36 @@ Batch 023 contains 12 designs: 5 under GEGENEES root, 3 under Sterling CAN Contr
 
 ---
 
-*161 migration candidates identified (+1 in batch 023).*
+### Assessment Notes (Batch 024)
+
+Batch 024 contains 20 designs under `A-9999 Lab` (root Lab designs). 2 OTS migration candidates identified:
+
+**Migration Candidates (2 of 20):**
+
+- **CI16-FCI06** — OTS-looking catalog part in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+- **Drill press - Ferm FTB-13M** — OTS tool model in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (18 of 20):**
+
+- **Barn Layout** — Lab root design. Not an OTS part.
+- **Blower Cap** — Lab root design. Not an OTS part.
+- **Boat Pole Bracket** — Lab root design. Not an OTS part.
+- **Boat Tarp Cleat Grommet** — Lab root design. Not an OTS part.
+- **Boat Tarp Hanger** — Lab root design. Not an OTS part.
+- **Boat Tarp Hanger 2** — Lab root design. Not an OTS part.
+- **Boat flag holder** — Lab root design. Not an OTS part.
+- **Bushing** — Lab root design. Not an OTS part.
+- **Button Valve** — Lab root design. Not an OTS part.
+- **Compressor Packaging A** — Lab root design. Not an OTS part.
+- **Concept floating piston_X2** — Lab root design. Not an OTS part.
+- **Dyno Washer** — Lab root design. Not an OTS part.
+- **FHR Test Ruler** — Lab root design. Not an OTS part.
+- **Flex Plate** — Lab root design. Not an OTS part.
+- **Gen2 Plug Holder** — Lab root design. Not an OTS part.
+- **Hole Test** — Lab root design. Not an OTS part.
+- **Jart** — Lab root design. Not an OTS part.
+- **LA-S48037-3D model** — Lab root design. Not an OTS part.
+
+---
+
+*163 migration candidates identified (+2 in batch 024).*
