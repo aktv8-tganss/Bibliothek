@@ -35,6 +35,8 @@ Assemblies with non-empty component references (Uses).
 | [880253](../designs/a-0026-itm/880253.md) | 1 | [a360.co/4xOkGyF](https://a360.co/4xOkGyF) |
 | [880254](../designs/a-0026-itm/880254.md) | 1 | [a360.co/3SIoDG2](https://a360.co/3SIoDG2) |
 | [Go Gage](../designs/a-0026-itm/go-gage.md) | 1 | [a360.co/4xhyXmk](https://a360.co/4xhyXmk) |
+| [Acropora](../designs/a-0026-itm/acropora/acropora.md) | 6 | [a360.co/4ikZaNa](https://a360.co/4ikZaNa) |
+| [Motor Adapter PSI](../designs/a-0026-itm/aeetes/motor-adapter-psi.md) | 3 | [a360.co/3V5sLjZ](https://a360.co/3V5sLjZ) |
 
 ---
 
@@ -355,4 +357,27 @@ The Go Gage design references the following 1 component:
 
 ---
 
-*30 assemblies with BOM data indexed.*
+## Acropora — Bill of Materials
+
+The Acropora assembly references the following 6 components:
+
+1. iAir3 Generation 2 PCB HW4 2025.08.11.step
+2. Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 10-32 UNF x 0.5 Steel Grade 2 Plain
+3. [Dremel](../designs/a-0026-itm/acropora/dremel.md)
+4. [Shoulder Screw](../designs/a-0026-itm/acropora/shoulder-screw.md)
+5. Hexagon Socket Button Head Cap Screw ANSI B18.3 - #4-48 x 1/4 Steel Grade 2 Plain
+6. [Bur](../designs/a-0026-itm/acropora/bur.md)
+
+---
+
+## Motor Adapter PSI — Bill of Materials
+
+The Motor Adapter PSI assembly references the following 3 components:
+
+1. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.25 Steel Grade 2 Plain
+2. Tee Body Solid
+3. PSI Tee
+
+---
+
+*32 assemblies with BOM data indexed.*

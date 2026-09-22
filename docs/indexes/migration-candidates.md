@@ -70,6 +70,8 @@ A design is flagged when:
 | [Adafruit Proto Shield](../designs/a-0026-itm/adafruit-proto-shield.md) | `A-0026 iTM` | OTS/catalog shield outside `00 - Parts` |
 | [Dremel](../designs/a-0026-itm/acropora/dremel.md) | `A-0026 iTM / ACROPORA` | OTS tool model outside `00 - Parts` |
 | [Shoulder Screw](../designs/a-0026-itm/acropora/shoulder-screw.md) | `A-0026 iTM / ACROPORA` | OTS hardware outside `00 - Parts` |
+| [Acropora](../designs/a-0026-itm/acropora/acropora.md) | `A-0026 iTM / ACROPORA` | Assembly contains OTS fasteners outside `00 - Parts` |
+| [Motor Adapter PSI](../designs/a-0026-itm/aeetes/motor-adapter-psi.md) | `A-0026 iTM / AEETES` | OTS fastener + PSI Tee outside `00 - Parts` |
 
 ---
 
@@ -266,6 +268,36 @@ Non-candidates (product designs or custom parts):
 - **Bur** — ACROPORA design (no OTS note). Not flagged.
 - **AEETES Asm** — Assembly design. Not an OTS part.
 
+### Assessment Notes (Batch 011)
+
+Batch 011 contains 20 designs: 1 under ACROPORA and 19 under AEETES. 2 OTS migration candidates identified:
+
+**Migration Candidates (2 of 20):**
+
+- **Acropora** — Assembly with OTS fasteners (hex socket cap screws) in Uses outside `00 - Parts`. **Migration candidate.**
+- **Motor Adapter PSI** — Assembly with OTS fastener (hex socket cap screw) and PSI Tee in Uses outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (18 of 20):**
+
+- **AEETES Motor Adapter STEP** — STEP motor adapter. Not an OTS part.
+- **Base Bottom Plate** — AEETES plate design. Not an OTS part.
+- **Base Frame Plate** — AEETES plate design. Not an OTS part.
+- **Bearing ASM** — AEETES bearing assembly. Not an OTS part.
+- **Bearing Frame Plate** — AEETES plate design. Not an OTS part.
+- **Frame Nut** — AEETES custom part. Not an OTS part.
+- **Hall Bracket** — AEETES bracket design. Not an OTS part.
+- **Hose** — AEETES folder Hose (distinct from PARTS/Hose). Not an OTS part.
+- **Hose Holder M16** — AEETES holder design. Not an OTS part.
+- **Hose Holder PSI (AEETES)** — AEETES path, distinct from root Hose Holder PSI. Not an OTS part.
+- **Motor Adapter** — AEETES adapter design. Not an OTS part.
+- **Motor Adapter 3** — AEETES adapter design. Not an OTS part.
+- **Motor Shaft Sketch** — AEETES sketch design. Not an OTS part.
+- **Mounting Rail 1** — AEETES rail design. Not an OTS part.
+- **Mounting Rail 2** — AEETES rail design. Not an OTS part.
+- **Mounting Rail 3** — AEETES rail design. Not an OTS part.
+- **PSI Filter Fitting** — AEETES fitting design. Not an OTS part.
+- **Panel** — AEETES panel design. Not an OTS part.
+
 ---
 
 ## Referenced OTS / Commodity (Not Yet Harvested as Pages)
@@ -282,10 +314,18 @@ The following items appear in Uses fields and appear to be off-the-shelf commodi
 | Type I Cross Recessed Binding Head Machine Screw ANSI B18.6.3 4-48 UNF x 0.3125 Steel Grade 2 Plain | 3way Solenoid |
 | Knurled Nut DIN 467 - M5 Steel 6 Plain | 3way Solenoid |
 | Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.75 Steel Grade 2 Plain | CEPHALOPOD 1 |
+| Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 10-32 UNF x 0.5 Steel Grade 2 Plain | Acropora |
+| Hexagon Socket Button Head Cap Screw ANSI B18.3 - #4-48 x 1/4 Steel Grade 2 Plain | Acropora |
+| Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.25 Steel Grade 2 Plain | Motor Adapter PSI |
+| Tee Body Solid | Motor Adapter PSI |
+| PSI Tee | Motor Adapter PSI |
 
 !!! info "Commodity/Fastener Migration Interest"
     CEPHALOPOD 1's hex screw resolved outside A-0010 `00 - Parts` (project D20250922985047981) — flagged as commodity/fastener migration interest / pending harvest if not already listed.
 
+!!! info "Batch 011 Fastener Migration Interest"
+    Acropora and Motor Adapter PSI contain OTS fasteners (hex socket cap screws) and Tee components outside `00 - Parts` — flagged for potential migration.
+
 ---
 
-*57 migration candidates identified (+3 in batch 010).*
+*59 migration candidates identified (+2 in batch 011).*

@@ -17,7 +17,7 @@ ots_migration_candidate: false
 
 ## Notes
 
-No Design References. Note: AEETES folder also has Hose Holder PSI name.
+No Design References. Note: AEETES folder also has Hose Holder PSI name — see [Hose Holder PSI (AEETES)](aeetes/hose-holder-psi.md).
 
 ## Uses
 
