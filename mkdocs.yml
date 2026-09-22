@@ -29,6 +29,9 @@ theme:
 plugins:
   - search
 
+hooks:
+  - docs/graph/hooks.py
+
 markdown_extensions:
   - toc:
       permalink: true
@@ -134,3 +137,4 @@ nav:
     - BOM / Uses Index: indexes/bom-uses.md
     - Migration Candidates: indexes/migration-candidates.md
     - Leftovers: indexes/leftovers.md
+  - Graph: graph/index.md

@@ -1,6 +1,9 @@
 # MkDocs build output
 site/
 
+# Auto-generated graph data (rebuilt by hooks.py on each build)
+docs/graph/graph.json
+
 # Python
 __pycache__/
 *.py[cod]
