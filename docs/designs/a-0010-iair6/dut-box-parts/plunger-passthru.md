@@ -37,4 +37,4 @@ This design is used in the following assemblies:
 | # | Assembly |
 |---|----------|
 | 1 | [CEPHALOPOD 2](../cephalopod-2.md) |
-| 2 | FAST26 CUT CEPH |
+| 2 | [FAST26 CUT CEPH](../a8-parts/fast26-cut-ceph.md) |

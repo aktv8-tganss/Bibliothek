@@ -35,4 +35,4 @@ This design is used in the following assemblies:
 | # | Assembly |
 |---|----------|
 | 1 | [CEPHALOPOD 2](../cephalopod-2.md) |
-| 2 | CEPHALOPOD 1 |
+| 2 | [CEPHALOPOD 1](../obs/cephalopod-1.md) |

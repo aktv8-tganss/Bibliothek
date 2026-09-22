@@ -48,9 +48,20 @@ nav:
     - A-0010 iAir6:
       - CEPHALOPOD 2: designs/a-0010-iair6/cephalopod-2.md
       - FAST26 Clamping Jaws: designs/a-0010-iair6/fast26-clamping-jaws.md
+      - Heater - Tool: designs/a-0010-iair6/heater-tool.md
+      - iAir6 Durability Cart: designs/a-0010-iair6/iair6-durability-cart.md
       - A8 Parts:
         - 003234 X1a Manifold iAIR6: designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md
+        - 003237 X2 Cover iAir6: designs/a-0010-iair6/a8-parts/003237-x2-cover-iair6.md
         - 003270 FAST26: designs/a-0010-iair6/a8-parts/003270-fast26.md
+        - FAST26 CUT CEPH: designs/a-0010-iair6/a8-parts/fast26-cut-ceph.md
+        - FAST26 CUT PRINTABLE: designs/a-0010-iair6/a8-parts/fast26-cut-printable.md
+        - FAST26 CUT UP: designs/a-0010-iair6/a8-parts/fast26-cut-up.md
+        - FAST26 CUT UP 2: designs/a-0010-iair6/a8-parts/fast26-cut-up-2.md
+        - FAST26 CUT UP 3: designs/a-0010-iair6/a8-parts/fast26-cut-up-3.md
+        - FAST26 PCBA Points: designs/a-0010-iair6/a8-parts/fast26-pcba-points.md
+        - IA6_ReDesign_PCB_HW1_v2: designs/a-0010-iair6/a8-parts/ia6-redesign-pcb-hw1-v2.md
+        - OD-C1381-47 (VS-2W08E01): designs/a-0010-iair6/a8-parts/od-c1381-47-vs-2w08e01.md
       - DUT Box Parts:
         - 3way Solenoid: designs/a-0010-iair6/dut-box-parts/3way-solenoid.md
         - CEPHALOPOD 3: designs/a-0010-iair6/dut-box-parts/cephalopod-3.md
@@ -70,6 +81,12 @@ nav:
         - VMT Adapt Plate: designs/a-0010-iair6/dut-box-parts/vmt-adapt-plate.md
         - VMT Probe Carrier: designs/a-0010-iair6/dut-box-parts/vmt-probe-carrier.md
         - Valve mount: designs/a-0010-iair6/dut-box-parts/valve-mount.md
+      - Flash Runner:
+        - URCHIN: designs/a-0010-iair6/flash-runner/urchin.md
+      - Obs:
+        - CEPHALOPOD 1: designs/a-0010-iair6/obs/cephalopod-1.md
+        - IA6_PCB_ED: designs/a-0010-iair6/obs/ia6-pcb-ed.md
+        - iAir6 Manifold: designs/a-0010-iair6/obs/iair6-manifold.md
       - OTS Parts:
         - "1122740000": designs/a-0010-iair6/ots-parts/1122740000.md
         - 2 Pin: designs/a-0010-iair6/ots-parts/2-pin.md

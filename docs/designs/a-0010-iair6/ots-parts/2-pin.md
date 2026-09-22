@@ -4,8 +4,8 @@ project_path: AKTV8 LLC / A-0010 iAir6 / OTS parts / 2 Pin
 shortlink: https://a360.co/3TddMnJ
 uses: []
 used_in:
-  - CEPHALOPOD 1
   - Push Plate MFT
+  - CEPHALOPOD 1
 notes: "Outside 00 - Parts; migration candidate."
 ots_migration_candidate: true
 ---
@@ -34,5 +34,5 @@ This design is used in the following assemblies:
 
 | # | Assembly |
 |---|----------|
-| 1 | CEPHALOPOD 1 |
+| 1 | [CEPHALOPOD 1](../obs/cephalopod-1.md) |
 | 2 | [Push Plate MFT](../dut-box-parts/push-plate-mft.md) |
