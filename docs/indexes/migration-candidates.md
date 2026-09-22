@@ -88,6 +88,33 @@ A design is flagged when:
 | [5V3A](../designs/a-0026-itm/aeetes/ots-parts/5v3a.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS power supply outside `00 - Parts` |
 | [67CP3220](../designs/a-0026-itm/aeetes/ots-parts/67cp3220.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS part outside `00 - Parts` |
 | [ANMBEST 4-MOSFET](../designs/a-0026-itm/aeetes/ots-parts/anmbest-4-mosfet.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS MOSFET board outside `00 - Parts` |
+| [ArduinoMega_STEP_AP203](../designs/a-0026-itm/aeetes/ots-parts/arduinomega-step-ap203.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS Arduino STEP model outside `00 - Parts` |
+| [Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/cable-duct.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS cable duct outside `00 - Parts` |
+| [Compressor Motor](../designs/a-0026-itm/aeetes/ots-parts/compressor-motor.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS motor outside `00 - Parts` |
+| [Compressor Screw](../designs/a-0026-itm/aeetes/ots-parts/compressor-screw.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS hardware outside `00 - Parts` |
+| [Flow Control Exhaust](../designs/a-0026-itm/aeetes/ots-parts/flow-control-exhaust.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic component outside `00 - Parts` |
+| [Flow Valve (Out)](../designs/a-0026-itm/aeetes/ots-parts/flow-valve-out.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS valve outside `00 - Parts` |
+| [Frame Screw](../designs/a-0026-itm/aeetes/ots-parts/frame-screw.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS hardware outside `00 - Parts` |
+| [H Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/h-cable-duct.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS cable duct outside `00 - Parts` |
+| [KV2H03-34S](../designs/a-0026-itm/aeetes/ots-parts/kv2h03-34s.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [KV2H07-34S](../designs/a-0026-itm/aeetes/ots-parts/kv2h07-34s.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [KV2L07-34S (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/kv2l07-34s-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [KV2T07-34S (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/kv2t07-34s-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [Mini Regulator](../designs/a-0026-itm/aeetes/ots-parts/mini-regulator.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS regulator outside `00 - Parts` |
+| [Moonfish Base 2](../designs/a-0026-itm/aeetes/ots-parts/moonfish-base-2.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS assembly outside `00 - Parts` |
+| [Mount Screw](../designs/a-0026-itm/aeetes/ots-parts/mount-screw.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS hardware outside `00 - Parts` |
+| [New Valve (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/new-valve-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS valve outside `00 - Parts` |
+| [Push Nut](../designs/a-0026-itm/aeetes/ots-parts/push-nut.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS hardware outside `00 - Parts` |
+| [Raspberry Pi](../designs/a-0026-itm/aeetes/ots-parts/raspberry-pi.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS single-board computer outside `00 - Parts` |
+| [Rubber Washer](../designs/a-0026-itm/aeetes/ots-parts/rubber-washer.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS hardware outside `00 - Parts` |
+| [Snap-in Nut](../designs/a-0026-itm/aeetes/ots-parts/snap-in-nut.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS hardware outside `00 - Parts` |
+| [Touchscreen](../designs/a-0026-itm/aeetes/ots-parts/touchscreen.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS display outside `00 - Parts` |
+| [USB-TC](../designs/a-0026-itm/aeetes/ots-parts/usb-tc.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS thermocouple interface outside `00 - Parts` |
+| [Untitled (AEETES OTS)](../designs/a-0026-itm/aeetes/ots-parts/untitled-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS part outside `00 - Parts` |
+| [V Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/v-cable-duct.md) | `A-0026 iTM / AEETES / OTS Parts` | OTS cable duct outside `00 - Parts` |
+| [Hose Cutter](../designs/a-0026-itm/ots-parts/hose-cutter.md) | `A-0026 iTM / OTS Parts` | OTS outside `00 - Parts` |
+| [Dropper](../designs/a-0026-itm/ots-parts/dropper.md) | `A-0026 iTM / OTS Parts` | OTS outside `00 - Parts` |
+| [LUBER](../designs/a-0026-itm/ots-parts/luber.md) | `A-0026 iTM / OTS Parts` | OTS outside `00 - Parts` |
 
 ---
 
@@ -392,6 +419,33 @@ Batch 014 contains 24 designs under `A-0026 iTM / AEETES / OTS Parts`. All 24 ar
 - **Untitled (AEETES OTS)** — OTS part in project-specific folder; distinct from A-0010 Untitled. **Migration candidate.**
 - **V Cable Duct** — OTS cable duct (Used In: AEETES Ctrls). **Migration candidate.**
 
+### Assessment Notes (Batch 015)
+
+Batch 015 contains 17 designs across COMPS (1), OTS Parts (3), PLT (4), MTT03 (2), ORTHRUS (1), and PARTS (6). 3 OTS migration candidates identified:
+
+**Migration Candidates (3 of 17):**
+
+- **Hose Cutter** — OTS part in project-specific OTS Parts folder outside `00 - Parts`. **Migration candidate.**
+- **Dropper** — OTS part in project-specific OTS Parts folder outside `00 - Parts`. **Migration candidate.**
+- **LUBER** — OTS part in project-specific OTS Parts folder outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (14 of 17):**
+
+- **Horseshoe Cell** — COMPS assembly (Uses 7x72, 2x8, 2x6). Not an OTS part.
+- **HOSE FIXTURE** — PLT assembly (9 components). Not an OTS part.
+- **PLT HEAD_Plate** — PLT plate design. Not an OTS part.
+- **PLT HEAD** — PLT assembly (12 components). Not an OTS part.
+- **PLT INPUT ARRAY** — PLT assembly (7 components). Not an OTS part.
+- **Torque Jig** — MTT03 assembly (4 components). Not an OTS part.
+- **ORTHRUS** — ORTHRUS assembly (34 components). Not an OTS part.
+- **Wheel End ASM** — PARTS assembly. Not an OTS part.
+- **Tee** — PARTS product component. Not an OTS part.
+- **Tee Cap** — PARTS product component. Not an OTS part.
+- **Hose** — PARTS product component (distinct from AEETES/Hose). Not an OTS part.
+- **Tube Bridge** — PARTS product component. Not an OTS part.
+- **PSI Tee** — PARTS product component. Not an OTS part.
+- **TT03_12_50_100** — MTT03 design. Not an OTS part.
+
 ---
 
-*99 migration candidates identified (+24 in batch 014).*
+*102 migration candidates identified (+3 in batch 015).*

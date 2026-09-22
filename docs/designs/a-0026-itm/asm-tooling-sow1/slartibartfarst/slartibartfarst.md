@@ -24,7 +24,7 @@ ots_migration_candidate: false
 
 This design references the following 1 component:
 
-1. Tee
+1. [Tee](../../parts/tee.md)
 
 ## Used In
 

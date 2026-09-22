@@ -42,11 +42,11 @@ This design references the following 13 components:
 4. 2x8
 5. Seal Press
 6. 605 Press
-7. HOSE FIXTURE
+7. [HOSE FIXTURE](../plt/hose-fixture.md)
 8. 2x6
 9. 688 Press
-10. LUBER
-11. PLT HEAD
+10. [LUBER](../ots-parts/luber.md)
+11. [PLT HEAD](../plt/plt-head.md)
 12. 7x72
 13. Zange_kpl
 

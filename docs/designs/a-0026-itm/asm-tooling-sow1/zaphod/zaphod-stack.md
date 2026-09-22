@@ -29,7 +29,7 @@ ots_migration_candidate: false
 This design references the following 5 components:
 
 1. KV2L07-35S
-2. LUBER
+2. [LUBER](../../ots-parts/luber.md)
 3. [Zaph Mount](zaph-mount.md)
 4. [Zaphod Press Heads - Head 01](zaphod-press-heads-head-01.md)
 5. [Zaphod Press Heads - Head 02](zaphod-press-heads-head-02.md)

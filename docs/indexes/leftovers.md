@@ -298,47 +298,53 @@ All 24 designs from batch 014 were successfully indexed:
 23. ✓ Untitled
 24. ✓ V Cable Duct
 
+### Batch 015
+
+All 17 designs from batch 015 were successfully indexed:
+
+1. ✓ Horseshoe Cell
+2. ✓ Hose Cutter
+3. ✓ Dropper
+4. ✓ HOSE FIXTURE
+5. ✓ LUBER
+6. ✓ PLT HEAD_Plate
+7. ✓ PLT HEAD
+8. ✓ PLT INPUT ARRAY
+9. ✓ Torque Jig
+10. ✓ ORTHRUS
+11. ✓ Wheel End ASM
+12. ✓ Tee
+13. ✓ Tee Cap
+14. ✓ Hose (PARTS)
+15. ✓ Tube Bridge
+16. ✓ PSI Tee
+17. ✓ TT03_12_50_100
+
 ---
 
-## A-0026 iTM Remaining (After Batch 014)
+## A-0026 iTM Remaining (After Batch 015)
 
 !!! success "AEETES / OTS Parts Priority A Complete"
     The AEETES / OTS Parts Priority A folder is fully harvested with batches 013 and 014 (40 designs total).
 
-Approximately **69 designs** remain unharvested in A-0026 iTM. Key areas include:
+Approximately **52 designs** remain unharvested in A-0026 iTM. Key areas include:
 
-### Named leftovers (other folders)
-- Horseshoe Cell
-- Hose Cutter
-- Dropper
-- Support Press
-- Seal Press
-- 605 Press
-- HOSE FIXTURE
-- LUBER
-- PLT HEAD
-- Torque Jig
-- ORTHRUS (+ OTS PARTS/)
-- Wheel End ASM
-- Tube Bridge
-- PSI Tee
-- Tee
-- Tee Body Solid
-- Tee Cap
-- Hose (PARTS/)
-- IT03_12_50_100
-- KV2L07-35S
-- KQ2H03-34AS
-- 655-1203-104F
-- Fieldmann Ratchet Handle
-- 4 inch Drill Press Vice
-- STORAGE TOTE-14GAL
-- 2x8
-- 2x6
-- 688 Press
-- 7x72
-- Zange_kpl
-- Moonfish Base 2 child refs (Sensor Cradle, shoulders, dowels, Turret Base, Stepper, bearings, Worm Gear, Sensor Turret) — if they exist as designs
+### Failures / not found this pass
+- Support Press — no A-0026 Fusion Design result
+- Seal Press — no A-0026 Fusion Design result
+- 605 Press — no A-0026 Fusion Design result
+- KV2L07-35S — not separately located
+- KQ2H03-34AS — not separately located
+- 655-1203-104F — not separately located
+
+### Named leftovers still open
+- 2x8, 2x6, 7x72 (Used by Horseshoe Cell)
+- 688 Press, Fieldmann Ratchet Handle, 4 inch Drill Press Vice, STORAGE TOTE-14GAL, Zange_kpl
+- Tee Body Solid (PARTS — if still present)
+- Tee Leak Fixture, Hose Steel Adapter, TAZ B Dyno (referenced by Tee/Hose)
+- BRINGSMART MOTOR (Torque Jig Uses)
+- ORTHRUS OTS PARTS/ contents not inventoried this pass
+- ORTHRUS child refs (USB-2637, Samsung_T37F, Work Stand, fittings, Arduino_Uno_w/Shield, Motor Control PCBA, SCE-36N2408LP, 1500VA UPS, etc.)
 
 ### ASM TOOLING
 - OTS Parts/
@@ -349,27 +355,10 @@ Approximately **69 designs** remain unharvested in A-0026 iTM. Key areas include
 ### Jake - Print Copys
 - Piston Attachments and Parts/
 
-### MTT03
-- IT03_12_50_100
-- Torque Jig
-
-### PARTS
-- Hose
-- PSI Tee
-- Tee
-- Tee Body Solid
-- Tee Cap
-- Tube Bridge
-- Wheel End ASM
-
 ### PLT
-- 655-1203-104F
-- HOSE FIXTURE
-- PLT HEAD
-- PLT HEAD PLATE
-- PLT HEAD Plate
-- PLT INPUT ARRAY
+- PLT HEAD Plate (non-underscore variant if distinct)
 - COMPS/
+- 655-1203-104F if found
 
 ### Rachel
 - Carrier Stand 2.0
@@ -389,6 +378,5 @@ Approximately **69 designs** remain unharvested in A-0026 iTM. Key areas include
 - Thru Screw Terminal
 - USB Adapter
 - Whirlpool Motor
-- (54100-17X-02-A harvested under AEETES/OTS Parts batch 013 — confirm if TAZ 4 copy distinct)
 
-*This summary was updated from the remaining-after-014 harvest manifest.*
+*This summary was updated from the remaining-after-015 harvest manifest.*

@@ -296,11 +296,33 @@ nav:
           - Zaphod Press Heads - Head 01: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-01.md
           - Zaphod Press Heads - Head 02: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-02.md
           - Zaphod Stack: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-stack.md
+      - COMPS:
+        - Horseshoe Cell: designs/a-0026-itm/comps/horseshoe-cell.md
       - ENIGMA:
         - Dyno Assy: designs/a-0026-itm/enigma/dyno-assy.md
         - ENIGMA IV: designs/a-0026-itm/enigma/enigma-iv.md
       - MTT03:
         - TT03_10Z_20Z_50Z: designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md
+        - Torque Jig: designs/a-0026-itm/mtt03/torque-jig.md
+        - TT03_12_50_100: designs/a-0026-itm/mtt03/tt03-12-50-100.md
+      - ORTHRUS:
+        - ORTHRUS: designs/a-0026-itm/orthrus/orthrus.md
+      - OTS Parts:
+        - Hose Cutter: designs/a-0026-itm/ots-parts/hose-cutter.md
+        - Dropper: designs/a-0026-itm/ots-parts/dropper.md
+        - LUBER: designs/a-0026-itm/ots-parts/luber.md
+      - PARTS:
+        - Wheel End ASM: designs/a-0026-itm/parts/wheel-end-asm.md
+        - Tee: designs/a-0026-itm/parts/tee.md
+        - Tee Cap: designs/a-0026-itm/parts/tee-cap.md
+        - Hose: designs/a-0026-itm/parts/hose.md
+        - Tube Bridge: designs/a-0026-itm/parts/tube-bridge.md
+        - PSI Tee: designs/a-0026-itm/parts/psi-tee.md
+      - PLT:
+        - HOSE FIXTURE: designs/a-0026-itm/plt/hose-fixture.md
+        - PLT HEAD_Plate: designs/a-0026-itm/plt/plt-head-plate.md
+        - PLT HEAD: designs/a-0026-itm/plt/plt-head.md
+        - PLT INPUT ARRAY: designs/a-0026-itm/plt/plt-input-array.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md

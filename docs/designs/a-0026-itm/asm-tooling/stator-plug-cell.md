@@ -29,10 +29,10 @@ ots_migration_candidate: false
 
 This design references the following 6 components:
 
-1. Dropper
-2. LUBER
+1. [Dropper](../ots-parts/dropper.md)
+2. [LUBER](../ots-parts/luber.md)
 3. STORAGE TOTE-14GAL
-4. Horseshoe Cell
+4. [Horseshoe Cell](../comps/horseshoe-cell.md)
 5. Fieldmann Ratchet Handle
 6. 4 inch Drill Press Vice
 
