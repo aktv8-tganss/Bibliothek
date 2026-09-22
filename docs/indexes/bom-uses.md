@@ -149,7 +149,7 @@ The Lid Hinge assembly references the following 2 components:
 
 The Plunger Stop design references the following 1 component:
 
-1. 1/16 NPT Female
+1. [1/16 NPT Female](../designs/a-9999-lab/1-16-npt-female.md)
 
 ---
 
@@ -662,7 +662,7 @@ The Torque Jig assembly references the following 4 components:
 1. [Tee](../designs/a-0026-itm/parts/tee.md)
 2. Hexagon Socket Head Cap Screw ANSI B18.3 - 8-36 UNF x 1.25 Steel Grade 2 Plain
 3. [TT03_10Z_20Z_50Z](../designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md)
-4. BRINGSMART MOTOR
+4. [BRINGSMART MOTOR](../designs/a-9999-lab/bringsmart-motor.md)
 
 ---
 

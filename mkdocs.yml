@@ -432,6 +432,22 @@ nav:
         - USB Adapter: designs/a-0026-itm/taz-4/usb-adapter.md
         - Whirlpool Motor: designs/a-0026-itm/taz-4/whirlpool-motor.md
     - A-9999 Lab:
+      - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
+      - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md
+      - 000113 Link Tip tool: designs/a-9999-lab/000113-link-tip-tool.md
+      - "002790 Manifold, iAir3 TypeVIII TPP": designs/a-9999-lab/002790-manifold-iair3-typeviii-tpp.md
+      - "002793 Cover, iAir3 no-logo": designs/a-9999-lab/002793-cover-iair3-no-logo.md
+      - 003599 Tee cover v2: designs/a-9999-lab/003599-tee-cover-v2.md
+      - 003599 Tee cover v3 crosscut: designs/a-9999-lab/003599-tee-cover-v3-crosscut.md
+      - 003599 Tee cover v3 sidecut: designs/a-9999-lab/003599-tee-cover-v3-sidecut.md
+      - "1\" Flange": designs/a-9999-lab/1-inch-flange.md
+      - 1/16 NPT Female: designs/a-9999-lab/1-16-npt-female.md
+      - 31t gear: designs/a-9999-lab/31t-gear.md
+      - "5\" Shelf Bracket": designs/a-9999-lab/5-inch-shelf-bracket.md
+      - A71 Sleeve: designs/a-9999-lab/a71-sleeve.md
+      - Air Part Models: designs/a-9999-lab/air-part-models.md
+      - All: designs/a-9999-lab/all.md
+      - BRINGSMART MOTOR: designs/a-9999-lab/bringsmart-motor.md
       - PARTS:
         - 12V PSU: designs/a-9999-lab/parts/12v-psu.md
         - Gigadaq Mounting: designs/a-9999-lab/parts/gigadaq-mounting.md

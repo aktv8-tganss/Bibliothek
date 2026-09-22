@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (335 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (351 total)
 - [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (72 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (154 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (156 total)
 
 ## Design Tree
 
@@ -58,7 +58,8 @@ Browse designs by project folder:
         - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
-- **[A-9999 Lab](designs/a-9999-lab/parts/12v-psu.md)** — Lab project designs (4 designs)
+- **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (20 designs)
+    - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (16 designs, 2 OTS migration candidates)
     - [PARTS](designs/a-9999-lab/parts/12v-psu.md) — Lab PARTS (4 designs, GIGADAQ children)
 
 ## Batch Summary
@@ -85,8 +86,9 @@ Browse designs by project folder:
 | 018 | 16 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (8), ORTHRUS / OTS PARTS / ELEC (5), ORTHRUS / OTS PARTS (1), PLT / COMPS (2) — 14 OTS migration candidates |
 | 019 | 36 | A-0026 iTM: ORTHRUS / OTS PARTS / ELEC (13), ORTHRUS / OTS PARTS / PNEU (6), PLT / COMPS (13); A-9999 Lab / PARTS (4 GIGADAQ children) — 22 OTS migration candidates |
 | 020 | 1 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (1/4 1/8 NPT M Reducer) — 1 OTS migration candidate; mop-up concludes A-0026 |
+| 021 | 16 | A-9999 Lab root designs (16) — 2 OTS migration candidates; Lab NOT thin / MORE remain |
 
-**Total designs indexed: 335**
+**Total designs indexed: 351**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.

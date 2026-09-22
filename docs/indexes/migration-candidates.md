@@ -165,6 +165,8 @@ A design is flagged when:
 | [KV2H07-36S](../designs/a-0026-itm/plt/comps/kv2h07-36s.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
 | [KV2L07-99](../designs/a-0026-itm/plt/comps/kv2l07-99.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
 | [GCX3105](../designs/a-0026-itm/plt/comps/gcx3105.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
+| [1/16 NPT Female](../designs/a-9999-lab/1-16-npt-female.md) | `A-9999 Lab` | OTS outside `00 - Parts`; PN: 1456N134 |
+| [BRINGSMART MOTOR](../designs/a-9999-lab/bringsmart-motor.md) | `A-9999 Lab` | OTS outside `00 - Parts`; was phantom under A-0026, found in Lab |
 
 ---
 
@@ -640,6 +642,32 @@ Batch 020 contains 1 design: ORTHRUS / OTS PARTS / PNEU (1). 1 OTS migration can
 
 - **1/4 1/8 NPT M Reducer** — OTS pneumatic reducer fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
 
+### Assessment Notes (Batch 021)
+
+Batch 021 contains 16 designs under `A-9999 Lab` (root Lab designs). 2 OTS migration candidates identified:
+
+**Migration Candidates (2 of 16):**
+
+- **1/16 NPT Female** — OTS pneumatic fitting in A-9999 Lab root outside `00 - Parts`. PN: 1456N134_Medium-Pressure 316 Stainless Steel Threaded Pipe Fitting. Used In: Plunger Stop, TPMS G2 Tool v2. **Migration candidate.**
+- **BRINGSMART MOTOR** — OTS motor in A-9999 Lab root outside `00 - Parts`. Was phantom under A-0026; found in Lab. Used In: Torque Jig. **Migration candidate.**
+
+**Not Migration Candidates (14 of 16):**
+
+- **000003 Manifold, iAir3 Type I W1** — Lab root design. Not an OTS part.
+- **000004 Cover, iAir3 Air Lift** — Lab root design. Not an OTS part.
+- **000113 Link Tip tool** — Lab root tool design. Not an OTS part.
+- **002790 Manifold, iAir3 TypeVIII TPP** — Lab root design. Not an OTS part.
+- **002793 Cover, iAir3 no-logo** — Lab root design. Not an OTS part.
+- **003599 Tee cover v2** — Lab root design. Not an OTS part.
+- **003599 Tee cover v3 crosscut** — Lab root design. Not an OTS part.
+- **003599 Tee cover v3 sidecut** — Lab root design. Not an OTS part.
+- **1" Flange** — Lab root design. Not an OTS part.
+- **31t gear** — Lab root design. Not an OTS part.
+- **5" Shelf Bracket** — Lab root design. Not an OTS part.
+- **A71 Sleeve** — Lab root design. Not an OTS part.
+- **Air Part Models** — Lab root design. Not an OTS part.
+- **All** — Lab root design. Not an OTS part.
+
 ---
 
-*154 migration candidates identified (+1 in batch 020).*
+*156 migration candidates identified (+2 in batch 021).*
