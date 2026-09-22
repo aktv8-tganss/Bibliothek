@@ -461,6 +461,21 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Manifold 5 Block](../designs/a-0047-tpms/ots-parts/manifold-5-block.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4dpdlNR](https://a360.co/4dpdlNR) |
 | [Small Gauge](../designs/a-0047-tpms/ots-parts/small-gauge.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3T5N3cq](https://a360.co/3T5N3cq) |
 | [Small Valve](../designs/a-0047-tpms/ots-parts/small-valve.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4gNPuto](https://a360.co/4gNPuto) |
+| [1-4 bearing](../designs/a-0047-tpms/ots-parts/1-4-bearing.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xwtSXK](https://a360.co/4xwtSXK) |
+| [1-8 brass schrader](../designs/a-0047-tpms/ots-parts/1-8-brass-schrader.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xQIsKm](https://a360.co/4xQIsKm) |
+| [1/2 Barrel](../designs/a-0047-tpms/ots-parts/1-2-barrel.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3V5MvUD](https://a360.co/3V5MvUD) |
+| [Cable Duct (TPMS)](../designs/a-0047-tpms/ots-parts/cable-duct-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3VtvsvT](https://a360.co/3VtvsvT) |
+| [Cylinder (TPMS)](../designs/a-0047-tpms/ots-parts/cylinder-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4jii73s](https://a360.co/4jii73s) |
+| [Finger Stud](../designs/a-0047-tpms/ots-parts/finger-stud.md) | `A-0047 TPMS / OTS Parts` | [a360.co/46SHbGK](https://a360.co/46SHbGK) |
+| [Gauge](../designs/a-0047-tpms/ots-parts/gauge.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4xjfFwY](https://a360.co/4xjfFwY) |
+| [NUC Pro Chassis](../designs/a-0047-tpms/ots-parts/nuc-pro-chassis.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4rjt2Mv](https://a360.co/4rjt2Mv) |
+| [Schrader Fitting](../designs/a-0047-tpms/ots-parts/schrader-fitting.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3T5MOhw](https://a360.co/3T5MOhw) |
+| [Stepper](../designs/a-0047-tpms/ots-parts/stepper.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3USfPhm](https://a360.co/3USfPhm) |
+| [Worm Shaft](../designs/a-0047-tpms/ots-parts/worm-shaft.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4r7bnY9](https://a360.co/4r7bnY9) |
+| [1/2 Dowel](../designs/a-0047-tpms/ots-parts/1-2-dowel.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4gPTKZu](https://a360.co/4gPTKZu) |
+| [1/2 linear bearing](../designs/a-0047-tpms/ots-parts/1-2-linear-bearing.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3SY6xjo](https://a360.co/3SY6xjo) |
+| [1/2 shoulder](../designs/a-0047-tpms/ots-parts/1-2-shoulder.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4dxTig9](https://a360.co/4dxTig9) |
+| [1/4 Shoulder](../designs/a-0047-tpms/ots-parts/1-4-shoulder.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3SZQ7qw](https://a360.co/3SZQ7qw) |
 | [Clam ASM](../designs/a-0047-tpms/clam/clam-asm.md) | `A-0047 TPMS / Clam` | [a360.co/4xh3oJp](https://a360.co/4xh3oJp) |
 | [Clam DIN PD](../designs/a-0047-tpms/clam/clam-din-pd.md) | `A-0047 TPMS / Clam` | [a360.co/4xM3MRb](https://a360.co/4xM3MRb) |
 | [Clam DIN PSU](../designs/a-0047-tpms/clam/clam-din-psu.md) | `A-0047 TPMS / Clam` | [a360.co/4AagB9E](https://a360.co/4AagB9E) |
@@ -535,4 +550,4 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 
 ---
 
-*528 designs indexed.*
+*543 designs indexed.*

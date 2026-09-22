@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (528 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (543 total)
 - [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (105 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (176 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (191 total)
 
 ## Design Tree
 
@@ -58,7 +58,7 @@ Browse designs by project folder:
         - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
-- **[A-0047 TPMS](designs/a-0047-tpms/003501-thru-assembly.md)** — TPMS project designs (86 designs)
+- **[A-0047 TPMS](designs/a-0047-tpms/003501-thru-assembly.md)** — TPMS project designs (101 designs)
     - [Root Designs](designs/a-0047-tpms/003501-thru-assembly.md) — TPMS root designs (10 designs)
     - [Clam](designs/a-0047-tpms/clam/clam-asm.md) — Clam subfolder (8 designs)
     - [Flash Runner](designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md) — Flash Runner designs (2 designs)
@@ -70,7 +70,7 @@ Browse designs by project folder:
         - [Obs](designs/a-0047-tpms/moonfish/obs/moonfish-asm.md) — Moonfish / Obs nested subfolder (9 designs)
     - [Obs](designs/a-0047-tpms/obs/battery-spacing-blanks.md) — Obs subfolder (4 designs)
     - [Stepper Control](designs/a-0047-tpms/stepper-control/stepper-enclosure.md) — Stepper Control subfolder (4 designs)
-    - [OTS Parts](designs/a-0047-tpms/ots-parts/ball-valve.md) — OTS Parts subfolder (5 designs, all migration candidates)
+    - [OTS Parts](designs/a-0047-tpms/ots-parts/ball-valve.md) — OTS Parts subfolder (20 designs, all migration candidates)
 - **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
     - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
@@ -114,8 +114,9 @@ Browse designs by project folder:
 | 029 | 19 | A-0047 TPMS: Clam (5), Limpet (7), Mantis (7) — product designs; no new OTS candidates; MORE remain |
 | 030 | 19 | A-0047 TPMS: Mantis 2 (6), Mantis 2 / Obs (8), Moonfish (5) — product designs; no new OTS candidates |
 | 031 | 18 | A-0047 TPMS: Obs (2), Stepper Control (3), Moonfish / Obs (9), Mantis 2 (4) — product designs; 2 OTS migration candidates |
+| 032 | 15 | A-0047 TPMS: OTS Parts (15) — all 15 are OTS migration candidates; OTS continues |
 
-**Total designs indexed: 528**
+**Total designs indexed: 543**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
@@ -124,7 +125,7 @@ Browse designs by project folder:
     A-9999 Lab harvest declared COMPLETE by Otto on 2026-09-22 after batches 019 (GIGADAQ children) + 021–026. Known debt: PCBA Gauge iAir6 V2 phantom (no Fusion search hit). See [leftovers index](indexes/leftovers.md) for details.
 
 !!! info "A-0047 TPMS — MORE remain"
-    A-0047 TPMS harvest continues. Batch 031 added Obs (2), Stepper Control (3), Moonfish/Obs nested (9), Mantis 2 siblings (4). OTS Parts still largely open. See [leftovers index](indexes/leftovers.md) for details.
+    A-0047 TPMS harvest continues. Batch 032 added OTS Parts (15). Substantial OTS catalog parts still open (Charlotte ticket 033). See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 
