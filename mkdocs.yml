@@ -448,6 +448,26 @@ nav:
       - Air Part Models: designs/a-9999-lab/air-part-models.md
       - All: designs/a-9999-lab/all.md
       - BRINGSMART MOTOR: designs/a-9999-lab/bringsmart-motor.md
+      - GEGENEES:
+        - 10g Wire Strain Relief: designs/a-9999-lab/gegenees/10g-wire-strain-relief.md
+        - 6 DUT Assem: designs/a-9999-lab/gegenees/6-dut-assem.md
+        - 6 Pole BussBar: designs/a-9999-lab/gegenees/6-pole-bussbar.md
+        - CAN Channel Setup: designs/a-9999-lab/gegenees/can-channel-setup.md
+        - CAN Pal: designs/a-9999-lab/gegenees/can-pal.md
+        - DB9: designs/a-9999-lab/gegenees/db9.md
+        - DB9_pins_assy: designs/a-9999-lab/gegenees/db9-pins-assy.md
+        - DTP04-4P-L012: designs/a-9999-lab/gegenees/dtp04-4p-l012.md
+        - Face Plate: designs/a-9999-lab/gegenees/face-plate.md
+        - Front Panel Assem: designs/a-9999-lab/gegenees/front-panel-assem.md
+        - GEN2 PROC MODULE (GEGENEES): designs/a-9999-lab/gegenees/gen2-proc-module-gegenees.md
+        - LED Light: designs/a-9999-lab/gegenees/led-light.md
+        - Locking Push Button: designs/a-9999-lab/gegenees/locking-push-button.md
+        - Main Tray: designs/a-9999-lab/gegenees/main-tray.md
+        - Mounting rail 1 (GEGENEES): designs/a-9999-lab/gegenees/mounting-rail-1-gegenees.md
+        - Proto-Half_v2.1: designs/a-9999-lab/gegenees/proto-half-v2-1.md
+        - "RX24-200W-2\u03A9J": designs/a-9999-lab/gegenees/rx24-200w-2oj.md
+        - Sterling CAN Controller:
+          - Sterling 6 DUT Controller: designs/a-9999-lab/gegenees/sterling-can-controller/sterling-6-dut-controller.md
       - PARTS:
         - 12V PSU: designs/a-9999-lab/parts/12v-psu.md
         - Gigadaq Mounting: designs/a-9999-lab/parts/gigadaq-mounting.md

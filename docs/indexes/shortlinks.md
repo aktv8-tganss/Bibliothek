@@ -355,7 +355,25 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Air Part Models](../designs/a-9999-lab/air-part-models.md) | `A-9999 Lab` | [a360.co/4A7MsYs](https://a360.co/4A7MsYs) |
 | [All](../designs/a-9999-lab/all.md) | `A-9999 Lab` | [a360.co/4ijeaLx](https://a360.co/4ijeaLx) |
 | [BRINGSMART MOTOR](../designs/a-9999-lab/bringsmart-motor.md) | `A-9999 Lab` | [a360.co/4iRzQ1u](https://a360.co/4iRzQ1u) |
+| [10g Wire Strain Relief](../designs/a-9999-lab/gegenees/10g-wire-strain-relief.md) | `A-9999 Lab / GEGENEES` | [a360.co/46RCTPZ](https://a360.co/46RCTPZ) |
+| [6 DUT Assem](../designs/a-9999-lab/gegenees/6-dut-assem.md) | `A-9999 Lab / GEGENEES` | [a360.co/4xpVlu2](https://a360.co/4xpVlu2) |
+| [6 Pole BussBar](../designs/a-9999-lab/gegenees/6-pole-bussbar.md) | `A-9999 Lab / GEGENEES` | [a360.co/3Ttmcr0](https://a360.co/3Ttmcr0) |
+| [CAN Channel Setup](../designs/a-9999-lab/gegenees/can-channel-setup.md) | `A-9999 Lab / GEGENEES` | [a360.co/4AaUJeh](https://a360.co/4AaUJeh) |
+| [CAN Pal](../designs/a-9999-lab/gegenees/can-pal.md) | `A-9999 Lab / GEGENEES` | [a360.co/3UOuKt1](https://a360.co/3UOuKt1) |
+| [DB9](../designs/a-9999-lab/gegenees/db9.md) | `A-9999 Lab / GEGENEES` | [a360.co/3VrMxX1](https://a360.co/3VrMxX1) |
+| [DB9_pins_assy](../designs/a-9999-lab/gegenees/db9-pins-assy.md) | `A-9999 Lab / GEGENEES` | [a360.co/4xWSREC](https://a360.co/4xWSREC) |
+| [DTP04-4P-L012](../designs/a-9999-lab/gegenees/dtp04-4p-l012.md) | `A-9999 Lab / GEGENEES` | [a360.co/4gMpfUe](https://a360.co/4gMpfUe) |
+| [Face Plate](../designs/a-9999-lab/gegenees/face-plate.md) | `A-9999 Lab / GEGENEES` | [a360.co/4ycs6ft](https://a360.co/4ycs6ft) |
+| [Front Panel Assem](../designs/a-9999-lab/gegenees/front-panel-assem.md) | `A-9999 Lab / GEGENEES` | [a360.co/4gXLTrr](https://a360.co/4gXLTrr) |
+| [GEN2 PROC MODULE (GEGENEES)](../designs/a-9999-lab/gegenees/gen2-proc-module-gegenees.md) | `A-9999 Lab / GEGENEES` | [a360.co/4hCZje1](https://a360.co/4hCZje1) |
+| [LED Light](../designs/a-9999-lab/gegenees/led-light.md) | `A-9999 Lab / GEGENEES` | [a360.co/3SYboB8](https://a360.co/3SYboB8) |
+| [Locking Push Button](../designs/a-9999-lab/gegenees/locking-push-button.md) | `A-9999 Lab / GEGENEES` | [a360.co/3TtmSg2](https://a360.co/3TtmSg2) |
+| [Main Tray](../designs/a-9999-lab/gegenees/main-tray.md) | `A-9999 Lab / GEGENEES` | [a360.co/46gTIUr](https://a360.co/46gTIUr) |
+| [Mounting rail 1 (GEGENEES)](../designs/a-9999-lab/gegenees/mounting-rail-1-gegenees.md) | `A-9999 Lab / GEGENEES` | [a360.co/4rrJKsP](https://a360.co/4rrJKsP) |
+| [Proto-Half_v2.1](../designs/a-9999-lab/gegenees/proto-half-v2-1.md) | `A-9999 Lab / GEGENEES` | [a360.co/4dAO1ED](https://a360.co/4dAO1ED) |
+| [RX24-200W-2ΩJ](../designs/a-9999-lab/gegenees/rx24-200w-2oj.md) | `A-9999 Lab / GEGENEES` | [a360.co/4hoXNMk](https://a360.co/4hoXNMk) |
+| [Sterling 6 DUT Controller](../designs/a-9999-lab/gegenees/sterling-can-controller/sterling-6-dut-controller.md) | `A-9999 Lab / GEGENEES / Sterling CAN Controller` | [a360.co/4yqtmLE](https://a360.co/4yqtmLE) |
 
 ---
 
-*351 designs indexed.*
+*369 designs indexed.*

@@ -489,17 +489,56 @@ All 16 designs from batch 021 were successfully indexed:
 15. ✓ All
 16. ✓ BRINGSMART MOTOR
 
-### A-9999 Lab remaining after batch 021
+### Batch 022
+
+All 18 designs from batch 022 were successfully indexed:
+
+1. ✓ 10g Wire Strain Relief
+2. ✓ 6 DUT Assem
+3. ✓ 6 Pole BussBar
+4. ✓ CAN Channel Setup
+5. ✓ CAN Pal
+6. ✓ DB9
+7. ✓ DB9_pins_assy
+8. ✓ DTP04-4P-L012
+9. ✓ Face Plate
+10. ✓ Front Panel Assem
+11. ✓ GEN2 PROC MODULE (GEGENEES)
+12. ✓ LED Light
+13. ✓ Locking Push Button
+14. ✓ Main Tray
+15. ✓ Mounting rail 1 (GEGENEES)
+16. ✓ Proto-Half_v2.1
+17. ✓ RX24-200W-2ΩJ
+18. ✓ Sterling 6 DUT Controller
+
+### A-9999 Lab remaining after batch 022
 
 !!! info "A-9999 Lab: MORE remain"
     A-9999 Lab is NOT thin — significant designs remain unharvested.
 
+**GEGENEES still open:**
+
+- RMCS190513, RMCS190713, Teensy CAN Assem Holder, Teensy CAN Standoff, c-dt04-4p-l012-a-3d
+- GEGENEES LITE / Face Plate (duplicate)
+- Sterling CAN Controller other contents (not fully enumerated)
+
+**GIGADAQ/PARTS (deferred — batch capped at GEGENEES):**
+
+- Mounting rail 1, USB-2637 (NANUK shells / 12V PSU / Gigadaq Mounting already in batch 019)
+
 **Folders:**
 
-- GEGENEES/ (GEGENEES LITE, Sterling CAN Controller, many designs — unharvested)
-- GIGADAQ/PARTS/: Mounting rail 1, USB-2637 (NANUK/12V PSU/Gigadaq Mounting already harvested)
 - TEAM PRINTS/
 
 **Root remaining (sample):**
 
 Barn Layout, Blower Cap, Boat* parts, Bushing, Button Valve, CI16-FCI06, CP Reg Assy, Compressor Packaging A, Concept floating piston_X2, Drill press - Ferm FTB-13M, Dyno Washer, FHR Test Ruler, Flex Plate, Gen2 Plug Holder, Hole Test, Jart, LA-S48037-3D model, Light Arcade Switch, M16x1 to 1/4NPT Adapter, Magnum Trunk, Marble Run Support*, PCBA Gauge iAir6 V2, PI Case, STAY STRAPPED, Segger Module, Sound Deadening Chamber, Stool v5, Switch, Table Top, Tag, Untitled, Wheel End Test Stand Assembly - Copy, c-* connectors, iTM Axle Hose Install Tool, m16x1 thread, metal_tag_laser_fixture_round_relieved_largefinger
+
+### Disambiguation Notes (Batch 022)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 022 designs share names with existing designs but have distinct shortlinks and project paths:
+
+    - **GEN2 PROC MODULE** — GEGENEES copy (`a360.co/4hCZje1`) distinct from A-0054 (`a360.co/4A3LrAI`)
+    - **Mounting rail 1** — GEGENEES (`a360.co/4rrJKsP`) distinct from A-0054/FFT/IO Box (`a360.co/4h80zFX`), SOW1 COMPS (`a360.co/4h7kPGr`), AEETES (`a360.co/4iZPPdO`), etc.
