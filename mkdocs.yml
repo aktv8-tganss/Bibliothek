@@ -307,6 +307,15 @@ nav:
         - TT03_12_50_100: designs/a-0026-itm/mtt03/tt03-12-50-100.md
       - ORTHRUS:
         - ORTHRUS: designs/a-0026-itm/orthrus/orthrus.md
+        - OTS Parts:
+          - SCE-36N2408LP: designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md
+          - Work Stand: designs/a-0026-itm/orthrus/ots-parts/work-stand.md
+          - PNEU:
+            - 1500VA UPS: designs/a-0026-itm/orthrus/ots-parts/pneu/1500va-ups.md
+          - ELEC:
+            - Samsung_T37F: designs/a-0026-itm/orthrus/ots-parts/elec/samsung-t37f.md
+            - USB-2637: designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md
+            - Motor Control PCBA: designs/a-0026-itm/orthrus/ots-parts/elec/motor-control-pcba.md
       - OTS Parts:
         - Hose Cutter: designs/a-0026-itm/ots-parts/hose-cutter.md
         - Dropper: designs/a-0026-itm/ots-parts/dropper.md
@@ -323,6 +332,23 @@ nav:
         - PLT HEAD_Plate: designs/a-0026-itm/plt/plt-head-plate.md
         - PLT HEAD: designs/a-0026-itm/plt/plt-head.md
         - PLT INPUT ARRAY: designs/a-0026-itm/plt/plt-input-array.md
+      - Rachel:
+        - Carrier Stand 2.0: designs/a-0026-itm/rachel/carrier-stand-2-0.md
+        - MARVIN OVERHAND 3 v28: designs/a-0026-itm/rachel/marvin-overhand-3-v28.md
+        - Pin Gauge Holder: designs/a-0026-itm/rachel/pin-gauge-holder.md
+        - Taz: designs/a-0026-itm/rachel/taz.md
+        - Taz 2.0: designs/a-0026-itm/rachel/taz-2-0.md
+      - TAZ 4:
+        - Arduino_Uno: designs/a-0026-itm/taz-4/arduino-uno.md
+        - Arduino_Uno_w/Shield: designs/a-0026-itm/taz-4/arduino-uno-w-shield.md
+        - Motor Controller: designs/a-0026-itm/taz-4/motor-controller.md
+        - ST-PROTO-1-2_3d: designs/a-0026-itm/taz-4/st-proto-1-2-3d.md
+        - TAZ Controller: designs/a-0026-itm/taz-4/taz-controller.md
+        - TAZ DYNO BRACKET: designs/a-0026-itm/taz-4/taz-dyno-bracket.md
+        - TAZ Dyno Cabinet: designs/a-0026-itm/taz-4/taz-dyno-cabinet.md
+        - Thru Screw Terminal: designs/a-0026-itm/taz-4/thru-screw-terminal.md
+        - USB Adapter: designs/a-0026-itm/taz-4/usb-adapter.md
+        - Whirlpool Motor: designs/a-0026-itm/taz-4/whirlpool-motor.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md

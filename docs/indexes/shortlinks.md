@@ -243,7 +243,28 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Tube Bridge](../designs/a-0026-itm/parts/tube-bridge.md) | `A-0026 iTM / PARTS` | [a360.co/4xh0tQX](https://a360.co/4xh0tQX) |
 | [PSI Tee](../designs/a-0026-itm/parts/psi-tee.md) | `A-0026 iTM / PARTS` | [a360.co/4y4iTpi](https://a360.co/4y4iTpi) |
 | [TT03_12_50_100](../designs/a-0026-itm/mtt03/tt03-12-50-100.md) | `A-0026 iTM / MTT03` | [a360.co/4Aaq9RS](https://a360.co/4Aaq9RS) |
+| [Carrier Stand 2.0](../designs/a-0026-itm/rachel/carrier-stand-2-0.md) | `A-0026 iTM / Rachel` | [a360.co/46VK61t](https://a360.co/46VK61t) |
+| [MARVIN OVERHAND 3 v28](../designs/a-0026-itm/rachel/marvin-overhand-3-v28.md) | `A-0026 iTM / Rachel` | [a360.co/4j3krLt](https://a360.co/4j3krLt) |
+| [Pin Gauge Holder](../designs/a-0026-itm/rachel/pin-gauge-holder.md) | `A-0026 iTM / Rachel` | [a360.co/4xoxhrc](https://a360.co/4xoxhrc) |
+| [Taz](../designs/a-0026-itm/rachel/taz.md) | `A-0026 iTM / Rachel` | [a360.co/4h51tBz](https://a360.co/4h51tBz) |
+| [Taz 2.0](../designs/a-0026-itm/rachel/taz-2-0.md) | `A-0026 iTM / Rachel` | [a360.co/4iXK3JO](https://a360.co/4iXK3JO) |
+| [Arduino_Uno](../designs/a-0026-itm/taz-4/arduino-uno.md) | `A-0026 iTM / TAZ 4` | [a360.co/4h4pskr](https://a360.co/4h4pskr) |
+| [Arduino_Uno_w/Shield](../designs/a-0026-itm/taz-4/arduino-uno-w-shield.md) | `A-0026 iTM / TAZ 4` | [a360.co/4rbS7sk](https://a360.co/4rbS7sk) |
+| [Motor Controller](../designs/a-0026-itm/taz-4/motor-controller.md) | `A-0026 iTM / TAZ 4` | [a360.co/4y2ZNzU](https://a360.co/4y2ZNzU) |
+| [ST-PROTO-1-2_3d](../designs/a-0026-itm/taz-4/st-proto-1-2-3d.md) | `A-0026 iTM / TAZ 4` | [a360.co/4yCTFy3](https://a360.co/4yCTFy3) |
+| [TAZ Controller](../designs/a-0026-itm/taz-4/taz-controller.md) | `A-0026 iTM / TAZ 4` | [a360.co/46ZuYA8](https://a360.co/46ZuYA8) |
+| [TAZ DYNO BRACKET](../designs/a-0026-itm/taz-4/taz-dyno-bracket.md) | `A-0026 iTM / TAZ 4` | [a360.co/3UWgDBQ](https://a360.co/3UWgDBQ) |
+| [TAZ Dyno Cabinet](../designs/a-0026-itm/taz-4/taz-dyno-cabinet.md) | `A-0026 iTM / TAZ 4` | [a360.co/4iDJkNR](https://a360.co/4iDJkNR) |
+| [Thru Screw Terminal](../designs/a-0026-itm/taz-4/thru-screw-terminal.md) | `A-0026 iTM / TAZ 4` | [a360.co/4dwtdOv](https://a360.co/4dwtdOv) |
+| [USB Adapter](../designs/a-0026-itm/taz-4/usb-adapter.md) | `A-0026 iTM / TAZ 4` | [a360.co/4iv8yxN](https://a360.co/4iv8yxN) |
+| [Whirlpool Motor](../designs/a-0026-itm/taz-4/whirlpool-motor.md) | `A-0026 iTM / TAZ 4` | [a360.co/4rvEuVr](https://a360.co/4rvEuVr) |
+| [SCE-36N2408LP](../designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | [a360.co/3SDgO4s](https://a360.co/3SDgO4s) |
+| [Work Stand](../designs/a-0026-itm/orthrus/ots-parts/work-stand.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | [a360.co/4A8uIft](https://a360.co/4A8uIft) |
+| [1500VA UPS](../designs/a-0026-itm/orthrus/ots-parts/pneu/1500va-ups.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/3UMkBx2](https://a360.co/3UMkBx2) |
+| [Samsung_T37F](../designs/a-0026-itm/orthrus/ots-parts/elec/samsung-t37f.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4iXW0PA](https://a360.co/4iXW0PA) |
+| [USB-2637](../designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4ipqppZ](https://a360.co/4ipqppZ) |
+| [Motor Control PCBA](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-control-pcba.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4y1iqUT](https://a360.co/4y1iqUT) |
 
 ---
 
-*239 designs indexed.*
+*260 designs indexed.*

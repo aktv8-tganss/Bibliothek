@@ -115,6 +115,15 @@ A design is flagged when:
 | [Hose Cutter](../designs/a-0026-itm/ots-parts/hose-cutter.md) | `A-0026 iTM / OTS Parts` | OTS outside `00 - Parts` |
 | [Dropper](../designs/a-0026-itm/ots-parts/dropper.md) | `A-0026 iTM / OTS Parts` | OTS outside `00 - Parts` |
 | [LUBER](../designs/a-0026-itm/ots-parts/luber.md) | `A-0026 iTM / OTS Parts` | OTS outside `00 - Parts` |
+| [Arduino_Uno](../designs/a-0026-itm/taz-4/arduino-uno.md) | `A-0026 iTM / TAZ 4` | Likely OTS outside `00 - Parts` |
+| [Arduino_Uno_w/Shield](../designs/a-0026-itm/taz-4/arduino-uno-w-shield.md) | `A-0026 iTM / TAZ 4` | Likely OTS outside `00 - Parts` |
+| [Whirlpool Motor](../designs/a-0026-itm/taz-4/whirlpool-motor.md) | `A-0026 iTM / TAZ 4` | Likely OTS outside `00 - Parts` |
+| [SCE-36N2408LP](../designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts` |
+| [Work Stand](../designs/a-0026-itm/orthrus/ots-parts/work-stand.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts` |
+| [1500VA UPS](../designs/a-0026-itm/orthrus/ots-parts/pneu/1500va-ups.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [Samsung_T37F](../designs/a-0026-itm/orthrus/ots-parts/elec/samsung-t37f.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [USB-2637](../designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [Motor Control PCBA](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-control-pcba.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
 
 ---
 
@@ -446,6 +455,37 @@ Batch 015 contains 17 designs across COMPS (1), OTS Parts (3), PLT (4), MTT03 (2
 - **PSI Tee** — PARTS product component. Not an OTS part.
 - **TT03_12_50_100** — MTT03 design. Not an OTS part.
 
+### Assessment Notes (Batch 016)
+
+Batch 016 contains 21 designs: Rachel (5), TAZ 4 (10), ORTHRUS / OTS PARTS (6). 9 OTS migration candidates identified:
+
+**Migration Candidates (9 of 21):**
+
+- **Arduino_Uno** — Likely OTS Arduino board in TAZ 4 folder outside `00 - Parts`. **Migration candidate.**
+- **Arduino_Uno_w/Shield** — Likely OTS Arduino with shield in TAZ 4 folder outside `00 - Parts`. **Migration candidate.**
+- **Whirlpool Motor** — Likely OTS motor in TAZ 4 folder outside `00 - Parts`. **Migration candidate.**
+- **SCE-36N2408LP** — OTS enclosure in ORTHRUS / OTS PARTS folder outside `00 - Parts`. **Migration candidate.**
+- **Work Stand** — OTS stand in ORTHRUS / OTS PARTS folder outside `00 - Parts`. **Migration candidate.**
+- **1500VA UPS** — OTS UPS in ORTHRUS / OTS PARTS / PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **Samsung_T37F** — OTS display in ORTHRUS / OTS PARTS / ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **USB-2637** — OTS USB DAQ in ORTHRUS / OTS PARTS / ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **Motor Control PCBA** — OTS PCBA in ORTHRUS / OTS PARTS / ELEC folder outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (12 of 21):**
+
+- **Carrier Stand 2.0** — Rachel design. Not an OTS part.
+- **MARVIN OVERHAND 3 v28** — Rachel design. Not an OTS part.
+- **Pin Gauge Holder** — Rachel design. Not an OTS part.
+- **Taz** — Rachel product design. Not an OTS part.
+- **Taz 2.0** — Rachel product design. Not an OTS part.
+- **Motor Controller** — TAZ 4 design (no OTS note). Not flagged.
+- **ST-PROTO-1-2_3d** — TAZ 4 design. Not an OTS part.
+- **TAZ Controller** — TAZ 4 assembly. Not an OTS part.
+- **TAZ DYNO BRACKET** — TAZ 4 design. Not an OTS part.
+- **TAZ Dyno Cabinet** — TAZ 4 assembly (design, not drawing). Not an OTS part.
+- **Thru Screw Terminal** — TAZ 4 design. Not an OTS part.
+- **USB Adapter** — TAZ 4 design (no OTS note). Not flagged.
+
 ---
 
-*102 migration candidates identified (+3 in batch 015).*
+*111 migration candidates identified (+9 in batch 016).*

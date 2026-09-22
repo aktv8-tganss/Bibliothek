@@ -61,6 +61,15 @@ Assemblies with non-empty component references (Uses).
 | [ORTHRUS](../designs/a-0026-itm/orthrus/orthrus.md) | 34 | [a360.co/4AaGpm4](https://a360.co/4AaGpm4) |
 | [Wheel End ASM](../designs/a-0026-itm/parts/wheel-end-asm.md) | 2 | [a360.co/4AgcB7J](https://a360.co/4AgcB7J) |
 | [Tee](../designs/a-0026-itm/parts/tee.md) | 1 | [a360.co/4ydkdGC](https://a360.co/4ydkdGC) |
+| [Taz](../designs/a-0026-itm/rachel/taz.md) | 2 | [a360.co/4h51tBz](https://a360.co/4h51tBz) |
+| [Taz 2.0](../designs/a-0026-itm/rachel/taz-2-0.md) | 2 | [a360.co/4iXK3JO](https://a360.co/4iXK3JO) |
+| [ST-PROTO-1-2_3d](../designs/a-0026-itm/taz-4/st-proto-1-2-3d.md) | 1 | [a360.co/4yCTFy3](https://a360.co/4yCTFy3) |
+| [TAZ Controller](../designs/a-0026-itm/taz-4/taz-controller.md) | 4 | [a360.co/46ZuYA8](https://a360.co/46ZuYA8) |
+| [TAZ DYNO BRACKET](../designs/a-0026-itm/taz-4/taz-dyno-bracket.md) | 1 | [a360.co/3UWgDBQ](https://a360.co/3UWgDBQ) |
+| [TAZ Dyno Cabinet](../designs/a-0026-itm/taz-4/taz-dyno-cabinet.md) | 2 | [a360.co/4iDJkNR](https://a360.co/4iDJkNR) |
+| [Thru Screw Terminal](../designs/a-0026-itm/taz-4/thru-screw-terminal.md) | 1 | [a360.co/4dwtdOv](https://a360.co/4dwtdOv) |
+| [Whirlpool Motor](../designs/a-0026-itm/taz-4/whirlpool-motor.md) | 2 | [a360.co/4rvEuVr](https://a360.co/4rvEuVr) |
+| [USB-2637](../designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md) | 1 | [a360.co/4ipqppZ](https://a360.co/4ipqppZ) |
 
 ---
 
@@ -709,4 +718,83 @@ The Tee design references the following 1 component:
 
 ---
 
-*57 assemblies with BOM data indexed.*
+## Taz — Bill of Materials
+
+The Taz design references the following 2 components:
+
+1. Slotted Truss Head Tapping Screw ANSI B18.6.4 5/16-12 x 1 Type BP Steel Grade 2 Plain
+2. Hexagon Head Screw DIN EN 24018 - M6 x 16 Steel 4.6 Plain
+
+---
+
+## Taz 2.0 — Bill of Materials
+
+The Taz 2.0 design references the following 2 components:
+
+1. Hexagon Head Screw DIN EN 24018 - M6 x 12 Steel 4.6 Plain
+2. Slotted Truss Head Tapping Screw ANSI B18.6.4 5/16-12 x 1 Type AB Steel Grade 2 Plain
+
+---
+
+## ST-PROTO-1-2_3d — Bill of Materials
+
+The ST-PROTO-1-2_3d design references the following 1 component:
+
+1. Hexagon Socket Button Head Cap Screw ANSI B18.3 - 6-32 UNC x 0.375 Steel Grade 2 Plain
+
+---
+
+## TAZ Controller — Bill of Materials
+
+The TAZ Controller assembly references the following 4 components:
+
+1. [USB Adapter](../designs/a-0026-itm/taz-4/usb-adapter.md)
+2. [Motor Controller](../designs/a-0026-itm/taz-4/motor-controller.md)
+3. [Arduino_Uno_w/Shield](../designs/a-0026-itm/taz-4/arduino-uno-w-shield.md)
+4. [Thru Screw Terminal](../designs/a-0026-itm/taz-4/thru-screw-terminal.md)
+
+---
+
+## TAZ DYNO BRACKET — Bill of Materials
+
+The TAZ DYNO BRACKET design references the following 1 component:
+
+1. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 4.5 Steel Grade 2 Plain
+
+---
+
+## TAZ Dyno Cabinet — Bill of Materials
+
+The TAZ Dyno Cabinet assembly references the following 2 components:
+
+1. [Whirlpool Motor](../designs/a-0026-itm/taz-4/whirlpool-motor.md)
+2. [Taz](../designs/a-0026-itm/rachel/taz.md)
+
+---
+
+## Thru Screw Terminal — Bill of Materials
+
+The Thru Screw Terminal design references the following 1 component:
+
+1. Type I Cross Recessed Binding Head Machine Screw ANSI B18.6.3 6-40 UNF x 0.25 Steel Grade 2 Plain
+
+---
+
+## Whirlpool Motor — Bill of Materials
+
+The Whirlpool Motor design references the following 2 components:
+
+1. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 4.5 Steel Grade 2 Plain
+2. Tee Body Solid
+
+---
+
+## USB-2637 — Bill of Materials
+
+The USB-2637 design references the following 1 component:
+
+1. HCSD-20-D-02.50-01-N
+
+---
+
+*66 assemblies with BOM data indexed.*

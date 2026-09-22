@@ -320,31 +320,58 @@ All 17 designs from batch 015 were successfully indexed:
 16. ✓ PSI Tee
 17. ✓ TT03_12_50_100
 
+### Batch 016
+
+All 21 designs from batch 016 were successfully indexed:
+
+1. ✓ Carrier Stand 2.0
+2. ✓ MARVIN OVERHAND 3 v28
+3. ✓ Pin Gauge Holder
+4. ✓ Taz
+5. ✓ Taz 2.0
+6. ✓ Arduino_Uno
+7. ✓ Arduino_Uno_w/Shield
+8. ✓ Motor Controller
+9. ✓ ST-PROTO-1-2_3d
+10. ✓ TAZ Controller
+11. ✓ TAZ DYNO BRACKET
+12. ✓ TAZ Dyno Cabinet
+13. ✓ Thru Screw Terminal
+14. ✓ USB Adapter
+15. ✓ Whirlpool Motor
+16. ✓ SCE-36N2408LP
+17. ✓ Work Stand
+18. ✓ 1500VA UPS
+19. ✓ Samsung_T37F
+20. ✓ USB-2637
+21. ✓ Motor Control PCBA
+
 ---
 
-## A-0026 iTM Remaining (After Batch 015)
+## A-0026 iTM Remaining (After Batch 016)
 
-!!! success "AEETES / OTS Parts Priority A Complete"
-    The AEETES / OTS Parts Priority A folder is fully harvested with batches 013 and 014 (40 designs total).
+!!! success "Rachel + TAZ 4 + Key ORTHRUS OTS Complete"
+    Rachel (5 designs), TAZ 4 (10 designs), and key ORTHRUS OTS PARTS (6 designs) are fully harvested with batch 016. A-0026 iTM is **NOT empty** — additional designs remain.
 
-Approximately **52 designs** remain unharvested in A-0026 iTM. Key areas include:
+!!! warning "A-0026 NOT Empty"
+    Despite extensive harvesting through batch 016, A-0026 iTM still contains unharvested designs in multiple subfolders.
 
-### Failures / not found this pass
-- Support Press — no A-0026 Fusion Design result
-- Seal Press — no A-0026 Fusion Design result
-- 605 Press — no A-0026 Fusion Design result
-- KV2L07-35S — not separately located
-- KQ2H03-34AS — not separately located
-- 655-1203-104F — not separately located
+### Capacity leftovers (searches returned no results)
+- 2x8
+- 2x6
+- 7x72
+- 688 Press
+- Fieldmann Ratchet Handle
+- 4 inch Drill Press Vice
+- STORAGE TOTE-14GAL
+- Zange_kpl
+- Tee Body Solid
+- Tee Leak Fixture
+- Hose Steel Adapter
+- BRINGSMART MOTOR
 
-### Named leftovers still open
-- 2x8, 2x6, 7x72 (Used by Horseshoe Cell)
-- 688 Press, Fieldmann Ratchet Handle, 4 inch Drill Press Vice, STORAGE TOTE-14GAL, Zange_kpl
-- Tee Body Solid (PARTS — if still present)
-- Tee Leak Fixture, Hose Steel Adapter, TAZ B Dyno (referenced by Tee/Hose)
-- BRINGSMART MOTOR (Torque Jig Uses)
-- ORTHRUS OTS PARTS/ contents not inventoried this pass
-- ORTHRUS child refs (USB-2637, Samsung_T37F, Work Stand, fittings, Arduino_Uno_w/Shield, Motor Control PCBA, SCE-36N2408LP, 1500VA UPS, etc.)
+### ORTHRUS OTS PARTS — more contents likely unharvested
+The 6 designs harvested (SCE-36N2408LP, Work Stand, 1500VA UPS, Samsung_T37F, USB-2637, Motor Control PCBA) represent priority items. PNEU/ELEC subfolders may contain additional unharvested OTS parts.
 
 ### ASM TOOLING
 - OTS Parts/
@@ -356,27 +383,10 @@ Approximately **52 designs** remain unharvested in A-0026 iTM. Key areas include
 - Piston Attachments and Parts/
 
 ### PLT
-- PLT HEAD Plate (non-underscore variant if distinct)
 - COMPS/
 - 655-1203-104F if found
 
-### Rachel
-- Carrier Stand 2.0
-- MARVIN OVERHAND 3 v28
-- Pin Gauge Holder
-- Taz
-- Taz 2.0
+### Other references
+- HCSD-20-D-02.50-01-N (USB-2637 ref — mutual Uses/Used In)
 
-### TAZ 4
-- Arduino_Uno
-- Arduino_Uno_w/Shield
-- Motor Controller
-- ST-PROTO-1-2_3d
-- TAZ Controller
-- TAZ DYNO BRACKET
-- TAZ Dyno Cabinet
-- Thru Screw Terminal
-- USB Adapter
-- Whirlpool Motor
-
-*This summary was updated from the remaining-after-015 harvest manifest.*
+*This summary was updated from the remaining-after-016 harvest manifest.*
