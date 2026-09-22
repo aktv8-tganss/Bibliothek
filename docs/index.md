@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (298 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (70 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (131 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (334 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (72 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (153 total)
 
 ## Design Tree
 
@@ -35,7 +35,7 @@ Browse designs by project folder:
         - [Comps](designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) — IO Box components (32 designs, 28 migration candidates)
         - [Josh CAD](designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) — Josh CAD designs (3 designs, 3 migration candidates)
     - [Flash Runner](designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) — Flash Runner assembly designs (4 designs)
-- **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (140 designs)
+- **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (163 designs)
     - [ACROPORA](designs/a-0026-itm/acropora/acropora.md) — ACROPORA subfolder (4 designs, 3 migration candidates)
     - [AEETES](designs/a-0026-itm/aeetes/aeetes-asm.md) — AEETES subfolder (22 designs, 1 migration candidate)
         - [OTS Parts](designs/a-0026-itm/aeetes/ots-parts/1.md) — AEETES OTS parts (40 designs, all migration candidates)
@@ -49,15 +49,17 @@ Browse designs by project folder:
     - [MTT03](designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md) — MTT03 subfolder (3 designs)
     - [ORTHRUS](designs/a-0026-itm/orthrus/orthrus.md) — ORTHRUS subfolder (1 design)
         - [OTS Parts](designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) — ORTHRUS OTS parts (9 designs, all migration candidates)
-            - [PNEU](designs/a-0026-itm/orthrus/ots-parts/pneu/dot5g-v-tanjk.md) — PNEU OTS parts (8 designs, 7 migration candidates)
-            - [ELEC](designs/a-0026-itm/orthrus/ots-parts/elec/19v-adapter.md) — ELEC OTS parts (8 designs, all migration candidates)
+            - [PNEU](designs/a-0026-itm/orthrus/ots-parts/pneu/dot5g-v-tanjk.md) — PNEU OTS parts (14 designs, 13 migration candidates)
+            - [ELEC](designs/a-0026-itm/orthrus/ots-parts/elec/19v-adapter.md) — ELEC OTS parts (21 designs, all migration candidates)
         - [ELEC](designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md) — ORTHRUS ELEC (1 design)
     - [OTS Parts](designs/a-0026-itm/ots-parts/hose-cutter.md) — OTS Parts subfolder (3 designs, all migration candidates)
     - [PARTS](designs/a-0026-itm/parts/tee.md) — PARTS subfolder (7 designs)
     - [PLT](designs/a-0026-itm/plt/plt-head.md) — PLT subfolder (5 designs)
-        - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (4 designs)
+        - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
+- **[A-9999 Lab](designs/a-9999-lab/parts/12v-psu.md)** — Lab project designs (4 designs)
+    - [PARTS](designs/a-9999-lab/parts/12v-psu.md) — Lab PARTS (4 designs, GIGADAQ children)
 
 ## Batch Summary
 
@@ -81,11 +83,12 @@ Browse designs by project folder:
 | 016 | 21 | A-0026 iTM: Rachel (5), TAZ 4 (10), ORTHRUS / OTS PARTS (6) — 9 OTS migration candidates |
 | 017 | 22 | A-0026 iTM: ASM TOOLING/OTS (3), PARTS (1), SOW1 COMPS (12), ORTHRUS (3), PLT (3) — 6 OTS migration candidates |
 | 018 | 16 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (8), ORTHRUS / OTS PARTS / ELEC (5), ORTHRUS / OTS PARTS (1), PLT / COMPS (2) — 14 OTS migration candidates |
+| 019 | 36 | A-0026 iTM: ORTHRUS / OTS PARTS / ELEC (13), ORTHRUS / OTS PARTS / PNEU (6), PLT / COMPS (13); A-9999 Lab / PARTS (4 GIGADAQ children) — 22 OTS migration candidates |
 
-**Total designs indexed: 298**
+**Total designs indexed: 334**
 
-!!! warning "A-0026 iTM MORE_REMAIN"
-    A-0026 iTM still contains unharvested designs after batch 018 (ORTHRUS PNEU/ELEC remaining, PLT COMPS remaining, GIGADAQ children). See [leftovers index](indexes/leftovers.md) for details.
+!!! warning "A-0026 iTM MORE_REMAIN (thin)"
+    A-0026 iTM still contains some unharvested designs after batch 019. See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 

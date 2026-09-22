@@ -74,6 +74,8 @@ Assemblies with non-empty component references (Uses).
 | [USB-2637](../designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md) | 1 | [a360.co/4ipqppZ](https://a360.co/4ipqppZ) |
 | [PLT VALVE ASSY](../designs/a-0026-itm/orthrus/ots-parts/pneu/plt-valve-assy.md) | 2 | [a360.co/4h4mDQu](https://a360.co/4h4mDQu) |
 | [Motor Controller (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-controller.md) | 1 | [a360.co/4xkYqLQ](https://a360.co/4xkYqLQ) |
+| [C14 Plug](../designs/a-0026-itm/orthrus/ots-parts/elec/c14-plug.md) | 1 | [a360.co/4A5XkpX](https://a360.co/4A5XkpX) |
+| [PLT VALVE ASSY (PLT COMPS)](../designs/a-0026-itm/plt/comps/plt-valve-assy.md) | 2 | [a360.co/4yJIzaO](https://a360.co/4yJIzaO) |
 
 ---
 
@@ -837,4 +839,21 @@ The GIGADAQ assembly references the following 4 components:
 
 ---
 
-*70 assemblies with BOM data indexed.*
+## C14 Plug — Bill of Materials
+
+The C14 Plug design references the following 1 component:
+
+1. [ENIGMA IV](../designs/a-0026-itm/enigma/enigma-iv.md)
+
+---
+
+## PLT VALVE ASSY (PLT COMPS) — Bill of Materials
+
+The PLT VALVE ASSY (PLT COMPS) assembly references the following 2 components:
+
+1. [KV2E07-34](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/kv2e07-34.md)
+2. [Valve Assy](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy.md)
+
+---
+
+*72 assemblies with BOM data indexed.*

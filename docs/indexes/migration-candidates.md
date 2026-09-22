@@ -143,6 +143,27 @@ A design is flagged when:
 | [KV2H07-34S (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/kv2h07-34s.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts`; distinct from AEETES |
 | [KV2H07-35S](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2h07-35s.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
 | [PTC Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/ptc-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [ORTHRUS WCONFIG - Mounting rail 1 (4d0ZixU)](../designs/a-0026-itm/orthrus/ots-parts/elec/orthrus-wconfig-mounting-rail-1-4d0ZixU.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [ORTHRUS WCONFIG - Mounting rail 1 (4xSnKkK)](../designs/a-0026-itm/orthrus/ots-parts/elec/orthrus-wconfig-mounting-rail-1-4xSnKkK.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [c-1set411014r0000-a-3d v1](../designs/a-0026-itm/orthrus/ots-parts/elec/c-1set411014r0000-a-3d-v1.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [c-1set411202r0000-a-3d v1](../designs/a-0026-itm/orthrus/ots-parts/elec/c-1set411202r0000-a-3d-v1.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [c-2416050-5-a1-3d](../designs/a-0026-itm/orthrus/ots-parts/elec/c-2416050-5-a1-3d.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [1/4 NPT Double Bulkhead](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-double-bulkhead.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [1/4 NPT M Nipple](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-m-nipple.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [1/4 NPT Muffler](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-muffler.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [1/4 NPT Street Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-street-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [100CP8-2A](../designs/a-0026-itm/orthrus/ots-parts/pneu/100cp8-2a.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [KV2E07-00 (PNEU)](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2e07-00.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [12V (ORTHRUS ELEC)](../designs/a-0026-itm/orthrus/ots-parts/elec/12v.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [3.5mm TRS](../designs/a-0026-itm/orthrus/ots-parts/elec/35mm-trs.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [46993-0420](../designs/a-0026-itm/orthrus/ots-parts/elec/46993-0420.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [C14 Plug](../designs/a-0026-itm/orthrus/ots-parts/elec/c14-plug.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [ERB24](../designs/a-0026-itm/orthrus/ots-parts/elec/erb24.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [keyboard](../designs/a-0026-itm/orthrus/ots-parts/elec/keyboard.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [KV2E07-00 (PLT COMPS)](../designs/a-0026-itm/plt/comps/kv2e07-00.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
+| [KV2H07-36S](../designs/a-0026-itm/plt/comps/kv2h07-36s.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
+| [KV2L07-99](../designs/a-0026-itm/plt/comps/kv2l07-99.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
+| [GCX3105](../designs/a-0026-itm/plt/comps/gcx3105.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
 
 ---
 
@@ -564,6 +585,52 @@ Batch 018 contains 16 designs: ORTHRUS / OTS PARTS / PNEU (8), ORTHRUS / OTS PAR
 - **1208LS** — PLT/COMPS component (Used In: PLT HEAD, PLT INPUT ARRAY). Product component, not OTS commodity.
 - **Screen (PLT)** — PLT/COMPS screen (distinct from A-0054 Screen). Product component, not OTS commodity.
 
+### Assessment Notes (Batch 019)
+
+Batch 019 contains 36 designs: ORTHRUS / OTS PARTS / ELEC (13), ORTHRUS / OTS PARTS / PNEU (6), PLT / COMPS (13), A-9999 Lab / PARTS (4). 22 OTS migration candidates identified:
+
+**Migration Candidates (22 of 36):**
+
+- **ORTHRUS WCONFIG - Mounting rail 1 (4d0ZixU)** — OTS in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **ORTHRUS WCONFIG - Mounting rail 1 (4xSnKkK)** — OTS in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **c-1set411014r0000-a-3d v1** — OTS connector in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **c-1set411202r0000-a-3d v1** — OTS connector in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **c-2416050-5-a1-3d** — OTS connector in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **1/4 NPT Double Bulkhead** — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **1/4 NPT M Nipple** — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **1/4 NPT Muffler** — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **1/4 NPT Street Tee** — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **100CP8-2A** — OTS pneumatic component in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **KV2E07-00 (PNEU)** — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`; distinct from PLT COMPS. **Migration candidate.**
+- **12V (ORTHRUS ELEC)** — OTS power component in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **3.5mm TRS** — OTS audio connector in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **46993-0420** — OTS connector in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **C14 Plug** — OTS power plug (Uses: ENIGMA IV) in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **ERB24** — OTS component in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **keyboard** — OTS keyboard in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **KV2E07-00 (PLT COMPS)** — OTS pneumatic fitting in PLT/COMPS folder outside `00 - Parts`; distinct from PNEU. **Migration candidate.**
+- **KV2H07-36S** — OTS pneumatic fitting in PLT/COMPS folder outside `00 - Parts`. **Migration candidate.**
+- **KV2L07-99** — OTS pneumatic fitting in PLT/COMPS folder outside `00 - Parts`. **Migration candidate.**
+- **GCX3105** — OTS fitting in PLT/COMPS folder outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (14 of 36):**
+
+- **c-206358-5-n-3d** — PLT/COMPS connector (Used In: HOSE FIXTURE). Product component, not OTS commodity.
+- **12V PSU** — A-9999 Lab/PARTS component (GIGADAQ child). Lab exception.
+- **Gigadaq Mounting** — A-9999 Lab/PARTS component (GIGADAQ child). Lab exception.
+- **NANUK_935_Bottom Shell_INNER SURFS_Step** — A-9999 Lab/PARTS STEP surface (GIGADAQ child). Lab exception.
+- **NANUK_935_Top Shell_INNER SURFS_Step** — A-9999 Lab/PARTS STEP surface (GIGADAQ child). Lab exception.
+- **1590U** — PLT/COMPS enclosure. Product component.
+- **19V Adapter (PLT COMPS)** — PLT/COMPS power adapter (Used In: PLT HEAD); distinct shortlink from ORTHRUS. Product component.
+- **925_R1_Btm_INNER_SURFACE_STEP** — PLT/COMPS STEP surface. Not OTS commodity.
+- **925_R1_Top_INNER_SURFACE_STEP** — PLT/COMPS STEP surface. Not OTS commodity.
+- **DC11 (PLT COMPS)** — PLT/COMPS component (Used In: PLT HEAD, PLT INPUT ARRAY). Product component.
+- **PLT VALVE ASSY (PLT COMPS)** — PLT/COMPS assembly (Uses: KV2E07-34, Valve Assy); distinct shortlink from ORTHRUS PNEU. Product assembly.
+- **Random Assy** — PLT/COMPS assembly (Used In: Tee Leak Fixture). Product assembly.
+- **USB231** — PLT/COMPS component. Product component.
+- **c-206060-1-k-3d** — PLT/COMPS connector (Used In: HOSE FIXTURE). Product component.
+- **c-206061-1-ad-3d (PLT COMPS)** — PLT/COMPS connector; distinct shortlink from A-0054. Product component.
+
 ---
 
-*131 migration candidates identified (+14 in batch 018).*
+*153 migration candidates identified (+22 in batch 019).*

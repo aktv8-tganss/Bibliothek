@@ -394,33 +394,79 @@ All 16 designs from batch 018 were successfully indexed:
 15. ✓ 1208LS
 16. ✓ Screen (PLT)
 
+### Batch 019
+
+All 36 designs from batch 019 were successfully indexed:
+
+1. ✓ ORTHRUS WCONFIG - Mounting rail 1 (4d0ZixU)
+2. ✓ ORTHRUS WCONFIG - Mounting rail 1 (4xSnKkK)
+3. ✓ c-1set411014r0000-a-3d v1
+4. ✓ c-1set411202r0000-a-3d v1
+5. ✓ c-2416050-5-a1-3d
+6. ✓ c-206358-5-n-3d
+7. ✓ 1/4 NPT Double Bulkhead
+8. ✓ 1/4 NPT M Nipple
+9. ✓ 1/4 NPT Muffler
+10. ✓ 1/4 NPT Street Tee
+11. ✓ 100CP8-2A
+12. ✓ KV2E07-00 (PNEU)
+13. ✓ 12V (ORTHRUS ELEC)
+14. ✓ 3.5mm TRS
+15. ✓ 46993-0420
+16. ✓ C14 Plug
+17. ✓ ERB24
+18. ✓ keyboard
+19. ✓ 12V PSU
+20. ✓ Gigadaq Mounting
+21. ✓ NANUK_935_Bottom Shell_INNER SURFS_Step
+22. ✓ NANUK_935_Top Shell_INNER SURFS_Step
+23. ✓ 1590U
+24. ✓ 19V Adapter (PLT COMPS)
+25. ✓ 925_R1_Btm_INNER_SURFACE_STEP
+26. ✓ 925_R1_Top_INNER_SURFACE_STEP
+27. ✓ DC11 (PLT COMPS)
+28. ✓ GCX3105
+29. ✓ KV2E07-00 (PLT COMPS)
+30. ✓ KV2H07-36S
+31. ✓ KV2L07-99
+32. ✓ PLT VALVE ASSY (PLT COMPS)
+33. ✓ Random Assy
+34. ✓ USB231
+35. ✓ c-206060-1-k-3d
+36. ✓ c-206061-1-ad-3d (PLT COMPS)
+
 ---
 
-## A-0026 iTM Remaining (After Batch 018)
+## A-0026 iTM Remaining (After Batch 019)
 
-!!! success "ORTHRUS PNEU/ELEC + PLT COMPS Harvested"
-    Batch 018 adds ORTHRUS / OTS PARTS / PNEU (8 designs), ORTHRUS / OTS PARTS / ELEC (5 designs), ORTHRUS / OTS PARTS root (1 design), and PLT / COMPS (2 designs). Status: **MORE_REMAIN**.
+!!! success "ORTHRUS WCONFIG/ELEC/PNEU + Lab GIGADAQ + PLT COMPS Harvested"
+    Batch 019 adds ORTHRUS / OTS PARTS / ELEC (13 designs including two disambiguated ORTHRUS WCONFIG - Mounting rail 1), ORTHRUS / OTS PARTS / PNEU (6 designs), A-9999 Lab / PARTS (4 GIGADAQ children), and PLT / COMPS (13 designs). Status: **MORE_REMAIN (thin)**.
 
-!!! warning "A-0026 NOT Complete"
-    Despite extensive harvesting through batch 018, A-0026 iTM still contains unharvested designs in multiple subfolders.
+!!! warning "A-0026 Shrinking but NOT Complete"
+    Despite extensive harvesting through batch 019, A-0026 iTM still contains some unharvested designs.
 
-### GIGADAQ children (resolve to A-9999 Lab / PARTS — out of A-0026 scope this ticket)
-- NANUK_935_Bottom Shell_INNER SURFS_Step
-- NANUK_935_Top Shell_INNER SURFS_Step
-- 12V PSU
-- Gigadaq Mounting
+### GIGADAQ children — NOW HARVESTED
+- ✓ NANUK_935_Bottom Shell_INNER SURFS_Step (resolved to A-9999 Lab / PARTS)
+- ✓ NANUK_935_Top Shell_INNER SURFS_Step (resolved to A-9999 Lab / PARTS)
+- ✓ 12V PSU (resolved to A-9999 Lab / PARTS)
+- ✓ Gigadaq Mounting (resolved to A-9999 Lab / PARTS)
 
-### ORTHRUS PNEU still open (examples)
-- 100CP8-2A, KV2E07-00, 1/4 fittings family, etc.
+### ORTHRUS PNEU — NOW HARVESTED
+- ✓ 100CP8-2A, KV2E07-00 (PNEU), 1/4 NPT fittings family
 
-### ORTHRUS ELEC still open
-- ERB24, C14 Plug, 3.5mm TRS, 12V, 46993-0420, ORTHRUS WCONFIG - Mounting rail 1, connectors, keyboard
+### ORTHRUS ELEC — NOW HARVESTED
+- ✓ ERB24, C14 Plug, 3.5mm TRS, 12V (ORTHRUS ELEC), 46993-0420, ORTHRUS WCONFIG - Mounting rail 1 (both copies), connectors, keyboard
 
-### PLT COMPS still open
-- 1590U, GCX3105, Random Assy, USB231, DC11, ERB24, USB, 12V, 19V Adapter, 925 STEP surfaces, KV2*, c-* connectors, PLT VALVE ASSY if distinct shortlink
+### PLT COMPS — NOW HARVESTED
+- ✓ 1590U, GCX3105, Random Assy, USB231, DC11 (PLT COMPS), 19V Adapter (PLT COMPS), 925 STEP surfaces, KV2*, c-* connectors, PLT VALVE ASSY (PLT COMPS)
+
+### Still noted open / ambiguous (per remaining-after-019)
+- 1/4 1/8 NPT M Reducer — not located this pass
+- ELEC inventory still listed: 1500VA UPS, 19V Adapter (some already harvested under other shortlinks/paths — verify before re-harvest), Arduino_Uno_w/Shield, HCDS-20-D-02.50-01-N, Samsung_T37F, USB-2637
+- USB (PLT COMPS) shortlink collided with CG-U3MINI7PH — needs re-open for true Share link
 
 ### Phantoms / not found this pass
-- Tee Leak Fixture
+- Tee Leak Fixture (referenced by Random Assy)
 - Hose Steel Adapter
 - BRINGSMART MOTOR
 - 2x8, 2x6, 7x72, 688 Press, Support/Seal/605 Press
@@ -428,4 +474,4 @@ All 16 designs from batch 018 were successfully indexed:
 ### Jake Print Copys
 - Piston Attachments drawings skipped (880250–880270)
 
-*This summary was updated from the remaining-after-018 harvest manifest.*
+*This summary was updated from the remaining-after-019 harvest manifest.*
