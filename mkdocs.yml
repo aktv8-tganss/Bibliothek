@@ -55,6 +55,18 @@ nav:
     - 00 - Parts:
       - Arduino:
         - Amplifier Board: designs/00-parts/arduino/amplifier-board.md
+    - A-003 iLACM:
+      - 0 Pin: designs/a-003-ilacm/0-pin.md
+      - 2 Pin: designs/a-003-ilacm/2-pin.md
+      - Gen1 PCB: designs/a-003-ilacm/gen1-pcb.md
+      - ICT Push Plate_iAir3 jdc: designs/a-003-ilacm/ict-push-plate-iair3-jdc.md
+      - ICT_TOP PLATE_iAir3 jdc: designs/a-003-ilacm/ict-top-plate-iair3-jdc.md
+      - ICT_TOP PLATE_iAir3 jdc (2): designs/a-003-ilacm/ict-top-plate-iair3-jdc-2.md
+      - PAD POS - Film: designs/a-003-ilacm/pad-pos-film.md
+      - PCM: designs/a-003-ilacm/pcm.md
+      - PCT NEW: designs/a-003-ilacm/pct-new.md
+      - Proc PCM: designs/a-003-ilacm/proc-pcm.md
+      - iAIR3 Gen1 Flash Runner Bed: designs/a-003-ilacm/iair3-gen1-flash-runner-bed.md
     - A-0010 iAir6:
       - CEPHALOPOD 2: designs/a-0010-iair6/cephalopod-2.md
       - FAST26 Clamping Jaws: designs/a-0010-iair6/fast26-clamping-jaws.md

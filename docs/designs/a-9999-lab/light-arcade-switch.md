@@ -21,4 +21,6 @@ notes: ""
 
 ## Used In
 
-- PCT NEW
+This design is referenced by the following 1 assembly:
+
+1. [PCT NEW](../a-003-ilacm/pct-new.md)

@@ -600,7 +600,18 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [TPMS PCBA Silh](../designs/a-0047-tpms/ots-parts/tpms-pcba-silh.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3SVOfzh](https://a360.co/3SVOfzh) |
 | [pxc_1411244_00_01_A-INL-M32-N-S_3D](../designs/a-0047-tpms/ots-parts/pxc-1411244-00-01-a-inl-m32-n-s-3d.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4yDRuut](https://a360.co/4yDRuut) |
 | [655-1203-104F (TPMS)](../designs/a-0047-tpms/ots-parts/655-1203-104f-tpms.md) | `A-0047 TPMS / OTS Parts` | [a360.co/46zyPnz](https://a360.co/46zyPnz) |
+| [0 Pin](../designs/a-003-ilacm/0-pin.md) | `A-003 iLACM` | [a360.co/3T249bk](https://a360.co/3T249bk) |
+| [2 Pin](../designs/a-003-ilacm/2-pin.md) | `A-003 iLACM` | [a360.co/46keeTZ](https://a360.co/46keeTZ) |
+| [Gen1 PCB](../designs/a-003-ilacm/gen1-pcb.md) | `A-003 iLACM` | [a360.co/4A8dZJo](https://a360.co/4A8dZJo) |
+| [ICT Push Plate_iAir3 jdc](../designs/a-003-ilacm/ict-push-plate-iair3-jdc.md) | `A-003 iLACM` | [a360.co/4redwBu](https://a360.co/4redwBu) |
+| [ICT_TOP PLATE_iAir3 jdc](../designs/a-003-ilacm/ict-top-plate-iair3-jdc.md) | `A-003 iLACM` | [a360.co/3UHOKgU](https://a360.co/3UHOKgU) |
+| [ICT_TOP PLATE_iAir3 jdc (2)](../designs/a-003-ilacm/ict-top-plate-iair3-jdc-2.md) | `A-003 iLACM` | [a360.co/4iJQHDn](https://a360.co/4iJQHDn) |
+| [PAD POS - Film](../designs/a-003-ilacm/pad-pos-film.md) | `A-003 iLACM` | [a360.co/4ywJBXE](https://a360.co/4ywJBXE) |
+| [PCM](../designs/a-003-ilacm/pcm.md) | `A-003 iLACM` | [a360.co/4yr5Ca8](https://a360.co/4yr5Ca8) |
+| [PCT NEW](../designs/a-003-ilacm/pct-new.md) | `A-003 iLACM` | [a360.co/4A6syNp](https://a360.co/4A6syNp) |
+| [Proc PCM](../designs/a-003-ilacm/proc-pcm.md) | `A-003 iLACM` | [a360.co/4iXj29k](https://a360.co/4iXj29k) |
+| [iAIR3 Gen1 Flash Runner Bed](../designs/a-003-ilacm/iair3-gen1-flash-runner-bed.md) | `A-003 iLACM` | [a360.co/46XEu6N](https://a360.co/46XEu6N) |
 
 ---
 
-*596 designs indexed.*
+*607 designs indexed.*

@@ -109,6 +109,8 @@ Assemblies with non-empty component references (Uses).
 | [Moonfish Tool Head](../designs/a-0047-tpms/moonfish/obs/moonfish-tool-head.md) | 3 | [a360.co/4gNslHz](https://a360.co/4gNslHz) |
 | [Reed Bracket Probe](../designs/a-0047-tpms/mantis-2/reed-bracket-probe.md) | 1 | [a360.co/4iEuyGF](https://a360.co/4iEuyGF) |
 | [TPMS G2 Tool v2](../designs/a-0047-tpms/moonfish/obs/tpms-g2-tool-v2.md) | 1 | [a360.co/4Afe4LA](https://a360.co/4Afe4LA) |
+| [PCT NEW](../designs/a-003-ilacm/pct-new.md) | 2 | [a360.co/4A6syNp](https://a360.co/4A6syNp) |
+| [iAIR3 Gen1 Flash Runner Bed](../designs/a-003-ilacm/iair3-gen1-flash-runner-bed.md) | 1 | [a360.co/46XEu6N](https://a360.co/46XEu6N) |
 
 ---
 
@@ -1283,4 +1285,21 @@ The TPMS G2 Tool v2 design references the following 1 component:
 
 ---
 
-*105 assemblies with BOM data indexed.*
+## PCT NEW — Bill of Materials
+
+The PCT NEW design references the following 2 components:
+
+1. [Light Arcade Switch](../designs/a-9999-lab/light-arcade-switch.md)
+2. [Proc PCM](../designs/a-003-ilacm/proc-pcm.md)
+
+---
+
+## iAIR3 Gen1 Flash Runner Bed — Bill of Materials
+
+The iAIR3 Gen1 Flash Runner Bed design references the following 1 component:
+
+1. [Gen1 PCB](../designs/a-003-ilacm/gen1-pcb.md)
+
+---
+
+*107 assemblies with BOM data indexed.*
