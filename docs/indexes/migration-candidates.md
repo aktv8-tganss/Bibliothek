@@ -167,6 +167,10 @@ A design is flagged when:
 | [GCX3105](../designs/a-0026-itm/plt/comps/gcx3105.md) | `A-0026 iTM / PLT / COMPS` | OTS fitting outside `00 - Parts` |
 | [1/16 NPT Female](../designs/a-9999-lab/1-16-npt-female.md) | `A-9999 Lab` | OTS outside `00 - Parts`; PN: 1456N134 |
 | [BRINGSMART MOTOR](../designs/a-9999-lab/bringsmart-motor.md) | `A-9999 Lab` | OTS outside `00 - Parts`; was phantom under A-0026, found in Lab |
+| [DB9](../designs/a-9999-lab/gegenees/db9.md) | `A-9999 Lab / GEGENEES` | OTS-looking connector outside `00 - Parts` |
+| [DTP04-4P-L012](../designs/a-9999-lab/gegenees/dtp04-4p-l012.md) | `A-9999 Lab / GEGENEES` | OTS-looking connector outside `00 - Parts` |
+| [RX24-200W-2ΩJ](../designs/a-9999-lab/gegenees/rx24-200w-2oj.md) | `A-9999 Lab / GEGENEES` | OTS-looking resistor outside `00 - Parts` |
+| [Locking Push Button](../designs/a-9999-lab/gegenees/locking-push-button.md) | `A-9999 Lab / GEGENEES` | OTS-looking button outside `00 - Parts` |
 
 ---
 
@@ -670,4 +674,34 @@ Batch 021 contains 16 designs under `A-9999 Lab` (root Lab designs). 2 OTS migra
 
 ---
 
-*156 migration candidates identified (+2 in batch 021).*
+### Assessment Notes (Batch 022)
+
+Batch 022 contains 18 designs under `A-9999 Lab / GEGENEES` (GEGENEES test fixture designs). 4 OTS migration candidates identified:
+
+**Migration Candidates (4 of 18):**
+
+- **DB9** — OTS-looking connector in GEGENEES outside `00 - Parts`. Used In: Front Panel Assem. **Migration candidate.**
+- **DTP04-4P-L012** — OTS-looking connector in GEGENEES outside `00 - Parts`. Used In: Front Panel Assem. **Migration candidate.**
+- **RX24-200W-2ΩJ** — OTS-looking resistor in GEGENEES outside `00 - Parts`. Used In: 6 DUT Assem. **Migration candidate.**
+- **Locking Push Button** — OTS-looking button in GEGENEES outside `00 - Parts`. Used In: Front Panel Assem. **Migration candidate.**
+
+**Not Migration Candidates (14 of 18):**
+
+- **10g Wire Strain Relief** — GEGENEES design. Not an OTS part.
+- **6 DUT Assem** — GEGENEES assembly. Not an OTS part.
+- **6 Pole BussBar** — GEGENEES design. Not an OTS part.
+- **CAN Channel Setup** — GEGENEES assembly. Not an OTS part.
+- **CAN Pal** — GEGENEES design. Not an OTS part.
+- **DB9_pins_assy** — GEGENEES design. Not an OTS part.
+- **Face Plate** — GEGENEES design. Not an OTS part.
+- **Front Panel Assem** — GEGENEES assembly. Not an OTS part.
+- **GEN2 PROC MODULE (GEGENEES)** — Lab GEGENEES copy with distinct shortlink. Not an OTS part.
+- **LED Light** — GEGENEES design. Not an OTS part.
+- **Main Tray** — GEGENEES design. Not an OTS part.
+- **Mounting rail 1 (GEGENEES)** — GEGENEES design with distinct shortlink. Not an OTS part.
+- **Proto-Half_v2.1** — GEGENEES design. Not an OTS part.
+- **Sterling 6 DUT Controller** — GEGENEES / Sterling CAN Controller design. Not an OTS part.
+
+---
+
+*160 migration candidates identified (+4 in batch 022).*

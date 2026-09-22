@@ -76,6 +76,9 @@ Assemblies with non-empty component references (Uses).
 | [Motor Controller (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-controller.md) | 1 | [a360.co/4xkYqLQ](https://a360.co/4xkYqLQ) |
 | [C14 Plug](../designs/a-0026-itm/orthrus/ots-parts/elec/c14-plug.md) | 1 | [a360.co/4A5XkpX](https://a360.co/4A5XkpX) |
 | [PLT VALVE ASSY (PLT COMPS)](../designs/a-0026-itm/plt/comps/plt-valve-assy.md) | 2 | [a360.co/4yJIzaO](https://a360.co/4yJIzaO) |
+| [6 DUT Assem](../designs/a-9999-lab/gegenees/6-dut-assem.md) | 6 | [a360.co/4xpVlu2](https://a360.co/4xpVlu2) |
+| [Front Panel Assem](../designs/a-9999-lab/gegenees/front-panel-assem.md) | 6 | [a360.co/4gXLTrr](https://a360.co/4gXLTrr) |
+| [CAN Channel Setup](../designs/a-9999-lab/gegenees/can-channel-setup.md) | 1 | [a360.co/4AaUJeh](https://a360.co/4AaUJeh) |
 
 ---
 
@@ -856,4 +859,38 @@ The PLT VALVE ASSY (PLT COMPS) assembly references the following 2 components:
 
 ---
 
-*72 assemblies with BOM data indexed.*
+## 6 DUT Assem — Bill of Materials
+
+The 6 DUT Assem assembly references the following 6 components:
+
+1. [RX24-200W-2ΩJ](../designs/a-9999-lab/gegenees/rx24-200w-2oj.md)
+2. [CAN Channel Setup](../designs/a-9999-lab/gegenees/can-channel-setup.md)
+3. [Front Panel Assem](../designs/a-9999-lab/gegenees/front-panel-assem.md)
+4. [6 Pole BussBar](../designs/a-9999-lab/gegenees/6-pole-bussbar.md)
+5. [Main Tray](../designs/a-9999-lab/gegenees/main-tray.md)
+6. [Mounting rail 1 (GEGENEES)](../designs/a-9999-lab/gegenees/mounting-rail-1-gegenees.md)
+
+---
+
+## Front Panel Assem — Bill of Materials
+
+The Front Panel Assem assembly references the following 6 components:
+
+1. [LED Light](../designs/a-9999-lab/gegenees/led-light.md)
+2. [DB9](../designs/a-9999-lab/gegenees/db9.md)
+3. [Locking Push Button](../designs/a-9999-lab/gegenees/locking-push-button.md)
+4. [Face Plate](../designs/a-9999-lab/gegenees/face-plate.md)
+5. [DB9_pins_assy](../designs/a-9999-lab/gegenees/db9-pins-assy.md)
+6. [DTP04-4P-L012](../designs/a-9999-lab/gegenees/dtp04-4p-l012.md)
+
+---
+
+## CAN Channel Setup — Bill of Materials
+
+The CAN Channel Setup design references the following 1 component:
+
+1. [CAN Pal](../designs/a-9999-lab/gegenees/can-pal.md)
+
+---
+
+*75 assemblies with BOM data indexed.*
