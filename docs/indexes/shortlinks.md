@@ -405,7 +405,30 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Hole Test](../designs/a-9999-lab/hole-test.md) | `A-9999 Lab` | [a360.co/4dgTQab](https://a360.co/4dgTQab) |
 | [Jart](../designs/a-9999-lab/jart.md) | `A-9999 Lab` | [a360.co/4xTADnt](https://a360.co/4xTADnt) |
 | [LA-S48037-3D model](../designs/a-9999-lab/la-s48037-3d-model.md) | `A-9999 Lab` | [a360.co/4xpP4hM](https://a360.co/4xpP4hM) |
+| [Light Arcade Switch](../designs/a-9999-lab/light-arcade-switch.md) | `A-9999 Lab` | [a360.co/4cFCXWC](https://a360.co/4cFCXWC) |
+| [M16x1 to 1/4NPT Adapter](../designs/a-9999-lab/m16x1-to-1-4npt-adapter.md) | `A-9999 Lab` | [a360.co/4dkj8nR](https://a360.co/4dkj8nR) |
+| [Magnum Trunk](../designs/a-9999-lab/magnum-trunk.md) | `A-9999 Lab` | [a360.co/4ywZjlr](https://a360.co/4ywZjlr) |
+| [Marble Run Support](../designs/a-9999-lab/marble-run-support.md) | `A-9999 Lab` | [a360.co/4xX1cIl](https://a360.co/4xX1cIl) |
+| [Marble Run Support Copy](../designs/a-9999-lab/marble-run-support-copy.md) | `A-9999 Lab` | [a360.co/4cIv0jg](https://a360.co/4cIv0jg) |
+| [PI Case](../designs/a-9999-lab/pi-case.md) | `A-9999 Lab` | [a360.co/4r59BXs](https://a360.co/4r59BXs) |
+| [STAY STRAPPED](../designs/a-9999-lab/stay-strapped.md) | `A-9999 Lab` | [a360.co/3SU3JUp](https://a360.co/3SU3JUp) |
+| [Segger Module](../designs/a-9999-lab/segger-module.md) | `A-9999 Lab` | [a360.co/4dxZQvf](https://a360.co/4dxZQvf) |
+| [Sound Deadening Chamber](../designs/a-9999-lab/sound-deadening-chamber.md) | `A-9999 Lab` | [a360.co/3UNMqF8](https://a360.co/3UNMqF8) |
+| [Stool v5](../designs/a-9999-lab/stool-v5.md) | `A-9999 Lab` | [a360.co/4ijd7eB](https://a360.co/4ijd7eB) |
+| [Switch](../designs/a-9999-lab/switch.md) | `A-9999 Lab` | [a360.co/4hc4gcc](https://a360.co/4hc4gcc) |
+| [Table Top](../designs/a-9999-lab/table-top.md) | `A-9999 Lab` | [a360.co/4rgsua8](https://a360.co/4rgsua8) |
+| [Tag](../designs/a-9999-lab/tag.md) | `A-9999 Lab` | [a360.co/4AaGV3i](https://a360.co/4AaGV3i) |
+| [iTM Axle Hose Install Tool](../designs/a-9999-lab/itm-axle-hose-install-tool.md) | `A-9999 Lab` | [a360.co/4inoSRe](https://a360.co/4inoSRe) |
+| [m16x1 thread](../designs/a-9999-lab/m16x1-thread.md) | `A-9999 Lab` | [a360.co/4xZzTNu](https://a360.co/4xZzTNu) |
+| [metal_tag_laser_fixture_round_relieved_largefinger](../designs/a-9999-lab/metal-tag-laser-fixture-round-relieved-largefinger.md) | `A-9999 Lab` | [a360.co/4xpOcK2](https://a360.co/4xpOcK2) |
+| [c-1-1355200-1-d-3d](../designs/a-9999-lab/c-1-1355200-1-d-3d.md) | `A-9999 Lab` | [a360.co/4gO24ZG](https://a360.co/4gO24ZG) |
+| [c-1-1564337-1-j-3d](../designs/a-9999-lab/c-1-1564337-1-j-3d.md) | `A-9999 Lab` | [a360.co/3SO8r6a](https://a360.co/3SO8r6a) |
+| [c-1-1564337-1-j-3d No Clip](../designs/a-9999-lab/c-1-1564337-1-j-3d-no-clip.md) | `A-9999 Lab` | [a360.co/4yHmFFf](https://a360.co/4yHmFFf) |
+| [c-1-1703543-0-a-3d](../designs/a-9999-lab/c-1-1703543-0-a-3d.md) | `A-9999 Lab` | [a360.co/4As0PHs](https://a360.co/4As0PHs) |
+| [003354 X1a HUB](../designs/a-9999-lab/team-prints/003354-x1a-hub.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3V6A3E8](https://a360.co/3V6A3E8) |
+| [003354 X2 HUB](../designs/a-9999-lab/team-prints/003354-x2-hub.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3TvIxUV](https://a360.co/3TvIxUV) |
+| [PCM mnt bar](../designs/a-9999-lab/team-prints/pcm-mnt-bar.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4xR2ULh](https://a360.co/4xR2ULh) |
 
 ---
 
-*401 designs indexed.*
+*424 designs indexed.*

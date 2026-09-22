@@ -174,6 +174,12 @@ A design is flagged when:
 | [Locking Push Button](../designs/a-9999-lab/gegenees/locking-push-button.md) | `A-9999 Lab / GEGENEES` | OTS-looking button outside `00 - Parts` |
 | [CI16-FCI06](../designs/a-9999-lab/ci16-fci06.md) | `A-9999 Lab` | OTS-looking catalog part outside `00 - Parts` |
 | [Drill press - Ferm FTB-13M](../designs/a-9999-lab/drill-press-ferm-ftb-13m.md) | `A-9999 Lab` | OTS tool model outside `00 - Parts` |
+| [M16x1 to 1/4NPT Adapter](../designs/a-9999-lab/m16x1-to-1-4npt-adapter.md) | `A-9999 Lab` | OTS/catalog adapter outside `00 - Parts` |
+| [m16x1 thread](../designs/a-9999-lab/m16x1-thread.md) | `A-9999 Lab` | Catalog/thread reference outside `00 - Parts` |
+| [c-1-1355200-1-d-3d](../designs/a-9999-lab/c-1-1355200-1-d-3d.md) | `A-9999 Lab` | OEM/catalog connector outside `00 - Parts` |
+| [c-1-1564337-1-j-3d](../designs/a-9999-lab/c-1-1564337-1-j-3d.md) | `A-9999 Lab` | OEM/catalog connector outside `00 - Parts` |
+| [c-1-1564337-1-j-3d No Clip](../designs/a-9999-lab/c-1-1564337-1-j-3d-no-clip.md) | `A-9999 Lab` | OEM/catalog connector outside `00 - Parts` |
+| [c-1-1703543-0-a-3d](../designs/a-9999-lab/c-1-1703543-0-a-3d.md) | `A-9999 Lab` | OEM/catalog connector outside `00 - Parts` |
 
 ---
 
@@ -761,6 +767,39 @@ Batch 024 contains 20 designs under `A-9999 Lab` (root Lab designs). 2 OTS migra
 - **Jart** — Lab root design. Not an OTS part.
 - **LA-S48037-3D model** — Lab root design. Not an OTS part.
 
+### Assessment Notes (Batch 025)
+
+Batch 025 contains 23 designs: 20 Lab root designs + 3 TEAM PRINTS designs. 6 OTS migration candidates identified:
+
+**Migration Candidates (6 of 23):**
+
+- **M16x1 to 1/4NPT Adapter** — OTS/catalog adapter in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+- **m16x1 thread** — Catalog/thread reference in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+- **c-1-1355200-1-d-3d** — OEM/catalog connector part in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+- **c-1-1564337-1-j-3d** — OEM/catalog connector part in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+- **c-1-1564337-1-j-3d No Clip** — OEM/catalog connector part in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+- **c-1-1703543-0-a-3d** — OEM/catalog connector part in A-9999 Lab root outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (17 of 23):**
+
+- **Light Arcade Switch** — Lab root design (Used In: PCT NEW). Not an OTS part.
+- **Magnum Trunk** — Lab root design. Not an OTS part.
+- **Marble Run Support** — Lab root design. Not an OTS part.
+- **Marble Run Support Copy** — Lab root design. Not an OTS part.
+- **PI Case** — Lab root design. Not an OTS part.
+- **STAY STRAPPED** — Lab root design (Uses: 002390 (1)). Not an OTS part.
+- **Segger Module** — Lab root design. Not an OTS part.
+- **Sound Deadening Chamber** — Lab root design. Not an OTS part.
+- **Stool v5** — Lab root design. Not an OTS part.
+- **Switch** — Lab root design (distinct from 00 - Parts; path-distinct shortlink). Not an OTS part.
+- **Table Top** — Lab root design. Not an OTS part.
+- **Tag** — Lab root design. Not an OTS part.
+- **iTM Axle Hose Install Tool** — Lab root design. Not an OTS part.
+- **metal_tag_laser_fixture_round_relieved_largefinger** — Lab root design. Not an OTS part.
+- **003354 X1a HUB** — TEAM PRINTS design. Not an OTS part.
+- **003354 X2 HUB** — TEAM PRINTS design. Not an OTS part.
+- **PCM mnt bar** — TEAM PRINTS design. Not an OTS part.
+
 ---
 
-*163 migration candidates identified (+2 in batch 024).*
+*169 migration candidates identified (+6 in batch 025).*

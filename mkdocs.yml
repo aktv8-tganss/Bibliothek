@@ -468,6 +468,26 @@ nav:
       - Hole Test: designs/a-9999-lab/hole-test.md
       - Jart: designs/a-9999-lab/jart.md
       - LA-S48037-3D model: designs/a-9999-lab/la-s48037-3d-model.md
+      - Light Arcade Switch: designs/a-9999-lab/light-arcade-switch.md
+      - M16x1 to 1/4NPT Adapter: designs/a-9999-lab/m16x1-to-1-4npt-adapter.md
+      - Magnum Trunk: designs/a-9999-lab/magnum-trunk.md
+      - Marble Run Support: designs/a-9999-lab/marble-run-support.md
+      - Marble Run Support Copy: designs/a-9999-lab/marble-run-support-copy.md
+      - PI Case: designs/a-9999-lab/pi-case.md
+      - STAY STRAPPED: designs/a-9999-lab/stay-strapped.md
+      - Segger Module: designs/a-9999-lab/segger-module.md
+      - Sound Deadening Chamber: designs/a-9999-lab/sound-deadening-chamber.md
+      - Stool v5: designs/a-9999-lab/stool-v5.md
+      - Switch: designs/a-9999-lab/switch.md
+      - Table Top: designs/a-9999-lab/table-top.md
+      - Tag: designs/a-9999-lab/tag.md
+      - iTM Axle Hose Install Tool: designs/a-9999-lab/itm-axle-hose-install-tool.md
+      - m16x1 thread: designs/a-9999-lab/m16x1-thread.md
+      - metal_tag_laser_fixture_round_relieved_largefinger: designs/a-9999-lab/metal-tag-laser-fixture-round-relieved-largefinger.md
+      - c-1-1355200-1-d-3d: designs/a-9999-lab/c-1-1355200-1-d-3d.md
+      - c-1-1564337-1-j-3d: designs/a-9999-lab/c-1-1564337-1-j-3d.md
+      - c-1-1564337-1-j-3d No Clip: designs/a-9999-lab/c-1-1564337-1-j-3d-no-clip.md
+      - c-1-1703543-0-a-3d: designs/a-9999-lab/c-1-1703543-0-a-3d.md
       - GEGENEES:
         - 10g Wire Strain Relief: designs/a-9999-lab/gegenees/10g-wire-strain-relief.md
         - 6 DUT Assem: designs/a-9999-lab/gegenees/6-dut-assem.md
@@ -505,6 +525,10 @@ nav:
         - NANUK_935_Bottom Shell_INNER SURFS_Step: designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md
         - NANUK_935_Top Shell_INNER SURFS_Step: designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md
         - USB-2637 (Lab PARTS): designs/a-9999-lab/parts/usb-2637.md
+      - TEAM PRINTS:
+        - 003354 X1a HUB: designs/a-9999-lab/team-prints/003354-x1a-hub.md
+        - 003354 X2 HUB: designs/a-9999-lab/team-prints/003354-x2-hub.md
+        - PCM mnt bar: designs/a-9999-lab/team-prints/pcm-mnt-bar.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md
