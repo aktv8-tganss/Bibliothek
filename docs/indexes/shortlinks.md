@@ -302,7 +302,43 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [PTC Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/ptc-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/3VaZd4x](https://a360.co/3VaZd4x) |
 | [1208LS](../designs/a-0026-itm/plt/comps/1208ls.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4A8wcq5](https://a360.co/4A8wcq5) |
 | [Screen (PLT)](../designs/a-0026-itm/plt/comps/screen.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4yBQQxx](https://a360.co/4yBQQxx) |
+| [ORTHRUS WCONFIG - Mounting rail 1 (4d0ZixU)](../designs/a-0026-itm/orthrus/ots-parts/elec/orthrus-wconfig-mounting-rail-1-4d0ZixU.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4d0ZixU](https://a360.co/4d0ZixU) |
+| [ORTHRUS WCONFIG - Mounting rail 1 (4xSnKkK)](../designs/a-0026-itm/orthrus/ots-parts/elec/orthrus-wconfig-mounting-rail-1-4xSnKkK.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4xSnKkK](https://a360.co/4xSnKkK) |
+| [c-1set411014r0000-a-3d v1](../designs/a-0026-itm/orthrus/ots-parts/elec/c-1set411014r0000-a-3d-v1.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4dxb96S](https://a360.co/4dxb96S) |
+| [c-1set411202r0000-a-3d v1](../designs/a-0026-itm/orthrus/ots-parts/elec/c-1set411202r0000-a-3d-v1.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4iqRJEb](https://a360.co/4iqRJEb) |
+| [c-2416050-5-a1-3d](../designs/a-0026-itm/orthrus/ots-parts/elec/c-2416050-5-a1-3d.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/3SToomN](https://a360.co/3SToomN) |
+| [c-206358-5-n-3d](../designs/a-0026-itm/plt/comps/c-206358-5-n-3d.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/3V9JYc1](https://a360.co/3V9JYc1) |
+| [1/4 NPT Double Bulkhead](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-double-bulkhead.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4yrOWiK](https://a360.co/4yrOWiK) |
+| [1/4 NPT M Nipple](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-m-nipple.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4iIPHj5](https://a360.co/4iIPHj5) |
+| [1/4 NPT Muffler](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-muffler.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/3Tvv1Rb](https://a360.co/3Tvv1Rb) |
+| [1/4 NPT Street Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-street-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4ran9RA](https://a360.co/4ran9RA) |
+| [100CP8-2A](../designs/a-0026-itm/orthrus/ots-parts/pneu/100cp8-2a.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4r8u4e4](https://a360.co/4r8u4e4) |
+| [KV2E07-00 (PNEU)](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2e07-00.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4xSpFyw](https://a360.co/4xSpFyw) |
+| [12V (ORTHRUS ELEC)](../designs/a-0026-itm/orthrus/ots-parts/elec/12v.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/3Vr9edS](https://a360.co/3Vr9edS) |
+| [3.5mm TRS](../designs/a-0026-itm/orthrus/ots-parts/elec/35mm-trs.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4r4a781](https://a360.co/4r4a781) |
+| [46993-0420](../designs/a-0026-itm/orthrus/ots-parts/elec/46993-0420.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/3Tt7gJs](https://a360.co/3Tt7gJs) |
+| [C14 Plug](../designs/a-0026-itm/orthrus/ots-parts/elec/c14-plug.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4A5XkpX](https://a360.co/4A5XkpX) |
+| [ERB24](../designs/a-0026-itm/orthrus/ots-parts/elec/erb24.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4yzIxCh](https://a360.co/4yzIxCh) |
+| [keyboard](../designs/a-0026-itm/orthrus/ots-parts/elec/keyboard.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4xVRYfm](https://a360.co/4xVRYfm) |
+| [12V PSU](../designs/a-9999-lab/parts/12v-psu.md) | `A-9999 Lab / PARTS` | [a360.co/4r8SUdP](https://a360.co/4r8SUdP) |
+| [Gigadaq Mounting](../designs/a-9999-lab/parts/gigadaq-mounting.md) | `A-9999 Lab / PARTS` | [a360.co/4xk5Aji](https://a360.co/4xk5Aji) |
+| [NANUK_935_Bottom Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md) | `A-9999 Lab / PARTS` | [a360.co/4rnSPmy](https://a360.co/4rnSPmy) |
+| [NANUK_935_Top Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md) | `A-9999 Lab / PARTS` | [a360.co/4jhSMqm](https://a360.co/4jhSMqm) |
+| [1590U](../designs/a-0026-itm/plt/comps/1590u.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4yyNETk](https://a360.co/4yyNETk) |
+| [19V Adapter (PLT COMPS)](../designs/a-0026-itm/plt/comps/19v-adapter.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4ycfjtt](https://a360.co/4ycfjtt) |
+| [925_R1_Btm_INNER_SURFACE_STEP](../designs/a-0026-itm/plt/comps/925-r1-btm-inner-surface-step.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4h2PaG3](https://a360.co/4h2PaG3) |
+| [925_R1_Top_INNER_SURFACE_STEP](../designs/a-0026-itm/plt/comps/925-r1-top-inner-surface-step.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4gQ7X8D](https://a360.co/4gQ7X8D) |
+| [DC11 (PLT COMPS)](../designs/a-0026-itm/plt/comps/dc11.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4xTp9jR](https://a360.co/4xTp9jR) |
+| [GCX3105](../designs/a-0026-itm/plt/comps/gcx3105.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4xINJmq](https://a360.co/4xINJmq) |
+| [KV2E07-00 (PLT COMPS)](../designs/a-0026-itm/plt/comps/kv2e07-00.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4AssAj4](https://a360.co/4AssAj4) |
+| [KV2H07-36S](../designs/a-0026-itm/plt/comps/kv2h07-36s.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4hjKA6y](https://a360.co/4hjKA6y) |
+| [KV2L07-99](../designs/a-0026-itm/plt/comps/kv2l07-99.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4h1g9ls](https://a360.co/4h1g9ls) |
+| [PLT VALVE ASSY (PLT COMPS)](../designs/a-0026-itm/plt/comps/plt-valve-assy.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4yJIzaO](https://a360.co/4yJIzaO) |
+| [Random Assy](../designs/a-0026-itm/plt/comps/random-assy.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4xqoRQr](https://a360.co/4xqoRQr) |
+| [USB231](../designs/a-0026-itm/plt/comps/usb231.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/3T5FQsS](https://a360.co/3T5FQsS) |
+| [c-206060-1-k-3d](../designs/a-0026-itm/plt/comps/c-206060-1-k-3d.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4iv68iR](https://a360.co/4iv68iR) |
+| [c-206061-1-ad-3d (PLT COMPS)](../designs/a-0026-itm/plt/comps/c-206061-1-ad-3d.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/3VpTfwM](https://a360.co/3VpTfwM) |
 
 ---
 
-*298 designs indexed.*
+*334 designs indexed.*

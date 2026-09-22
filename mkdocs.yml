@@ -347,6 +347,12 @@ nav:
             - KV2H07-35S: designs/a-0026-itm/orthrus/ots-parts/pneu/kv2h07-35s.md
             - PLT VALVE ASSY: designs/a-0026-itm/orthrus/ots-parts/pneu/plt-valve-assy.md
             - PTC Tee: designs/a-0026-itm/orthrus/ots-parts/pneu/ptc-tee.md
+            - 1/4 NPT Double Bulkhead: designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-double-bulkhead.md
+            - 1/4 NPT M Nipple: designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-m-nipple.md
+            - 1/4 NPT Muffler: designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-muffler.md
+            - 1/4 NPT Street Tee: designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-street-tee.md
+            - 100CP8-2A: designs/a-0026-itm/orthrus/ots-parts/pneu/100cp8-2a.md
+            - KV2E07-00 (PNEU): designs/a-0026-itm/orthrus/ots-parts/pneu/kv2e07-00.md
           - ELEC:
             - Samsung_T37F: designs/a-0026-itm/orthrus/ots-parts/elec/samsung-t37f.md
             - USB-2637: designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md
@@ -356,6 +362,17 @@ nav:
             - NUC8ixBEH-Chassis (ORTHRUS): designs/a-0026-itm/orthrus/ots-parts/elec/nuc8ixbeh-chassis.md
             - Motor Controller (ORTHRUS): designs/a-0026-itm/orthrus/ots-parts/elec/motor-controller.md
             - Wire Channel: designs/a-0026-itm/orthrus/ots-parts/elec/wire-channel.md
+            - ORTHRUS WCONFIG - Mounting rail 1 (4d0ZixU): designs/a-0026-itm/orthrus/ots-parts/elec/orthrus-wconfig-mounting-rail-1-4d0ZixU.md
+            - ORTHRUS WCONFIG - Mounting rail 1 (4xSnKkK): designs/a-0026-itm/orthrus/ots-parts/elec/orthrus-wconfig-mounting-rail-1-4xSnKkK.md
+            - c-1set411014r0000-a-3d v1: designs/a-0026-itm/orthrus/ots-parts/elec/c-1set411014r0000-a-3d-v1.md
+            - c-1set411202r0000-a-3d v1: designs/a-0026-itm/orthrus/ots-parts/elec/c-1set411202r0000-a-3d-v1.md
+            - c-2416050-5-a1-3d: designs/a-0026-itm/orthrus/ots-parts/elec/c-2416050-5-a1-3d.md
+            - 12V (ORTHRUS ELEC): designs/a-0026-itm/orthrus/ots-parts/elec/12v.md
+            - 3.5mm TRS: designs/a-0026-itm/orthrus/ots-parts/elec/35mm-trs.md
+            - "46993-0420": designs/a-0026-itm/orthrus/ots-parts/elec/46993-0420.md
+            - C14 Plug: designs/a-0026-itm/orthrus/ots-parts/elec/c14-plug.md
+            - ERB24: designs/a-0026-itm/orthrus/ots-parts/elec/erb24.md
+            - keyboard: designs/a-0026-itm/orthrus/ots-parts/elec/keyboard.md
         - ELEC:
           - HCSD-20-D-02.50-01-N: designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md
       - OTS Parts:
@@ -381,6 +398,21 @@ nav:
           - HDMI Passthru: designs/a-0026-itm/plt/comps/hdmi-passthru.md
           - 1208LS: designs/a-0026-itm/plt/comps/1208ls.md
           - Screen (PLT): designs/a-0026-itm/plt/comps/screen.md
+          - c-206358-5-n-3d: designs/a-0026-itm/plt/comps/c-206358-5-n-3d.md
+          - 1590U: designs/a-0026-itm/plt/comps/1590u.md
+          - 19V Adapter (PLT COMPS): designs/a-0026-itm/plt/comps/19v-adapter.md
+          - 925_R1_Btm_INNER_SURFACE_STEP: designs/a-0026-itm/plt/comps/925-r1-btm-inner-surface-step.md
+          - 925_R1_Top_INNER_SURFACE_STEP: designs/a-0026-itm/plt/comps/925-r1-top-inner-surface-step.md
+          - DC11 (PLT COMPS): designs/a-0026-itm/plt/comps/dc11.md
+          - GCX3105: designs/a-0026-itm/plt/comps/gcx3105.md
+          - KV2E07-00 (PLT COMPS): designs/a-0026-itm/plt/comps/kv2e07-00.md
+          - KV2H07-36S: designs/a-0026-itm/plt/comps/kv2h07-36s.md
+          - KV2L07-99: designs/a-0026-itm/plt/comps/kv2l07-99.md
+          - PLT VALVE ASSY (PLT COMPS): designs/a-0026-itm/plt/comps/plt-valve-assy.md
+          - Random Assy: designs/a-0026-itm/plt/comps/random-assy.md
+          - USB231: designs/a-0026-itm/plt/comps/usb231.md
+          - c-206060-1-k-3d: designs/a-0026-itm/plt/comps/c-206060-1-k-3d.md
+          - c-206061-1-ad-3d (PLT COMPS): designs/a-0026-itm/plt/comps/c-206061-1-ad-3d.md
       - Rachel:
         - Carrier Stand 2.0: designs/a-0026-itm/rachel/carrier-stand-2-0.md
         - MARVIN OVERHAND 3 v28: designs/a-0026-itm/rachel/marvin-overhand-3-v28.md
@@ -398,6 +430,12 @@ nav:
         - Thru Screw Terminal: designs/a-0026-itm/taz-4/thru-screw-terminal.md
         - USB Adapter: designs/a-0026-itm/taz-4/usb-adapter.md
         - Whirlpool Motor: designs/a-0026-itm/taz-4/whirlpool-motor.md
+    - A-9999 Lab:
+      - PARTS:
+        - 12V PSU: designs/a-9999-lab/parts/12v-psu.md
+        - Gigadaq Mounting: designs/a-9999-lab/parts/gigadaq-mounting.md
+        - NANUK_935_Bottom Shell_INNER SURFS_Step: designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md
+        - NANUK_935_Top Shell_INNER SURFS_Step: designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md
