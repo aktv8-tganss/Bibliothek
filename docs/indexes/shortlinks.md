@@ -491,7 +491,26 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Motor Base](../designs/a-0047-tpms/mantis/motor-base.md) | `A-0047 TPMS / Mantis` | [a360.co/4yzRtYl](https://a360.co/4yzRtYl) |
 | [Mantis 2 Asm](../designs/a-0047-tpms/mantis-2/mantis-2-asm.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4dekv7x](https://a360.co/4dekv7x) |
 | [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4ru8DEz](https://a360.co/4ru8DEz) |
+| [Cylinder Bracket](../designs/a-0047-tpms/mantis-2/cylinder-bracket.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4xBA7t1](https://a360.co/4xBA7t1) |
+| [Enclosure](../designs/a-0047-tpms/mantis-2/enclosure.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4xe6iyB](https://a360.co/4xe6iyB) |
+| [Enclosure mod](../designs/a-0047-tpms/mantis-2/enclosure-mod.md) | `A-0047 TPMS / Mantis 2` | [a360.co/3Tj54Es](https://a360.co/3Tj54Es) |
+| [Mantis Bed Plates](../designs/a-0047-tpms/mantis-2/mantis-bed-plates.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4h7Gfo3](https://a360.co/4h7Gfo3) |
+| [Piston Bracket](../designs/a-0047-tpms/mantis-2/piston-bracket.md) | `A-0047 TPMS / Mantis 2` | [a360.co/3V9cPxh](https://a360.co/3V9cPxh) |
+| [Press Frame](../designs/a-0047-tpms/mantis-2/press-frame.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4hHkqfb](https://a360.co/4hHkqfb) |
+| [Carriage Carrier](../designs/a-0047-tpms/mantis-2/obs/carriage-carrier.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/46T45hj](https://a360.co/46T45hj) |
+| [Flashing Bed](../designs/a-0047-tpms/mantis-2/obs/flashing-bed.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/46g0EkD](https://a360.co/46g0EkD) |
+| [Mantis 2 ASM Obs](../designs/a-0047-tpms/mantis-2/obs/mantis-2-asm-obs.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/4r7rQf0](https://a360.co/4r7rQf0) |
+| [Platen Carrier](../designs/a-0047-tpms/mantis-2/obs/platen-carrier.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/4A8B1jb](https://a360.co/4A8B1jb) |
+| [Press Platen](../designs/a-0047-tpms/mantis-2/obs/press-platen.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/4r5ybr4](https://a360.co/4r5ybr4) |
+| [Rail Guide Link](../designs/a-0047-tpms/mantis-2/obs/rail-guide-link.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/4yEk0Mt](https://a360.co/4yEk0Mt) |
+| [Shuttle Nest Plate](../designs/a-0047-tpms/mantis-2/obs/shuttle-nest-plate.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/4xMJ7fX](https://a360.co/4xMJ7fX) |
+| [Shuttle Plate](../designs/a-0047-tpms/mantis-2/obs/shuttle-plate.md) | `A-0047 TPMS / Mantis 2 / Obs` | [a360.co/4r7R0Kc](https://a360.co/4r7R0Kc) |
 | [MOONFISH ASM 2](../designs/a-0047-tpms/moonfish/moonfish-asm-2.md) | `A-0047 TPMS / Moonfish` | [a360.co/4Acacux](https://a360.co/4Acacux) |
+| [Adapter Plates](../designs/a-0047-tpms/moonfish/adapter-plates.md) | `A-0047 TPMS / Moonfish` | [a360.co/4xYhpge](https://a360.co/4xYhpge) |
+| [Cap Presser](../designs/a-0047-tpms/moonfish/cap-presser.md) | `A-0047 TPMS / Moonfish` | [a360.co/46pzdVF](https://a360.co/46pzdVF) |
+| [Cylinder head stencil](../designs/a-0047-tpms/moonfish/cylinder-head-stencil.md) | `A-0047 TPMS / Moonfish` | [a360.co/4hg25o9](https://a360.co/4hg25o9) |
+| [Heat Probe Parts](../designs/a-0047-tpms/moonfish/heat-probe-parts.md) | `A-0047 TPMS / Moonfish` | [a360.co/4j0euPq](https://a360.co/4j0euPq) |
+| [Moonfish Tool Head 3](../designs/a-0047-tpms/moonfish/moonfish-tool-head-3.md) | `A-0047 TPMS / Moonfish` | [a360.co/4iJ0j1p](https://a360.co/4iJ0j1p) |
 | [Battery Spacing Blanks](../designs/a-0047-tpms/obs/battery-spacing-blanks.md) | `A-0047 TPMS / Obs` | [a360.co/3UOzDCh](https://a360.co/3UOzDCh) |
 | [TPMS 2 SENSOR](../designs/a-0047-tpms/obs/tpms-2-sensor.md) | `A-0047 TPMS / Obs` | [a360.co/4h1zR0l](https://a360.co/4h1zR0l) |
 | [Stepper Enclosure](../designs/a-0047-tpms/stepper-control/stepper-enclosure.md) | `A-0047 TPMS / Stepper Control` | [a360.co/4xTaa9x](https://a360.co/4xTaa9x) |

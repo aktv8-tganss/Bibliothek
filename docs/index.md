@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (491 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (92 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (510 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (100 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (174 total)
 
 ## Design Tree
@@ -58,14 +58,15 @@ Browse designs by project folder:
         - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
-- **[A-0047 TPMS](designs/a-0047-tpms/003501-thru-assembly.md)** — TPMS project designs (49 designs)
+- **[A-0047 TPMS](designs/a-0047-tpms/003501-thru-assembly.md)** — TPMS project designs (68 designs)
     - [Root Designs](designs/a-0047-tpms/003501-thru-assembly.md) — TPMS root designs (10 designs)
     - [Clam](designs/a-0047-tpms/clam/clam-asm.md) — Clam subfolder (8 designs)
     - [Flash Runner](designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md) — Flash Runner designs (2 designs)
     - [Limpet](designs/a-0047-tpms/limpet/limpet-asm.md) — Limpet subfolder (9 designs)
     - [Mantis](designs/a-0047-tpms/mantis/mantis-etch-asm.md) — Mantis subfolder (9 designs)
-    - [Mantis 2](designs/a-0047-tpms/mantis-2/mantis-2-asm.md) — Mantis 2 subfolder (2 designs)
-    - [Moonfish](designs/a-0047-tpms/moonfish/moonfish-asm-2.md) — Moonfish subfolder (1 design)
+    - [Mantis 2](designs/a-0047-tpms/mantis-2/mantis-2-asm.md) — Mantis 2 subfolder (8 designs)
+        - [Obs](designs/a-0047-tpms/mantis-2/obs/mantis-2-asm-obs.md) — Mantis 2 / Obs nested subfolder (8 designs)
+    - [Moonfish](designs/a-0047-tpms/moonfish/moonfish-asm-2.md) — Moonfish subfolder (6 designs)
     - [Obs](designs/a-0047-tpms/obs/battery-spacing-blanks.md) — Obs subfolder (2 designs)
     - [Stepper Control](designs/a-0047-tpms/stepper-control/stepper-enclosure.md) — Stepper Control subfolder (1 design)
     - [OTS Parts](designs/a-0047-tpms/ots-parts/ball-valve.md) — OTS Parts subfolder (5 designs, all migration candidates)
@@ -110,8 +111,9 @@ Browse designs by project folder:
 | 027 | 15 | A-0047 TPMS root (10), OTS Parts (5) — 5 OTS migration candidates; TPMS MORE remain |
 | 028 | 15 | A-0047 TPMS: Clam (3), Flash Runner (2), Limpet (2), Mantis (2), Mantis 2 (2), Moonfish (1), Obs (2), Stepper Control (1) — product folders; no new OTS candidates |
 | 029 | 19 | A-0047 TPMS: Clam (5), Limpet (7), Mantis (7) — product designs; no new OTS candidates; MORE remain |
+| 030 | 19 | A-0047 TPMS: Mantis 2 (6), Mantis 2 / Obs (8), Moonfish (5) — product designs; no new OTS candidates |
 
-**Total designs indexed: 491**
+**Total designs indexed: 510**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
@@ -120,7 +122,7 @@ Browse designs by project folder:
     A-9999 Lab harvest declared COMPLETE by Otto on 2026-09-22 after batches 019 (GIGADAQ children) + 021–026. Known debt: PCBA Gauge iAir6 V2 phantom (no Fusion search hit). See [leftovers index](indexes/leftovers.md) for details.
 
 !!! info "A-0047 TPMS — MORE remain"
-    A-0047 TPMS harvest continues. Batch 029 added 19 designs from Clam (5), Limpet (7), Mantis (7). Known phantoms: Limpet Cylinder Bracket (no Fusion hit), Clam Screen 2 / New Valve (not present). See [leftovers index](indexes/leftovers.md) for details.
+    A-0047 TPMS harvest continues. Batch 030 added Mantis 2 named targets (6) + Mantis 2/Obs nested (8) + Moonfish named targets (5). Obs root, Stepper Control, Moonfish/Obs nested, OTS Parts still open. See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 

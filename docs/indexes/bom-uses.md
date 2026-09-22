@@ -93,7 +93,15 @@ Assemblies with non-empty component references (Uses).
 | [Etcher Frame](../designs/a-0047-tpms/mantis/etcher-frame.md) | 1 | [a360.co/4h4ajj2](https://a360.co/4h4ajj2) |
 | [Mantis 2 Asm](../designs/a-0047-tpms/mantis-2/mantis-2-asm.md) | 10 | [a360.co/4dekv7x](https://a360.co/4dekv7x) |
 | [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md) | 2 | [a360.co/4ru8DEz](https://a360.co/4ru8DEz) |
+| [Mantis Bed Plates](../designs/a-0047-tpms/mantis-2/mantis-bed-plates.md) | 8 | [a360.co/4h7Gfo3](https://a360.co/4h7Gfo3) |
+| [Flashing Bed](../designs/a-0047-tpms/mantis-2/obs/flashing-bed.md) | 3 | [a360.co/46g0EkD](https://a360.co/46g0EkD) |
+| [Mantis 2 ASM Obs](../designs/a-0047-tpms/mantis-2/obs/mantis-2-asm-obs.md) | 10 | [a360.co/4r7rQf0](https://a360.co/4r7rQf0) |
+| [Press Platen](../designs/a-0047-tpms/mantis-2/obs/press-platen.md) | 2 | [a360.co/4r5ybr4](https://a360.co/4r5ybr4) |
+| [Shuttle Nest Plate](../designs/a-0047-tpms/mantis-2/obs/shuttle-nest-plate.md) | 3 | [a360.co/4xMJ7fX](https://a360.co/4xMJ7fX) |
+| [Shuttle Plate](../designs/a-0047-tpms/mantis-2/obs/shuttle-plate.md) | 1 | [a360.co/4r7R0Kc](https://a360.co/4r7R0Kc) |
 | [MOONFISH ASM 2](../designs/a-0047-tpms/moonfish/moonfish-asm-2.md) | 9 | [a360.co/4Acacux](https://a360.co/4Acacux) |
+| [Adapter Plates](../designs/a-0047-tpms/moonfish/adapter-plates.md) | 2 | [a360.co/4xYhpge](https://a360.co/4xYhpge) |
+| [Moonfish Tool Head 3](../designs/a-0047-tpms/moonfish/moonfish-tool-head-3.md) | 9 | [a360.co/4iJ0j1p](https://a360.co/4iJ0j1p) |
 | [TPMS 2 SENSOR](../designs/a-0047-tpms/obs/tpms-2-sensor.md) | 1 | [a360.co/4h1zR0l](https://a360.co/4h1zR0l) |
 | [Stepper Enclosure](../designs/a-0047-tpms/stepper-control/stepper-enclosure.md) | 3 | [a360.co/4xTaa9x](https://a360.co/4xTaa9x) |
 
@@ -1118,4 +1126,98 @@ The Etcher Frame design references the following 1 component:
 
 ---
 
-*92 assemblies with BOM data indexed.*
+## Mantis Bed Plates — Bill of Materials
+
+The Mantis Bed Plates design references the following 8 components:
+
+1. 1/4 ID x 3/8 OD x 3/4 L Sleeve
+2. [S-1-J-3.8-G](../designs/a-0010-iair6/flash-runner/parts/s-1-j-3-8-g.md)
+3. 1/4 ID x 1 1/4 L x 2lb Comp Spring
+4. 1/4 OD x 1 3/4 L x 10-24 Shoulder
+5. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+6. 5/16 Round Pin
+7. 5/16 Diamond Pin
+8. 5/16 Locating Hole
+
+---
+
+## Flashing Bed — Bill of Materials
+
+The Flashing Bed design references the following 3 components:
+
+1. 10-24 x 1/2 SHCS
+2. 1/4 ID x 3/8 OD x 3/4 L Sleeve
+3. 1/4 ID x 1 1/4 L x 2lb Comp Spring
+
+---
+
+## Mantis 2 ASM Obs — Bill of Materials
+
+The Mantis 2 ASM Obs assembly references the following 10 components:
+
+1. [Flashing Bed](../designs/a-0047-tpms/mantis-2/obs/flashing-bed.md)
+2. [Platen Carrier](../designs/a-0047-tpms/mantis-2/obs/platen-carrier.md)
+3. MDX1000_1500_Head
+4. SFC16 Linear Rail
+5. [Shuttle Nest Plate](../designs/a-0047-tpms/mantis-2/obs/shuttle-nest-plate.md)
+6. [Shuttle Plate](../designs/a-0047-tpms/mantis-2/obs/shuttle-plate.md)
+7. [Enclosure](../designs/a-0047-tpms/mantis-2/enclosure.md)
+8. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+9. [Press Platen](../designs/a-0047-tpms/mantis-2/obs/press-platen.md)
+10. [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md)
+
+---
+
+## Press Platen — Bill of Materials
+
+The Press Platen design references the following 2 components:
+
+1. 5/16 Round Pin
+2. 5/16 Diamond Pin
+
+---
+
+## Shuttle Nest Plate — Bill of Materials
+
+The Shuttle Nest Plate design references the following 3 components:
+
+1. 5/16 Round Pin
+2. 1/4 OD x 1 3/4 L x 10-24 Shoulder
+3. 5/16 Diamond Pin
+
+---
+
+## Shuttle Plate — Bill of Materials
+
+The Shuttle Plate design references the following 1 component:
+
+1. 5/16 Locating Hole
+
+---
+
+## Adapter Plates — Bill of Materials
+
+The Adapter Plates design references the following 2 components:
+
+1. Sensor Cradle 2
+2. Toman TAS-2030
+
+---
+
+## Moonfish Tool Head 3 — Bill of Materials
+
+The Moonfish Tool Head 3 assembly references the following 9 components:
+
+1. Finger Stud
+2. 3/8 PTFE Bearing
+3. [Heat Probe Parts](../designs/a-0047-tpms/moonfish/heat-probe-parts.md)
+4. [KQ2L03-33AS](../designs/a-0010-iair6/ots-parts/kq2l03-33as.md)
+5. 3 3/8 spacer
+6. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+7. 3/8 shoulder
+8. 9lb spring
+9. 4.5in screw
+
+---
+
+*100 assemblies with BOM data indexed.*

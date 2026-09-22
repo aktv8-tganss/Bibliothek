@@ -888,11 +888,11 @@ Alum Riser; Cap carrier; Centering Post; Etcher Frame; Gear Guide; Live Hinge Te
 
 **Mantis 2 still open:**
 
-Cylinder Bracket; Enclosure; Enclosure mod; Mantis Bed Plates; Piston Bracket; Press Frame; nested Obs folder
+~~Cylinder Bracket~~; ~~Enclosure~~; ~~Enclosure mod~~; ~~Mantis Bed Plates~~; ~~Piston Bracket~~; ~~Press Frame~~; ~~nested Obs folder~~ — all harvested in batch 030
 
 **Moonfish still open:**
 
-Adapter Plates; Cap Presser; Cylinder head stencil; Heat Probe Parts; Moonfish Tool Head 3; nested Obs folder
+~~Adapter Plates~~; ~~Cap Presser~~; ~~Cylinder head stencil~~; ~~Heat Probe Parts~~; ~~Moonfish Tool Head 3~~; nested Obs folder — named targets harvested in batch 030
 
 **Obs still open:**
 
@@ -952,11 +952,11 @@ All 19 designs from batch 029 were successfully indexed:
 
 **Mantis 2 still open:**
 
-Cylinder Bracket; Enclosure; Enclosure mod; Mantis Bed Plates; Piston Bracket; Press Frame; nested Obs (Carriage Carrier, Flashing Bed, Mantis 2 ASM Obs, Platen Carrier, Press Platen, Rail Guide Link, Shuttle Nest Plate, Shuttle Plate)
+~~Cylinder Bracket~~; ~~Enclosure~~; ~~Enclosure mod~~; ~~Mantis Bed Plates~~; ~~Piston Bracket~~; ~~Press Frame~~; ~~nested Obs~~ — all harvested in batch 030
 
 **Moonfish still open:**
 
-Adapter Plates; Cap Presser; Cylinder head stencil; Heat Probe Parts; Moonfish Tool Head 3; nested Obs folder
+~~Adapter Plates~~; ~~Cap Presser~~; ~~Cylinder head stencil~~; ~~Heat Probe Parts~~; ~~Moonfish Tool Head 3~~; nested Obs folder — named targets harvested in batch 030
 
 **Obs still open:**
 
@@ -969,3 +969,71 @@ ALITOV 24VDC; DM332T Driver; Teensy and Proto
 **OTS Parts still largely unharvested:**
 
 bearing, schraders, Cable Duct, Cylinder, Finger Stud, Gauge, NUC Pro Chassis, etc.
+
+---
+
+### Batch 030
+
+All 19 designs from batch 030 were successfully indexed:
+
+**Mantis 2 (6):**
+
+1. ✓ Cylinder Bracket
+2. ✓ Enclosure
+3. ✓ Enclosure mod
+4. ✓ Mantis Bed Plates
+5. ✓ Piston Bracket
+6. ✓ Press Frame
+
+**Mantis 2 / Obs (8):**
+
+7. ✓ Carriage Carrier
+8. ✓ Flashing Bed
+9. ✓ Mantis 2 ASM Obs
+10. ✓ Platen Carrier
+11. ✓ Press Platen
+12. ✓ Rail Guide Link
+13. ✓ Shuttle Nest Plate
+14. ✓ Shuttle Plate
+
+**Moonfish (5):**
+
+15. ✓ Adapter Plates
+16. ✓ Cap Presser
+17. ✓ Cylinder head stencil
+18. ✓ Heat Probe Parts
+19. ✓ Moonfish Tool Head 3
+
+### A-0047 TPMS remaining after batch 030
+
+!!! info "A-0047 TPMS: MORE remain"
+    A-0047 TPMS is NOT complete — significant designs remain unharvested. Batch 030 completed Mantis 2 named targets + nested Obs folder + Moonfish named targets.
+
+**Obs (root) still open:**
+
+Hose Support; Stickers
+
+**Stepper Control still open:**
+
+ALITOV 24VDC; DM332T Driver; Teensy and Proto
+
+**Moonfish / Obs (nested folder):**
+
+Not inspected this pass
+
+**Mantis 2 non-target siblings (optional):**
+
+Prox Shrouod; Rail Bracket; Reed Bracket Probe; Screen VESA
+
+**OTS Parts (not opened):**
+
+1-4 bearing, 1-8 brass schrader, 1/2 Barrel, Cable Duct, Cylinder, Finger Stud, Gauge, NUC Pro Chassis, Schrader Fitting, Stepper, Worm Shaft, and others
+
+### Disambiguation Notes (Batch 030)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 030 designs live under nested paths that differ from root-level designs with similar names:
+
+    - **Mantis 2 / Obs** — nested under `docs/designs/a-0047-tpms/mantis-2/obs/`; distinct from root **Obs** folder at `docs/designs/a-0047-tpms/obs/` (batch 028)
+    - **Carriage Carrier** (Mantis 2 / Obs) — distinct from Limpet **Carriage** (not yet harvested)
+    - **Cylinder Bracket** (Mantis 2) — distinct from any Limpet Cylinder Bracket (not yet harvested)

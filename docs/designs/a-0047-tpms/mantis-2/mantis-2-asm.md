@@ -29,13 +29,13 @@ ots_migration_candidate: false
 
 This assembly references **10 components**:
 
-1. Piston Bracket
-2. Enclosure
-3. Cylinder Bracket
+1. [Piston Bracket](piston-bracket.md)
+2. [Enclosure](enclosure.md)
+3. [Cylinder Bracket](cylinder-bracket.md)
 4. Rail Bracket
-5. Press Frame
+5. [Press Frame](press-frame.md)
 6. SFC16 Linear Rail
-7. Mantis Bed Plates
+7. [Mantis Bed Plates](mantis-bed-plates.md)
 8. Reed Bracket Probe
 9. MDX1000_1500_Head
 10. [Cylinder Asembly](cylinder-asembly.md)
