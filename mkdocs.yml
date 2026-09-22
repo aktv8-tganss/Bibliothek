@@ -528,7 +528,26 @@ nav:
       - TEAM PRINTS:
         - 003354 X1a HUB: designs/a-9999-lab/team-prints/003354-x1a-hub.md
         - 003354 X2 HUB: designs/a-9999-lab/team-prints/003354-x2-hub.md
+        - 003354 X2a HUB: designs/a-9999-lab/team-prints/003354-x2a-hub.md
+        - 003361 X1 NUT: designs/a-9999-lab/team-prints/003361-x1-nut.md
+        - Cover logo Aktv8: designs/a-9999-lab/team-prints/cover-logo-aktv8.md
+        - Desk part: designs/a-9999-lab/team-prints/desk-part.md
+        - IspecBadaTOPCLAMP-Body: designs/a-9999-lab/team-prints/ispecbadatopclamp-body.md
+        - Mount U: designs/a-9999-lab/team-prints/mount-u.md
+        - Mount Uv2: designs/a-9999-lab/team-prints/mount-uv2.md
+        - Mount brkt: designs/a-9999-lab/team-prints/mount-brkt.md
+        - Mount brkt v2: designs/a-9999-lab/team-prints/mount-brkt-v2.md
+        - PCM mnt: designs/a-9999-lab/team-prints/pcm-mnt.md
         - PCM mnt bar: designs/a-9999-lab/team-prints/pcm-mnt-bar.md
+        - PCM mnt saddle: designs/a-9999-lab/team-prints/pcm-mnt-saddle.md
+        - PCM mnt saddle flat: designs/a-9999-lab/team-prints/pcm-mnt-saddle-flat.md
+        - PCM plate: designs/a-9999-lab/team-prints/pcm-plate.md
+        - SPPV Plunger V4a: designs/a-9999-lab/team-prints/sppv-plunger-v4a.md
+        - SPPV Plunger v2: designs/a-9999-lab/team-prints/sppv-plunger-v2.md
+        - box lock subassy v3: designs/a-9999-lab/team-prints/box-lock-subassy-v3.md
+        - "20240917":
+          - SPPV Plunger V3: designs/a-9999-lab/team-prints/20240917/sppv-plunger-v3.md
+          - check barb pill: designs/a-9999-lab/team-prints/20240917/check-barb-pill.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md

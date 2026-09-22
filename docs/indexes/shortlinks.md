@@ -427,8 +427,26 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [c-1-1703543-0-a-3d](../designs/a-9999-lab/c-1-1703543-0-a-3d.md) | `A-9999 Lab` | [a360.co/4As0PHs](https://a360.co/4As0PHs) |
 | [003354 X1a HUB](../designs/a-9999-lab/team-prints/003354-x1a-hub.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3V6A3E8](https://a360.co/3V6A3E8) |
 | [003354 X2 HUB](../designs/a-9999-lab/team-prints/003354-x2-hub.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3TvIxUV](https://a360.co/3TvIxUV) |
+| [003354 X2a HUB](../designs/a-9999-lab/team-prints/003354-x2a-hub.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4cJTEAa](https://a360.co/4cJTEAa) |
+| [003361 X1 NUT](../designs/a-9999-lab/team-prints/003361-x1-nut.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3V9NVNU](https://a360.co/3V9NVNU) |
+| [Cover logo Aktv8](../designs/a-9999-lab/team-prints/cover-logo-aktv8.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3UQ3DOb](https://a360.co/3UQ3DOb) |
+| [Desk part](../designs/a-9999-lab/team-prints/desk-part.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4r8HUgw](https://a360.co/4r8HUgw) |
+| [IspecBadaTOPCLAMP-Body](../designs/a-9999-lab/team-prints/ispecbadatopclamp-body.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4r5EvyO](https://a360.co/4r5EvyO) |
+| [Mount U](../designs/a-9999-lab/team-prints/mount-u.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4h0k3eb](https://a360.co/4h0k3eb) |
+| [Mount Uv2](../designs/a-9999-lab/team-prints/mount-uv2.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4yzxitk](https://a360.co/4yzxitk) |
+| [Mount brkt](../designs/a-9999-lab/team-prints/mount-brkt.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3UVKXMW](https://a360.co/3UVKXMW) |
+| [Mount brkt v2](../designs/a-9999-lab/team-prints/mount-brkt-v2.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4gNsKd3](https://a360.co/4gNsKd3) |
+| [PCM mnt](../designs/a-9999-lab/team-prints/pcm-mnt.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4dAP87h](https://a360.co/4dAP87h) |
 | [PCM mnt bar](../designs/a-9999-lab/team-prints/pcm-mnt-bar.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4xR2ULh](https://a360.co/4xR2ULh) |
+| [PCM mnt saddle](../designs/a-9999-lab/team-prints/pcm-mnt-saddle.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4df2aXX](https://a360.co/4df2aXX) |
+| [PCM mnt saddle flat](../designs/a-9999-lab/team-prints/pcm-mnt-saddle-flat.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4cF68Jc](https://a360.co/4cF68Jc) |
+| [PCM plate](../designs/a-9999-lab/team-prints/pcm-plate.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4xQLGxp](https://a360.co/4xQLGxp) |
+| [SPPV Plunger V4a](../designs/a-9999-lab/team-prints/sppv-plunger-v4a.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/4ArXcBp](https://a360.co/4ArXcBp) |
+| [SPPV Plunger v2](../designs/a-9999-lab/team-prints/sppv-plunger-v2.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3VbcRVj](https://a360.co/3VbcRVj) |
+| [box lock subassy v3](../designs/a-9999-lab/team-prints/box-lock-subassy-v3.md) | `A-9999 Lab / TEAM PRINTS` | [a360.co/3SYcH30](https://a360.co/3SYcH30) |
+| [SPPV Plunger V3](../designs/a-9999-lab/team-prints/20240917/sppv-plunger-v3.md) | `A-9999 Lab / TEAM PRINTS / 20240917` | [a360.co/3TzgwvH](https://a360.co/3TzgwvH) |
+| [check barb pill](../designs/a-9999-lab/team-prints/20240917/check-barb-pill.md) | `A-9999 Lab / TEAM PRINTS / 20240917` | [a360.co/46pnbvi](https://a360.co/46pnbvi) |
 
 ---
 
-*424 designs indexed.*
+*442 designs indexed.*
