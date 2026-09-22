@@ -845,6 +845,47 @@ All 18 designs from batch 031 were successfully indexed:
 
 ---
 
+### Batch 032
+
+All 15 designs from batch 032 were successfully indexed:
+
+**OTS Parts (15):**
+
+1. ✓ 1-4 bearing — OTS migration candidate
+2. ✓ 1-8 brass schrader — OTS migration candidate
+3. ✓ 1/2 Barrel — OTS migration candidate
+4. ✓ Cable Duct (TPMS) — OTS migration candidate; distinct from A-0026/AEETES Cable Duct
+5. ✓ Cylinder (TPMS) — OTS migration candidate; distinct from A-0010/OTS Cylinder
+6. ✓ Finger Stud — OTS migration candidate
+7. ✓ Gauge — OTS migration candidate
+8. ✓ NUC Pro Chassis — OTS migration candidate
+9. ✓ Schrader Fitting — OTS migration candidate
+10. ✓ Stepper — OTS migration candidate
+11. ✓ Worm Shaft — OTS migration candidate
+12. ✓ 1/2 Dowel — OTS migration candidate
+13. ✓ 1/2 linear bearing — OTS migration candidate
+14. ✓ 1/2 shoulder — OTS migration candidate
+15. ✓ 1/4 Shoulder — OTS migration candidate
+
+### A-0047 TPMS remaining after batch 032
+
+!!! info "A-0047 TPMS: MORE remain — OTS continues"
+    A-0047 TPMS is NOT complete — substantial OTS Parts still open (Charlotte ticket 033). Do NOT declare A-0047 COMPLETE.
+
+**OTS Parts still open (per remaining status file):**
+
+1/4 spring; 1/4-28 Coupling; 1/4-28 Stud; 1/4-28 button; 1/8 brass nipple; 1/8 brass plug; 1/8 brass tee; Cable Duct Medium; Cable Duct Short; 3/8 Bearing variants; 3/8 PTFE Bearing; 3/8 Shoulder variants; 3 3/8 spacer; 3way Solenoid; 4040 12in; ANMBEST 4-MOSFET; ArduinoMega_STEP_AP203; KQ2 fittings; Mini Regulator; Moonfish Inner Nut; Nipple; Small Nipple; Tee; Tee Fitting; Touchscreen; and other catalog rows.
+
+### Disambiguation Notes (Batch 032)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 032 designs have names that exist elsewhere in the Bibliothek with different shortlinks:
+
+    - **Cable Duct (TPMS)** — `a360.co/3VtvsvT` under A-0047 TPMS / OTS Parts; distinct from **Cable Duct** `a360.co/3V9sFb3` under A-0026 iTM / AEETES / OTS Parts
+    - **Cylinder (TPMS)** — `a360.co/4jii73s` under A-0047 TPMS / OTS Parts; distinct from **Cylinder** `a360.co/4yAJ2fc` under A-0010 iAir6 / OTS parts
+
+---
+
 ### Batch 027
 
 All 15 designs from batch 027 were successfully indexed:

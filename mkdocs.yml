@@ -529,6 +529,21 @@ nav:
         - Manifold 5 Block: designs/a-0047-tpms/ots-parts/manifold-5-block.md
         - Small Gauge: designs/a-0047-tpms/ots-parts/small-gauge.md
         - Small Valve: designs/a-0047-tpms/ots-parts/small-valve.md
+        - 1-4 bearing: designs/a-0047-tpms/ots-parts/1-4-bearing.md
+        - 1-8 brass schrader: designs/a-0047-tpms/ots-parts/1-8-brass-schrader.md
+        - 1/2 Barrel: designs/a-0047-tpms/ots-parts/1-2-barrel.md
+        - Cable Duct (TPMS): designs/a-0047-tpms/ots-parts/cable-duct-tpms.md
+        - Cylinder (TPMS): designs/a-0047-tpms/ots-parts/cylinder-tpms.md
+        - Finger Stud: designs/a-0047-tpms/ots-parts/finger-stud.md
+        - Gauge: designs/a-0047-tpms/ots-parts/gauge.md
+        - NUC Pro Chassis: designs/a-0047-tpms/ots-parts/nuc-pro-chassis.md
+        - Schrader Fitting: designs/a-0047-tpms/ots-parts/schrader-fitting.md
+        - Stepper: designs/a-0047-tpms/ots-parts/stepper.md
+        - Worm Shaft: designs/a-0047-tpms/ots-parts/worm-shaft.md
+        - 1/2 Dowel: designs/a-0047-tpms/ots-parts/1-2-dowel.md
+        - 1/2 linear bearing: designs/a-0047-tpms/ots-parts/1-2-linear-bearing.md
+        - 1/2 shoulder: designs/a-0047-tpms/ots-parts/1-2-shoulder.md
+        - 1/4 Shoulder: designs/a-0047-tpms/ots-parts/1-4-shoulder.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md

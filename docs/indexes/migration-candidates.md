@@ -185,6 +185,21 @@ A design is flagged when:
 | [Manifold 5 Block](../designs/a-0047-tpms/ots-parts/manifold-5-block.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog manifold outside `00 - Parts` |
 | [Small Gauge](../designs/a-0047-tpms/ots-parts/small-gauge.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog gauge outside `00 - Parts` |
 | [Small Valve](../designs/a-0047-tpms/ots-parts/small-valve.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog valve outside `00 - Parts` |
+| [1-4 bearing](../designs/a-0047-tpms/ots-parts/1-4-bearing.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog bearing outside `00 - Parts` |
+| [1-8 brass schrader](../designs/a-0047-tpms/ots-parts/1-8-brass-schrader.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog fitting outside `00 - Parts` |
+| [1/2 Barrel](../designs/a-0047-tpms/ots-parts/1-2-barrel.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog barrel outside `00 - Parts` |
+| [Cable Duct (TPMS)](../designs/a-0047-tpms/ots-parts/cable-duct-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog cable duct outside `00 - Parts`; distinct from AEETES |
+| [Cylinder (TPMS)](../designs/a-0047-tpms/ots-parts/cylinder-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog cylinder outside `00 - Parts`; distinct from A-0010 |
+| [Finger Stud](../designs/a-0047-tpms/ots-parts/finger-stud.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog stud outside `00 - Parts` |
+| [Gauge](../designs/a-0047-tpms/ots-parts/gauge.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog gauge outside `00 - Parts` |
+| [NUC Pro Chassis](../designs/a-0047-tpms/ots-parts/nuc-pro-chassis.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog NUC chassis outside `00 - Parts` |
+| [Schrader Fitting](../designs/a-0047-tpms/ots-parts/schrader-fitting.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog fitting outside `00 - Parts` |
+| [Stepper](../designs/a-0047-tpms/ots-parts/stepper.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog stepper outside `00 - Parts` |
+| [Worm Shaft](../designs/a-0047-tpms/ots-parts/worm-shaft.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shaft outside `00 - Parts` |
+| [1/2 Dowel](../designs/a-0047-tpms/ots-parts/1-2-dowel.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog dowel outside `00 - Parts` |
+| [1/2 linear bearing](../designs/a-0047-tpms/ots-parts/1-2-linear-bearing.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog bearing outside `00 - Parts` |
+| [1/2 shoulder](../designs/a-0047-tpms/ots-parts/1-2-shoulder.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shoulder screw outside `00 - Parts` |
+| [1/4 Shoulder](../designs/a-0047-tpms/ots-parts/1-4-shoulder.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shoulder screw outside `00 - Parts` |
 
 ---
 
@@ -854,6 +869,28 @@ All 5 OTS Parts under A-0047 TPMS are **migration candidates**:
 - **Reed Bracket Probe** — Mantis 2 component (used in Mantis 2 Asm). Not an OTS part.
 - **Screen VESA** — Mantis 2 design. Not an OTS part.
 
+### Assessment Notes (Batch 032)
+
+Batch 032 contains 15 designs under `A-0047 TPMS / OTS Parts`. All 15 are OTS parts outside `00 - Parts` and are **migration candidates**:
+
+**Migration Candidates (15 of 15):**
+
+- **1-4 bearing** — OTS/catalog bearing in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Moonfish Base ASM, Moonfish Base 2. **Migration candidate.**
+- **1-8 brass schrader** — OTS/catalog fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Pearl 5. **Migration candidate.**
+- **1/2 Barrel** — OTS/catalog barrel in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Cable Duct (TPMS)** — OTS/catalog cable duct in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from AEETES Cable Duct. Used In: Clam ASM. **Migration candidate.**
+- **Cylinder (TPMS)** — OTS/catalog cylinder in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0010/OTS Cylinder. Used In: Limpet Asm, Pearl 5. **Migration candidate.**
+- **Finger Stud** — OTS/catalog stud in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Moonfish Tool Head 3. **Migration candidate.**
+- **Gauge** — OTS/catalog gauge in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **NUC Pro Chassis** — OTS/catalog NUC chassis in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Schrader Fitting** — OTS/catalog fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Test Rig 3. **Migration candidate.**
+- **Stepper** — OTS/catalog stepper in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Mantis Etch ASM, Moonfish Base 2, Moonfish Base ASM. **Migration candidate.**
+- **Worm Shaft** — OTS/catalog shaft in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/2 Dowel** — OTS/catalog dowel in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Moonfish Base 2, Moonfish Base ASM. **Migration candidate.**
+- **1/2 linear bearing** — OTS/catalog linear bearing in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/2 shoulder** — OTS/catalog shoulder screw in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/4 Shoulder** — OTS/catalog shoulder screw in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Moonfish Base ASM, Moonfish Base 2. **Migration candidate.**
+
 ---
 
-*176 migration candidates identified (+2 in batch 031).*
+*191 migration candidates identified (+15 in batch 032).*
