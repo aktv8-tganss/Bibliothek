@@ -226,7 +226,24 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [USB-TC](../designs/a-0026-itm/aeetes/ots-parts/usb-tc.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4h2Glfk](https://a360.co/4h2Glfk) |
 | [Untitled (AEETES OTS)](../designs/a-0026-itm/aeetes/ots-parts/untitled-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4h4FYCm](https://a360.co/4h4FYCm) |
 | [V Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/v-cable-duct.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4razDc3](https://a360.co/4razDc3) |
+| [Horseshoe Cell](../designs/a-0026-itm/comps/horseshoe-cell.md) | `A-0026 iTM / COMPS` | [a360.co/4hqyU1Z](https://a360.co/4hqyU1Z) |
+| [Hose Cutter](../designs/a-0026-itm/ots-parts/hose-cutter.md) | `A-0026 iTM / OTS Parts` | [a360.co/4dziB1o](https://a360.co/4dziB1o) |
+| [Dropper](../designs/a-0026-itm/ots-parts/dropper.md) | `A-0026 iTM / OTS Parts` | [a360.co/46DZTCd](https://a360.co/46DZTCd) |
+| [HOSE FIXTURE](../designs/a-0026-itm/plt/hose-fixture.md) | `A-0026 iTM / PLT` | [a360.co/4hqq9G1](https://a360.co/4hqq9G1) |
+| [LUBER](../designs/a-0026-itm/ots-parts/luber.md) | `A-0026 iTM / OTS Parts` | [a360.co/4A5PaOl](https://a360.co/4A5PaOl) |
+| [PLT HEAD_Plate](../designs/a-0026-itm/plt/plt-head-plate.md) | `A-0026 iTM / PLT` | [a360.co/4AePcU3](https://a360.co/4AePcU3) |
+| [PLT HEAD](../designs/a-0026-itm/plt/plt-head.md) | `A-0026 iTM / PLT` | [a360.co/4yCUOpw](https://a360.co/4yCUOpw) |
+| [PLT INPUT ARRAY](../designs/a-0026-itm/plt/plt-input-array.md) | `A-0026 iTM / PLT` | [a360.co/4rcM9HJ](https://a360.co/4rcM9HJ) |
+| [Torque Jig](../designs/a-0026-itm/mtt03/torque-jig.md) | `A-0026 iTM / MTT03` | [a360.co/4xWE1xU](https://a360.co/4xWE1xU) |
+| [ORTHRUS](../designs/a-0026-itm/orthrus/orthrus.md) | `A-0026 iTM / ORTHRUS` | [a360.co/4AaGpm4](https://a360.co/4AaGpm4) |
+| [Wheel End ASM](../designs/a-0026-itm/parts/wheel-end-asm.md) | `A-0026 iTM / PARTS` | [a360.co/4AgcB7J](https://a360.co/4AgcB7J) |
+| [Tee](../designs/a-0026-itm/parts/tee.md) | `A-0026 iTM / PARTS` | [a360.co/4ydkdGC](https://a360.co/4ydkdGC) |
+| [Tee Cap](../designs/a-0026-itm/parts/tee-cap.md) | `A-0026 iTM / PARTS` | [a360.co/4ikosLn](https://a360.co/4ikosLn) |
+| [Hose (PARTS)](../designs/a-0026-itm/parts/hose.md) | `A-0026 iTM / PARTS` | [a360.co/4AtqrUd](https://a360.co/4AtqrUd) |
+| [Tube Bridge](../designs/a-0026-itm/parts/tube-bridge.md) | `A-0026 iTM / PARTS` | [a360.co/4xh0tQX](https://a360.co/4xh0tQX) |
+| [PSI Tee](../designs/a-0026-itm/parts/psi-tee.md) | `A-0026 iTM / PARTS` | [a360.co/4y4iTpi](https://a360.co/4y4iTpi) |
+| [TT03_12_50_100](../designs/a-0026-itm/mtt03/tt03-12-50-100.md) | `A-0026 iTM / MTT03` | [a360.co/4Aaq9RS](https://a360.co/4Aaq9RS) |
 
 ---
 
-*222 designs indexed.*
+*239 designs indexed.*

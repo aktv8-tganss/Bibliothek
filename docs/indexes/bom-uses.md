@@ -52,6 +52,15 @@ Assemblies with non-empty component references (Uses).
 | [Inf Only Hose Cell](../designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md) | 1 | [a360.co/46koko0](https://a360.co/46koko0) |
 | [Stator Plug Cell](../designs/a-0026-itm/asm-tooling/stator-plug-cell.md) | 6 | [a360.co/4hmrZaW](https://a360.co/4hmrZaW) |
 | [Moonfish Base 2](../designs/a-0026-itm/aeetes/ots-parts/moonfish-base-2.md) | 11 | [a360.co/4xerTH7](https://a360.co/4xerTH7) |
+| [Horseshoe Cell](../designs/a-0026-itm/comps/horseshoe-cell.md) | 3 | [a360.co/4hqyU1Z](https://a360.co/4hqyU1Z) |
+| [Hose Cutter](../designs/a-0026-itm/ots-parts/hose-cutter.md) | 3 | [a360.co/4dziB1o](https://a360.co/4dziB1o) |
+| [HOSE FIXTURE](../designs/a-0026-itm/plt/hose-fixture.md) | 9 | [a360.co/4hqq9G1](https://a360.co/4hqq9G1) |
+| [PLT HEAD](../designs/a-0026-itm/plt/plt-head.md) | 12 | [a360.co/4yCUOpw](https://a360.co/4yCUOpw) |
+| [PLT INPUT ARRAY](../designs/a-0026-itm/plt/plt-input-array.md) | 7 | [a360.co/4rcM9HJ](https://a360.co/4rcM9HJ) |
+| [Torque Jig](../designs/a-0026-itm/mtt03/torque-jig.md) | 4 | [a360.co/4xWE1xU](https://a360.co/4xWE1xU) |
+| [ORTHRUS](../designs/a-0026-itm/orthrus/orthrus.md) | 34 | [a360.co/4AaGpm4](https://a360.co/4AaGpm4) |
+| [Wheel End ASM](../designs/a-0026-itm/parts/wheel-end-asm.md) | 2 | [a360.co/4AgcB7J](https://a360.co/4AgcB7J) |
+| [Tee](../designs/a-0026-itm/parts/tee.md) | 1 | [a360.co/4ydkdGC](https://a360.co/4ydkdGC) |
 
 ---
 
@@ -562,4 +571,142 @@ The Moonfish Base 2 assembly references the following 11 components:
 
 ---
 
-*48 assemblies with BOM data indexed.*
+## Horseshoe Cell — Bill of Materials
+
+The Horseshoe Cell assembly references the following 3 components:
+
+1. 7x72
+2. 2x8
+3. 2x6
+
+---
+
+## Hose Cutter — Bill of Materials
+
+The Hose Cutter assembly references the following 3 components:
+
+1. Hexagon Socket Button Head Cap Screw ANSI B18.3 - 8-32 UNC x 0.3125 Steel Grade 2 Nickel
+2. Hexagon Socket Head Shoulder Screw ANSI B18.3 - 5/8-11 UNC x 1.255 Steel Grade 2 Plain
+3. Hexagon Socket Head Cap Screw ANSI B18.3 - 4-40 UNC x 0.1875 Steel Grade 2 Plain
+
+---
+
+## HOSE FIXTURE — Bill of Materials
+
+The HOSE FIXTURE assembly references the following 9 components:
+
+1. green
+2. KV2L07-99
+3. 5x5x2.5 enclosure
+4. KV2E07-00
+5. c-206358-5-n-3d
+6. c-206060-1-k-3d
+7. KV2H07-36S
+8. red
+9. GCX3105
+
+---
+
+## PLT HEAD — Bill of Materials
+
+The PLT HEAD assembly references the following 12 components:
+
+1. [PLT INPUT ARRAY](../designs/a-0026-itm/plt/plt-input-array.md)
+2. [19V Adapter](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/19v-adapter.md)
+3. [940_R1_Btm_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-btm-inner-surface-step.md)
+4. USB
+5. [Mounting rail 1](../designs/a-0054-iair3-gen2/fft-obs/io-box/mounting-rail-1.md)
+6. [12V](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md)
+7. [NUC8ixBEH-Chassis](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nuc8ixbeh-chassis.md)
+8. IO Box
+9. ERB24
+10. 1208LS
+11. [FAN](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/fan.md)
+12. [DC11](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/dc11.md)
+
+---
+
+## PLT INPUT ARRAY — Bill of Materials
+
+The PLT INPUT ARRAY assembly references the following 7 components:
+
+1. 1208LS
+2. [NUC8ixBEH-Chassis](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nuc8ixbeh-chassis.md)
+3. [940_R1_Btm_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-btm-inner-surface-step.md)
+4. [DC11](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/dc11.md)
+5. [c-206061-1-ad-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206061-1-ad-3d.md)
+6. PLT VALVE ASSY
+7. ERB24
+
+---
+
+## Torque Jig — Bill of Materials
+
+The Torque Jig assembly references the following 4 components:
+
+1. [Tee](../designs/a-0026-itm/parts/tee.md)
+2. Hexagon Socket Head Cap Screw ANSI B18.3 - 8-36 UNF x 1.25 Steel Grade 2 Plain
+3. [TT03_10Z_20Z_50Z](../designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md)
+4. BRINGSMART MOTOR
+
+---
+
+## ORTHRUS — Bill of Materials
+
+The ORTHRUS assembly references the following 34 components (33 unique):
+
+1. USB-2637
+2. Samsung_T37F
+3. [Mini Regulator](../designs/a-0026-itm/aeetes/ots-parts/mini-regulator.md)
+4. Flow Control Valve
+5. Work Stand
+6. ERB24
+7. 1/4 1/8 NPT M Reducer
+8. 3way Solenoid
+9. 3.5mm TRS
+10. [NUC8ixBEH-Chassis](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nuc8ixbeh-chassis.md)
+11. [Flow Control Exhaust](../designs/a-0026-itm/aeetes/ots-parts/flow-control-exhaust.md)
+12. PTC Tee
+13. [c-206061-1-ad-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206061-1-ad-3d.md)
+14. KV2E07-35
+15. 1/4 NPT M Nipple
+16. [19V Adapter](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/19v-adapter.md)
+17. c-1set411014r0000-a-3d
+18. 100CP8-2A
+19. C14 Plug
+20. Arduino_Uno_w/Shield
+21. [KV2H07-34S](../designs/a-0026-itm/aeetes/ots-parts/kv2h07-34s.md)
+22. KV2H07-35S
+23. c-2416050-5-a1-3d
+24. [New Valve](../designs/a-0026-itm/aeetes/ots-parts/new-valve-aeetes.md)
+25. Motor Control PCBA
+26. .5G V Tanjk
+27. keyboard
+28. SCE-36N2408LP
+29. 1/4 NPT Muffler
+30. 1/4 NPT Double Bulkhead
+31. ORTHRUS WCONFIG - Mounting rail 1
+32. ORTHRUS WCONFIG - Mounting rail 1
+33. 1/4 NPT Street Tee
+34. 1500VA UPS
+
+---
+
+## Wheel End ASM — Bill of Materials
+
+The Wheel End ASM assembly references the following 2 components:
+
+1. [Tee](../designs/a-0026-itm/parts/tee.md)
+2. [Hose](../designs/a-0026-itm/parts/hose.md)
+
+---
+
+## Tee — Bill of Materials
+
+The Tee design references the following 1 component:
+
+1. [Tee Cap](../designs/a-0026-itm/parts/tee-cap.md)
+
+---
+
+*57 assemblies with BOM data indexed.*

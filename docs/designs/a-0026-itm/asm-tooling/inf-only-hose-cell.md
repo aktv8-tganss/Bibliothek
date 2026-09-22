@@ -24,7 +24,7 @@ ots_migration_candidate: false
 
 This design references the following 1 component:
 
-1. Horseshoe Cell
+1. [Horseshoe Cell](../comps/horseshoe-cell.md)
 
 ## Used In
 

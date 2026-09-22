@@ -29,12 +29,12 @@ ots_migration_candidate: false
 
 This design references the following 6 components:
 
-1. Horseshoe Cell
+1. [Horseshoe Cell](../comps/horseshoe-cell.md)
 2. [MARVIN OVERHAND 3](marvin/marvin-overhand-3.md)
-3. Hose Cutter
+3. [Hose Cutter](../ots-parts/hose-cutter.md)
 4. [PREFECT](prefect/prefect.md)
 5. [Zaphod Stack](zaphod/zaphod-stack.md)
-6. Dropper
+6. [Dropper](../ots-parts/dropper.md)
 
 ## Used In
 

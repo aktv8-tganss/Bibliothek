@@ -28,7 +28,7 @@ This assembly references the following 3 components:
 
 1. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.25 Steel Grade 2 Plain
 2. Tee Body Solid
-3. PSI Tee
+3. [PSI Tee](../parts/psi-tee.md)
 
 ## Used In
 
