@@ -26,7 +26,7 @@ This assembly references **1 component**:
 
 | # | Component |
 |---|-----------|
-| 1 | c-206151-1-ag-3d |
+| 1 | [c-206151-1-ag-3d](comps/c-206151-1-ag-3d.md) |
 
 ## Used In
 

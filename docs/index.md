@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (94 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (24 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (30 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (118 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (25 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (54 total)
 
 ## Design Tree
 
@@ -31,8 +31,9 @@ Browse designs by project folder:
     - [Obs](designs/a-0010-iair6/obs/cephalopod-1.md) — obsolete/archived designs (3 designs)
     - [OTS Parts](designs/a-0010-iair6/ots-parts/prox-switch.md) — off-the-shelf components (14 designs, migration candidates)
 - **[A-0054 iAir3 Gen2](designs/a-0054-iair3-gen2/design-22.md)** — iAir3 Gen2 project designs
-    - [FFT (Obs) / IO Box](designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md) — IO Box assembly designs (5 designs)
-        - [Comps](designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) — IO Box components (12 designs, 8 migration candidates)
+    - [FFT (Obs) / IO Box](designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md) — IO Box assembly designs (6 designs)
+        - [Comps](designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) — IO Box components (32 designs, 28 migration candidates)
+        - [Josh CAD](designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) — Josh CAD designs (3 designs, 3 migration candidates)
     - [Flash Runner](designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) — Flash Runner assembly designs (4 designs)
 
 ## Batch Summary
@@ -47,8 +48,9 @@ Browse designs by project folder:
 | 006 | 15 | A8 Parts (9), Obs (3), Flash Runner (1), Root A-0010 (2) — product assemblies, no OTS candidates |
 | 007 | 17 | ALC Parts (2), DUT Mounting (2), Flash Runner/Parts (11), A8 Parts (1), Root A-0010 (1) — 7 OTS migration candidates |
 | 008 | 20 | FFT (Obs) / IO Box (5), IO Box Comps (12), Flash Runner (3) — 8 OTS migration candidates |
+| 009 | 24 | FFT (Obs) / IO Box (1), IO Box Comps (20), Josh CAD (3) — all 24 migration candidates |
 
-**Total designs indexed: 94**
+**Total designs indexed: 118**
 
 ---
 

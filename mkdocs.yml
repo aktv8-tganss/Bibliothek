@@ -132,6 +132,7 @@ nav:
       - Weight Plate: designs/a-0054-iair3-gen2/weight-plate.md
       - FFT (Obs):
         - IO Box:
+          - Bracket: designs/a-0054-iair3-gen2/fft-obs/io-box/bracket.md
           - IO BOX Try 1: designs/a-0054-iair3-gen2/fft-obs/io-box/io-box-try-1.md
           - IO Box: designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md
           - Mounting rail 1: designs/a-0054-iair3-gen2/fft-obs/io-box/mounting-rail-1.md
@@ -149,7 +150,31 @@ nav:
             - Breaker SN180506A: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/breaker-sn180506a.md
             - Bulkhead: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead.md
             - Bulkhead Adapt: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead-adapt.md
+            - c-206061-1-ad-3d: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206061-1-ad-3d.md
+            - c-206151-1-ag-3d: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206151-1-ag-3d.md
+            - c-dtp04-4p-le07-b-3d: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-dtp04-4p-le07-b-3d.md
             - CG-U3MINI7PH_Model3D_JWV1: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/cg-u3mini7ph-model3d-jwv1.md
+            - DC11: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/dc11.md
+            - FAN: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/fan.md
+            - Keypad: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/keypad.md
+            - KV2E07-34: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/kv2e07-34.md
+            - Mounting rail 2: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/mounting-rail-2.md
+            - Mounting rail 3: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/mounting-rail-3.md
+            - New Valve: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/new-valve.md
+            - NHS150 0R5: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nhs150-0r5.md
+            - NUC8ixBEH-Chassis: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nuc8ixbeh-chassis.md
+            - PCAN: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/pcan.md
+            - S6F: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/s6f.md
+            - Screen: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen.md
+            - Screen 2: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen-2.md
+            - USB-2408-2AO: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/usb-2408-2ao.md
+            - Valve Assy: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy.md
+            - Valve Assy 2: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy-2.md
+            - Y201132R203NQ: designs/a-0054-iair3-gen2/fft-obs/io-box/comps/y201132r203nq.md
+          - Josh CAD:
+            - box bottom: designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md
+            - box top: designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-top.md
+            - Valve and sensor: designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/valve-and-sensor.md
       - Flash Runner:
         - iAIR3 Gen2 Flash Runner Bed: designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md
         - PCB Sim: designs/a-0054-iair3-gen2/flash-runner/pcb-sim.md
