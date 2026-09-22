@@ -31,4 +31,6 @@ OTS folder outside 00 - Parts.
 
 This design is used in the following assemblies:
 
-- Routed base
+| # | Assembly |
+|---|----------|
+| 1 | [Routed base](../dut-box-parts/routed-base.md) |

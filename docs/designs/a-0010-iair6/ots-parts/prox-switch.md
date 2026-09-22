@@ -31,4 +31,6 @@ OTS folder outside 00 - Parts.
 
 This design is used in the following assemblies:
 
-- Lid Hinge
+| # | Assembly |
+|---|----------|
+| 1 | [Lid Hinge](../dut-box-parts/lid-hinge.md) |
