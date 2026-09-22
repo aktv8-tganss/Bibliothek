@@ -8,6 +8,7 @@
     toggles.forEach(function(toggle) {
       toggle.checked = expand;
       toggle.indeterminate = false;
+      toggle.classList.remove("md-toggle--indeterminate");
     });
   }
 
