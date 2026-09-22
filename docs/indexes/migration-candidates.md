@@ -41,6 +41,45 @@ A design is flagged when:
 - **GEN2 PROC MODULE 2026** — Module design under `A-0054 iAir3 Gen2`. Not an OTS part.
 - **Weight Plate** — Component under `A-0054 iAir3 Gen2`. Not an OTS part.
 
+### Assessment Notes (Batch 004)
+
+All 17 DUT Box Parts designs are product-specific parts under `A-0010 iAir6 / DUT Box Parts`. None are OTS migration candidates:
+
+- **CEPHALOPOD 3** — DUT Box assembly. Not an OTS part.
+- **Cylinder Block** — Custom machined part. Not an OTS part.
+- **Cylinder Strap** — Custom machined part. Not an OTS part.
+- **Lid Hinge** — Custom assembly. Not an OTS part.
+- **Plunger Stop** — Custom machined part. Not an OTS part.
+- **Plunger Stop Solid** — Custom machined part. Not an OTS part.
+- **Plunger passthru** — Custom machined part. Not an OTS part.
+- **Poly Shield** — Custom fabricated part. Not an OTS part.
+- **Push Plate MFT** — Custom machined part. Not an OTS part.
+- **Push Plate VMT** — Custom machined part. Not an OTS part.
+- **Rail** — Custom machined part. Not an OTS part.
+- **Receive Block** — Custom machined part. Not an OTS part.
+- **Reg Sleeve Mount** — Custom machined part. Not an OTS part.
+- **Routed base** — Custom machined assembly. Not an OTS part.
+- **VMT Adapt Plate** — Custom machined part. Not an OTS part.
+- **VMT Probe Carrier** — Custom machined part. Not an OTS part.
+- **Valve mount** — Custom machined part. Not an OTS part.
+
 ---
 
-*3 migration candidates identified (no new candidates in batch 003).*
+## Referenced OTS / Commodity (Not Yet Harvested as Pages)
+
+The following items appear in batch-004 Uses fields and appear to be off-the-shelf commodity parts. They do not yet have dedicated Bibliothek pages and are candidates for future Charlotte harvest and possible `00 - Parts` home:
+
+| Name | Seen In Uses Of |
+|------|-----------------|
+| 2 Pin | Push Plate MFT |
+| 4 Pin | CEPHALOPOD 3, VMT Adapt Plate |
+| 3way Solenoid | Valve mount, Routed base |
+| 1/16 NPT Female | Plunger Stop |
+| Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.5 Steel Grade 2 Plain | Cylinder Strap |
+| Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain | Routed base |
+| Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 8-32 UNC x 0.25 Steel Grade 2 Plain | Routed base |
+| Clear Lid | Lid Hinge |
+
+---
+
+*3 migration candidates identified (no new candidates in batch 004).*

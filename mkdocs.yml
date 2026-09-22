@@ -51,6 +51,24 @@ nav:
       - A8 Parts:
         - 003234 X1a Manifold iAIR6: designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md
         - 003270 FAST26: designs/a-0010-iair6/a8-parts/003270-fast26.md
+      - DUT Box Parts:
+        - CEPHALOPOD 3: designs/a-0010-iair6/dut-box-parts/cephalopod-3.md
+        - Cylinder Block: designs/a-0010-iair6/dut-box-parts/cylinder-block.md
+        - Cylinder Strap: designs/a-0010-iair6/dut-box-parts/cylinder-strap.md
+        - Lid Hinge: designs/a-0010-iair6/dut-box-parts/lid-hinge.md
+        - Plunger Stop: designs/a-0010-iair6/dut-box-parts/plunger-stop.md
+        - Plunger Stop Solid: designs/a-0010-iair6/dut-box-parts/plunger-stop-solid.md
+        - Plunger passthru: designs/a-0010-iair6/dut-box-parts/plunger-passthru.md
+        - Poly Shield: designs/a-0010-iair6/dut-box-parts/poly-shield.md
+        - Push Plate MFT: designs/a-0010-iair6/dut-box-parts/push-plate-mft.md
+        - Push Plate VMT: designs/a-0010-iair6/dut-box-parts/push-plate-vmt.md
+        - Rail: designs/a-0010-iair6/dut-box-parts/rail.md
+        - Receive Block: designs/a-0010-iair6/dut-box-parts/receive-block.md
+        - Reg Sleeve Mount: designs/a-0010-iair6/dut-box-parts/reg-sleeve-mount.md
+        - Routed base: designs/a-0010-iair6/dut-box-parts/routed-base.md
+        - VMT Adapt Plate: designs/a-0010-iair6/dut-box-parts/vmt-adapt-plate.md
+        - VMT Probe Carrier: designs/a-0010-iair6/dut-box-parts/vmt-probe-carrier.md
+        - Valve mount: designs/a-0010-iair6/dut-box-parts/valve-mount.md
       - OTS Parts:
         - Prox Switch: designs/a-0010-iair6/ots-parts/prox-switch.md
         - SS Relay Board: designs/a-0010-iair6/ots-parts/ss-relay-board.md

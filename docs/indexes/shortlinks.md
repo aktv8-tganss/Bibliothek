@@ -9,6 +9,23 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [FAST26 Clamping Jaws](../designs/a-0010-iair6/fast26-clamping-jaws.md) | `A-0010 iAir6` | [a360.co/4zYGpFA](https://a360.co/4zYGpFA) |
 | [003234 X1a Manifold iAIR6](../designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4ila6uh](https://a360.co/4ila6uh) |
 | [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4dgmDvx](https://a360.co/4dgmDvx) |
+| [CEPHALOPOD 3](../designs/a-0010-iair6/dut-box-parts/cephalopod-3.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4hrnGv5](https://a360.co/4hrnGv5) |
+| [Cylinder Block](../designs/a-0010-iair6/dut-box-parts/cylinder-block.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/3Tvoshx](https://a360.co/3Tvoshx) |
+| [Cylinder Strap](../designs/a-0010-iair6/dut-box-parts/cylinder-strap.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4cMS5RT](https://a360.co/4cMS5RT) |
+| [Lid Hinge](../designs/a-0010-iair6/dut-box-parts/lid-hinge.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4rhyOyc](https://a360.co/4rhyOyc) |
+| [Plunger Stop](../designs/a-0010-iair6/dut-box-parts/plunger-stop.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4hspbZW](https://a360.co/4hspbZW) |
+| [Plunger Stop Solid](../designs/a-0010-iair6/dut-box-parts/plunger-stop-solid.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4xJqCbD](https://a360.co/4xJqCbD) |
+| [Plunger passthru](../designs/a-0010-iair6/dut-box-parts/plunger-passthru.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4AevkjV](https://a360.co/4AevkjV) |
+| [Poly Shield](../designs/a-0010-iair6/dut-box-parts/poly-shield.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4h4lXKZ](https://a360.co/4h4lXKZ) |
+| [Push Plate MFT](../designs/a-0010-iair6/dut-box-parts/push-plate-mft.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4cErpTu](https://a360.co/4cErpTu) |
+| [Push Plate VMT](../designs/a-0010-iair6/dut-box-parts/push-plate-vmt.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/3SH9p48](https://a360.co/3SH9p48) |
+| [Rail](../designs/a-0010-iair6/dut-box-parts/rail.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4cN3nFL](https://a360.co/4cN3nFL) |
+| [Receive Block](../designs/a-0010-iair6/dut-box-parts/receive-block.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4AhtZcg](https://a360.co/4AhtZcg) |
+| [Reg Sleeve Mount](../designs/a-0010-iair6/dut-box-parts/reg-sleeve-mount.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4gOiuBi](https://a360.co/4gOiuBi) |
+| [Routed base](../designs/a-0010-iair6/dut-box-parts/routed-base.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/3SLxMO9](https://a360.co/3SLxMO9) |
+| [VMT Adapt Plate](../designs/a-0010-iair6/dut-box-parts/vmt-adapt-plate.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4gWUaMc](https://a360.co/4gWUaMc) |
+| [VMT Probe Carrier](../designs/a-0010-iair6/dut-box-parts/vmt-probe-carrier.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4hpoArY](https://a360.co/4hpoArY) |
+| [Valve mount](../designs/a-0010-iair6/dut-box-parts/valve-mount.md) | `A-0010 iAir6 / DUT Box Parts` | [a360.co/4xlh5qZ](https://a360.co/4xlh5qZ) |
 | [Prox Switch](../designs/a-0010-iair6/ots-parts/prox-switch.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4h8evP1](https://a360.co/4h8evP1) |
 | [SS Relay Board](../designs/a-0010-iair6/ots-parts/ss-relay-board.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4j3bm5s](https://a360.co/4j3bm5s) |
 | [KQ2H03-33AS](../designs/a-0010-iair6/ots-parts/kq2h03-33as.md) | `A-0010 iAir6 / OTS parts` | [a360.co/4AeGrcB](https://a360.co/4AeGrcB) |
@@ -20,4 +37,4 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 
 ---
 
-*13 designs indexed.*
+*30 designs indexed.*
