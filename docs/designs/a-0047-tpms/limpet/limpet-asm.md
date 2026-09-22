@@ -9,6 +9,7 @@ uses:
   - Tool
   - Linear Rail
   - Cylinder Bracket
+  - External2
 used_in: []
 notes: ""
 ots_migration_candidate: false
@@ -23,14 +24,15 @@ ots_migration_candidate: false
 
 ## Uses
 
-This design references **6 components**:
+This design references **7 components**:
 
-1. 003566 X4 Battery Clip Bent
+1. [003566 X4 Battery Clip Bent](003566-x4-battery-clip-bent.md)
 2. Cylinder
-3. Holder
-4. Tool
-5. Linear Rail
+3. [Holder](holder.md)
+4. [Tool](tool.md)
+5. [Linear Rail](linear-rail.md)
 6. Cylinder Bracket
+7. [External2](external2.md)
 
 ## Used In
 

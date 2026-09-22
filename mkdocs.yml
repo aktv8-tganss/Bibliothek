@@ -446,15 +446,34 @@ nav:
         - Clam ASM: designs/a-0047-tpms/clam/clam-asm.md
         - Clam DIN PD: designs/a-0047-tpms/clam/clam-din-pd.md
         - Clam DIN PSU: designs/a-0047-tpms/clam/clam-din-psu.md
+        - Mount Plate: designs/a-0047-tpms/clam/mount-plate.md
+        - Pearl 2 - End: designs/a-0047-tpms/clam/pearl-2-end.md
+        - Pearl 4: designs/a-0047-tpms/clam/pearl-4.md
+        - Pearl 5: designs/a-0047-tpms/clam/pearl-5.md
+        - Upper Plate: designs/a-0047-tpms/clam/upper-plate.md
       - Flash Runner:
         - Oyster Bed 3UP TPMS: designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md
         - Oyster Bed Template: designs/a-0047-tpms/flash-runner/oyster-bed-template.md
       - Limpet:
         - Limpet Asm: designs/a-0047-tpms/limpet/limpet-asm.md
         - 003566 X2 BATTERY CLIP TPMS: designs/a-0047-tpms/limpet/003566-x2-battery-clip-tpms.md
+        - 003566 X4 Battery Clip Bent: designs/a-0047-tpms/limpet/003566-x4-battery-clip-bent.md
+        - Battery Clip Bend Brake: designs/a-0047-tpms/limpet/battery-clip-bend-brake.md
+        - Carriage: designs/a-0047-tpms/limpet/carriage.md
+        - External2: designs/a-0047-tpms/limpet/external2.md
+        - Holder: designs/a-0047-tpms/limpet/holder.md
+        - Linear Rail: designs/a-0047-tpms/limpet/linear-rail.md
+        - Tool: designs/a-0047-tpms/limpet/tool.md
       - Mantis:
         - Mantis Etch ASM: designs/a-0047-tpms/mantis/mantis-etch-asm.md
         - Alum Arm: designs/a-0047-tpms/mantis/alum-arm.md
+        - Alum Riser: designs/a-0047-tpms/mantis/alum-riser.md
+        - Cap carrier: designs/a-0047-tpms/mantis/cap-carrier.md
+        - Centering Post: designs/a-0047-tpms/mantis/centering-post.md
+        - Etcher Frame: designs/a-0047-tpms/mantis/etcher-frame.md
+        - Gear Guide: designs/a-0047-tpms/mantis/gear-guide.md
+        - Live Hinge Test: designs/a-0047-tpms/mantis/live-hinge-test.md
+        - Motor Base: designs/a-0047-tpms/mantis/motor-base.md
       - Mantis 2:
         - Mantis 2 Asm: designs/a-0047-tpms/mantis-2/mantis-2-asm.md
         - Cylinder Asembly: designs/a-0047-tpms/mantis-2/cylinder-asembly.md

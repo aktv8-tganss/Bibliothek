@@ -31,18 +31,18 @@ ots_migration_candidate: false
 
 This assembly references **12 components**:
 
-1. Cap carrier
+1. [Cap carrier](cap-carrier.md)
 2. 3/8 Shoulder
-3. Gear Guide
+3. [Gear Guide](gear-guide.md)
 4. Stepper
-5. Etcher Frame
+5. [Etcher Frame](etcher-frame.md)
 6. 3/8 Bearing
 7. 4040 12in
-8. Centering Post
+8. [Centering Post](centering-post.md)
 9. Worm Gear
-10. Motor Base
+10. [Motor Base](motor-base.md)
 11. [Alum Arm](alum-arm.md)
-12. Alum Riser
+12. [Alum Riser](alum-riser.md)
 
 ## Used In
 

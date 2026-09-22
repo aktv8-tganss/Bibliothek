@@ -44,14 +44,14 @@ Priority product assembly.
 
 This assembly references **21 components**:
 
-1. Pearl 5
+1. [Pearl 5](pearl-5.md)
 2. [Screen 2](../../a-0054-iair3-gen2/fft-obs/io-box/comps/screen-2.md)
 3. [ArduinoMega_STEP_AP203](../../a-0026-itm/aeetes/ots-parts/arduinomega-step-ap203.md)
 4. [Clam DIN PD](clam-din-pd.md)
 5. KQ2H03-34AS
 6. KQ2T03-35AS
-7. Mount Plate
-8. Upper Plate
+7. [Mount Plate](mount-plate.md)
+8. [Upper Plate](upper-plate.md)
 9. KQ2L03-34AS
 10. [NANUK_935_Bottom Shell_INNER SURFS_Step](../../a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md)
 11. [NANUK_935_Top Shell_INNER SURFS_Step](../../a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md)
