@@ -139,3 +139,32 @@ All 20 designs from batch 008 were successfully indexed:
 18. ✓ PCB Sim
 19. ✓ PCBA Flash Expanded
 20. ✓ Screen VESA
+
+### Batch 009
+
+All 24 designs from batch 009 were successfully indexed:
+
+1. ✓ Bracket
+2. ✓ Screen
+3. ✓ Screen 2
+4. ✓ Valve and sensor
+5. ✓ box bottom
+6. ✓ box top
+7. ✓ DC11
+8. ✓ FAN
+9. ✓ KV2E07-34
+10. ✓ Keypad
+11. ✓ Mounting rail 2
+12. ✓ Mounting rail 3
+13. ✓ NHS150 0R5
+14. ✓ NUC8ixBEH-Chassis
+15. ✓ New Valve
+16. ✓ PCAN
+17. ✓ S6F
+18. ✓ USB-2408-2AO
+19. ✓ Valve Assy
+20. ✓ Valve Assy 2
+21. ✓ Y201132R203NQ
+22. ✓ c-206061-1-ad-3d
+23. ✓ c-206151-1-ag-3d
+24. ✓ c-dtp04-4p-le07-b-3d

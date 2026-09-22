@@ -43,6 +43,30 @@ A design is flagged when:
 | [Bulkhead](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS hardware/fitting outside `00 - Parts` |
 | [Bulkhead Adapt](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead-adapt.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS hardware adapter outside `00 - Parts` |
 | [CG-U3MINI7PH_Model3D_JWV1](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/cg-u3mini7ph-model3d-jwv1.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS connector/model outside `00 - Parts` |
+| [Bracket](../designs/a-0054-iair3-gen2/fft-obs/io-box/bracket.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box` | Outside `00 - Parts` (FFT Obs) |
+| [Screen](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Screen 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen-2.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [DC11](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/dc11.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [FAN](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/fan.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [KV2E07-34](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/kv2e07-34.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Keypad](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/keypad.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Mounting rail 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/mounting-rail-2.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Mounting rail 3](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/mounting-rail-3.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [NHS150 0R5](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nhs150-0r5.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [NUC8ixBEH-Chassis](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nuc8ixbeh-chassis.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [New Valve](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/new-valve.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [PCAN](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/pcan.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [S6F](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/s6f.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [USB-2408-2AO](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/usb-2408-2ao.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Valve Assy](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Valve Assy 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy-2.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Y201132R203NQ](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/y201132r203nq.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [c-206061-1-ad-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206061-1-ad-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [c-206151-1-ag-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206151-1-ag-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [c-dtp04-4p-le07-b-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-dtp04-4p-le07-b-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | Outside `00 - Parts` (FFT Obs) |
+| [Valve and sensor](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/valve-and-sensor.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | Outside `00 - Parts` (FFT Obs / Josh CAD) |
+| [box bottom](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | Outside `00 - Parts` (FFT Obs / Josh CAD) |
+| [box top](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-top.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | Outside `00 - Parts` (FFT Obs / Josh CAD) |
 
 ---
 
@@ -182,6 +206,40 @@ Non-candidates (product assemblies or STEP surfaces):
 - **PCBA Flash Expanded** — Flash Runner assembly. Not an OTS part.
 - **Screen VESA** — VESA mounting design. Not an OTS part.
 
+### Assessment Notes (Batch 009)
+
+Batch 009 contains 24 designs under `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box`. All 24 are flagged as migration candidates per harvest notes indicating they are "Outside 00 - Parts (FFT Obs)":
+
+**IO Box Root (1):**
+- **Bracket** — IO Box bracket component outside `00 - Parts`. **Migration candidate.**
+
+**Comps (20):**
+- **Screen** — Screen component outside `00 - Parts`. **Migration candidate.**
+- **Screen 2** — Screen component outside `00 - Parts`. **Migration candidate.**
+- **DC11** — Component outside `00 - Parts`. **Migration candidate.**
+- **FAN** — Fan component outside `00 - Parts`. **Migration candidate.**
+- **KV2E07-34** — Component outside `00 - Parts`. **Migration candidate.**
+- **Keypad** — Keypad component outside `00 - Parts`. **Migration candidate.**
+- **Mounting rail 2** — Mounting rail outside `00 - Parts`. **Migration candidate.**
+- **Mounting rail 3** — Mounting rail outside `00 - Parts`. **Migration candidate.**
+- **NHS150 0R5** — Component outside `00 - Parts`. **Migration candidate.**
+- **NUC8ixBEH-Chassis** — NUC chassis component outside `00 - Parts`. **Migration candidate.**
+- **New Valve** — Valve component outside `00 - Parts`. **Migration candidate.**
+- **PCAN** — PCAN component outside `00 - Parts`. **Migration candidate.**
+- **S6F** — Component outside `00 - Parts`. **Migration candidate.**
+- **USB-2408-2AO** — USB DAQ component outside `00 - Parts`. **Migration candidate.**
+- **Valve Assy** — Valve assembly outside `00 - Parts`. **Migration candidate.**
+- **Valve Assy 2** — Valve assembly outside `00 - Parts`. **Migration candidate.**
+- **Y201132R203NQ** — Component outside `00 - Parts`. **Migration candidate.**
+- **c-206061-1-ad-3d** — Connector component outside `00 - Parts`. **Migration candidate.**
+- **c-206151-1-ag-3d** — Connector component outside `00 - Parts`. **Migration candidate.**
+- **c-dtp04-4p-le07-b-3d** — Connector component outside `00 - Parts`. **Migration candidate.**
+
+**Josh CAD (3):**
+- **Valve and sensor** — Josh CAD design outside `00 - Parts`. **Migration candidate.**
+- **box bottom** — Josh CAD design outside `00 - Parts`. **Migration candidate.**
+- **box top** — Josh CAD design outside `00 - Parts`. **Migration candidate.**
+
 ---
 
 ## Referenced OTS / Commodity (Not Yet Harvested as Pages)
@@ -204,4 +262,4 @@ The following items appear in Uses fields and appear to be off-the-shelf commodi
 
 ---
 
-*30 migration candidates identified (+8 in batch 008).*
+*54 migration candidates identified (+24 in batch 009).*

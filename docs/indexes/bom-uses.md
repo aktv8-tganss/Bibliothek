@@ -29,6 +29,7 @@ Assemblies with non-empty component references (Uses).
 | [IO BOX Try 1](../designs/a-0054-iair3-gen2/fft-obs/io-box/io-box-try-1.md) | 1 | [a360.co/4ixhwe3](https://a360.co/4ixhwe3) |
 | [IO Box](../designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md) | 23 | [a360.co/3TdMhKH](https://a360.co/3TdMhKH) |
 | [PCBA Flash Expanded](../designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md) | 15 | [a360.co/4yBctxO](https://a360.co/4yBctxO) |
+| [Bracket](../designs/a-0054-iair3-gen2/fft-obs/io-box/bracket.md) | 1 | [a360.co/4yGKA7A](https://a360.co/4yGKA7A) |
 
 ---
 
@@ -245,7 +246,7 @@ The Press Fixture design references the following 1 component:
 
 The IO BOX Try 1 design references the following 1 component:
 
-1. c-206151-1-ag-3d
+1. [c-206151-1-ag-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206151-1-ag-3d.md)
 
 ---
 
@@ -253,25 +254,25 @@ The IO BOX Try 1 design references the following 1 component:
 
 The IO Box assembly references the following 23 components:
 
-1. Valve Assy
+1. [Valve Assy](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy.md)
 2. [940_R1_Top_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-top-inner-surface-step.md)
 3. iAir3G2 fixture plate
-4. Bracket
-5. USB-2408-2AO
-6. Screen
-7. Keypad
-8. Screen 2
+4. [Bracket](../designs/a-0054-iair3-gen2/fft-obs/io-box/bracket.md)
+5. [USB-2408-2AO](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/usb-2408-2ao.md)
+6. [Screen](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen.md)
+7. [Keypad](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/keypad.md)
+8. [Screen 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen-2.md)
 9. [19V Adapter](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/19v-adapter.md)
-10. DC11
-11. FAN
-12. Mounting rail 3
-13. NUC8ixBEH-Chassis
-14. S6F
-15. NHS150 0R5
-16. Y201132R203NQ
-17. c-206151-1-ag-3d
+10. [DC11](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/dc11.md)
+11. [FAN](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/fan.md)
+12. [Mounting rail 3](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/mounting-rail-3.md)
+13. [NUC8ixBEH-Chassis](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nuc8ixbeh-chassis.md)
+14. [S6F](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/s6f.md)
+15. [NHS150 0R5](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nhs150-0r5.md)
+16. [Y201132R203NQ](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/y201132r203nq.md)
+17. [c-206151-1-ag-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206151-1-ag-3d.md)
 18. HDMI Passthru
-19. c-206061-1-ad-3d
+19. [c-206061-1-ad-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206061-1-ad-3d.md)
 20. [Breaker SN180506A](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/breaker-sn180506a.md)
 21. [940_R1_Btm_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-btm-inner-surface-step.md)
 22. [12V](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md)
@@ -301,4 +302,12 @@ The PCBA Flash Expanded assembly references the following 15 components:
 
 ---
 
-*24 assemblies with BOM data indexed.*
+## Bracket — Bill of Materials
+
+The Bracket assembly references the following 1 component:
+
+1. [Screen 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen-2.md)
+
+---
+
+*25 assemblies with BOM data indexed.*

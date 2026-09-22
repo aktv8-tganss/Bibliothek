@@ -98,7 +98,31 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [PCB Sim](../designs/a-0054-iair3-gen2/flash-runner/pcb-sim.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4xEAx28](https://a360.co/4xEAx28) |
 | [PCBA Flash Expanded](../designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4yBctxO](https://a360.co/4yBctxO) |
 | [Screen VESA](../designs/a-0054-iair3-gen2/flash-runner/screen-vesa.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4yLMzYt](https://a360.co/4yLMzYt) |
+| [Bracket](../designs/a-0054-iair3-gen2/fft-obs/io-box/bracket.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box` | [a360.co/4yGKA7A](https://a360.co/4yGKA7A) |
+| [Screen](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/47in44Z](https://a360.co/47in44Z) |
+| [Screen 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen-2.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4xEFMPi](https://a360.co/4xEFMPi) |
+| [Valve and sensor](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/valve-and-sensor.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | [a360.co/4y4zoBO](https://a360.co/4y4zoBO) |
+| [box bottom](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | [a360.co/4gY2nBb](https://a360.co/4gY2nBb) |
+| [box top](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-top.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | [a360.co/3TEqk7H](https://a360.co/3TEqk7H) |
+| [DC11](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/dc11.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/3V6DeMf](https://a360.co/3V6DeMf) |
+| [FAN](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/fan.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4At3Hnl](https://a360.co/4At3Hnl) |
+| [KV2E07-34](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/kv2e07-34.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hGfU0w](https://a360.co/4hGfU0w) |
+| [Keypad](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/keypad.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4zcn2Ib](https://a360.co/4zcn2Ib) |
+| [Mounting rail 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/mounting-rail-2.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4yVTKxk](https://a360.co/4yVTKxk) |
+| [Mounting rail 3](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/mounting-rail-3.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4rmeBHy](https://a360.co/4rmeBHy) |
+| [NHS150 0R5](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nhs150-0r5.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4gYm4Jg](https://a360.co/4gYm4Jg) |
+| [NUC8ixBEH-Chassis](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/nuc8ixbeh-chassis.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4cZMPKZ](https://a360.co/4cZMPKZ) |
+| [New Valve](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/new-valve.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4ybIvRj](https://a360.co/4ybIvRj) |
+| [PCAN](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/pcan.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4dibcUn](https://a360.co/4dibcUn) |
+| [S6F](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/s6f.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4dOIsCA](https://a360.co/4dOIsCA) |
+| [USB-2408-2AO](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/usb-2408-2ao.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4dL1ud1](https://a360.co/4dL1ud1) |
+| [Valve Assy](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4yLSrRd](https://a360.co/4yLSrRd) |
+| [Valve Assy 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy-2.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4yI91Bz](https://a360.co/4yI91Bz) |
+| [Y201132R203NQ](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/y201132r203nq.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/3T2BEue](https://a360.co/3T2BEue) |
+| [c-206061-1-ad-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206061-1-ad-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hfFojT](https://a360.co/4hfFojT) |
+| [c-206151-1-ag-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206151-1-ag-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hGof4h](https://a360.co/4hGof4h) |
+| [c-dtp04-4p-le07-b-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-dtp04-4p-le07-b-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/46sG8gI](https://a360.co/46sG8gI) |
 
 ---
 
-*94 designs indexed.*
+*118 designs indexed.*
