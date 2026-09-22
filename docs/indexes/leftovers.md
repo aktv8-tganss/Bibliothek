@@ -589,7 +589,47 @@ All 12 designs from batch 023 were successfully indexed:
 
 **Lab root remaining (sample):**
 
-Barn Layout, Boat* parts, Marble Run*, Stool, connectors, etc. Large set still open from batch 021 leftover list.
+~~Barn Layout~~, ~~Boat* parts~~, Marble Run*, Stool, connectors, etc. Large set still open from batch 021 leftover list.
+
+### Batch 024
+
+All 20 designs from batch 024 were successfully indexed:
+
+**Lab Root (20):**
+
+1. ✓ Barn Layout
+2. ✓ Blower Cap
+3. ✓ Boat Pole Bracket
+4. ✓ Boat Tarp Cleat Grommet
+5. ✓ Boat Tarp Hanger
+6. ✓ Boat Tarp Hanger 2
+7. ✓ Boat flag holder
+8. ✓ Bushing
+9. ✓ Button Valve
+10. ✓ CI16-FCI06 — OTS migration candidate
+11. ✓ Compressor Packaging A
+12. ✓ Concept floating piston_X2
+13. ✓ Drill press - Ferm FTB-13M — OTS migration candidate
+14. ✓ Dyno Washer
+15. ✓ FHR Test Ruler
+16. ✓ Flex Plate
+17. ✓ Gen2 Plug Holder
+18. ✓ Hole Test
+19. ✓ Jart
+20. ✓ LA-S48037-3D model
+
+### A-9999 Lab remaining after batch 024
+
+!!! info "A-9999 Lab: MORE remain (root large)"
+    Lab root still has remaining designs from the original list.
+
+**Lab root remaining:**
+
+Light Arcade Switch, M16x1 to 1/4NPT Adapter, Magnum Trunk, Marble Run Support, Marble Run Support Copy, PCBA Gauge iAir6 V2, PI Case, STAY STRAPPED, Segger Module, Sound Deadening Chamber, Stool v5, Switch, Table Top, Tag, iTM Axle Hose Install Tool, m16x1 thread, metal_tag_laser_fixture_round_relieved_largefinger, c-1-1355200-1-d-3d, c-1-1564337-1-j-3d, c-1-1564337-1-j-3d No Clip, c-1-1703543-0-a-3d
+
+**TEAM PRINTS:**
+
+No preferred exact-name matches this pass.
 
 ### Disambiguation Notes (Batch 023)
 

@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (381 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (401 total)
 - [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (77 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (161 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (163 total)
 
 ## Design Tree
 
@@ -58,8 +58,8 @@ Browse designs by project folder:
         - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
-- **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (50 designs)
-    - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (18 designs, 2 OTS migration candidates)
+- **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (70 designs)
+    - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (38 designs, 4 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
         - [Sterling CAN Controller](designs/a-9999-lab/gegenees/sterling-can-controller/sterling-6-dut-controller.md) — Sterling CAN Controller designs (4 designs)
     - [PARTS](designs/a-9999-lab/parts/12v-psu.md) — Lab PARTS (6 designs, incl. USB-2637 + Mounting rail 1 distinct copies)
@@ -91,8 +91,9 @@ Browse designs by project folder:
 | 021 | 16 | A-9999 Lab root designs (16) — 2 OTS migration candidates; Lab NOT thin / MORE remain |
 | 022 | 18 | A-9999 Lab / GEGENEES (18) — 4 OTS migration candidates; GEGENEES MORE remain |
 | 023 | 12 | A-9999 Lab: GEGENEES (5), Sterling CAN Controller (3), PARTS (2), root (2) — 1 OTS migration candidate |
+| 024 | 20 | A-9999 Lab root (20) — 2 OTS migration candidates; Lab root MORE remain |
 
-**Total designs indexed: 381**
+**Total designs indexed: 401**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.

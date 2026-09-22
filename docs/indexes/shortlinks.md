@@ -385,7 +385,27 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Mounting rail 1 (Lab PARTS)](../designs/a-9999-lab/parts/mounting-rail-1.md) | `A-9999 Lab / PARTS` | [a360.co/4Axj7Hi](https://a360.co/4Axj7Hi) |
 | [Wheel End Test Stand Assembly - Copy](../designs/a-9999-lab/wheel-end-test-stand-assembly-copy.md) | `A-9999 Lab` | [a360.co/3Vncbw2](https://a360.co/3Vncbw2) |
 | [CP Reg Assy](../designs/a-9999-lab/cp-reg-assy.md) | `A-9999 Lab` | [a360.co/46R8eSU](https://a360.co/46R8eSU) |
+| [Barn Layout](../designs/a-9999-lab/barn-layout.md) | `A-9999 Lab` | [a360.co/4resgjR](https://a360.co/4resgjR) |
+| [Blower Cap](../designs/a-9999-lab/blower-cap.md) | `A-9999 Lab` | [a360.co/4r5PKr4](https://a360.co/4r5PKr4) |
+| [Boat Pole Bracket](../designs/a-9999-lab/boat-pole-bracket.md) | `A-9999 Lab` | [a360.co/4rbJrCv](https://a360.co/4rbJrCv) |
+| [Boat Tarp Cleat Grommet](../designs/a-9999-lab/boat-tarp-cleat-grommet.md) | `A-9999 Lab` | [a360.co/4AgoCKn](https://a360.co/4AgoCKn) |
+| [Boat Tarp Hanger](../designs/a-9999-lab/boat-tarp-hanger.md) | `A-9999 Lab` | [a360.co/3UJXPWw](https://a360.co/3UJXPWw) |
+| [Boat Tarp Hanger 2](../designs/a-9999-lab/boat-tarp-hanger-2.md) | `A-9999 Lab` | [a360.co/4gPV92e](https://a360.co/4gPV92e) |
+| [Boat flag holder](../designs/a-9999-lab/boat-flag-holder.md) | `A-9999 Lab` | [a360.co/46ZTVvf](https://a360.co/46ZTVvf) |
+| [Bushing](../designs/a-9999-lab/bushing.md) | `A-9999 Lab` | [a360.co/4cCcER8](https://a360.co/4cCcER8) |
+| [Button Valve](../designs/a-9999-lab/button-valve.md) | `A-9999 Lab` | [a360.co/4j4uJuR](https://a360.co/4j4uJuR) |
+| [CI16-FCI06](../designs/a-9999-lab/ci16-fci06.md) | `A-9999 Lab` | [a360.co/46n8HME](https://a360.co/46n8HME) |
+| [Compressor Packaging A](../designs/a-9999-lab/compressor-packaging-a.md) | `A-9999 Lab` | [a360.co/4xwAGog](https://a360.co/4xwAGog) |
+| [Concept floating piston_X2](../designs/a-9999-lab/concept-floating-piston-x2.md) | `A-9999 Lab` | [a360.co/4xpKkc2](https://a360.co/4xpKkc2) |
+| [Drill press - Ferm FTB-13M](../designs/a-9999-lab/drill-press-ferm-ftb-13m.md) | `A-9999 Lab` | [a360.co/4yTDsoH](https://a360.co/4yTDsoH) |
+| [Dyno Washer](../designs/a-9999-lab/dyno-washer.md) | `A-9999 Lab` | [a360.co/3USk0K4](https://a360.co/3USk0K4) |
+| [FHR Test Ruler](../designs/a-9999-lab/fhr-test-ruler.md) | `A-9999 Lab` | [a360.co/4yvVvAK](https://a360.co/4yvVvAK) |
+| [Flex Plate](../designs/a-9999-lab/flex-plate.md) | `A-9999 Lab` | [a360.co/46dCyHc](https://a360.co/46dCyHc) |
+| [Gen2 Plug Holder](../designs/a-9999-lab/gen2-plug-holder.md) | `A-9999 Lab` | [a360.co/4xWUsu6](https://a360.co/4xWUsu6) |
+| [Hole Test](../designs/a-9999-lab/hole-test.md) | `A-9999 Lab` | [a360.co/4dgTQab](https://a360.co/4dgTQab) |
+| [Jart](../designs/a-9999-lab/jart.md) | `A-9999 Lab` | [a360.co/4xTADnt](https://a360.co/4xTADnt) |
+| [LA-S48037-3D model](../designs/a-9999-lab/la-s48037-3d-model.md) | `A-9999 Lab` | [a360.co/4xpP4hM](https://a360.co/4xpP4hM) |
 
 ---
 
-*381 designs indexed.*
+*401 designs indexed.*
