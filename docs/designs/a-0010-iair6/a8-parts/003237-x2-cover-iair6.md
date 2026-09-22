@@ -27,3 +27,7 @@ ots_migration_candidate: false
 ## Used In
 
 *This design is not referenced by other assemblies.*
+
+## Related
+
+- [003237 X2 Cover iAir6 Copy](003237-x2-cover-iair6-copy.md) — copy twin

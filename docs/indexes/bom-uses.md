@@ -23,8 +23,9 @@ Assemblies with non-empty component references (Uses).
 | [FAST26 CUT PRINTABLE](../designs/a-0010-iair6/a8-parts/fast26-cut-printable.md) | 1 | [a360.co/4h2zQJs](https://a360.co/4h2zQJs) |
 | [FAST26 CUT UP 3](../designs/a-0010-iair6/a8-parts/fast26-cut-up-3.md) | 1 | [a360.co/46PgL8W](https://a360.co/46PgL8W) |
 | [CEPHALOPOD 1](../designs/a-0010-iair6/obs/cephalopod-1.md) | 6 | [a360.co/4xQJcPF](https://a360.co/4xQJcPF) |
-| [URCHIN](../designs/a-0010-iair6/flash-runner/urchin.md) | 7 | [a360.co/4cLWapw](https://a360.co/4cLWapw) |
+| [URCHIN](../designs/a-0010-iair6/flash-runner/urchin.md) | 9 | [a360.co/4cLWapw](https://a360.co/4cLWapw) |
 | [Heater - Tool](../designs/a-0010-iair6/heater-tool.md) | 1 | [a360.co/4gWBbTz](https://a360.co/4gWBbTz) |
+| [Press Fixture](../designs/a-0010-iair6/flash-runner/parts/press-fixture.md) | 1 | [a360.co/3T9KoP9](https://a360.co/3T9KoP9) |
 
 ---
 
@@ -207,15 +208,17 @@ The CEPHALOPOD 1 assembly references the following 6 components (5 unique):
 
 ## URCHIN — Bill of Materials
 
-The URCHIN assembly references the following 7 components:
+The URCHIN assembly references the following 9 components:
 
-1. Spring
-2. Shoulder Screw
+1. [Spring](../designs/a-0010-iair6/flash-runner/parts/spring.md)
+2. [Shoulder Screw](../designs/a-0010-iair6/flash-runner/parts/shoulder-screw.md)
 3. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
-4. Board Alignment Pin
-5. Urchin Bed of Nails Top Side
-6. Sleeve Bearing
-7. S-1-E-3.8-G
+4. [Board Alignment Pin](../designs/a-0010-iair6/flash-runner/parts/board-alignment-pin.md)
+5. [Urchin Bed of Nails Top Side](../designs/a-0010-iair6/flash-runner/parts/urchin-bed-of-nails-top-side.md)
+6. [Sleeve Bearing](../designs/a-0010-iair6/flash-runner/parts/sleeve-bearing.md)
+7. [S-1-E-3.8-G](../designs/a-0010-iair6/flash-runner/parts/s-1-e-3-8-g.md)
+8. [S-0-U-2.2-G](../designs/a-0010-iair6/flash-runner/parts/s-0-u-2-2-g.md)
+9. [S-1-J-3.8-G](../designs/a-0010-iair6/flash-runner/parts/s-1-j-3-8-g.md)
 
 ---
 
@@ -227,4 +230,12 @@ The Heater - Tool design references the following 1 component:
 
 ---
 
-*20 assemblies with BOM data indexed.*
+## Press Fixture — Bill of Materials
+
+The Press Fixture design references the following 1 component:
+
+1. [6498K144_Round Body Air Cylinder](../designs/a-0010-iair6/flash-runner/parts/6498k144-round-body-air-cylinder.md)
+
+---
+
+*21 assemblies with BOM data indexed.*

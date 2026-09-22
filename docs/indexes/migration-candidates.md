@@ -28,6 +28,13 @@ A design is flagged when:
 | [KV2L07-34S](../designs/a-0010-iair6/ots-parts/kv2l07-34s.md) | `A-0010 iAir6 / OTS parts` | OTS pneumatic fitting outside `00 - Parts` |
 | [KV2T07-34S](../designs/a-0010-iair6/ots-parts/kv2t07-34s.md) | `A-0010 iAir6 / OTS parts` | OTS pneumatic fitting outside `00 - Parts` |
 | [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md) | `A-0010 iAir6 / DUT Box Parts` | OTS solenoid valve outside `00 - Parts` |
+| [6498K144_Round Body Air Cylinder](../designs/a-0010-iair6/flash-runner/parts/6498k144-round-body-air-cylinder.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS hardware outside `00 - Parts` |
+| [S-0-U-2.2-G](../designs/a-0010-iair6/flash-runner/parts/s-0-u-2-2-g.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS probe/pin outside `00 - Parts` |
+| [S-1-E-3.8-G](../designs/a-0010-iair6/flash-runner/parts/s-1-e-3-8-g.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS probe/pin outside `00 - Parts` |
+| [S-1-J-3.8-G](../designs/a-0010-iair6/flash-runner/parts/s-1-j-3-8-g.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS probe/pin outside `00 - Parts` |
+| [Shoulder Screw](../designs/a-0010-iair6/flash-runner/parts/shoulder-screw.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS hardware outside `00 - Parts` |
+| [Sleeve Bearing](../designs/a-0010-iair6/flash-runner/parts/sleeve-bearing.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS hardware outside `00 - Parts` |
+| [Spring](../designs/a-0010-iair6/flash-runner/parts/spring.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS hardware outside `00 - Parts` |
 
 ---
 
@@ -112,6 +119,33 @@ All 15 designs in batch 006 are product-specific A8/Obs assemblies or tool fixtu
 - **Heater - Tool** — Tool fixture. Not an OTS part.
 - **iAir6 Durability Cart** — Test fixture. Not an OTS part.
 
+### Assessment Notes (Batch 007)
+
+Batch 007 contains 17 designs across ALC Parts (2), DUT Mounting (2), Flash Runner/Parts (11), A8 Parts (1), and root A-0010 (1).
+
+**Migration Candidates (7 of 17):**
+
+- **6498K144_Round Body Air Cylinder** — OTS hardware (McMaster part number) in Flash Runner/Parts folder. **Migration candidate.**
+- **S-0-U-2.2-G** — OTS test probe/pin in Flash Runner/Parts folder. **Migration candidate.**
+- **S-1-E-3.8-G** — OTS test probe/pin in Flash Runner/Parts folder. **Migration candidate.**
+- **S-1-J-3.8-G** — OTS test probe/pin in Flash Runner/Parts folder. **Migration candidate.**
+- **Shoulder Screw** — OTS hardware in Flash Runner/Parts folder. **Migration candidate.**
+- **Sleeve Bearing** — OTS hardware in Flash Runner/Parts folder. **Migration candidate.**
+- **Spring** — OTS hardware in Flash Runner/Parts folder. **Migration candidate.**
+
+**Not Migration Candidates (10 of 17):**
+
+- **Height Arm** — ALC Parts design. Not an OTS part.
+- **Remote and Holder** — ALC Parts design. Not an OTS part.
+- **Angle Clamp** — DUT Mounting design. Not an OTS part.
+- **Height Sensor 4-up** — DUT Mounting design. Not an OTS part.
+- **Board Alignment Pin** — Flash Runner/Parts design (no OTS note). Not flagged.
+- **Press Fixture** — Flash Runner/Parts product fixture. Not an OTS part.
+- **Urchin Bed of Nails Bottom Side** — Flash Runner/Parts product fixture. Not an OTS part.
+- **Urchin Bed of Nails Top Side** — Flash Runner/Parts product fixture. Not an OTS part.
+- **003237 X2 Cover iAir6 Copy** — A8 Parts copy twin. Not an OTS part.
+- **Untitled** — Root-level design. Not an OTS part.
+
 ---
 
 ## Referenced OTS / Commodity (Not Yet Harvested as Pages)
@@ -134,4 +168,4 @@ The following items appear in Uses fields and appear to be off-the-shelf commodi
 
 ---
 
-*15 migration candidates identified (+12 in batch 005).*
+*22 migration candidates identified (+7 in batch 007).*
