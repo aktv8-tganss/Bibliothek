@@ -464,12 +464,31 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Clam ASM](../designs/a-0047-tpms/clam/clam-asm.md) | `A-0047 TPMS / Clam` | [a360.co/4xh3oJp](https://a360.co/4xh3oJp) |
 | [Clam DIN PD](../designs/a-0047-tpms/clam/clam-din-pd.md) | `A-0047 TPMS / Clam` | [a360.co/4xM3MRb](https://a360.co/4xM3MRb) |
 | [Clam DIN PSU](../designs/a-0047-tpms/clam/clam-din-psu.md) | `A-0047 TPMS / Clam` | [a360.co/4AagB9E](https://a360.co/4AagB9E) |
+| [Mount Plate](../designs/a-0047-tpms/clam/mount-plate.md) | `A-0047 TPMS / Clam` | [a360.co/3TmKWkN](https://a360.co/3TmKWkN) |
+| [Pearl 2 - End](../designs/a-0047-tpms/clam/pearl-2-end.md) | `A-0047 TPMS / Clam` | [a360.co/3SVMulG](https://a360.co/3SVMulG) |
+| [Pearl 4](../designs/a-0047-tpms/clam/pearl-4.md) | `A-0047 TPMS / Clam` | [a360.co/4h7xHfD](https://a360.co/4h7xHfD) |
+| [Pearl 5](../designs/a-0047-tpms/clam/pearl-5.md) | `A-0047 TPMS / Clam` | [a360.co/3VrEZUb](https://a360.co/3VrEZUb) |
+| [Upper Plate](../designs/a-0047-tpms/clam/upper-plate.md) | `A-0047 TPMS / Clam` | [a360.co/46jPoDO](https://a360.co/46jPoDO) |
 | [Oyster Bed 3UP TPMS](../designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md) | `A-0047 TPMS / Flash Runner` | [a360.co/4hoE5jS](https://a360.co/4hoE5jS) |
 | [Oyster Bed Template](../designs/a-0047-tpms/flash-runner/oyster-bed-template.md) | `A-0047 TPMS / Flash Runner` | [a360.co/4xFzA9P](https://a360.co/4xFzA9P) |
 | [Limpet Asm](../designs/a-0047-tpms/limpet/limpet-asm.md) | `A-0047 TPMS / Limpet` | [a360.co/3UE8aTU](https://a360.co/3UE8aTU) |
 | [003566 X2 BATTERY CLIP TPMS](../designs/a-0047-tpms/limpet/003566-x2-battery-clip-tpms.md) | `A-0047 TPMS / Limpet` | [a360.co/46jPP0U](https://a360.co/46jPP0U) |
+| [003566 X4 Battery Clip Bent](../designs/a-0047-tpms/limpet/003566-x4-battery-clip-bent.md) | `A-0047 TPMS / Limpet` | [a360.co/4r9WjsS](https://a360.co/4r9WjsS) |
+| [Battery Clip Bend Brake](../designs/a-0047-tpms/limpet/battery-clip-bend-brake.md) | `A-0047 TPMS / Limpet` | [a360.co/3SZZRBi](https://a360.co/3SZZRBi) |
+| [Carriage](../designs/a-0047-tpms/limpet/carriage.md) | `A-0047 TPMS / Limpet` | [a360.co/4cJM0ps](https://a360.co/4cJM0ps) |
+| [External2](../designs/a-0047-tpms/limpet/external2.md) | `A-0047 TPMS / Limpet` | [a360.co/3UP6dnA](https://a360.co/3UP6dnA) |
+| [Holder](../designs/a-0047-tpms/limpet/holder.md) | `A-0047 TPMS / Limpet` | [a360.co/4xp3uyW](https://a360.co/4xp3uyW) |
+| [Linear Rail](../designs/a-0047-tpms/limpet/linear-rail.md) | `A-0047 TPMS / Limpet` | [a360.co/4r5wVEm](https://a360.co/4r5wVEm) |
+| [Tool](../designs/a-0047-tpms/limpet/tool.md) | `A-0047 TPMS / Limpet` | [a360.co/4iqoOAe](https://a360.co/4iqoOAe) |
 | [Mantis Etch ASM](../designs/a-0047-tpms/mantis/mantis-etch-asm.md) | `A-0047 TPMS / Mantis` | [a360.co/4iqYUMD](https://a360.co/4iqYUMD) |
 | [Alum Arm](../designs/a-0047-tpms/mantis/alum-arm.md) | `A-0047 TPMS / Mantis` | [a360.co/4A7LZ8P](https://a360.co/4A7LZ8P) |
+| [Alum Riser](../designs/a-0047-tpms/mantis/alum-riser.md) | `A-0047 TPMS / Mantis` | [a360.co/4xjY3Ry](https://a360.co/4xjY3Ry) |
+| [Cap carrier](../designs/a-0047-tpms/mantis/cap-carrier.md) | `A-0047 TPMS / Mantis` | [a360.co/4xUq8jI](https://a360.co/4xUq8jI) |
+| [Centering Post](../designs/a-0047-tpms/mantis/centering-post.md) | `A-0047 TPMS / Mantis` | [a360.co/3SZOr0c](https://a360.co/3SZOr0c) |
+| [Etcher Frame](../designs/a-0047-tpms/mantis/etcher-frame.md) | `A-0047 TPMS / Mantis` | [a360.co/4h4ajj2](https://a360.co/4h4ajj2) |
+| [Gear Guide](../designs/a-0047-tpms/mantis/gear-guide.md) | `A-0047 TPMS / Mantis` | [a360.co/4iY3J02](https://a360.co/4iY3J02) |
+| [Live Hinge Test](../designs/a-0047-tpms/mantis/live-hinge-test.md) | `A-0047 TPMS / Mantis` | [a360.co/4r9Xg4q](https://a360.co/4r9Xg4q) |
+| [Motor Base](../designs/a-0047-tpms/mantis/motor-base.md) | `A-0047 TPMS / Mantis` | [a360.co/4yzRtYl](https://a360.co/4yzRtYl) |
 | [Mantis 2 Asm](../designs/a-0047-tpms/mantis-2/mantis-2-asm.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4dekv7x](https://a360.co/4dekv7x) |
 | [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4ru8DEz](https://a360.co/4ru8DEz) |
 | [MOONFISH ASM 2](../designs/a-0047-tpms/moonfish/moonfish-asm-2.md) | `A-0047 TPMS / Moonfish` | [a360.co/4Acacux](https://a360.co/4Acacux) |
@@ -479,4 +498,4 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 
 ---
 
-*472 designs indexed.*
+*491 designs indexed.*

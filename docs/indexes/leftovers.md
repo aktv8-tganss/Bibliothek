@@ -905,3 +905,67 @@ ALITOV 24VDC; DM332T Driver; Teensy and Proto
 **OTS Parts (not opened this pass):**
 
 1-4 bearing, 1-8 brass schrader, 1/2 Barrel, Cable Duct, Cylinder, Finger Stud, Gauge, NUC Pro Chassis, Schrader Fitting, Stepper, Worm Shaft, and others
+
+---
+
+### Batch 029
+
+All 19 designs from batch 029 were successfully indexed:
+
+**Clam (5):**
+
+1. ✓ Mount Plate
+2. ✓ Pearl 2 - End
+3. ✓ Pearl 4
+4. ✓ Upper Plate
+5. ✓ Pearl 5
+
+**Limpet (7):**
+
+6. ✓ 003566 X4 Battery Clip Bent
+7. ✓ Battery Clip Bend Brake
+8. ✓ Carriage
+9. ✓ External2
+10. ✓ Holder
+11. ✓ Linear Rail
+12. ✓ Tool
+
+**Mantis (7):**
+
+13. ✓ Alum Riser
+14. ✓ Cap carrier
+15. ✓ Centering Post
+16. ✓ Etcher Frame
+17. ✓ Gear Guide
+18. ✓ Live Hinge Test
+19. ✓ Motor Base
+
+### A-0047 TPMS remaining after batch 029
+
+!!! info "A-0047 TPMS: MORE remain"
+    A-0047 TPMS is NOT complete — significant designs remain unharvested. Batch 029 completes Clam, Limpet named leftovers, and Mantis named leftovers. Per remaining status file, Mantis 2, Moonfish, Obs, Stepper Control, and OTS Parts still open.
+
+**Failures / phantoms:**
+
+- Limpet Cylinder Bracket — not in Limpet folder
+- Clam Screen 2, New Valve — not present as designs (external refs)
+
+**Mantis 2 still open:**
+
+Cylinder Bracket; Enclosure; Enclosure mod; Mantis Bed Plates; Piston Bracket; Press Frame; nested Obs (Carriage Carrier, Flashing Bed, Mantis 2 ASM Obs, Platen Carrier, Press Platen, Rail Guide Link, Shuttle Nest Plate, Shuttle Plate)
+
+**Moonfish still open:**
+
+Adapter Plates; Cap Presser; Cylinder head stencil; Heat Probe Parts; Moonfish Tool Head 3; nested Obs folder
+
+**Obs still open:**
+
+Hose Support; Stickers
+
+**Stepper Control still open:**
+
+ALITOV 24VDC; DM332T Driver; Teensy and Proto
+
+**OTS Parts still largely unharvested:**
+
+bearing, schraders, Cable Duct, Cylinder, Finger Stud, Gauge, NUC Pro Chassis, etc.

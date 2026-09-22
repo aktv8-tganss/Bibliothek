@@ -86,8 +86,11 @@ Assemblies with non-empty component references (Uses).
 | [Test Rig 3](../designs/a-0047-tpms/test-rig-3.md) | 10 | [a360.co/3ULd3dQ](https://a360.co/3ULd3dQ) |
 | [Clam ASM](../designs/a-0047-tpms/clam/clam-asm.md) | 21 | [a360.co/4xh3oJp](https://a360.co/4xh3oJp) |
 | [Oyster Bed 3UP TPMS](../designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md) | 1 | [a360.co/4hoE5jS](https://a360.co/4hoE5jS) |
-| [Limpet Asm](../designs/a-0047-tpms/limpet/limpet-asm.md) | 6 | [a360.co/3UE8aTU](https://a360.co/3UE8aTU) |
+| [Limpet Asm](../designs/a-0047-tpms/limpet/limpet-asm.md) | 7 | [a360.co/3UE8aTU](https://a360.co/3UE8aTU) |
 | [Mantis Etch ASM](../designs/a-0047-tpms/mantis/mantis-etch-asm.md) | 12 | [a360.co/4iqYUMD](https://a360.co/4iqYUMD) |
+| [Pearl 5](../designs/a-0047-tpms/clam/pearl-5.md) | 8 | [a360.co/3VrEZUb](https://a360.co/3VrEZUb) |
+| [Cap carrier](../designs/a-0047-tpms/mantis/cap-carrier.md) | 1 | [a360.co/4xUq8jI](https://a360.co/4xUq8jI) |
+| [Etcher Frame](../designs/a-0047-tpms/mantis/etcher-frame.md) | 1 | [a360.co/4h4ajj2](https://a360.co/4h4ajj2) |
 | [Mantis 2 Asm](../designs/a-0047-tpms/mantis-2/mantis-2-asm.md) | 10 | [a360.co/4dekv7x](https://a360.co/4dekv7x) |
 | [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md) | 2 | [a360.co/4ru8DEz](https://a360.co/4ru8DEz) |
 | [MOONFISH ASM 2](../designs/a-0047-tpms/moonfish/moonfish-asm-2.md) | 9 | [a360.co/4Acacux](https://a360.co/4Acacux) |
@@ -1084,4 +1087,35 @@ The Stepper Enclosure design references the following 3 components:
 
 ---
 
-*89 assemblies with BOM data indexed.*
+## Pearl 5 — Bill of Materials
+
+The Pearl 5 design references the following 8 components:
+
+1. 1/8 brass tee
+2. 1-8 brass schrader
+3. 1/8 brass nipple
+4. 250mm rail
+5. 1/8 brass plug
+6. Cylinder
+7. external fastener
+8. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+
+---
+
+## Cap carrier — Bill of Materials
+
+The Cap carrier design references the following 1 component:
+
+1. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+
+---
+
+## Etcher Frame — Bill of Materials
+
+The Etcher Frame design references the following 1 component:
+
+1. Overview MDX1000_1500_Head
+
+---
+
+*92 assemblies with BOM data indexed.*
