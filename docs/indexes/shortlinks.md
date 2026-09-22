@@ -314,6 +314,7 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [1/4 NPT Street Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-npt-street-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4ran9RA](https://a360.co/4ran9RA) |
 | [100CP8-2A](../designs/a-0026-itm/orthrus/ots-parts/pneu/100cp8-2a.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4r8u4e4](https://a360.co/4r8u4e4) |
 | [KV2E07-00 (PNEU)](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2e07-00.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4xSpFyw](https://a360.co/4xSpFyw) |
+| [1/4 1/8 NPT M Reducer](../designs/a-0026-itm/orthrus/ots-parts/pneu/1-4-1-8-npt-m-reducer.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/3SKhe9b](https://a360.co/3SKhe9b) |
 | [12V (ORTHRUS ELEC)](../designs/a-0026-itm/orthrus/ots-parts/elec/12v.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/3Vr9edS](https://a360.co/3Vr9edS) |
 | [3.5mm TRS](../designs/a-0026-itm/orthrus/ots-parts/elec/35mm-trs.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4r4a781](https://a360.co/4r4a781) |
 | [46993-0420](../designs/a-0026-itm/orthrus/ots-parts/elec/46993-0420.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/3Tt7gJs](https://a360.co/3Tt7gJs) |
@@ -341,4 +342,4 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 
 ---
 
-*334 designs indexed.*
+*335 designs indexed.*
