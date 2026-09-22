@@ -30,6 +30,11 @@ Assemblies with non-empty component references (Uses).
 | [IO Box](../designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md) | 23 | [a360.co/3TdMhKH](https://a360.co/3TdMhKH) |
 | [PCBA Flash Expanded](../designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md) | 15 | [a360.co/4yBctxO](https://a360.co/4yBctxO) |
 | [Bracket](../designs/a-0054-iair3-gen2/fft-obs/io-box/bracket.md) | 1 | [a360.co/4yGKA7A](https://a360.co/4yGKA7A) |
+| [880251](../designs/a-0026-itm/880251.md) | 1 | [a360.co/4Ar40yP](https://a360.co/4Ar40yP) |
+| [880252](../designs/a-0026-itm/880252.md) | 1 | [a360.co/4gKdzkS](https://a360.co/4gKdzkS) |
+| [880253](../designs/a-0026-itm/880253.md) | 1 | [a360.co/4xOkGyF](https://a360.co/4xOkGyF) |
+| [880254](../designs/a-0026-itm/880254.md) | 1 | [a360.co/3SIoDG2](https://a360.co/3SIoDG2) |
+| [Go Gage](../designs/a-0026-itm/go-gage.md) | 1 | [a360.co/4xhyXmk](https://a360.co/4xhyXmk) |
 
 ---
 
@@ -310,4 +315,44 @@ The Bracket assembly references the following 1 component:
 
 ---
 
-*25 assemblies with BOM data indexed.*
+## 880251 — Bill of Materials
+
+The 880251 design references the following 1 component:
+
+1. PREFECT
+
+---
+
+## 880252 — Bill of Materials
+
+The 880252 design references the following 1 component:
+
+1. PREFECT
+
+---
+
+## 880253 — Bill of Materials
+
+The 880253 design references the following 1 component:
+
+1. PREFECT
+
+---
+
+## 880254 — Bill of Materials
+
+The 880254 design references the following 1 component:
+
+1. PREFECT
+
+---
+
+## Go Gage — Bill of Materials
+
+The Go Gage design references the following 1 component:
+
+1. DESIATO 2
+
+---
+
+*30 assemblies with BOM data indexed.*
