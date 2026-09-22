@@ -4,6 +4,7 @@ site_url: https://aktv8-tganss.github.io/Bibliothek/
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
     - scheme: default
       primary: indigo
@@ -25,6 +26,12 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
+
+extra_css:
+  - assets/stylesheets/nav-collapse.css
+
+extra_javascript:
+  - assets/javascripts/nav-collapse.js
 
 plugins:
   - search
