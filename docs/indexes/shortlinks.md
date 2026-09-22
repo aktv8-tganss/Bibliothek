@@ -137,7 +137,27 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Dremel](../designs/a-0026-itm/acropora/dremel.md) | `A-0026 iTM / ACROPORA` | [a360.co/4cGH0BW](https://a360.co/4cGH0BW) |
 | [Shoulder Screw](../designs/a-0026-itm/acropora/shoulder-screw.md) | `A-0026 iTM / ACROPORA` | [a360.co/3TrpMSv](https://a360.co/3TrpMSv) |
 | [AEETES Asm](../designs/a-0026-itm/aeetes/aeetes-asm.md) | `A-0026 iTM / AEETES` | [a360.co/4AaaIZW](https://a360.co/4AaaIZW) |
+| [Acropora](../designs/a-0026-itm/acropora/acropora.md) | `A-0026 iTM / ACROPORA` | [a360.co/4ikZaNa](https://a360.co/4ikZaNa) |
+| [AEETES Motor Adapter STEP](../designs/a-0026-itm/aeetes/aeetes-motor-adapter-step.md) | `A-0026 iTM / AEETES` | [a360.co/4AanKqv](https://a360.co/4AanKqv) |
+| [Base Bottom Plate](../designs/a-0026-itm/aeetes/base-bottom-plate.md) | `A-0026 iTM / AEETES` | [a360.co/3UOIC6u](https://a360.co/3UOIC6u) |
+| [Base Frame Plate](../designs/a-0026-itm/aeetes/base-frame-plate.md) | `A-0026 iTM / AEETES` | [a360.co/46ft5PH](https://a360.co/46ft5PH) |
+| [Bearing ASM](../designs/a-0026-itm/aeetes/bearing-asm.md) | `A-0026 iTM / AEETES` | [a360.co/4r3TARu](https://a360.co/4r3TARu) |
+| [Bearing Frame Plate](../designs/a-0026-itm/aeetes/bearing-frame-plate.md) | `A-0026 iTM / AEETES` | [a360.co/3TsS3YS](https://a360.co/3TsS3YS) |
+| [Frame Nut](../designs/a-0026-itm/aeetes/frame-nut.md) | `A-0026 iTM / AEETES` | [a360.co/4r5kUyO](https://a360.co/4r5kUyO) |
+| [Hall Bracket](../designs/a-0026-itm/aeetes/hall-bracket.md) | `A-0026 iTM / AEETES` | [a360.co/3STxN2t](https://a360.co/3STxN2t) |
+| [Hose](../designs/a-0026-itm/aeetes/hose.md) | `A-0026 iTM / AEETES` | [a360.co/4h3Hq6Q](https://a360.co/4h3Hq6Q) |
+| [Hose Holder M16](../designs/a-0026-itm/aeetes/hose-holder-m16.md) | `A-0026 iTM / AEETES` | [a360.co/4rso4Nm](https://a360.co/4rso4Nm) |
+| [Hose Holder PSI (AEETES)](../designs/a-0026-itm/aeetes/hose-holder-psi.md) | `A-0026 iTM / AEETES` | [a360.co/3TMgi4q](https://a360.co/3TMgi4q) |
+| [Motor Adapter](../designs/a-0026-itm/aeetes/motor-adapter.md) | `A-0026 iTM / AEETES` | [a360.co/4Aonbtn](https://a360.co/4Aonbtn) |
+| [Motor Adapter PSI](../designs/a-0026-itm/aeetes/motor-adapter-psi.md) | `A-0026 iTM / AEETES` | [a360.co/3V5sLjZ](https://a360.co/3V5sLjZ) |
+| [Motor Adapter 3](../designs/a-0026-itm/aeetes/motor-adapter-3.md) | `A-0026 iTM / AEETES` | [a360.co/4xlK0uO](https://a360.co/4xlK0uO) |
+| [Motor Shaft Sketch](../designs/a-0026-itm/aeetes/motor-shaft-sketch.md) | `A-0026 iTM / AEETES` | [a360.co/4xLhzre](https://a360.co/4xLhzre) |
+| [Mounting Rail 1](../designs/a-0026-itm/aeetes/mounting-rail-1.md) | `A-0026 iTM / AEETES` | [a360.co/4iZPPdO](https://a360.co/4iZPPdO) |
+| [Mounting Rail 2](../designs/a-0026-itm/aeetes/mounting-rail-2.md) | `A-0026 iTM / AEETES` | [a360.co/46UZBGU](https://a360.co/46UZBGU) |
+| [Mounting Rail 3](../designs/a-0026-itm/aeetes/mounting-rail-3.md) | `A-0026 iTM / AEETES` | [a360.co/4iZjZ0T](https://a360.co/4iZjZ0T) |
+| [PSI Filter Fitting](../designs/a-0026-itm/aeetes/psi-filter-fitting.md) | `A-0026 iTM / AEETES` | [a360.co/4iZk5ph](https://a360.co/4iZk5ph) |
+| [Panel](../designs/a-0026-itm/aeetes/panel.md) | `A-0026 iTM / AEETES` | [a360.co/4xpJCvx](https://a360.co/4xpJCvx) |
 
 ---
 
-*133 designs indexed.*
+*153 designs indexed.*

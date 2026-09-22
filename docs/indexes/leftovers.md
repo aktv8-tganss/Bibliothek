@@ -189,23 +189,119 @@ All 15 designs from batch 010 were successfully indexed:
 14. ✓ Shoulder Screw
 15. ✓ AEETES Asm
 
+### Batch 011
+
+All 20 designs from batch 011 were successfully indexed:
+
+1. ✓ Acropora
+2. ✓ AEETES Motor Adapter STEP
+3. ✓ Base Bottom Plate
+4. ✓ Base Frame Plate
+5. ✓ Bearing ASM
+6. ✓ Bearing Frame Plate
+7. ✓ Frame Nut
+8. ✓ Hall Bracket
+9. ✓ Hose
+10. ✓ Hose Holder M16
+11. ✓ Hose Holder PSI (AEETES)
+12. ✓ Motor Adapter
+13. ✓ Motor Adapter PSI
+14. ✓ Motor Adapter 3
+15. ✓ Motor Shaft Sketch
+16. ✓ Mounting Rail 1
+17. ✓ Mounting Rail 2
+18. ✓ Mounting Rail 3
+19. ✓ PSI Filter Fitting
+20. ✓ Panel
+
 ---
 
-## A-0026 iTM Remaining (After Batch 010)
+## A-0026 iTM Remaining (After Batch 011)
 
-Approximately **79 designs** remain unharvested in A-0026 iTM. Key areas include:
+Approximately **57 designs** remain unharvested in A-0026 iTM. Key areas include:
 
-- **AEETES** — ~25 designs (Base plates, Motor Adapters, Mounting Rails, etc.)
-- **ASM TOOLING** — ~5 designs (Hose/Stator cells, OTS Parts folder)
-- **ASM TOOLING SOW1** — ~12 designs (BOWERICK, COLIN, DESIATO, MARVIN, etc.)
-- **Alford** — Million Mile Power Supply Mount
-- **ENIGMA** — Dyno Assy, ENIGMA IV
-- **Jake - Print Copys** — 880280, Piston parts
-- **MTT03** — Torque Jig, IT03 variants
-- **ORTHRUS** — ORTHRUS design, OTS Parts
-- **PARTS** — Hose, Tee variants, Tube Bridge, Wheel End ASM
-- **PLT** — PLT HEAD variants, HOSE FIXTURE
-- **Rachel** — Carrier Stand, MARVIN OVERHAND, Taz variants
-- **TAZ 4** — Arduino, Motor Controller, TAZ Controller, etc.
+### Root
+- 880251 (duplicate row if distinct)
 
-*This summary was generated from the remaining-after-010 harvest manifest.*
+### AEETES
+- Valve Bank
+- Wiring Plate
+- OTS Parts/ (folder — harvest contents next)
+
+### ASM TOOLING
+- Inf Only Hose Cell
+- Stator Plug Cell
+- OTS Parts/
+
+### ASM TOOLING SOW1
+- BOWERICK
+- COLIN
+- COMPS
+- DESIATO
+- FENCHURCH
+- MARVIN
+- PREFECT
+- SLARTIBARTFARST
+- ZAPHOD
+- Hose Assembly Cell
+- Tee Assembly Cell
+
+### Alford
+- Million Mile Power Supply Mount
+
+### ENIGMA
+- Dyno Assy
+- ENIGMA IV
+
+### Jake - Print Copys
+- 880280
+- Piston Attachments and Parts/
+
+### MTT03
+- IT03_10Z_20Z_50Z
+- IT03_12_50_100
+- Torque Jig
+
+### ORTHRUS
+- ORTHRUS
+- OTS PARTS/
+
+### PARTS
+- Hose
+- PSI Tee
+- Tee
+- Tee Body Solid
+- Tee Cap
+- Tube Bridge
+- Wheel End ASM
+
+### PLT
+- 655-1203-104F
+- HOSE FIXTURE
+- PLT HEAD
+- PLT HEAD PLATE
+- PLT HEAD Plate
+- PLT INPUT ARRAY
+- COMPS/
+
+### Rachel
+- Carrier Stand 2.0
+- MARVIN OVERHAND 3 v28
+- Pin Gauge Holder
+- Taz
+- Taz 2.0
+
+### TAZ 4
+- 54100-17X-02-A
+- Arduino_Uno
+- Arduino_Uno_w/Shield
+- Motor Controller
+- ST-PROTO-1-2_3d
+- TAZ Controller
+- TAZ DYNO BRACKET
+- TAZ Dyno Cabinet
+- Thru Screw Terminal
+- USB Adapter
+- Whirlpool Motor
+
+*This summary was generated from the remaining-after-011 harvest manifest.*

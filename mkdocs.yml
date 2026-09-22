@@ -193,11 +193,31 @@ nav:
       - Hose Holder PSI: designs/a-0026-itm/hose-holder-psi.md
       - Million Mile Power Supply Upper Mount: designs/a-0026-itm/million-mile-power-supply-upper-mount.md
       - ACROPORA:
+        - Acropora: designs/a-0026-itm/acropora/acropora.md
         - Bur: designs/a-0026-itm/acropora/bur.md
         - Dremel: designs/a-0026-itm/acropora/dremel.md
         - Shoulder Screw: designs/a-0026-itm/acropora/shoulder-screw.md
       - AEETES:
         - AEETES Asm: designs/a-0026-itm/aeetes/aeetes-asm.md
+        - AEETES Motor Adapter STEP: designs/a-0026-itm/aeetes/aeetes-motor-adapter-step.md
+        - Base Bottom Plate: designs/a-0026-itm/aeetes/base-bottom-plate.md
+        - Base Frame Plate: designs/a-0026-itm/aeetes/base-frame-plate.md
+        - Bearing ASM: designs/a-0026-itm/aeetes/bearing-asm.md
+        - Bearing Frame Plate: designs/a-0026-itm/aeetes/bearing-frame-plate.md
+        - Frame Nut: designs/a-0026-itm/aeetes/frame-nut.md
+        - Hall Bracket: designs/a-0026-itm/aeetes/hall-bracket.md
+        - Hose: designs/a-0026-itm/aeetes/hose.md
+        - Hose Holder M16: designs/a-0026-itm/aeetes/hose-holder-m16.md
+        - Hose Holder PSI (AEETES): designs/a-0026-itm/aeetes/hose-holder-psi.md
+        - Motor Adapter: designs/a-0026-itm/aeetes/motor-adapter.md
+        - Motor Adapter PSI: designs/a-0026-itm/aeetes/motor-adapter-psi.md
+        - Motor Adapter 3: designs/a-0026-itm/aeetes/motor-adapter-3.md
+        - Motor Shaft Sketch: designs/a-0026-itm/aeetes/motor-shaft-sketch.md
+        - Mounting Rail 1: designs/a-0026-itm/aeetes/mounting-rail-1.md
+        - Mounting Rail 2: designs/a-0026-itm/aeetes/mounting-rail-2.md
+        - Mounting Rail 3: designs/a-0026-itm/aeetes/mounting-rail-3.md
+        - PSI Filter Fitting: designs/a-0026-itm/aeetes/psi-filter-fitting.md
+        - Panel: designs/a-0026-itm/aeetes/panel.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md
