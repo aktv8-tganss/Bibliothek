@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (282 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (68 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (117 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (298 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (70 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (131 total)
 
 ## Design Tree
 
@@ -48,12 +48,14 @@ Browse designs by project folder:
     - [ENIGMA](designs/a-0026-itm/enigma/dyno-assy.md) — ENIGMA subfolder (2 designs)
     - [MTT03](designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md) — MTT03 subfolder (3 designs)
     - [ORTHRUS](designs/a-0026-itm/orthrus/orthrus.md) — ORTHRUS subfolder (1 design)
-        - [OTS Parts](designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) — ORTHRUS OTS parts (8 designs, all migration candidates)
+        - [OTS Parts](designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) — ORTHRUS OTS parts (9 designs, all migration candidates)
+            - [PNEU](designs/a-0026-itm/orthrus/ots-parts/pneu/dot5g-v-tanjk.md) — PNEU OTS parts (8 designs, 7 migration candidates)
+            - [ELEC](designs/a-0026-itm/orthrus/ots-parts/elec/19v-adapter.md) — ELEC OTS parts (8 designs, all migration candidates)
         - [ELEC](designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md) — ORTHRUS ELEC (1 design)
     - [OTS Parts](designs/a-0026-itm/ots-parts/hose-cutter.md) — OTS Parts subfolder (3 designs, all migration candidates)
     - [PARTS](designs/a-0026-itm/parts/tee.md) — PARTS subfolder (7 designs)
     - [PLT](designs/a-0026-itm/plt/plt-head.md) — PLT subfolder (5 designs)
-        - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (2 designs)
+        - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (4 designs)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
 
@@ -78,11 +80,12 @@ Browse designs by project folder:
 | 015 | 17 | A-0026 iTM: COMPS (1), OTS Parts (3), PLT (4), MTT03 (2), ORTHRUS (1), PARTS (6) — 3 OTS migration candidates |
 | 016 | 21 | A-0026 iTM: Rachel (5), TAZ 4 (10), ORTHRUS / OTS PARTS (6) — 9 OTS migration candidates |
 | 017 | 22 | A-0026 iTM: ASM TOOLING/OTS (3), PARTS (1), SOW1 COMPS (12), ORTHRUS (3), PLT (3) — 6 OTS migration candidates |
+| 018 | 16 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (8), ORTHRUS / OTS PARTS / ELEC (5), ORTHRUS / OTS PARTS (1), PLT / COMPS (2) — 14 OTS migration candidates |
 
-**Total designs indexed: 282**
+**Total designs indexed: 298**
 
 !!! warning "A-0026 iTM MORE_REMAIN"
-    A-0026 iTM still contains unharvested designs after batch 017 (ORTHRUS PNEU/ELEC, PLT COMPS, GIGADAQ children). See [leftovers index](indexes/leftovers.md) for details.
+    A-0026 iTM still contains unharvested designs after batch 018 (ORTHRUS PNEU/ELEC remaining, PLT COMPS remaining, GIGADAQ children). See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 

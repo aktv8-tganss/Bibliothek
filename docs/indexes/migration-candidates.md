@@ -130,6 +130,19 @@ A design is flagged when:
 | [KV2L07-35S](../designs/a-0026-itm/asm-tooling-sow1/comps/kv2l07-35s.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | OTS fitting outside `00 - Parts` |
 | [GIGADAQ](../designs/a-0026-itm/orthrus/ots-parts/gigadaq.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts` |
 | [Spacer (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/spacer.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts` |
+| [.5G V Tanjk](../designs/a-0026-itm/orthrus/ots-parts/pneu/dot5g-v-tanjk.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [19V Adapter (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/19v-adapter.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts`; distinct A-0026 shortlink |
+| [Arduino_Uno_w/Shield (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/arduino-uno-w-shield.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts`; distinct from TAZ 4 |
+| [NUC8ixBEH-Chassis (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/nuc8ixbeh-chassis.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts`; distinct A-0026 ORTHRUS copy |
+| [Motor Controller (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-controller.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts`; distinct from TAZ 4 |
+| [Wire Channel](../designs/a-0026-itm/orthrus/ots-parts/elec/wire-channel.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [Flow Control Valve](../designs/a-0026-itm/orthrus/ots-parts/pneu/flow-control-valve.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [Mini Regulator (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/pneu/mini-regulator.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts`; distinct from AEETES |
+| [New Valve (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/pneu/new-valve.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts`; distinct from AEETES |
+| [KV2E07-35](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2e07-35.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [KV2H07-34S (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/kv2h07-34s.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts`; distinct from AEETES |
+| [KV2H07-35S](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2h07-35s.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
+| [PTC Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/ptc-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | OTS outside `00 - Parts` |
 
 ---
 
@@ -524,6 +537,33 @@ Batch 017 contains 22 designs: ASM TOOLING/OTS Parts (3), PARTS (1), ASM TOOLING
 - **CG-U3MINI7PH_Model3D_JWV1 (PLT)** — PLT/COMPS design (distinct copy from A-0054). Not an OTS part.
 - **HDMI Passthru** — PLT/COMPS design. Not an OTS part.
 
+### Assessment Notes (Batch 018)
+
+Batch 018 contains 16 designs: ORTHRUS / OTS PARTS / PNEU (8), ORTHRUS / OTS PARTS / ELEC (5), ORTHRUS / OTS PARTS root (1), PLT / COMPS (2). 14 OTS migration candidates identified:
+
+**Migration Candidates (14 of 16):**
+
+- **.5G V Tanjk** — OTS valve tank in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **19V Adapter (ORTHRUS)** — OTS power adapter in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`; distinct A-0026 shortlink from A-0054. **Migration candidate.**
+- **Arduino_Uno_w/Shield (ORTHRUS)** — OTS Arduino with shield in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`; distinct from TAZ 4. **Migration candidate.**
+- **NUC8ixBEH-Chassis (ORTHRUS)** — OTS NUC chassis in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`; distinct A-0026 ORTHRUS copy from A-0054. **Migration candidate.**
+- **Motor Controller (ORTHRUS)** — OTS motor controller in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`; distinct from TAZ 4; Uses ENIGMA IV. **Migration candidate.**
+- **Wire Channel** — OTS wire channel in ORTHRUS/OTS PARTS/ELEC folder outside `00 - Parts`. **Migration candidate.**
+- **Flow Control Valve** — OTS valve in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **Mini Regulator (ORTHRUS)** — OTS regulator in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`; distinct from AEETES Mini Regulator. **Migration candidate.**
+- **New Valve (ORTHRUS)** — OTS valve in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`; distinct from AEETES and A-0054 New Valve. **Migration candidate.**
+- **KV2E07-35** — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **KV2H07-34S (ORTHRUS)** — OTS pneumatic fitting in ORTHRUS/OTS PARTS folder outside `00 - Parts`; distinct from AEETES. **Migration candidate.**
+- **KV2H07-35S** — OTS pneumatic fitting in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **PTC Tee** — OTS pneumatic tee in ORTHRUS/OTS PARTS/PNEU folder outside `00 - Parts`. **Migration candidate.**
+- **PLT VALVE ASSY** — Assembly in ORTHRUS/OTS PARTS/PNEU; Uses Valve Assy + KV2E07-34. Not flagged for migration (assembly, not OTS commodity).
+
+**Not Migration Candidates (2 of 16):**
+
+- **PLT VALVE ASSY** — Assembly in ORTHRUS/OTS PARTS/PNEU (Uses: Valve Assy, KV2E07-34). Product assembly, not OTS commodity.
+- **1208LS** — PLT/COMPS component (Used In: PLT HEAD, PLT INPUT ARRAY). Product component, not OTS commodity.
+- **Screen (PLT)** — PLT/COMPS screen (distinct from A-0054 Screen). Product component, not OTS commodity.
+
 ---
 
-*117 migration candidates identified (+6 in batch 017).*
+*131 migration candidates identified (+14 in batch 018).*
