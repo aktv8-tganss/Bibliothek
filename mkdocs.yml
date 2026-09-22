@@ -266,6 +266,10 @@ nav:
       - ASM TOOLING:
         - Inf Only Hose Cell: designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md
         - Stator Plug Cell: designs/a-0026-itm/asm-tooling/stator-plug-cell.md
+        - OTS Parts:
+          - Fieldmann Ratchet Handle: designs/a-0026-itm/asm-tooling/ots-parts/fieldmann-ratchet-handle.md
+          - 4 inch Drill Press Vice: designs/a-0026-itm/asm-tooling/ots-parts/4-inch-drill-press-vice.md
+          - STORAGE TOTE-14GAL: designs/a-0026-itm/asm-tooling/ots-parts/storage-tote-14gal.md
       - ASM TOOLING SOW1:
         - Hose Assembly Cell: designs/a-0026-itm/asm-tooling-sow1/hose-assembly-cell.md
         - Tee Assembly Cell: designs/a-0026-itm/asm-tooling-sow1/tee-assembly-cell.md
@@ -296,6 +300,19 @@ nav:
           - Zaphod Press Heads - Head 01: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-01.md
           - Zaphod Press Heads - Head 02: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-press-heads-head-02.md
           - Zaphod Stack: designs/a-0026-itm/asm-tooling-sow1/zaphod/zaphod-stack.md
+        - COMPS:
+          - 2X2 CYLINDER: designs/a-0026-itm/asm-tooling-sow1/comps/2x2-cylinder.md
+          - 5x5x2.5 enclosure: designs/a-0026-itm/asm-tooling-sow1/comps/5x5x2-5-enclosure.md
+          - Bench: designs/a-0026-itm/asm-tooling-sow1/comps/bench.md
+          - Leg: designs/a-0026-itm/asm-tooling-sow1/comps/leg.md
+          - Mounting rail 1 (SOW1): designs/a-0026-itm/asm-tooling-sow1/comps/mounting-rail-1-sow1.md
+          - Shelf: designs/a-0026-itm/asm-tooling-sow1/comps/shelf.md
+          - Zange_kpl: designs/a-0026-itm/asm-tooling-sow1/comps/zange-kpl.md
+          - Dropper (SOW1): designs/a-0026-itm/asm-tooling-sow1/comps/dropper-sow1.md
+          - Hose Cutter (SOW1): designs/a-0026-itm/asm-tooling-sow1/comps/hose-cutter-sow1.md
+          - KV2L07-34S (SOW1): designs/a-0026-itm/asm-tooling-sow1/comps/kv2l07-34s-sow1.md
+          - KV2L07-35S: designs/a-0026-itm/asm-tooling-sow1/comps/kv2l07-35s.md
+          - LUBER (SOW1): designs/a-0026-itm/asm-tooling-sow1/comps/luber-sow1.md
       - COMPS:
         - Horseshoe Cell: designs/a-0026-itm/comps/horseshoe-cell.md
       - ENIGMA:
@@ -310,12 +327,16 @@ nav:
         - OTS Parts:
           - SCE-36N2408LP: designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md
           - Work Stand: designs/a-0026-itm/orthrus/ots-parts/work-stand.md
+          - GIGADAQ: designs/a-0026-itm/orthrus/ots-parts/gigadaq.md
+          - Spacer (ORTHRUS): designs/a-0026-itm/orthrus/ots-parts/spacer.md
           - PNEU:
             - 1500VA UPS: designs/a-0026-itm/orthrus/ots-parts/pneu/1500va-ups.md
           - ELEC:
             - Samsung_T37F: designs/a-0026-itm/orthrus/ots-parts/elec/samsung-t37f.md
             - USB-2637: designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md
             - Motor Control PCBA: designs/a-0026-itm/orthrus/ots-parts/elec/motor-control-pcba.md
+        - ELEC:
+          - HCSD-20-D-02.50-01-N: designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md
       - OTS Parts:
         - Hose Cutter: designs/a-0026-itm/ots-parts/hose-cutter.md
         - Dropper: designs/a-0026-itm/ots-parts/dropper.md
@@ -327,11 +348,16 @@ nav:
         - Hose: designs/a-0026-itm/parts/hose.md
         - Tube Bridge: designs/a-0026-itm/parts/tube-bridge.md
         - PSI Tee: designs/a-0026-itm/parts/psi-tee.md
+        - Tee Body Solid: designs/a-0026-itm/parts/tee-body-solid.md
       - PLT:
         - HOSE FIXTURE: designs/a-0026-itm/plt/hose-fixture.md
         - PLT HEAD_Plate: designs/a-0026-itm/plt/plt-head-plate.md
         - PLT HEAD: designs/a-0026-itm/plt/plt-head.md
         - PLT INPUT ARRAY: designs/a-0026-itm/plt/plt-input-array.md
+        - 655-1203-104F: designs/a-0026-itm/plt/655-1203-104f.md
+        - COMPS:
+          - CG-U3MINI7PH_Model3D_JWV1 (PLT): designs/a-0026-itm/plt/comps/cg-u3mini7ph-model3d-jwv1-plt.md
+          - HDMI Passthru: designs/a-0026-itm/plt/comps/hdmi-passthru.md
       - Rachel:
         - Carrier Stand 2.0: designs/a-0026-itm/rachel/carrier-stand-2-0.md
         - MARVIN OVERHAND 3 v28: designs/a-0026-itm/rachel/marvin-overhand-3-v28.md

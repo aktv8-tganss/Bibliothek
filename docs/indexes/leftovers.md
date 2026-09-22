@@ -346,47 +346,68 @@ All 21 designs from batch 016 were successfully indexed:
 20. ✓ USB-2637
 21. ✓ Motor Control PCBA
 
+### Batch 017
+
+All 22 designs from batch 017 were successfully indexed:
+
+1. ✓ Fieldmann Ratchet Handle
+2. ✓ 4 inch Drill Press Vice
+3. ✓ STORAGE TOTE-14GAL
+4. ✓ Tee Body Solid
+5. ✓ 2X2 CYLINDER
+6. ✓ 5x5x2.5 enclosure
+7. ✓ Bench
+8. ✓ Leg
+9. ✓ Mounting rail 1 (SOW1)
+10. ✓ Shelf
+11. ✓ Zange_kpl
+12. ✓ Dropper (SOW1)
+13. ✓ Hose Cutter (SOW1)
+14. ✓ KV2L07-34S (SOW1)
+15. ✓ KV2L07-35S
+16. ✓ LUBER (SOW1)
+17. ✓ GIGADAQ
+18. ✓ Spacer (ORTHRUS)
+19. ✓ HCSD-20-D-02.50-01-N
+20. ✓ 655-1203-104F
+21. ✓ CG-U3MINI7PH_Model3D_JWV1 (PLT)
+22. ✓ HDMI Passthru
+
 ---
 
-## A-0026 iTM Remaining (After Batch 016)
+## A-0026 iTM Remaining (After Batch 017)
 
-!!! success "Rachel + TAZ 4 + Key ORTHRUS OTS Complete"
-    Rachel (5 designs), TAZ 4 (10 designs), and key ORTHRUS OTS PARTS (6 designs) are fully harvested with batch 016. A-0026 iTM is **NOT empty** — additional designs remain.
+!!! success "Key ASM TOOLING/SOW1 COMPS + ORTHRUS + PLT Harvested"
+    Batch 017 adds SOW1 COMPS (12 designs), ASM TOOLING/OTS Parts (3 designs), ORTHRUS items including GIGADAQ, and PLT/COMPS. Status: **MORE_REMAIN**.
 
-!!! warning "A-0026 NOT Empty"
-    Despite extensive harvesting through batch 016, A-0026 iTM still contains unharvested designs in multiple subfolders.
+!!! warning "A-0026 NOT Complete"
+    Despite extensive harvesting through batch 017, A-0026 iTM still contains unharvested designs in multiple subfolders.
 
-### Capacity leftovers (searches returned no results)
-- 2x8
-- 2x6
-- 7x72
-- 688 Press
-- Fieldmann Ratchet Handle
-- 4 inch Drill Press Vice
-- STORAGE TOTE-14GAL
-- Zange_kpl
-- Tee Body Solid
+### Phantoms / not found this pass
 - Tee Leak Fixture
 - Hose Steel Adapter
 - BRINGSMART MOTOR
+- 2x8, 2x6, 7x72, 688 Press, Support/Seal/605 Press
 
-### ORTHRUS OTS PARTS — more contents likely unharvested
-The 6 designs harvested (SCE-36N2408LP, Work Stand, 1500VA UPS, Samsung_T37F, USB-2637, Motor Control PCBA) represent priority items. PNEU/ELEC subfolders may contain additional unharvested OTS parts.
+### ORTHRUS / OTS PARTS / PNEU (remaining)
+- .5G V Tanjk, 1/4 1/8 NPT M Reducer, 1/4 NPT Double Bulkhead, 1/4 NPT M Nipple, 1/4 NPT Muffler, 1/4 NPT Street Tee
+- 100CP8-2A, 3way Solenoid, Flow Control Exhaust, Flow Control Valve, KV2E07-00, KV2E07-35, KV2H07-34S, KV2H07-35S
+- Mini Regulator, New Valve, PLT VALVE ASSY, PTC Tee
 
-### ASM TOOLING
-- OTS Parts/
+### ORTHRUS / OTS PARTS / ELEC (remaining)
+- 12V, 19V Adapter, 3.5mm TRS, 46993-0420, Arduino_Uno_w/Shield, C14 Plug, ERB24, Motor Controller
+- NUC8ixBEH-Chassis, ORTHRUS WCONFIG - Mounting rail 1, Wire Channel
+- c-1set411014r0000-a-3d, c-1set411202r0000-a-3d, c-206061-1-ad-3d, c-2416050-5-a1-3d, keyboard
 
-### ASM TOOLING SOW1
-- COMPS/
+### PLT / COMPS (remaining)
+- 1208LS, 12V, 1590U, 19V Adapter, 925_R1_Btm_INNER_SURFACE_STEP, 925_R1_Top_INNER_SURFACE_STEP, USB, DC11, ERB24
+- GCX3105, KV2E07-00, KV2H07-36S, KV2L07-99, PLT VALVE ASSY, Random Assy, Screen, USB231
+- c-206060-1-k-3d, c-206061-1-ad-3d, c-206358-5-n-3d
 
-### Jake - Print Copys
-- Piston Attachments and Parts/
+### GIGADAQ children (not harvested)
+- NANUK_935_Bottom/Top Shell STEP, 12V PSU, Gigadaq Mounting
 
-### PLT
-- COMPS/
-- 655-1203-104F if found
+### Jake Print Copys
+- Piston Attachments drawings skipped (880250–880270)
 
-### Other references
-- HCSD-20-D-02.50-01-N (USB-2637 ref — mutual Uses/Used In)
-
-*This summary was updated from the remaining-after-016 harvest manifest.*
+*This summary was updated from the remaining-after-017 harvest manifest.*

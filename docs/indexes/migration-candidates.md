@@ -124,6 +124,12 @@ A design is flagged when:
 | [Samsung_T37F](../designs/a-0026-itm/orthrus/ots-parts/elec/samsung-t37f.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
 | [USB-2637](../designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
 | [Motor Control PCBA](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-control-pcba.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | OTS outside `00 - Parts` |
+| [Fieldmann Ratchet Handle](../designs/a-0026-itm/asm-tooling/ots-parts/fieldmann-ratchet-handle.md) | `A-0026 iTM / ASM TOOLING / OTS Parts` | OTS outside `00 - Parts` |
+| [4 inch Drill Press Vice](../designs/a-0026-itm/asm-tooling/ots-parts/4-inch-drill-press-vice.md) | `A-0026 iTM / ASM TOOLING / OTS Parts` | OTS outside `00 - Parts` |
+| [STORAGE TOTE-14GAL](../designs/a-0026-itm/asm-tooling/ots-parts/storage-tote-14gal.md) | `A-0026 iTM / ASM TOOLING / OTS Parts` | OTS outside `00 - Parts` |
+| [KV2L07-35S](../designs/a-0026-itm/asm-tooling-sow1/comps/kv2l07-35s.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | OTS fitting outside `00 - Parts` |
+| [GIGADAQ](../designs/a-0026-itm/orthrus/ots-parts/gigadaq.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts` |
+| [Spacer (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/spacer.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | OTS outside `00 - Parts` |
 
 ---
 
@@ -486,6 +492,38 @@ Batch 016 contains 21 designs: Rachel (5), TAZ 4 (10), ORTHRUS / OTS PARTS (6). 
 - **Thru Screw Terminal** — TAZ 4 design. Not an OTS part.
 - **USB Adapter** — TAZ 4 design (no OTS note). Not flagged.
 
+### Assessment Notes (Batch 017)
+
+Batch 017 contains 22 designs: ASM TOOLING/OTS Parts (3), PARTS (1), ASM TOOLING SOW1/COMPS (12), ORTHRUS/OTS PARTS (2), ORTHRUS/ELEC (1), PLT (1), PLT/COMPS (2). 6 OTS migration candidates identified:
+
+**Migration Candidates (6 of 22):**
+
+- **Fieldmann Ratchet Handle** — OTS tool in ASM TOOLING/OTS Parts folder outside `00 - Parts`. **Migration candidate.**
+- **4 inch Drill Press Vice** — OTS tool in ASM TOOLING/OTS Parts folder outside `00 - Parts`. **Migration candidate.**
+- **STORAGE TOTE-14GAL** — OTS storage in ASM TOOLING/OTS Parts folder outside `00 - Parts`. **Migration candidate.**
+- **KV2L07-35S** — OTS pneumatic fitting in ASM TOOLING SOW1/COMPS folder outside `00 - Parts`. **Migration candidate.**
+- **GIGADAQ** — OTS assembly in ORTHRUS/OTS PARTS folder outside `00 - Parts`. **Migration candidate.**
+- **Spacer** — OTS spacer in ORTHRUS/OTS PARTS folder outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (16 of 22):**
+
+- **Tee Body Solid** — PARTS folder component. Not an OTS part.
+- **2X2 CYLINDER** — ASM TOOLING SOW1/COMPS design. Not an OTS part.
+- **5x5x2.5 enclosure** — ASM TOOLING SOW1/COMPS design. Not an OTS part.
+- **Bench** — ASM TOOLING SOW1/COMPS assembly. Not an OTS part.
+- **Leg** — ASM TOOLING SOW1/COMPS design. Not an OTS part.
+- **Mounting rail 1 (SOW1)** — ASM TOOLING SOW1/COMPS design (distinct copy from AEETES). Not an OTS part.
+- **Shelf** — ASM TOOLING SOW1/COMPS design. Not an OTS part.
+- **Zange_kpl** — ASM TOOLING SOW1/COMPS design. Not an OTS part.
+- **Dropper (SOW1)** — ASM TOOLING SOW1/COMPS design (distinct copy from OTS Parts). Not an OTS part.
+- **Hose Cutter (SOW1)** — ASM TOOLING SOW1/COMPS design (distinct copy from OTS Parts). Not an OTS part.
+- **KV2L07-34S (SOW1)** — ASM TOOLING SOW1/COMPS design (distinct copy from AEETES). Not an OTS part.
+- **LUBER (SOW1)** — ASM TOOLING SOW1/COMPS design (distinct copy from OTS Parts). Not an OTS part.
+- **HCSD-20-D-02.50-01-N** — ORTHRUS/ELEC connector design. Not an OTS part.
+- **655-1203-104F** — PLT design. Not an OTS part.
+- **CG-U3MINI7PH_Model3D_JWV1 (PLT)** — PLT/COMPS design (distinct copy from A-0054). Not an OTS part.
+- **HDMI Passthru** — PLT/COMPS design. Not an OTS part.
+
 ---
 
-*111 migration candidates identified (+9 in batch 016).*
+*117 migration candidates identified (+6 in batch 017).*

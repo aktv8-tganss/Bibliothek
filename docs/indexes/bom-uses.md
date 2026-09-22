@@ -61,6 +61,8 @@ Assemblies with non-empty component references (Uses).
 | [ORTHRUS](../designs/a-0026-itm/orthrus/orthrus.md) | 34 | [a360.co/4AaGpm4](https://a360.co/4AaGpm4) |
 | [Wheel End ASM](../designs/a-0026-itm/parts/wheel-end-asm.md) | 2 | [a360.co/4AgcB7J](https://a360.co/4AgcB7J) |
 | [Tee](../designs/a-0026-itm/parts/tee.md) | 1 | [a360.co/4ydkdGC](https://a360.co/4ydkdGC) |
+| [Bench](../designs/a-0026-itm/asm-tooling-sow1/comps/bench.md) | 1 | [a360.co/3SVtSlO](https://a360.co/3SVtSlO) |
+| [GIGADAQ](../designs/a-0026-itm/orthrus/ots-parts/gigadaq.md) | 4 | [a360.co/3VaY113](https://a360.co/3VaY113) |
 | [Taz](../designs/a-0026-itm/rachel/taz.md) | 2 | [a360.co/4h51tBz](https://a360.co/4h51tBz) |
 | [Taz 2.0](../designs/a-0026-itm/rachel/taz-2-0.md) | 2 | [a360.co/4iXK3JO](https://a360.co/4iXK3JO) |
 | [ST-PROTO-1-2_3d](../designs/a-0026-itm/taz-4/st-proto-1-2-3d.md) | 1 | [a360.co/4yCTFy3](https://a360.co/4yCTFy3) |
@@ -793,8 +795,27 @@ The Whirlpool Motor design references the following 2 components:
 
 The USB-2637 design references the following 1 component:
 
-1. HCSD-20-D-02.50-01-N
+1. [HCSD-20-D-02.50-01-N](../designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md)
 
 ---
 
-*66 assemblies with BOM data indexed.*
+## Bench — Bill of Materials
+
+The Bench assembly references the following 1 component:
+
+1. [Leg](../designs/a-0026-itm/asm-tooling-sow1/comps/leg.md)
+
+---
+
+## GIGADAQ — Bill of Materials
+
+The GIGADAQ assembly references the following 4 components:
+
+1. NANUK_935_Bottom Shell_INNER SURFS_Step
+2. 12V PSU
+3. Gigadaq Mounting
+4. NANUK_935_Top Shell_INNER SURFS_Step
+
+---
+
+*68 assemblies with BOM data indexed.*

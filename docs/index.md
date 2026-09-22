@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (260 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (66 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (111 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (282 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (68 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (117 total)
 
 ## Design Tree
 
@@ -35,21 +35,25 @@ Browse designs by project folder:
         - [Comps](designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) — IO Box components (32 designs, 28 migration candidates)
         - [Josh CAD](designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) — Josh CAD designs (3 designs, 3 migration candidates)
     - [Flash Runner](designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) — Flash Runner assembly designs (4 designs)
-- **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (118 designs)
+- **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (140 designs)
     - [ACROPORA](designs/a-0026-itm/acropora/acropora.md) — ACROPORA subfolder (4 designs, 3 migration candidates)
     - [AEETES](designs/a-0026-itm/aeetes/aeetes-asm.md) — AEETES subfolder (22 designs, 1 migration candidate)
         - [OTS Parts](designs/a-0026-itm/aeetes/ots-parts/1.md) — AEETES OTS parts (40 designs, all migration candidates)
     - [Alford](designs/a-0026-itm/alford/million-mile-power-supply-mount.md) — Alford subfolder (1 design)
     - [ASM TOOLING](designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md) — ASM TOOLING subfolder (2 designs)
+        - [OTS Parts](designs/a-0026-itm/asm-tooling/ots-parts/fieldmann-ratchet-handle.md) — ASM TOOLING OTS parts (3 designs, all migration candidates)
     - [ASM TOOLING SOW1](designs/a-0026-itm/asm-tooling-sow1/hose-assembly-cell.md) — ASM TOOLING SOW1 subfolder (19 designs)
+        - [COMPS](designs/a-0026-itm/asm-tooling-sow1/comps/2x2-cylinder.md) — SOW1 COMPS (12 designs, 1 migration candidate)
     - [COMPS](designs/a-0026-itm/comps/horseshoe-cell.md) — COMPS subfolder (1 design)
     - [ENIGMA](designs/a-0026-itm/enigma/dyno-assy.md) — ENIGMA subfolder (2 designs)
     - [MTT03](designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md) — MTT03 subfolder (3 designs)
-    - [ORTHRUS](designs/a-0026-itm/orthrus/orthrus.md) — ORTHRUS subfolder (7 designs, 6 migration candidates)
-        - [OTS Parts](designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) — ORTHRUS OTS parts (6 designs, all migration candidates)
+    - [ORTHRUS](designs/a-0026-itm/orthrus/orthrus.md) — ORTHRUS subfolder (1 design)
+        - [OTS Parts](designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) — ORTHRUS OTS parts (8 designs, all migration candidates)
+        - [ELEC](designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md) — ORTHRUS ELEC (1 design)
     - [OTS Parts](designs/a-0026-itm/ots-parts/hose-cutter.md) — OTS Parts subfolder (3 designs, all migration candidates)
-    - [PARTS](designs/a-0026-itm/parts/tee.md) — PARTS subfolder (6 designs)
-    - [PLT](designs/a-0026-itm/plt/plt-head.md) — PLT subfolder (4 designs)
+    - [PARTS](designs/a-0026-itm/parts/tee.md) — PARTS subfolder (7 designs)
+    - [PLT](designs/a-0026-itm/plt/plt-head.md) — PLT subfolder (5 designs)
+        - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (2 designs)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
 
@@ -73,11 +77,12 @@ Browse designs by project folder:
 | 014 | 24 | A-0026 iTM: AEETES / OTS Parts (24) — all 24 are OTS migration candidates; completes Priority A |
 | 015 | 17 | A-0026 iTM: COMPS (1), OTS Parts (3), PLT (4), MTT03 (2), ORTHRUS (1), PARTS (6) — 3 OTS migration candidates |
 | 016 | 21 | A-0026 iTM: Rachel (5), TAZ 4 (10), ORTHRUS / OTS PARTS (6) — 9 OTS migration candidates |
+| 017 | 22 | A-0026 iTM: ASM TOOLING/OTS (3), PARTS (1), SOW1 COMPS (12), ORTHRUS (3), PLT (3) — 6 OTS migration candidates |
 
-**Total designs indexed: 260**
+**Total designs indexed: 282**
 
-!!! warning "A-0026 iTM NOT Empty"
-    A-0026 iTM still contains unharvested designs after batch 016. See [leftovers index](indexes/leftovers.md) for details.
+!!! warning "A-0026 iTM MORE_REMAIN"
+    A-0026 iTM still contains unharvested designs after batch 017 (ORTHRUS PNEU/ELEC, PLT COMPS, GIGADAQ children). See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 
