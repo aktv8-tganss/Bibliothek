@@ -28,11 +28,11 @@ This assembly references **1 component**:
 
 | # | Component |
 |---|-----------|
-| 1 | PCB Sim |
+| 1 | [PCB Sim](pcb-sim.md) |
 
 ## Used In
 
 This design is used in the following assemblies:
 
 - PCBA Flash Embryo
-- PCBA Flash Expanded
+- [PCBA Flash Expanded](pcba-flash-expanded.md)

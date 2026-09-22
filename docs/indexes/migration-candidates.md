@@ -35,6 +35,14 @@ A design is flagged when:
 | [Shoulder Screw](../designs/a-0010-iair6/flash-runner/parts/shoulder-screw.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS hardware outside `00 - Parts` |
 | [Sleeve Bearing](../designs/a-0010-iair6/flash-runner/parts/sleeve-bearing.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS hardware outside `00 - Parts` |
 | [Spring](../designs/a-0010-iair6/flash-runner/parts/spring.md) | `A-0010 iAir6 / Flash Runner / Parts` | OTS hardware outside `00 - Parts` |
+| [12V](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS power component outside `00 - Parts` |
+| [19V Adapter](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/19v-adapter.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS power adapter outside `00 - Parts` |
+| [50A Breaker](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/50a-breaker.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS breaker component outside `00 - Parts` |
+| [Barcode Scanner](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/barcode-scanner.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS scanner outside `00 - Parts` |
+| [Breaker SN180506A](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/breaker-sn180506a.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS breaker outside `00 - Parts` |
+| [Bulkhead](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS hardware/fitting outside `00 - Parts` |
+| [Bulkhead Adapt](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead-adapt.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS hardware adapter outside `00 - Parts` |
+| [CG-U3MINI7PH_Model3D_JWV1](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/cg-u3mini7ph-model3d-jwv1.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | OTS connector/model outside `00 - Parts` |
 
 ---
 
@@ -146,6 +154,34 @@ Batch 007 contains 17 designs across ALC Parts (2), DUT Mounting (2), Flash Runn
 - **003237 X2 Cover iAir6 Copy** — A8 Parts copy twin. Not an OTS part.
 - **Untitled** — Root-level design. Not an OTS part.
 
+### Assessment Notes (Batch 008)
+
+Batch 008 contains 20 designs under `A-0054 iAir3 Gen2`. 8 OTS migration candidates identified:
+
+- **12V** — OTS power component in Comps folder. **Migration candidate.**
+- **19V Adapter** — OTS power adapter in Comps folder. **Migration candidate.**
+- **50A Breaker** — OTS breaker component in Comps folder. **Migration candidate.**
+- **Barcode Scanner** — OTS scanner in Comps folder. **Migration candidate.**
+- **Breaker SN180506A** — OTS breaker in Comps folder. **Migration candidate.**
+- **Bulkhead** — OTS hardware/fitting in Comps folder. **Migration candidate.**
+- **Bulkhead Adapt** — OTS hardware adapter in Comps folder. **Migration candidate.**
+- **CG-U3MINI7PH_Model3D_JWV1** — OTS connector/model in Comps folder. **Migration candidate.**
+
+Non-candidates (product assemblies or STEP surfaces):
+
+- **IO BOX Try 1** — Custom IO-box design. Not an OTS part.
+- **IO Box** — Main IO Box assembly. Not an OTS part.
+- **Mounting rail 1** — Custom design. Not an OTS part.
+- **NUC_BE_MB Assembly** — Custom assembly. Not an OTS part.
+- **Bezel Print Hack** — Custom print-related design. Not an OTS part.
+- **940_R1_Btm_INNER_SURFACE_STEP** — Imported STEP surface; not OTS commodity. Not a migration candidate.
+- **940_R1_Top_INNER_SURFACE_STEP** — Imported STEP surface; not OTS commodity. Not a migration candidate.
+- **945_R1_ Top_INNER_SURFACE_STEP** — Imported STEP surface; not OTS commodity. Not a migration candidate.
+- **945_R1_Btm_INNER_SURFACE_STEP** — Imported STEP surface; not OTS commodity. Not a migration candidate.
+- **PCB Sim** — PCB simulation design. Not an OTS part.
+- **PCBA Flash Expanded** — Flash Runner assembly. Not an OTS part.
+- **Screen VESA** — VESA mounting design. Not an OTS part.
+
 ---
 
 ## Referenced OTS / Commodity (Not Yet Harvested as Pages)
@@ -168,4 +204,4 @@ The following items appear in Uses fields and appear to be off-the-shelf commodi
 
 ---
 
-*22 migration candidates identified (+7 in batch 007).*
+*30 migration candidates identified (+8 in batch 008).*

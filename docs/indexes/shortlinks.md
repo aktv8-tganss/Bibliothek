@@ -78,7 +78,27 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Spring](../designs/a-0010-iair6/flash-runner/parts/spring.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4gRBHLF](https://a360.co/4gRBHLF) |
 | [Urchin Bed of Nails Bottom Side](../designs/a-0010-iair6/flash-runner/parts/urchin-bed-of-nails-bottom-side.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4iucAqm](https://a360.co/4iucAqm) |
 | [Urchin Bed of Nails Top Side](../designs/a-0010-iair6/flash-runner/parts/urchin-bed-of-nails-top-side.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/46WDJLg](https://a360.co/46WDJLg) |
+| [IO BOX Try 1](../designs/a-0054-iair3-gen2/fft-obs/io-box/io-box-try-1.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box` | [a360.co/4ixhwe3](https://a360.co/4ixhwe3) |
+| [IO Box](../designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box` | [a360.co/3TdMhKH](https://a360.co/3TdMhKH) |
+| [Mounting rail 1](../designs/a-0054-iair3-gen2/fft-obs/io-box/mounting-rail-1.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box` | [a360.co/4h80zFX](https://a360.co/4h80zFX) |
+| [NUC_BE_MB Assembly](../designs/a-0054-iair3-gen2/fft-obs/io-box/nuc-be-mb-assembly.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box` | [a360.co/3UVntHS](https://a360.co/3UVntHS) |
+| [Bezel Print Hack](../designs/a-0054-iair3-gen2/fft-obs/io-box/bezel-print-hack.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box` | [a360.co/4yBebPF](https://a360.co/4yBebPF) |
+| [12V](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4y8Llqh](https://a360.co/4y8Llqh) |
+| [19V Adapter](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/19v-adapter.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/47bVINV](https://a360.co/47bVINV) |
+| [50A Breaker](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/50a-breaker.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4xz9ULZ](https://a360.co/4xz9ULZ) |
+| [940_R1_Btm_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-btm-inner-surface-step.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hguDPP](https://a360.co/4hguDPP) |
+| [940_R1_Top_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-top-inner-surface-step.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4xzejON](https://a360.co/4xzejON) |
+| [945_R1_ Top_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/945-r1-top-inner-surface-step.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4yI8UpG](https://a360.co/4yI8UpG) |
+| [945_R1_Btm_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/945-r1-btm-inner-surface-step.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hcMs0T](https://a360.co/4hcMs0T) |
+| [Barcode Scanner](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/barcode-scanner.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/3UZJUvt](https://a360.co/3UZJUvt) |
+| [Breaker SN180506A](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/breaker-sn180506a.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/3SVoGhS](https://a360.co/3SVoGhS) |
+| [Bulkhead](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hwCJ6M](https://a360.co/4hwCJ6M) |
+| [Bulkhead Adapt](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/bulkhead-adapt.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4yEduVP](https://a360.co/4yEduVP) |
+| [CG-U3MINI7PH_Model3D_JWV1](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/cg-u3mini7ph-model3d-jwv1.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4y8Q6A9](https://a360.co/4y8Q6A9) |
+| [PCB Sim](../designs/a-0054-iair3-gen2/flash-runner/pcb-sim.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4xEAx28](https://a360.co/4xEAx28) |
+| [PCBA Flash Expanded](../designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4yBctxO](https://a360.co/4yBctxO) |
+| [Screen VESA](../designs/a-0054-iair3-gen2/flash-runner/screen-vesa.md) | `A-0054 iAir3 Gen2 / Flash Runner` | [a360.co/4yLMzYt](https://a360.co/4yLMzYt) |
 
 ---
 
-*74 designs indexed.*
+*94 designs indexed.*
