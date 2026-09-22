@@ -459,7 +459,47 @@ All 1 design from batch 020 was successfully indexed:
 ### Resolved or skipped
 
 - **Inventory name typos** (e.g. HCDS vs HCSD) — treated as resolved
-- **Named phantoms** (Tee Leak Fixture, Hose Steel Adapter, BRINGSMART MOTOR, various Press stubs, 2x8/2x6/7x72, 688 Press, Support/Seal/605 Press) — skipped; no real designs found
+- **Named phantoms** (Tee Leak Fixture, Hose Steel Adapter, ~~BRINGSMART MOTOR~~, various Press stubs, 2x8/2x6/7x72, 688 Press, Support/Seal/605 Press) — skipped; no real designs found (BRINGSMART MOTOR resolved in batch 021)
 - **Jake Print Copys** — Piston Attachments drawings (880250–880270) skipped
 
 *A-0026 iTM harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*
+
+---
+
+## A-9999 Lab — Remaining (MORE remain)
+
+### Batch 021
+
+All 16 designs from batch 021 were successfully indexed:
+
+1. ✓ 000003 Manifold, iAir3 Type I W1
+2. ✓ 000004 Cover, iAir3 Air Lift
+3. ✓ 000113 Link Tip tool
+4. ✓ 002790 Manifold, iAir3 TypeVIII TPP
+5. ✓ 002793 Cover, iAir3 no-logo
+6. ✓ 003599 Tee cover v2
+7. ✓ 003599 Tee cover v3 crosscut
+8. ✓ 003599 Tee cover v3 sidecut
+9. ✓ 1" Flange
+10. ✓ 1/16 NPT Female
+11. ✓ 31t gear
+12. ✓ 5" Shelf Bracket
+13. ✓ A71 Sleeve
+14. ✓ Air Part Models
+15. ✓ All
+16. ✓ BRINGSMART MOTOR
+
+### A-9999 Lab remaining after batch 021
+
+!!! info "A-9999 Lab: MORE remain"
+    A-9999 Lab is NOT thin — significant designs remain unharvested.
+
+**Folders:**
+
+- GEGENEES/ (GEGENEES LITE, Sterling CAN Controller, many designs — unharvested)
+- GIGADAQ/PARTS/: Mounting rail 1, USB-2637 (NANUK/12V PSU/Gigadaq Mounting already harvested)
+- TEAM PRINTS/
+
+**Root remaining (sample):**
+
+Barn Layout, Blower Cap, Boat* parts, Bushing, Button Valve, CI16-FCI06, CP Reg Assy, Compressor Packaging A, Concept floating piston_X2, Drill press - Ferm FTB-13M, Dyno Washer, FHR Test Ruler, Flex Plate, Gen2 Plug Holder, Hole Test, Jart, LA-S48037-3D model, Light Arcade Switch, M16x1 to 1/4NPT Adapter, Magnum Trunk, Marble Run Support*, PCBA Gauge iAir6 V2, PI Case, STAY STRAPPED, Segger Module, Sound Deadening Chamber, Stool v5, Switch, Table Top, Tag, Untitled, Wheel End Test Stand Assembly - Copy, c-* connectors, iTM Axle Hose Install Tool, m16x1 thread, metal_tag_laser_fixture_round_relieved_largefinger

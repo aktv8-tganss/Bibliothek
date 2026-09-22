@@ -339,7 +339,23 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [USB231](../designs/a-0026-itm/plt/comps/usb231.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/3T5FQsS](https://a360.co/3T5FQsS) |
 | [c-206060-1-k-3d](../designs/a-0026-itm/plt/comps/c-206060-1-k-3d.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4iv68iR](https://a360.co/4iv68iR) |
 | [c-206061-1-ad-3d (PLT COMPS)](../designs/a-0026-itm/plt/comps/c-206061-1-ad-3d.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/3VpTfwM](https://a360.co/3VpTfwM) |
+| [000003 Manifold, iAir3 Type I W1](../designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) | `A-9999 Lab` | [a360.co/4xZm6GH](https://a360.co/4xZm6GH) |
+| [000004 Cover, iAir3 Air Lift](../designs/a-9999-lab/000004-cover-iair3-air-lift.md) | `A-9999 Lab` | [a360.co/4xgrlQY](https://a360.co/4xgrlQY) |
+| [000113 Link Tip tool](../designs/a-9999-lab/000113-link-tip-tool.md) | `A-9999 Lab` | [a360.co/4A1FRyJ](https://a360.co/4A1FRyJ) |
+| [002790 Manifold, iAir3 TypeVIII TPP](../designs/a-9999-lab/002790-manifold-iair3-typeviii-tpp.md) | `A-9999 Lab` | [a360.co/4dvO1pn](https://a360.co/4dvO1pn) |
+| [002793 Cover, iAir3 no-logo](../designs/a-9999-lab/002793-cover-iair3-no-logo.md) | `A-9999 Lab` | [a360.co/4r2hsVD](https://a360.co/4r2hsVD) |
+| [003599 Tee cover v2](../designs/a-9999-lab/003599-tee-cover-v2.md) | `A-9999 Lab` | [a360.co/4iY5fiI](https://a360.co/4iY5fiI) |
+| [003599 Tee cover v3 crosscut](../designs/a-9999-lab/003599-tee-cover-v3-crosscut.md) | `A-9999 Lab` | [a360.co/4cGRhy1](https://a360.co/4cGRhy1) |
+| [003599 Tee cover v3 sidecut](../designs/a-9999-lab/003599-tee-cover-v3-sidecut.md) | `A-9999 Lab` | [a360.co/4r7XTLF](https://a360.co/4r7XTLF) |
+| [1" Flange](../designs/a-9999-lab/1-inch-flange.md) | `A-9999 Lab` | [a360.co/4cA4itg](https://a360.co/4cA4itg) |
+| [1/16 NPT Female](../designs/a-9999-lab/1-16-npt-female.md) | `A-9999 Lab` | [a360.co/4gYVkXz](https://a360.co/4gYVkXz) |
+| [31t gear](../designs/a-9999-lab/31t-gear.md) | `A-9999 Lab` | [a360.co/4h29gjC](https://a360.co/4h29gjC) |
+| [5" Shelf Bracket](../designs/a-9999-lab/5-inch-shelf-bracket.md) | `A-9999 Lab` | [a360.co/4yzMcQA](https://a360.co/4yzMcQA) |
+| [A71 Sleeve](../designs/a-9999-lab/a71-sleeve.md) | `A-9999 Lab` | [a360.co/4gP0mqU](https://a360.co/4gP0mqU) |
+| [Air Part Models](../designs/a-9999-lab/air-part-models.md) | `A-9999 Lab` | [a360.co/4A7MsYs](https://a360.co/4A7MsYs) |
+| [All](../designs/a-9999-lab/all.md) | `A-9999 Lab` | [a360.co/4ijeaLx](https://a360.co/4ijeaLx) |
+| [BRINGSMART MOTOR](../designs/a-9999-lab/bringsmart-motor.md) | `A-9999 Lab` | [a360.co/4iRzQ1u](https://a360.co/4iRzQ1u) |
 
 ---
 
-*335 designs indexed.*
+*351 designs indexed.*
