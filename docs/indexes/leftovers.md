@@ -92,3 +92,50 @@ All 15 designs from batch 006 were successfully indexed:
 13. ✓ URCHIN
 14. ✓ Heater - Tool
 15. ✓ iAir6 Durability Cart
+
+### Batch 007
+
+All 17 designs from batch 007 were successfully indexed:
+
+1. ✓ Untitled
+2. ✓ Height Arm
+3. ✓ Remote and Holder
+4. ✓ 003237 X2 Cover iAir6 Copy
+5. ✓ Angle Clamp
+6. ✓ Height Sensor 4-up
+7. ✓ 6498K144_Round Body Air Cylinder
+8. ✓ Board Alignment Pin
+9. ✓ Press Fixture
+10. ✓ S-0-U-2.2-G
+11. ✓ S-1-E-3.8-G
+12. ✓ S-1-J-3.8-G
+13. ✓ Shoulder Screw
+14. ✓ Sleeve Bearing
+15. ✓ Spring
+16. ✓ Urchin Bed of Nails Bottom Side
+17. ✓ Urchin Bed of Nails Top Side
+
+### Batch 008
+
+All 20 designs from batch 008 were successfully indexed:
+
+1. ✓ IO BOX Try 1
+2. ✓ IO Box
+3. ✓ Mounting rail 1
+4. ✓ NUC_BE_MB Assembly
+5. ✓ Bezel Print Hack
+6. ✓ 12V
+7. ✓ 19V Adapter
+8. ✓ 50A Breaker
+9. ✓ 940_R1_Btm_INNER_SURFACE_STEP
+10. ✓ 940_R1_Top_INNER_SURFACE_STEP
+11. ✓ 945_R1_ Top_INNER_SURFACE_STEP
+12. ✓ 945_R1_Btm_INNER_SURFACE_STEP
+13. ✓ Barcode Scanner
+14. ✓ Breaker SN180506A
+15. ✓ Bulkhead
+16. ✓ Bulkhead Adapt
+17. ✓ CG-U3MINI7PH_Model3D_JWV1
+18. ✓ PCB Sim
+19. ✓ PCBA Flash Expanded
+20. ✓ Screen VESA

@@ -26,6 +26,9 @@ Assemblies with non-empty component references (Uses).
 | [URCHIN](../designs/a-0010-iair6/flash-runner/urchin.md) | 9 | [a360.co/4cLWapw](https://a360.co/4cLWapw) |
 | [Heater - Tool](../designs/a-0010-iair6/heater-tool.md) | 1 | [a360.co/4gWBbTz](https://a360.co/4gWBbTz) |
 | [Press Fixture](../designs/a-0010-iair6/flash-runner/parts/press-fixture.md) | 1 | [a360.co/3T9KoP9](https://a360.co/3T9KoP9) |
+| [IO BOX Try 1](../designs/a-0054-iair3-gen2/fft-obs/io-box/io-box-try-1.md) | 1 | [a360.co/4ixhwe3](https://a360.co/4ixhwe3) |
+| [IO Box](../designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md) | 23 | [a360.co/3TdMhKH](https://a360.co/3TdMhKH) |
+| [PCBA Flash Expanded](../designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md) | 15 | [a360.co/4yBctxO](https://a360.co/4yBctxO) |
 
 ---
 
@@ -162,7 +165,7 @@ The 3way Solenoid design references the following 3 components:
 
 The iAIR3 Gen2 Flash Runner Bed design references the following 1 component:
 
-1. PCB Sim
+1. [PCB Sim](../designs/a-0054-iair3-gen2/flash-runner/pcb-sim.md)
 
 ---
 
@@ -238,4 +241,64 @@ The Press Fixture design references the following 1 component:
 
 ---
 
-*21 assemblies with BOM data indexed.*
+## IO BOX Try 1 — Bill of Materials
+
+The IO BOX Try 1 design references the following 1 component:
+
+1. c-206151-1-ag-3d
+
+---
+
+## IO Box — Bill of Materials
+
+The IO Box assembly references the following 23 components:
+
+1. Valve Assy
+2. [940_R1_Top_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-top-inner-surface-step.md)
+3. iAir3G2 fixture plate
+4. Bracket
+5. USB-2408-2AO
+6. Screen
+7. Keypad
+8. Screen 2
+9. [19V Adapter](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/19v-adapter.md)
+10. DC11
+11. FAN
+12. Mounting rail 3
+13. NUC8ixBEH-Chassis
+14. S6F
+15. NHS150 0R5
+16. Y201132R203NQ
+17. c-206151-1-ag-3d
+18. HDMI Passthru
+19. c-206061-1-ad-3d
+20. [Breaker SN180506A](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/breaker-sn180506a.md)
+21. [940_R1_Btm_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-btm-inner-surface-step.md)
+22. [12V](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md)
+23. USB
+
+---
+
+## PCBA Flash Expanded — Bill of Materials
+
+The PCBA Flash Expanded assembly references the following 15 components:
+
+1. FCV 1/8 to SAC in
+2. PSU 12V-5A Alitov
+3. [iAIR3 Gen2 Flash Runner Bed](../designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md)
+4. 7" Screen
+5. PCBA Flash Embryo
+6. Segger Flasher
+7. Pi Case
+8. Elbow 1/8 NPT
+9. NR Regulator
+10. MAC 3way Solenoid
+11. KQ2L07-35AS
+12. Reducer 1/4 to 1/8
+13. 1/8 Short Nipple
+14. Vilros Pi PSU
+15. [Screen VESA](../designs/a-0054-iair3-gen2/flash-runner/screen-vesa.md)
+
+---
+
+*24 assemblies with BOM data indexed.*
