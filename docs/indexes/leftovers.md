@@ -1145,3 +1145,75 @@ Prox Shrouod; Rail Bracket; Reed Bracket Probe; Screen VESA
     - **Mantis 2 / Obs** — nested under `docs/designs/a-0047-tpms/mantis-2/obs/`; distinct from root **Obs** folder at `docs/designs/a-0047-tpms/obs/` (batch 028)
     - **Carriage Carrier** (Mantis 2 / Obs) — distinct from Limpet **Carriage** (not yet harvested)
     - **Cylinder Bracket** (Mantis 2) — distinct from any Limpet Cylinder Bracket (not yet harvested)
+
+---
+
+### Batch 033
+
+All 31 designs from batch 033 were successfully indexed:
+
+**OTS Parts (31):**
+
+1. ✓ 1/4 spring — OTS migration candidate
+2. ✓ 1/4-28 Coupling — OTS migration candidate
+3. ✓ 1/4-28 Stud — OTS migration candidate
+4. ✓ 1/4-28 button — OTS migration candidate
+5. ✓ 1/8 brass nipple — OTS migration candidate
+6. ✓ 1/8 brass plug — OTS migration candidate
+7. ✓ 1/8 brass tee — OTS migration candidate
+8. ✓ 3 3/8 spacer — OTS migration candidate
+9. ✓ 3/8 Bearing — OTS migration candidate
+10. ✓ 3/8 PTFE Bearing — OTS migration candidate
+11. ✓ 3/8 Shoulder (uppercase) — OTS migration candidate
+12. ✓ 3/8 shoulder (lowercase) — OTS migration candidate
+13. ✓ 3way Solenoid (TPMS) — OTS migration candidate
+14. ✓ 4040 12in — OTS migration candidate
+15. ✓ ANMBEST 4-MOSFET (TPMS) — OTS migration candidate
+16. ✓ ArduinoMega_STEP_AP203 (TPMS) — OTS migration candidate
+17. ✓ Cable Duct Medium — OTS migration candidate
+18. ✓ Cable Duct Short — OTS migration candidate
+19. ✓ KQ2H03-34AS — OTS migration candidate
+20. ✓ KQ2H03-35AS (TPMS) — OTS migration candidate
+21. ✓ KQ2L03-33AS (TPMS) — OTS migration candidate
+22. ✓ KQ2L03-34AS — OTS migration candidate
+23. ✓ KQ2T03-34AS — OTS migration candidate
+24. ✓ KQ2T03-35AS — OTS migration candidate
+25. ✓ Mini Regulator (TPMS) — OTS migration candidate
+26. ✓ Moonfish Inner Nut — OTS migration candidate
+27. ✓ Nipple (TPMS) — OTS migration candidate
+28. ✓ Small Nipple — OTS migration candidate
+29. ✓ Tee (TPMS) — OTS migration candidate
+30. ✓ Tee Fitting — OTS migration candidate
+31. ✓ Touchscreen (TPMS) — OTS migration candidate
+
+### A-0047 TPMS remaining after batch 033
+
+!!! info "A-0047 TPMS: MORE remain — OTS continues"
+    A-0047 TPMS is NOT complete — OTS Parts still open (Charlotte ticket 034). Do NOT declare A-0047 COMPLETE.
+
+**OTS Parts still open (per remaining status file):**
+
+Additional catalog rows expected; ticket 034 outstanding.
+
+### Disambiguation Notes (Batch 033)
+
+!!! tip "Case Collision: 3/8 Shoulder vs 3/8 shoulder"
+    **Critical:** Two distinct designs with case-only difference:
+
+    - **3/8 Shoulder** (uppercase S) — `a360.co/4dgOtb1` → slug `3-8-shoulder-upper.md`
+    - **3/8 shoulder** (lowercase s) — `a360.co/3USec3e` → slug `3-8-shoulder-lower.md`
+
+    These are DIFFERENT designs with different shortlinks. Both are OTS migration candidates.
+
+!!! tip "Path-Distinct Designs"
+    The following batch 033 designs have names that exist elsewhere in the Bibliothek with different shortlinks:
+
+    - **3way Solenoid (TPMS)** — `a360.co/4hnbIBG` under A-0047 TPMS / OTS Parts; distinct from **3way Solenoid** `a360.co/3DQOg9P` under A-0010 iAir6 / OTS parts and **3way Solenoid (AEETES)** `a360.co/3NVMt7m` under A-0026 iTM / AEETES / OTS Parts
+    - **ANMBEST 4-MOSFET (TPMS)** — `a360.co/4xEkDV8` under A-0047 TPMS / OTS Parts; distinct from **ANMBEST 4-MOSFET** `a360.co/3V8M04C` under A-0026 iTM / AEETES / OTS Parts
+    - **ArduinoMega_STEP_AP203 (TPMS)** — `a360.co/4xLSBqZ` under A-0047 TPMS / OTS Parts; distinct from **ArduinoMega_STEP_AP203** `a360.co/3V9mVBG` under A-0026 iTM / AEETES / OTS Parts
+    - **KQ2H03-35AS (TPMS)** — `a360.co/47i3l5q` under A-0047 TPMS / OTS Parts; distinct from **KQ2H03-35AS** `a360.co/4ixyXhf` under A-0010 iAir6 / OTS parts
+    - **KQ2L03-33AS (TPMS)** — `a360.co/4rAC2gb` under A-0047 TPMS / OTS Parts; distinct from **KQ2L03-33AS** `a360.co/4ixcDu2` under A-0010 iAir6 / OTS parts
+    - **Mini Regulator (TPMS)** — `a360.co/4y4YSio` under A-0047 TPMS / OTS Parts; distinct from **Mini Regulator** `a360.co/3V8MAHE` under A-0026 iTM / AEETES / OTS Parts and **Mini Regulator (ORTHRUS)** `a360.co/4h5G4Dv` under A-0026 iTM / ORTHRUS / OTS PARTS / PNEU
+    - **Nipple (TPMS)** — `a360.co/3T5MMWW` under A-0047 TPMS / OTS Parts; distinct from other Nipple designs in A-0026
+    - **Tee (TPMS)** — `a360.co/3T5Ui4j` under A-0047 TPMS / OTS Parts; distinct from **Tee** `a360.co/4fvJlxI` under A-0026 iTM / PARTS
+    - **Touchscreen (TPMS)** — `a360.co/4xQjfPG` under A-0047 TPMS / OTS Parts; distinct from **Touchscreen** `a360.co/4h5Y3cX` under A-0026 iTM / AEETES / OTS Parts

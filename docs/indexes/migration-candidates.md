@@ -200,6 +200,37 @@ A design is flagged when:
 | [1/2 linear bearing](../designs/a-0047-tpms/ots-parts/1-2-linear-bearing.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog bearing outside `00 - Parts` |
 | [1/2 shoulder](../designs/a-0047-tpms/ots-parts/1-2-shoulder.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shoulder screw outside `00 - Parts` |
 | [1/4 Shoulder](../designs/a-0047-tpms/ots-parts/1-4-shoulder.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shoulder screw outside `00 - Parts` |
+| [1/4 spring](../designs/a-0047-tpms/ots-parts/1-4-spring.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog spring outside `00 - Parts` |
+| [1/4-28 Coupling](../designs/a-0047-tpms/ots-parts/1-4-28-coupling.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog coupling outside `00 - Parts` |
+| [1/4-28 Stud](../designs/a-0047-tpms/ots-parts/1-4-28-stud.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog stud outside `00 - Parts` |
+| [1/4-28 button](../designs/a-0047-tpms/ots-parts/1-4-28-button.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog button outside `00 - Parts` |
+| [1/8 brass nipple](../designs/a-0047-tpms/ots-parts/1-8-brass-nipple.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog nipple outside `00 - Parts` |
+| [1/8 brass plug](../designs/a-0047-tpms/ots-parts/1-8-brass-plug.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog plug outside `00 - Parts` |
+| [1/8 brass tee](../designs/a-0047-tpms/ots-parts/1-8-brass-tee.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog tee outside `00 - Parts` |
+| [3 3/8 spacer](../designs/a-0047-tpms/ots-parts/3-3-8-spacer.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog spacer outside `00 - Parts` |
+| [3/8 Bearing](../designs/a-0047-tpms/ots-parts/3-8-bearing.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog bearing outside `00 - Parts` |
+| [3/8 PTFE Bearing](../designs/a-0047-tpms/ots-parts/3-8-ptfe-bearing.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog PTFE bearing outside `00 - Parts` |
+| [3/8 Shoulder](../designs/a-0047-tpms/ots-parts/3-8-shoulder-upper.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shoulder screw outside `00 - Parts`; uppercase |
+| [3/8 shoulder](../designs/a-0047-tpms/ots-parts/3-8-shoulder-lower.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog shoulder screw outside `00 - Parts`; lowercase |
+| [3way Solenoid (TPMS)](../designs/a-0047-tpms/ots-parts/3way-solenoid-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog solenoid outside `00 - Parts`; distinct from A-0010, A-0026 |
+| [4040 12in](../designs/a-0047-tpms/ots-parts/4040-12in.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog extrusion outside `00 - Parts` |
+| [ANMBEST 4-MOSFET (TPMS)](../designs/a-0047-tpms/ots-parts/anmbest-4-mosfet-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog MOSFET board outside `00 - Parts`; distinct from AEETES |
+| [ArduinoMega_STEP_AP203 (TPMS)](../designs/a-0047-tpms/ots-parts/arduinomega-step-ap203-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog Arduino STEP outside `00 - Parts`; distinct from AEETES |
+| [Cable Duct Medium](../designs/a-0047-tpms/ots-parts/cable-duct-medium.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog cable duct outside `00 - Parts` |
+| [Cable Duct Short](../designs/a-0047-tpms/ots-parts/cable-duct-short.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog cable duct outside `00 - Parts` |
+| [KQ2H03-34AS](../designs/a-0047-tpms/ots-parts/kq2h03-34as.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog pneumatic fitting outside `00 - Parts` |
+| [KQ2H03-35AS (TPMS)](../designs/a-0047-tpms/ots-parts/kq2h03-35as-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog pneumatic fitting outside `00 - Parts`; distinct from A-0010 |
+| [KQ2L03-33AS (TPMS)](../designs/a-0047-tpms/ots-parts/kq2l03-33as-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog pneumatic fitting outside `00 - Parts`; distinct from A-0010 |
+| [KQ2L03-34AS](../designs/a-0047-tpms/ots-parts/kq2l03-34as.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog pneumatic fitting outside `00 - Parts` |
+| [KQ2T03-34AS](../designs/a-0047-tpms/ots-parts/kq2t03-34as.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog pneumatic fitting outside `00 - Parts` |
+| [KQ2T03-35AS](../designs/a-0047-tpms/ots-parts/kq2t03-35as.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog pneumatic fitting outside `00 - Parts` |
+| [Mini Regulator (TPMS)](../designs/a-0047-tpms/ots-parts/mini-regulator-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog regulator outside `00 - Parts`; distinct from AEETES, ORTHRUS |
+| [Moonfish Inner Nut](../designs/a-0047-tpms/ots-parts/moonfish-inner-nut.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog nut outside `00 - Parts` |
+| [Nipple (TPMS)](../designs/a-0047-tpms/ots-parts/nipple-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog nipple outside `00 - Parts` |
+| [Small Nipple](../designs/a-0047-tpms/ots-parts/small-nipple.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog nipple outside `00 - Parts` |
+| [Tee (TPMS)](../designs/a-0047-tpms/ots-parts/tee-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog tee outside `00 - Parts`; distinct from A-0026 PARTS |
+| [Tee Fitting](../designs/a-0047-tpms/ots-parts/tee-fitting.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog tee fitting outside `00 - Parts` |
+| [Touchscreen (TPMS)](../designs/a-0047-tpms/ots-parts/touchscreen-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog touchscreen outside `00 - Parts`; distinct from AEETES |
 
 ---
 
@@ -891,6 +922,61 @@ Batch 032 contains 15 designs under `A-0047 TPMS / OTS Parts`. All 15 are OTS pa
 - **1/2 shoulder** — OTS/catalog shoulder screw in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
 - **1/4 Shoulder** — OTS/catalog shoulder screw in A-0047 TPMS / OTS Parts outside `00 - Parts`. Used In: Moonfish Base ASM, Moonfish Base 2. **Migration candidate.**
 
+### Assessment Notes (Batch 033)
+
+Batch 033 contains 31 designs under `A-0047 TPMS / OTS Parts`. All 31 are OTS parts outside `00 - Parts` and are **migration candidates**:
+
+**Migration Candidates (31 of 31):**
+
+- **1/4 spring** — OTS/catalog spring in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/4-28 Coupling** — OTS/catalog coupling in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/4-28 Stud** — OTS/catalog stud in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/4-28 button** — OTS/catalog button in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/8 brass nipple** — OTS/catalog nipple in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/8 brass plug** — OTS/catalog plug in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **1/8 brass tee** — OTS/catalog tee in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **3 3/8 spacer** — OTS/catalog spacer in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **3/8 Bearing** — OTS/catalog bearing in A-0047 TPMS / OTS Parts outside `00 - Parts`. Alternate Share snapshot once showed a360.co/4AKZFHh; kept first ON-for match (a360.co/4xQqyHH). **Migration candidate.**
+- **3/8 PTFE Bearing** — OTS/catalog PTFE bearing in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **3/8 Shoulder** — OTS/catalog shoulder screw (UPPERCASE) in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **3/8 shoulder** — OTS/catalog shoulder screw (lowercase) in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.** Distinct from '3/8 Shoulder' (uppercase) — different Fusion designs with different shortlinks.
+- **3way Solenoid (TPMS)** — OTS/catalog solenoid in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0010 DUT Box Parts and A-0026 AEETES. **Migration candidate.**
+- **4040 12in** — OTS/catalog 4040 extrusion in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **ANMBEST 4-MOSFET (TPMS)** — OTS/catalog MOSFET board in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 AEETES. **Migration candidate.**
+- **ArduinoMega_STEP_AP203 (TPMS)** — OTS/catalog Arduino STEP in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 AEETES. **Migration candidate.**
+- **Cable Duct Medium** — OTS/catalog cable duct in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Cable Duct Short** — OTS/catalog cable duct in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **KQ2H03-34AS** — OTS/catalog pneumatic fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **KQ2H03-35AS (TPMS)** — OTS/catalog pneumatic fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0010. **Migration candidate.**
+- **KQ2L03-33AS (TPMS)** — OTS/catalog pneumatic fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0010. **Migration candidate.**
+- **KQ2L03-34AS** — OTS/catalog pneumatic fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **KQ2T03-34AS** — OTS/catalog pneumatic fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **KQ2T03-35AS** — OTS/catalog pneumatic fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Mini Regulator (TPMS)** — OTS/catalog regulator in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 AEETES and ORTHRUS. **Migration candidate.**
+- **Moonfish Inner Nut** — OTS/catalog nut in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Nipple (TPMS)** — OTS/catalog nipple in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Small Nipple** — OTS/catalog nipple in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Tee (TPMS)** — OTS/catalog tee in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 PARTS. **Migration candidate.**
+- **Tee Fitting** — OTS/catalog tee fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Touchscreen (TPMS)** — OTS/catalog touchscreen in A-0047 TPMS / OTS Parts outside `00 - Parts`; distinct from A-0026 AEETES. **Migration candidate.**
+
+### Disambiguation Notes (Batch 033)
+
+!!! tip "Case Collision"
+    **3/8 Shoulder** (uppercase S, `a360.co/4dgOtb1`) and **3/8 shoulder** (lowercase s, `a360.co/3USec3e`) are **two distinct Fusion designs** with different shortlinks. Both are catalogued with separate pages (`3-8-shoulder-upper.md` and `3-8-shoulder-lower.md`).
+
+!!! tip "Path-Distinct Designs"
+    The following batch 033 designs share names with existing designs but have distinct shortlinks and project paths:
+
+    - **3way Solenoid** — TPMS (`a360.co/4hnbIBG`) distinct from A-0010 DUT Box Parts (`a360.co/4yHCrzC`) and A-0026 AEETES (`a360.co/4rpqv3f`)
+    - **ANMBEST 4-MOSFET** — TPMS (`a360.co/4xEkDV8`) distinct from A-0026 AEETES (`a360.co/46RcyS7`)
+    - **ArduinoMega_STEP_AP203** — TPMS (`a360.co/4xLSBqZ`) distinct from A-0026 AEETES (`a360.co/3V9lrDY`)
+    - **KQ2H03-35AS** — TPMS (`a360.co/47i3l5q`) distinct from A-0010 (`a360.co/3UUqb0p`)
+    - **KQ2L03-33AS** — TPMS (`a360.co/4rAC2gb`) distinct from A-0010 (`a360.co/49l2LzY`)
+    - **Mini Regulator** — TPMS (`a360.co/4y4YSio`) distinct from A-0026 AEETES (`a360.co/4hmBPIX`) and ORTHRUS (`a360.co/4xIzLkG`)
+    - **Tee** — TPMS (`a360.co/3T5Ui4j`) distinct from A-0026 PARTS (`a360.co/4ydkdGC`)
+    - **Touchscreen** — TPMS (`a360.co/4xQjfPG`) distinct from A-0026 AEETES (`a360.co/4A3qq9f`)
+
 ---
 
-*191 migration candidates identified (+15 in batch 032).*
+*222 migration candidates identified (+31 in batch 033).*
