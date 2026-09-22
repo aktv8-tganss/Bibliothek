@@ -46,7 +46,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [GEN2 PROC MODULE](../designs/a-0054-iair3-gen2/gen2-proc-module.md) | `A-0054 iAir3 Gen2` | [a360.co/4A3LrAI](https://a360.co/4A3LrAI) |
 | [GEN2 PROC MODULE 2026](../designs/a-0054-iair3-gen2/gen2-proc-module-2026.md) | `A-0054 iAir3 Gen2` | [a360.co/4hoIqTh](https://a360.co/4hoIqTh) |
 | [Weight Plate](../designs/a-0054-iair3-gen2/weight-plate.md) | `A-0054 iAir3 Gen2` | [a360.co/3TkHabD](https://a360.co/3TkHabD) |
+| [003237 X2 Cover iAir6](../designs/a-0010-iair6/a8-parts/003237-x2-cover-iair6.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4xQh6Ep](https://a360.co/4xQh6Ep) |
+| [FAST26 CUT CEPH](../designs/a-0010-iair6/a8-parts/fast26-cut-ceph.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4xXqQNe](https://a360.co/4xXqQNe) |
+| [FAST26 CUT PRINTABLE](../designs/a-0010-iair6/a8-parts/fast26-cut-printable.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4h2zQJs](https://a360.co/4h2zQJs) |
+| [FAST26 CUT UP](../designs/a-0010-iair6/a8-parts/fast26-cut-up.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4xporcJ](https://a360.co/4xporcJ) |
+| [FAST26 CUT UP 2](../designs/a-0010-iair6/a8-parts/fast26-cut-up-2.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4xhvkgb](https://a360.co/4xhvkgb) |
+| [FAST26 CUT UP 3](../designs/a-0010-iair6/a8-parts/fast26-cut-up-3.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/46PgL8W](https://a360.co/46PgL8W) |
+| [FAST26 PCBA Points](../designs/a-0010-iair6/a8-parts/fast26-pcba-points.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4hmjigO](https://a360.co/4hmjigO) |
+| [IA6_ReDesign_PCB_HW1_v2](../designs/a-0010-iair6/a8-parts/ia6-redesign-pcb-hw1-v2.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/3V5m959](https://a360.co/3V5m959) |
+| [OD-C1381-47 (VS-2W08E01)](../designs/a-0010-iair6/a8-parts/od-c1381-47-vs-2w08e01.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4gPpePs](https://a360.co/4gPpePs) |
+| [URCHIN](../designs/a-0010-iair6/flash-runner/urchin.md) | `A-0010 iAir6 / Flash Runner` | [a360.co/4cLWapw](https://a360.co/4cLWapw) |
+| [CEPHALOPOD 1](../designs/a-0010-iair6/obs/cephalopod-1.md) | `A-0010 iAir6 / Obs` | [a360.co/4xQJcPF](https://a360.co/4xQJcPF) |
+| [IA6_PCB_ED](../designs/a-0010-iair6/obs/ia6-pcb-ed.md) | `A-0010 iAir6 / Obs` | [a360.co/4gQgZTc](https://a360.co/4gQgZTc) |
+| [iAir6 Manifold](../designs/a-0010-iair6/obs/iair6-manifold.md) | `A-0010 iAir6 / Obs` | [a360.co/4xUFpkB](https://a360.co/4xUFpkB) |
+| [Heater - Tool](../designs/a-0010-iair6/heater-tool.md) | `A-0010 iAir6` | [a360.co/4gWBbTz](https://a360.co/4gWBbTz) |
+| [iAir6 Durability Cart](../designs/a-0010-iair6/iair6-durability-cart.md) | `A-0010 iAir6` | [a360.co/3Ttr0N7](https://a360.co/3Ttr0N7) |
 
 ---
 
-*42 designs indexed.*
+*57 designs indexed.*

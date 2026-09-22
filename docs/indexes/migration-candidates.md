@@ -92,6 +92,26 @@ All 12 designs in batch 005 are OTS parts located outside `00 - Parts` and are *
 - **KV2T07-34S** — OTS pneumatic fitting (SMC part) in project-specific folder. **Migration candidate.**
 - **3way Solenoid** — OTS solenoid valve in DUT Box Parts folder. **Migration candidate.**
 
+### Assessment Notes (Batch 006)
+
+All 15 designs in batch 006 are product-specific A8/Obs assemblies or tool fixtures under `A-0010 iAir6`. None are OTS migration candidates:
+
+- **FAST26 CUT CEPH** — A8 Parts assembly. Not an OTS part.
+- **FAST26 CUT PRINTABLE** — A8 Parts design. Not an OTS part.
+- **FAST26 CUT UP** — A8 Parts design. Not an OTS part.
+- **FAST26 CUT UP 2** — A8 Parts design. Not an OTS part.
+- **FAST26 CUT UP 3** — A8 Parts design. Not an OTS part.
+- **FAST26 PCBA Points** — A8 Parts design. Not an OTS part.
+- **003237 X2 Cover iAir6** — A8 Parts design. Not an OTS part.
+- **IA6_ReDesign_PCB_HW1_v2** — A8 Parts PCB design. Not an OTS part.
+- **OD-C1381-47 (VS-2W08E01)** — A8 Parts design. Not an OTS part.
+- **CEPHALOPOD 1** — Obs assembly. Not an OTS part.
+- **iAir6 Manifold** — Obs design. Not an OTS part.
+- **IA6_PCB_ED** — Obs PCB design. Not an OTS part.
+- **URCHIN** — Flash Runner assembly. Not an OTS part.
+- **Heater - Tool** — Tool fixture. Not an OTS part.
+- **iAir6 Durability Cart** — Test fixture. Not an OTS part.
+
 ---
 
 ## Referenced OTS / Commodity (Not Yet Harvested as Pages)
@@ -107,6 +127,10 @@ The following items appear in Uses fields and appear to be off-the-shelf commodi
 | Type I Cross Recessed 100° Flat Countersunk Head Machine Screw ANSI B18.6.3 4-48 UNF x 1.125 Steel Grade 2 Plain | 3way Solenoid |
 | Type I Cross Recessed Binding Head Machine Screw ANSI B18.6.3 4-48 UNF x 0.3125 Steel Grade 2 Plain | 3way Solenoid |
 | Knurled Nut DIN 467 - M5 Steel 6 Plain | 3way Solenoid |
+| Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.75 Steel Grade 2 Plain | CEPHALOPOD 1 |
+
+!!! info "Commodity/Fastener Migration Interest"
+    CEPHALOPOD 1's hex screw resolved outside A-0010 `00 - Parts` (project D20250922985047981) — flagged as commodity/fastener migration interest / pending harvest if not already listed.
 
 ---
 

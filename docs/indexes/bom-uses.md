@@ -19,6 +19,12 @@ Assemblies with non-empty component references (Uses).
 | [Valve mount](../designs/a-0010-iair6/dut-box-parts/valve-mount.md) | 1 | [a360.co/4xlh5qZ](https://a360.co/4xlh5qZ) |
 | [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md) | 3 | [a360.co/4yHCrzC](https://a360.co/4yHCrzC) |
 | [iAIR3 Gen2 Flash Runner Bed](../designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) | 1 | [a360.co/4xytM1N](https://a360.co/4xytM1N) |
+| [FAST26 CUT CEPH](../designs/a-0010-iair6/a8-parts/fast26-cut-ceph.md) | 4 | [a360.co/4xXqQNe](https://a360.co/4xXqQNe) |
+| [FAST26 CUT PRINTABLE](../designs/a-0010-iair6/a8-parts/fast26-cut-printable.md) | 1 | [a360.co/4h2zQJs](https://a360.co/4h2zQJs) |
+| [FAST26 CUT UP 3](../designs/a-0010-iair6/a8-parts/fast26-cut-up-3.md) | 1 | [a360.co/46PgL8W](https://a360.co/46PgL8W) |
+| [CEPHALOPOD 1](../designs/a-0010-iair6/obs/cephalopod-1.md) | 6 | [a360.co/4xQJcPF](https://a360.co/4xQJcPF) |
+| [URCHIN](../designs/a-0010-iair6/flash-runner/urchin.md) | 7 | [a360.co/4cLWapw](https://a360.co/4cLWapw) |
+| [Heater - Tool](../designs/a-0010-iair6/heater-tool.md) | 1 | [a360.co/4gWBbTz](https://a360.co/4gWBbTz) |
 
 ---
 
@@ -159,4 +165,66 @@ The iAIR3 Gen2 Flash Runner Bed design references the following 1 component:
 
 ---
 
-*13 assemblies with BOM data indexed.*
+## FAST26 CUT CEPH — Bill of Materials
+
+The FAST26 CUT CEPH assembly references the following 4 components:
+
+1. [Plunger passthru](../designs/a-0010-iair6/dut-box-parts/plunger-passthru.md)
+2. [KQ2L03-33AS](../designs/a-0010-iair6/ots-parts/kq2l03-33as.md)
+3. [KQ2H03-35AS](../designs/a-0010-iair6/ots-parts/kq2h03-35as.md)
+4. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
+
+---
+
+## FAST26 CUT PRINTABLE — Bill of Materials
+
+The FAST26 CUT PRINTABLE design references the following 1 component:
+
+1. [OD-C1381-47 (VS-2W08E01)](../designs/a-0010-iair6/a8-parts/od-c1381-47-vs-2w08e01.md)
+
+---
+
+## FAST26 CUT UP 3 — Bill of Materials
+
+The FAST26 CUT UP 3 design references the following 1 component:
+
+1. [OD-C1381-47 (VS-2W08E01)](../designs/a-0010-iair6/a8-parts/od-c1381-47-vs-2w08e01.md)
+
+---
+
+## CEPHALOPOD 1 — Bill of Materials
+
+The CEPHALOPOD 1 assembly references the following 6 components (5 unique):
+
+1. [Plunger Stop Solid](../designs/a-0010-iair6/dut-box-parts/plunger-stop-solid.md)
+2. [2 Pin](../designs/a-0010-iair6/ots-parts/2-pin.md)
+3. [2 Pin](../designs/a-0010-iair6/ots-parts/2-pin.md)
+4. [Cylinder](../designs/a-0010-iair6/ots-parts/cylinder.md)
+5. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
+6. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.75 Steel Grade 2 Plain
+
+---
+
+## URCHIN — Bill of Materials
+
+The URCHIN assembly references the following 7 components:
+
+1. Spring
+2. Shoulder Screw
+3. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
+4. Board Alignment Pin
+5. Urchin Bed of Nails Top Side
+6. Sleeve Bearing
+7. S-1-E-3.8-G
+
+---
+
+## Heater - Tool — Bill of Materials
+
+The Heater - Tool design references the following 1 component:
+
+1. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
+
+---
+
+*20 assemblies with BOM data indexed.*

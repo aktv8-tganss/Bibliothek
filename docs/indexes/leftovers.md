@@ -55,3 +55,40 @@ All 17 designs from batch 004 were successfully indexed:
 15. ✓ VMT Adapt Plate
 16. ✓ VMT Probe Carrier
 17. ✓ Valve mount
+
+### Batch 005
+
+All 12 designs from batch 005 were successfully indexed:
+
+1. ✓ 2 Pin
+2. ✓ 4 Pin
+3. ✓ Clear Lid
+4. ✓ Cylinder
+5. ✓ 1122740000
+6. ✓ 2203663-5
+7. ✓ KQ2H03-35AS
+8. ✓ KQ2L03-33AS
+9. ✓ KQ2LF03-34A
+10. ✓ KV2L07-34S
+11. ✓ KV2T07-34S
+12. ✓ 3way Solenoid
+
+### Batch 006
+
+All 15 designs from batch 006 were successfully indexed:
+
+1. ✓ FAST26 CUT CEPH
+2. ✓ FAST26 CUT PRINTABLE
+3. ✓ FAST26 CUT UP
+4. ✓ FAST26 CUT UP 2
+5. ✓ FAST26 CUT UP 3
+6. ✓ FAST26 PCBA Points
+7. ✓ 003237 X2 Cover iAir6
+8. ✓ IA6_ReDesign_PCB_HW1_v2
+9. ✓ OD-C1381-47 (VS-2W08E01)
+10. ✓ CEPHALOPOD 1
+11. ✓ iAir6 Manifold
+12. ✓ IA6_PCB_ED
+13. ✓ URCHIN
+14. ✓ Heater - Tool
+15. ✓ iAir6 Durability Cart

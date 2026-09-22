@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (42 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (13 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (57 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (20 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (15 total)
 
 ## Design Tree
@@ -22,8 +22,10 @@ Browse designs by project folder:
 
 - **[00 - Parts](designs/00-parts/arduino/amplifier-board.md)** — standard and purchased components
 - **[A-0010 iAir6](designs/a-0010-iair6/cephalopod-2.md)** — iAir6 project designs
-    - [A8 Parts](designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md) — A8 subfolder designs
+    - [A8 Parts](designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md) — A8 subfolder designs (11 designs)
     - [DUT Box Parts](designs/a-0010-iair6/dut-box-parts/cephalopod-3.md) — DUT Box Parts subfolder designs (18 designs)
+    - [Flash Runner](designs/a-0010-iair6/flash-runner/urchin.md) — Flash Runner assembly designs (1 design)
+    - [Obs](designs/a-0010-iair6/obs/cephalopod-1.md) — obsolete/archived designs (3 designs)
     - [OTS Parts](designs/a-0010-iair6/ots-parts/prox-switch.md) — off-the-shelf components (14 designs, migration candidates)
 - **[A-0054 iAir3 Gen2](designs/a-0054-iair3-gen2/design-22.md)** — iAir3 Gen2 project designs
     - [Flash Runner](designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) — Flash Runner assembly designs
@@ -37,8 +39,9 @@ Browse designs by project folder:
 | 003 | 5 | A-0054 iAir3 Gen2 (5 designs including Flash Runner subfolder) |
 | 004 | 17 | DUT Box Parts (17 designs under A-0010 iAir6) |
 | 005 | 12 | OTS Parts (11) + DUT Box Parts (1) — all 12 are migration candidates |
+| 006 | 15 | A8 Parts (9), Obs (3), Flash Runner (1), Root A-0010 (2) — product assemblies, no OTS candidates |
 
-**Total designs indexed: 42**
+**Total designs indexed: 57**
 
 ---
 
