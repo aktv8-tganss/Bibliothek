@@ -1188,12 +1188,7 @@ All 31 designs from batch 033 were successfully indexed:
 
 ### A-0047 TPMS remaining after batch 033
 
-!!! info "A-0047 TPMS: MORE remain — OTS continues"
-    A-0047 TPMS is NOT complete — OTS Parts still open (Charlotte ticket 034). Do NOT declare A-0047 COMPLETE.
-
-**OTS Parts still open (per remaining status file):**
-
-Additional catalog rows expected; ticket 034 outstanding.
+**Status:** Batch 034 completed (22 designs). See batch 034 section below.
 
 ### Disambiguation Notes (Batch 033)
 
@@ -1217,3 +1212,62 @@ Additional catalog rows expected; ticket 034 outstanding.
     - **Nipple (TPMS)** — `a360.co/3T5MMWW` under A-0047 TPMS / OTS Parts; distinct from other Nipple designs in A-0026
     - **Tee (TPMS)** — `a360.co/3T5Ui4j` under A-0047 TPMS / OTS Parts; distinct from **Tee** `a360.co/4fvJlxI` under A-0026 iTM / PARTS
     - **Touchscreen (TPMS)** — `a360.co/4xQjfPG` under A-0047 TPMS / OTS Parts; distinct from **Touchscreen** `a360.co/4h5Y3cX` under A-0026 iTM / AEETES / OTS Parts
+
+---
+
+### Batch 034
+
+All 22 designs from batch 034 were successfully indexed:
+
+**OTS Parts (22):**
+
+1. ✓ 250mm rail — OTS migration candidate
+2. ✓ 3-8 Ball — OTS migration candidate
+3. ✓ 3/4 dowel — OTS migration candidate
+4. ✓ 4.5in screw — OTS migration candidate
+5. ✓ 6" Hinge — OTS migration candidate
+6. ✓ 67CP3220 (TPMS) — OTS migration candidate
+7. ✓ 7/16 Shoulder — OTS migration candidate
+8. ✓ 9lb spring — OTS migration candidate
+9. ✓ Detent Sprintg — OTS migration candidate; Fusion name spelling preserved
+10. ✓ Elbow (TPMS) — OTS migration candidate
+11. ✓ F Elbow (TPMS) — OTS migration candidate
+12. ✓ GCX3105 (TPMS) — OTS migration candidate
+13. ✓ MDX1000_1500_Head — OTS migration candidate
+14. ✓ Manifold Block (TPMS) — OTS migration candidate
+15. ✓ Moonfish Tool Head 2.0 — OTS migration candidate
+16. ✓ NANUK_935_Bottom Shell_INNER SURFS_Step (TPMS) — OTS migration candidate
+17. ✓ NANUK_935_Top Shell_INNER SURFS_Step (TPMS) — OTS migration candidate
+18. ✓ New Valve (TPMS) — OTS migration candidate
+19. ✓ Screen 2 (TPMS) — OTS migration candidate
+20. ✓ TPMS PCBA Silh — OTS migration candidate
+21. ✓ pxc_1411244_00_01_A-INL-M32-N-S_3D — OTS migration candidate
+22. ✓ 655-1203-104F (TPMS) — OTS migration candidate
+
+---
+
+## A-0047 TPMS — COMPLETE for Bibliothek (2026-09-22)
+
+!!! success "A-0047 TPMS Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes by Otto on 2026-09-22 after batches 027–034. All locatable Fusion designs with unique Share shortlinks have been indexed.
+
+### Covered
+
+- TPMS root (10)
+- Clam (8), Flash Runner (2), Limpet (9), Mantis (9)
+- Mantis 2 (12) + nested Obs (8)
+- Moonfish (6) + nested Obs (9)
+- Obs root (4), Stepper Control (4)
+- OTS Parts (73 total — 51 from batches 027–033, 22 from batch 034)
+
+### Final batch (034)
+
+- ✓ 22 OTS Parts designs (250mm rail through 655-1203-104F)
+- All 22 are OTS migration candidates
+
+### Known debt (not blocking COMPLETE)
+
+!!! warning "Ticket 035: 2× NANUK + 655-1203-104F ambiguity"
+    Charlotte ticket 035 records the possibility that `NANUK_935_Bottom Shell_INNER SURFS_Step`, `NANUK_935_Top Shell_INNER SURFS_Step`, and `655-1203-104F` may have distinct Fusion designs under A-0047 TPMS / OTS Parts vs the previously-indexed A-9999 Lab / PARTS (NANUK shells) and A-0026 iTM / PLT (655-1203-104F). Shortlinks verified distinct; catalogued with `(TPMS)` suffix. Revisit if Autodesk metadata clarifies.
+
+*A-0047 TPMS harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*
