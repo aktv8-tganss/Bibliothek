@@ -442,6 +442,29 @@ nav:
       - Finger Stud Legacy: designs/a-0047-tpms/finger-stud-legacy.md
       - TPMS Sanding Chuck: designs/a-0047-tpms/tpms-sanding-chuck.md
       - Test Rig 3: designs/a-0047-tpms/test-rig-3.md
+      - Clam:
+        - Clam ASM: designs/a-0047-tpms/clam/clam-asm.md
+        - Clam DIN PD: designs/a-0047-tpms/clam/clam-din-pd.md
+        - Clam DIN PSU: designs/a-0047-tpms/clam/clam-din-psu.md
+      - Flash Runner:
+        - Oyster Bed 3UP TPMS: designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md
+        - Oyster Bed Template: designs/a-0047-tpms/flash-runner/oyster-bed-template.md
+      - Limpet:
+        - Limpet Asm: designs/a-0047-tpms/limpet/limpet-asm.md
+        - 003566 X2 BATTERY CLIP TPMS: designs/a-0047-tpms/limpet/003566-x2-battery-clip-tpms.md
+      - Mantis:
+        - Mantis Etch ASM: designs/a-0047-tpms/mantis/mantis-etch-asm.md
+        - Alum Arm: designs/a-0047-tpms/mantis/alum-arm.md
+      - Mantis 2:
+        - Mantis 2 Asm: designs/a-0047-tpms/mantis-2/mantis-2-asm.md
+        - Cylinder Asembly: designs/a-0047-tpms/mantis-2/cylinder-asembly.md
+      - Moonfish:
+        - MOONFISH ASM 2: designs/a-0047-tpms/moonfish/moonfish-asm-2.md
+      - Obs:
+        - Battery Spacing Blanks: designs/a-0047-tpms/obs/battery-spacing-blanks.md
+        - TPMS 2 SENSOR: designs/a-0047-tpms/obs/tpms-2-sensor.md
+      - Stepper Control:
+        - Stepper Enclosure: designs/a-0047-tpms/stepper-control/stepper-enclosure.md
       - OTS Parts:
         - Ball Valve: designs/a-0047-tpms/ots-parts/ball-valve.md
         - Large Schrader: designs/a-0047-tpms/ots-parts/large-schrader.md

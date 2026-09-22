@@ -461,7 +461,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Manifold 5 Block](../designs/a-0047-tpms/ots-parts/manifold-5-block.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4dpdlNR](https://a360.co/4dpdlNR) |
 | [Small Gauge](../designs/a-0047-tpms/ots-parts/small-gauge.md) | `A-0047 TPMS / OTS Parts` | [a360.co/3T5N3cq](https://a360.co/3T5N3cq) |
 | [Small Valve](../designs/a-0047-tpms/ots-parts/small-valve.md) | `A-0047 TPMS / OTS Parts` | [a360.co/4gNPuto](https://a360.co/4gNPuto) |
+| [Clam ASM](../designs/a-0047-tpms/clam/clam-asm.md) | `A-0047 TPMS / Clam` | [a360.co/4xh3oJp](https://a360.co/4xh3oJp) |
+| [Clam DIN PD](../designs/a-0047-tpms/clam/clam-din-pd.md) | `A-0047 TPMS / Clam` | [a360.co/4xM3MRb](https://a360.co/4xM3MRb) |
+| [Clam DIN PSU](../designs/a-0047-tpms/clam/clam-din-psu.md) | `A-0047 TPMS / Clam` | [a360.co/4AagB9E](https://a360.co/4AagB9E) |
+| [Oyster Bed 3UP TPMS](../designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md) | `A-0047 TPMS / Flash Runner` | [a360.co/4hoE5jS](https://a360.co/4hoE5jS) |
+| [Oyster Bed Template](../designs/a-0047-tpms/flash-runner/oyster-bed-template.md) | `A-0047 TPMS / Flash Runner` | [a360.co/4xFzA9P](https://a360.co/4xFzA9P) |
+| [Limpet Asm](../designs/a-0047-tpms/limpet/limpet-asm.md) | `A-0047 TPMS / Limpet` | [a360.co/3UE8aTU](https://a360.co/3UE8aTU) |
+| [003566 X2 BATTERY CLIP TPMS](../designs/a-0047-tpms/limpet/003566-x2-battery-clip-tpms.md) | `A-0047 TPMS / Limpet` | [a360.co/46jPP0U](https://a360.co/46jPP0U) |
+| [Mantis Etch ASM](../designs/a-0047-tpms/mantis/mantis-etch-asm.md) | `A-0047 TPMS / Mantis` | [a360.co/4iqYUMD](https://a360.co/4iqYUMD) |
+| [Alum Arm](../designs/a-0047-tpms/mantis/alum-arm.md) | `A-0047 TPMS / Mantis` | [a360.co/4A7LZ8P](https://a360.co/4A7LZ8P) |
+| [Mantis 2 Asm](../designs/a-0047-tpms/mantis-2/mantis-2-asm.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4dekv7x](https://a360.co/4dekv7x) |
+| [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md) | `A-0047 TPMS / Mantis 2` | [a360.co/4ru8DEz](https://a360.co/4ru8DEz) |
+| [MOONFISH ASM 2](../designs/a-0047-tpms/moonfish/moonfish-asm-2.md) | `A-0047 TPMS / Moonfish` | [a360.co/4Acacux](https://a360.co/4Acacux) |
+| [Battery Spacing Blanks](../designs/a-0047-tpms/obs/battery-spacing-blanks.md) | `A-0047 TPMS / Obs` | [a360.co/3UOzDCh](https://a360.co/3UOzDCh) |
+| [TPMS 2 SENSOR](../designs/a-0047-tpms/obs/tpms-2-sensor.md) | `A-0047 TPMS / Obs` | [a360.co/4h1zR0l](https://a360.co/4h1zR0l) |
+| [Stepper Enclosure](../designs/a-0047-tpms/stepper-control/stepper-enclosure.md) | `A-0047 TPMS / Stepper Control` | [a360.co/4xTaa9x](https://a360.co/4xTaa9x) |
 
 ---
 
-*457 designs indexed.*
+*472 designs indexed.*

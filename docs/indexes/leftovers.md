@@ -819,3 +819,89 @@ Clam, Flash Runner, Limpet, Mantis, Mantis 2, Moonfish, Obs, Stepper Control
 **Skipped:**
 
 Finger Stud Drawing; OTS Tester Adapter Drawing; OTS Untitled phantoms.
+
+---
+
+### Batch 028
+
+All 15 designs from batch 028 were successfully indexed:
+
+**Clam (3):**
+
+1. ✓ Clam ASM
+2. ✓ Clam DIN PD
+3. ✓ Clam DIN PSU
+
+**Flash Runner (2):**
+
+4. ✓ Oyster Bed 3UP TPMS
+5. ✓ Oyster Bed Template
+
+**Limpet (2):**
+
+6. ✓ Limpet Asm
+7. ✓ 003566 X2 BATTERY CLIP TPMS
+
+**Mantis (2):**
+
+8. ✓ Mantis Etch ASM
+9. ✓ Alum Arm
+
+**Mantis 2 (2):**
+
+10. ✓ Mantis 2 Asm
+11. ✓ Cylinder Asembly
+
+**Moonfish (1):**
+
+12. ✓ MOONFISH ASM 2
+
+**Obs (2):**
+
+13. ✓ Battery Spacing Blanks
+14. ✓ TPMS 2 SENSOR
+
+**Stepper Control (1):**
+
+15. ✓ Stepper Enclosure
+
+### A-0047 TPMS remaining after batch 028
+
+!!! info "A-0047 TPMS: MORE remain"
+    A-0047 TPMS is NOT complete — significant designs remain unharvested. Folders touched in batch 028 (assemblies first; OTS Parts not opened).
+
+**Clam still open:**
+
+Mount Plate; Pearl 2 - End; Pearl 4; Upper Plate
+
+**Flash Runner:**
+
+(duplicate Oyster Bed 3UP TPMS skipped; Template + 3UP harvested)
+
+**Limpet still open:**
+
+003566 X4 Battery Clip Bent; Battery Clip Bend Brake; Carriage; Cylinder Bracket; External2; Holder; Linear Rail; Tool
+
+**Mantis still open:**
+
+Alum Riser; Cap carrier; Centering Post; Etcher Frame; Gear Guide; Live Hinge Test; Motor Base
+
+**Mantis 2 still open:**
+
+Cylinder Bracket; Enclosure; Enclosure mod; Mantis Bed Plates; Piston Bracket; Press Frame; nested Obs folder
+
+**Moonfish still open:**
+
+Adapter Plates; Cap Presser; Cylinder head stencil; Heat Probe Parts; Moonfish Tool Head 3; nested Obs folder
+
+**Obs still open:**
+
+Hose Support; Stickers; (prints/drawings skipped)
+
+**Stepper Control still open:**
+
+ALITOV 24VDC; DM332T Driver; Teensy and Proto
+
+**OTS Parts (not opened this pass):**
+
+1-4 bearing, 1-8 brass schrader, 1/2 Barrel, Cable Duct, Cylinder, Finger Stud, Gauge, NUC Pro Chassis, Schrader Fitting, Stepper, Worm Shaft, and others

@@ -84,6 +84,15 @@ Assemblies with non-empty component references (Uses).
 | [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md) | 1 | [a360.co/4io7hIN](https://a360.co/4io7hIN) |
 | [TPMS Sanding Chuck](../designs/a-0047-tpms/tpms-sanding-chuck.md) | 1 | [a360.co/4xRXK1E](https://a360.co/4xRXK1E) |
 | [Test Rig 3](../designs/a-0047-tpms/test-rig-3.md) | 10 | [a360.co/3ULd3dQ](https://a360.co/3ULd3dQ) |
+| [Clam ASM](../designs/a-0047-tpms/clam/clam-asm.md) | 21 | [a360.co/4xh3oJp](https://a360.co/4xh3oJp) |
+| [Oyster Bed 3UP TPMS](../designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md) | 1 | [a360.co/4hoE5jS](https://a360.co/4hoE5jS) |
+| [Limpet Asm](../designs/a-0047-tpms/limpet/limpet-asm.md) | 6 | [a360.co/3UE8aTU](https://a360.co/3UE8aTU) |
+| [Mantis Etch ASM](../designs/a-0047-tpms/mantis/mantis-etch-asm.md) | 12 | [a360.co/4iqYUMD](https://a360.co/4iqYUMD) |
+| [Mantis 2 Asm](../designs/a-0047-tpms/mantis-2/mantis-2-asm.md) | 10 | [a360.co/4dekv7x](https://a360.co/4dekv7x) |
+| [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md) | 2 | [a360.co/4ru8DEz](https://a360.co/4ru8DEz) |
+| [MOONFISH ASM 2](../designs/a-0047-tpms/moonfish/moonfish-asm-2.md) | 9 | [a360.co/4Acacux](https://a360.co/4Acacux) |
+| [TPMS 2 SENSOR](../designs/a-0047-tpms/obs/tpms-2-sensor.md) | 1 | [a360.co/4h1zR0l](https://a360.co/4h1zR0l) |
+| [Stepper Enclosure](../designs/a-0047-tpms/stepper-control/stepper-enclosure.md) | 3 | [a360.co/4xTaa9x](https://a360.co/4xTaa9x) |
 
 ---
 
@@ -947,4 +956,132 @@ The Test Rig 3 assembly references the following 10 components:
 
 ---
 
-*80 assemblies with BOM data indexed.*
+## Clam ASM — Bill of Materials
+
+The Clam ASM assembly references the following 21 components:
+
+1. Pearl 5
+2. [Screen 2](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen-2.md)
+3. [ArduinoMega_STEP_AP203](../designs/a-0026-itm/aeetes/ots-parts/arduinomega-step-ap203.md)
+4. [Clam DIN PD](../designs/a-0047-tpms/clam/clam-din-pd.md)
+5. KQ2H03-34AS
+6. KQ2T03-35AS
+7. Mount Plate
+8. Upper Plate
+9. KQ2L03-34AS
+10. [NANUK_935_Bottom Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md)
+11. [NANUK_935_Top Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md)
+12. [67CP3220](../designs/a-0026-itm/aeetes/ots-parts/67cp3220.md)
+13. [Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/cable-duct.md)
+14. [New Valve](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/new-valve.md)
+15. red
+16. [GCX3105](../designs/a-0026-itm/plt/comps/gcx3105.md)
+17. green
+18. [ANMBEST 4-MOSFET](../designs/a-0026-itm/aeetes/ots-parts/anmbest-4-mosfet.md)
+19. 3way Solenoid
+20. [Clam DIN PSU](../designs/a-0047-tpms/clam/clam-din-psu.md)
+21. Cable Duct Medium
+
+---
+
+## Oyster Bed 3UP TPMS — Bill of Materials
+
+The Oyster Bed 3UP TPMS design references the following 1 component:
+
+1. [003501 Thru assembly](../designs/a-0047-tpms/003501-thru-assembly.md)
+
+---
+
+## Limpet Asm — Bill of Materials
+
+The Limpet Asm assembly references the following 6 components:
+
+1. 003566 X4 Battery Clip Bent
+2. Cylinder
+3. Holder
+4. Tool
+5. Linear Rail
+6. Cylinder Bracket
+
+---
+
+## Mantis Etch ASM — Bill of Materials
+
+The Mantis Etch ASM assembly references the following 12 components:
+
+1. Cap carrier
+2. 3/8 Shoulder
+3. Gear Guide
+4. Stepper
+5. Etcher Frame
+6. 3/8 Bearing
+7. 4040 12in
+8. Centering Post
+9. Worm Gear
+10. Motor Base
+11. [Alum Arm](../designs/a-0047-tpms/mantis/alum-arm.md)
+12. Alum Riser
+
+---
+
+## Mantis 2 Asm — Bill of Materials
+
+The Mantis 2 Asm assembly references the following 10 components:
+
+1. Piston Bracket
+2. Enclosure
+3. Cylinder Bracket
+4. Rail Bracket
+5. Press Frame
+6. SFC16 Linear Rail
+7. Mantis Bed Plates
+8. Reed Bracket Probe
+9. MDX1000_1500_Head
+10. [Cylinder Asembly](../designs/a-0047-tpms/mantis-2/cylinder-asembly.md)
+
+---
+
+## Cylinder Asembly — Bill of Materials
+
+The Cylinder Asembly design references the following 2 components:
+
+1. 3" Stroke x 3/4 Bore Cylinder
+2. KQ2L03-34AS
+
+---
+
+## MOONFISH ASM 2 — Bill of Materials
+
+The MOONFISH ASM 2 assembly references the following 9 components:
+
+1. Sensor Turret 2
+2. Cap Presser
+3. Toman TAS-2030
+4. Worm Gear 2
+5. Sensor Cradle 2
+6. Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 5/8 Steel Grade 2 Plain
+7. Moonfish Tool Head 3
+8. Turret Base 2
+9. Cylinder head stencil
+
+---
+
+## TPMS 2 SENSOR — Bill of Materials
+
+The TPMS 2 SENSOR design references the following 1 component:
+
+1. 003566X1
+
+---
+
+## Stepper Enclosure — Bill of Materials
+
+The Stepper Enclosure design references the following 3 components:
+
+1. Teensy and Proto
+2. DM332T Driver
+3. ALITOV 24VDC
+
+---
+
+*89 assemblies with BOM data indexed.*
