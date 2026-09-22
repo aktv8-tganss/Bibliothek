@@ -13,7 +13,8 @@
     collideRadius: 15,
     velocityDecay: 0.4,
     showOrphans: false,
-    projectFilter: ''
+    projectFilter: '',
+    controlsCollapsed: false
   };
 
   let canvasWidth = 800;
@@ -31,16 +32,19 @@
   let labelElements = null;
   let zoom = null;
   let allProjects = [];
+  let maxDepth = 1;
 
   const CONFIG = {
-    NODE_SIZE_MIN: 6,
-    NODE_SIZE_MAX: 24,
+    NODE_SIZE_MIN: 5,
+    NODE_SIZE_MAX: 28,
+    NODE_SIZE_ORPHAN: 4,
     ZOOM_MIN: 0.1,
     ZOOM_MAX: 4
   };
 
   function init() {
     loadSettings();
+    applyControlsCollapseState();
     const loading = document.getElementById('graph-loading');
     
     const basePath = getBasePath();
@@ -53,6 +57,7 @@
         initGraph(data);
         bindControls();
         bindSettingsControls();
+        bindCollapseControls();
         if (loading) loading.classList.add('hidden');
         updateStats();
       })
@@ -79,6 +84,44 @@
       localStorage.setItem(STORAGE_KEY, JSON.stringify(settings));
     } catch (e) {
       console.warn('Failed to save settings to localStorage:', e);
+    }
+  }
+
+  function applyControlsCollapseState() {
+    const controls = document.getElementById('graph-controls');
+    const chip = document.getElementById('controls-chip');
+    
+    if (settings.controlsCollapsed) {
+      controls.classList.remove('expanded');
+      chip.classList.add('visible');
+    } else {
+      controls.classList.add('expanded');
+      chip.classList.remove('visible');
+    }
+  }
+
+  function bindCollapseControls() {
+    const collapseBtn = document.getElementById('controls-collapse');
+    const expandBtn = document.getElementById('controls-expand');
+    const controls = document.getElementById('graph-controls');
+    const chip = document.getElementById('controls-chip');
+
+    if (collapseBtn) {
+      collapseBtn.addEventListener('click', () => {
+        controls.classList.remove('expanded');
+        chip.classList.add('visible');
+        settings.controlsCollapsed = true;
+        saveSettings();
+      });
+    }
+
+    if (expandBtn) {
+      expandBtn.addEventListener('click', () => {
+        controls.classList.add('expanded');
+        chip.classList.remove('visible');
+        settings.controlsCollapsed = false;
+        saveSettings();
+      });
     }
   }
 
@@ -119,25 +162,116 @@
     select.value = settings.projectFilter || '';
   }
 
-  function computeNodeRadius(node) {
+  function computeDepthFromRoots(nodeList, edgeList) {
+    const nodeById = new Map(nodeList.map(n => [n.id, n]));
+    const childToParents = new Map();
+    const parentToChildren = new Map();
+    
+    edgeList.forEach(e => {
+      const sourceId = typeof e.source === 'string' ? e.source : e.source.id;
+      const targetId = typeof e.target === 'string' ? e.target : e.target.id;
+      
+      if (!childToParents.has(targetId)) childToParents.set(targetId, []);
+      childToParents.get(targetId).push(sourceId);
+      
+      if (!parentToChildren.has(sourceId)) parentToChildren.set(sourceId, []);
+      parentToChildren.get(sourceId).push(targetId);
+    });
+    
+    const roots = [];
+    nodeList.forEach(n => {
+      const usedInCount = n.used_in_count || 0;
+      if (usedInCount === 0 && (n.uses_count || 0) > 0) {
+        roots.push(n.id);
+      }
+    });
+    
+    const depth = new Map();
+    
+    if (roots.length === 0) {
+      nodeList.forEach(n => depth.set(n.id, 0));
+      return { depth, maxDepth: 0 };
+    }
+    
+    roots.forEach(r => depth.set(r, 0));
+    
+    const queue = [...roots];
+    let maxD = 0;
+    
+    while (queue.length > 0) {
+      const current = queue.shift();
+      const currentDepth = depth.get(current);
+      
+      const children = parentToChildren.get(current) || [];
+      children.forEach(childId => {
+        if (!depth.has(childId)) {
+          const newDepth = currentDepth + 1;
+          depth.set(childId, newDepth);
+          maxD = Math.max(maxD, newDepth);
+          queue.push(childId);
+        }
+      });
+    }
+    
+    nodeList.forEach(n => {
+      if (!depth.has(n.id)) {
+        depth.set(n.id, -1);
+      }
+    });
+    
+    return { depth, maxDepth: maxD };
+  }
+
+  function computeNodeRadius(node, depthValue, maxD) {
     const degree = (node.uses_count || 0) + (node.used_in_count || 0);
-    const scale = Math.log2(degree + 1) / Math.log2(30);
+    
+    if (degree === 0) {
+      return CONFIG.NODE_SIZE_ORPHAN;
+    }
+    
+    if (depthValue < 0 || maxD === 0) {
+      const scale = Math.log2(degree + 1) / Math.log2(30);
+      return CONFIG.NODE_SIZE_MIN + 
+        Math.min(scale, 1) * (CONFIG.NODE_SIZE_MAX - CONFIG.NODE_SIZE_MIN) * 0.5;
+    }
+    
+    const depthRatio = 1 - (depthValue / maxD);
     return CONFIG.NODE_SIZE_MIN + 
-      Math.min(scale, 1) * (CONFIG.NODE_SIZE_MAX - CONFIG.NODE_SIZE_MIN);
+      depthRatio * (CONFIG.NODE_SIZE_MAX - CONFIG.NODE_SIZE_MIN);
   }
 
   function isAssemblyNode(node) {
     return (node.uses_count || 0) > 0;
   }
 
-  function getNodeColor(node) {
-    if (isAssemblyNode(node)) {
+  function isRootNode(node, depthValue) {
+    return depthValue === 0 && (node.uses_count || 0) > 0;
+  }
+
+  function isOrphanNode(node) {
+    return ((node.uses_count || 0) + (node.used_in_count || 0)) === 0;
+  }
+
+  function getNodeColor(node, depthValue) {
+    if (isOrphanNode(node)) {
+      return '#555555';
+    }
+    if (isRootNode(node, depthValue)) {
       return '#d4a017';
+    }
+    if (isAssemblyNode(node)) {
+      return '#c49515';
     }
     return '#e07020';
   }
 
-  function getNodeBorderColor(node) {
+  function getNodeBorderColor(node, depthValue) {
+    if (isOrphanNode(node)) {
+      return '#444444';
+    }
+    if (isRootNode(node, depthValue)) {
+      return '#ffcc00';
+    }
     if (isAssemblyNode(node)) {
       return '#a67c00';
     }
@@ -191,13 +325,22 @@
     canvasWidth = container.clientWidth;
     canvasHeight = container.clientHeight;
 
-    nodes = data.nodes.map(n => ({
-      ...n,
-      radius: computeNodeRadius(n),
-      isAssembly: isAssemblyNode(n),
-      x: canvasWidth / 2 + (Math.random() - 0.5) * 200,
-      y: canvasHeight / 2 + (Math.random() - 0.5) * 200
-    }));
+    const { depth, maxDepth: maxD } = computeDepthFromRoots(data.nodes, data.edges);
+    maxDepth = maxD;
+
+    nodes = data.nodes.map(n => {
+      const d = depth.get(n.id);
+      return {
+        ...n,
+        depth: d,
+        radius: computeNodeRadius(n, d, maxD),
+        isAssembly: isAssemblyNode(n),
+        isRoot: isRootNode(n, d),
+        isOrphan: isOrphanNode(n),
+        x: canvasWidth / 2 + (Math.random() - 0.5) * 200,
+        y: canvasHeight / 2 + (Math.random() - 0.5) * 200
+      };
+    });
 
     const nodeById = new Map(nodes.map(n => [n.id, n]));
 
@@ -254,9 +397,9 @@
       .data(nodes)
       .join('circle')
       .attr('r', d => d.radius)
-      .attr('fill', d => getNodeColor(d))
-      .attr('stroke', d => getNodeBorderColor(d))
-      .attr('stroke-width', 1.5)
+      .attr('fill', d => getNodeColor(d, d.depth))
+      .attr('stroke', d => getNodeBorderColor(d, d.depth))
+      .attr('stroke-width', d => d.isRoot ? 2 : 1.5)
       .attr('cursor', 'pointer')
       .on('mouseover', handleNodeMouseOver)
       .on('mouseout', handleNodeMouseOut)
@@ -341,7 +484,7 @@
   function handleNodeMouseOver(event, d) {
     d3.select(event.target)
       .attr('filter', 'url(#glow)')
-      .attr('stroke-width', 2.5);
+      .attr('stroke-width', d.isRoot ? 3 : 2.5);
 
     labelElements
       .filter(n => n.id === d.id)
@@ -366,7 +509,7 @@
   function handleNodeMouseOut(event, d) {
     d3.select(event.target)
       .attr('filter', null)
-      .attr('stroke-width', 1.5);
+      .attr('stroke-width', d.isRoot ? 2 : 1.5);
 
     labelElements
       .filter(n => n.id === d.id)
@@ -527,7 +670,8 @@
   }
 
   function resetSettings() {
-    settings = { ...DEFAULT_SETTINGS };
+    const preserveCollapsed = settings.controlsCollapsed;
+    settings = { ...DEFAULT_SETTINGS, controlsCollapsed: preserveCollapsed };
     saveSettings();
 
     document.getElementById('slider-center').value = settings.centerForce;
@@ -738,6 +882,17 @@
     document.getElementById('panel-project').textContent = d.project || '—';
     document.getElementById('panel-path').textContent = d.path || '—';
     
+    const depthEl = document.getElementById('panel-depth');
+    if (depthEl) {
+      if (d.isOrphan) {
+        depthEl.textContent = 'Orphan';
+      } else if (d.depth < 0) {
+        depthEl.textContent = 'Disconnected';
+      } else {
+        depthEl.textContent = d.depth + (d.isRoot ? ' (root)' : '');
+      }
+    }
+    
     const linkEl = document.getElementById('panel-shortlink');
     if (d.shortlink) {
       linkEl.innerHTML = '<a href="' + d.shortlink + '" target="_blank" rel="noopener">' + 
@@ -751,8 +906,19 @@
 
     const typeEl = document.getElementById('panel-type');
     if (typeEl) {
-      typeEl.textContent = d.isAssembly ? 'Assembly' : 'Part';
-      typeEl.style.color = d.isAssembly ? '#d4a017' : '#e07020';
+      if (d.isOrphan) {
+        typeEl.textContent = 'Orphan';
+        typeEl.style.color = '#555555';
+      } else if (d.isRoot) {
+        typeEl.textContent = 'Root Assembly';
+        typeEl.style.color = '#d4a017';
+      } else if (d.isAssembly) {
+        typeEl.textContent = 'Assembly';
+        typeEl.style.color = '#c49515';
+      } else {
+        typeEl.textContent = 'Part';
+        typeEl.style.color = '#e07020';
+      }
     }
 
     panel.classList.add('visible');
