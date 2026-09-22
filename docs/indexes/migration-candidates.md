@@ -828,6 +828,32 @@ All 5 OTS Parts under A-0047 TPMS are **migration candidates**:
 - **TPMS Sanding Chuck** — TPMS root tooling. Not an OTS part.
 - **Test Rig 3** — TPMS root test fixture. Not an OTS part.
 
+### Assessment Notes (Batch 031)
+
+**Migration Candidates (2 of 18):**
+
+- **ALITOV 24VDC** — OTS/PSU catalog part in A-0047 TPMS / Stepper Control outside `00 - Parts`. **Migration candidate.**
+- **DM332T Driver** — OTS/driver catalog part in A-0047 TPMS / Stepper Control outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (16 of 18):**
+
+- **Hose Support** — TPMS / Obs thin leftover. Not an OTS part.
+- **Stickers** — TPMS / Obs thin leftover. Not an OTS part.
+- **Teensy and Proto** — TPMS / Stepper Control component (used in Stepper Enclosure). Not an OTS part.
+- **Adapter plate top** — Moonfish / Obs design (used in Moonfish ASM). Not an OTS part.
+- **Moonfish ASM** — Moonfish / Obs assembly. Not an OTS part.
+- **Moonfish Base ASM** — Moonfish / Obs assembly. Not an OTS part.
+- **Moonfish Tool Head** — Moonfish / Obs assembly. Not an OTS part.
+- **Sensor Cradle** — Moonfish / Obs component (used in Moonfish Base 2, Moonfish Base ASM). Not an OTS part.
+- **Sensor Turret** — Moonfish / Obs component (used in Moonfish Base ASM, Moonfish Base 2). Not an OTS part.
+- **TPMS G2 Tool v2** — Moonfish / Obs design. Not an OTS part.
+- **Turret Base** — Moonfish / Obs component (used in Moonfish Base 2, Moonfish Base ASM). Not an OTS part.
+- **Worm Gear** — Moonfish / Obs component (used in Moonfish Base ASM, Moonfish Base 2). Not an OTS part.
+- **Prox Shrouod** — Mantis 2 design. Not an OTS part.
+- **Rail Bracket** — Mantis 2 component (used in Mantis 2 Asm). Not an OTS part.
+- **Reed Bracket Probe** — Mantis 2 component (used in Mantis 2 Asm). Not an OTS part.
+- **Screen VESA** — Mantis 2 design. Not an OTS part.
+
 ---
 
-*174 migration candidates identified (+5 in batch 027).*
+*176 migration candidates identified (+2 in batch 031).*

@@ -22,9 +22,9 @@ ots_migration_candidate: false
 
 This design references **3 components**:
 
-1. Teensy and Proto
-2. DM332T Driver
-3. ALITOV 24VDC
+1. [Teensy and Proto](teensy-and-proto.md)
+2. [DM332T Driver](dm332t-driver.md)
+3. [ALITOV 24VDC](alitov-24vdc.md)
 
 ## Used In
 

@@ -29,7 +29,7 @@ notes: ""
 
 This design references the following 1 component:
 
-1. Stickers
+1. [Stickers](obs/stickers.md)
 
 ## Used In
 
