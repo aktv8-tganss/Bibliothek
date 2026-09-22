@@ -466,7 +466,7 @@ All 1 design from batch 020 was successfully indexed:
 
 ---
 
-## A-9999 Lab — Remaining (MORE remain)
+## A-9999 Lab — Batches 021–026
 
 ### Batch 021
 
@@ -677,25 +677,87 @@ All 23 designs from batch 025 were successfully indexed:
 
 - **PCBA Gauge iAir6 V2** — search returned no results; phantom
 
-**TEAM PRINTS still open (spot-check leftovers):**
+~~**TEAM PRINTS still open (spot-check leftovers):**~~ ✓ All harvested in batch 026
 
-- folder 20240917
-- 003354 X2a HUB
-- 003361 X1 NUT
-- Cover logo Aktv8
-- Desk part
-- IspecBadaTOPCLAMP-Body
-- Mount U
-- Mount Uv2
-- Mount brkt
-- Mount brkt v2
-- PCM mnt
-- PCM mnt saddle
-- PCM mnt saddle flat
-- PCM plate
-- SPPV Plunger V4a
-- SPPV Plunger v2
-- box lock subassy v3
+- ~~folder 20240917~~ ✓ harvested in batch 026
+- ~~003354 X2a HUB~~ ✓ harvested in batch 026
+- ~~003361 X1 NUT~~ ✓ harvested in batch 026
+- ~~Cover logo Aktv8~~ ✓ harvested in batch 026
+- ~~Desk part~~ ✓ harvested in batch 026
+- ~~IspecBadaTOPCLAMP-Body~~ ✓ harvested in batch 026
+- ~~Mount U~~ ✓ harvested in batch 026
+- ~~Mount Uv2~~ ✓ harvested in batch 026
+- ~~Mount brkt~~ ✓ harvested in batch 026
+- ~~Mount brkt v2~~ ✓ harvested in batch 026
+- ~~PCM mnt~~ ✓ harvested in batch 026
+- ~~PCM mnt saddle~~ ✓ harvested in batch 026
+- ~~PCM mnt saddle flat~~ ✓ harvested in batch 026
+- ~~PCM plate~~ ✓ harvested in batch 026
+- ~~SPPV Plunger V4a~~ ✓ harvested in batch 026
+- ~~SPPV Plunger v2~~ ✓ harvested in batch 026
+- ~~box lock subassy v3~~ ✓ harvested in batch 026
+
+### Batch 026
+
+All 18 designs from batch 026 were successfully indexed:
+
+**TEAM PRINTS root (16):**
+
+1. ✓ 003354 X2a HUB
+2. ✓ 003361 X1 NUT
+3. ✓ Cover logo Aktv8
+4. ✓ Desk part
+5. ✓ IspecBadaTOPCLAMP-Body
+6. ✓ Mount U
+7. ✓ Mount Uv2
+8. ✓ Mount brkt
+9. ✓ Mount brkt v2
+10. ✓ PCM mnt
+11. ✓ PCM mnt saddle
+12. ✓ PCM mnt saddle flat
+13. ✓ PCM plate
+14. ✓ SPPV Plunger V4a
+15. ✓ SPPV Plunger v2
+16. ✓ box lock subassy v3
+
+**TEAM PRINTS / 20240917 (2):**
+
+17. ✓ SPPV Plunger V3
+18. ✓ check barb pill
+
+---
+
+## A-9999 Lab — COMPLETE for Bibliothek (2026-09-22)
+
+!!! success "A-9999 Lab Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes by Otto on 2026-09-22 after batches 019 (GIGADAQ children) + 021–026. All locatable Fusion designs with unique Share shortlinks have been indexed.
+
+### Covered
+
+- Lab root (named mop including Barn Layout through connectors)
+- GEGENEES / Sterling / GIGADAQ PARTS
+- TEAM PRINTS + folder 20240917
+
+### Final batch (026)
+
+- ✓ 16 TEAM PRINTS root designs (003354 X2a HUB through box lock subassy v3)
+- ✓ 2 TEAM PRINTS/20240917 designs (SPPV Plunger V3, check barb pill)
+
+### Known debt (not blocking COMPLETE)
+
+!!! warning "PCBA Gauge iAir6 V2 — phantom"
+    **PCBA Gauge iAir6 V2** — Fusion search returned no results (batch 025). Phantom design; no page invented.
+
+*A-9999 Lab harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*
+
+---
+
+### Disambiguation Notes (Batch 026)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 026 design shares a name with an existing design but has a distinct shortlink and project path:
+
+    - **PCM mnt** (`a360.co/4dAP87h`) — TEAM PRINTS; distinct from **PCM mnt bar** (`a360.co/4xR2ULh`) in TEAM PRINTS (batch 025)
 
 ### Disambiguation Notes (Batch 025)
 
