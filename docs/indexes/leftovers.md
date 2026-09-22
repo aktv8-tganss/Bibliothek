@@ -631,6 +631,79 @@ Light Arcade Switch, M16x1 to 1/4NPT Adapter, Magnum Trunk, Marble Run Support, 
 
 No preferred exact-name matches this pass.
 
+### Batch 025
+
+All 23 designs from batch 025 were successfully indexed:
+
+**Lab Root (20):**
+
+1. ✓ Light Arcade Switch
+2. ✓ M16x1 to 1/4NPT Adapter — OTS migration candidate
+3. ✓ Magnum Trunk
+4. ✓ Marble Run Support
+5. ✓ Marble Run Support Copy
+6. ✓ PI Case
+7. ✓ STAY STRAPPED
+8. ✓ Segger Module
+9. ✓ Sound Deadening Chamber
+10. ✓ Stool v5
+11. ✓ Switch (distinct from 00 - Parts; Lab shortlink)
+12. ✓ Table Top
+13. ✓ Tag
+14. ✓ iTM Axle Hose Install Tool
+15. ✓ m16x1 thread — OTS migration candidate
+16. ✓ metal_tag_laser_fixture_round_relieved_largefinger
+17. ✓ c-1-1355200-1-d-3d — OTS migration candidate
+18. ✓ c-1-1564337-1-j-3d — OTS migration candidate
+19. ✓ c-1-1564337-1-j-3d No Clip — OTS migration candidate
+20. ✓ c-1-1703543-0-a-3d — OTS migration candidate
+
+**TEAM PRINTS (3):**
+
+21. ✓ 003354 X1a HUB
+22. ✓ 003354 X2 HUB
+23. ✓ PCM mnt bar
+
+### A-9999 Lab remaining after batch 025
+
+!!! warning "A-9999 Lab: NOT COMPLETE"
+    Do NOT declare A-9999 COMPLETE. TEAM PRINTS folder still has real Fusion designs not fully harvested.
+
+**Lab root named leftovers (batch 025):**
+
+- ~~Light Arcade Switch~~, ~~M16x1 to 1/4NPT Adapter~~, ~~Magnum Trunk~~, ~~Marble Run Support~~, ~~Marble Run Support Copy~~, ~~PI Case~~, ~~STAY STRAPPED~~, ~~Segger Module~~, ~~Sound Deadening Chamber~~, ~~Stool v5~~, ~~Switch~~, ~~Table Top~~, ~~Tag~~, ~~iTM Axle Hose Install Tool~~, ~~m16x1 thread~~, ~~metal_tag_laser_fixture_round_relieved_largefinger~~, ~~c-1-1355200-1-d-3d~~, ~~c-1-1564337-1-j-3d~~, ~~c-1-1564337-1-j-3d No Clip~~, ~~c-1-1703543-0-a-3d~~ — all harvested
+
+**Phantom / missing:**
+
+- **PCBA Gauge iAir6 V2** — search returned no results; phantom
+
+**TEAM PRINTS still open (spot-check leftovers):**
+
+- folder 20240917
+- 003354 X2a HUB
+- 003361 X1 NUT
+- Cover logo Aktv8
+- Desk part
+- IspecBadaTOPCLAMP-Body
+- Mount U
+- Mount Uv2
+- Mount brkt
+- Mount brkt v2
+- PCM mnt
+- PCM mnt saddle
+- PCM mnt saddle flat
+- PCM plate
+- SPPV Plunger V4a
+- SPPV Plunger v2
+- box lock subassy v3
+
+### Disambiguation Notes (Batch 025)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 025 design shares a name with an existing design but has a distinct shortlink and project path:
+
+    - **Switch** — Lab root (`a360.co/4hc4gcc`) distinct from any 00 - Parts instance
+
 ### Disambiguation Notes (Batch 023)
 
 !!! tip "Path-Distinct Designs"
