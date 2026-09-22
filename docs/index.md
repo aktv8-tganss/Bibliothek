@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (442 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (77 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (169 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (457 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (80 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (174 total)
 
 ## Design Tree
 
@@ -58,6 +58,9 @@ Browse designs by project folder:
         - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
+- **[A-0047 TPMS](designs/a-0047-tpms/003501-thru-assembly.md)** — TPMS project designs (15 designs)
+    - [Root Designs](designs/a-0047-tpms/003501-thru-assembly.md) — TPMS root designs (10 designs)
+    - [OTS Parts](designs/a-0047-tpms/ots-parts/ball-valve.md) — OTS Parts subfolder (5 designs, all migration candidates)
 - **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
     - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
@@ -96,14 +99,18 @@ Browse designs by project folder:
 | 024 | 20 | A-9999 Lab root (20) — 2 OTS migration candidates; Lab root MORE remain |
 | 025 | 23 | A-9999 Lab root (20) + TEAM PRINTS (3) — 6 OTS migration candidates |
 | 026 | 18 | A-9999 Lab / TEAM PRINTS (16) + TEAM PRINTS / 20240917 (2) — concludes A-9999 Lab |
+| 027 | 15 | A-0047 TPMS root (10), OTS Parts (5) — 5 OTS migration candidates; TPMS MORE remain |
 
-**Total designs indexed: 442**
+**Total designs indexed: 457**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
 
 !!! success "A-9999 Lab COMPLETE for Bibliothek"
     A-9999 Lab harvest declared COMPLETE by Otto on 2026-09-22 after batches 019 (GIGADAQ children) + 021–026. Known debt: PCBA Gauge iAir6 V2 phantom (no Fusion search hit). See [leftovers index](indexes/leftovers.md) for details.
+
+!!! info "A-0047 TPMS — MORE remain"
+    Batch 027 begins A-0047 TPMS harvest. Remaining root folders: Clam, Flash Runner, Limpet, Mantis, Mantis 2, Moonfish, Obs, Stepper Control. OTS Parts largely unharvested. See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 

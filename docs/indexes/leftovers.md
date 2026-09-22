@@ -773,3 +773,49 @@ All 18 designs from batch 026 were successfully indexed:
 
     - **USB-2637** — Lab PARTS (`a360.co/4rqQLtT`) distinct from ORTHRUS ELEC (`a360.co/4ipqppZ`)
     - **Mounting rail 1** — Lab PARTS (`a360.co/4Axj7Hi`) distinct from GEGENEES (`a360.co/4rrJKsP`), IO Box (`a360.co/4h80zFX`), SOW1 (`a360.co/4h7kPGr`), AEETES (`a360.co/4iZPPdO`)
+
+---
+
+## A-0047 TPMS — Remaining (MORE remain)
+
+### Batch 027
+
+All 15 designs from batch 027 were successfully indexed:
+
+**TPMS Root (10):**
+
+1. ✓ 002390 (1)
+2. ✓ 002582 AA TPMS Thru Conmet (2)
+3. ✓ 003281_x4
+4. ✓ 003501 Thru assembly
+5. ✓ 003501 Thru Sensor v2
+6. ✓ Battery Adapter
+7. ✓ Door Mount
+8. ✓ Finger Stud Legacy
+9. ✓ TPMS Sanding Chuck
+10. ✓ Test Rig 3
+
+**OTS Parts (5):**
+
+11. ✓ Ball Valve
+12. ✓ Large Schrader
+13. ✓ Manifold 5 Block
+14. ✓ Small Gauge
+15. ✓ Small Valve
+
+### A-0047 TPMS remaining after batch 027
+
+!!! info "A-0047 TPMS: MORE remain"
+    A-0047 TPMS is NOT complete — significant designs remain unharvested. See batch 027 remaining status file for details.
+
+**Root folders still open:**
+
+Clam, Flash Runner, Limpet, Mantis, Mantis 2, Moonfish, Obs, Stepper Control
+
+**OTS Parts largely unharvested:**
+
+1-4 bearing, 1-8 brass schrader, 1/2 Barrel, Cable Duct, Cylinder, Finger Stud, Gauge, NUC Pro Chassis, Schrader Fitting, Stepper, Worm Shaft, and others.
+
+**Skipped:**
+
+Finger Stud Drawing; OTS Tester Adapter Drawing; OTS Untitled phantoms.

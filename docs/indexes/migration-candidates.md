@@ -180,6 +180,11 @@ A design is flagged when:
 | [c-1-1564337-1-j-3d](../designs/a-9999-lab/c-1-1564337-1-j-3d.md) | `A-9999 Lab` | OEM/catalog connector outside `00 - Parts` |
 | [c-1-1564337-1-j-3d No Clip](../designs/a-9999-lab/c-1-1564337-1-j-3d-no-clip.md) | `A-9999 Lab` | OEM/catalog connector outside `00 - Parts` |
 | [c-1-1703543-0-a-3d](../designs/a-9999-lab/c-1-1703543-0-a-3d.md) | `A-9999 Lab` | OEM/catalog connector outside `00 - Parts` |
+| [Ball Valve](../designs/a-0047-tpms/ots-parts/ball-valve.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog valve outside `00 - Parts` |
+| [Large Schrader](../designs/a-0047-tpms/ots-parts/large-schrader.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog fitting outside `00 - Parts` |
+| [Manifold 5 Block](../designs/a-0047-tpms/ots-parts/manifold-5-block.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog manifold outside `00 - Parts` |
+| [Small Gauge](../designs/a-0047-tpms/ots-parts/small-gauge.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog gauge outside `00 - Parts` |
+| [Small Valve](../designs/a-0047-tpms/ots-parts/small-valve.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog valve outside `00 - Parts` |
 
 ---
 
@@ -800,6 +805,29 @@ Batch 025 contains 23 designs: 20 Lab root designs + 3 TEAM PRINTS designs. 6 OT
 - **003354 X2 HUB** — TEAM PRINTS design. Not an OTS part.
 - **PCM mnt bar** — TEAM PRINTS design. Not an OTS part.
 
+### Assessment Notes (Batch 027)
+
+All 5 OTS Parts under A-0047 TPMS are **migration candidates**:
+
+- **Ball Valve** — OTS/catalog valve in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Large Schrader** — OTS/catalog fitting in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Manifold 5 Block** — OTS/catalog manifold in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Small Gauge** — OTS/catalog gauge in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+- **Small Valve** — OTS/catalog valve in A-0047 TPMS / OTS Parts outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (10 of 15):**
+
+- **003501 Thru assembly** — TPMS root assembly. Not an OTS part.
+- **003501 Thru Sensor v2** — TPMS root sensor design. Not an OTS part.
+- **002582 AA TPMS Thru Conmet (2)** — TPMS root assembly. Not an OTS part.
+- **003281_x4** — TPMS root design. Not an OTS part.
+- **002390 (1)** — TPMS root design. Not an OTS part.
+- **Battery Adapter** — TPMS root adapter. Not an OTS part.
+- **Door Mount** — TPMS root mount. Not an OTS part.
+- **Finger Stud Legacy** — TPMS root legacy part. Not an OTS part.
+- **TPMS Sanding Chuck** — TPMS root tooling. Not an OTS part.
+- **Test Rig 3** — TPMS root test fixture. Not an OTS part.
+
 ---
 
-*169 migration candidates identified (+6 in batch 025).*
+*174 migration candidates identified (+5 in batch 027).*
