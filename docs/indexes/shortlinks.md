@@ -61,7 +61,24 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [iAir6 Manifold](../designs/a-0010-iair6/obs/iair6-manifold.md) | `A-0010 iAir6 / Obs` | [a360.co/4xUFpkB](https://a360.co/4xUFpkB) |
 | [Heater - Tool](../designs/a-0010-iair6/heater-tool.md) | `A-0010 iAir6` | [a360.co/4gWBbTz](https://a360.co/4gWBbTz) |
 | [iAir6 Durability Cart](../designs/a-0010-iair6/iair6-durability-cart.md) | `A-0010 iAir6` | [a360.co/3Ttr0N7](https://a360.co/3Ttr0N7) |
+| [Untitled](../designs/a-0010-iair6/untitled.md) | `A-0010 iAir6` | [a360.co/4ijhK8o](https://a360.co/4ijhK8o) |
+| [Height Arm](../designs/a-0010-iair6/alc-parts/height-arm.md) | `A-0010 iAir6 / ALC Parts` | [a360.co/4h4zm5v](https://a360.co/4h4zm5v) |
+| [Remote and Holder](../designs/a-0010-iair6/alc-parts/remote-and-holder.md) | `A-0010 iAir6 / ALC Parts` | [a360.co/4iXlsEY](https://a360.co/4iXlsEY) |
+| [003237 X2 Cover iAir6 Copy](../designs/a-0010-iair6/a8-parts/003237-x2-cover-iair6-copy.md) | `A-0010 iAir6 / A8 Parts` | [a360.co/4xT3tnZ](https://a360.co/4xT3tnZ) |
+| [Angle Clamp](../designs/a-0010-iair6/dut-mounting/angle-clamp.md) | `A-0010 iAir6 / DUT Mounting` | [a360.co/46oJIZi](https://a360.co/46oJIZi) |
+| [Height Sensor 4-up](../designs/a-0010-iair6/dut-mounting/height-sensor-4-up.md) | `A-0010 iAir6 / DUT Mounting` | [a360.co/4diK3QV](https://a360.co/4diK3QV) |
+| [6498K144_Round Body Air Cylinder](../designs/a-0010-iair6/flash-runner/parts/6498k144-round-body-air-cylinder.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4AsNyyg](https://a360.co/4AsNyyg) |
+| [Board Alignment Pin](../designs/a-0010-iair6/flash-runner/parts/board-alignment-pin.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4xW10ha](https://a360.co/4xW10ha) |
+| [Press Fixture](../designs/a-0010-iair6/flash-runner/parts/press-fixture.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/3T9KoP9](https://a360.co/3T9KoP9) |
+| [S-0-U-2.2-G](../designs/a-0010-iair6/flash-runner/parts/s-0-u-2-2-g.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4r8GOR0](https://a360.co/4r8GOR0) |
+| [S-1-E-3.8-G](../designs/a-0010-iair6/flash-runner/parts/s-1-e-3-8-g.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4gOlWMg](https://a360.co/4gOlWMg) |
+| [S-1-J-3.8-G](../designs/a-0010-iair6/flash-runner/parts/s-1-j-3-8-g.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4ySzKLT](https://a360.co/4ySzKLT) |
+| [Shoulder Screw](../designs/a-0010-iair6/flash-runner/parts/shoulder-screw.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4ybtE9B](https://a360.co/4ybtE9B) |
+| [Sleeve Bearing](../designs/a-0010-iair6/flash-runner/parts/sleeve-bearing.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4xUALmF](https://a360.co/4xUALmF) |
+| [Spring](../designs/a-0010-iair6/flash-runner/parts/spring.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4gRBHLF](https://a360.co/4gRBHLF) |
+| [Urchin Bed of Nails Bottom Side](../designs/a-0010-iair6/flash-runner/parts/urchin-bed-of-nails-bottom-side.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/4iucAqm](https://a360.co/4iucAqm) |
+| [Urchin Bed of Nails Top Side](../designs/a-0010-iair6/flash-runner/parts/urchin-bed-of-nails-top-side.md) | `A-0010 iAir6 / Flash Runner / Parts` | [a360.co/46WDJLg](https://a360.co/46WDJLg) |
 
 ---
 
-*57 designs indexed.*
+*74 designs indexed.*
