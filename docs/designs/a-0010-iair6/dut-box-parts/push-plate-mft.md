@@ -27,7 +27,7 @@ This design references **1 component**:
 
 | # | Component |
 |---|-----------|
-| 1 | 2 Pin |
+| 1 | [2 Pin](../ots-parts/2-pin.md) |
 
 ## Used In
 

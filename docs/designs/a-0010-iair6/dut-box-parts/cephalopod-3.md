@@ -31,7 +31,7 @@ This assembly references **4 components**:
 |---|-----------|
 | 1 | [003270 FAST26](../a8-parts/003270-fast26.md) |
 | 2 | [VMT Probe Carrier](vmt-probe-carrier.md) |
-| 3 | 4 Pin |
+| 3 | [4 Pin](../ots-parts/4-pin.md) |
 | 4 | [VMT Adapt Plate](vmt-adapt-plate.md) |
 
 ## Used In

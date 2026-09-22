@@ -27,7 +27,7 @@ This design references **1 component**:
 
 | # | Component |
 |---|-----------|
-| 1 | 3way Solenoid |
+| 1 | [3way Solenoid](3way-solenoid.md) |
 
 ## Used In
 

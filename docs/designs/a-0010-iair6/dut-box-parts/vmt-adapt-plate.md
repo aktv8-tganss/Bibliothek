@@ -30,7 +30,7 @@ This assembly references **2 components**:
 | # | Component |
 |---|-----------|
 | 1 | [003270 FAST26](../a8-parts/003270-fast26.md) |
-| 2 | 4 Pin |
+| 2 | [4 Pin](../ots-parts/4-pin.md) |
 
 ## Used In
 

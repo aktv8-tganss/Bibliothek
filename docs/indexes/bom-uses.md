@@ -17,6 +17,7 @@ Assemblies with non-empty component references (Uses).
 | [Routed base](../designs/a-0010-iair6/dut-box-parts/routed-base.md) | 5 | [a360.co/3SLxMO9](https://a360.co/3SLxMO9) |
 | [VMT Adapt Plate](../designs/a-0010-iair6/dut-box-parts/vmt-adapt-plate.md) | 2 | [a360.co/4gWUaMc](https://a360.co/4gWUaMc) |
 | [Valve mount](../designs/a-0010-iair6/dut-box-parts/valve-mount.md) | 1 | [a360.co/4xlh5qZ](https://a360.co/4xlh5qZ) |
+| [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md) | 3 | [a360.co/4yHCrzC](https://a360.co/4yHCrzC) |
 | [iAIR3 Gen2 Flash Runner Bed](../designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) | 1 | [a360.co/4xytM1N](https://a360.co/4xytM1N) |
 
 ---
@@ -30,18 +31,18 @@ The CEPHALOPOD 2 assembly references the following 23 components:
 3. Hexagon Socket Button Head Cap Screw ANSI B18.3 - 10-24 UNC x 0.5 Steel Grade 2 …
 4. KQ2H01-35AS
 5. [Reg Sleeve Mount](../designs/a-0010-iair6/dut-box-parts/reg-sleeve-mount.md)
-6. Cylinder
+6. [Cylinder](../designs/a-0010-iair6/ots-parts/cylinder.md)
 7. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 0.75 Steel Grade 2 Plain
 8. [Receive Block](../designs/a-0010-iair6/dut-box-parts/receive-block.md)
 9. [Poly Shield](../designs/a-0010-iair6/dut-box-parts/poly-shield.md)
-10. 1122740000
+10. [1122740000](../designs/a-0010-iair6/ots-parts/1122740000.md)
 11. [Routed base](../designs/a-0010-iair6/dut-box-parts/routed-base.md)
-12. 3way Solenoid
+12. [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md)
 13. [Cylinder Strap](../designs/a-0010-iair6/dut-box-parts/cylinder-strap.md)
 14. 1.5in Gauge
-15. KV2L07-34S
+15. [KV2L07-34S](../designs/a-0010-iair6/ots-parts/kv2l07-34s.md)
 16. Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain
-17. KQ2LF03-34A
+17. [KQ2LF03-34A](../designs/a-0010-iair6/ots-parts/kq2lf03-34a.md)
 18. [Push Plate MFT](../designs/a-0010-iair6/dut-box-parts/push-plate-mft.md)
 19. [VMT Adapt Plate](../designs/a-0010-iair6/dut-box-parts/vmt-adapt-plate.md)
 20. [Lid Hinge](../designs/a-0010-iair6/dut-box-parts/lid-hinge.md)
@@ -65,7 +66,7 @@ The CEPHALOPOD 3 assembly references the following 4 components:
 
 1. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
 2. [VMT Probe Carrier](../designs/a-0010-iair6/dut-box-parts/vmt-probe-carrier.md)
-3. 4 Pin
+3. [4 Pin](../designs/a-0010-iair6/ots-parts/4-pin.md)
 4. [VMT Adapt Plate](../designs/a-0010-iair6/dut-box-parts/vmt-adapt-plate.md)
 
 ---
@@ -83,7 +84,7 @@ The Cylinder Strap design references the following 1 component:
 The Lid Hinge assembly references the following 2 components:
 
 1. [Prox Switch](../designs/a-0010-iair6/ots-parts/prox-switch.md)
-2. Clear Lid
+2. [Clear Lid](../designs/a-0010-iair6/ots-parts/clear-lid.md)
 
 ---
 
@@ -107,7 +108,7 @@ The Plunger passthru design references the following 1 component:
 
 The Push Plate MFT design references the following 1 component:
 
-1. 2 Pin
+1. [2 Pin](../designs/a-0010-iair6/ots-parts/2-pin.md)
 
 ---
 
@@ -117,7 +118,7 @@ The Routed base assembly references the following 5 components:
 
 1. [Valve mount](../designs/a-0010-iair6/dut-box-parts/valve-mount.md)
 2. Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain
-3. 3way Solenoid
+3. [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md)
 4. Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 8-32 UNC x 0.25 Steel Grade 2 Plain
 5. [SS Relay Board](../designs/a-0010-iair6/ots-parts/ss-relay-board.md)
 
@@ -128,7 +129,7 @@ The Routed base assembly references the following 5 components:
 The VMT Adapt Plate assembly references the following 2 components:
 
 1. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
-2. 4 Pin
+2. [4 Pin](../designs/a-0010-iair6/ots-parts/4-pin.md)
 
 ---
 
@@ -136,7 +137,17 @@ The VMT Adapt Plate assembly references the following 2 components:
 
 The Valve mount design references the following 1 component:
 
-1. 3way Solenoid
+1. [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md)
+
+---
+
+## 3way Solenoid — Bill of Materials
+
+The 3way Solenoid design references the following 3 components:
+
+1. Type I Cross Recessed 100° Flat Countersunk Head Machine Screw ANSI B18.6.3 4-48 UNF x 1.125 Steel Grade 2 Plain
+2. Type I Cross Recessed Binding Head Machine Screw ANSI B18.6.3 4-48 UNF x 0.3125 Steel Grade 2 Plain
+3. Knurled Nut DIN 467 - M5 Steel 6 Plain
 
 ---
 
@@ -148,4 +159,4 @@ The iAIR3 Gen2 Flash Runner Bed design references the following 1 component:
 
 ---
 
-*12 assemblies with BOM data indexed.*
+*13 assemblies with BOM data indexed.*

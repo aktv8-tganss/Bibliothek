@@ -29,7 +29,7 @@ This assembly references **2 components**:
 | # | Component |
 |---|-----------|
 | 1 | [Prox Switch](../ots-parts/prox-switch.md) |
-| 2 | Clear Lid |
+| 2 | [Clear Lid](../ots-parts/clear-lid.md) |
 
 ## Used In
 

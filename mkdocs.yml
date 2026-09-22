@@ -52,6 +52,7 @@ nav:
         - 003234 X1a Manifold iAIR6: designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md
         - 003270 FAST26: designs/a-0010-iair6/a8-parts/003270-fast26.md
       - DUT Box Parts:
+        - 3way Solenoid: designs/a-0010-iair6/dut-box-parts/3way-solenoid.md
         - CEPHALOPOD 3: designs/a-0010-iair6/dut-box-parts/cephalopod-3.md
         - Cylinder Block: designs/a-0010-iair6/dut-box-parts/cylinder-block.md
         - Cylinder Strap: designs/a-0010-iair6/dut-box-parts/cylinder-strap.md
@@ -70,9 +71,20 @@ nav:
         - VMT Probe Carrier: designs/a-0010-iair6/dut-box-parts/vmt-probe-carrier.md
         - Valve mount: designs/a-0010-iair6/dut-box-parts/valve-mount.md
       - OTS Parts:
+        - "1122740000": designs/a-0010-iair6/ots-parts/1122740000.md
+        - 2 Pin: designs/a-0010-iair6/ots-parts/2-pin.md
+        - 2203663-5: designs/a-0010-iair6/ots-parts/2203663-5.md
+        - 4 Pin: designs/a-0010-iair6/ots-parts/4-pin.md
+        - Clear Lid: designs/a-0010-iair6/ots-parts/clear-lid.md
+        - Cylinder: designs/a-0010-iair6/ots-parts/cylinder.md
+        - KQ2H03-33AS: designs/a-0010-iair6/ots-parts/kq2h03-33as.md
+        - KQ2H03-35AS: designs/a-0010-iair6/ots-parts/kq2h03-35as.md
+        - KQ2L03-33AS: designs/a-0010-iair6/ots-parts/kq2l03-33as.md
+        - KQ2LF03-34A: designs/a-0010-iair6/ots-parts/kq2lf03-34a.md
+        - KV2L07-34S: designs/a-0010-iair6/ots-parts/kv2l07-34s.md
+        - KV2T07-34S: designs/a-0010-iair6/ots-parts/kv2t07-34s.md
         - Prox Switch: designs/a-0010-iair6/ots-parts/prox-switch.md
         - SS Relay Board: designs/a-0010-iair6/ots-parts/ss-relay-board.md
-        - KQ2H03-33AS: designs/a-0010-iair6/ots-parts/kq2h03-33as.md
     - A-0054 iAir3 Gen2:
       - "22": designs/a-0054-iair3-gen2/design-22.md
       - GEN2 PROC MODULE: designs/a-0054-iair3-gen2/gen2-proc-module.md

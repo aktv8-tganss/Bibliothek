@@ -54,18 +54,18 @@ This assembly references **23 components**:
 | 3 | Hexagon Socket Button Head Cap Screw ANSI B18.3 - 10-24 UNC x 0.5 Steel Grade 2 … |
 | 4 | KQ2H01-35AS |
 | 5 | [Reg Sleeve Mount](dut-box-parts/reg-sleeve-mount.md) |
-| 6 | Cylinder |
+| 6 | [Cylinder](ots-parts/cylinder.md) |
 | 7 | Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 0.75 Steel Grade 2 Plain |
 | 8 | [Receive Block](dut-box-parts/receive-block.md) |
 | 9 | [Poly Shield](dut-box-parts/poly-shield.md) |
-| 10 | 1122740000 |
+| 10 | [1122740000](ots-parts/1122740000.md) |
 | 11 | [Routed base](dut-box-parts/routed-base.md) |
-| 12 | 3way Solenoid |
+| 12 | [3way Solenoid](dut-box-parts/3way-solenoid.md) |
 | 13 | [Cylinder Strap](dut-box-parts/cylinder-strap.md) |
 | 14 | 1.5in Gauge |
-| 15 | KV2L07-34S |
+| 15 | [KV2L07-34S](ots-parts/kv2l07-34s.md) |
 | 16 | Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain |
-| 17 | KQ2LF03-34A |
+| 17 | [KQ2LF03-34A](ots-parts/kq2lf03-34a.md) |
 | 18 | [Push Plate MFT](dut-box-parts/push-plate-mft.md) |
 | 19 | [VMT Adapt Plate](dut-box-parts/vmt-adapt-plate.md) |
 | 20 | [Lid Hinge](dut-box-parts/lid-hinge.md) |

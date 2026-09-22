@@ -16,6 +16,18 @@ A design is flagged when:
 | [Prox Switch](../designs/a-0010-iair6/ots-parts/prox-switch.md) | `A-0010 iAir6 / OTS parts` | OTS folder outside `00 - Parts` |
 | [SS Relay Board](../designs/a-0010-iair6/ots-parts/ss-relay-board.md) | `A-0010 iAir6 / OTS parts` | OTS folder outside `00 - Parts` |
 | [KQ2H03-33AS](../designs/a-0010-iair6/ots-parts/kq2h03-33as.md) | `A-0010 iAir6 / OTS parts` | STEP-format pneumatic fitting; OTS folder outside `00 - Parts` |
+| [2 Pin](../designs/a-0010-iair6/ots-parts/2-pin.md) | `A-0010 iAir6 / OTS parts` | OTS connector outside `00 - Parts` |
+| [4 Pin](../designs/a-0010-iair6/ots-parts/4-pin.md) | `A-0010 iAir6 / OTS parts` | OTS connector outside `00 - Parts` |
+| [Clear Lid](../designs/a-0010-iair6/ots-parts/clear-lid.md) | `A-0010 iAir6 / OTS parts` | OTS part outside `00 - Parts` |
+| [Cylinder](../designs/a-0010-iair6/ots-parts/cylinder.md) | `A-0010 iAir6 / OTS parts` | OTS part outside `00 - Parts` |
+| [1122740000](../designs/a-0010-iair6/ots-parts/1122740000.md) | `A-0010 iAir6 / OTS parts` | OTS part outside `00 - Parts` |
+| [2203663-5](../designs/a-0010-iair6/ots-parts/2203663-5.md) | `A-0010 iAir6 / OTS parts` | OTS part outside `00 - Parts` |
+| [KQ2H03-35AS](../designs/a-0010-iair6/ots-parts/kq2h03-35as.md) | `A-0010 iAir6 / OTS parts` | STEP-format pneumatic fitting; OTS folder outside `00 - Parts` |
+| [KQ2L03-33AS](../designs/a-0010-iair6/ots-parts/kq2l03-33as.md) | `A-0010 iAir6 / OTS parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [KQ2LF03-34A](../designs/a-0010-iair6/ots-parts/kq2lf03-34a.md) | `A-0010 iAir6 / OTS parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [KV2L07-34S](../designs/a-0010-iair6/ots-parts/kv2l07-34s.md) | `A-0010 iAir6 / OTS parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [KV2T07-34S](../designs/a-0010-iair6/ots-parts/kv2t07-34s.md) | `A-0010 iAir6 / OTS parts` | OTS pneumatic fitting outside `00 - Parts` |
+| [3way Solenoid](../designs/a-0010-iair6/dut-box-parts/3way-solenoid.md) | `A-0010 iAir6 / DUT Box Parts` | OTS solenoid valve outside `00 - Parts` |
 
 ---
 
@@ -63,23 +75,39 @@ All 17 DUT Box Parts designs are product-specific parts under `A-0010 iAir6 / DU
 - **VMT Probe Carrier** — Custom machined part. Not an OTS part.
 - **Valve mount** — Custom machined part. Not an OTS part.
 
+### Assessment Notes (Batch 005)
+
+All 12 designs in batch 005 are OTS parts located outside `00 - Parts` and are **migration candidates**:
+
+- **2 Pin** — OTS connector in project-specific folder. **Migration candidate.**
+- **4 Pin** — OTS connector in project-specific folder. **Migration candidate.**
+- **Clear Lid** — OTS part in project-specific folder. **Migration candidate.**
+- **Cylinder** — OTS part in project-specific folder. **Migration candidate.**
+- **1122740000** — OTS part in project-specific folder. **Migration candidate.**
+- **2203663-5** — OTS part in project-specific folder. **Migration candidate.**
+- **KQ2H03-35AS** — OTS pneumatic fitting (SMC part, STEP format) in project-specific folder. **Migration candidate.**
+- **KQ2L03-33AS** — OTS pneumatic fitting (SMC part) in project-specific folder. **Migration candidate.**
+- **KQ2LF03-34A** — OTS pneumatic fitting (SMC part) in project-specific folder. **Migration candidate.**
+- **KV2L07-34S** — OTS pneumatic fitting (SMC part) in project-specific folder. **Migration candidate.**
+- **KV2T07-34S** — OTS pneumatic fitting (SMC part) in project-specific folder. **Migration candidate.**
+- **3way Solenoid** — OTS solenoid valve in DUT Box Parts folder. **Migration candidate.**
+
 ---
 
 ## Referenced OTS / Commodity (Not Yet Harvested as Pages)
 
-The following items appear in batch-004 Uses fields and appear to be off-the-shelf commodity parts. They do not yet have dedicated Bibliothek pages and are candidates for future Charlotte harvest and possible `00 - Parts` home:
+The following items appear in Uses fields and appear to be off-the-shelf commodity parts. They do not yet have dedicated Bibliothek pages and are candidates for future Charlotte harvest and possible `00 - Parts` home:
 
 | Name | Seen In Uses Of |
 |------|-----------------|
-| 2 Pin | Push Plate MFT |
-| 4 Pin | CEPHALOPOD 3, VMT Adapt Plate |
-| 3way Solenoid | Valve mount, Routed base |
 | 1/16 NPT Female | Plunger Stop |
 | Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.5 Steel Grade 2 Plain | Cylinder Strap |
-| Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain | Routed base |
+| Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain | Routed base, CEPHALOPOD 2 |
 | Hexagon Socket Flat Countersunk Head Cap Screw ANSI B18.3 - 8-32 UNC x 0.25 Steel Grade 2 Plain | Routed base |
-| Clear Lid | Lid Hinge |
+| Type I Cross Recessed 100° Flat Countersunk Head Machine Screw ANSI B18.6.3 4-48 UNF x 1.125 Steel Grade 2 Plain | 3way Solenoid |
+| Type I Cross Recessed Binding Head Machine Screw ANSI B18.6.3 4-48 UNF x 0.3125 Steel Grade 2 Plain | 3way Solenoid |
+| Knurled Nut DIN 467 - M5 Steel 6 Plain | 3way Solenoid |
 
 ---
 
-*3 migration candidates identified (no new candidates in batch 004).*
+*15 migration candidates identified (+12 in batch 005).*
