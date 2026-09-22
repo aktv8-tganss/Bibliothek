@@ -1,4 +1,4 @@
-/* Bibliothek Graph Canvas - D3 Force Simulation (Obsidian-style) */
+/* Bibliothek Graph Canvas - Folder Tree View (D3 Force Simulation) */
 
 (function() {
   'use strict';
@@ -7,14 +7,12 @@
 
   const DEFAULT_SETTINGS = {
     centerForce: 0.1,
-    repelForce: -200,
-    linkForce: 0.4,
-    linkDistance: 50,
-    collideRadius: 15,
+    repelForce: -150,
+    linkForce: 0.5,
+    linkDistance: 40,
+    collideRadius: 12,
     velocityDecay: 0.4,
-    sizeFalloff: 0.7,
-    showOrphans: false,
-    projectFilter: '',
+    sizeFalloff: 0.75,
     controlsCollapsed: false
   };
 
@@ -32,13 +30,12 @@
   let linkElements = null;
   let labelElements = null;
   let zoom = null;
-  let allProjects = [];
-  let maxDepth = 1;
+  let maxFolderDepth = 1;
 
   const CONFIG = {
-    NODE_SIZE_ROOT: 26,
-    NODE_SIZE_MIN: 3,
-    NODE_SIZE_ORPHAN: 3,
+    FOLDER_SIZE_ROOT: 24,
+    FOLDER_SIZE_MIN: 6,
+    FILE_SIZE: 4,
     ZOOM_MIN: 0.1,
     ZOOM_MAX: 4
   };
@@ -53,8 +50,6 @@
       .then(r => r.json())
       .then(data => {
         graphData = data;
-        allProjects = extractProjects(data.nodes);
-        populateProjectFilter(allProjects);
         initGraph(data);
         bindControls();
         bindSettingsControls();
@@ -140,141 +135,30 @@
     return path.substring(0, lastSlash + 1);
   }
 
-  function extractProjects(nodeList) {
-    const projects = new Set();
-    nodeList.forEach(n => {
-      if (n.project && n.project.trim()) {
-        projects.add(n.project);
-      }
-    });
-    return Array.from(projects).sort();
-  }
-
-  function populateProjectFilter(projects) {
-    const select = document.getElementById('project-filter');
-    if (!select) return;
-    select.innerHTML = '<option value="">All projects</option>';
-    projects.forEach(p => {
-      const opt = document.createElement('option');
-      opt.value = p;
-      opt.textContent = p;
-      select.appendChild(opt);
-    });
-    select.value = settings.projectFilter || '';
-  }
-
-  function computeDepthFromRoots(nodeList, edgeList) {
-    const nodeById = new Map(nodeList.map(n => [n.id, n]));
-    const childToParents = new Map();
-    const parentToChildren = new Map();
-    
-    edgeList.forEach(e => {
-      const sourceId = typeof e.source === 'string' ? e.source : e.source.id;
-      const targetId = typeof e.target === 'string' ? e.target : e.target.id;
-      
-      if (!childToParents.has(targetId)) childToParents.set(targetId, []);
-      childToParents.get(targetId).push(sourceId);
-      
-      if (!parentToChildren.has(sourceId)) parentToChildren.set(sourceId, []);
-      parentToChildren.get(sourceId).push(targetId);
-    });
-    
-    const roots = [];
-    nodeList.forEach(n => {
-      const usedInCount = n.used_in_count || 0;
-      if (usedInCount === 0 && (n.uses_count || 0) > 0) {
-        roots.push(n.id);
-      }
-    });
-    
-    const depth = new Map();
-    
-    if (roots.length === 0) {
-      nodeList.forEach(n => depth.set(n.id, 0));
-      return { depth, maxDepth: 0 };
+  function computeFolderRadius(depth, falloff) {
+    if (depth === 0) {
+      return CONFIG.FOLDER_SIZE_ROOT;
     }
-    
-    roots.forEach(r => depth.set(r, 0));
-    
-    const queue = [...roots];
-    let maxD = 0;
-    
-    while (queue.length > 0) {
-      const current = queue.shift();
-      const currentDepth = depth.get(current);
-      
-      const children = parentToChildren.get(current) || [];
-      children.forEach(childId => {
-        if (!depth.has(childId)) {
-          const newDepth = currentDepth + 1;
-          depth.set(childId, newDepth);
-          maxD = Math.max(maxD, newDepth);
-          queue.push(childId);
-        }
-      });
-    }
-    
-    nodeList.forEach(n => {
-      if (!depth.has(n.id)) {
-        depth.set(n.id, -1);
-      }
-    });
-    
-    return { depth, maxDepth: maxD };
+    const radius = CONFIG.FOLDER_SIZE_ROOT * Math.pow(falloff, depth);
+    return Math.max(radius, CONFIG.FOLDER_SIZE_MIN);
   }
 
-  function computeNodeRadius(node, depthValue, falloff) {
-    const degree = (node.uses_count || 0) + (node.used_in_count || 0);
-    
-    if (degree === 0) {
-      return CONFIG.NODE_SIZE_ORPHAN;
+  function computeNodeRadius(node, falloff) {
+    if (node.type === 'file') {
+      return CONFIG.FILE_SIZE;
     }
-    
-    if (depthValue < 0) {
-      return CONFIG.NODE_SIZE_MIN + 2;
-    }
-    
-    if (depthValue === 0) {
-      return CONFIG.NODE_SIZE_ROOT;
-    }
-    
-    const radius = CONFIG.NODE_SIZE_ROOT * Math.pow(falloff, depthValue);
-    return Math.max(radius, CONFIG.NODE_SIZE_MIN);
+    return computeFolderRadius(node.depth || 0, falloff);
   }
 
-  function isAssemblyNode(node) {
-    return (node.uses_count || 0) > 0;
-  }
-
-  function isRootNode(node, depthValue) {
-    return depthValue === 0 && (node.uses_count || 0) > 0;
-  }
-
-  function isOrphanNode(node) {
-    return ((node.uses_count || 0) + (node.used_in_count || 0)) === 0;
-  }
-
-  function getNodeColor(node, depthValue) {
-    if (isOrphanNode(node)) {
-      return '#555555';
-    }
-    if (isRootNode(node, depthValue)) {
+  function getNodeColor(node) {
+    if (node.type === 'folder') {
       return '#d4a017';
-    }
-    if (isAssemblyNode(node)) {
-      return '#c49515';
     }
     return '#e07020';
   }
 
-  function getNodeBorderColor(node, depthValue) {
-    if (isOrphanNode(node)) {
-      return '#444444';
-    }
-    if (isRootNode(node, depthValue)) {
-      return '#ffcc00';
-    }
-    if (isAssemblyNode(node)) {
+  function getNodeBorderColor(node) {
+    if (node.type === 'folder') {
       return '#a67c00';
     }
     return '#b05010';
@@ -311,14 +195,6 @@
       nodes = _nodes;
     };
     
-    force.margin = function(_) {
-      return arguments.length ? (margin = _, force) : margin;
-    };
-    
-    force.strength = function(_) {
-      return arguments.length ? (strength = _, force) : strength;
-    };
-    
     return force;
   }
 
@@ -327,22 +203,22 @@
     canvasWidth = container.clientWidth;
     canvasHeight = container.clientHeight;
 
-    const { depth, maxDepth: maxD } = computeDepthFromRoots(data.nodes, data.edges);
-    maxDepth = maxD;
-
-    nodes = data.nodes.map(n => {
-      const d = depth.get(n.id);
-      return {
-        ...n,
-        depth: d,
-        radius: computeNodeRadius(n, d, settings.sizeFalloff),
-        isAssembly: isAssemblyNode(n),
-        isRoot: isRootNode(n, d),
-        isOrphan: isOrphanNode(n),
-        x: canvasWidth / 2 + (Math.random() - 0.5) * 200,
-        y: canvasHeight / 2 + (Math.random() - 0.5) * 200
-      };
+    maxFolderDepth = 0;
+    data.nodes.forEach(n => {
+      if (n.type === 'folder' && (n.depth || 0) > maxFolderDepth) {
+        maxFolderDepth = n.depth;
+      }
     });
+
+    nodes = data.nodes.map(n => ({
+      ...n,
+      radius: computeNodeRadius(n, settings.sizeFalloff),
+      isFolder: n.type === 'folder',
+      isFile: n.type === 'file',
+      isRoot: n.depth === 0 && n.type === 'folder',
+      x: canvasWidth / 2 + (Math.random() - 0.5) * 300,
+      y: canvasHeight / 2 + (Math.random() - 0.5) * 300
+    }));
 
     const nodeById = new Map(nodes.map(n => [n.id, n]));
 
@@ -391,7 +267,7 @@
       .join('line')
       .attr('stroke', '#2a4a6a')
       .attr('stroke-width', 1)
-      .attr('stroke-opacity', 0.6);
+      .attr('stroke-opacity', 0.5);
 
     nodeElements = g.append('g')
       .attr('class', 'nodes')
@@ -399,9 +275,9 @@
       .data(nodes)
       .join('circle')
       .attr('r', d => d.radius)
-      .attr('fill', d => getNodeColor(d, d.depth))
-      .attr('stroke', d => getNodeBorderColor(d, d.depth))
-      .attr('stroke-width', d => d.isRoot ? 2 : 1.5)
+      .attr('fill', d => getNodeColor(d))
+      .attr('stroke', d => getNodeBorderColor(d))
+      .attr('stroke-width', d => d.isRoot ? 2 : 1)
       .attr('cursor', 'pointer')
       .on('mouseover', handleNodeMouseOver)
       .on('mouseout', handleNodeMouseOut)
@@ -416,12 +292,12 @@
       .selectAll('text')
       .data(nodes)
       .join('text')
-      .text(d => d.id)
-      .attr('font-size', 10)
+      .text(d => d.name || d.id)
+      .attr('font-size', 9)
       .attr('font-family', 'JetBrains Mono, Consolas, monospace')
       .attr('fill', '#e0e0e0')
       .attr('text-anchor', 'middle')
-      .attr('dy', d => d.radius + 12)
+      .attr('dy', d => d.radius + 10)
       .attr('pointer-events', 'none')
       .attr('opacity', 0);
 
@@ -445,18 +321,16 @@
       .alphaDecay(0.005)
       .on('tick', ticked);
 
-    applyFilters();
-
     window.addEventListener('resize', handleResize);
   }
 
   function updateNodeSizes() {
     nodes.forEach(n => {
-      n.radius = computeNodeRadius(n, n.depth, settings.sizeFalloff);
+      n.radius = computeNodeRadius(n, settings.sizeFalloff);
     });
     
     nodeElements.attr('r', d => d.radius);
-    labelElements.attr('dy', d => d.radius + 12);
+    labelElements.attr('dy', d => d.radius + 10);
     
     simulation.force('collide').radius(d => d.radius + settings.collideRadius);
     simulation.alpha(0.3).restart();
@@ -498,7 +372,7 @@
   function handleNodeMouseOver(event, d) {
     d3.select(event.target)
       .attr('filter', 'url(#glow)')
-      .attr('stroke-width', d.isRoot ? 3 : 2.5);
+      .attr('stroke-width', d.isRoot ? 3 : 2);
 
     labelElements
       .filter(n => n.id === d.id)
@@ -506,7 +380,7 @@
 
     linkElements
       .attr('stroke-opacity', l => 
-        (l.source.id === d.id || l.target.id === d.id) ? 1 : 0.15)
+        (l.source.id === d.id || l.target.id === d.id) ? 1 : 0.1)
       .attr('stroke-width', l => 
         (l.source.id === d.id || l.target.id === d.id) ? 2 : 1);
 
@@ -516,21 +390,21 @@
         const connected = links.some(l => 
           (l.source.id === d.id && l.target.id === n.id) ||
           (l.target.id === d.id && l.source.id === n.id));
-        return connected ? 1 : 0.3;
+        return connected ? 1 : 0.25;
       });
   }
 
   function handleNodeMouseOut(event, d) {
     d3.select(event.target)
       .attr('filter', null)
-      .attr('stroke-width', d.isRoot ? 2 : 1.5);
+      .attr('stroke-width', d.isRoot ? 2 : 1);
 
     labelElements
       .filter(n => n.id === d.id)
       .attr('opacity', 0);
 
     linkElements
-      .attr('stroke-opacity', 0.6)
+      .attr('stroke-opacity', 0.5)
       .attr('stroke-width', 1);
 
     nodeElements
@@ -554,22 +428,11 @@
   }
 
   function bindControls() {
-    const showOrphans = document.getElementById('show-orphans');
     const nodeSearch = document.getElementById('node-search');
     const hopCount = document.getElementById('hop-count');
-    const projectFilter = document.getElementById('project-filter');
     const btnReset = document.getElementById('btn-reset');
     const btnFit = document.getElementById('btn-fit');
     const panelClose = document.getElementById('panel-close');
-
-    if (showOrphans) {
-      showOrphans.checked = settings.showOrphans;
-      showOrphans.addEventListener('change', () => {
-        settings.showOrphans = showOrphans.checked;
-        saveSettings();
-        applyFilters();
-      });
-    }
 
     if (nodeSearch) {
       let debounce = null;
@@ -587,14 +450,6 @@
 
     if (hopCount) {
       hopCount.addEventListener('change', applySearch);
-    }
-
-    if (projectFilter) {
-      projectFilter.addEventListener('change', () => {
-        settings.projectFilter = projectFilter.value;
-        saveSettings();
-        applyFilters();
-      });
     }
 
     if (btnReset) {
@@ -722,36 +577,6 @@
     updateNodeSizes();
   }
 
-  function applyFilters() {
-    const showOrphans = settings.showOrphans;
-    const projectFilter = settings.projectFilter;
-
-    const visibleNodes = new Set();
-    nodes.forEach(node => {
-      const degree = (node.uses_count || 0) + (node.used_in_count || 0);
-      let visible = true;
-
-      if (!showOrphans && degree === 0) {
-        visible = false;
-      }
-
-      if (projectFilter && node.project !== projectFilter) {
-        visible = false;
-      }
-
-      if (visible) {
-        visibleNodes.add(node.id);
-      }
-    });
-
-    nodeElements.attr('display', d => visibleNodes.has(d.id) ? null : 'none');
-    labelElements.attr('display', d => visibleNodes.has(d.id) ? null : 'none');
-    linkElements.attr('display', d => 
-      (visibleNodes.has(d.source.id) && visibleNodes.has(d.target.id)) ? null : 'none');
-
-    updateStats();
-  }
-
   function applySearch() {
     const searchInput = document.getElementById('node-search');
     const hopInput = document.getElementById('hop-count');
@@ -760,20 +585,21 @@
 
     if (!searchTerm) {
       nodeElements.attr('opacity', 1);
-      linkElements.attr('stroke-opacity', 0.6);
-      applyFilters();
+      linkElements.attr('stroke-opacity', 0.5);
       return;
     }
 
     const matches = new Set();
     nodes.forEach(n => {
-      if (n.id.toLowerCase().includes(searchTerm)) {
+      const searchIn = (n.name || n.id).toLowerCase();
+      if (searchIn.includes(searchTerm)) {
         matches.add(n.id);
       }
     });
 
     if (matches.size === 0) {
-      applyFilters();
+      nodeElements.attr('opacity', 1);
+      linkElements.attr('stroke-opacity', 0.5);
       return;
     }
 
@@ -794,7 +620,7 @@
     nodeElements.attr('opacity', d => {
       if (matches.has(d.id)) return 1;
       if (neighborhood.has(d.id)) return 0.8;
-      return 0.15;
+      return 0.1;
     });
 
     linkElements.attr('stroke-opacity', l => {
@@ -837,12 +663,10 @@
     let minY = Infinity, maxY = -Infinity;
     
     nodes.forEach(n => {
-      if (nodeElements.filter(d => d.id === n.id).attr('display') !== 'none') {
-        minX = Math.min(minX, n.x - n.radius);
-        maxX = Math.max(maxX, n.x + n.radius);
-        minY = Math.min(minY, n.y - n.radius);
-        maxY = Math.max(maxY, n.y + n.radius);
-      }
+      minX = Math.min(minX, n.x - n.radius);
+      maxX = Math.max(maxX, n.x + n.radius);
+      minY = Math.min(minY, n.y - n.radius);
+      maxY = Math.max(maxY, n.y + n.radius);
     });
 
     if (minX === Infinity) return;
@@ -873,24 +697,13 @@
   function resetView() {
     const searchInput = document.getElementById('node-search');
     const hopInput = document.getElementById('hop-count');
-    const projectFilter = document.getElementById('project-filter');
-    const showOrphans = document.getElementById('show-orphans');
 
     if (searchInput) searchInput.value = '';
     if (hopInput) hopInput.value = '1';
-    if (projectFilter) {
-      projectFilter.value = '';
-      settings.projectFilter = '';
-    }
-    if (showOrphans) {
-      showOrphans.checked = false;
-      settings.showOrphans = false;
-    }
     saveSettings();
 
     nodeElements.attr('opacity', 1);
-    linkElements.attr('stroke-opacity', 0.6);
-    applyFilters();
+    linkElements.attr('stroke-opacity', 0.5);
     fitView();
     hideNodePanel();
   }
@@ -899,45 +712,39 @@
     const panel = document.getElementById('node-panel');
     if (!panel) return;
 
-    document.getElementById('panel-name').textContent = d.id;
-    document.getElementById('panel-project').textContent = d.project || '—';
-    document.getElementById('panel-path').textContent = d.path || '—';
+    const nameEl = document.getElementById('panel-name');
+    if (nameEl) nameEl.textContent = d.name || d.id;
+    
+    const pathEl = document.getElementById('panel-path');
+    if (pathEl) pathEl.textContent = d.id || '—';
     
     const depthEl = document.getElementById('panel-depth');
     if (depthEl) {
-      if (d.isOrphan) {
-        depthEl.textContent = 'Orphan';
-      } else if (d.depth < 0) {
-        depthEl.textContent = 'Disconnected';
-      } else {
-        depthEl.textContent = d.depth + (d.isRoot ? ' (root)' : '');
-      }
+      depthEl.textContent = d.depth !== undefined ? d.depth : '—';
+    }
+    
+    const childrenEl = document.getElementById('panel-children');
+    if (childrenEl) {
+      childrenEl.textContent = d.children_count !== undefined ? d.children_count : '—';
     }
     
     const linkEl = document.getElementById('panel-shortlink');
-    if (d.shortlink) {
-      linkEl.innerHTML = '<a href="' + d.shortlink + '" target="_blank" rel="noopener">' + 
-        d.shortlink + '</a>';
-    } else {
-      linkEl.textContent = '—';
+    if (linkEl) {
+      if (d.shortlink) {
+        linkEl.innerHTML = '<a href="' + d.shortlink + '" target="_blank" rel="noopener">' + 
+          d.shortlink + '</a>';
+      } else {
+        linkEl.textContent = '—';
+      }
     }
-
-    document.getElementById('panel-uses').textContent = d.uses_count || 0;
-    document.getElementById('panel-used-in').textContent = d.used_in_count || 0;
 
     const typeEl = document.getElementById('panel-type');
     if (typeEl) {
-      if (d.isOrphan) {
-        typeEl.textContent = 'Orphan';
-        typeEl.style.color = '#555555';
-      } else if (d.isRoot) {
-        typeEl.textContent = 'Root Assembly';
+      if (d.type === 'folder') {
+        typeEl.textContent = 'Folder';
         typeEl.style.color = '#d4a017';
-      } else if (d.isAssembly) {
-        typeEl.textContent = 'Assembly';
-        typeEl.style.color = '#c49515';
       } else {
-        typeEl.textContent = 'Part';
+        typeEl.textContent = 'File';
         typeEl.style.color = '#e07020';
       }
     }
@@ -954,26 +761,11 @@
     const statsEl = document.getElementById('graph-stats');
     if (!statsEl) return;
 
-    let visibleNodes = 0;
-    let visibleEdges = 0;
+    const folderCount = nodes.filter(n => n.type === 'folder').length;
+    const fileCount = nodes.filter(n => n.type === 'file').length;
+    const edgeCount = links.length;
 
-    nodeElements.each(function(d) {
-      if (d3.select(this).attr('display') !== 'none') visibleNodes++;
-    });
-
-    linkElements.each(function(d) {
-      if (d3.select(this).attr('display') !== 'none') visibleEdges++;
-    });
-
-    const totalNodes = nodes.length;
-    const totalEdges = links.length;
-
-    if (visibleNodes === totalNodes) {
-      statsEl.textContent = visibleNodes + ' nodes · ' + visibleEdges + ' edges';
-    } else {
-      statsEl.textContent = visibleNodes + '/' + totalNodes + ' nodes · ' + 
-        visibleEdges + '/' + totalEdges + ' edges';
-    }
+    statsEl.textContent = folderCount + ' folders · ' + fileCount + ' files · ' + edgeCount + ' edges';
   }
 
   if (document.readyState === 'loading') {
