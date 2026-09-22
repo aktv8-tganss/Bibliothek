@@ -16,6 +16,11 @@ article.md-content__inner { padding: 0 !important; }
   <div id="graph-loading">Loading graph data...</div>
   <div id="cy"></div>
   
+  <a id="home-link" href="../" title="Back to Bibliothek">
+    <span id="home-icon">◄</span>
+    <span id="home-label">Bibliothek</span>
+  </a>
+  
   <div id="graph-controls" class="expanded">
     <div id="controls-header">
       <span id="controls-title">Controls</span>
@@ -68,6 +73,11 @@ article.md-content__inner { padding: 0 !important; }
           <span class="slider-label">Damping</span>
           <input type="range" id="slider-decay" class="slider-input" min="0.2" max="0.7" step="0.05" value="0.4">
           <span class="slider-value" id="slider-decay-value">0.4</span>
+        </div>
+        <div class="slider-row">
+          <span class="slider-label">Size falloff</span>
+          <input type="range" id="slider-size-falloff" class="slider-input" min="0.5" max="0.95" step="0.05" value="0.7">
+          <span class="slider-value" id="slider-size-falloff-value">0.7</span>
         </div>
         <button class="control-btn" id="btn-reset-settings">Reset Forces</button>
       </div>

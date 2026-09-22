@@ -12,6 +12,7 @@
     linkDistance: 50,
     collideRadius: 15,
     velocityDecay: 0.4,
+    sizeFalloff: 0.7,
     showOrphans: false,
     projectFilter: '',
     controlsCollapsed: false
@@ -35,9 +36,9 @@
   let maxDepth = 1;
 
   const CONFIG = {
-    NODE_SIZE_MIN: 5,
-    NODE_SIZE_MAX: 28,
-    NODE_SIZE_ORPHAN: 4,
+    NODE_SIZE_ROOT: 26,
+    NODE_SIZE_MIN: 3,
+    NODE_SIZE_ORPHAN: 3,
     ZOOM_MIN: 0.1,
     ZOOM_MAX: 4
   };
@@ -222,22 +223,23 @@
     return { depth, maxDepth: maxD };
   }
 
-  function computeNodeRadius(node, depthValue, maxD) {
+  function computeNodeRadius(node, depthValue, falloff) {
     const degree = (node.uses_count || 0) + (node.used_in_count || 0);
     
     if (degree === 0) {
       return CONFIG.NODE_SIZE_ORPHAN;
     }
     
-    if (depthValue < 0 || maxD === 0) {
-      const scale = Math.log2(degree + 1) / Math.log2(30);
-      return CONFIG.NODE_SIZE_MIN + 
-        Math.min(scale, 1) * (CONFIG.NODE_SIZE_MAX - CONFIG.NODE_SIZE_MIN) * 0.5;
+    if (depthValue < 0) {
+      return CONFIG.NODE_SIZE_MIN + 2;
     }
     
-    const depthRatio = 1 - (depthValue / maxD);
-    return CONFIG.NODE_SIZE_MIN + 
-      depthRatio * (CONFIG.NODE_SIZE_MAX - CONFIG.NODE_SIZE_MIN);
+    if (depthValue === 0) {
+      return CONFIG.NODE_SIZE_ROOT;
+    }
+    
+    const radius = CONFIG.NODE_SIZE_ROOT * Math.pow(falloff, depthValue);
+    return Math.max(radius, CONFIG.NODE_SIZE_MIN);
   }
 
   function isAssemblyNode(node) {
@@ -333,7 +335,7 @@
       return {
         ...n,
         depth: d,
-        radius: computeNodeRadius(n, d, maxD),
+        radius: computeNodeRadius(n, d, settings.sizeFalloff),
         isAssembly: isAssemblyNode(n),
         isRoot: isRootNode(n, d),
         isOrphan: isOrphanNode(n),
@@ -446,6 +448,18 @@
     applyFilters();
 
     window.addEventListener('resize', handleResize);
+  }
+
+  function updateNodeSizes() {
+    nodes.forEach(n => {
+      n.radius = computeNodeRadius(n, n.depth, settings.sizeFalloff);
+    });
+    
+    nodeElements.attr('r', d => d.radius);
+    labelElements.attr('dy', d => d.radius + 12);
+    
+    simulation.force('collide').radius(d => d.radius + settings.collideRadius);
+    simulation.alpha(0.3).restart();
   }
 
   function ticked() {
@@ -641,6 +655,10 @@
       simulation.alpha(0.3).restart();
     });
 
+    bindSlider('slider-size-falloff', 'sizeFalloff', val => {
+      updateNodeSizes();
+    });
+
     const btnResetSettings = document.getElementById('btn-reset-settings');
     if (btnResetSettings) {
       btnResetSettings.addEventListener('click', resetSettings);
@@ -686,6 +704,8 @@
     document.getElementById('slider-collide-value').textContent = settings.collideRadius;
     document.getElementById('slider-decay').value = settings.velocityDecay;
     document.getElementById('slider-decay-value').textContent = settings.velocityDecay;
+    document.getElementById('slider-size-falloff').value = settings.sizeFalloff;
+    document.getElementById('slider-size-falloff-value').textContent = settings.sizeFalloff;
 
     const container = document.getElementById('cy');
     canvasWidth = container.clientWidth;
@@ -698,7 +718,8 @@
     simulation.force('collide').radius(d => d.radius + settings.collideRadius);
     simulation.force('boundary', forceBoundary(50, 0.3));
     simulation.velocityDecay(settings.velocityDecay);
-    simulation.alpha(0.5).restart();
+    
+    updateNodeSizes();
   }
 
   function applyFilters() {
