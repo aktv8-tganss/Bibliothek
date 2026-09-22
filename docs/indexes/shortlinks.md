@@ -264,7 +264,29 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Samsung_T37F](../designs/a-0026-itm/orthrus/ots-parts/elec/samsung-t37f.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4iXW0PA](https://a360.co/4iXW0PA) |
 | [USB-2637](../designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4ipqppZ](https://a360.co/4ipqppZ) |
 | [Motor Control PCBA](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-control-pcba.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4y1iqUT](https://a360.co/4y1iqUT) |
+| [Fieldmann Ratchet Handle](../designs/a-0026-itm/asm-tooling/ots-parts/fieldmann-ratchet-handle.md) | `A-0026 iTM / ASM TOOLING / OTS Parts` | [a360.co/4dbpkhU](https://a360.co/4dbpkhU) |
+| [4 inch Drill Press Vice](../designs/a-0026-itm/asm-tooling/ots-parts/4-inch-drill-press-vice.md) | `A-0026 iTM / ASM TOOLING / OTS Parts` | [a360.co/4dvGCGA](https://a360.co/4dvGCGA) |
+| [STORAGE TOTE-14GAL](../designs/a-0026-itm/asm-tooling/ots-parts/storage-tote-14gal.md) | `A-0026 iTM / ASM TOOLING / OTS Parts` | [a360.co/4Aa5ltN](https://a360.co/4Aa5ltN) |
+| [Tee Body Solid](../designs/a-0026-itm/parts/tee-body-solid.md) | `A-0026 iTM / PARTS` | [a360.co/3Vqr3tz](https://a360.co/3Vqr3tz) |
+| [2X2 CYLINDER](../designs/a-0026-itm/asm-tooling-sow1/comps/2x2-cylinder.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4yzAHIR](https://a360.co/4yzAHIR) |
+| [5x5x2.5 enclosure](../designs/a-0026-itm/asm-tooling-sow1/comps/5x5x2-5-enclosure.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4ijPFOi](https://a360.co/4ijPFOi) |
+| [Bench](../designs/a-0026-itm/asm-tooling-sow1/comps/bench.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/3SVtSlO](https://a360.co/3SVtSlO) |
+| [Leg](../designs/a-0026-itm/asm-tooling-sow1/comps/leg.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4A8hPSD](https://a360.co/4A8hPSD) |
+| [Mounting rail 1 (SOW1)](../designs/a-0026-itm/asm-tooling-sow1/comps/mounting-rail-1-sow1.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4h7kPGr](https://a360.co/4h7kPGr) |
+| [Shelf](../designs/a-0026-itm/asm-tooling-sow1/comps/shelf.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/46V2GGY](https://a360.co/46V2GGY) |
+| [Zange_kpl](../designs/a-0026-itm/asm-tooling-sow1/comps/zange-kpl.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4rccpSS](https://a360.co/4rccpSS) |
+| [Dropper (SOW1)](../designs/a-0026-itm/asm-tooling-sow1/comps/dropper-sow1.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4d0TcO2](https://a360.co/4d0TcO2) |
+| [Hose Cutter (SOW1)](../designs/a-0026-itm/asm-tooling-sow1/comps/hose-cutter-sow1.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4AH97LI](https://a360.co/4AH97LI) |
+| [KV2L07-34S (SOW1)](../designs/a-0026-itm/asm-tooling-sow1/comps/kv2l07-34s-sow1.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4AsWWls](https://a360.co/4AsWWls) |
+| [KV2L07-35S](../designs/a-0026-itm/asm-tooling-sow1/comps/kv2l07-35s.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4iHZG8f](https://a360.co/4iHZG8f) |
+| [LUBER (SOW1)](../designs/a-0026-itm/asm-tooling-sow1/comps/luber-sow1.md) | `A-0026 iTM / ASM TOOLING SOW1 / COMPS` | [a360.co/4iJ3Nks](https://a360.co/4iJ3Nks) |
+| [GIGADAQ](../designs/a-0026-itm/orthrus/ots-parts/gigadaq.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | [a360.co/3VaY113](https://a360.co/3VaY113) |
+| [Spacer (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/spacer.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | [a360.co/46mgsSP](https://a360.co/46mgsSP) |
+| [HCSD-20-D-02.50-01-N](../designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md) | `A-0026 iTM / ORTHRUS / ELEC` | [a360.co/4r5A4Ee](https://a360.co/4r5A4Ee) |
+| [655-1203-104F](../designs/a-0026-itm/plt/655-1203-104f.md) | `A-0026 iTM / PLT` | [a360.co/4xwgW3X](https://a360.co/4xwgW3X) |
+| [CG-U3MINI7PH_Model3D_JWV1 (PLT)](../designs/a-0026-itm/plt/comps/cg-u3mini7ph-model3d-jwv1-plt.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4hscY7z](https://a360.co/4hscY7z) |
+| [HDMI Passthru](../designs/a-0026-itm/plt/comps/hdmi-passthru.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4yxPfbL](https://a360.co/4yxPfbL) |
 
 ---
 
-*260 designs indexed.*
+*282 designs indexed.*
