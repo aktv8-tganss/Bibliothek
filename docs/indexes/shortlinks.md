@@ -286,7 +286,23 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [655-1203-104F](../designs/a-0026-itm/plt/655-1203-104f.md) | `A-0026 iTM / PLT` | [a360.co/4xwgW3X](https://a360.co/4xwgW3X) |
 | [CG-U3MINI7PH_Model3D_JWV1 (PLT)](../designs/a-0026-itm/plt/comps/cg-u3mini7ph-model3d-jwv1-plt.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4hscY7z](https://a360.co/4hscY7z) |
 | [HDMI Passthru](../designs/a-0026-itm/plt/comps/hdmi-passthru.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4yxPfbL](https://a360.co/4yxPfbL) |
+| [.5G V Tanjk](../designs/a-0026-itm/orthrus/ots-parts/pneu/dot5g-v-tanjk.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/3SVEhxR](https://a360.co/3SVEhxR) |
+| [19V Adapter (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/19v-adapter.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/3SHDjFr](https://a360.co/3SHDjFr) |
+| [Arduino_Uno_w/Shield (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/arduino-uno-w-shield.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4xrXuFv](https://a360.co/4xrXuFv) |
+| [NUC8ixBEH-Chassis (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/nuc8ixbeh-chassis.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4gPLPvf](https://a360.co/4gPLPvf) |
+| [Motor Controller (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-controller.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4xkYqLQ](https://a360.co/4xkYqLQ) |
+| [Wire Channel](../designs/a-0026-itm/orthrus/ots-parts/elec/wire-channel.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / ELEC` | [a360.co/4xMAodH](https://a360.co/4xMAodH) |
+| [Flow Control Valve](../designs/a-0026-itm/orthrus/ots-parts/pneu/flow-control-valve.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4dgG1Zl](https://a360.co/4dgG1Zl) |
+| [Mini Regulator (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/pneu/mini-regulator.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4xIzLkG](https://a360.co/4xIzLkG) |
+| [New Valve (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/pneu/new-valve.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/3V7sixP](https://a360.co/3V7sixP) |
+| [KV2E07-35](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2e07-35.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4d1AVAd](https://a360.co/4d1AVAd) |
+| [KV2H07-34S (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/kv2h07-34s.md) | `A-0026 iTM / ORTHRUS / OTS PARTS` | [a360.co/4rv07VQ](https://a360.co/4rv07VQ) |
+| [KV2H07-35S](../designs/a-0026-itm/orthrus/ots-parts/pneu/kv2h07-35s.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4rnQpnY](https://a360.co/4rnQpnY) |
+| [PLT VALVE ASSY](../designs/a-0026-itm/orthrus/ots-parts/pneu/plt-valve-assy.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/4h4mDQu](https://a360.co/4h4mDQu) |
+| [PTC Tee](../designs/a-0026-itm/orthrus/ots-parts/pneu/ptc-tee.md) | `A-0026 iTM / ORTHRUS / OTS PARTS / PNEU` | [a360.co/3VaZd4x](https://a360.co/3VaZd4x) |
+| [1208LS](../designs/a-0026-itm/plt/comps/1208ls.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4A8wcq5](https://a360.co/4A8wcq5) |
+| [Screen (PLT)](../designs/a-0026-itm/plt/comps/screen.md) | `A-0026 iTM / PLT / COMPS` | [a360.co/4yBQQxx](https://a360.co/4yBQQxx) |
 
 ---
 
-*282 designs indexed.*
+*298 designs indexed.*

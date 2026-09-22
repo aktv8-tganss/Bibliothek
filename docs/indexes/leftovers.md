@@ -373,15 +373,51 @@ All 22 designs from batch 017 were successfully indexed:
 21. ✓ CG-U3MINI7PH_Model3D_JWV1 (PLT)
 22. ✓ HDMI Passthru
 
+### Batch 018
+
+All 16 designs from batch 018 were successfully indexed:
+
+1. ✓ .5G V Tanjk
+2. ✓ 19V Adapter (ORTHRUS)
+3. ✓ Arduino_Uno_w/Shield (ORTHRUS)
+4. ✓ NUC8ixBEH-Chassis (ORTHRUS)
+5. ✓ Motor Controller (ORTHRUS)
+6. ✓ Wire Channel
+7. ✓ Flow Control Valve
+8. ✓ Mini Regulator (ORTHRUS)
+9. ✓ New Valve (ORTHRUS)
+10. ✓ KV2E07-35
+11. ✓ KV2H07-34S (ORTHRUS)
+12. ✓ KV2H07-35S
+13. ✓ PLT VALVE ASSY
+14. ✓ PTC Tee
+15. ✓ 1208LS
+16. ✓ Screen (PLT)
+
 ---
 
-## A-0026 iTM Remaining (After Batch 017)
+## A-0026 iTM Remaining (After Batch 018)
 
-!!! success "Key ASM TOOLING/SOW1 COMPS + ORTHRUS + PLT Harvested"
-    Batch 017 adds SOW1 COMPS (12 designs), ASM TOOLING/OTS Parts (3 designs), ORTHRUS items including GIGADAQ, and PLT/COMPS. Status: **MORE_REMAIN**.
+!!! success "ORTHRUS PNEU/ELEC + PLT COMPS Harvested"
+    Batch 018 adds ORTHRUS / OTS PARTS / PNEU (8 designs), ORTHRUS / OTS PARTS / ELEC (5 designs), ORTHRUS / OTS PARTS root (1 design), and PLT / COMPS (2 designs). Status: **MORE_REMAIN**.
 
 !!! warning "A-0026 NOT Complete"
-    Despite extensive harvesting through batch 017, A-0026 iTM still contains unharvested designs in multiple subfolders.
+    Despite extensive harvesting through batch 018, A-0026 iTM still contains unharvested designs in multiple subfolders.
+
+### GIGADAQ children (resolve to A-9999 Lab / PARTS — out of A-0026 scope this ticket)
+- NANUK_935_Bottom Shell_INNER SURFS_Step
+- NANUK_935_Top Shell_INNER SURFS_Step
+- 12V PSU
+- Gigadaq Mounting
+
+### ORTHRUS PNEU still open (examples)
+- 100CP8-2A, KV2E07-00, 1/4 fittings family, etc.
+
+### ORTHRUS ELEC still open
+- ERB24, C14 Plug, 3.5mm TRS, 12V, 46993-0420, ORTHRUS WCONFIG - Mounting rail 1, connectors, keyboard
+
+### PLT COMPS still open
+- 1590U, GCX3105, Random Assy, USB231, DC11, ERB24, USB, 12V, 19V Adapter, 925 STEP surfaces, KV2*, c-* connectors, PLT VALVE ASSY if distinct shortlink
 
 ### Phantoms / not found this pass
 - Tee Leak Fixture
@@ -389,25 +425,7 @@ All 22 designs from batch 017 were successfully indexed:
 - BRINGSMART MOTOR
 - 2x8, 2x6, 7x72, 688 Press, Support/Seal/605 Press
 
-### ORTHRUS / OTS PARTS / PNEU (remaining)
-- .5G V Tanjk, 1/4 1/8 NPT M Reducer, 1/4 NPT Double Bulkhead, 1/4 NPT M Nipple, 1/4 NPT Muffler, 1/4 NPT Street Tee
-- 100CP8-2A, 3way Solenoid, Flow Control Exhaust, Flow Control Valve, KV2E07-00, KV2E07-35, KV2H07-34S, KV2H07-35S
-- Mini Regulator, New Valve, PLT VALVE ASSY, PTC Tee
-
-### ORTHRUS / OTS PARTS / ELEC (remaining)
-- 12V, 19V Adapter, 3.5mm TRS, 46993-0420, Arduino_Uno_w/Shield, C14 Plug, ERB24, Motor Controller
-- NUC8ixBEH-Chassis, ORTHRUS WCONFIG - Mounting rail 1, Wire Channel
-- c-1set411014r0000-a-3d, c-1set411202r0000-a-3d, c-206061-1-ad-3d, c-2416050-5-a1-3d, keyboard
-
-### PLT / COMPS (remaining)
-- 1208LS, 12V, 1590U, 19V Adapter, 925_R1_Btm_INNER_SURFACE_STEP, 925_R1_Top_INNER_SURFACE_STEP, USB, DC11, ERB24
-- GCX3105, KV2E07-00, KV2H07-36S, KV2L07-99, PLT VALVE ASSY, Random Assy, Screen, USB231
-- c-206060-1-k-3d, c-206061-1-ad-3d, c-206358-5-n-3d
-
-### GIGADAQ children (not harvested)
-- NANUK_935_Bottom/Top Shell STEP, 12V PSU, Gigadaq Mounting
-
 ### Jake Print Copys
 - Piston Attachments drawings skipped (880250–880270)
 
-*This summary was updated from the remaining-after-017 harvest manifest.*
+*This summary was updated from the remaining-after-018 harvest manifest.*

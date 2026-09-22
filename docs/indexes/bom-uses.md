@@ -72,6 +72,8 @@ Assemblies with non-empty component references (Uses).
 | [Thru Screw Terminal](../designs/a-0026-itm/taz-4/thru-screw-terminal.md) | 1 | [a360.co/4dwtdOv](https://a360.co/4dwtdOv) |
 | [Whirlpool Motor](../designs/a-0026-itm/taz-4/whirlpool-motor.md) | 2 | [a360.co/4rvEuVr](https://a360.co/4rvEuVr) |
 | [USB-2637](../designs/a-0026-itm/orthrus/ots-parts/elec/usb-2637.md) | 1 | [a360.co/4ipqppZ](https://a360.co/4ipqppZ) |
+| [PLT VALVE ASSY](../designs/a-0026-itm/orthrus/ots-parts/pneu/plt-valve-assy.md) | 2 | [a360.co/4h4mDQu](https://a360.co/4h4mDQu) |
+| [Motor Controller (ORTHRUS)](../designs/a-0026-itm/orthrus/ots-parts/elec/motor-controller.md) | 1 | [a360.co/4xkYqLQ](https://a360.co/4xkYqLQ) |
 
 ---
 
@@ -799,6 +801,23 @@ The USB-2637 design references the following 1 component:
 
 ---
 
+## PLT VALVE ASSY — Bill of Materials
+
+The PLT VALVE ASSY assembly references the following 2 components:
+
+1. [Valve Assy](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/valve-assy.md)
+2. [KV2E07-34](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/kv2e07-34.md)
+
+---
+
+## Motor Controller (ORTHRUS) — Bill of Materials
+
+The Motor Controller (ORTHRUS) design references the following 1 component:
+
+1. [ENIGMA IV](../designs/a-0026-itm/enigma/enigma-iv.md)
+
+---
+
 ## Bench — Bill of Materials
 
 The Bench assembly references the following 1 component:
@@ -818,4 +837,4 @@ The GIGADAQ assembly references the following 4 components:
 
 ---
 
-*68 assemblies with BOM data indexed.*
+*70 assemblies with BOM data indexed.*
