@@ -1271,3 +1271,56 @@ All 22 designs from batch 034 were successfully indexed:
     Charlotte ticket 035 records the possibility that `NANUK_935_Bottom Shell_INNER SURFS_Step`, `NANUK_935_Top Shell_INNER SURFS_Step`, and `655-1203-104F` may have distinct Fusion designs under A-0047 TPMS / OTS Parts vs the previously-indexed A-9999 Lab / PARTS (NANUK shells) and A-0026 iTM / PLT (655-1203-104F). Shortlinks verified distinct; catalogued with `(TPMS)` suffix. Revisit if Autodesk metadata clarifies.
 
 *A-0047 TPMS harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*
+
+---
+
+## A-003 iLACM — Batch 035
+
+### Batch 035
+
+All 11 designs from batch 035 were successfully indexed:
+
+1. ✓ 0 Pin
+2. ✓ 2 Pin
+3. ✓ Gen1 PCB
+4. ✓ ICT Push Plate_iAir3 jdc
+5. ✓ ICT_TOP PLATE_iAir3 jdc — first of two same-name designs (`a360.co/3UHOKgU`)
+6. ✓ ICT_TOP PLATE_iAir3 jdc (2) — second of two same-name designs (`a360.co/4iJQHDn`)
+7. ✓ PAD POS - Film
+8. ✓ PCM
+9. ✓ PCT NEW
+10. ✓ Proc PCM
+11. ✓ iAIR3 Gen1 Flash Runner Bed
+
+### Disambiguation Notes (Batch 035)
+
+!!! tip "Dual ICT_TOP PLATE_iAir3 jdc"
+    Two designs in A-003 iLACM share the exact Fusion name `ICT_TOP PLATE_iAir3 jdc` but have **distinct shortlinks**:
+
+    - **ICT_TOP PLATE_iAir3 jdc** — `a360.co/3UHOKgU` → slug `ict-top-plate-iair3-jdc.md`
+    - **ICT_TOP PLATE_iAir3 jdc (2)** — `a360.co/4iJQHDn` → slug `ict-top-plate-iair3-jdc-2.md`
+
+    Both are indexed as separate pages.
+
+---
+
+## A-003 iLACM — COMPLETE for Bibliothek (2026-09-22)
+
+!!! success "A-003 iLACM Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes by Otto/Charlotte on 2026-09-22 after batch 035 (thin project; root inventory emptied in one pass). All 11 locatable Fusion designs with unique Share shortlinks have been indexed.
+
+### Covered
+
+- All 11 root designs under A-003 iLACM
+- PCT NEW Uses: Light Arcade Switch, Proc PCM
+- iAIR3 Gen1 Flash Runner Bed Uses: Gen1 PCB
+
+### Known debt (not blocking COMPLETE)
+
+!!! warning "Empty Design References"
+    Several leaf designs have empty Design References (0 Pin, ICT Push Plate, ICT_TOP PLATE pair, PAD POS - Film, PCM) — expected for thin/leaf designs.
+
+!!! warning "Light Arcade Switch external"
+    **Light Arcade Switch** referenced from PCT NEW is a catalog/OTS-like design outside `00 - Parts` — already indexed under A-9999 Lab (`a360.co/4cFCXWC`); not harvested as A-003 content.
+
+*A-003 iLACM harvest declared COMPLETE for Bibliothek by Otto/Charlotte, 2026-09-22.*

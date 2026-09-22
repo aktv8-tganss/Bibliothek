@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (596 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (105 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (607 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (107 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (244 total)
 
 ## Design Tree
@@ -21,6 +21,7 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 Browse designs by project folder:
 
 - **[00 - Parts](designs/00-parts/arduino/amplifier-board.md)** — standard and purchased components
+- **[A-003 iLACM](designs/a-003-ilacm/pct-new.md)** — iLACM project designs (11 designs)
 - **[A-0010 iAir6](designs/a-0010-iair6/cephalopod-2.md)** — iAir6 project designs
     - [A8 Parts](designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md) — A8 subfolder designs (12 designs)
     - [ALC Parts](designs/a-0010-iair6/alc-parts/height-arm.md) — ALC Parts designs (2 designs)
@@ -117,8 +118,9 @@ Browse designs by project folder:
 | 032 | 15 | A-0047 TPMS: OTS Parts (15) — all 15 are OTS migration candidates; OTS continues |
 | 033 | 31 | A-0047 TPMS: OTS Parts (31) — all 31 are OTS migration candidates; OTS continues |
 | 034 | 22 | A-0047 TPMS: OTS Parts (22) — all 22 are OTS migration candidates; **A-0047 COMPLETE** |
+| 035 | 11 | A-003 iLACM root (11) — product/root designs; includes dual ICT_TOP PLATE disambiguation; **A-003 COMPLETE** |
 
-**Total designs indexed: 596**
+**Total designs indexed: 607**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
@@ -128,6 +130,9 @@ Browse designs by project folder:
 
 !!! success "A-0047 TPMS COMPLETE for Bibliothek"
     A-0047 TPMS harvest declared COMPLETE by Otto on 2026-09-22 after batches 027–034. All 154 locatable Fusion designs with unique Share shortlinks have been indexed, including 73 OTS Parts (all migration candidates). Known debt: 2× NANUK shells + 655-1203-104F may have A-9999 Lab / A-0026 PLT twins with distinct shortlinks — catalogued with (TPMS) suffix; Charlotte ticket 035 tracking. See [leftovers index](indexes/leftovers.md) for details.
+
+!!! success "A-003 iLACM COMPLETE for Bibliothek"
+    A-003 iLACM harvest declared COMPLETE by Otto/Charlotte on 2026-09-22 after batch 035 (thin project; root inventory emptied in one pass). All 11 root designs indexed, including two distinct `ICT_TOP PLATE_iAir3 jdc` designs with different shortlinks. Known debt: several empty Design References leaves; Light Arcade Switch external (already in A-9999 Lab). See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 
