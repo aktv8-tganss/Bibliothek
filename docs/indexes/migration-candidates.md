@@ -67,6 +67,9 @@ A design is flagged when:
 | [Valve and sensor](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/valve-and-sensor.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | Outside `00 - Parts` (FFT Obs / Josh CAD) |
 | [box bottom](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | Outside `00 - Parts` (FFT Obs / Josh CAD) |
 | [box top](../designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-top.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Josh CAD` | Outside `00 - Parts` (FFT Obs / Josh CAD) |
+| [Adafruit Proto Shield](../designs/a-0026-itm/adafruit-proto-shield.md) | `A-0026 iTM` | OTS/catalog shield outside `00 - Parts` |
+| [Dremel](../designs/a-0026-itm/acropora/dremel.md) | `A-0026 iTM / ACROPORA` | OTS tool model outside `00 - Parts` |
+| [Shoulder Screw](../designs/a-0026-itm/acropora/shoulder-screw.md) | `A-0026 iTM / ACROPORA` | OTS hardware outside `00 - Parts` |
 
 ---
 
@@ -240,6 +243,29 @@ Batch 009 contains 24 designs under `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box`. Al
 - **box bottom** — Josh CAD design outside `00 - Parts`. **Migration candidate.**
 - **box top** — Josh CAD design outside `00 - Parts`. **Migration candidate.**
 
+### Assessment Notes (Batch 010)
+
+Batch 010 contains 15 designs under `A-0026 iTM`. 3 OTS migration candidates identified:
+
+- **Adafruit Proto Shield** — OTS/catalog shield in project root outside `00 - Parts`. **Migration candidate.**
+- **Dremel** — OTS tool model in ACROPORA folder outside `00 - Parts`. **Migration candidate.**
+- **Shoulder Screw** — OTS hardware in ACROPORA folder outside `00 - Parts`. **Migration candidate.**
+
+Non-candidates (product designs or custom parts):
+
+- **12010717** — Part number design. Not an OTS part.
+- **880251** — Root design (Uses PREFECT). Not an OTS part.
+- **880252** — Root design (Uses PREFECT). Not an OTS part.
+- **880253** — Root design (Uses PREFECT). Not an OTS part.
+- **880254** — Root design (Uses PREFECT). Not an OTS part.
+- **AEETES Ctrls** — Controls design. Not an OTS part.
+- **Circuit Housing For Million Miles** — Custom housing. Not an OTS part.
+- **Go Gage** — Gage design (Uses DESIATO 2). Not an OTS part.
+- **Hose Holder PSI** — Custom holder. Not an OTS part.
+- **Million Mile Power Supply Upper Mount** — Custom mount. Not an OTS part.
+- **Bur** — ACROPORA design (no OTS note). Not flagged.
+- **AEETES Asm** — Assembly design. Not an OTS part.
+
 ---
 
 ## Referenced OTS / Commodity (Not Yet Harvested as Pages)
@@ -262,4 +288,4 @@ The following items appear in Uses fields and appear to be off-the-shelf commodi
 
 ---
 
-*54 migration candidates identified (+24 in batch 009).*
+*57 migration candidates identified (+3 in batch 010).*

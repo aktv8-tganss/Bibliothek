@@ -168,3 +168,44 @@ All 24 designs from batch 009 were successfully indexed:
 22. ✓ c-206061-1-ad-3d
 23. ✓ c-206151-1-ag-3d
 24. ✓ c-dtp04-4p-le07-b-3d
+
+### Batch 010
+
+All 15 designs from batch 010 were successfully indexed:
+
+1. ✓ 12010717
+2. ✓ 880251
+3. ✓ 880252
+4. ✓ 880253
+5. ✓ 880254
+6. ✓ AEETES Ctrls
+7. ✓ Adafruit Proto Shield
+8. ✓ Circuit Housing For Million Miles
+9. ✓ Go Gage
+10. ✓ Hose Holder PSI
+11. ✓ Million Mile Power Supply Upper Mount
+12. ✓ Bur
+13. ✓ Dremel
+14. ✓ Shoulder Screw
+15. ✓ AEETES Asm
+
+---
+
+## A-0026 iTM Remaining (After Batch 010)
+
+Approximately **79 designs** remain unharvested in A-0026 iTM. Key areas include:
+
+- **AEETES** — ~25 designs (Base plates, Motor Adapters, Mounting Rails, etc.)
+- **ASM TOOLING** — ~5 designs (Hose/Stator cells, OTS Parts folder)
+- **ASM TOOLING SOW1** — ~12 designs (BOWERICK, COLIN, DESIATO, MARVIN, etc.)
+- **Alford** — Million Mile Power Supply Mount
+- **ENIGMA** — Dyno Assy, ENIGMA IV
+- **Jake - Print Copys** — 880280, Piston parts
+- **MTT03** — Torque Jig, IT03 variants
+- **ORTHRUS** — ORTHRUS design, OTS Parts
+- **PARTS** — Hose, Tee variants, Tube Bridge, Wheel End ASM
+- **PLT** — PLT HEAD variants, HOSE FIXTURE
+- **Rachel** — Carrier Stand, MARVIN OVERHAND, Taz variants
+- **TAZ 4** — Arduino, Motor Controller, TAZ Controller, etc.
+
+*This summary was generated from the remaining-after-010 harvest manifest.*

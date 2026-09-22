@@ -122,7 +122,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [c-206061-1-ad-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206061-1-ad-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hfFojT](https://a360.co/4hfFojT) |
 | [c-206151-1-ag-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-206151-1-ag-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/4hGof4h](https://a360.co/4hGof4h) |
 | [c-dtp04-4p-le07-b-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-dtp04-4p-le07-b-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/46sG8gI](https://a360.co/46sG8gI) |
+| [12010717](../designs/a-0026-itm/12010717.md) | `A-0026 iTM` | [a360.co/4iXwOZB](https://a360.co/4iXwOZB) |
+| [880251](../designs/a-0026-itm/880251.md) | `A-0026 iTM` | [a360.co/4Ar40yP](https://a360.co/4Ar40yP) |
+| [880252](../designs/a-0026-itm/880252.md) | `A-0026 iTM` | [a360.co/4gKdzkS](https://a360.co/4gKdzkS) |
+| [880253](../designs/a-0026-itm/880253.md) | `A-0026 iTM` | [a360.co/4xOkGyF](https://a360.co/4xOkGyF) |
+| [880254](../designs/a-0026-itm/880254.md) | `A-0026 iTM` | [a360.co/3SIoDG2](https://a360.co/3SIoDG2) |
+| [AEETES Ctrls](../designs/a-0026-itm/aeetes-ctrls.md) | `A-0026 iTM` | [a360.co/4h0DmUG](https://a360.co/4h0DmUG) |
+| [Adafruit Proto Shield](../designs/a-0026-itm/adafruit-proto-shield.md) | `A-0026 iTM` | [a360.co/4yqUPN5](https://a360.co/4yqUPN5) |
+| [Circuit Housing For Million Miles](../designs/a-0026-itm/circuit-housing-for-million-miles.md) | `A-0026 iTM` | [a360.co/4y07QNK](https://a360.co/4y07QNK) |
+| [Go Gage](../designs/a-0026-itm/go-gage.md) | `A-0026 iTM` | [a360.co/4xhyXmk](https://a360.co/4xhyXmk) |
+| [Hose Holder PSI](../designs/a-0026-itm/hose-holder-psi.md) | `A-0026 iTM` | [a360.co/4xOkr6V](https://a360.co/4xOkr6V) |
+| [Million Mile Power Supply Upper Mount](../designs/a-0026-itm/million-mile-power-supply-upper-mount.md) | `A-0026 iTM` | [a360.co/4h29vLI](https://a360.co/4h29vLI) |
+| [Bur](../designs/a-0026-itm/acropora/bur.md) | `A-0026 iTM / ACROPORA` | [a360.co/4A7m9Sf](https://a360.co/4A7m9Sf) |
+| [Dremel](../designs/a-0026-itm/acropora/dremel.md) | `A-0026 iTM / ACROPORA` | [a360.co/4cGH0BW](https://a360.co/4cGH0BW) |
+| [Shoulder Screw](../designs/a-0026-itm/acropora/shoulder-screw.md) | `A-0026 iTM / ACROPORA` | [a360.co/3TrpMSv](https://a360.co/3TrpMSv) |
+| [AEETES Asm](../designs/a-0026-itm/aeetes/aeetes-asm.md) | `A-0026 iTM / AEETES` | [a360.co/4AaaIZW](https://a360.co/4AaaIZW) |
 
 ---
 
-*118 designs indexed.*
+*133 designs indexed.*

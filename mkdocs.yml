@@ -180,6 +180,24 @@ nav:
         - PCB Sim: designs/a-0054-iair3-gen2/flash-runner/pcb-sim.md
         - PCBA Flash Expanded: designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md
         - Screen VESA: designs/a-0054-iair3-gen2/flash-runner/screen-vesa.md
+    - A-0026 iTM:
+      - "12010717": designs/a-0026-itm/12010717.md
+      - "880251": designs/a-0026-itm/880251.md
+      - "880252": designs/a-0026-itm/880252.md
+      - "880253": designs/a-0026-itm/880253.md
+      - "880254": designs/a-0026-itm/880254.md
+      - AEETES Ctrls: designs/a-0026-itm/aeetes-ctrls.md
+      - Adafruit Proto Shield: designs/a-0026-itm/adafruit-proto-shield.md
+      - Circuit Housing For Million Miles: designs/a-0026-itm/circuit-housing-for-million-miles.md
+      - Go Gage: designs/a-0026-itm/go-gage.md
+      - Hose Holder PSI: designs/a-0026-itm/hose-holder-psi.md
+      - Million Mile Power Supply Upper Mount: designs/a-0026-itm/million-mile-power-supply-upper-mount.md
+      - ACROPORA:
+        - Bur: designs/a-0026-itm/acropora/bur.md
+        - Dremel: designs/a-0026-itm/acropora/dremel.md
+        - Shoulder Screw: designs/a-0026-itm/acropora/shoulder-screw.md
+      - AEETES:
+        - AEETES Asm: designs/a-0026-itm/aeetes/aeetes-asm.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md
