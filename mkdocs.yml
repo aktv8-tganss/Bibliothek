@@ -237,6 +237,30 @@ nav:
           - 5V3A: designs/a-0026-itm/aeetes/ots-parts/5v3a.md
           - 67CP3220: designs/a-0026-itm/aeetes/ots-parts/67cp3220.md
           - ANMBEST 4-MOSFET: designs/a-0026-itm/aeetes/ots-parts/anmbest-4-mosfet.md
+          - ArduinoMega_STEP_AP203: designs/a-0026-itm/aeetes/ots-parts/arduinomega-step-ap203.md
+          - Cable Duct: designs/a-0026-itm/aeetes/ots-parts/cable-duct.md
+          - Compressor Motor: designs/a-0026-itm/aeetes/ots-parts/compressor-motor.md
+          - Compressor Screw: designs/a-0026-itm/aeetes/ots-parts/compressor-screw.md
+          - Flow Control Exhaust: designs/a-0026-itm/aeetes/ots-parts/flow-control-exhaust.md
+          - Flow Valve (Out): designs/a-0026-itm/aeetes/ots-parts/flow-valve-out.md
+          - Frame Screw: designs/a-0026-itm/aeetes/ots-parts/frame-screw.md
+          - H Cable Duct: designs/a-0026-itm/aeetes/ots-parts/h-cable-duct.md
+          - KV2H03-34S: designs/a-0026-itm/aeetes/ots-parts/kv2h03-34s.md
+          - KV2H07-34S: designs/a-0026-itm/aeetes/ots-parts/kv2h07-34s.md
+          - KV2L07-34S (AEETES): designs/a-0026-itm/aeetes/ots-parts/kv2l07-34s-aeetes.md
+          - KV2T07-34S (AEETES): designs/a-0026-itm/aeetes/ots-parts/kv2t07-34s-aeetes.md
+          - Mini Regulator: designs/a-0026-itm/aeetes/ots-parts/mini-regulator.md
+          - Moonfish Base 2: designs/a-0026-itm/aeetes/ots-parts/moonfish-base-2.md
+          - Mount Screw: designs/a-0026-itm/aeetes/ots-parts/mount-screw.md
+          - New Valve (AEETES): designs/a-0026-itm/aeetes/ots-parts/new-valve-aeetes.md
+          - Push Nut: designs/a-0026-itm/aeetes/ots-parts/push-nut.md
+          - Raspberry Pi: designs/a-0026-itm/aeetes/ots-parts/raspberry-pi.md
+          - Rubber Washer: designs/a-0026-itm/aeetes/ots-parts/rubber-washer.md
+          - Snap-in Nut: designs/a-0026-itm/aeetes/ots-parts/snap-in-nut.md
+          - Touchscreen: designs/a-0026-itm/aeetes/ots-parts/touchscreen.md
+          - USB-TC: designs/a-0026-itm/aeetes/ots-parts/usb-tc.md
+          - Untitled (AEETES OTS): designs/a-0026-itm/aeetes/ots-parts/untitled-aeetes.md
+          - V Cable Duct: designs/a-0026-itm/aeetes/ots-parts/v-cable-duct.md
       - Alford:
         - Million Mile Power Supply Mount: designs/a-0026-itm/alford/million-mile-power-supply-mount.md
       - ASM TOOLING:

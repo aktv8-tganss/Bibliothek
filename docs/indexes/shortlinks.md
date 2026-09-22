@@ -202,7 +202,31 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [5V3A](../designs/a-0026-itm/aeetes/ots-parts/5v3a.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/46SIMwl](https://a360.co/46SIMwl) |
 | [67CP3220](../designs/a-0026-itm/aeetes/ots-parts/67cp3220.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4iDNMfz](https://a360.co/4iDNMfz) |
 | [ANMBEST 4-MOSFET](../designs/a-0026-itm/aeetes/ots-parts/anmbest-4-mosfet.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/46RcyS7](https://a360.co/46RcyS7) |
+| [ArduinoMega_STEP_AP203](../designs/a-0026-itm/aeetes/ots-parts/arduinomega-step-ap203.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/3V9lrDY](https://a360.co/3V9lrDY) |
+| [Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/cable-duct.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/3V9sFb3](https://a360.co/3V9sFb3) |
+| [Compressor Motor](../designs/a-0026-itm/aeetes/ots-parts/compressor-motor.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4ditRzp](https://a360.co/4ditRzp) |
+| [Compressor Screw](../designs/a-0026-itm/aeetes/ots-parts/compressor-screw.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/46SNlXp](https://a360.co/46SNlXp) |
+| [Flow Control Exhaust](../designs/a-0026-itm/aeetes/ots-parts/flow-control-exhaust.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/46jgvPu](https://a360.co/46jgvPu) |
+| [Flow Valve (Out)](../designs/a-0026-itm/aeetes/ots-parts/flow-valve-out.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4yBwl40](https://a360.co/4yBwl40) |
+| [Frame Screw](../designs/a-0026-itm/aeetes/ots-parts/frame-screw.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4r9Eg66](https://a360.co/4r9Eg66) |
+| [H Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/h-cable-duct.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/46fJbZA](https://a360.co/46fJbZA) |
+| [KV2H03-34S](../designs/a-0026-itm/aeetes/ots-parts/kv2h03-34s.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4iDOv0h](https://a360.co/4iDOv0h) |
+| [KV2H07-34S](../designs/a-0026-itm/aeetes/ots-parts/kv2h07-34s.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4ySkNcF](https://a360.co/4ySkNcF) |
+| [KV2L07-34S (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/kv2l07-34s-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4As8Pbe](https://a360.co/4As8Pbe) |
+| [KV2T07-34S (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/kv2t07-34s-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4rsfyOu](https://a360.co/4rsfyOu) |
+| [Mini Regulator](../designs/a-0026-itm/aeetes/ots-parts/mini-regulator.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4hmBPIX](https://a360.co/4hmBPIX) |
+| [Moonfish Base 2](../designs/a-0026-itm/aeetes/ots-parts/moonfish-base-2.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4xerTH7](https://a360.co/4xerTH7) |
+| [Mount Screw](../designs/a-0026-itm/aeetes/ots-parts/mount-screw.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4ijMy94](https://a360.co/4ijMy94) |
+| [New Valve (AEETES)](../designs/a-0026-itm/aeetes/ots-parts/new-valve-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4cZPPXB](https://a360.co/4cZPPXB) |
+| [Push Nut](../designs/a-0026-itm/aeetes/ots-parts/push-nut.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/3UDQ6JA](https://a360.co/3UDQ6JA) |
+| [Raspberry Pi](../designs/a-0026-itm/aeetes/ots-parts/raspberry-pi.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4h7h4kd](https://a360.co/4h7h4kd) |
+| [Rubber Washer](../designs/a-0026-itm/aeetes/ots-parts/rubber-washer.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4r74W7n](https://a360.co/4r74W7n) |
+| [Snap-in Nut](../designs/a-0026-itm/aeetes/ots-parts/snap-in-nut.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4xlFf4E](https://a360.co/4xlFf4E) |
+| [Touchscreen](../designs/a-0026-itm/aeetes/ots-parts/touchscreen.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4A3qq9f](https://a360.co/4A3qq9f) |
+| [USB-TC](../designs/a-0026-itm/aeetes/ots-parts/usb-tc.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4h2Glfk](https://a360.co/4h2Glfk) |
+| [Untitled (AEETES OTS)](../designs/a-0026-itm/aeetes/ots-parts/untitled-aeetes.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4h4FYCm](https://a360.co/4h4FYCm) |
+| [V Cable Duct](../designs/a-0026-itm/aeetes/ots-parts/v-cable-duct.md) | `A-0026 iTM / AEETES / OTS Parts` | [a360.co/4razDc3](https://a360.co/4razDc3) |
 
 ---
 
-*198 designs indexed.*
+*222 designs indexed.*

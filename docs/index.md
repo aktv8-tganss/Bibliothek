@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (198 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (47 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (75 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (222 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (48 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (99 total)
 
 ## Design Tree
 
@@ -38,7 +38,7 @@ Browse designs by project folder:
 - **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (80 designs)
     - [ACROPORA](designs/a-0026-itm/acropora/acropora.md) — ACROPORA subfolder (4 designs, 3 migration candidates)
     - [AEETES](designs/a-0026-itm/aeetes/aeetes-asm.md) — AEETES subfolder (22 designs, 1 migration candidate)
-        - [OTS Parts](designs/a-0026-itm/aeetes/ots-parts/1.md) — AEETES OTS parts (16 designs, all migration candidates)
+        - [OTS Parts](designs/a-0026-itm/aeetes/ots-parts/1.md) — AEETES OTS parts (40 designs, all migration candidates)
     - [Alford](designs/a-0026-itm/alford/million-mile-power-supply-mount.md) — Alford subfolder (1 design)
     - [ASM TOOLING](designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md) — ASM TOOLING subfolder (2 designs)
     - [ASM TOOLING SOW1](designs/a-0026-itm/asm-tooling-sow1/hose-assembly-cell.md) — ASM TOOLING SOW1 subfolder (19 designs)
@@ -62,11 +62,12 @@ Browse designs by project folder:
 | 011 | 20 | A-0026 iTM: ACROPORA (1), AEETES (19) — 2 OTS migration candidates |
 | 012 | 29 | A-0026 iTM: ASM TOOLING SOW1 (19), ASM TOOLING (2), AEETES (2), Alford (1), ENIGMA (2), MTT03 (1), tooling/product assemblies — no OTS migration candidates |
 | 013 | 16 | A-0026 iTM: AEETES / OTS Parts (16) — all 16 are OTS migration candidates |
+| 014 | 24 | A-0026 iTM: AEETES / OTS Parts (24) — all 24 are OTS migration candidates; completes Priority A |
 
-**Total designs indexed: 198**
+**Total designs indexed: 222**
 
 !!! info "A-0026 iTM Remaining"
-    Approximately **93 designs** remain in A-0026 iTM after batch 013. See [leftovers index](indexes/leftovers.md) for details.
+    Approximately **69 designs** remain in A-0026 iTM after batch 014. AEETES / OTS Parts Priority A is complete. See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 

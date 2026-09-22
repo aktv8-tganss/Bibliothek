@@ -363,6 +363,35 @@ Batch 013 contains 16 designs under `A-0026 iTM / AEETES / OTS Parts`. All 16 ar
 - **67CP3220** — OTS part in project-specific folder. **Migration candidate.**
 - **ANMBEST 4-MOSFET** — OTS MOSFET board (related to 00 - Parts Amplifier Board). **Migration candidate.**
 
+### Assessment Notes (Batch 014)
+
+Batch 014 contains 24 designs under `A-0026 iTM / AEETES / OTS Parts`. All 24 are OTS parts outside `00 - Parts` and are **migration candidates**, completing the AEETES / OTS Parts Priority A folder with batch 013:
+
+- **ArduinoMega_STEP_AP203** — OTS Arduino STEP model in project-specific OTS Parts folder. **Migration candidate.**
+- **Cable Duct** — OTS cable duct in project-specific folder. **Migration candidate.**
+- **Compressor Motor** — OTS compressor motor in project-specific folder. **Migration candidate.**
+- **Compressor Screw** — OTS hardware in project-specific folder. **Migration candidate.**
+- **Flow Control Exhaust** — OTS pneumatic component in project-specific folder. **Migration candidate.**
+- **Flow Valve (Out)** — OTS valve in project-specific folder. **Migration candidate.**
+- **Frame Screw** — OTS hardware (Used In: AEETES Asm). **Migration candidate.**
+- **H Cable Duct** — OTS cable duct (Used In: AEETES Ctrls). **Migration candidate.**
+- **KV2H03-34S** — OTS pneumatic fitting in project-specific folder. **Migration candidate.**
+- **KV2H07-34S** — OTS pneumatic fitting in project-specific folder. **Migration candidate.**
+- **KV2L07-34S (AEETES)** — OTS pneumatic fitting (Used In: AEETES Asm); A-0026 copy distinct from A-0010. **Migration candidate.**
+- **KV2T07-34S (AEETES)** — OTS pneumatic fitting (Used In: AEETES Asm); A-0026 copy distinct from A-0010. **Migration candidate.**
+- **Mini Regulator** — OTS regulator in project-specific folder. **Migration candidate.**
+- **Moonfish Base 2** — OTS assembly (Uses 11 components) in project-specific folder. **Migration candidate.**
+- **Mount Screw** — OTS hardware (Used In: AEETES Asm). **Migration candidate.**
+- **New Valve (AEETES)** — OTS valve (Used In: AEETES Asm); distinct from A-0054 New Valve. **Migration candidate.**
+- **Push Nut** — OTS hardware (Used In: AEETES Asm). **Migration candidate.**
+- **Raspberry Pi** — OTS single-board computer (Used In: AEETES Ctrls). **Migration candidate.**
+- **Rubber Washer** — OTS hardware (Used In: AEETES Asm). **Migration candidate.**
+- **Snap-in Nut** — OTS hardware in project-specific folder. **Migration candidate.**
+- **Touchscreen** — OTS display in project-specific folder. **Migration candidate.**
+- **USB-TC** — OTS thermocouple interface in project-specific folder. **Migration candidate.**
+- **Untitled (AEETES OTS)** — OTS part in project-specific folder; distinct from A-0010 Untitled. **Migration candidate.**
+- **V Cable Duct** — OTS cable duct (Used In: AEETES Ctrls). **Migration candidate.**
+
 ---
 
-*75 migration candidates identified (+16 in batch 013).*
+*99 migration candidates identified (+24 in batch 014).*

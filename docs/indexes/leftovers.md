@@ -269,37 +269,43 @@ All 16 designs from batch 013 were successfully indexed:
 15. ✓ 67CP3220
 16. ✓ ANMBEST 4-MOSFET
 
+### Batch 014
+
+All 24 designs from batch 014 were successfully indexed:
+
+1. ✓ ArduinoMega_STEP_AP203
+2. ✓ Cable Duct
+3. ✓ Compressor Motor
+4. ✓ Compressor Screw
+5. ✓ Flow Control Exhaust
+6. ✓ Flow Valve (Out)
+7. ✓ Frame Screw
+8. ✓ H Cable Duct
+9. ✓ KV2H03-34S
+10. ✓ KV2H07-34S
+11. ✓ KV2L07-34S
+12. ✓ KV2T07-34S
+13. ✓ Mini Regulator
+14. ✓ Moonfish Base 2
+15. ✓ Mount Screw
+16. ✓ New Valve
+17. ✓ Push Nut
+18. ✓ Raspberry Pi
+19. ✓ Rubber Washer
+20. ✓ Snap-in Nut
+21. ✓ Touchscreen
+22. ✓ USB-TC
+23. ✓ Untitled
+24. ✓ V Cable Duct
+
 ---
 
-## A-0026 iTM Remaining (After Batch 013)
+## A-0026 iTM Remaining (After Batch 014)
 
-Approximately **93 designs** remain unharvested in A-0026 iTM. Key areas include:
+!!! success "AEETES / OTS Parts Priority A Complete"
+    The AEETES / OTS Parts Priority A folder is fully harvested with batches 013 and 014 (40 designs total).
 
-### AEETES / OTS Parts (still unharvested)
-- ArduinoMega_STEP_AP203
-- Cable Duct
-- Compressor Motor
-- Compressor Screw
-- Flow Control Exhaust
-- Flow Valve (Out)
-- Frame Screw
-- H Cable Duct
-- KV2H03-34S
-- KV2H07-34S
-- KV2L07-34S
-- KV2T07-34S
-- Mini Regulator
-- Moonfish Base 2
-- Mount Screw
-- New Valve
-- Push Nut
-- Raspberry Pi
-- Rubber Washer
-- Snap-in Nut
-- Touchscreen
-- USB-TC
-- Untitled
-- V Cable Duct
+Approximately **69 designs** remain unharvested in A-0026 iTM. Key areas include:
 
 ### Named leftovers (other folders)
 - Horseshoe Cell
@@ -332,6 +338,7 @@ Approximately **93 designs** remain unharvested in A-0026 iTM. Key areas include
 - 688 Press
 - 7x72
 - Zange_kpl
+- Moonfish Base 2 child refs (Sensor Cradle, shoulders, dowels, Turret Base, Stepper, bearings, Worm Gear, Sensor Turret) — if they exist as designs
 
 ### ASM TOOLING
 - OTS Parts/
@@ -382,6 +389,6 @@ Approximately **93 designs** remain unharvested in A-0026 iTM. Key areas include
 - Thru Screw Terminal
 - USB Adapter
 - Whirlpool Motor
-- (54100-17X-02-A harvested under AEETES/OTS Parts this batch — confirm if TAZ 4 copy distinct)
+- (54100-17X-02-A harvested under AEETES/OTS Parts batch 013 — confirm if TAZ 4 copy distinct)
 
-*This summary was generated from the remaining-after-013 harvest manifest.*
+*This summary was updated from the remaining-after-014 harvest manifest.*

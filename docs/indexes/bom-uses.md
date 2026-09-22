@@ -51,6 +51,7 @@ Assemblies with non-empty component references (Uses).
 | [Tee Assembly Cell](../designs/a-0026-itm/asm-tooling-sow1/tee-assembly-cell.md) | 13 | [a360.co/4h7M4Rj](https://a360.co/4h7M4Rj) |
 | [Inf Only Hose Cell](../designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md) | 1 | [a360.co/46koko0](https://a360.co/46koko0) |
 | [Stator Plug Cell](../designs/a-0026-itm/asm-tooling/stator-plug-cell.md) | 6 | [a360.co/4hmrZaW](https://a360.co/4hmrZaW) |
+| [Moonfish Base 2](../designs/a-0026-itm/aeetes/ots-parts/moonfish-base-2.md) | 11 | [a360.co/4xerTH7](https://a360.co/4xerTH7) |
 
 ---
 
@@ -543,4 +544,22 @@ The Stator Plug Cell assembly references the following 6 components:
 
 ---
 
-*47 assemblies with BOM data indexed.*
+## Moonfish Base 2 — Bill of Materials
+
+The Moonfish Base 2 assembly references the following 11 components:
+
+1. Sensor Cradle
+2. 3/8 Shoulder
+3. 1/2 Dowel
+4. 3/4 dowel
+5. Turret Base
+6. Stepper
+7. 1-4 bearing
+8. 3/8 Bearing
+9. 1/4 Shoulder
+10. Worm Gear
+11. Sensor Turret
+
+---
+
+*48 assemblies with BOM data indexed.*
