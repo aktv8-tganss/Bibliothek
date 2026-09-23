@@ -1619,3 +1619,47 @@ All 16 designs from batch 040 were successfully indexed:
 
 !!! tip "6498K144 Canonical vs Project Copy"
     **6498K144_Round Body Air Cylinder** — 00 - Parts / McMC Cylinders (`a360.co/3SYJ4yj`) is the canonical version. A related design exists in A-0010 iAir6 / Flash Runner / Parts with shortlink `a360.co/4d3jYNt`.
+
+---
+
+## 00 - Parts — Batch 041
+
+!!! warning "00 - Parts NOT COMPLETE"
+    Additional 00 - Parts designs remain to be harvested. Do not declare 00 - Parts COMPLETE.
+
+### Batch 041
+
+All 15 designs from batch 041 were successfully indexed:
+
+**00 - Parts / McMC Locating** (3 designs):
+
+1. ✓ 5/16 Diamond Pin — used in Shuttle Nest Plate, Mantis Bed Plates, Press Platen
+2. ✓ 5/16 Locating Hole — used in Shuttle Plate, Mantis Bed Plates
+3. ✓ 5/16 Round Pin — used in Shuttle Nest Plate, Press Platen, Mantis Bed Plates
+
+**00 - Parts / McMC Screws** (2 designs):
+
+4. ✓ 1/4 OD x 1 3/4 L x 10-24 Shoulder — used in Mantis Bed Plates, Shuttle Nest Plate
+5. ✓ 10-24 x 1/2 SHCS — used in Flashing Bed
+
+**00 - Parts / McMC Springs** (2 designs):
+
+6. ✓ 1/4 ID x 1 1/4 L x 2lb Comp Spring — used in Mantis Bed Plates, Flashing Bed
+7. ✓ 5/8 ID x 2 L x 50lb Comp Spring — no Design References shown
+
+**00 - Parts / Nanuk Cases** (2 designs):
+
+8. ✓ Nanuk 909 — uses 909_Btm_Inner_Surfaces, 909_Top_Inner_Surfaces
+9. ✓ Nanuk 910 — uses NANUK_910_Top/Bottom_INNER SURFS_STEP; used in Oyster Asm, Oyster Bottom Plate
+
+**00 - Parts / PSUs** (4 designs):
+
+10. ✓ AC Extension — used in Pi VESA Mount
+11. ✓ PSU 12V-5A Alitov — used in PCBA Flash Expanded, Oyster Asm
+12. ✓ USB AC Adapter Double — no Design References shown
+13. ✓ Vilros Pi PSU — used in Pi VESA Mount, Oyster Asm, PCBA Flash Expanded
+
+**00 - Parts / Pi Components** (2 designs):
+
+14. ✓ 10" Screen — used in Oyster Asm
+15. ✓ 15" Screen — no Design References shown

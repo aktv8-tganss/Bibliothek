@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (692 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (117 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (707 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (119 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (268 total)
 
 ## Design Tree
@@ -128,8 +128,9 @@ Browse designs by project folder:
 | 038 | 11 | D-0072 A8 Wheel End (11) — 1 OTS migration candidate (Compressor Motor); 4 path-disambiguations from A-0026; **D-0072 COMPLETE** |
 | 039 | 14 | 00 - Parts (13) + A-0001 WirelessOne (1) — canonical 00 - Parts designs in Arduino, Com Modules, Gauges, Lights, McMC Bearings, McMC Brass; no migration candidates; **00 - Parts NOT COMPLETE** |
 | 040 | 16 | 00 - Parts (16) — root leftovers (8) + McMC Brass (4) + McMC Cylinders (4); no migration candidates; **00 - Parts NOT COMPLETE** |
+| 041 | 15 | 00 - Parts (15) — McMC Locating (3) + McMC Screws (2) + McMC Springs (2) + Nanuk Cases (2) + PSUs (4) + Pi Components (2); no migration candidates; **00 - Parts NOT COMPLETE** |
 
-**Total designs indexed: 692**
+**Total designs indexed: 707**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
