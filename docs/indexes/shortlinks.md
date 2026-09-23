@@ -667,6 +667,10 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Hose Holder NPT](../designs/d-0072-a8-wheel-end/hose-holder-npt.md) | `D-0072 A8 Wheel End` | [a360.co/46CfiD3](https://a360.co/46CfiD3) |
 | [TAZ Dyno Cabinet (D-0072)](../designs/d-0072-a8-wheel-end/taz-dyno-cabinet.md) | `D-0072 A8 Wheel End` | [a360.co/4A8KQ0H](https://a360.co/4A8KQ0H) |
 | [35063643](../designs/a-0001-wirelessone/35063643.md) | `A-0001 WirelessOne` | [a360.co/4xNZFE9](https://a360.co/4xNZFE9) |
+| [72719 file for josh](../designs/a-0001-wirelessone/72719-file-for-josh.md) | `A-0001 WirelessOne` | [a360.co/4h5sPaX](https://a360.co/4h5sPaX) |
+| [Housing Bracket - Alford](../designs/a-0001-wirelessone/housing-bracket-alford.md) | `A-0001 WirelessOne` | [a360.co/4r2bxzS](https://a360.co/4r2bxzS) |
+| [Marvin 4 exploded view](../designs/a-0001-wirelessone/marvin-4-exploded-view.md) | `A-0001 WirelessOne` | [a360.co/3V8X5dz](https://a360.co/3V8X5dz) |
+| [Remote BedONails](../designs/a-0001-wirelessone/remote-bedonails.md) | `A-0001 WirelessOne` | [a360.co/3UPaQxV](https://a360.co/3UPaQxV) |
 | [Arduino Mega 2560](../designs/00-parts/arduino/arduino-mega-2560.md) | `00 - Parts / Arduino` | [a360.co/4r88g2a](https://a360.co/4r88g2a) |
 | [Mega Enclosure](../designs/00-parts/arduino/mega-enclosure.md) | `00 - Parts / Arduino` | [a360.co/4dychHt](https://a360.co/4dychHt) |
 | [Segger Flasher](../designs/00-parts/com-modules/segger-flasher.md) | `00 - Parts / Com Modules` | [a360.co/3SXw2RS](https://a360.co/3SXw2RS) |
@@ -825,7 +829,9 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [4-40 x 5/16 SH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/4-40-x-5-16-sh-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4A7QIaF](https://a360.co/4A7QIaF) |
 | [6-32 x 7/16 CS Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/6-32-x-7-16-cs-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4h1vJgH](https://a360.co/4h1vJgH) |
 | [VMT Shroud](../designs/d-0012-eol/parts/vmt-shroud.md) | `D-0012 EOL / Parts` | [a360.co/46Xcy33](https://a360.co/46Xcy33) |
+| [002361 AA (1)](../designs/a-0044-tpp/002361-aa-1.md) | `A-0044 TPP` | [a360.co/4xjXc3k](https://a360.co/4xjXc3k) |
+| [LSR Layout](../designs/a-8888-release-prints/lsr-layout.md) | `A-8888 Release Prints` | [a360.co/4xQrqME](https://a360.co/4xQrqME) |
 
 ---
 
-*821 designs indexed.*
+*827 designs indexed.*

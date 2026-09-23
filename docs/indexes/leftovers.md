@@ -1871,5 +1871,109 @@ All 19 designs from batch 048 were successfully indexed:
 !!! info "Nested Gen2 OTS deferred"
     Any OTS parts nested under Gen2 Fixture are deferred to Charlotte ticket 049.
 
-!!! info "D-0012 EOL NOT COMPLETE"
-    D-0012 EOL remains NOT COMPLETE. Nested Gen2 OTS parts and FFT USB are tracked on Charlotte ticket 049.
+---
+
+## D-0012 EOL — Batch 049
+
+### Batch 049
+
+All 7 designs from batch 049 were successfully indexed:
+
+**Gen2 Fixture / OTS Parts (6):**
+
+1. ✓ 1/4-20 Thin Nylock — OTS migration candidate
+2. ✓ 1/4-20 x 1 1/2 CS Screw — OTS migration candidate
+3. ✓ 1/4-20 x 3 3/4 SH Screw — OTS migration candidate
+4. ✓ 10-24 x 3/8 PH Screw — OTS migration candidate
+5. ✓ 4-40 x 5/16 SH Screw — OTS migration candidate
+6. ✓ 6-32 x 7/16 CS Screw — OTS migration candidate
+
+**D-0012 EOL / Parts (1):**
+
+7. ✓ VMT Shroud
+
+---
+
+## D-0012 EOL — COMPLETE for Bibliothek (2026-09-22)
+
+!!! success "D-0012 EOL Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes on 2026-09-22 after batches 045–049. All locatable Fusion designs with unique Share shortlinks have been indexed.
+
+### Covered
+
+- D-0012 EOL / OTS Parts (24 designs from batches 045–046)
+- D-0012 EOL / A8 Parts (14 designs from batch 047)
+- D-0012 EOL / Oyster (2 designs from batch 047)
+- D-0012 EOL / Gen2 Fixture and nested folders (19 designs from batch 048)
+- D-0012 EOL / Gen2 Fixture / OTS Parts (6 designs from batch 049)
+- D-0012 EOL / Parts (1 design from batch 049)
+
+### Known debt (not blocking COMPLETE)
+
+!!! warning "FFT USB phantom"
+    **USB** in 891201 FFT Bill of Materials is an external reference; no separate Fusion design page indexed.
+
+*D-0012 EOL harvest declared COMPLETE for Bibliothek, 2026-09-22.*
+
+---
+
+## Batch 050 — A-0001, A-0044, A-8888
+
+### Batch 050
+
+All 6 designs from batch 050 were successfully indexed:
+
+**A-0001 WirelessOne (4):**
+
+1. ✓ 72719 file for josh
+2. ✓ Housing Bracket - Alford
+3. ✓ Marvin 4 exploded view — uses OTS-like fasteners (external refs; not migration candidates)
+4. ✓ Remote BedONails
+
+**A-0044 TPP (1):**
+
+5. ✓ 002361 AA (1) — uses OTS-like generic router (external ref; not migration candidate)
+
+**A-8888 Release Prints (1):**
+
+6. ✓ LSR Layout
+
+### A-0001 WirelessOne COMPLETE / A-0044 TPP COMPLETE
+
+See COMPLETE declarations below.
+
+### Known debt (batch 050)
+
+!!! info "Skipped designs"
+    - **35063643** — already harvested in batch 039
+    - **Marvin 4 Print** — drawing, not indexed
+
+---
+
+## A-0001 WirelessOne — COMPLETE for Bibliothek (2026-09-22)
+
+!!! success "A-0001 WirelessOne Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes by Otto on 2026-09-22 after ticket 050 (mop of remaining A-0001 designs plus earlier 35063643 from batch 039). All 5 locatable Fusion designs with unique Share shortlinks have been indexed.
+
+### Covered
+
+- 35063643 (batch 039)
+- 72719 file for josh (batch 050)
+- Housing Bracket - Alford (batch 050)
+- Marvin 4 exploded view (batch 050)
+- Remote BedONails (batch 050)
+
+*A-0001 WirelessOne harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*
+
+---
+
+## A-0044 TPP — COMPLETE for Bibliothek (2026-09-22)
+
+!!! success "A-0044 TPP Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes by Otto on 2026-09-22 after ticket 050 harvested the sole remaining design `002361 AA (1)`.
+
+### Covered
+
+- 002361 AA (1) (batch 050)
+
+*A-0044 TPP harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*

@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (821 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (130 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (827 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (132 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (312 total)
 
 ## Design Tree
@@ -21,6 +21,7 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 Browse designs by project folder:
 
 - **[00 - Parts](designs/00-parts/arduino/amplifier-board.md)** — standard and purchased components
+- **[A-0001 WirelessOne](designs/a-0001-wirelessone/35063643.md)** — WirelessOne project designs (5 designs; **A-0001 COMPLETE**)
 - **[A-003 iLACM](designs/a-003-ilacm/pct-new.md)** — iLACM project designs (11 designs)
 - **[A-0010 iAir6](designs/a-0010-iair6/cephalopod-2.md)** — iAir6 project designs
     - [A8 Parts](designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md) — A8 subfolder designs (12 designs)
@@ -59,6 +60,7 @@ Browse designs by project folder:
         - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
     - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
     - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
+- **[A-0044 TPP](designs/a-0044-tpp/002361-aa-1.md)** — TPP project designs (1 design; **A-0044 COMPLETE**)
 - **[A-0047 TPMS](designs/a-0047-tpms/003501-thru-assembly.md)** — TPMS project designs (154 designs)
     - [Root Designs](designs/a-0047-tpms/003501-thru-assembly.md) — TPMS root designs (10 designs)
     - [Clam](designs/a-0047-tpms/clam/clam-asm.md) — Clam subfolder (8 designs)
@@ -87,6 +89,7 @@ Browse designs by project folder:
         - [OTS Parts](designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-thin-nylock.md) — Gen2 Fixture OTS Parts (6 designs, all migration candidates)
     - [Parts](designs/d-0012-eol/parts/vmt-shroud.md) — Parts subfolder (1 design)
     - [891201 FFT](designs/d-0012-eol/891201-fft/891201-fft.md) — 891201 FFT assembly (1 design)
+- **[A-8888 Release Prints](designs/a-8888-release-prints/lsr-layout.md)** — Release Prints project designs (1 design)
 - **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
     - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
@@ -148,8 +151,9 @@ Browse designs by project folder:
 | 047 | 16 | D-0012 EOL: A8 Parts (14) + Oyster (2) — 14 migration candidates (all A8 Parts); Oyster Asm references 00 - Parts assets; **D-0012 NOT COMPLETE** (Gen2 Fixture + 891201 FFT open) |
 | 048 | 19 | D-0012 EOL: Gen2 Fixture (18) + 891201 FFT (1) — no migration candidates; External1 shortlink collides with Lid Prop Nut (only External1 indexed); nested Gen2 OTS deferred (Charlotte ticket 049) |
 | 049 | 7 | D-0012 EOL: Gen2 Fixture / OTS Parts (6) + Parts (1) — 6 OTS migration candidates (all Gen2 fasteners); VMT Shroud not a migration candidate; **D-0012 EOL COMPLETE** |
+| 050 | 6 | A-0001 WirelessOne (4) + A-0044 TPP (1) + A-8888 Release Prints (1) — no migration candidates; **A-0001 COMPLETE**, **A-0044 COMPLETE** |
 
-**Total designs indexed: 821**
+**Total designs indexed: 827**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
@@ -177,6 +181,12 @@ Browse designs by project folder:
 
 !!! success "D-0012 EOL COMPLETE for Bibliothek"
     D-0012 EOL harvest declared COMPLETE by Otto/Charlotte on 2026-09-23 after batch 049. All 66 locatable Fusion designs with unique Share shortlinks have been indexed across OTS Parts (24), A8 Parts (14), Oyster (2), Gen2 Fixture (24), Parts (1), and 891201 FFT (1). Known debt: External1 ↔ Lid Prop Nut shortlink collision (`a360.co/4j2Rdwf`) — only External1 indexed; Gen2 Fixture OTS Parts (6 fasteners) remain migration candidates vs `00 - Parts`. See [leftovers index](indexes/leftovers.md) for details.
+
+!!! success "A-0001 WirelessOne COMPLETE for Bibliothek"
+    A-0001 WirelessOne harvest declared COMPLETE by Otto on 2026-09-22 after ticket 050. All 5 locatable Fusion designs with unique Share shortlinks have been indexed (1 from batch 039, 4 from batch 050). See [leftovers index](indexes/leftovers.md) for details.
+
+!!! success "A-0044 TPP COMPLETE for Bibliothek"
+    A-0044 TPP harvest declared COMPLETE by Otto on 2026-09-22 after ticket 050 harvested the sole design `002361 AA (1)`. See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 
