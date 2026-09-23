@@ -783,7 +783,23 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Mounting rail 2 (D-0012)](../designs/d-0012-eol/ots-parts/mounting-rail-2.md) | `D-0012 EOL / OTS Parts` | [a360.co/4yuxESe](https://a360.co/4yuxESe) |
 | [NUC8ixBEH-Chassis (D-0012)](../designs/d-0012-eol/ots-parts/nuc8ixbeh-chassis.md) | `D-0012 EOL / OTS Parts` | [a360.co/4yhe0tm](https://a360.co/4yhe0tm) |
 | [PCAN (D-0012)](../designs/d-0012-eol/ots-parts/pcan.md) | `D-0012 EOL / OTS Parts` | [a360.co/4r8gOpD](https://a360.co/4r8gOpD) |
+| [881211 AA](../designs/d-0012-eol/a8-parts/881211-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/4xPaQMY](https://a360.co/4xPaQMY) |
+| [881212 AA](../designs/d-0012-eol/a8-parts/881212-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/4hrbRFd](https://a360.co/4hrbRFd) |
+| [881213 AA](../designs/d-0012-eol/a8-parts/881213-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/4xY0gU6](https://a360.co/4xY0gU6) |
+| [881214 AA](../designs/d-0012-eol/a8-parts/881214-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/4ioVVnW](https://a360.co/4ioVVnW) |
+| [881215 AA](../designs/d-0012-eol/a8-parts/881215-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/4h7WKiK](https://a360.co/4h7WKiK) |
+| [881216 AA](../designs/d-0012-eol/a8-parts/881216-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/3SJ12oH](https://a360.co/3SJ12oH) |
+| [881218 AA](../designs/d-0012-eol/a8-parts/881218-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/3VeN0Md](https://a360.co/3VeN0Md) |
+| [881219 AA](../designs/d-0012-eol/a8-parts/881219-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/4xkkvKp](https://a360.co/4xkkvKp) |
+| [881220 AA](../designs/d-0012-eol/a8-parts/881220-aa.md) | `D-0012 EOL / A8 Parts` | [a360.co/4cL0Hsf](https://a360.co/4cL0Hsf) |
+| [Deep Screen Bracket](../designs/d-0012-eol/a8-parts/deep-screen-bracket.md) | `D-0012 EOL / A8 Parts` | [a360.co/4xWLtcj](https://a360.co/4xWLtcj) |
+| [DIN Proto Board Mount](../designs/d-0012-eol/a8-parts/din-proto-board-mount.md) | `D-0012 EOL / A8 Parts` | [a360.co/4cLHAhM](https://a360.co/4cLHAhM) |
+| [DIN Resistor Bank](../designs/d-0012-eol/a8-parts/din-resistor-bank.md) | `D-0012 EOL / A8 Parts` | [a360.co/3UQ9OC0](https://a360.co/3UQ9OC0) |
+| [Keypad Bump-it](../designs/d-0012-eol/a8-parts/keypad-bump-it.md) | `D-0012 EOL / A8 Parts` | [a360.co/4AvpB9J](https://a360.co/4AvpB9J) |
+| [Pi VESA Mount](../designs/d-0012-eol/a8-parts/pi-vesa-mount.md) | `D-0012 EOL / A8 Parts` | [a360.co/4xUwsaT](https://a360.co/4xUwsaT) |
+| [Oyster Asm](../designs/d-0012-eol/oyster/oyster-asm.md) | `D-0012 EOL / Oyster` | [a360.co/46NaQ4e](https://a360.co/46NaQ4e) |
+| [Oyster Bottom Plate](../designs/d-0012-eol/oyster/oyster-bottom-plate.md) | `D-0012 EOL / Oyster` | [a360.co/4rbYSud](https://a360.co/4rbYSud) |
 
 ---
 
-*779 designs indexed.*
+*795 designs indexed.*

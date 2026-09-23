@@ -693,6 +693,24 @@ nav:
         - Mounting rail 2 (D-0012): designs/d-0012-eol/ots-parts/mounting-rail-2.md
         - NUC8ixBEH-Chassis (D-0012): designs/d-0012-eol/ots-parts/nuc8ixbeh-chassis.md
         - PCAN (D-0012): designs/d-0012-eol/ots-parts/pcan.md
+      - A8 Parts:
+        - 881211 AA: designs/d-0012-eol/a8-parts/881211-aa.md
+        - 881212 AA: designs/d-0012-eol/a8-parts/881212-aa.md
+        - 881213 AA: designs/d-0012-eol/a8-parts/881213-aa.md
+        - 881214 AA: designs/d-0012-eol/a8-parts/881214-aa.md
+        - 881215 AA: designs/d-0012-eol/a8-parts/881215-aa.md
+        - 881216 AA: designs/d-0012-eol/a8-parts/881216-aa.md
+        - 881218 AA: designs/d-0012-eol/a8-parts/881218-aa.md
+        - 881219 AA: designs/d-0012-eol/a8-parts/881219-aa.md
+        - 881220 AA: designs/d-0012-eol/a8-parts/881220-aa.md
+        - Deep Screen Bracket: designs/d-0012-eol/a8-parts/deep-screen-bracket.md
+        - DIN Proto Board Mount: designs/d-0012-eol/a8-parts/din-proto-board-mount.md
+        - DIN Resistor Bank: designs/d-0012-eol/a8-parts/din-resistor-bank.md
+        - Keypad Bump-it: designs/d-0012-eol/a8-parts/keypad-bump-it.md
+        - Pi VESA Mount: designs/d-0012-eol/a8-parts/pi-vesa-mount.md
+      - Oyster:
+        - Oyster Asm: designs/d-0012-eol/oyster/oyster-asm.md
+        - Oyster Bottom Plate: designs/d-0012-eol/oyster/oyster-bottom-plate.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md
