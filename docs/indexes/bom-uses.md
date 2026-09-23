@@ -117,6 +117,8 @@ Assemblies with non-empty component references (Uses).
 | [PT Disp 3](../designs/d-0058-tpms-load/pt-disp-3.md) | 12 | [a360.co/4d0Ttk9](https://a360.co/4d0Ttk9) |
 | [PT Disp 4](../designs/d-0058-tpms-load/pt-disp-4.md) | 11 | [a360.co/4h0ZX3s](https://a360.co/4h0ZX3s) |
 | [Motor Adapter PSI 3](../designs/00-parts/motor-adapters/motor-adapter-psi-3.md) | 2 | [a360.co/3TjXIAu](https://a360.co/3TjXIAu) |
+| [Nanuk 909](../designs/00-parts/nanuk-cases/nanuk-909.md) | 2 | [a360.co/4xiMD0y](https://a360.co/4xiMD0y) |
+| [Nanuk 910](../designs/00-parts/nanuk-cases/nanuk-910.md) | 2 | [a360.co/4xem9x7](https://a360.co/4xem9x7) |
 
 ---
 
@@ -1450,4 +1452,22 @@ The Motor Adapter PSI 3 design references the following 2 components:
 
 ---
 
-*117 assemblies with BOM data indexed.*
+## Nanuk 909 — Bill of Materials
+
+The Nanuk 909 design references the following 2 components:
+
+1. 909_Btm_Inner_Surfaces
+2. 909_Top_Inner_Surfaces
+
+---
+
+## Nanuk 910 — Bill of Materials
+
+The Nanuk 910 design references the following 2 components:
+
+1. NANUK_910_Top_INNER SURFS_STEP
+2. NANUK_910_Bottom_INNER SURFS_STEP
+
+---
+
+*119 assemblies with BOM data indexed.*

@@ -696,7 +696,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [4in Stroke x 3/4 Bore Cylinder](../designs/00-parts/mcmc-cylinders/4in-stroke-x-3-4-bore-cylinder.md) | `00 - Parts / McMC Cylinders` | [a360.co/4gYH5SB](https://a360.co/4gYH5SB) |
 | [6498K144_Round Body Air Cylinder](../designs/00-parts/mcmc-cylinders/6498k144-round-body-air-cylinder.md) | `00 - Parts / McMC Cylinders` | [a360.co/3SYJ4yj](https://a360.co/3SYJ4yj) |
 | [Cylinder 3/4 x 1](../designs/00-parts/mcmc-cylinders/cylinder-3-4-x-1.md) | `00 - Parts / McMC Cylinders` | [a360.co/3Tti76d](https://a360.co/3Tti76d) |
+| [5/16 Diamond Pin](../designs/00-parts/mcmc-locating/5-16-diamond-pin.md) | `00 - Parts / McMC Locating` | [a360.co/4hjjCNo](https://a360.co/4hjjCNo) |
+| [5/16 Locating Hole](../designs/00-parts/mcmc-locating/5-16-locating-hole.md) | `00 - Parts / McMC Locating` | [a360.co/4hmBYwU](https://a360.co/4hmBYwU) |
+| [5/16 Round Pin](../designs/00-parts/mcmc-locating/5-16-round-pin.md) | `00 - Parts / McMC Locating` | [a360.co/4yt63Rf](https://a360.co/4yt63Rf) |
+| [1/4 OD x 1 3/4 L x 10-24 Shoulder](../designs/00-parts/mcmc-screws/1-4-od-x-1-3-4-l-x-10-24-shoulder.md) | `00 - Parts / McMC Screws` | [a360.co/4r4y0fV](https://a360.co/4r4y0fV) |
+| [10-24 x 1/2 SHCS](../designs/00-parts/mcmc-screws/10-24-x-1-2-shcs.md) | `00 - Parts / McMC Screws` | [a360.co/4xOsO26](https://a360.co/4xOsO26) |
+| [1/4 ID x 1 1/4 L x 2lb Comp Spring](../designs/00-parts/mcmc-springs/1-4-id-x-1-1-4-l-x-2lb-comp-spring.md) | `00 - Parts / McMC Springs` | [a360.co/4xnkDJ8](https://a360.co/4xnkDJ8) |
+| [5/8 ID x 2 L x 50lb Comp Spring](../designs/00-parts/mcmc-springs/5-8-id-x-2-l-x-50lb-comp-spring.md) | `00 - Parts / McMC Springs` | [a360.co/4Abw0Xq](https://a360.co/4Abw0Xq) |
+| [Nanuk 909](../designs/00-parts/nanuk-cases/nanuk-909.md) | `00 - Parts / Nanuk Cases` | [a360.co/4xiMD0y](https://a360.co/4xiMD0y) |
+| [Nanuk 910](../designs/00-parts/nanuk-cases/nanuk-910.md) | `00 - Parts / Nanuk Cases` | [a360.co/4xem9x7](https://a360.co/4xem9x7) |
+| [10" Screen](../designs/00-parts/pi-components/10-screen.md) | `00 - Parts / Pi Components` | [a360.co/4A3D48g](https://a360.co/4A3D48g) |
+| [15" Screen](../designs/00-parts/pi-components/15-screen.md) | `00 - Parts / Pi Components` | [a360.co/4ijbGwE](https://a360.co/4ijbGwE) |
+| [AC Extension](../designs/00-parts/psus/ac-extension.md) | `00 - Parts / PSUs` | [a360.co/3UNKhcv](https://a360.co/3UNKhcv) |
+| [PSU 12V-5A Alitov](../designs/00-parts/psus/psu-12v-5a-alitov.md) | `00 - Parts / PSUs` | [a360.co/4gYpPgf](https://a360.co/4gYpPgf) |
+| [USB AC Adapter Double](../designs/00-parts/psus/usb-ac-adapter-double.md) | `00 - Parts / PSUs` | [a360.co/4r4Y36B](https://a360.co/4r4Y36B) |
+| [Vilros Pi PSU](../designs/00-parts/psus/vilros-pi-psu.md) | `00 - Parts / PSUs` | [a360.co/4xSNUwq](https://a360.co/4xSNUwq) |
 
 ---
 
-*692 designs indexed.*
+*707 designs indexed.*
