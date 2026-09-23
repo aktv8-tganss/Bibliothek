@@ -799,7 +799,26 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Pi VESA Mount](../designs/d-0012-eol/a8-parts/pi-vesa-mount.md) | `D-0012 EOL / A8 Parts` | [a360.co/4xUwsaT](https://a360.co/4xUwsaT) |
 | [Oyster Asm](../designs/d-0012-eol/oyster/oyster-asm.md) | `D-0012 EOL / Oyster` | [a360.co/46NaQ4e](https://a360.co/46NaQ4e) |
 | [Oyster Bottom Plate](../designs/d-0012-eol/oyster/oyster-bottom-plate.md) | `D-0012 EOL / Oyster` | [a360.co/4rbYSud](https://a360.co/4rbYSud) |
+| [External1](../designs/d-0012-eol/gen2-fixture/external1.md) | `D-0012 EOL / Gen2 Fixture` | [a360.co/4j2Rdwf](https://a360.co/4j2Rdwf) |
+| [Gen2 Fixture Asm](../designs/d-0012-eol/gen2-fixture/gen2-fixture-asm.md) | `D-0012 EOL / Gen2 Fixture` | [a360.co/4A4qUvM](https://a360.co/4A4qUvM) |
+| [Hose Steel Adapter](../designs/d-0012-eol/gen2-fixture/hose-steel-adapter.md) | `D-0012 EOL / Gen2 Fixture` | [a360.co/4j3HsOo](https://a360.co/4j3HsOo) |
+| [EOL fixture iAir3 G2](../designs/d-0012-eol/gen2-fixture/new-jdc/eol-fixture-iair3-g2.md) | `D-0012 EOL / Gen2 Fixture / New JDC` | [a360.co/4raZyQF](https://a360.co/4raZyQF) |
+| [box lock subassy](../designs/d-0012-eol/gen2-fixture/old-jdc/box-lock-subassy.md) | `D-0012 EOL / Gen2 Fixture / Old JDC` | [a360.co/4rckoiv](https://a360.co/4rckoiv) |
+| [iAir3G2 16 pin top](../designs/d-0012-eol/gen2-fixture/old-jdc/iair3g2-16-pin-top.md) | `D-0012 EOL / Gen2 Fixture / Old JDC` | [a360.co/4xXaJ2b](https://a360.co/4xXaJ2b) |
+| [iAir3G2 16 pin top v2](../designs/d-0012-eol/gen2-fixture/old-jdc/iair3g2-16-pin-top-v2.md) | `D-0012 EOL / Gen2 Fixture / Old JDC` | [a360.co/4hsjEm8](https://a360.co/4hsjEm8) |
+| [iAir3G2 fixture plate](../designs/d-0012-eol/gen2-fixture/old-jdc/iair3g2-fixture-plate.md) | `D-0012 EOL / Gen2 Fixture / Old JDC` | [a360.co/4gQYuxX](https://a360.co/4gQYuxX) |
+| [spear clamp](../designs/d-0012-eol/gen2-fixture/old-jdc/spear-clamp.md) | `D-0012 EOL / Gen2 Fixture / Old JDC` | [a360.co/46WeKrv](https://a360.co/46WeKrv) |
+| [Air fitting adapter](../designs/d-0012-eol/gen2-fixture/parts/air-fitting-adapter.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4h57Nct](https://a360.co/4h57Nct) |
+| [Box Bottom](../designs/d-0012-eol/gen2-fixture/parts/box-bottom.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4xZIlfG](https://a360.co/4xZIlfG) |
+| [Box Top](../designs/d-0012-eol/gen2-fixture/parts/box-top.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/3URigkm](https://a360.co/3URigkm) |
+| [Fixture Top](../designs/d-0012-eol/gen2-fixture/parts/fixture-top.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4yAfHBJ](https://a360.co/4yAfHBJ) |
+| [Handle](../designs/d-0012-eol/gen2-fixture/parts/handle.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/3TvWAK7](https://a360.co/3TvWAK7) |
+| [Plug Pogo Carrier](../designs/d-0012-eol/gen2-fixture/parts/plug-pogo-carrier.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4y5t39d](https://a360.co/4y5t39d) |
+| [Slide Plate](../designs/d-0012-eol/gen2-fixture/parts/slide-plate.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4xTU7YO](https://a360.co/4xTU7YO) |
+| [Spear Clamp](../designs/d-0012-eol/gen2-fixture/parts/spear-clamp.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4xtVTPj](https://a360.co/4xtVTPj) |
+| [Steel Hose Adapter](../designs/d-0012-eol/gen2-fixture/parts/steel-hose-adapter.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4cIRQaD](https://a360.co/4cIRQaD) |
+| [891201 FFT](../designs/d-0012-eol/891201-fft/891201-fft.md) | `D-0012 EOL / 891201 FFT` | [a360.co/4h4s5CY](https://a360.co/4h4s5CY) |
 
 ---
 
-*795 designs indexed.*
+*814 designs indexed.*

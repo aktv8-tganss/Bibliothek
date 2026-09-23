@@ -126,6 +126,10 @@ Assemblies with non-empty component references (Uses).
 | [Pi VESA Mount](../designs/d-0012-eol/a8-parts/pi-vesa-mount.md) | 3 | [a360.co/4xUwsaT](https://a360.co/4xUwsaT) |
 | [Oyster Asm](../designs/d-0012-eol/oyster/oyster-asm.md) | 19 | [a360.co/46NaQ4e](https://a360.co/46NaQ4e) |
 | [Oyster Bottom Plate](../designs/d-0012-eol/oyster/oyster-bottom-plate.md) | 1 | [a360.co/4rbYSud](https://a360.co/4rbYSud) |
+| [Gen2 Fixture Asm](../designs/d-0012-eol/gen2-fixture/gen2-fixture-asm.md) | 17 | [a360.co/4A4qUvM](https://a360.co/4A4qUvM) |
+| [Hose Steel Adapter](../designs/d-0012-eol/gen2-fixture/hose-steel-adapter.md) | 1 | [a360.co/4j3HsOo](https://a360.co/4j3HsOo) |
+| [Slide Plate](../designs/d-0012-eol/gen2-fixture/parts/slide-plate.md) | 1 | [a360.co/4xTU7YO](https://a360.co/4xTU7YO) |
+| [891201 FFT](../designs/d-0012-eol/891201-fft/891201-fft.md) | 31 | [a360.co/4h4s5CY](https://a360.co/4h4s5CY) |
 
 ---
 
@@ -1557,4 +1561,82 @@ The Oyster Bottom Plate design references the following 1 component:
 
 ---
 
-*126 assemblies with BOM data indexed.*
+## Gen2 Fixture Asm — Bill of Materials
+
+The Gen2 Fixture Asm assembly references the following 17 components:
+
+1. [Plug Pogo Carrier](../designs/d-0012-eol/gen2-fixture/parts/plug-pogo-carrier.md)
+2. 10-24 x 3/8 PH Screw
+3. [Steel Hose Adapter](../designs/d-0012-eol/gen2-fixture/parts/steel-hose-adapter.md)
+4. 6-32 x 7/16 CS Screw
+5. [Box Bottom](../designs/d-0012-eol/gen2-fixture/parts/box-bottom.md)
+6. [GEN2 PROC MODULE 2026](../designs/a-0054-iair3-gen2/gen2-proc-module-2026.md)
+7. [Fixture Top](../designs/d-0012-eol/gen2-fixture/parts/fixture-top.md)
+8. VMT Shroud
+9. [Reed Switch](../designs/00-parts/switches/reed-switch.md)
+10. 4-40 x 5/16 SH Screw
+11. [Spear Clamp](../designs/d-0012-eol/gen2-fixture/parts/spear-clamp.md)
+12. 1/4-20 Thin Nylock
+13. Lid Prop Nut *(not indexed — shares shortlink with External1)*
+14. [Box Top](../designs/d-0012-eol/gen2-fixture/parts/box-top.md)
+15. [003270 FAST26](../designs/a-0010-iair6/a8-parts/003270-fast26.md)
+16. [Slide Plate](../designs/d-0012-eol/gen2-fixture/parts/slide-plate.md)
+17. 1/4-20 x 1 1-2 CS Screw
+
+---
+
+## Hose Steel Adapter — Bill of Materials
+
+The Hose Steel Adapter design references the following 1 component:
+
+1. [Tee](../designs/a-0026-itm/parts/tee.md)
+
+---
+
+## Slide Plate — Bill of Materials
+
+The Slide Plate design references the following 1 component:
+
+1. [Gen2 Fixture Asm](../designs/d-0012-eol/gen2-fixture/gen2-fixture-asm.md)
+
+---
+
+## 891201 FFT — Bill of Materials
+
+The 891201 FFT assembly references the following 31 components:
+
+1. [19V Adapter (D-0012)](../designs/d-0012-eol/ots-parts/19v-adapter.md)
+2. [1/8 Union Tee](../designs/00-parts/mcmc-brass/1-8-union-tee.md)
+3. [67CP3220](../designs/00-parts/pressure-transducers/67cp3220.md)
+4. [FAN (D-0012)](../designs/d-0012-eol/ots-parts/fan.md)
+5. [940_R1_Top_INNER_SURFACE_STEP (D-0012)](../designs/d-0012-eol/ots-parts/940-r1-top-inner-surface-step.md)
+6. [Gen2 Fixture Asm](../designs/d-0012-eol/gen2-fixture/gen2-fixture-asm.md)
+7. [KQ2H03-35AS](../designs/00-parts/smc-kq2/kq2h03-35as.md)
+8. [Keypad Bump-it](../designs/d-0012-eol/a8-parts/keypad-bump-it.md)
+9. [Breaker SN180506A (D-0012)](../designs/d-0012-eol/ots-parts/breaker-sn180506a.md)
+10. [PCAN (D-0012)](../designs/d-0012-eol/ots-parts/pcan.md)
+11. [Pi Case](../designs/00-parts/pi-components/pi-case.md)
+12. [1/8 Short Nipple](../designs/00-parts/mcmc-brass/1-8-short-nipple.md)
+13. [KQ2H03-34AS](../designs/00-parts/smc-kq2/kq2h03-34as.md)
+14. [New Valve](../designs/00-parts/solenoid-valves/new-valve.md)
+15. [940_R1_Btm_INNER_SURFACE_STEP (D-0012)](../designs/d-0012-eol/ots-parts/940-r1-btm-inner-surface-step.md)
+16. [12V (D-0012)](../designs/d-0012-eol/ots-parts/12v.md)
+17. [Screen (D-0012)](../designs/d-0012-eol/ots-parts/screen.md)
+18. [Deep Screen Bracket](../designs/d-0012-eol/a8-parts/deep-screen-bracket.md)
+19. [DC11 (D-0012)](../designs/d-0012-eol/ots-parts/dc11.md)
+20. [Mounting rail 2 (D-0012)](../designs/d-0012-eol/ots-parts/mounting-rail-2.md)
+21. [1/8 Bulkhead Fitting](../designs/00-parts/mcmc-brass/1-8-bulkhead-fitting.md)
+22. [ZD411](../designs/d-0012-eol/ots-parts/zd411.md)
+23. [Keypad (D-0012)](../designs/d-0012-eol/ots-parts/keypad.md)
+24. [c-206061-1-ad-3d (D-0012)](../designs/d-0012-eol/ots-parts/c-206061-1-ad-3d.md)
+25. [Mini Regulator](../designs/00-parts/regulators/mini-regulator.md)
+26. [NUC8ixBEH-Chassis (D-0012)](../designs/d-0012-eol/ots-parts/nuc8ixbeh-chassis.md)
+27. [881211 AA](../designs/d-0012-eol/a8-parts/881211-aa.md)
+28. [KQ2E07-35A](../designs/00-parts/smc-kq2/kq2e07-35a.md)
+29. [c-206151-1-ag-3d (D-0012)](../designs/d-0012-eol/ots-parts/c-206151-1-ag-3d.md)
+30. USB *(not yet indexed)*
+31. [USB-2408-2AO (D-0012)](../designs/d-0012-eol/ots-parts/usb-2408-2ao.md)
+
+---
+
+*130 assemblies with BOM data indexed.*

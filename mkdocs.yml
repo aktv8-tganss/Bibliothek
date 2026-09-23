@@ -711,6 +711,30 @@ nav:
       - Oyster:
         - Oyster Asm: designs/d-0012-eol/oyster/oyster-asm.md
         - Oyster Bottom Plate: designs/d-0012-eol/oyster/oyster-bottom-plate.md
+      - Gen2 Fixture:
+        - External1: designs/d-0012-eol/gen2-fixture/external1.md
+        - Gen2 Fixture Asm: designs/d-0012-eol/gen2-fixture/gen2-fixture-asm.md
+        - Hose Steel Adapter: designs/d-0012-eol/gen2-fixture/hose-steel-adapter.md
+        - New JDC:
+          - EOL fixture iAir3 G2: designs/d-0012-eol/gen2-fixture/new-jdc/eol-fixture-iair3-g2.md
+        - Old JDC:
+          - box lock subassy: designs/d-0012-eol/gen2-fixture/old-jdc/box-lock-subassy.md
+          - iAir3G2 16 pin top: designs/d-0012-eol/gen2-fixture/old-jdc/iair3g2-16-pin-top.md
+          - iAir3G2 16 pin top v2: designs/d-0012-eol/gen2-fixture/old-jdc/iair3g2-16-pin-top-v2.md
+          - iAir3G2 fixture plate: designs/d-0012-eol/gen2-fixture/old-jdc/iair3g2-fixture-plate.md
+          - spear clamp: designs/d-0012-eol/gen2-fixture/old-jdc/spear-clamp.md
+        - Parts:
+          - Air fitting adapter: designs/d-0012-eol/gen2-fixture/parts/air-fitting-adapter.md
+          - Box Bottom: designs/d-0012-eol/gen2-fixture/parts/box-bottom.md
+          - Box Top: designs/d-0012-eol/gen2-fixture/parts/box-top.md
+          - Fixture Top: designs/d-0012-eol/gen2-fixture/parts/fixture-top.md
+          - Handle: designs/d-0012-eol/gen2-fixture/parts/handle.md
+          - Plug Pogo Carrier: designs/d-0012-eol/gen2-fixture/parts/plug-pogo-carrier.md
+          - Slide Plate: designs/d-0012-eol/gen2-fixture/parts/slide-plate.md
+          - Spear Clamp: designs/d-0012-eol/gen2-fixture/parts/spear-clamp.md
+          - Steel Hose Adapter: designs/d-0012-eol/gen2-fixture/parts/steel-hose-adapter.md
+      - 891201 FFT:
+        - 891201 FFT: designs/d-0012-eol/891201-fft/891201-fft.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md

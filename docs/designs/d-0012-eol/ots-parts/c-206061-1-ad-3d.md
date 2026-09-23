@@ -26,4 +26,4 @@ This design does not reference any components.
 
 ## Used In
 
-- 891201 FFT *(not yet indexed)*
+- [891201 FFT](../891201-fft/891201-fft.md)

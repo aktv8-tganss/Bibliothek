@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (795 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (126 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (814 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (130 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (306 total)
 
 ## Design Tree
@@ -76,10 +76,15 @@ Browse designs by project folder:
     - [Root Designs](designs/d-0058-tpms-load/pt-disp.md) — D-0058 root designs (29 designs, 10 migration candidates incl. 7 OTS + 3 project-copies)
     - [Comps](designs/d-0058-tpms-load/comps/ar2000-reg.md) — D-0058 Comps subfolder (15 designs, 13 migration candidates)
 - **[D-0072 A8 Wheel End](designs/d-0072-a8-wheel-end/taz-b-dyno.md)** — A8 Wheel End project designs (11 designs, 1 OTS migration candidate)
-- **[D-0012 EOL](designs/d-0012-eol/ots-parts/12v.md)** — EOL project designs (40 designs, 38 migration candidates)
+- **[D-0012 EOL](designs/d-0012-eol/ots-parts/12v.md)** — EOL project designs (59 designs, 38 migration candidates)
     - [OTS Parts](designs/d-0012-eol/ots-parts/12v.md) — OTS Parts subfolder (24 designs, all migration candidates; **OTS Parts COMPLETE**)
     - [A8 Parts](designs/d-0012-eol/a8-parts/881211-aa.md) — A8 Parts subfolder (14 designs, all migration candidates)
     - [Oyster](designs/d-0012-eol/oyster/oyster-asm.md) — Oyster subfolder (2 designs)
+    - [Gen2 Fixture](designs/d-0012-eol/gen2-fixture/gen2-fixture-asm.md) — Gen2 Fixture subfolder (18 designs)
+        - [New JDC](designs/d-0012-eol/gen2-fixture/new-jdc/eol-fixture-iair3-g2.md) — New JDC designs (1 design)
+        - [Old JDC](designs/d-0012-eol/gen2-fixture/old-jdc/box-lock-subassy.md) — Old JDC designs (5 designs)
+        - [Parts](designs/d-0012-eol/gen2-fixture/parts/box-bottom.md) — Gen2 Fixture Parts (9 designs)
+    - [891201 FFT](designs/d-0012-eol/891201-fft/891201-fft.md) — 891201 FFT assembly (1 design)
 - **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
     - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
@@ -139,8 +144,9 @@ Browse designs by project folder:
 | 045 | 13 | D-0012 EOL / OTS Parts (13) — all 13 are OTS migration candidates; reconcile/migrate into 00 - Parts later |
 | 046 | 11 | D-0012 EOL / OTS Parts (11) — all 11 are OTS migration candidates; **D-0012 OTS Parts COMPLETE** |
 | 047 | 16 | D-0012 EOL: A8 Parts (14) + Oyster (2) — 14 migration candidates (all A8 Parts); Oyster Asm references 00 - Parts assets; **D-0012 NOT COMPLETE** (Gen2 Fixture + 891201 FFT open) |
+| 048 | 19 | D-0012 EOL: Gen2 Fixture (18) + 891201 FFT (1) — no migration candidates; External1 shortlink collides with Lid Prop Nut (only External1 indexed); nested Gen2 OTS deferred (Charlotte ticket 049); **D-0012 NOT COMPLETE** |
 
-**Total designs indexed: 795**
+**Total designs indexed: 814**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
