@@ -818,7 +818,14 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Spear Clamp](../designs/d-0012-eol/gen2-fixture/parts/spear-clamp.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4xtVTPj](https://a360.co/4xtVTPj) |
 | [Steel Hose Adapter](../designs/d-0012-eol/gen2-fixture/parts/steel-hose-adapter.md) | `D-0012 EOL / Gen2 Fixture / Parts` | [a360.co/4cIRQaD](https://a360.co/4cIRQaD) |
 | [891201 FFT](../designs/d-0012-eol/891201-fft/891201-fft.md) | `D-0012 EOL / 891201 FFT` | [a360.co/4h4s5CY](https://a360.co/4h4s5CY) |
+| [1/4-20 Thin Nylock](../designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-thin-nylock.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4j4BYD3](https://a360.co/4j4BYD3) |
+| [1/4-20 x 1 1/2 CS Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-x-1-1-2-cs-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4cL2VYN](https://a360.co/4cL2VYN) |
+| [1/4-20 x 3 3/4 SH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-x-3-3-4-sh-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/46jONSC](https://a360.co/46jONSC) |
+| [10-24 x 3/8 PH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/10-24-x-3-8-ph-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4Ahk4Dy](https://a360.co/4Ahk4Dy) |
+| [4-40 x 5/16 SH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/4-40-x-5-16-sh-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4A7QIaF](https://a360.co/4A7QIaF) |
+| [6-32 x 7/16 CS Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/6-32-x-7-16-cs-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4h1vJgH](https://a360.co/4h1vJgH) |
+| [VMT Shroud](../designs/d-0012-eol/parts/vmt-shroud.md) | `D-0012 EOL / Parts` | [a360.co/46Xcy33](https://a360.co/46Xcy33) |
 
 ---
 
-*814 designs indexed.*
+*821 designs indexed.*
