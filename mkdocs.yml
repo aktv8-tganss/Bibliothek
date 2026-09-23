@@ -667,6 +667,21 @@ nav:
       - Compressor Motor (D-0072): designs/d-0072-a8-wheel-end/compressor-motor.md
       - Hose Holder NPT: designs/d-0072-a8-wheel-end/hose-holder-npt.md
       - TAZ Dyno Cabinet (D-0072): designs/d-0072-a8-wheel-end/taz-dyno-cabinet.md
+    - D-0012 EOL:
+      - OTS Parts:
+        - 12V (D-0012): designs/d-0012-eol/ots-parts/12v.md
+        - 19V Adapter (D-0012): designs/d-0012-eol/ots-parts/19v-adapter.md
+        - 3R0 150W: designs/d-0012-eol/ots-parts/3r0-150w.md
+        - 940_R1_Btm_INNER_SURFACE_STEP (D-0012): designs/d-0012-eol/ots-parts/940-r1-btm-inner-surface-step.md
+        - 940_R1_Top_INNER_SURFACE_STEP (D-0012): designs/d-0012-eol/ots-parts/940-r1-top-inner-surface-step.md
+        - Breaker SN180506A (D-0012): designs/d-0012-eol/ots-parts/breaker-sn180506a.md
+        - CG-U3MINI7PH_Model3D_JWV1 (D-0012): designs/d-0012-eol/ots-parts/cg-u3mini7ph-model3d-jwv1.md
+        - DC11 (D-0012): designs/d-0012-eol/ots-parts/dc11.md
+        - FAN (D-0012): designs/d-0012-eol/ots-parts/fan.md
+        - S6F (D-0012): designs/d-0012-eol/ots-parts/s6f.md
+        - USB-2408-2AO (D-0012): designs/d-0012-eol/ots-parts/usb-2408-2ao.md
+        - Valve Assy (D-0012): designs/d-0012-eol/ots-parts/valve-assy.md
+        - Y201132R203NQ (D-0012): designs/d-0012-eol/ots-parts/y201132r203nq.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md

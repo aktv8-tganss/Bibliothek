@@ -1178,4 +1178,46 @@ Batch 038 contains 11 designs under `D-0072 A8 Wheel End`. 1 OTS migration candi
 
 ---
 
-*268 migration candidates identified (+1 in batch 038).*
+### Assessment Notes (Batch 045)
+
+Batch 045 contains 13 designs under `D-0012 EOL / OTS Parts`. All 13 are OTS migration candidates.
+
+**Migration Candidates (13 of 13):**
+
+| Design | Current Path | Reason |
+|--------|--------------|--------|
+| [12V (D-0012)](../designs/d-0012-eol/ots-parts/12v.md) | `D-0012 EOL / OTS Parts` | OTS power component outside `00 - Parts` |
+| [19V Adapter (D-0012)](../designs/d-0012-eol/ots-parts/19v-adapter.md) | `D-0012 EOL / OTS Parts` | OTS power adapter outside `00 - Parts` |
+| [3R0 150W](../designs/d-0012-eol/ots-parts/3r0-150w.md) | `D-0012 EOL / OTS Parts` | OTS resistor/power component outside `00 - Parts` |
+| [940_R1_Btm_INNER_SURFACE_STEP (D-0012)](../designs/d-0012-eol/ots-parts/940-r1-btm-inner-surface-step.md) | `D-0012 EOL / OTS Parts` | OTS enclosure inner surface model outside `00 - Parts` |
+| [940_R1_Top_INNER_SURFACE_STEP (D-0012)](../designs/d-0012-eol/ots-parts/940-r1-top-inner-surface-step.md) | `D-0012 EOL / OTS Parts` | OTS enclosure inner surface model outside `00 - Parts` |
+| [Breaker SN180506A (D-0012)](../designs/d-0012-eol/ots-parts/breaker-sn180506a.md) | `D-0012 EOL / OTS Parts` | OTS breaker outside `00 - Parts` |
+| [CG-U3MINI7PH_Model3D_JWV1 (D-0012)](../designs/d-0012-eol/ots-parts/cg-u3mini7ph-model3d-jwv1.md) | `D-0012 EOL / OTS Parts` | OTS connector/model outside `00 - Parts`; distinct shortlink from earlier collision debt |
+| [DC11 (D-0012)](../designs/d-0012-eol/ots-parts/dc11.md) | `D-0012 EOL / OTS Parts` | OTS power component outside `00 - Parts` |
+| [FAN (D-0012)](../designs/d-0012-eol/ots-parts/fan.md) | `D-0012 EOL / OTS Parts` | OTS fan outside `00 - Parts` |
+| [S6F (D-0012)](../designs/d-0012-eol/ots-parts/s6f.md) | `D-0012 EOL / OTS Parts` | OTS component outside `00 - Parts` |
+| [USB-2408-2AO (D-0012)](../designs/d-0012-eol/ots-parts/usb-2408-2ao.md) | `D-0012 EOL / OTS Parts` | OTS DAQ device outside `00 - Parts` |
+| [Valve Assy (D-0012)](../designs/d-0012-eol/ots-parts/valve-assy.md) | `D-0012 EOL / OTS Parts` | OTS valve assembly outside `00 - Parts` |
+| [Y201132R203NQ (D-0012)](../designs/d-0012-eol/ots-parts/y201132r203nq.md) | `D-0012 EOL / OTS Parts` | OTS component outside `00 - Parts` |
+
+### Disambiguation Notes (Batch 045)
+
+!!! info "Path-Distinct Designs"
+    Several batch 045 designs share names with existing designs in other project paths but have distinct shortlinks:
+
+    - **12V** — D-0012 EOL (`a360.co/3Tf3aEU`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4y8Llqh`)
+    - **19V Adapter** — D-0012 EOL (`a360.co/4AueTjz`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/47bVINV`)
+    - **940_R1_Btm_INNER_SURFACE_STEP** — D-0012 EOL (`a360.co/4yzZf4e`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4hguDPP`)
+    - **940_R1_Top_INNER_SURFACE_STEP** — D-0012 EOL (`a360.co/4xUVvdV`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4xzejON`)
+    - **Breaker SN180506A** — D-0012 EOL (`a360.co/3SHoh2s`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/3SVoGhS`)
+    - **CG-U3MINI7PH_Model3D_JWV1** — D-0012 EOL (`a360.co/4ygkvwu`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4y8Q6A9`)
+    - **DC11** — D-0012 EOL (`a360.co/3TGOpuF`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4gZvXjP`)
+    - **FAN** — D-0012 EOL (`a360.co/4io5MdI`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4cQCLKO`)
+    - **S6F** — D-0012 EOL (`a360.co/4hbYiZb`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4yL47iq`)
+    - **USB-2408-2AO** — D-0012 EOL (`a360.co/4dfmc4A`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4gYP9fB`)
+    - **Valve Assy** — D-0012 EOL (`a360.co/4yHuwme`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/3SSuLGH`)
+    - **Y201132R203NQ** — D-0012 EOL (`a360.co/4rkoa9S`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/3UPZQWM`)
+
+---
+
+*281 migration candidates identified (+13 in batch 045).*

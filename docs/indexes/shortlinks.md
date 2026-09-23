@@ -759,7 +759,20 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [GCX3105](../designs/00-parts/switchgear/gcx3105.md) | `00 - Parts / Switchgear` | [a360.co/4ij9DZx](https://a360.co/4ij9DZx) |
 | [Switch](../designs/00-parts/switchgear/switch.md) | `00 - Parts / Switchgear` | [a360.co/4cAp4c7](https://a360.co/4cAp4c7) |
 | [S-1-J-3.8-G](../designs/00-parts/test-probes/s-1-j-3-8-g.md) | `00 - Parts / Test Probes` | [a360.co/4d998h6](https://a360.co/4d998h6) |
+| [12V (D-0012)](../designs/d-0012-eol/ots-parts/12v.md) | `D-0012 EOL / OTS Parts` | [a360.co/3Tf3aEU](https://a360.co/3Tf3aEU) |
+| [19V Adapter (D-0012)](../designs/d-0012-eol/ots-parts/19v-adapter.md) | `D-0012 EOL / OTS Parts` | [a360.co/4AueTjz](https://a360.co/4AueTjz) |
+| [3R0 150W](../designs/d-0012-eol/ots-parts/3r0-150w.md) | `D-0012 EOL / OTS Parts` | [a360.co/4xWeowU](https://a360.co/4xWeowU) |
+| [940_R1_Btm_INNER_SURFACE_STEP (D-0012)](../designs/d-0012-eol/ots-parts/940-r1-btm-inner-surface-step.md) | `D-0012 EOL / OTS Parts` | [a360.co/4yzZf4e](https://a360.co/4yzZf4e) |
+| [940_R1_Top_INNER_SURFACE_STEP (D-0012)](../designs/d-0012-eol/ots-parts/940-r1-top-inner-surface-step.md) | `D-0012 EOL / OTS Parts` | [a360.co/4xUVvdV](https://a360.co/4xUVvdV) |
+| [Breaker SN180506A (D-0012)](../designs/d-0012-eol/ots-parts/breaker-sn180506a.md) | `D-0012 EOL / OTS Parts` | [a360.co/3SHoh2s](https://a360.co/3SHoh2s) |
+| [CG-U3MINI7PH_Model3D_JWV1 (D-0012)](../designs/d-0012-eol/ots-parts/cg-u3mini7ph-model3d-jwv1.md) | `D-0012 EOL / OTS Parts` | [a360.co/4ygkvwu](https://a360.co/4ygkvwu) |
+| [DC11 (D-0012)](../designs/d-0012-eol/ots-parts/dc11.md) | `D-0012 EOL / OTS Parts` | [a360.co/3TGOpuF](https://a360.co/3TGOpuF) |
+| [FAN (D-0012)](../designs/d-0012-eol/ots-parts/fan.md) | `D-0012 EOL / OTS Parts` | [a360.co/4io5MdI](https://a360.co/4io5MdI) |
+| [S6F (D-0012)](../designs/d-0012-eol/ots-parts/s6f.md) | `D-0012 EOL / OTS Parts` | [a360.co/4hbYiZb](https://a360.co/4hbYiZb) |
+| [USB-2408-2AO (D-0012)](../designs/d-0012-eol/ots-parts/usb-2408-2ao.md) | `D-0012 EOL / OTS Parts` | [a360.co/4dfmc4A](https://a360.co/4dfmc4A) |
+| [Valve Assy (D-0012)](../designs/d-0012-eol/ots-parts/valve-assy.md) | `D-0012 EOL / OTS Parts` | [a360.co/4yHuwme](https://a360.co/4yHuwme) |
+| [Y201132R203NQ (D-0012)](../designs/d-0012-eol/ots-parts/y201132r203nq.md) | `D-0012 EOL / OTS Parts` | [a360.co/4rkoa9S](https://a360.co/4rkoa9S) |
 
 ---
 
-*755 designs indexed.*
+*768 designs indexed.*
