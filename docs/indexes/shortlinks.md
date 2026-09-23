@@ -611,7 +611,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [PCT NEW](../designs/a-003-ilacm/pct-new.md) | `A-003 iLACM` | [a360.co/4A6syNp](https://a360.co/4A6syNp) |
 | [Proc PCM](../designs/a-003-ilacm/proc-pcm.md) | `A-003 iLACM` | [a360.co/4iXj29k](https://a360.co/4iXj29k) |
 | [iAIR3 Gen1 Flash Runner Bed](../designs/a-003-ilacm/iair3-gen1-flash-runner-bed.md) | `A-003 iLACM` | [a360.co/46XEu6N](https://a360.co/46XEu6N) |
+| [002390 (1) (D-0058)](../designs/d-0058-tpms-load/002390-1.md) | `D-0058 TPMS & Load` | [a360.co/4yKfjke](https://a360.co/4yKfjke) |
+| [002582 AA TPMS Thru Conmet (2) (D-0058)](../designs/d-0058-tpms-load/002582-aa-tpms-thru-conmet-2.md) | `D-0058 TPMS & Load` | [a360.co/4hnaAxG](https://a360.co/4hnaAxG) |
+| [Bisofice Laser](../designs/d-0058-tpms-load/bisofice-laser.md) | `D-0058 TPMS & Load` | [a360.co/4rp6dqN](https://a360.co/4rp6dqN) |
+| [iAir6 Galley](../designs/d-0058-tpms-load/iair6-galley.md) | `D-0058 TPMS & Load` | [a360.co/4y7vQ1T](https://a360.co/4y7vQ1T) |
+| [KQ2F01-34A](../designs/d-0058-tpms-load/kq2f01-34a.md) | `D-0058 TPMS & Load` | [a360.co/46STYZO](https://a360.co/46STYZO) |
+| [KQ2X01-03A](../designs/d-0058-tpms-load/kq2x01-03a.md) | `D-0058 TPMS & Load` | [a360.co/4r37Zxz](https://a360.co/4r37Zxz) |
+| [Proc PCM (D-0058)](../designs/d-0058-tpms-load/proc-pcm.md) | `D-0058 TPMS & Load` | [a360.co/4As4rZJ](https://a360.co/4As4rZJ) |
+| [PT Disp](../designs/d-0058-tpms-load/pt-disp.md) | `D-0058 TPMS & Load` | [a360.co/4cGU5v3](https://a360.co/4cGU5v3) |
+| [PT Disp 1](../designs/d-0058-tpms-load/pt-disp-1.md) | `D-0058 TPMS & Load` | [a360.co/4A8JN0L](https://a360.co/4A8JN0L) |
+| [PT Disp 2](../designs/d-0058-tpms-load/pt-disp-2.md) | `D-0058 TPMS & Load` | [a360.co/3UN7Ge6](https://a360.co/3UN7Ge6) |
+| [PT Disp 3](../designs/d-0058-tpms-load/pt-disp-3.md) | `D-0058 TPMS & Load` | [a360.co/4d0Ttk9](https://a360.co/4d0Ttk9) |
+| [PT Disp 4](../designs/d-0058-tpms-load/pt-disp-4.md) | `D-0058 TPMS & Load` | [a360.co/4h0ZX3s](https://a360.co/4h0ZX3s) |
+| [Samsung A8 Tablet](../designs/d-0058-tpms-load/samsung-a8-tablet.md) | `D-0058 TPMS & Load` | [a360.co/3STM6UL](https://a360.co/3STM6UL) |
+| [Trailer (45ft)](../designs/d-0058-tpms-load/trailer-45ft.md) | `D-0058 TPMS & Load` | [a360.co/4cGyeUx](https://a360.co/4cGyeUx) |
+| [Truck](../designs/d-0058-tpms-load/truck.md) | `D-0058 TPMS & Load` | [a360.co/4xSD5KO](https://a360.co/4xSD5KO) |
 
 ---
 
-*607 designs indexed.*
+*622 designs indexed.*

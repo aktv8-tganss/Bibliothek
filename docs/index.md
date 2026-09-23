@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (607 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (107 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (244 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (622 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (112 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (251 total)
 
 ## Design Tree
 
@@ -72,6 +72,8 @@ Browse designs by project folder:
     - [Obs](designs/a-0047-tpms/obs/battery-spacing-blanks.md) — Obs subfolder (4 designs)
     - [Stepper Control](designs/a-0047-tpms/stepper-control/stepper-enclosure.md) — Stepper Control subfolder (4 designs)
     - [OTS Parts](designs/a-0047-tpms/ots-parts/ball-valve.md) — OTS Parts subfolder (73 designs, all migration candidates)
+- **[D-0058 TPMS & Load](designs/d-0058-tpms-load/pt-disp.md)** — TPMS & Load project designs (15 designs)
+    - [Root Designs](designs/d-0058-tpms-load/pt-disp.md) — D-0058 root designs (15 designs, 7 migration candidates incl. 4 OTS + 3 project-copies)
 - **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
     - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
@@ -119,8 +121,9 @@ Browse designs by project folder:
 | 033 | 31 | A-0047 TPMS: OTS Parts (31) — all 31 are OTS migration candidates; OTS continues |
 | 034 | 22 | A-0047 TPMS: OTS Parts (22) — all 22 are OTS migration candidates; **A-0047 COMPLETE** |
 | 035 | 11 | A-003 iLACM root (11) — product/root designs; includes dual ICT_TOP PLATE disambiguation; **A-003 COMPLETE** |
+| 036 | 15 | D-0058 TPMS & Load (15) — 7 migration candidates (4 OTS + 3 project-copies); Proc PCM path-disambiguated from A-003 |
 
-**Total designs indexed: 607**
+**Total designs indexed: 622**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
@@ -133,6 +136,9 @@ Browse designs by project folder:
 
 !!! success "A-003 iLACM COMPLETE for Bibliothek"
     A-003 iLACM harvest declared COMPLETE by Otto/Charlotte on 2026-09-22 after batch 035 (thin project; root inventory emptied in one pass). All 11 root designs indexed, including two distinct `ICT_TOP PLATE_iAir3 jdc` designs with different shortlinks. Known debt: several empty Design References leaves; Light Arcade Switch external (already in A-9999 Lab). See [leftovers index](indexes/leftovers.md) for details.
+
+!!! warning "D-0058 TPMS & Load — NOT COMPLETE"
+    D-0058 TPMS & Load harvest added in batch 036 (15 designs). Charlotte ticket 037 pending for completion. Proc PCM path-disambiguated from A-003 Proc PCM (distinct shortlink `a360.co/4As4rZJ` vs `a360.co/4iXj29k`). See [leftovers index](indexes/leftovers.md) for details.
 
 ---
 

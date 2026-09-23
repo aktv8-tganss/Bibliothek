@@ -111,6 +111,11 @@ Assemblies with non-empty component references (Uses).
 | [TPMS G2 Tool v2](../designs/a-0047-tpms/moonfish/obs/tpms-g2-tool-v2.md) | 1 | [a360.co/4Afe4LA](https://a360.co/4Afe4LA) |
 | [PCT NEW](../designs/a-003-ilacm/pct-new.md) | 2 | [a360.co/4A6syNp](https://a360.co/4A6syNp) |
 | [iAIR3 Gen1 Flash Runner Bed](../designs/a-003-ilacm/iair3-gen1-flash-runner-bed.md) | 1 | [a360.co/46XEu6N](https://a360.co/46XEu6N) |
+| [PT Disp](../designs/d-0058-tpms-load/pt-disp.md) | 12 | [a360.co/4cGU5v3](https://a360.co/4cGU5v3) |
+| [PT Disp 1](../designs/d-0058-tpms-load/pt-disp-1.md) | 11 | [a360.co/4A8JN0L](https://a360.co/4A8JN0L) |
+| [PT Disp 2](../designs/d-0058-tpms-load/pt-disp-2.md) | 5 | [a360.co/3UN7Ge6](https://a360.co/3UN7Ge6) |
+| [PT Disp 3](../designs/d-0058-tpms-load/pt-disp-3.md) | 12 | [a360.co/4d0Ttk9](https://a360.co/4d0Ttk9) |
+| [PT Disp 4](../designs/d-0058-tpms-load/pt-disp-4.md) | 11 | [a360.co/4h0ZX3s](https://a360.co/4h0ZX3s) |
 
 ---
 
@@ -1302,4 +1307,90 @@ The iAIR3 Gen1 Flash Runner Bed design references the following 1 component:
 
 ---
 
-*107 assemblies with BOM data indexed.*
+## PT Disp — Bill of Materials
+
+The PT Disp assembly references the following 12 components:
+
+1. [Samsung A8 Tablet](../designs/d-0058-tpms-load/samsung-a8-tablet.md)
+2. [002390 (1)](../designs/d-0058-tpms-load/002390-1.md)
+3. [Proc PCM (D-0058)](../designs/d-0058-tpms-load/proc-pcm.md)
+4. KW T401(1998)
+5. [NANUK_935_Bottom Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md)
+6. [NANUK_935_Top Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md)
+7. [PT Disp 2](../designs/d-0058-tpms-load/pt-disp-2.md)
+8. 1.5in Gauge
+9. [Trailer (45ft)](../designs/d-0058-tpms-load/trailer-45ft.md)
+10. Samsung Galaxy Note 20 Ultra 5G
+11. Scoche MagicMount
+12. Lift Axle Switch
+
+---
+
+## PT Disp 1 — Bill of Materials
+
+The PT Disp 1 assembly references the following 11 components:
+
+1. 240W DC PS
+2. Samsung Galaxy Note 20 Ultra 5G
+3. 918_Bottom_INNER SURFACES
+4. [Truck](../designs/d-0058-tpms-load/truck.md)
+5. 092 Compressor
+6. [002390 (1)](../designs/d-0058-tpms-load/002390-1.md)
+7. 918_top_INNER SURFACES
+8. 2in Gauge
+9. Mini AC Compressor
+10. [Switch](../designs/a-9999-lab/switch.md)
+11. Scoche Mount
+
+---
+
+## PT Disp 2 — Bill of Materials
+
+The PT Disp 2 assembly references the following 5 components:
+
+1. [KQ2X01-03A](../designs/d-0058-tpms-load/kq2x01-03a.md)
+2. [KQ2F01-34A](../designs/d-0058-tpms-load/kq2f01-34a.md)
+3. [Switch](../designs/a-9999-lab/switch.md)
+4. [Truck](../designs/d-0058-tpms-load/truck.md)
+5. [002390 (1)](../designs/d-0058-tpms-load/002390-1.md)
+
+---
+
+## PT Disp 3 — Bill of Materials
+
+The PT Disp 3 assembly references the following 12 components:
+
+1. [PT Disp 2](../designs/d-0058-tpms-load/pt-disp-2.md)
+2. 1.5in Gauge
+3. [Trailer (45ft)](../designs/d-0058-tpms-load/trailer-45ft.md)
+4. Samsung Galaxy Note 20 Ultra 5G
+5. [Samsung A8 Tablet](../designs/d-0058-tpms-load/samsung-a8-tablet.md)
+6. Lift Axle Switch
+7. [002390 (1)](../designs/d-0058-tpms-load/002390-1.md)
+8. [NANUK_935_Bottom Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md)
+9. Scoche MagicMount
+10. KW T401(1998)
+11. [NANUK_935_Top Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md)
+12. [Proc PCM (D-0058)](../designs/d-0058-tpms-load/proc-pcm.md)
+
+---
+
+## PT Disp 4 — Bill of Materials
+
+The PT Disp 4 assembly references the following 11 components:
+
+1. [Proc PCM (D-0058)](../designs/d-0058-tpms-load/proc-pcm.md)
+2. [Switch](../designs/a-9999-lab/switch.md)
+3. BASICTRUCK
+4. [PT Disp 2](../designs/d-0058-tpms-load/pt-disp-2.md)
+5. Samsung Galaxy Note 20 Ultra 5G
+6. [NANUK_935_Top Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-top-shell-inner-surfs-step.md)
+7. [NANUK_935_Bottom Shell_INNER SURFS_Step](../designs/a-9999-lab/parts/nanuk-935-bottom-shell-inner-surfs-step.md)
+8. [002390 (1)](../designs/d-0058-tpms-load/002390-1.md)
+9. [Samsung A8 Tablet](../designs/d-0058-tpms-load/samsung-a8-tablet.md)
+10. Scoche MagicMount
+11. 1.5in Gauge
+
+---
+
+*112 assemblies with BOM data indexed.*

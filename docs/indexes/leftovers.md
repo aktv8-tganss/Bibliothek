@@ -1324,3 +1324,52 @@ All 11 designs from batch 035 were successfully indexed:
     **Light Arcade Switch** referenced from PCT NEW is a catalog/OTS-like design outside `00 - Parts` — already indexed under A-9999 Lab (`a360.co/4cFCXWC`); not harvested as A-003 content.
 
 *A-003 iLACM harvest declared COMPLETE for Bibliothek by Otto/Charlotte, 2026-09-22.*
+
+---
+
+## D-0058 TPMS & Load — Remaining (NOT COMPLETE)
+
+### Batch 036
+
+All 15 designs from batch 036 were successfully indexed:
+
+**D-0058 Root (15):**
+
+1. ✓ 002390 (1) — project-copy migration candidate
+2. ✓ 002582 AA TPMS Thru Conmet (2) — project-copy migration candidate
+3. ✓ Bisofice Laser — OTS migration candidate
+4. ✓ iAir6 Galley
+5. ✓ KQ2F01-34A — OTS migration candidate
+6. ✓ KQ2X01-03A — OTS migration candidate
+7. ✓ Proc PCM (D-0058) — project-copy migration candidate
+8. ✓ PT Disp
+9. ✓ PT Disp 1
+10. ✓ PT Disp 2
+11. ✓ PT Disp 3
+12. ✓ PT Disp 4
+13. ✓ Samsung A8 Tablet — OTS migration candidate
+14. ✓ Trailer (45ft)
+15. ✓ Truck
+
+### D-0058 TPMS & Load status after batch 036
+
+!!! warning "D-0058 TPMS & Load: NOT COMPLETE"
+    D-0058 TPMS & Load harvest added in batch 036 (15 designs). Charlotte ticket 037 pending for completion. Do NOT declare D-0058 COMPLETE.
+
+**Migration candidates identified (7 of 15):**
+
+- 4 OTS parts: Bisofice Laser, KQ2F01-34A, KQ2X01-03A, Samsung A8 Tablet
+- 3 project-copies: 002390 (1), 002582 AA TPMS Thru Conmet (2), Proc PCM
+
+**Uses references to unharvested designs:**
+
+- BASICTRUCK, KW T401(1998), Lift Axle Switch, Scoche MagicMount, Samsung Galaxy Note 20 Ultra 5G, 092 Compressor, 240W DC PS, Mini AC Compressor, 918_Bottom_INNER SURFACES, 918_top_INNER SURFACES, 2in Gauge, 1.5in Gauge, Scoche Mount
+
+### Disambiguation Notes (Batch 036)
+
+!!! warning "Path-Distinct Designs"
+    The following batch 036 designs share names with existing designs but have distinct shortlinks and project paths:
+
+    - **002390 (1)** — D-0058 (`a360.co/4yKfjke`) distinct from A-0047 TPMS (`a360.co/4hsxLyC`)
+    - **002582 AA TPMS Thru Conmet (2)** — D-0058 (`a360.co/4hnaAxG`) distinct from A-0047 TPMS (`a360.co/4hxsJuZ`)
+    - **Proc PCM** — D-0058 (`a360.co/4As4rZJ`) distinct from A-003 iLACM (`a360.co/4iXj29k`)
