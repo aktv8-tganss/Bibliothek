@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (662 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (116 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (692 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (117 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (268 total)
 
 ## Design Tree
@@ -126,8 +126,10 @@ Browse designs by project folder:
 | 036 | 15 | D-0058 TPMS & Load (15) — 7 migration candidates (4 OTS + 3 project-copies); Proc PCM path-disambiguated from A-003 |
 | 037 | 29 | D-0058 TPMS & Load (29) — 16 migration candidates (13 OTS + 3 project-copies); includes Comps subfolder (15); **D-0058 COMPLETE** |
 | 038 | 11 | D-0072 A8 Wheel End (11) — 1 OTS migration candidate (Compressor Motor); 4 path-disambiguations from A-0026; **D-0072 COMPLETE** |
+| 039 | 14 | 00 - Parts (13) + A-0001 WirelessOne (1) — canonical 00 - Parts designs in Arduino, Com Modules, Gauges, Lights, McMC Bearings, McMC Brass; no migration candidates; **00 - Parts NOT COMPLETE** |
+| 040 | 16 | 00 - Parts (16) — root leftovers (8) + McMC Brass (4) + McMC Cylinders (4); no migration candidates; **00 - Parts NOT COMPLETE** |
 
-**Total designs indexed: 662**
+**Total designs indexed: 692**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.

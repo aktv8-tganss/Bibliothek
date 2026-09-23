@@ -1560,3 +1560,62 @@ All 13 designs from batch 039 (plus 1 from A-0001 WirelessOne) were successfully
 
 !!! info "Amplifier Board skipped"
     Amplifier Board was intentionally skipped in batch 039 as it was already on disk from earlier harvesting.
+
+---
+
+## 00 - Parts — Batch 040
+
+!!! warning "00 - Parts NOT COMPLETE"
+    Additional 00 - Parts designs remain to be harvested. Do not declare 00 - Parts COMPLETE.
+
+### Batch 040
+
+All 16 designs from batch 040 were successfully indexed:
+
+**00 - Parts / DIN** (2 designs):
+
+1. ✓ DIN Clip Printable — used in DIN Resistor Bank
+2. ✓ DIN End Block
+
+**00 - Parts / Fixtures** (1 design):
+
+3. ✓ Fixture Top MFT
+
+**00 - Parts / Motor Adapters** (1 design):
+
+4. ✓ Motor Adapter PSI 3 — uses Motor Adapter 3, PSI Tee
+
+**00 - Parts / PCBA** (1 design):
+
+5. ✓ PCBA Flash Embryo
+
+**00 - Parts / Gauges** (1 design):
+
+6. ✓ Panel Gauge 1.5"
+
+**00 - Parts / Switches** (1 design):
+
+7. ✓ Reed Switch — used in Reed Bracket Probe, Gen2 Fixture Asm
+
+**00 - Parts / Linear Rails** (1 design):
+
+8. ✓ SFC16 Linear Rail
+
+**00 - Parts / McMC Brass** (4 designs):
+
+9. ✓ 1/8 Union Tee — used in 891201 FFT
+10. ✓ Elbow 1/8 NPT
+11. ✓ FCV 1/8 to SAC in — used in PCBA Flash Expanded
+12. ✓ Reducer 1/4 to 1/8 — used in Oyster Asm, PCBA Flash Expanded
+
+**00 - Parts / McMC Cylinders** (4 designs):
+
+13. ✓ 3" Stroke x 3/4 Bore Cylinder — used in Cylinder Asembly
+14. ✓ 4in Stroke x 3/4 Bore Cylinder — used in PCBA Flash Embryo
+15. ✓ 6498K144_Round Body Air Cylinder — canonical 00 - Parts version
+16. ✓ Cylinder 3/4 x 1
+
+### Known debt
+
+!!! tip "6498K144 Canonical vs Project Copy"
+    **6498K144_Round Body Air Cylinder** — 00 - Parts / McMC Cylinders (`a360.co/3SYJ4yj`) is the canonical version. A related design exists in A-0010 iAir6 / Flash Runner / Parts with shortlink `a360.co/4d3jYNt`.

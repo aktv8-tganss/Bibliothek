@@ -680,7 +680,23 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [1/8 Bulkhead Fitting](../designs/00-parts/mcmc-brass/1-8-bulkhead-fitting.md) | `00 - Parts / McMC Brass` | [a360.co/4xQ1f8A](https://a360.co/4xQ1f8A) |
 | [1/8 Nipple](../designs/00-parts/mcmc-brass/1-8-nipple.md) | `00 - Parts / McMC Brass` | [a360.co/4A4EwqS](https://a360.co/4A4EwqS) |
 | [1/8 Short Nipple](../designs/00-parts/mcmc-brass/1-8-short-nipple.md) | `00 - Parts / McMC Brass` | [a360.co/4xNQcwB](https://a360.co/4xNQcwB) |
+| [DIN Clip Printable](../designs/00-parts/din/din-clip-printable.md) | `00 - Parts / DIN` | [a360.co/3SXrjzq](https://a360.co/3SXrjzq) |
+| [DIN End Block](../designs/00-parts/din/din-end-block.md) | `00 - Parts / DIN` | [a360.co/4xpE1VX](https://a360.co/4xpE1VX) |
+| [Fixture Top MFT](../designs/00-parts/fixtures/fixture-top-mft.md) | `00 - Parts / Fixtures` | [a360.co/3ULeLMi](https://a360.co/3ULeLMi) |
+| [Motor Adapter PSI 3](../designs/00-parts/motor-adapters/motor-adapter-psi-3.md) | `00 - Parts / Motor Adapters` | [a360.co/3TjXIAu](https://a360.co/3TjXIAu) |
+| [PCBA Flash Embryo](../designs/00-parts/pcba/pcba-flash-embryo.md) | `00 - Parts / PCBA` | [a360.co/4xJFR4R](https://a360.co/4xJFR4R) |
+| [Panel Gauge 1.5"](../designs/00-parts/gauges/panel-gauge-1-5in.md) | `00 - Parts / Gauges` | [a360.co/4rf7zEf](https://a360.co/4rf7zEf) |
+| [Reed Switch](../designs/00-parts/switches/reed-switch.md) | `00 - Parts / Switches` | [a360.co/4h1NPza](https://a360.co/4h1NPza) |
+| [SFC16 Linear Rail](../designs/00-parts/linear-rails/sfc16-linear-rail.md) | `00 - Parts / Linear Rails` | [a360.co/46PX1C1](https://a360.co/46PX1C1) |
+| [1/8 Union Tee](../designs/00-parts/mcmc-brass/1-8-union-tee.md) | `00 - Parts / McMC Brass` | [a360.co/4yw83bB](https://a360.co/4yw83bB) |
+| [Elbow 1/8 NPT](../designs/00-parts/mcmc-brass/elbow-1-8-npt.md) | `00 - Parts / McMC Brass` | [a360.co/4cGFmAh](https://a360.co/4cGFmAh) |
+| [FCV 1/8 to SAC in](../designs/00-parts/mcmc-brass/fcv-1-8-to-sac-in.md) | `00 - Parts / McMC Brass` | [a360.co/4A7zytu](https://a360.co/4A7zytu) |
+| [Reducer 1/4 to 1/8](../designs/00-parts/mcmc-brass/reducer-1-4-to-1-8.md) | `00 - Parts / McMC Brass` | [a360.co/46Xu0UZ](https://a360.co/46Xu0UZ) |
+| [3" Stroke x 3/4 Bore Cylinder](../designs/00-parts/mcmc-cylinders/3in-stroke-x-3-4-bore-cylinder.md) | `00 - Parts / McMC Cylinders` | [a360.co/3UG9shb](https://a360.co/3UG9shb) |
+| [4in Stroke x 3/4 Bore Cylinder](../designs/00-parts/mcmc-cylinders/4in-stroke-x-3-4-bore-cylinder.md) | `00 - Parts / McMC Cylinders` | [a360.co/4gYH5SB](https://a360.co/4gYH5SB) |
+| [6498K144_Round Body Air Cylinder](../designs/00-parts/mcmc-cylinders/6498k144-round-body-air-cylinder.md) | `00 - Parts / McMC Cylinders` | [a360.co/3SYJ4yj](https://a360.co/3SYJ4yj) |
+| [Cylinder 3/4 x 1](../designs/00-parts/mcmc-cylinders/cylinder-3-4-x-1.md) | `00 - Parts / McMC Cylinders` | [a360.co/3Tti76d](https://a360.co/3Tti76d) |
 
 ---
 
-*676 designs indexed.*
+*692 designs indexed.*
