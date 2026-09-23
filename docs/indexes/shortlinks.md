@@ -711,7 +711,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [PSU 12V-5A Alitov](../designs/00-parts/psus/psu-12v-5a-alitov.md) | `00 - Parts / PSUs` | [a360.co/4gYpPgf](https://a360.co/4gYpPgf) |
 | [USB AC Adapter Double](../designs/00-parts/psus/usb-ac-adapter-double.md) | `00 - Parts / PSUs` | [a360.co/4r4Y36B](https://a360.co/4r4Y36B) |
 | [Vilros Pi PSU](../designs/00-parts/psus/vilros-pi-psu.md) | `00 - Parts / PSUs` | [a360.co/4xSNUwq](https://a360.co/4xSNUwq) |
+| [7" Screen](../designs/00-parts/pi-components/7-screen.md) | `00 - Parts / Pi Components` | [a360.co/4yx6IBi](https://a360.co/4yx6IBi) |
+| [Pi Case](../designs/00-parts/pi-components/pi-case.md) | `00 - Parts / Pi Components` | [a360.co/4xOtTXF](https://a360.co/4xOtTXF) |
+| [67CP3220](../designs/00-parts/pressure-transducers/67cp3220.md) | `00 - Parts / Pressure Transducers` | [a360.co/46hhZd2](https://a360.co/46hhZd2) |
+| [Mini Regulator](../designs/00-parts/regulators/mini-regulator.md) | `00 - Parts / Regulators` | [a360.co/4ij3Jp](https://a360.co/4ij3Jp) |
+| [Mini Regulator Nut](../designs/00-parts/regulators/mini-regulator-nut.md) | `00 - Parts / Regulators` | [a360.co/46FdpoZ](https://a360.co/46FdpoZ) |
+| [NR Regulator](../designs/00-parts/regulators/nr-regulator.md) | `00 - Parts / Regulators` | [a360.co/3Tk9WJo](https://a360.co/3Tk9WJo) |
+| [KQ2H03-34AS](../designs/00-parts/smc-kq2/kq2h03-34as.md) | `00 - Parts / SMC KQ2` | [a360.co/4ywcV0n](https://a360.co/4ywcV0n) |
+| [KQ2H03-35AS](../designs/00-parts/smc-kq2/kq2h03-35as.md) | `00 - Parts / SMC KQ2` | [a360.co/4iVT0mO](https://a360.co/4iVT0mO) |
+| [KQ2L03-34AS](../designs/00-parts/smc-kq2/kq2l03-34as.md) | `00 - Parts / SMC KQ2` | [a360.co/3SXFKY](https://a360.co/3SXFKY) |
+| [KQ2L03-35AS](../designs/00-parts/smc-kq2/kq2l03-35as.md) | `00 - Parts / SMC KQ2` | [a360.co/4h0PZz4](https://a360.co/4h0PZz4) |
+| [KQ2T03-34AS](../designs/00-parts/smc-kq2/kq2t03-34as.md) | `00 - Parts / SMC KQ2` | [a360.co/46dQa5g](https://a360.co/46dQa5g) |
+| [KQ2T03-35AS](../designs/00-parts/smc-kq2/kq2t03-35as.md) | `00 - Parts / SMC KQ2` | [a360.co/4d9wZ0a](https://a360.co/4d9wZ0a) |
+| [KQ2E07-35A](../designs/00-parts/smc-kq2/kq2e07-35a.md) | `00 - Parts / SMC KQ2` | [a360.co/4A6huA5](https://a360.co/4A6huA5) |
+| [KQ2H07-34AS](../designs/00-parts/smc-kq2/kq2h07-34as.md) | `00 - Parts / SMC KQ2` | [a360.co/4h0LeWj](https://a360.co/4h0LeWj) |
+| [KQ2H07-35AS](../designs/00-parts/smc-kq2/kq2h07-35as.md) | `00 - Parts / SMC KQ2` | [a360.co/4yA8Gkw](https://a360.co/4yA8Gkw) |
 
 ---
 
-*707 designs indexed.*
+*722 designs indexed.*
