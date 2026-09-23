@@ -1087,6 +1087,61 @@ Project-Copy Reconcile (3):
     - **002582 AA TPMS Thru Conmet (2)** — D-0058 (`a360.co/4hnaAxG`) distinct from A-0047 TPMS (`a360.co/4hxsJuZ`)
     - **Proc PCM** — D-0058 (`a360.co/4As4rZJ`) distinct from A-003 iLACM (`a360.co/4iXj29k`)
 
+### Assessment Notes (Batch 037)
+
+Batch 037 contains 29 designs under `D-0058 TPMS & Load`. 16 migration candidates identified (13 OTS, 3 project-copies):
+
+**Migration Candidates (16 of 29):**
+
+OTS/Catalog Parts (13):
+
+- **AR2000 Reg** — OTS regulator in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **KQ2H01-34AS** — OTS SMC pneumatic fitting in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **KQ2H01-35AS** — OTS SMC pneumatic fitting in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **1.5in Gauge** — OTS gauge in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **092 Compressor** — Likely OTS compressor in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **240W DC PS** — Likely OTS PSU in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **2in Gauge** — OTS gauge in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **AC Compressor** — Likely OTS compressor in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **Mini AC Compressor** — Likely OTS compressor in D-0058 root outside `00 - Parts`. **Migration candidate.**
+- **Samsung Galaxy Note 20 Ultra 5G** — OTS device in D-0058 root outside `00 - Parts`. **Migration candidate.**
+- **Scoche MagicMount** — OTS mount in D-0058 root outside `00 - Parts`. **Migration candidate.**
+- **KQ2P-01** — OTS SMC pneumatic fitting in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **KQ2ZT01-34AS** — OTS SMC pneumatic fitting in D-0058 Comps outside `00 - Parts`. **Migration candidate.**
+- **Scoche Mount** — OTS mount in D-0058 root outside `00 - Parts`. **Migration candidate.**
+
+Project-Copy Reconcile (3):
+
+- **NANUK_935_Bottom Shell_INNER SURFS_Step (D-0058)** — Project-copy under D-0058; may differ from A-0047/A-9999 Lab NANUK shortlink. **Migration candidate.**
+- **NANUK_935_Top Shell_INNER SURFS_Step (D-0058)** — Project-copy under D-0058; may differ from A-0047/A-9999 Lab NANUK shortlink. **Migration candidate.**
+- **Switch (D-0058)** — Project-copy under D-0058; may differ from A-0047 Switch shortlink. **Migration candidate.**
+
+**Not Migration Candidates (13 of 29):**
+
+- **Dorse** — D-0058 design. No references shown.
+- **KW T401(1998)** — D-0058 vehicle model.
+- **Lift Axle Switch** — D-0058 component.
+- **BASICTRUCK** — D-0058 vehicle model.
+- **918_Bottom_INNER SURFACES** — D-0058 surface model.
+- **918_top_INNER SURFACES** — D-0058 surface model.
+- **PT Disp 2 (Apr 2024)** — D-0058 dated copy assembly.
+- **PT Disp 3 (Sep 2026)** — D-0058 dated copy assembly.
+- **PT Disp 3 (Apr 2024)** — D-0058 dated copy assembly.
+- **MAN TGX 29-440 2013** — D-0058 vehicle model.
+- **Nipple Spacer** — D-0058 component.
+- **Tee Leak Fixture** — D-0058 fixture design.
+
+### Disambiguation Notes (Batch 037)
+
+!!! warning "Path-Distinct Designs"
+    The following batch 037 designs share names with existing designs but have distinct shortlinks and project paths:
+
+    - **NANUK_935_Bottom Shell_INNER SURFS_Step** — D-0058 (`a360.co/4iJD07A`) distinct from A-9999 Lab PARTS (`a360.co/4rnSPmy`) and A-0047 TPMS (`a360.co/4hq38SE`)
+    - **NANUK_935_Top Shell_INNER SURFS_Step** — D-0058 (`a360.co/4xLXeBn`) distinct from A-9999 Lab PARTS (`a360.co/4jhSMqm`) and A-0047 TPMS (`a360.co/4AtIXM4`)
+    - **Switch** — D-0058 (`a360.co/4dAbiGP`) distinct from A-9999 Lab (`a360.co/4hc4gcc`)
+    - **PT Disp 2** — D-0058 batch-037 (`a360.co/4halQ1C`) distinct from D-0058 batch-036 (`a360.co/3UN7Ge6`)
+    - **PT Disp 3** — D-0058 batch-037 Sep 2026 (`a360.co/4xnLF2V`) and Apr 2024 (`a360.co/3TnoqZ4`) distinct from D-0058 batch-036 (`a360.co/4d0Ttk9`)
+
 ---
 
-*251 migration candidates identified (+7 in batch 036).*
+*267 migration candidates identified (+16 in batch 037).*
