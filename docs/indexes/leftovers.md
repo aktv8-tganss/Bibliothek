@@ -1724,3 +1724,43 @@ All 15 designs from batch 042 were successfully indexed:
     - **KQ2T03-35AS** — 00 - Parts (`a360.co/4d9wZ0a`) distinct from A-0047 OTS (`a360.co/4yPdzWN`)
 
     All batch 042 designs are canonical 00 - Parts versions.
+
+---
+
+## 00 - Parts — Batch 043
+
+!!! warning "00 - Parts NOT COMPLETE"
+    Additional 00 - Parts designs remain to be harvested. KV2 leftovers + Solenoid/Switchgear/Test Probes + root designs remain. Do not declare 00 - Parts COMPLETE.
+
+### Batch 043
+
+All 15 designs from batch 043 were successfully indexed:
+
+**00 - Parts / SMC KQ2 / 07** (5 designs — leftovers from batch 042):
+
+1. ✓ KQ2H07-36AS — no Design References shown
+2. ✓ KQ2L07-34AS — no Design References shown
+3. ✓ KQ2L07-35AS — no Design References shown
+4. ✓ KQ2T07-34AS — no Design References shown
+5. ✓ KQ2T07-35AS — no Design References shown
+
+**00 - Parts / SMC KQ2 / 11** (3 designs):
+
+6. ✓ KQ2H11-34AS — no Design References shown
+7. ✓ KQ2H11-35AS — no Design References shown
+8. ✓ KQ2H11-36AS — no Design References shown
+
+**00 - Parts / SMC KV2** (7 designs — KV2/03 series):
+
+9. ✓ KV2F03-34 — no Design References shown
+10. ✓ KV2H03-34S — no Design References shown
+11. ✓ KV2H03-35S — no Design References shown
+12. ✓ KV2L03-34S — no Design References shown
+13. ✓ KV2L03-35S — no Design References shown
+14. ✓ KV2T03-34S — no Design References shown
+15. ✓ KV2T03-35S — no Design References shown
+
+### Known debt
+
+!!! info "No disambiguation required"
+    All batch 043 designs are canonical 00 - Parts fittings with no name collisions.
