@@ -1503,3 +1503,60 @@ All 11 designs from batch 038 were successfully indexed:
     All four are catalogued with (D-0072) suffix in indexes for disambiguation.
 
 *D-0072 A8 Wheel End harvest declared COMPLETE for Bibliothek, 2026-09-23.*
+
+---
+
+## 00 - Parts — Batch 039
+
+!!! warning "00 - Parts NOT COMPLETE"
+    Additional 00 - Parts designs remain to be harvested. Do not declare 00 - Parts COMPLETE.
+
+### Batch 039
+
+All 13 designs from batch 039 (plus 1 from A-0001 WirelessOne) were successfully indexed:
+
+**A-0001 WirelessOne** (1 design):
+
+1. ✓ 35063643 — thin project survey item
+
+**00 - Parts / Arduino** (2 designs):
+
+2. ✓ Arduino Mega 2560
+3. ✓ Mega Enclosure
+
+**00 - Parts / Com Modules** (1 design):
+
+4. ✓ Segger Flasher — used in PCBA Flash Expanded
+
+**00 - Parts / Gauges** (2 designs):
+
+5. ✓ 1.5 Gauge Ring Clamp
+6. ✓ 1.5in Gauge — canonical version; used in PT Disp 3, Oyster Asm, PT Disp, PT Disp 4
+
+**00 - Parts / Lights** (1 design):
+
+7. ✓ Indicator LED — used in Oyster Asm
+
+**00 - Parts / McMC Bearings** (3 designs):
+
+8. ✓ 1/4 ID x 3/8 OD x 1/2 L Sleeve
+9. ✓ 1/4 ID x 3/8 OD x 3/4 L Sleeve
+10. ✓ 3/8 PTFE Bearing — canonical version
+
+**00 - Parts / McMC Brass** (4 designs):
+
+11. ✓ 1/8 Branch Tee
+12. ✓ 1/8 Bulkhead Fitting — used in 891201 FFT
+13. ✓ 1/8 Nipple
+14. ✓ 1/8 Short Nipple — used in 891201 FFT, PCBA Flash Expanded
+
+### Known debt
+
+!!! tip "Canonical vs Project Copy Designs"
+    Two batch 039 designs are canonical 00 - Parts versions with distinct shortlinks from project copies:
+
+    - **1.5in Gauge** — 00 - Parts (`a360.co/4ywoVim`) distinct from D-0058 / Comps (`a360.co/4xGc1gO`)
+    - **3/8 PTFE Bearing** — 00 - Parts (`a360.co/4r51udr`) distinct from A-0047 / OTS Parts (`a360.co/46AFj5F`)
+
+!!! info "Amplifier Board skipped"
+    Amplifier Board was intentionally skipped in batch 039 as it was already on disk from earlier harvesting.

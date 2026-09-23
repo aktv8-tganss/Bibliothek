@@ -45,14 +45,14 @@ This assembly references **15 components**:
 | 3 | [iAIR3 Gen2 Flash Runner Bed](iair3-gen2-flash-runner-bed.md) |
 | 4 | 7" Screen |
 | 5 | PCBA Flash Embryo |
-| 6 | Segger Flasher |
+| 6 | [Segger Flasher](../../00-parts/com-modules/segger-flasher.md) |
 | 7 | Pi Case |
 | 8 | Elbow 1/8 NPT |
 | 9 | NR Regulator |
 | 10 | MAC 3way Solenoid |
 | 11 | KQ2L07-35AS |
 | 12 | Reducer 1/4 to 1/8 |
-| 13 | 1/8 Short Nipple |
+| 13 | [1/8 Short Nipple](../../00-parts/mcmc-brass/1-8-short-nipple.md) |
 | 14 | Vilros Pi PSU |
 | 15 | [Screen VESA](screen-vesa.md) |
 
