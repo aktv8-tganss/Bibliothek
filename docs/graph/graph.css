@@ -47,7 +47,7 @@
   height: 100%;
 }
 
-/* Home link - upper left - icon only (Material logo) */
+/* Home link - upper left - favicon icon */
 #home-link {
   position: absolute;
   top: 12px;
@@ -67,15 +67,15 @@
   border-color: var(--ui-accent);
 }
 
-#home-link svg {
+#home-link img {
   width: 20px;
   height: 20px;
-  fill: var(--text-secondary);
-  transition: fill 0.15s;
+  opacity: 0.7;
+  transition: opacity 0.15s;
 }
 
-#home-link:hover svg {
-  fill: var(--text-primary);
+#home-link:hover img {
+  opacity: 1;
 }
 
 /* Controls Panel - Collapsible - Upper Right */
