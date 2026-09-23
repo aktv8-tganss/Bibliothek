@@ -124,6 +124,7 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [c-dtp04-4p-le07-b-3d](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/c-dtp04-4p-le07-b-3d.md) | `A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps` | [a360.co/46sG8gI](https://a360.co/46sG8gI) |
 | [12010717](../designs/a-0026-itm/12010717.md) | `A-0026 iTM` | [a360.co/4iXwOZB](https://a360.co/4iXwOZB) |
 | [880251](../designs/a-0026-itm/880251.md) | `A-0026 iTM` | [a360.co/4Ar40yP](https://a360.co/4Ar40yP) |
+| [880251 (Drawing)](../designs/a-0026-itm/880251-4ae96i7.md) | `A-0026 iTM` | [a360.co/4Ae96i7](https://a360.co/4Ae96i7) |
 | [880252](../designs/a-0026-itm/880252.md) | `A-0026 iTM` | [a360.co/4gKdzkS](https://a360.co/4gKdzkS) |
 | [880253](../designs/a-0026-itm/880253.md) | `A-0026 iTM` | [a360.co/4xOkGyF](https://a360.co/4xOkGyF) |
 | [880254](../designs/a-0026-itm/880254.md) | `A-0026 iTM` | [a360.co/3SIoDG2](https://a360.co/3SIoDG2) |
@@ -352,6 +353,7 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [31t gear](../designs/a-9999-lab/31t-gear.md) | `A-9999 Lab` | [a360.co/4h29gjC](https://a360.co/4h29gjC) |
 | [5" Shelf Bracket](../designs/a-9999-lab/5-inch-shelf-bracket.md) | `A-9999 Lab` | [a360.co/4yzMcQA](https://a360.co/4yzMcQA) |
 | [A71 Sleeve](../designs/a-9999-lab/a71-sleeve.md) | `A-9999 Lab` | [a360.co/4gP0mqU](https://a360.co/4gP0mqU) |
+| [A8 Template](../designs/a-9999-lab/a8-template.md) | `A-9999 Lab` | [a360.co/4rpp4lz](https://a360.co/4rpp4lz) |
 | [Air Part Models](../designs/a-9999-lab/air-part-models.md) | `A-9999 Lab` | [a360.co/4A7MsYs](https://a360.co/4A7MsYs) |
 | [All](../designs/a-9999-lab/all.md) | `A-9999 Lab` | [a360.co/4ijeaLx](https://a360.co/4ijeaLx) |
 | [BRINGSMART MOTOR](../designs/a-9999-lab/bringsmart-motor.md) | `A-9999 Lab` | [a360.co/4iRzQ1u](https://a360.co/4iRzQ1u) |
@@ -411,6 +413,8 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Marble Run Support](../designs/a-9999-lab/marble-run-support.md) | `A-9999 Lab` | [a360.co/4xX1cIl](https://a360.co/4xX1cIl) |
 | [Marble Run Support Copy](../designs/a-9999-lab/marble-run-support-copy.md) | `A-9999 Lab` | [a360.co/4cIv0jg](https://a360.co/4cIv0jg) |
 | [PI Case](../designs/a-9999-lab/pi-case.md) | `A-9999 Lab` | [a360.co/4r59BXs](https://a360.co/4r59BXs) |
+| [PCBA Gauge iAir6 V2 (46ESKl6)](../designs/a-9999-lab/pcba-gauge-iair6-v2-46eskl6.md) | `A-9999 Lab` | [a360.co/46ESKl6](https://a360.co/46ESKl6) |
+| [PCBA Gauge iAir6 V2 (46pliic)](../designs/a-9999-lab/pcba-gauge-iair6-v2-46pliic.md) | `A-9999 Lab` | [a360.co/46pliic](https://a360.co/46pliic) |
 | [STAY STRAPPED](../designs/a-9999-lab/stay-strapped.md) | `A-9999 Lab` | [a360.co/3SU3JUp](https://a360.co/3SU3JUp) |
 | [Segger Module](../designs/a-9999-lab/segger-module.md) | `A-9999 Lab` | [a360.co/4dxZQvf](https://a360.co/4dxZQvf) |
 | [Sound Deadening Chamber](../designs/a-9999-lab/sound-deadening-chamber.md) | `A-9999 Lab` | [a360.co/3UNMqF8](https://a360.co/3UNMqF8) |

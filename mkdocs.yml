@@ -329,6 +329,7 @@ nav:
     - A-0026 iTM:
       - "12010717": designs/a-0026-itm/12010717.md
       - "880251": designs/a-0026-itm/880251.md
+      - "880251 (Drawing)": designs/a-0026-itm/880251-4ae96i7.md
       - "880252": designs/a-0026-itm/880252.md
       - "880253": designs/a-0026-itm/880253.md
       - "880254": designs/a-0026-itm/880254.md
@@ -889,6 +890,7 @@ nav:
       - 31t gear: designs/a-9999-lab/31t-gear.md
       - "5\" Shelf Bracket": designs/a-9999-lab/5-inch-shelf-bracket.md
       - A71 Sleeve: designs/a-9999-lab/a71-sleeve.md
+      - A8 Template: designs/a-9999-lab/a8-template.md
       - Air Part Models: designs/a-9999-lab/air-part-models.md
       - All: designs/a-9999-lab/all.md
       - Barn Layout: designs/a-9999-lab/barn-layout.md
@@ -918,6 +920,8 @@ nav:
       - Marble Run Support: designs/a-9999-lab/marble-run-support.md
       - Marble Run Support Copy: designs/a-9999-lab/marble-run-support-copy.md
       - PI Case: designs/a-9999-lab/pi-case.md
+      - PCBA Gauge iAir6 V2 (46ESKl6): designs/a-9999-lab/pcba-gauge-iair6-v2-46eskl6.md
+      - PCBA Gauge iAir6 V2 (46pliic): designs/a-9999-lab/pcba-gauge-iair6-v2-46pliic.md
       - STAY STRAPPED: designs/a-9999-lab/stay-strapped.md
       - Segger Module: designs/a-9999-lab/segger-module.md
       - Sound Deadening Chamber: designs/a-9999-lab/sound-deadening-chamber.md
