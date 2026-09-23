@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (779 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (120 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (292 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (795 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (126 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (306 total)
 
 ## Design Tree
 
@@ -76,8 +76,10 @@ Browse designs by project folder:
     - [Root Designs](designs/d-0058-tpms-load/pt-disp.md) — D-0058 root designs (29 designs, 10 migration candidates incl. 7 OTS + 3 project-copies)
     - [Comps](designs/d-0058-tpms-load/comps/ar2000-reg.md) — D-0058 Comps subfolder (15 designs, 13 migration candidates)
 - **[D-0072 A8 Wheel End](designs/d-0072-a8-wheel-end/taz-b-dyno.md)** — A8 Wheel End project designs (11 designs, 1 OTS migration candidate)
-- **[D-0012 EOL](designs/d-0012-eol/ots-parts/12v.md)** — EOL project designs (24 designs, all OTS migration candidates)
+- **[D-0012 EOL](designs/d-0012-eol/ots-parts/12v.md)** — EOL project designs (40 designs, 38 migration candidates)
     - [OTS Parts](designs/d-0012-eol/ots-parts/12v.md) — OTS Parts subfolder (24 designs, all migration candidates; **OTS Parts COMPLETE**)
+    - [A8 Parts](designs/d-0012-eol/a8-parts/881211-aa.md) — A8 Parts subfolder (14 designs, all migration candidates)
+    - [Oyster](designs/d-0012-eol/oyster/oyster-asm.md) — Oyster subfolder (2 designs)
 - **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
     - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
@@ -136,8 +138,9 @@ Browse designs by project folder:
 | 044 | 18 | 00 - Parts (18) — SMC KV2/07 (9) + SMC KV2/11 (3) + Solenoid Valves (3) + Switchgear (2) + Test Probes (1); no migration candidates; **00 - Parts COMPLETE** |
 | 045 | 13 | D-0012 EOL / OTS Parts (13) — all 13 are OTS migration candidates; reconcile/migrate into 00 - Parts later |
 | 046 | 11 | D-0012 EOL / OTS Parts (11) — all 11 are OTS migration candidates; **D-0012 OTS Parts COMPLETE** |
+| 047 | 16 | D-0012 EOL: A8 Parts (14) + Oyster (2) — 14 migration candidates (all A8 Parts); Oyster Asm references 00 - Parts assets; **D-0012 NOT COMPLETE** (Gen2 Fixture + 891201 FFT open) |
 
-**Total designs indexed: 779**
+**Total designs indexed: 795**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.

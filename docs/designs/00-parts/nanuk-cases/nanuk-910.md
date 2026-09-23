@@ -34,5 +34,5 @@ This design references the following components:
 
 This design is used in the following assemblies:
 
-- Oyster Asm
-- Oyster Bottom Plate
+- [Oyster Asm](../../d-0012-eol/oyster/oyster-asm.md)
+- [Oyster Bottom Plate](../../d-0012-eol/oyster/oyster-bottom-plate.md)

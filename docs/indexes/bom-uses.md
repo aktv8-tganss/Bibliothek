@@ -120,6 +120,12 @@ Assemblies with non-empty component references (Uses).
 | [Nanuk 909](../designs/00-parts/nanuk-cases/nanuk-909.md) | 2 | [a360.co/4xiMD0y](https://a360.co/4xiMD0y) |
 | [Nanuk 910](../designs/00-parts/nanuk-cases/nanuk-910.md) | 2 | [a360.co/4xem9x7](https://a360.co/4xem9x7) |
 | [3way Solenoid](../designs/00-parts/solenoid-valves/3way-solenoid.md) | 3 | [a360.co/4yBEAgx](https://a360.co/4yBEAgx) |
+| [Deep Screen Bracket](../designs/d-0012-eol/a8-parts/deep-screen-bracket.md) | 2 | [a360.co/4xWLtcj](https://a360.co/4xWLtcj) |
+| [DIN Resistor Bank](../designs/d-0012-eol/a8-parts/din-resistor-bank.md) | 2 | [a360.co/3UQ9OC0](https://a360.co/3UQ9OC0) |
+| [Keypad Bump-it](../designs/d-0012-eol/a8-parts/keypad-bump-it.md) | 1 | [a360.co/4AvpB9J](https://a360.co/4AvpB9J) |
+| [Pi VESA Mount](../designs/d-0012-eol/a8-parts/pi-vesa-mount.md) | 3 | [a360.co/4xUwsaT](https://a360.co/4xUwsaT) |
+| [Oyster Asm](../designs/d-0012-eol/oyster/oyster-asm.md) | 19 | [a360.co/46NaQ4e](https://a360.co/46NaQ4e) |
+| [Oyster Bottom Plate](../designs/d-0012-eol/oyster/oyster-bottom-plate.md) | 1 | [a360.co/4rbYSud](https://a360.co/4rbYSud) |
 
 ---
 
@@ -1481,4 +1487,74 @@ The 3way Solenoid design (00 - Parts / Solenoid Valves) references the following
 
 ---
 
-*120 assemblies with BOM data indexed.*
+## Deep Screen Bracket — Bill of Materials
+
+The Deep Screen Bracket design references the following 2 components:
+
+1. [Screen](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/screen.md)
+2. [940_R1_Top_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-top-inner-surface-step.md)
+
+---
+
+## DIN Resistor Bank — Bill of Materials
+
+The DIN Resistor Bank design references the following 2 components:
+
+1. 3R0 150W
+2. [DIN Clip Printable](../designs/00-parts/din/din-clip-printable.md)
+
+---
+
+## Keypad Bump-it — Bill of Materials
+
+The Keypad Bump-it design references the following 1 component:
+
+1. [940_R1_Btm_INNER_SURFACE_STEP](../designs/a-0054-iair3-gen2/fft-obs/io-box/comps/940-r1-btm-inner-surface-step.md)
+
+---
+
+## Pi VESA Mount — Bill of Materials
+
+The Pi VESA Mount design references the following 3 components:
+
+1. [Vilros Pi PSU](../designs/00-parts/psus/vilros-pi-psu.md)
+2. [Pi Case](../designs/00-parts/pi-components/pi-case.md)
+3. [AC Extension](../designs/00-parts/psus/ac-extension.md)
+
+---
+
+## Oyster Asm — Bill of Materials
+
+The Oyster Asm assembly references the following 19 components:
+
+1. [Reducer 1/4 to 1/8](../designs/00-parts/mcmc-brass/reducer-1-4-to-1-8.md)
+2. [KQ2E07-35A](../designs/00-parts/smc-kq2/kq2e07-35a.md)
+3. green
+4. [Nanuk 910](../designs/00-parts/nanuk-cases/nanuk-910.md)
+5. [1.5in Gauge](../designs/00-parts/gauges/1-5in-gauge.md)
+6. [Vilros Pi PSU](../designs/00-parts/psus/vilros-pi-psu.md)
+7. [10" Screen](../designs/00-parts/pi-components/10-screen.md)
+8. [MAC 3way Solenoid](../designs/00-parts/solenoid-valves/mac-3way-solenoid.md)
+9. [Arduino Mega 2560](../designs/00-parts/arduino/arduino-mega-2560.md)
+10. [Oyster Bottom Plate](../designs/d-0012-eol/oyster/oyster-bottom-plate.md)
+11. [KQ2L03-34AS](../designs/00-parts/smc-kq2/kq2l03-34as.md)
+12. [Amplifier Board](../designs/00-parts/arduino/amplifier-board.md)
+13. [Pi Case](../designs/00-parts/pi-components/pi-case.md)
+14. [Mega Enclosure](../designs/00-parts/arduino/mega-enclosure.md)
+15. red
+16. [PSU 12V-5A Alitov](../designs/00-parts/psus/psu-12v-5a-alitov.md)
+17. [GCX3105](../designs/00-parts/switchgear/gcx3105.md)
+18. [Mini Regulator](../designs/00-parts/regulators/mini-regulator.md)
+19. [KQ2L03-35AS](../designs/00-parts/smc-kq2/kq2l03-35as.md)
+
+---
+
+## Oyster Bottom Plate — Bill of Materials
+
+The Oyster Bottom Plate design references the following 1 component:
+
+1. [Nanuk 910](../designs/00-parts/nanuk-cases/nanuk-910.md)
+
+---
+
+*126 assemblies with BOM data indexed.*

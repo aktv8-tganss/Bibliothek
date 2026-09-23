@@ -1257,4 +1257,38 @@ Batch 046 contains 11 designs under `D-0012 EOL / OTS Parts`. All 11 are OTS mig
 
 ---
 
-*292 migration candidates identified (+11 in batch 046).*
+## D-0012 EOL — Batch 047 (A8 Parts + Oyster)
+
+### A8 Parts (14 designs)
+
+**Migration Candidates (14 of 14):**
+
+All 14 A8 Parts designs under D-0012 EOL are flagged for consolidation review.
+
+| Design | Current Path | Reason |
+|--------|--------------|--------|
+| [881211 AA](../designs/d-0012-eol/a8-parts/881211-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881212 AA](../designs/d-0012-eol/a8-parts/881212-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881213 AA](../designs/d-0012-eol/a8-parts/881213-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881214 AA](../designs/d-0012-eol/a8-parts/881214-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881215 AA](../designs/d-0012-eol/a8-parts/881215-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881216 AA](../designs/d-0012-eol/a8-parts/881216-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881218 AA](../designs/d-0012-eol/a8-parts/881218-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881219 AA](../designs/d-0012-eol/a8-parts/881219-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [881220 AA](../designs/d-0012-eol/a8-parts/881220-aa.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [Deep Screen Bracket](../designs/d-0012-eol/a8-parts/deep-screen-bracket.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [DIN Proto Board Mount](../designs/d-0012-eol/a8-parts/din-proto-board-mount.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [DIN Resistor Bank](../designs/d-0012-eol/a8-parts/din-resistor-bank.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [Keypad Bump-it](../designs/d-0012-eol/a8-parts/keypad-bump-it.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [Pi VESA Mount](../designs/d-0012-eol/a8-parts/pi-vesa-mount.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+
+### Oyster (2 designs)
+
+**Not Migration Candidates (2 of 2):**
+
+- **Oyster Asm** — Product assembly. Not an OTS part.
+- **Oyster Bottom Plate** — Custom plate component. Not an OTS part.
+
+---
+
+*306 migration candidates identified (+14 in batch 047).*
