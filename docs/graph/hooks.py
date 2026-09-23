@@ -218,18 +218,27 @@ def generate_assembly_graph(docs_dir: Path) -> dict:
     """
     Scan design pages and build BOM relationship graph (assembly→part edges).
     
+    CRITICAL: Nodes are keyed by file path (unique), not Fusion display name.
+    This ensures distinct designs with identical names appear as separate nodes.
+    
+    Edge resolution for bare name refs:
+    - If exactly one path matches the name: resolve to that path
+    - If multiple paths share the name: resolve only if source is in the same project
+    - Otherwise: leave unresolved (logged) — never invent false BOM edges
+    
     Returns:
         dict with 'nodes' and 'edges' arrays:
-        - Nodes: design files only (no folders), with uses_count, used_in_count, and project
-        - Edges: assembly→part uses relationships
+        - Nodes: design files keyed by path, with name, display_name (when needed),
+                 shortlink, project, uses_count, used_in_count
+        - Edges: assembly→part uses relationships (resolved by path)
     """
     designs_dir = docs_dir / 'designs'
     if not designs_dir.exists():
         log.warning(f"Designs directory not found: {designs_dir}")
         return {'nodes': [], 'edges': []}
     
-    nodes_map = {}
-    edges = []
+    nodes_by_path = {}
+    name_to_paths = {}
     
     for md_file in designs_dir.rglob('*.md'):
         try:
@@ -247,85 +256,116 @@ def generate_assembly_graph(docs_dir: Path) -> dict:
             continue
         
         shortlink = fm.get('shortlink', '')
-        uses = fm.get('uses', []) or []
-        used_in = fm.get('used_in', []) or []
+        uses_refs = fm.get('uses', []) or []
+        used_in_refs = fm.get('used_in', []) or []
         
         relative_path = md_file.relative_to(designs_dir)
         path_str = str(relative_path.with_suffix('')).replace(os.sep, '/')
         main_folder = extract_main_folder(path_str)
         
-        if name not in nodes_map:
-            nodes_map[name] = {
-                'id': name,
-                'shortlink': shortlink,
-                'path': path_str,
-                'project': main_folder,
-                'uses_count': 0,
-                'used_in_count': 0,
-                '_uses': set(),
-                '_used_in': set(),
-            }
-        else:
-            if shortlink and not nodes_map[name]['shortlink']:
-                nodes_map[name]['shortlink'] = shortlink
-            if path_str and not nodes_map[name]['path']:
-                nodes_map[name]['path'] = path_str
-            if main_folder and not nodes_map[name].get('project'):
-                nodes_map[name]['project'] = main_folder
+        nodes_by_path[path_str] = {
+            'id': path_str,
+            'name': name,
+            'shortlink': shortlink,
+            'path': path_str,
+            'project': main_folder,
+            '_uses_refs': [r for r in uses_refs if r and not is_hub_page(r)],
+            '_used_in_refs': [r for r in used_in_refs if r and not is_hub_page(r)],
+            '_uses_paths': set(),
+            '_used_in_paths': set(),
+        }
         
-        for ref in uses:
-            if ref and not is_hub_page(ref):
-                nodes_map[name]['_uses'].add(ref)
-                if ref not in nodes_map:
-                    nodes_map[ref] = {
-                        'id': ref,
-                        'shortlink': '',
-                        'path': '',
-                        'project': '',
-                        'uses_count': 0,
-                        'used_in_count': 0,
-                        '_uses': set(),
-                        '_used_in': set(),
-                    }
-                nodes_map[ref]['_used_in'].add(name)
-        
-        for ref in used_in:
-            if ref and not is_hub_page(ref):
-                nodes_map[name]['_used_in'].add(ref)
-                if ref not in nodes_map:
-                    nodes_map[ref] = {
-                        'id': ref,
-                        'shortlink': '',
-                        'path': '',
-                        'project': '',
-                        'uses_count': 0,
-                        'used_in_count': 0,
-                        '_uses': set(),
-                        '_used_in': set(),
-                    }
-                nodes_map[ref]['_uses'].add(name)
+        if name not in name_to_paths:
+            name_to_paths[name] = []
+        name_to_paths[name].append(path_str)
     
-    for node_id, node in nodes_map.items():
-        node['uses_count'] = len(node['_uses'])
-        node['used_in_count'] = len(node['_used_in'])
+    def resolve_ref(ref_name: str, source_path: str) -> list:
+        """
+        Resolve a bare Fusion name ref to path(s).
         
-        for target in node['_uses']:
-            edges.append({
-                'source': node_id,
-                'target': target,
-                'type': 'uses'
-            })
+        Returns list of target paths. May be empty if unresolvable.
+        """
+        candidate_paths = name_to_paths.get(ref_name, [])
+        
+        if len(candidate_paths) == 0:
+            return []
+        
+        if len(candidate_paths) == 1:
+            return candidate_paths
+        
+        source_project = extract_main_folder(source_path)
+        same_project = [p for p in candidate_paths if extract_main_folder(p) == source_project]
+        
+        if len(same_project) == 1:
+            return same_project
+        
+        if len(same_project) > 1:
+            log.debug(f"Ambiguous ref '{ref_name}' from {source_path}: {len(same_project)} same-project matches, skipping")
+            return []
+        
+        log.debug(f"Ambiguous ref '{ref_name}' from {source_path}: {len(candidate_paths)} matches across projects, skipping")
+        return []
+    
+    for path_str, node in nodes_by_path.items():
+        for ref_name in node['_uses_refs']:
+            target_paths = resolve_ref(ref_name, path_str)
+            for target_path in target_paths:
+                if target_path != path_str:
+                    node['_uses_paths'].add(target_path)
+                    if target_path in nodes_by_path:
+                        nodes_by_path[target_path]['_used_in_paths'].add(path_str)
+        
+        for ref_name in node['_used_in_refs']:
+            source_paths = resolve_ref(ref_name, path_str)
+            for source_path in source_paths:
+                if source_path != path_str:
+                    node['_used_in_paths'].add(source_path)
+                    if source_path in nodes_by_path:
+                        nodes_by_path[source_path]['_uses_paths'].add(path_str)
+    
+    def compute_display_name(name: str, path: str) -> str:
+        """
+        Generate display name. Only add path disambiguation when names collide.
+        """
+        paths_with_name = name_to_paths.get(name, [])
+        if len(paths_with_name) <= 1:
+            return name
+        
+        project = extract_main_folder(path)
+        if project:
+            if project == '00-parts':
+                return f"{name} · 00-Parts"
+            return f"{name} · {project.upper()}"
+        return name
+    
+    edges = []
+    seen_edges = set()
+    for path_str, node in nodes_by_path.items():
+        for target_path in node['_uses_paths']:
+            edge_key = (path_str, target_path)
+            if edge_key not in seen_edges:
+                seen_edges.add(edge_key)
+                edges.append({
+                    'source': path_str,
+                    'target': target_path,
+                    'type': 'uses'
+                })
     
     nodes = []
-    for node in nodes_map.values():
-        nodes.append({
-            'id': node['id'],
+    for path_str, node in nodes_by_path.items():
+        display_name = compute_display_name(node['name'], path_str)
+        node_data = {
+            'id': path_str,
+            'name': node['name'],
             'shortlink': node['shortlink'],
-            'path': node['path'],
-            'project': node.get('project', ''),
-            'uses_count': node['uses_count'],
-            'used_in_count': node['used_in_count'],
-        })
+            'path': path_str,
+            'project': node['project'],
+            'uses_count': len(node['_uses_paths']),
+            'used_in_count': len(node['_used_in_paths']),
+        }
+        if display_name != node['name']:
+            node_data['display_name'] = display_name
+        nodes.append(node_data)
     
     nodes.sort(key=lambda n: n['id'])
     edges.sort(key=lambda e: (e['source'], e['target']))

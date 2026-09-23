@@ -15,7 +15,8 @@
     velocityDecay: 0.4,
     sizeFalloff: 0.75,
     showOrphans: false,
-    controlsCollapsed: false
+    controlsCollapsed: false,
+    helpDismissed: false
   };
 
   let canvasWidth = 800;
@@ -103,6 +104,7 @@
   function init() {
     loadSettings();
     applyControlsCollapseState();
+    applyHelpPanelState();
     const loading = document.getElementById('graph-loading');
     
     const basePath = getBasePath();
@@ -116,6 +118,7 @@
         bindSettingsControls();
         bindCollapseControls();
         bindModeDropdown();
+        bindHelpPanel();
         if (loading) loading.classList.add('hidden');
       })
       .catch(err => {
@@ -177,6 +180,30 @@
         controls.classList.add('expanded');
         chip.classList.remove('visible');
         settings.controlsCollapsed = false;
+        saveSettings();
+      });
+    }
+  }
+
+  function applyHelpPanelState() {
+    const helpPanel = document.getElementById('graph-help');
+    if (!helpPanel) return;
+    
+    if (settings.helpDismissed) {
+      helpPanel.classList.remove('visible');
+    } else {
+      helpPanel.classList.add('visible');
+    }
+  }
+
+  function bindHelpPanel() {
+    const helpClose = document.getElementById('help-close');
+    const helpPanel = document.getElementById('graph-help');
+    
+    if (helpClose && helpPanel) {
+      helpClose.addEventListener('click', () => {
+        helpPanel.classList.remove('visible');
+        settings.helpDismissed = true;
         saveSettings();
       });
     }
@@ -509,7 +536,7 @@
       .selectAll('text')
       .data(nodes)
       .join('text')
-      .text(d => d.name || d.id)
+      .text(d => d.display_name || d.name || d.id)
       .attr('font-size', 9)
       .attr('font-family', 'JetBrains Mono, Consolas, monospace')
       .attr('fill', '#e0e0e0')
@@ -574,7 +601,7 @@
       .selectAll('text')
       .data(nodes)
       .join('text')
-      .text(d => d.name || d.id)
+      .text(d => d.display_name || d.name || d.id)
       .attr('font-size', 9)
       .attr('font-family', 'JetBrains Mono, Consolas, monospace')
       .attr('fill', '#e0e0e0')
@@ -743,7 +770,7 @@
         });
     }
 
-    showHoverName(d.name || d.id);
+    showHoverName(d.display_name || d.name || d.id);
   }
 
   function handleNodeMouseOut(event, d) {
@@ -969,8 +996,9 @@
 
     const matches = new Set();
     nodes.forEach(n => {
-      const searchIn = (n.name || n.id).toLowerCase();
-      if (searchIn.includes(searchTerm)) {
+      const searchName = (n.display_name || n.name || '').toLowerCase();
+      const searchPath = (n.path || n.id || '').toLowerCase();
+      if (searchName.includes(searchTerm) || searchPath.includes(searchTerm)) {
         matches.add(n.id);
       }
     });
@@ -1165,7 +1193,7 @@
     if (!panel) return;
 
     const nameEl = document.getElementById('panel-name');
-    if (nameEl) nameEl.textContent = d.name || d.id;
+    if (nameEl) nameEl.textContent = d.display_name || d.name || d.id;
     
     const pathEl = document.getElementById('panel-path');
     if (pathEl) pathEl.textContent = d.path || d.id || '—';
@@ -1177,6 +1205,31 @@
           d.shortlink + '</a>';
       } else {
         linkEl.textContent = '—';
+      }
+    }
+
+    const bibliothekLink = document.getElementById('panel-bibliothek-link');
+    if (bibliothekLink) {
+      const designPath = d.path || d.id;
+      if (designPath) {
+        if (d.type === 'folder') {
+          bibliothekLink.href = '../designs/' + designPath + '/';
+        } else {
+          bibliothekLink.href = '../designs/' + designPath + '/';
+        }
+        bibliothekLink.classList.remove('hidden');
+      } else {
+        bibliothekLink.classList.add('hidden');
+      }
+    }
+
+    const autodeskLink = document.getElementById('panel-autodesk-link');
+    if (autodeskLink) {
+      if (d.shortlink) {
+        autodeskLink.href = d.shortlink;
+        autodeskLink.classList.remove('hidden');
+      } else {
+        autodeskLink.classList.add('hidden');
       }
     }
 
