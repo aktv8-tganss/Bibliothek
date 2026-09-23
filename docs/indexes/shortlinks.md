@@ -655,7 +655,18 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Scoche Mount](../designs/d-0058-tpms-load/scoche-mount.md) | `D-0058 TPMS & Load` | [a360.co/46tusuc](https://a360.co/46tusuc) |
 | [Switch (D-0058)](../designs/d-0058-tpms-load/switch.md) | `D-0058 TPMS & Load` | [a360.co/4dAbiGP](https://a360.co/4dAbiGP) |
 | [Tee Leak Fixture](../designs/d-0058-tpms-load/comps/tee-leak-fixture.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4h5iTy8](https://a360.co/4h5iTy8) |
+| [TAZ B Dyno](../designs/d-0072-a8-wheel-end/taz-b-dyno.md) | `D-0072 A8 Wheel End` | [a360.co/4iY8Kpq](https://a360.co/4iY8Kpq) |
+| [Motor Adapter PSI (D-0072)](../designs/d-0072-a8-wheel-end/motor-adapter-psi.md) | `D-0072 A8 Wheel End` | [a360.co/4xTZdo4](https://a360.co/4xTZdo4) |
+| [Motor Adapter (D-0072)](../designs/d-0072-a8-wheel-end/motor-adapter.md) | `D-0072 A8 Wheel End` | [a360.co/4A44lrj](https://a360.co/4A44lrj) |
+| [PSI Tee (D-0072)](../designs/d-0072-a8-wheel-end/psi-tee.md) | `D-0072 A8 Wheel End` | [a360.co/4ii7ahY](https://a360.co/4ii7ahY) |
+| [TAZ B Frame](../designs/d-0072-a8-wheel-end/taz-b-frame.md) | `D-0072 A8 Wheel End` | [a360.co/3T1tG4h](https://a360.co/3T1tG4h) |
+| [TAZ Bracket](../designs/d-0072-a8-wheel-end/taz-bracket.md) | `D-0072 A8 Wheel End` | [a360.co/3T3NeVE](https://a360.co/3T3NeVE) |
+| [Bearing ASM](../designs/d-0072-a8-wheel-end/bearing-asm.md) | `D-0072 A8 Wheel End` | [a360.co/4xh95XW](https://a360.co/4xh95XW) |
+| [Hose Holder M16 (D-0072)](../designs/d-0072-a8-wheel-end/hose-holder-m16.md) | `D-0072 A8 Wheel End` | [a360.co/3ULwqU4](https://a360.co/3ULwqU4) |
+| [Compressor Motor (D-0072)](../designs/d-0072-a8-wheel-end/compressor-motor.md) | `D-0072 A8 Wheel End` | [a360.co/4A3PvRu](https://a360.co/4A3PvRu) |
+| [Hose Holder NPT](../designs/d-0072-a8-wheel-end/hose-holder-npt.md) | `D-0072 A8 Wheel End` | [a360.co/46CfiD3](https://a360.co/46CfiD3) |
+| [TAZ Dyno Cabinet (D-0072)](../designs/d-0072-a8-wheel-end/taz-dyno-cabinet.md) | `D-0072 A8 Wheel End` | [a360.co/4A8KQ0H](https://a360.co/4A8KQ0H) |
 
 ---
 
-*651 designs indexed.*
+*662 designs indexed.*
