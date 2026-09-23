@@ -27,9 +27,19 @@ article.md-content__inner { padding: 0 !important; }
       <button id="controls-collapse" title="Collapse">−</button>
     </div>
     <div id="controls-body">
+      <select id="mode-select">
+        <option value="directory">Directory</option>
+        <option value="assembly">Assembly</option>
+      </select>
       <div id="search-row">
-        <input type="text" id="node-search" placeholder="Search folder/file...">
+        <input type="text" id="node-search" placeholder="Search...">
         <input type="number" id="hop-count" value="1" min="1" max="5" title="Hops">
+      </div>
+      <div id="orphan-toggle-row">
+        <label>
+          <input type="checkbox" id="show-orphans">
+          Show orphans
+        </label>
       </div>
       <div id="btn-row">
         <button class="control-btn" id="btn-reset">Reset</button>
@@ -69,7 +79,7 @@ article.md-content__inner { padding: 0 !important; }
         </div>
         <div class="slider-row">
           <span class="slider-label">Size falloff</span>
-          <input type="range" id="slider-size-falloff" class="slider-input" min="0.5" max="0.95" step="0.05" value="0.75">
+          <input type="range" id="slider-size-falloff" class="slider-input" min="0.3" max="0.9" step="0.05" value="0.75">
           <span class="slider-value" id="slider-size-falloff-value">0.75</span>
         </div>
         <button class="control-btn" id="btn-reset-settings">Reset Forces</button>
@@ -92,13 +102,21 @@ article.md-content__inner { padding: 0 !important; }
       <span class="panel-label">Path</span>
       <span class="panel-value" id="panel-path"></span>
     </div>
-    <div class="panel-row">
+    <div class="panel-row panel-field-directory">
       <span class="panel-label">Depth</span>
       <span class="panel-value" id="panel-depth"></span>
     </div>
-    <div class="panel-row">
+    <div class="panel-row panel-field-directory">
       <span class="panel-label">Children</span>
       <span class="panel-value" id="panel-children"></span>
+    </div>
+    <div class="panel-row panel-field-assembly">
+      <span class="panel-label">Uses</span>
+      <span class="panel-value" id="panel-uses"></span>
+    </div>
+    <div class="panel-row panel-field-assembly">
+      <span class="panel-label">Used In</span>
+      <span class="panel-value" id="panel-used-in"></span>
     </div>
     <div class="panel-row">
       <span class="panel-label">Shortlink</span>
@@ -107,13 +125,29 @@ article.md-content__inner { padding: 0 !important; }
   </div>
   
   <div id="graph-legend">
-    <div class="legend-item">
-      <span class="legend-dot folder"></span>
-      <span>Folder</span>
+    <div id="legend-directory" class="legend-group">
+      <div class="legend-item">
+        <span class="legend-dot folder"></span>
+        <span>Folder</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot file"></span>
+        <span>File</span>
+      </div>
     </div>
-    <div class="legend-item">
-      <span class="legend-dot file"></span>
-      <span>File</span>
+    <div id="legend-assembly" class="legend-group">
+      <div class="legend-item">
+        <span class="legend-dot assembly"></span>
+        <span>Assembly</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot part"></span>
+        <span>Part</span>
+      </div>
+      <div class="legend-item">
+        <span class="legend-dot hybrid"></span>
+        <span>Hybrid</span>
+      </div>
     </div>
   </div>
   

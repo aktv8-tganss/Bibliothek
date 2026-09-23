@@ -1,4 +1,4 @@
-/* Bibliothek Graph Canvas - Folder Tree View (D3 Force Simulation) */
+/* Bibliothek Graph Canvas - Directory + Assembly Modes (D3 Force Simulation) */
 
 (function() {
   'use strict';
@@ -6,6 +6,7 @@
   const STORAGE_KEY = 'bibliothek-graph-settings';
 
   const DEFAULT_SETTINGS = {
+    mode: 'directory',
     centerForce: 0.1,
     repelForce: -150,
     linkForce: 0.5,
@@ -13,6 +14,7 @@
     collideRadius: 12,
     velocityDecay: 0.4,
     sizeFalloff: 0.75,
+    showOrphans: false,
     controlsCollapsed: false
   };
 
@@ -23,21 +25,37 @@
   let simulation = null;
   let svg = null;
   let g = null;
-  let graphData = null;
+  let allGraphData = null;
   let nodes = [];
   let links = [];
   let nodeElements = null;
   let linkElements = null;
   let labelElements = null;
   let zoom = null;
-  let maxFolderDepth = 1;
 
   const CONFIG = {
     FOLDER_SIZE_ROOT: 24,
     FOLDER_SIZE_MIN: 6,
     FILE_SIZE: 4,
+    ASSEMBLY_SIZE_MIN: 5,
+    ASSEMBLY_SIZE_MAX: 28,
     ZOOM_MIN: 0.1,
     ZOOM_MAX: 4
+  };
+
+  const COLORS = {
+    folder: '#d4a017',
+    folderBorder: '#a67c00',
+    file: '#e07020',
+    fileBorder: '#b05010',
+    assembly: '#3a7bd5',
+    assemblyBorder: '#2a5aa0',
+    part: '#27ae60',
+    partBorder: '#1e8449',
+    hybrid: '#17a2b8',
+    hybridBorder: '#117a8b',
+    orphan: '#555555',
+    orphanBorder: '#444444'
   };
 
   function init() {
@@ -49,13 +67,14 @@
     fetch(basePath + 'graph.json')
       .then(r => r.json())
       .then(data => {
-        graphData = data;
-        initGraph(data);
+        allGraphData = data;
+        initSvg();
+        loadMode(settings.mode);
         bindControls();
         bindSettingsControls();
         bindCollapseControls();
+        bindModeDropdown();
         if (loading) loading.classList.add('hidden');
-        updateStats();
       })
       .catch(err => {
         console.error('Failed to load graph data:', err);
@@ -121,6 +140,19 @@
     }
   }
 
+  function bindModeDropdown() {
+    const modeSelect = document.getElementById('mode-select');
+    if (!modeSelect) return;
+
+    modeSelect.value = settings.mode;
+
+    modeSelect.addEventListener('change', () => {
+      settings.mode = modeSelect.value;
+      saveSettings();
+      loadMode(settings.mode);
+    });
+  }
+
   function getBasePath() {
     const scripts = document.getElementsByTagName('script');
     for (let i = 0; i < scripts.length; i++) {
@@ -135,33 +167,274 @@
     return path.substring(0, lastSlash + 1);
   }
 
-  function computeFolderRadius(depth, falloff) {
-    if (depth === 0) {
-      return CONFIG.FOLDER_SIZE_ROOT;
-    }
-    const radius = CONFIG.FOLDER_SIZE_ROOT * Math.pow(falloff, depth);
-    return Math.max(radius, CONFIG.FOLDER_SIZE_MIN);
+  function initSvg() {
+    const container = document.getElementById('cy');
+    canvasWidth = container.clientWidth;
+    canvasHeight = container.clientHeight;
+
+    svg = d3.select('#cy')
+      .append('svg')
+      .attr('width', '100%')
+      .attr('height', '100%')
+      .style('display', 'block');
+
+    const defs = svg.append('defs');
+    const filter = defs.append('filter')
+      .attr('id', 'glow')
+      .attr('x', '-50%')
+      .attr('y', '-50%')
+      .attr('width', '200%')
+      .attr('height', '200%');
+    filter.append('feGaussianBlur')
+      .attr('stdDeviation', '2')
+      .attr('result', 'coloredBlur');
+    const feMerge = filter.append('feMerge');
+    feMerge.append('feMergeNode').attr('in', 'coloredBlur');
+    feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
+
+    g = svg.append('g');
+
+    zoom = d3.zoom()
+      .scaleExtent([CONFIG.ZOOM_MIN, CONFIG.ZOOM_MAX])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
+      });
+
+    svg.call(zoom);
+    
+    svg.on('click', () => {
+      hideNodePanel();
+    });
+
+    window.addEventListener('resize', handleResize);
   }
 
-  function computeNodeRadius(node, falloff) {
+  function loadMode(mode) {
+    if (simulation) {
+      simulation.stop();
+    }
+    
+    g.selectAll('*').remove();
+    
+    const data = allGraphData[mode];
+    if (!data) {
+      console.error('No data for mode:', mode);
+      return;
+    }
+
+    if (mode === 'directory') {
+      initDirectoryMode(data);
+    } else if (mode === 'assembly') {
+      initAssemblyMode(data);
+    }
+
+    updateLegend(mode);
+    updatePanelFields(mode);
+    updateStats();
+
+    svg.call(zoom.transform, d3.zoomIdentity);
+  }
+
+  function computeDirectoryRadius(node, falloff) {
     if (node.type === 'file') {
       return CONFIG.FILE_SIZE;
     }
-    return computeFolderRadius(node.depth || 0, falloff);
+    if (node.depth === 0) {
+      return CONFIG.FOLDER_SIZE_ROOT;
+    }
+    const radius = CONFIG.FOLDER_SIZE_ROOT * Math.pow(falloff, node.depth || 0);
+    return Math.max(radius, CONFIG.FOLDER_SIZE_MIN);
   }
 
-  function getNodeColor(node) {
-    if (node.type === 'folder') {
-      return '#d4a017';
-    }
-    return '#e07020';
+  function getDirectoryColor(node) {
+    return node.type === 'folder' ? COLORS.folder : COLORS.file;
   }
 
-  function getNodeBorderColor(node) {
-    if (node.type === 'folder') {
-      return '#a67c00';
+  function getDirectoryBorderColor(node) {
+    return node.type === 'folder' ? COLORS.folderBorder : COLORS.fileBorder;
+  }
+
+  function classifyAssemblyNode(node) {
+    const usesCount = node.uses_count || 0;
+    const usedInCount = node.used_in_count || 0;
+
+    if (usesCount === 0 && usedInCount === 0) {
+      return 'orphan';
     }
-    return '#b05010';
+    if (usesCount >= 1 && usedInCount === 0) {
+      return 'assembly';
+    }
+    if (usesCount === 0 && usedInCount >= 1) {
+      return 'part';
+    }
+    return 'hybrid';
+  }
+
+  function computeAssemblyRadius(node, falloff) {
+    const usesCount = node.uses_count || 0;
+    
+    if (classifyAssemblyNode(node) === 'orphan') {
+      return CONFIG.ASSEMBLY_SIZE_MIN;
+    }
+    
+    if (usesCount === 0) {
+      return CONFIG.ASSEMBLY_SIZE_MIN;
+    }
+    
+    const maxUses = 50;
+    const normalized = Math.min(usesCount, maxUses) / maxUses;
+    const scaled = Math.pow(normalized, falloff);
+    const radius = CONFIG.ASSEMBLY_SIZE_MIN + scaled * (CONFIG.ASSEMBLY_SIZE_MAX - CONFIG.ASSEMBLY_SIZE_MIN);
+    return radius;
+  }
+
+  function getAssemblyColor(node) {
+    const type = classifyAssemblyNode(node);
+    return COLORS[type] || COLORS.orphan;
+  }
+
+  function getAssemblyBorderColor(node) {
+    const type = classifyAssemblyNode(node);
+    return COLORS[type + 'Border'] || COLORS.orphanBorder;
+  }
+
+  function initDirectoryMode(data) {
+    nodes = data.nodes.map(n => ({
+      ...n,
+      radius: computeDirectoryRadius(n, settings.sizeFalloff),
+      isFolder: n.type === 'folder',
+      isFile: n.type === 'file',
+      isRoot: n.depth === 0 && n.type === 'folder',
+      x: canvasWidth / 2 + (Math.random() - 0.5) * 300,
+      y: canvasHeight / 2 + (Math.random() - 0.5) * 300
+    }));
+
+    const nodeById = new Map(nodes.map(n => [n.id, n]));
+
+    links = data.edges
+      .filter(e => nodeById.has(e.source) && nodeById.has(e.target))
+      .map(e => ({
+        source: nodeById.get(e.source),
+        target: nodeById.get(e.target),
+        type: e.type
+      }));
+
+    createGraphElements(
+      n => getDirectoryColor(n),
+      n => getDirectoryBorderColor(n),
+      n => n.isRoot ? 2 : 1
+    );
+
+    startSimulation();
+  }
+
+  function initAssemblyMode(data) {
+    const showOrphans = settings.showOrphans;
+    
+    let filteredNodes = data.nodes;
+    if (!showOrphans) {
+      filteredNodes = data.nodes.filter(n => {
+        return (n.uses_count || 0) > 0 || (n.used_in_count || 0) > 0;
+      });
+    }
+    
+    nodes = filteredNodes.map(n => {
+      const nodeType = classifyAssemblyNode(n);
+      return {
+        ...n,
+        nodeType: nodeType,
+        radius: computeAssemblyRadius(n, settings.sizeFalloff),
+        isAssembly: nodeType === 'assembly',
+        isPart: nodeType === 'part',
+        isHybrid: nodeType === 'hybrid',
+        isOrphan: nodeType === 'orphan',
+        x: canvasWidth / 2 + (Math.random() - 0.5) * 300,
+        y: canvasHeight / 2 + (Math.random() - 0.5) * 300
+      };
+    });
+
+    const nodeById = new Map(nodes.map(n => [n.id, n]));
+
+    links = data.edges
+      .filter(e => nodeById.has(e.source) && nodeById.has(e.target))
+      .map(e => ({
+        source: nodeById.get(e.source),
+        target: nodeById.get(e.target),
+        type: e.type
+      }));
+
+    createGraphElements(
+      n => getAssemblyColor(n),
+      n => getAssemblyBorderColor(n),
+      n => n.isAssembly ? 2 : 1
+    );
+
+    startSimulation();
+  }
+
+  function createGraphElements(colorFn, borderColorFn, strokeWidthFn) {
+    linkElements = g.append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(links)
+      .join('line')
+      .attr('stroke', '#2a4a6a')
+      .attr('stroke-width', 1)
+      .attr('stroke-opacity', 0.5);
+
+    nodeElements = g.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle')
+      .data(nodes)
+      .join('circle')
+      .attr('r', d => d.radius)
+      .attr('fill', d => colorFn(d))
+      .attr('stroke', d => borderColorFn(d))
+      .attr('stroke-width', d => strokeWidthFn(d))
+      .attr('cursor', 'pointer')
+      .on('mouseover', handleNodeMouseOver)
+      .on('mouseout', handleNodeMouseOut)
+      .on('click', handleNodeClick)
+      .call(d3.drag()
+        .on('start', dragStarted)
+        .on('drag', dragged)
+        .on('end', dragEnded));
+
+    labelElements = g.append('g')
+      .attr('class', 'labels')
+      .selectAll('text')
+      .data(nodes)
+      .join('text')
+      .text(d => d.name || d.id)
+      .attr('font-size', 9)
+      .attr('font-family', 'JetBrains Mono, Consolas, monospace')
+      .attr('fill', '#e0e0e0')
+      .attr('text-anchor', 'middle')
+      .attr('dy', d => d.radius + 10)
+      .attr('pointer-events', 'none')
+      .attr('opacity', 0);
+  }
+
+  function startSimulation() {
+    simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links)
+        .id(d => d.id)
+        .strength(settings.linkForce)
+        .distance(settings.linkDistance))
+      .force('charge', d3.forceManyBody()
+        .strength(settings.repelForce))
+      .force('centerX', d3.forceX(canvasWidth / 2)
+        .strength(settings.centerForce))
+      .force('centerY', d3.forceY(canvasHeight / 2)
+        .strength(settings.centerForce))
+      .force('collide', d3.forceCollide()
+        .radius(d => d.radius + settings.collideRadius)
+        .strength(0.7))
+      .force('boundary', forceBoundary(50, 0.3))
+      .velocityDecay(settings.velocityDecay)
+      .alphaTarget(0.005)
+      .alphaDecay(0.005)
+      .on('tick', ticked);
   }
 
   function forceBoundary(margin, strength) {
@@ -198,135 +471,14 @@
     return force;
   }
 
-  function initGraph(data) {
-    const container = document.getElementById('cy');
-    canvasWidth = container.clientWidth;
-    canvasHeight = container.clientHeight;
-
-    maxFolderDepth = 0;
-    data.nodes.forEach(n => {
-      if (n.type === 'folder' && (n.depth || 0) > maxFolderDepth) {
-        maxFolderDepth = n.depth;
-      }
-    });
-
-    nodes = data.nodes.map(n => ({
-      ...n,
-      radius: computeNodeRadius(n, settings.sizeFalloff),
-      isFolder: n.type === 'folder',
-      isFile: n.type === 'file',
-      isRoot: n.depth === 0 && n.type === 'folder',
-      x: canvasWidth / 2 + (Math.random() - 0.5) * 300,
-      y: canvasHeight / 2 + (Math.random() - 0.5) * 300
-    }));
-
-    const nodeById = new Map(nodes.map(n => [n.id, n]));
-
-    links = data.edges
-      .filter(e => nodeById.has(e.source) && nodeById.has(e.target))
-      .map(e => ({
-        source: nodeById.get(e.source),
-        target: nodeById.get(e.target),
-        type: e.type
-      }));
-
-    svg = d3.select('#cy')
-      .append('svg')
-      .attr('width', '100%')
-      .attr('height', '100%')
-      .style('display', 'block');
-
-    const defs = svg.append('defs');
-    const filter = defs.append('filter')
-      .attr('id', 'glow')
-      .attr('x', '-50%')
-      .attr('y', '-50%')
-      .attr('width', '200%')
-      .attr('height', '200%');
-    filter.append('feGaussianBlur')
-      .attr('stdDeviation', '2')
-      .attr('result', 'coloredBlur');
-    const feMerge = filter.append('feMerge');
-    feMerge.append('feMergeNode').attr('in', 'coloredBlur');
-    feMerge.append('feMergeNode').attr('in', 'SourceGraphic');
-
-    g = svg.append('g');
-
-    zoom = d3.zoom()
-      .scaleExtent([CONFIG.ZOOM_MIN, CONFIG.ZOOM_MAX])
-      .on('zoom', (event) => {
-        g.attr('transform', event.transform);
-      });
-
-    svg.call(zoom);
-
-    linkElements = g.append('g')
-      .attr('class', 'links')
-      .selectAll('line')
-      .data(links)
-      .join('line')
-      .attr('stroke', '#2a4a6a')
-      .attr('stroke-width', 1)
-      .attr('stroke-opacity', 0.5);
-
-    nodeElements = g.append('g')
-      .attr('class', 'nodes')
-      .selectAll('circle')
-      .data(nodes)
-      .join('circle')
-      .attr('r', d => d.radius)
-      .attr('fill', d => getNodeColor(d))
-      .attr('stroke', d => getNodeBorderColor(d))
-      .attr('stroke-width', d => d.isRoot ? 2 : 1)
-      .attr('cursor', 'pointer')
-      .on('mouseover', handleNodeMouseOver)
-      .on('mouseout', handleNodeMouseOut)
-      .on('click', handleNodeClick)
-      .call(d3.drag()
-        .on('start', dragStarted)
-        .on('drag', dragged)
-        .on('end', dragEnded));
-
-    labelElements = g.append('g')
-      .attr('class', 'labels')
-      .selectAll('text')
-      .data(nodes)
-      .join('text')
-      .text(d => d.name || d.id)
-      .attr('font-size', 9)
-      .attr('font-family', 'JetBrains Mono, Consolas, monospace')
-      .attr('fill', '#e0e0e0')
-      .attr('text-anchor', 'middle')
-      .attr('dy', d => d.radius + 10)
-      .attr('pointer-events', 'none')
-      .attr('opacity', 0);
-
-    simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links)
-        .id(d => d.id)
-        .strength(settings.linkForce)
-        .distance(settings.linkDistance))
-      .force('charge', d3.forceManyBody()
-        .strength(settings.repelForce))
-      .force('centerX', d3.forceX(canvasWidth / 2)
-        .strength(settings.centerForce))
-      .force('centerY', d3.forceY(canvasHeight / 2)
-        .strength(settings.centerForce))
-      .force('collide', d3.forceCollide()
-        .radius(d => d.radius + settings.collideRadius)
-        .strength(0.7))
-      .force('boundary', forceBoundary(50, 0.3))
-      .velocityDecay(settings.velocityDecay)
-      .alphaTarget(0.005)
-      .alphaDecay(0.005)
-      .on('tick', ticked);
-
-    window.addEventListener('resize', handleResize);
-  }
-
   function updateNodeSizes() {
+    const mode = settings.mode;
     nodes.forEach(n => {
-      n.radius = computeNodeRadius(n, settings.sizeFalloff);
+      if (mode === 'directory') {
+        n.radius = computeDirectoryRadius(n, settings.sizeFalloff);
+      } else {
+        n.radius = computeAssemblyRadius(n, settings.sizeFalloff);
+      }
     });
     
     nodeElements.attr('r', d => d.radius);
@@ -370,9 +522,10 @@
   }
 
   function handleNodeMouseOver(event, d) {
+    const isHighlight = d.isRoot || d.isAssembly;
     d3.select(event.target)
       .attr('filter', 'url(#glow)')
-      .attr('stroke-width', d.isRoot ? 3 : 2);
+      .attr('stroke-width', isHighlight ? 3 : 2);
 
     labelElements
       .filter(n => n.id === d.id)
@@ -395,9 +548,10 @@
   }
 
   function handleNodeMouseOut(event, d) {
+    const isHighlight = d.isRoot || d.isAssembly;
     d3.select(event.target)
       .attr('filter', null)
-      .attr('stroke-width', d.isRoot ? 2 : 1);
+      .attr('stroke-width', isHighlight ? 2 : 1);
 
     labelElements
       .filter(n => n.id === d.id)
@@ -421,10 +575,12 @@
     canvasWidth = container.clientWidth;
     canvasHeight = container.clientHeight;
     
-    simulation.force('centerX', d3.forceX(canvasWidth / 2).strength(settings.centerForce));
-    simulation.force('centerY', d3.forceY(canvasHeight / 2).strength(settings.centerForce));
-    simulation.force('boundary', forceBoundary(50, 0.3));
-    simulation.alpha(0.3).restart();
+    if (simulation) {
+      simulation.force('centerX', d3.forceX(canvasWidth / 2).strength(settings.centerForce));
+      simulation.force('centerY', d3.forceY(canvasHeight / 2).strength(settings.centerForce));
+      simulation.force('boundary', forceBoundary(50, 0.3));
+      simulation.alpha(0.3).restart();
+    }
   }
 
   function bindControls() {
@@ -433,6 +589,7 @@
     const btnReset = document.getElementById('btn-reset');
     const btnFit = document.getElementById('btn-fit');
     const panelClose = document.getElementById('panel-close');
+    const showOrphans = document.getElementById('show-orphans');
 
     if (nodeSearch) {
       let debounce = null;
@@ -464,9 +621,16 @@
       panelClose.addEventListener('click', hideNodePanel);
     }
 
-    svg.on('click', () => {
-      hideNodePanel();
-    });
+    if (showOrphans) {
+      showOrphans.checked = settings.showOrphans;
+      showOrphans.addEventListener('change', () => {
+        settings.showOrphans = showOrphans.checked;
+        saveSettings();
+        if (settings.mode === 'assembly') {
+          loadMode('assembly');
+        }
+      });
+    }
   }
 
   function bindSettingsControls() {
@@ -543,8 +707,9 @@
   }
 
   function resetSettings() {
+    const preserveMode = settings.mode;
     const preserveCollapsed = settings.controlsCollapsed;
-    settings = { ...DEFAULT_SETTINGS, controlsCollapsed: preserveCollapsed };
+    settings = { ...DEFAULT_SETTINGS, mode: preserveMode, controlsCollapsed: preserveCollapsed };
     saveSettings();
 
     document.getElementById('slider-center').value = settings.centerForce;
@@ -708,6 +873,27 @@
     hideNodePanel();
   }
 
+  function updateLegend(mode) {
+    const legendDir = document.getElementById('legend-directory');
+    const legendAsm = document.getElementById('legend-assembly');
+    
+    if (legendDir) legendDir.style.display = mode === 'directory' ? 'flex' : 'none';
+    if (legendAsm) legendAsm.style.display = mode === 'assembly' ? 'flex' : 'none';
+  }
+
+  function updatePanelFields(mode) {
+    const dirFields = document.querySelectorAll('.panel-field-directory');
+    const asmFields = document.querySelectorAll('.panel-field-assembly');
+    
+    dirFields.forEach(el => el.style.display = mode === 'directory' ? 'flex' : 'none');
+    asmFields.forEach(el => el.style.display = mode === 'assembly' ? 'flex' : 'none');
+
+    const orphanRow = document.getElementById('orphan-toggle-row');
+    if (orphanRow) {
+      orphanRow.style.display = mode === 'assembly' ? 'block' : 'none';
+    }
+  }
+
   function showNodePanel(d) {
     const panel = document.getElementById('node-panel');
     if (!panel) return;
@@ -716,17 +902,7 @@
     if (nameEl) nameEl.textContent = d.name || d.id;
     
     const pathEl = document.getElementById('panel-path');
-    if (pathEl) pathEl.textContent = d.id || '—';
-    
-    const depthEl = document.getElementById('panel-depth');
-    if (depthEl) {
-      depthEl.textContent = d.depth !== undefined ? d.depth : '—';
-    }
-    
-    const childrenEl = document.getElementById('panel-children');
-    if (childrenEl) {
-      childrenEl.textContent = d.children_count !== undefined ? d.children_count : '—';
-    }
+    if (pathEl) pathEl.textContent = d.path || d.id || '—';
     
     const linkEl = document.getElementById('panel-shortlink');
     if (linkEl) {
@@ -740,13 +916,50 @@
 
     const typeEl = document.getElementById('panel-type');
     if (typeEl) {
-      if (d.type === 'folder') {
-        typeEl.textContent = 'Folder';
-        typeEl.style.color = '#d4a017';
+      if (settings.mode === 'directory') {
+        if (d.type === 'folder') {
+          typeEl.textContent = 'Folder';
+          typeEl.style.color = COLORS.folder;
+        } else {
+          typeEl.textContent = 'File';
+          typeEl.style.color = COLORS.file;
+        }
       } else {
-        typeEl.textContent = 'File';
-        typeEl.style.color = '#e07020';
+        const nodeType = d.nodeType || classifyAssemblyNode(d);
+        if (nodeType === 'assembly') {
+          typeEl.textContent = 'Assembly';
+          typeEl.style.color = COLORS.assembly;
+        } else if (nodeType === 'part') {
+          typeEl.textContent = 'Part';
+          typeEl.style.color = COLORS.part;
+        } else if (nodeType === 'hybrid') {
+          typeEl.textContent = 'Hybrid';
+          typeEl.style.color = COLORS.hybrid;
+        } else {
+          typeEl.textContent = 'Orphan';
+          typeEl.style.color = COLORS.orphan;
+        }
       }
+    }
+
+    const depthEl = document.getElementById('panel-depth');
+    if (depthEl) {
+      depthEl.textContent = d.depth !== undefined ? d.depth : '—';
+    }
+    
+    const childrenEl = document.getElementById('panel-children');
+    if (childrenEl) {
+      childrenEl.textContent = d.children_count !== undefined ? d.children_count : '—';
+    }
+
+    const usesEl = document.getElementById('panel-uses');
+    if (usesEl) {
+      usesEl.textContent = d.uses_count !== undefined ? d.uses_count : '—';
+    }
+    
+    const usedInEl = document.getElementById('panel-used-in');
+    if (usedInEl) {
+      usedInEl.textContent = d.used_in_count !== undefined ? d.used_in_count : '—';
     }
 
     panel.classList.add('visible');
@@ -761,11 +974,18 @@
     const statsEl = document.getElementById('graph-stats');
     if (!statsEl) return;
 
-    const folderCount = nodes.filter(n => n.type === 'folder').length;
-    const fileCount = nodes.filter(n => n.type === 'file').length;
-    const edgeCount = links.length;
-
-    statsEl.textContent = folderCount + ' folders · ' + fileCount + ' files · ' + edgeCount + ' edges';
+    if (settings.mode === 'directory') {
+      const folderCount = nodes.filter(n => n.type === 'folder').length;
+      const fileCount = nodes.filter(n => n.type === 'file').length;
+      const edgeCount = links.length;
+      statsEl.textContent = folderCount + ' folders · ' + fileCount + ' files · ' + edgeCount + ' edges';
+    } else {
+      const assemblyCount = nodes.filter(n => n.nodeType === 'assembly').length;
+      const partCount = nodes.filter(n => n.nodeType === 'part').length;
+      const hybridCount = nodes.filter(n => n.nodeType === 'hybrid').length;
+      const edgeCount = links.length;
+      statsEl.textContent = assemblyCount + ' assemblies · ' + partCount + ' parts · ' + hybridCount + ' hybrids · ' + edgeCount + ' uses';
+    }
   }
 
   if (document.readyState === 'loading') {
