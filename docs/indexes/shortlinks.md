@@ -772,7 +772,18 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [USB-2408-2AO (D-0012)](../designs/d-0012-eol/ots-parts/usb-2408-2ao.md) | `D-0012 EOL / OTS Parts` | [a360.co/4dfmc4A](https://a360.co/4dfmc4A) |
 | [Valve Assy (D-0012)](../designs/d-0012-eol/ots-parts/valve-assy.md) | `D-0012 EOL / OTS Parts` | [a360.co/4yHuwme](https://a360.co/4yHuwme) |
 | [Y201132R203NQ (D-0012)](../designs/d-0012-eol/ots-parts/y201132r203nq.md) | `D-0012 EOL / OTS Parts` | [a360.co/4rkoa9S](https://a360.co/4rkoa9S) |
+| [Screen (D-0012)](../designs/d-0012-eol/ots-parts/screen.md) | `D-0012 EOL / OTS Parts` | [a360.co/3TLI15l](https://a360.co/3TLI15l) |
+| [Screen 2 (D-0012)](../designs/d-0012-eol/ots-parts/screen-2.md) | `D-0012 EOL / OTS Parts` | [a360.co/3V7TMDB](https://a360.co/3V7TMDB) |
+| [ZD411](../designs/d-0012-eol/ots-parts/zd411.md) | `D-0012 EOL / OTS Parts` | [a360.co/4r8gB5O](https://a360.co/4r8gB5O) |
+| [c-206061-1-ad-3d (D-0012)](../designs/d-0012-eol/ots-parts/c-206061-1-ad-3d.md) | `D-0012 EOL / OTS Parts` | [a360.co/4d0Rnk7](https://a360.co/4d0Rnk7) |
+| [c-206151-1-ag-3d (D-0012)](../designs/d-0012-eol/ots-parts/c-206151-1-ag-3d.md) | `D-0012 EOL / OTS Parts` | [a360.co/3SOuc5P](https://a360.co/3SOuc5P) |
+| [HDMI Passthru (D-0012)](../designs/d-0012-eol/ots-parts/hdmi-passthru.md) | `D-0012 EOL / OTS Parts` | [a360.co/4xZwc9X](https://a360.co/4xZwc9X) |
+| [IO Box_Fixture B](../designs/d-0012-eol/ots-parts/io-box-fixture-b.md) | `D-0012 EOL / OTS Parts` | [a360.co/4iuqqJk](https://a360.co/4iuqqJk) |
+| [Keypad (D-0012)](../designs/d-0012-eol/ots-parts/keypad.md) | `D-0012 EOL / OTS Parts` | [a360.co/4iufaMS](https://a360.co/4iufaMS) |
+| [Mounting rail 2 (D-0012)](../designs/d-0012-eol/ots-parts/mounting-rail-2.md) | `D-0012 EOL / OTS Parts` | [a360.co/4yuxESe](https://a360.co/4yuxESe) |
+| [NUC8ixBEH-Chassis (D-0012)](../designs/d-0012-eol/ots-parts/nuc8ixbeh-chassis.md) | `D-0012 EOL / OTS Parts` | [a360.co/4yhe0tm](https://a360.co/4yhe0tm) |
+| [PCAN (D-0012)](../designs/d-0012-eol/ots-parts/pcan.md) | `D-0012 EOL / OTS Parts` | [a360.co/4r8gOpD](https://a360.co/4r8gOpD) |
 
 ---
 
-*768 designs indexed.*
+*779 designs indexed.*

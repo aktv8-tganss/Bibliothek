@@ -1220,4 +1220,41 @@ Batch 045 contains 13 designs under `D-0012 EOL / OTS Parts`. All 13 are OTS mig
 
 ---
 
-*281 migration candidates identified (+13 in batch 045).*
+### Assessment Notes (Batch 046)
+
+Batch 046 contains 11 designs under `D-0012 EOL / OTS Parts`. All 11 are OTS migration candidates. **D-0012 OTS Parts declared COMPLETE.**
+
+**Migration Candidates (11 of 11):**
+
+| Design | Current Path | Reason |
+|--------|--------------|--------|
+| [Screen (D-0012)](../designs/d-0012-eol/ots-parts/screen.md) | `D-0012 EOL / OTS Parts` | OTS screen outside `00 - Parts` |
+| [Screen 2 (D-0012)](../designs/d-0012-eol/ots-parts/screen-2.md) | `D-0012 EOL / OTS Parts` | OTS screen outside `00 - Parts` |
+| [ZD411](../designs/d-0012-eol/ots-parts/zd411.md) | `D-0012 EOL / OTS Parts` | OTS printer outside `00 - Parts` |
+| [c-206061-1-ad-3d (D-0012)](../designs/d-0012-eol/ots-parts/c-206061-1-ad-3d.md) | `D-0012 EOL / OTS Parts` | OTS connector model outside `00 - Parts` |
+| [c-206151-1-ag-3d (D-0012)](../designs/d-0012-eol/ots-parts/c-206151-1-ag-3d.md) | `D-0012 EOL / OTS Parts` | OTS connector model outside `00 - Parts` |
+| [HDMI Passthru (D-0012)](../designs/d-0012-eol/ots-parts/hdmi-passthru.md) | `D-0012 EOL / OTS Parts` | OTS passthrough outside `00 - Parts` |
+| [IO Box_Fixture B](../designs/d-0012-eol/ots-parts/io-box-fixture-b.md) | `D-0012 EOL / OTS Parts` | OTS fixture outside `00 - Parts` |
+| [Keypad (D-0012)](../designs/d-0012-eol/ots-parts/keypad.md) | `D-0012 EOL / OTS Parts` | OTS keypad outside `00 - Parts` |
+| [Mounting rail 2 (D-0012)](../designs/d-0012-eol/ots-parts/mounting-rail-2.md) | `D-0012 EOL / OTS Parts` | OTS mounting rail outside `00 - Parts` |
+| [NUC8ixBEH-Chassis (D-0012)](../designs/d-0012-eol/ots-parts/nuc8ixbeh-chassis.md) | `D-0012 EOL / OTS Parts` | OTS NUC chassis outside `00 - Parts` |
+| [PCAN (D-0012)](../designs/d-0012-eol/ots-parts/pcan.md) | `D-0012 EOL / OTS Parts` | OTS PCAN adapter outside `00 - Parts` |
+
+### Disambiguation Notes (Batch 046)
+
+!!! info "Path-Distinct Designs"
+    Several batch 046 designs share names with existing designs in other project paths but have distinct shortlinks:
+
+    - **Screen** — D-0012 EOL (`a360.co/3TLI15l`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4hEcNQ7`) and A-0026 iTM / PLT / COMPS (`a360.co/4yBQQxx`)
+    - **Screen 2** — D-0012 EOL (`a360.co/3V7TMDB`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4A5R9xJ`) and A-0047 TPMS / OTS Parts (`a360.co/3V6qP0z`)
+    - **c-206061-1-ad-3d** — D-0012 EOL (`a360.co/4d0Rnk7`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4gYKxbL`) and A-0026 iTM / PLT / COMPS (`a360.co/4A34jtv`)
+    - **c-206151-1-ag-3d** — D-0012 EOL (`a360.co/3SOuc5P`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4ycZ5qT`)
+    - **HDMI Passthru** — D-0012 EOL (`a360.co/4xZwc9X`) distinct from A-0026 iTM / PLT / COMPS (`a360.co/4A8EBuK`)
+    - **Keypad** — D-0012 EOL (`a360.co/4iufaMS`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4h3hzPq`)
+    - **Mounting rail 2** — D-0012 EOL (`a360.co/4yuxESe`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4yVTKxk`)
+    - **NUC8ixBEH-Chassis** — D-0012 EOL (`a360.co/4yhe0tm`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4haKHMh`) and A-0026 iTM / ORTHRUS / OTS PARTS / ELEC (`a360.co/4hehYWN`)
+    - **PCAN** — D-0012 EOL (`a360.co/4r8gOpD`) distinct from A-0054 iAir3 Gen2 / FFT (Obs) / IO Box / Comps (`a360.co/4dibcUn`)
+
+---
+
+*292 migration candidates identified (+11 in batch 046).*
