@@ -31,6 +31,7 @@ Assemblies with non-empty component references (Uses).
 | [PCBA Flash Expanded](../designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md) | 15 | [a360.co/4yBctxO](https://a360.co/4yBctxO) |
 | [Bracket](../designs/a-0054-iair3-gen2/fft-obs/io-box/bracket.md) | 1 | [a360.co/4yGKA7A](https://a360.co/4yGKA7A) |
 | [880251](../designs/a-0026-itm/880251.md) | 1 | [a360.co/4Ar40yP](https://a360.co/4Ar40yP) |
+| [880251 (Drawing)](../designs/a-0026-itm/880251-4ae96i7.md) | 1 | [a360.co/4Ae96i7](https://a360.co/4Ae96i7) |
 | [880252](../designs/a-0026-itm/880252.md) | 1 | [a360.co/4gKdzkS](https://a360.co/4gKdzkS) |
 | [880253](../designs/a-0026-itm/880253.md) | 1 | [a360.co/4xOkGyF](https://a360.co/4xOkGyF) |
 | [880254](../designs/a-0026-itm/880254.md) | 1 | [a360.co/3SIoDG2](https://a360.co/3SIoDG2) |
@@ -417,6 +418,14 @@ The Bracket assembly references the following 1 component:
 The 880251 design references the following 1 component:
 
 1. PREFECT
+
+---
+
+## 880251 (Drawing) — Bill of Materials
+
+The 880251 Drawing design references the following 1 component:
+
+1. [PREFECT](../designs/a-0026-itm/asm-tooling-sow1/prefect/prefect.md)
 
 ---
 

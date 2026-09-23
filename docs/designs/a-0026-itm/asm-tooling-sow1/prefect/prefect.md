@@ -7,7 +7,7 @@ uses:
   - KV2L07-35S
   - Zaph Mount
 used_in: []
-notes: "Used In: 880251, 880252, 880253, 880254 (cross-link)."
+notes: "Used In: 880251 (2 variants), 880252, 880253, 880254 (cross-link)."
 ots_migration_candidate: false
 ---
 
@@ -20,7 +20,7 @@ ots_migration_candidate: false
 
 ## Notes
 
-Used In: [880251](../../880251.md), [880252](../../880252.md), [880253](../../880253.md), [880254](../../880254.md) (cross-link from prior batch).
+Used In: [880251](../../880251.md), [880251 (Drawing)](../../880251-4ae96i7.md), [880252](../../880252.md), [880253](../../880253.md), [880254](../../880254.md) (cross-link from prior batch).
 
 ## Uses
 
@@ -33,6 +33,7 @@ This design references the following 3 components:
 ## Used In
 
 - [880251](../../880251.md)
+- [880251 (Drawing)](../../880251-4ae96i7.md)
 - [880252](../../880252.md)
 - [880253](../../880253.md)
 - [880254](../../880254.md)
