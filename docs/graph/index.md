@@ -47,7 +47,7 @@ article.md-content__inner { padding: 0 !important; }
         <button class="control-btn" id="btn-reset">Reset</button>
         <button class="control-btn" id="btn-fit">Fit</button>
       </div>
-      <button id="settings-toggle">Forces ▾</button>
+      <button id="settings-toggle">Advanced ▾</button>
       <div id="settings-panel">
         <div class="slider-row">
           <span class="slider-label">Center</span>
@@ -128,8 +128,33 @@ article.md-content__inner { padding: 0 !important; }
       <span class="panel-label">Shortlink</span>
       <span class="panel-value" id="panel-shortlink"></span>
     </div>
+    <div id="panel-actions">
+      <a id="panel-bibliothek-link" href="#" class="panel-action-btn">Open in Bibliothek</a>
+      <a id="panel-autodesk-link" href="#" target="_blank" rel="noopener" class="panel-action-btn panel-action-external">Open in Autodesk ↗</a>
+    </div>
   </div>
   
+  <div id="graph-help" class="visible">
+    <button id="help-close" title="Close">×</button>
+    <h4>How to use this graph</h4>
+    <div class="help-section">
+      <strong>Directory</strong> — Browse the folder tree. Navigate project structure and file containment.
+    </div>
+    <div class="help-section">
+      <strong>Assembly</strong> — Trace BOM relationships. Assemblies (blue ring) use parts (green solid); hybrids do both.
+    </div>
+    <div class="help-section">
+      <strong>Project</strong> — Same BOM mesh, colored by project folder. Parts solid, assemblies ring stroke, hybrids ring+dot.
+    </div>
+    <div class="help-divider"></div>
+    <div class="help-section">
+      <strong>Search</strong> — Type a name or path. Hops expand the visible neighborhood.
+    </div>
+    <div class="help-section">
+      <strong>Click a node</strong> — View details, open in Bibliothek, or jump to Autodesk.
+    </div>
+  </div>
+
   <div id="graph-legend">
     <div id="legend-directory" class="legend-group">
       <div class="legend-item">
