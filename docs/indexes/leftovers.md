@@ -1451,3 +1451,55 @@ All 29 designs from batch 037 were successfully indexed:
     - **Switch** — D-0058 (`a360.co/4dAbiGP`) distinct from A-9999 Lab (`a360.co/4hc4gcc`)
 
 *D-0058 TPMS & Load harvest declared COMPLETE for Bibliothek by Franklin/Charlotte, 2026-09-23.*
+
+---
+
+## D-0072 A8 Wheel End — Batch 038
+
+### Batch 038
+
+All 11 designs from batch 038 were successfully indexed:
+
+1. ✓ TAZ B Dyno
+2. ✓ Motor Adapter PSI (D-0072)
+3. ✓ Motor Adapter (D-0072)
+4. ✓ PSI Tee (D-0072)
+5. ✓ TAZ B Frame
+6. ✓ TAZ Bracket
+7. ✓ Bearing ASM
+8. ✓ Hose Holder M16 (D-0072)
+9. ✓ Compressor Motor (D-0072) — OTS migration candidate
+10. ✓ Hose Holder NPT
+11. ✓ TAZ Dyno Cabinet (D-0072)
+
+---
+
+## D-0072 A8 Wheel End — COMPLETE for Bibliothek (2026-09-23)
+
+!!! success "D-0072 A8 Wheel End Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes on 2026-09-23 after batch 038. All 11 locatable Fusion designs with unique Share shortlinks have been indexed.
+
+### Covered
+
+- D-0072 A8 Wheel End root (11 designs)
+- 4 assemblies with BOM data: TAZ B Dyno, Motor Adapter PSI, Motor Adapter, TAZ Dyno Cabinet
+- 1 OTS migration candidate: Compressor Motor
+
+### Final batch (038)
+
+- ✓ 11 designs (TAZ B Dyno through TAZ Dyno Cabinet)
+- 1 migration candidate (Compressor Motor — OTS)
+
+### Known debt (not blocking COMPLETE)
+
+!!! tip "Path-Distinct Designs"
+    Four batch 038 designs share names with existing A-0026 iTM / AEETES designs but have distinct shortlinks:
+
+    - **Motor Adapter PSI** — D-0072 (`a360.co/4xTZdo4`) distinct from A-0026 (`a360.co/3V5sLjZ`)
+    - **Motor Adapter** — D-0072 (`a360.co/4A44lrj`) distinct from A-0026 (`a360.co/4Aonbtn`)
+    - **PSI Tee** — D-0072 (`a360.co/4ii7ahY`) distinct from A-0026 (`a360.co/4cZf6gV`)
+    - **Hose Holder M16** — D-0072 (`a360.co/3ULwqU4`) distinct from A-0026 (`a360.co/4cO3dPO`)
+
+    All four are catalogued with (D-0072) suffix in indexes for disambiguation.
+
+*D-0072 A8 Wheel End harvest declared COMPLETE for Bibliothek, 2026-09-23.*

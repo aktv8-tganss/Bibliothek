@@ -655,6 +655,18 @@ nav:
         - KQ2ZT01-34AS: designs/d-0058-tpms-load/comps/kq2zt01-34as.md
         - Nipple Spacer: designs/d-0058-tpms-load/comps/nipple-spacer.md
         - Tee Leak Fixture: designs/d-0058-tpms-load/comps/tee-leak-fixture.md
+    - D-0072 A8 Wheel End:
+      - TAZ B Dyno: designs/d-0072-a8-wheel-end/taz-b-dyno.md
+      - Motor Adapter PSI (D-0072): designs/d-0072-a8-wheel-end/motor-adapter-psi.md
+      - Motor Adapter (D-0072): designs/d-0072-a8-wheel-end/motor-adapter.md
+      - PSI Tee (D-0072): designs/d-0072-a8-wheel-end/psi-tee.md
+      - TAZ B Frame: designs/d-0072-a8-wheel-end/taz-b-frame.md
+      - TAZ Bracket: designs/d-0072-a8-wheel-end/taz-bracket.md
+      - Bearing ASM: designs/d-0072-a8-wheel-end/bearing-asm.md
+      - Hose Holder M16 (D-0072): designs/d-0072-a8-wheel-end/hose-holder-m16.md
+      - Compressor Motor (D-0072): designs/d-0072-a8-wheel-end/compressor-motor.md
+      - Hose Holder NPT: designs/d-0072-a8-wheel-end/hose-holder-npt.md
+      - TAZ Dyno Cabinet (D-0072): designs/d-0072-a8-wheel-end/taz-dyno-cabinet.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md

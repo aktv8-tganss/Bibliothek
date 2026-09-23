@@ -1393,4 +1393,51 @@ The PT Disp 4 assembly references the following 11 components:
 
 ---
 
-*112 assemblies with BOM data indexed.*
+## TAZ B Dyno — Bill of Materials
+
+The TAZ B Dyno assembly references the following 11 components:
+
+1. [Motor Adapter PSI (D-0072)](../designs/d-0072-a8-wheel-end/motor-adapter-psi.md)
+2. [Bearing ASM](../designs/d-0072-a8-wheel-end/bearing-asm.md)
+3. [Motor Adapter (D-0072)](../designs/d-0072-a8-wheel-end/motor-adapter.md)
+4. [Compressor Motor (D-0072)](../designs/d-0072-a8-wheel-end/compressor-motor.md)
+5. [TAZ B Frame](../designs/d-0072-a8-wheel-end/taz-b-frame.md)
+6. [TAZ Bracket](../designs/d-0072-a8-wheel-end/taz-bracket.md)
+7. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 0.5 Steel Grade 2 Plain
+8. [Hose Holder M16 (D-0072)](../designs/d-0072-a8-wheel-end/hose-holder-m16.md)
+9. Tee Body Solid
+10. Hexagon Socket Head Cap Screw ANSI B18.3 - 10-32 UNF x 1/2 Steel Grade 2 Plain
+11. Hose
+
+---
+
+## Motor Adapter PSI (D-0072) — Bill of Materials
+
+The Motor Adapter PSI (D-0072) assembly references the following 3 components:
+
+1. [PSI Tee (D-0072)](../designs/d-0072-a8-wheel-end/psi-tee.md)
+2. Tee Body Solid
+3. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.25 Steel Grade 2 Plain
+
+---
+
+## Motor Adapter (D-0072) — Bill of Materials
+
+The Motor Adapter (D-0072) design references the following 2 components:
+
+1. Tee Body Solid
+2. Hexagon Socket Head Cap Screw ANSI B18.3 - 1/4-28 UNF x 1.25 Steel Grade 2 Plain
+
+---
+
+## TAZ Dyno Cabinet (D-0072) — Bill of Materials
+
+The TAZ Dyno Cabinet (D-0072) assembly references the following 3 components:
+
+1. Whirlpool Motor
+2. Taz
+3. [Compressor Motor (D-0072)](../designs/d-0072-a8-wheel-end/compressor-motor.md)
+
+---
+
+*116 assemblies with BOM data indexed.*

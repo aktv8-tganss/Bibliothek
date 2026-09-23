@@ -260,6 +260,7 @@ A design is flagged when:
 | [002390 (1) (D-0058)](../designs/d-0058-tpms-load/002390-1.md) | `D-0058 TPMS & Load` | Project-copy; reconcile with A-0047 TPMS original |
 | [002582 AA TPMS Thru Conmet (2) (D-0058)](../designs/d-0058-tpms-load/002582-aa-tpms-thru-conmet-2.md) | `D-0058 TPMS & Load` | Project-copy; reconcile with A-0047 TPMS original |
 | [Proc PCM (D-0058)](../designs/d-0058-tpms-load/proc-pcm.md) | `D-0058 TPMS & Load` | Project-copy; reconcile with A-003 Proc PCM |
+| [Compressor Motor (D-0072)](../designs/d-0072-a8-wheel-end/compressor-motor.md) | `D-0072 A8 Wheel End` | Likely OTS/catalog motor outside `00 - Parts` |
 
 ---
 
@@ -1144,4 +1145,37 @@ Project-Copy Reconcile (3):
 
 ---
 
-*267 migration candidates identified (+16 in batch 037).*
+### Assessment Notes (Batch 038)
+
+Batch 038 contains 11 designs under `D-0072 A8 Wheel End`. 1 OTS migration candidate identified:
+
+**Migration Candidates (1 of 11):**
+
+- **Compressor Motor (D-0072)** — Likely OTS/catalog motor in D-0072 A8 Wheel End outside `00 - Parts`. **Migration candidate.**
+
+**Not Migration Candidates (10 of 11):**
+
+- **TAZ B Dyno** — D-0072 product assembly. Not an OTS part.
+- **Motor Adapter PSI (D-0072)** — D-0072 product design; Uses OTS fasteners but design itself is custom. Not an OTS part.
+- **Motor Adapter (D-0072)** — D-0072 product design. Not an OTS part.
+- **PSI Tee (D-0072)** — D-0072 product component. Not an OTS part.
+- **TAZ B Frame** — D-0072 product frame. Not an OTS part.
+- **TAZ Bracket** — D-0072 product bracket. Not an OTS part.
+- **Bearing ASM** — D-0072 product assembly. Not an OTS part.
+- **Hose Holder M16 (D-0072)** — D-0072 product holder. Not an OTS part.
+- **Hose Holder NPT** — D-0072 product holder. Not an OTS part.
+- **TAZ Dyno Cabinet (D-0072)** — D-0072 product assembly. Not an OTS part.
+
+### Disambiguation Notes (Batch 038)
+
+!!! tip "Path-Distinct Designs"
+    The following batch 038 designs share names with existing designs but have distinct shortlinks and project paths:
+
+    - **Motor Adapter PSI** — D-0072 (`a360.co/4xTZdo4`) distinct from A-0026 iTM / AEETES (`a360.co/3V5sLjZ`)
+    - **Motor Adapter** — D-0072 (`a360.co/4A44lrj`) distinct from A-0026 iTM / AEETES (`a360.co/4Aonbtn`)
+    - **PSI Tee** — D-0072 (`a360.co/4ii7ahY`) distinct from A-0026 iTM / PARTS (`a360.co/4cZf6gV`)
+    - **Hose Holder M16** — D-0072 (`a360.co/3ULwqU4`) distinct from A-0026 iTM / AEETES (`a360.co/4cO3dPO`)
+
+---
+
+*268 migration candidates identified (+1 in batch 038).*
