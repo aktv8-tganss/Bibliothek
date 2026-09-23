@@ -253,6 +253,13 @@ A design is flagged when:
 | [TPMS PCBA Silh](../designs/a-0047-tpms/ots-parts/tpms-pcba-silh.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog PCBA silhouette outside `00 - Parts` |
 | [pxc_1411244_00_01_A-INL-M32-N-S_3D](../designs/a-0047-tpms/ots-parts/pxc-1411244-00-01-a-inl-m32-n-s-3d.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog connector outside `00 - Parts` |
 | [655-1203-104F (TPMS)](../designs/a-0047-tpms/ots-parts/655-1203-104f-tpms.md) | `A-0047 TPMS / OTS Parts` | OTS/catalog part outside `00 - Parts`; distinct from A-0026 PLT |
+| [Bisofice Laser](../designs/d-0058-tpms-load/bisofice-laser.md) | `D-0058 TPMS & Load` | OTS laser engraver outside `00 - Parts` |
+| [KQ2F01-34A](../designs/d-0058-tpms-load/kq2f01-34a.md) | `D-0058 TPMS & Load` | OTS SMC pneumatic fitting outside `00 - Parts` |
+| [KQ2X01-03A](../designs/d-0058-tpms-load/kq2x01-03a.md) | `D-0058 TPMS & Load` | OTS SMC pneumatic fitting outside `00 - Parts` |
+| [Samsung A8 Tablet](../designs/d-0058-tpms-load/samsung-a8-tablet.md) | `D-0058 TPMS & Load` | OTS tablet outside `00 - Parts` |
+| [002390 (1) (D-0058)](../designs/d-0058-tpms-load/002390-1.md) | `D-0058 TPMS & Load` | Project-copy; reconcile with A-0047 TPMS original |
+| [002582 AA TPMS Thru Conmet (2) (D-0058)](../designs/d-0058-tpms-load/002582-aa-tpms-thru-conmet-2.md) | `D-0058 TPMS & Load` | Project-copy; reconcile with A-0047 TPMS original |
+| [Proc PCM (D-0058)](../designs/d-0058-tpms-load/proc-pcm.md) | `D-0058 TPMS & Load` | Project-copy; reconcile with A-003 Proc PCM |
 
 ---
 
@@ -1041,6 +1048,45 @@ Batch 034 contains 22 designs under `A-0047 TPMS / OTS Parts`. All 22 are OTS pa
     - **Screen 2** — TPMS (`a360.co/4h0HcwX`) distinct from A-0054 (`a360.co/4xEFMPi`)
     - **655-1203-104F** — TPMS (`a360.co/46zyPnz`) distinct from A-0026 PLT (`a360.co/4xwgW3X`)
 
+### Assessment Notes (Batch 036)
+
+Batch 036 contains 15 designs under `D-0058 TPMS & Load`. 7 migration candidates identified (4 OTS, 3 project-copies):
+
+**Migration Candidates (7 of 15):**
+
+OTS/Catalog Parts (4):
+
+- **Bisofice Laser** — OTS laser engraver in D-0058 root outside `00 - Parts`. **Migration candidate.**
+- **KQ2F01-34A** — OTS SMC pneumatic fitting in D-0058 root outside `00 - Parts`. **Migration candidate.**
+- **KQ2X01-03A** — OTS SMC pneumatic fitting in D-0058 root outside `00 - Parts`. **Migration candidate.**
+- **Samsung A8 Tablet** — OTS tablet in D-0058 root outside `00 - Parts`. **Migration candidate.**
+
+Project-Copy Reconcile (3):
+
+- **002390 (1) (D-0058)** — Project-copy of A-0047 TPMS design under D-0058; reconcile with original. Used In: STAY STRAPPED. **Migration candidate.**
+- **002582 AA TPMS Thru Conmet (2) (D-0058)** — Project-copy of A-0047 TPMS design under D-0058; reconcile with original. **Migration candidate.**
+- **Proc PCM (D-0058)** — Project-copy of A-003 Proc PCM under D-0058; distinct shortlink; reconcile with original. Used In: PT Disp 4, PT Disp, PT Disp 3. **Migration candidate.**
+
+**Not Migration Candidates (8 of 15):**
+
+- **PT Disp** — D-0058 product assembly. Not an OTS part.
+- **PT Disp 1** — D-0058 product assembly. Not an OTS part.
+- **PT Disp 2** — D-0058 product assembly. Not an OTS part.
+- **PT Disp 3** — D-0058 product assembly. Not an OTS part.
+- **PT Disp 4** — D-0058 product assembly. Not an OTS part.
+- **Trailer (45ft)** — D-0058 vehicle model. Not an OTS part.
+- **Truck** — D-0058 vehicle model. Not an OTS part.
+- **iAir6 Galley** — D-0058 design. Not an OTS part.
+
+### Disambiguation Notes (Batch 036)
+
+!!! warning "Path-Distinct Designs"
+    The following batch 036 designs share names with existing designs but have distinct shortlinks and project paths:
+
+    - **002390 (1)** — D-0058 (`a360.co/4yKfjke`) distinct from A-0047 TPMS (`a360.co/4hsxLyC`)
+    - **002582 AA TPMS Thru Conmet (2)** — D-0058 (`a360.co/4hnaAxG`) distinct from A-0047 TPMS (`a360.co/4hxsJuZ`)
+    - **Proc PCM** — D-0058 (`a360.co/4As4rZJ`) distinct from A-003 iLACM (`a360.co/4iXj29k`)
+
 ---
 
-*244 migration candidates identified (+22 in batch 034).*
+*251 migration candidates identified (+7 in batch 036).*

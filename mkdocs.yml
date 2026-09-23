@@ -609,6 +609,22 @@ nav:
         - TPMS PCBA Silh: designs/a-0047-tpms/ots-parts/tpms-pcba-silh.md
         - pxc_1411244_00_01_A-INL-M32-N-S_3D: designs/a-0047-tpms/ots-parts/pxc-1411244-00-01-a-inl-m32-n-s-3d.md
         - 655-1203-104F (TPMS): designs/a-0047-tpms/ots-parts/655-1203-104f-tpms.md
+    - D-0058 TPMS & Load:
+      - 002390 (1): designs/d-0058-tpms-load/002390-1.md
+      - 002582 AA TPMS Thru Conmet (2): designs/d-0058-tpms-load/002582-aa-tpms-thru-conmet-2.md
+      - Bisofice Laser: designs/d-0058-tpms-load/bisofice-laser.md
+      - iAir6 Galley: designs/d-0058-tpms-load/iair6-galley.md
+      - KQ2F01-34A: designs/d-0058-tpms-load/kq2f01-34a.md
+      - KQ2X01-03A: designs/d-0058-tpms-load/kq2x01-03a.md
+      - Proc PCM: designs/d-0058-tpms-load/proc-pcm.md
+      - PT Disp: designs/d-0058-tpms-load/pt-disp.md
+      - PT Disp 1: designs/d-0058-tpms-load/pt-disp-1.md
+      - PT Disp 2: designs/d-0058-tpms-load/pt-disp-2.md
+      - PT Disp 3: designs/d-0058-tpms-load/pt-disp-3.md
+      - PT Disp 4: designs/d-0058-tpms-load/pt-disp-4.md
+      - Samsung A8 Tablet: designs/d-0058-tpms-load/samsung-a8-tablet.md
+      - Trailer (45ft): designs/d-0058-tpms-load/trailer-45ft.md
+      - Truck: designs/d-0058-tpms-load/truck.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md
