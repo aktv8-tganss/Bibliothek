@@ -741,7 +741,25 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [KV2L03-35S](../designs/00-parts/smc-kv2/kv2l03-35s.md) | `00 - Parts / SMC KV2` | [a360.co/4xglhba](https://a360.co/4xglhba) |
 | [KV2T03-34S](../designs/00-parts/smc-kv2/kv2t03-34s.md) | `00 - Parts / SMC KV2` | [a360.co/4gOV6na](https://a360.co/4gOV6na) |
 | [KV2T03-35S](../designs/00-parts/smc-kv2/kv2t03-35s.md) | `00 - Parts / SMC KV2` | [a360.co/4r85nyk](https://a360.co/4r85nyk) |
+| [KV2E07-34](../designs/00-parts/smc-kv2/07/kv2e07-34.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/3STEwcL](https://a360.co/3STEwcL) |
+| [KV2E07-35](../designs/00-parts/smc-kv2/07/kv2e07-35.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/4ior2jr](https://a360.co/4ior2jr) |
+| [KV2H07-34S](../designs/00-parts/smc-kv2/07/kv2h07-34s.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/4yzKUFh](https://a360.co/4yzKUFh) |
+| [KV2H07-35S](../designs/00-parts/smc-kv2/07/kv2h07-35s.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/4hhV1sl](https://a360.co/4hhV1sl) |
+| [KV2H07-36S](../designs/00-parts/smc-kv2/07/kv2h07-36s.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/46mPXN9](https://a360.co/46mPXN9) |
+| [KV2L07-34S](../designs/00-parts/smc-kv2/07/kv2l07-34s.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/4gVxE6t](https://a360.co/4gVxE6t) |
+| [KV2L07-35S](../designs/00-parts/smc-kv2/07/kv2l07-35s.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/4insnHp](https://a360.co/4insnHp) |
+| [KV2T07-34S](../designs/00-parts/smc-kv2/07/kv2t07-34s.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/4Amo2e6](https://a360.co/4Amo2e6) |
+| [KV2T07-35S](../designs/00-parts/smc-kv2/07/kv2t07-35s.md) | `00 - Parts / SMC KV2 / 07` | [a360.co/4ywGBdQ](https://a360.co/4ywGBdQ) |
+| [KV2H11-34S](../designs/00-parts/smc-kv2/11/kv2h11-34s.md) | `00 - Parts / SMC KV2 / 11` | [a360.co/4j3br98](https://a360.co/4j3br98) |
+| [KV2H11-35S](../designs/00-parts/smc-kv2/11/kv2h11-35s.md) | `00 - Parts / SMC KV2 / 11` | [a360.co/4gZerB4](https://a360.co/4gZerB4) |
+| [KV2H11-36S](../designs/00-parts/smc-kv2/11/kv2h11-36s.md) | `00 - Parts / SMC KV2 / 11` | [a360.co/4gWzXHX](https://a360.co/4gWzXHX) |
+| [3way Solenoid](../designs/00-parts/solenoid-valves/3way-solenoid.md) | `00 - Parts / Solenoid Valves` | [a360.co/4yBEAgx](https://a360.co/4yBEAgx) |
+| [MAC 3way Solenoid](../designs/00-parts/solenoid-valves/mac-3way-solenoid.md) | `00 - Parts / Solenoid Valves` | [a360.co/4gVyaBr](https://a360.co/4gVyaBr) |
+| [New Valve](../designs/00-parts/solenoid-valves/new-valve.md) | `00 - Parts / Solenoid Valves` | [a360.co/46VVBG4](https://a360.co/46VVBG4) |
+| [GCX3105](../designs/00-parts/switchgear/gcx3105.md) | `00 - Parts / Switchgear` | [a360.co/4ij9DZx](https://a360.co/4ij9DZx) |
+| [Switch](../designs/00-parts/switchgear/switch.md) | `00 - Parts / Switchgear` | [a360.co/4cAp4c7](https://a360.co/4cAp4c7) |
+| [S-1-J-3.8-G](../designs/00-parts/test-probes/s-1-j-3-8-g.md) | `00 - Parts / Test Probes` | [a360.co/4d998h6](https://a360.co/4d998h6) |
 
 ---
 
-*737 designs indexed.*
+*755 designs indexed.*

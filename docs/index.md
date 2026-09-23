@@ -12,8 +12,8 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (737 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (119 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (755 total)
+- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (120 total)
 - [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (268 total)
 
 ## Design Tree
@@ -131,8 +131,9 @@ Browse designs by project folder:
 | 041 | 15 | 00 - Parts (15) — McMC Locating (3) + McMC Screws (2) + McMC Springs (2) + Nanuk Cases (2) + PSUs (4) + Pi Components (2); no migration candidates; **00 - Parts NOT COMPLETE** |
 | 042 | 15 | 00 - Parts (15) — Pi Components (2) + Pressure Transducers (1) + Regulators (3) + SMC KQ2 (9); includes 2× verified 6-char shortlinks (Mini Regulator, KQ2L03-34AS); no migration candidates; **00 - Parts NOT COMPLETE** |
 | 043 | 15 | 00 - Parts (15) — SMC KQ2/07 leftovers (5) + SMC KQ2/11 (3) + SMC KV2/03 (7); no migration candidates; **00 - Parts NOT COMPLETE** |
+| 044 | 18 | 00 - Parts (18) — SMC KV2/07 (9) + SMC KV2/11 (3) + Solenoid Valves (3) + Switchgear (2) + Test Probes (1); no migration candidates; **00 - Parts NOT COMPLETE** |
 
-**Total designs indexed: 737**
+**Total designs indexed: 755**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
