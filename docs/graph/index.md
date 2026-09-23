@@ -16,9 +16,8 @@ article.md-content__inner { padding: 0 !important; }
   <div id="graph-loading">Loading graph data...</div>
   <div id="cy"></div>
   
-  <a id="home-link" href="../" title="Back to Bibliothek">
-    <span id="home-icon">◄</span>
-    <span id="home-label">Bibliothek</span>
+  <a id="home-link" href="../" title="Bibliothek home" aria-label="Bibliothek home">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
   </a>
   
   <div id="graph-controls" class="expanded">
@@ -30,6 +29,7 @@ article.md-content__inner { padding: 0 !important; }
       <select id="mode-select">
         <option value="directory">Directory</option>
         <option value="assembly">Assembly</option>
+        <option value="project">Project</option>
       </select>
       <div id="search-row">
         <input type="text" id="node-search" placeholder="Search...">
@@ -118,6 +118,10 @@ article.md-content__inner { padding: 0 !important; }
       <span class="panel-label">Used In</span>
       <span class="panel-value" id="panel-used-in"></span>
     </div>
+    <div class="panel-row panel-field-project">
+      <span class="panel-label">Folder</span>
+      <span class="panel-value" id="panel-project"></span>
+    </div>
     <div class="panel-row">
       <span class="panel-label">Shortlink</span>
       <span class="panel-value" id="panel-shortlink"></span>
@@ -148,6 +152,23 @@ article.md-content__inner { padding: 0 !important; }
         <span class="legend-dot hybrid"></span>
         <span>Hybrid</span>
       </div>
+    </div>
+    <div id="legend-project">
+      <div class="legend-shapes">
+        <div class="legend-item">
+          <span class="legend-shape part-shape"></span>
+          <span>Part (solid)</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-shape assembly-shape"></span>
+          <span>Assembly (ring)</span>
+        </div>
+        <div class="legend-item">
+          <span class="legend-shape hybrid-shape"></span>
+          <span>Hybrid (ring+dot)</span>
+        </div>
+      </div>
+      <div id="project-colors" class="project-colors"></div>
     </div>
   </div>
   
