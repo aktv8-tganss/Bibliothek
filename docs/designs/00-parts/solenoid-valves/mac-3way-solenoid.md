@@ -27,5 +27,5 @@ ots_migration_candidate: false
 
 ## Used In
 
-- [PCBA Flash Expanded](../a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md)
+- [PCBA Flash Expanded](../../a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md)
 - Oyster Asm *(not yet indexed)*

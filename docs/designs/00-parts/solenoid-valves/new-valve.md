@@ -28,4 +28,4 @@ Canonical 00 - Parts; distinct from A-0047/D-0058 New Valve shortlinks.
 ## Used In
 
 - 891201 FFT *(not yet indexed)*
-- [Valve Bank](../a-0026-itm/valve-bank.md)
+- [Valve Bank](../../a-0026-itm/aeetes/valve-bank.md)

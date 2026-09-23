@@ -27,5 +27,5 @@ Canonical 00 - Parts; distinct from A-0047/D-0058 Switch shortlinks.
 
 ## Used In
 
-- [PT Disp 2](../d-0058-tpms-load/pt-disp-2.md)
-- [PT Disp 4](../d-0058-tpms-load/pt-disp-4.md)
+- [PT Disp 2](../../d-0058-tpms-load/pt-disp-2.md)
+- [PT Disp 4](../../d-0058-tpms-load/pt-disp-4.md)
