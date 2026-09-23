@@ -32,5 +32,5 @@ Canonical 00 - Parts; distinct from A-0047 OTS shortlink if any.
 
 ## Used In
 
-- [PCBA Flash Expanded](../a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md)
+- [PCBA Flash Expanded](../../a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md)
 - Oyster Asm *(not yet indexed)*
