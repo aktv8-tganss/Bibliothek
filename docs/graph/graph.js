@@ -742,6 +742,8 @@
           return connected ? 1 : 0.25;
         });
     }
+
+    showHoverName(d.name || d.id);
   }
 
   function handleNodeMouseOut(event, d) {
@@ -771,6 +773,8 @@
     if (centerDotElements) {
       centerDotElements.attr('opacity', 1);
     }
+
+    hideHoverName();
   }
 
   function handleNodeClick(event, d) {
@@ -1237,6 +1241,21 @@
   function hideNodePanel() {
     const panel = document.getElementById('node-panel');
     if (panel) panel.classList.remove('visible');
+  }
+
+  function showHoverName(name) {
+    const el = document.getElementById('hover-name');
+    if (el) {
+      el.textContent = name;
+      el.classList.add('visible');
+    }
+  }
+
+  function hideHoverName() {
+    const el = document.getElementById('hover-name');
+    if (el) {
+      el.classList.remove('visible');
+    }
   }
 
   function updateStats() {
