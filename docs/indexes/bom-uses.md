@@ -116,6 +116,7 @@ Assemblies with non-empty component references (Uses).
 | [PT Disp 2](../designs/d-0058-tpms-load/pt-disp-2.md) | 5 | [a360.co/3UN7Ge6](https://a360.co/3UN7Ge6) |
 | [PT Disp 3](../designs/d-0058-tpms-load/pt-disp-3.md) | 12 | [a360.co/4d0Ttk9](https://a360.co/4d0Ttk9) |
 | [PT Disp 4](../designs/d-0058-tpms-load/pt-disp-4.md) | 11 | [a360.co/4h0ZX3s](https://a360.co/4h0ZX3s) |
+| [Motor Adapter PSI 3](../designs/00-parts/motor-adapters/motor-adapter-psi-3.md) | 2 | [a360.co/3TjXIAu](https://a360.co/3TjXIAu) |
 
 ---
 
@@ -1440,4 +1441,13 @@ The TAZ Dyno Cabinet (D-0072) assembly references the following 3 components:
 
 ---
 
-*116 assemblies with BOM data indexed.*
+## Motor Adapter PSI 3 — Bill of Materials
+
+The Motor Adapter PSI 3 design references the following 2 components:
+
+1. [Motor Adapter 3](../designs/a-0026-itm/aeetes/motor-adapter-3.md)
+2. [PSI Tee](../designs/a-0026-itm/parts/psi-tee.md)
+
+---
+
+*117 assemblies with BOM data indexed.*
