@@ -206,13 +206,21 @@ def generate_directory_graph(docs_dir: Path) -> dict:
     return {'nodes': node_list, 'edges': unique_edges}
 
 
+def extract_main_folder(path_str: str) -> str:
+    """Extract the first path segment (main folder) from a path like 'a-0010-iair6/parts/foo'."""
+    if not path_str:
+        return ''
+    parts = path_str.split('/')
+    return parts[0] if parts else ''
+
+
 def generate_assembly_graph(docs_dir: Path) -> dict:
     """
     Scan design pages and build BOM relationship graph (assembly→part edges).
     
     Returns:
         dict with 'nodes' and 'edges' arrays:
-        - Nodes: design files only (no folders), with uses_count and used_in_count
+        - Nodes: design files only (no folders), with uses_count, used_in_count, and project
         - Edges: assembly→part uses relationships
     """
     designs_dir = docs_dir / 'designs'
@@ -244,12 +252,14 @@ def generate_assembly_graph(docs_dir: Path) -> dict:
         
         relative_path = md_file.relative_to(designs_dir)
         path_str = str(relative_path.with_suffix('')).replace(os.sep, '/')
+        main_folder = extract_main_folder(path_str)
         
         if name not in nodes_map:
             nodes_map[name] = {
                 'id': name,
                 'shortlink': shortlink,
                 'path': path_str,
+                'project': main_folder,
                 'uses_count': 0,
                 'used_in_count': 0,
                 '_uses': set(),
@@ -260,6 +270,8 @@ def generate_assembly_graph(docs_dir: Path) -> dict:
                 nodes_map[name]['shortlink'] = shortlink
             if path_str and not nodes_map[name]['path']:
                 nodes_map[name]['path'] = path_str
+            if main_folder and not nodes_map[name].get('project'):
+                nodes_map[name]['project'] = main_folder
         
         for ref in uses:
             if ref and not is_hub_page(ref):
@@ -269,6 +281,7 @@ def generate_assembly_graph(docs_dir: Path) -> dict:
                         'id': ref,
                         'shortlink': '',
                         'path': '',
+                        'project': '',
                         'uses_count': 0,
                         'used_in_count': 0,
                         '_uses': set(),
@@ -284,6 +297,7 @@ def generate_assembly_graph(docs_dir: Path) -> dict:
                         'id': ref,
                         'shortlink': '',
                         'path': '',
+                        'project': '',
                         'uses_count': 0,
                         'used_in_count': 0,
                         '_uses': set(),
@@ -308,6 +322,7 @@ def generate_assembly_graph(docs_dir: Path) -> dict:
             'id': node['id'],
             'shortlink': node['shortlink'],
             'path': node['path'],
+            'project': node.get('project', ''),
             'uses_count': node['uses_count'],
             'used_in_count': node['used_in_count'],
         })

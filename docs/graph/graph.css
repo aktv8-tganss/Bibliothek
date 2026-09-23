@@ -1,4 +1,4 @@
-/* Bibliothek Graph Canvas - Stark Engineering UI (Directory + Assembly modes) */
+/* Bibliothek Graph Canvas - Stark Engineering UI (Directory + Assembly + Project modes) */
 
 :root {
   --graph-bg: #0a0a0a;
@@ -47,7 +47,7 @@
   height: 100%;
 }
 
-/* Home link - upper left */
+/* Home link - upper left - favicon icon */
 #home-link {
   position: absolute;
   top: 12px;
@@ -55,29 +55,27 @@
   z-index: 100;
   display: flex;
   align-items: center;
-  gap: 6px;
+  justify-content: center;
   background: var(--panel-bg);
   border: 1px solid var(--panel-border);
-  padding: 6px 10px;
+  padding: 6px;
   text-decoration: none;
-  font-family: 'JetBrains Mono', 'Consolas', monospace;
-  font-size: 12px;
-  color: var(--text-secondary);
-  transition: color 0.15s, border-color 0.15s;
+  transition: border-color 0.15s;
 }
 
 #home-link:hover {
-  color: var(--text-primary);
   border-color: var(--ui-accent);
 }
 
-#home-icon {
-  font-size: 10px;
+#home-link img {
+  width: 20px;
+  height: 20px;
+  opacity: 0.7;
+  transition: opacity 0.15s;
 }
 
-#home-label {
-  font-weight: 500;
-  letter-spacing: 0.5px;
+#home-link:hover img {
+  opacity: 1;
 }
 
 /* Controls Panel - Collapsible - Upper Right */
@@ -181,7 +179,7 @@
   border-color: var(--ui-accent);
 }
 
-/* Orphan toggle row - hidden by default, shown in assembly mode */
+/* Orphan toggle row - hidden by default, shown in assembly/project mode */
 #orphan-toggle-row {
   display: none;
 }
@@ -473,6 +471,10 @@
   display: none;
 }
 
+#legend-project {
+  display: none;
+}
+
 .legend-item {
   display: flex;
   align-items: center;
@@ -512,6 +514,83 @@
 .legend-dot.hybrid {
   background: var(--graph-node-hybrid);
   border: 1px solid var(--graph-node-hybrid-border);
+}
+
+/* Project mode legend - shape encodings */
+.legend-shapes {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 6px;
+}
+
+.legend-shape {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.legend-shape.part-shape {
+  background: #e74c3c;
+}
+
+.legend-shape.assembly-shape {
+  background: transparent;
+  border: 3px solid #e74c3c;
+  width: 6px;
+  height: 6px;
+}
+
+.legend-shape.hybrid-shape {
+  background: transparent;
+  border: 3px solid #e74c3c;
+  width: 6px;
+  height: 6px;
+  position: relative;
+}
+
+.legend-shape.hybrid-shape::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 4px;
+  background: #e74c3c;
+  border-radius: 50%;
+}
+
+/* Project colors key */
+.project-colors {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  margin-top: 4px;
+  padding-top: 4px;
+  border-top: 1px solid var(--panel-border);
+}
+
+.project-color-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.project-color-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.project-color-label {
+  font-size: 9px;
+  color: var(--text-secondary);
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 /* Stats footer */

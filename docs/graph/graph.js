@@ -1,4 +1,4 @@
-/* Bibliothek Graph Canvas - Directory + Assembly Modes (D3 Force Simulation) */
+/* Bibliothek Graph Canvas - Directory + Assembly + Project Modes (D3 Force Simulation) */
 
 (function() {
   'use strict';
@@ -31,7 +31,10 @@
   let nodeElements = null;
   let linkElements = null;
   let labelElements = null;
+  let centerDotElements = null;
   let zoom = null;
+  let projectColors = {};
+  let activeProjects = [];
 
   const CONFIG = {
     FOLDER_SIZE_ROOT: 24,
@@ -57,6 +60,45 @@
     orphan: '#555555',
     orphanBorder: '#444444'
   };
+
+  const PROJECT_PALETTE = [
+    '#e74c3c',
+    '#3498db',
+    '#2ecc71',
+    '#9b59b6',
+    '#f39c12',
+    '#1abc9c',
+    '#e91e63',
+    '#00bcd4',
+    '#ff5722',
+    '#8bc34a',
+    '#673ab7',
+    '#ffc107',
+    '#009688',
+    '#ff9800',
+    '#03a9f4',
+    '#cddc39',
+    '#795548',
+    '#607d8b'
+  ];
+
+  function getProjectColor(project) {
+    if (!project) return COLORS.orphan;
+    if (project === '00-parts') return '#ffffff';
+    
+    if (projectColors[project]) {
+      return projectColors[project];
+    }
+    
+    let hash = 0;
+    for (let i = 0; i < project.length; i++) {
+      hash = ((hash << 5) - hash) + project.charCodeAt(i);
+      hash = hash & hash;
+    }
+    const index = Math.abs(hash) % PROJECT_PALETTE.length;
+    projectColors[project] = PROJECT_PALETTE[index];
+    return projectColors[project];
+  }
 
   function init() {
     loadSettings();
@@ -215,8 +257,15 @@
     }
     
     g.selectAll('*').remove();
+    centerDotElements = null;
     
-    const data = allGraphData[mode];
+    let data;
+    if (mode === 'project') {
+      data = allGraphData['assembly'];
+    } else {
+      data = allGraphData[mode];
+    }
+    
     if (!data) {
       console.error('No data for mode:', mode);
       return;
@@ -226,6 +275,8 @@
       initDirectoryMode(data);
     } else if (mode === 'assembly') {
       initAssemblyMode(data);
+    } else if (mode === 'project') {
+      initProjectMode(data);
     }
 
     updateLegend(mode);
@@ -322,7 +373,8 @@
     createGraphElements(
       n => getDirectoryColor(n),
       n => getDirectoryBorderColor(n),
-      n => n.isRoot ? 2 : 1
+      n => n.isRoot ? 2 : 1,
+      n => getDirectoryColor(n)
     );
 
     startSimulation();
@@ -366,13 +418,65 @@
     createGraphElements(
       n => getAssemblyColor(n),
       n => getAssemblyBorderColor(n),
-      n => n.isAssembly ? 2 : 1
+      n => n.isAssembly ? 2 : 1,
+      n => getAssemblyColor(n)
     );
 
     startSimulation();
   }
 
-  function createGraphElements(colorFn, borderColorFn, strokeWidthFn) {
+  function initProjectMode(data) {
+    const showOrphans = settings.showOrphans;
+    
+    let filteredNodes = data.nodes;
+    if (!showOrphans) {
+      filteredNodes = data.nodes.filter(n => {
+        return (n.uses_count || 0) > 0 || (n.used_in_count || 0) > 0;
+      });
+    }
+    
+    projectColors = {};
+    const projectSet = new Set();
+    
+    nodes = filteredNodes.map(n => {
+      const nodeType = classifyAssemblyNode(n);
+      const project = n.project || '';
+      if (project) projectSet.add(project);
+      
+      return {
+        ...n,
+        nodeType: nodeType,
+        radius: computeAssemblyRadius(n, settings.sizeFalloff),
+        isAssembly: nodeType === 'assembly',
+        isPart: nodeType === 'part',
+        isHybrid: nodeType === 'hybrid',
+        isOrphan: nodeType === 'orphan',
+        projectColor: getProjectColor(project),
+        x: canvasWidth / 2 + (Math.random() - 0.5) * 300,
+        y: canvasHeight / 2 + (Math.random() - 0.5) * 300
+      };
+    });
+
+    activeProjects = Array.from(projectSet).sort();
+
+    const nodeById = new Map(nodes.map(n => [n.id, n]));
+
+    links = data.edges
+      .filter(e => nodeById.has(e.source) && nodeById.has(e.target))
+      .map(e => ({
+        source: nodeById.get(e.source),
+        target: nodeById.get(e.target),
+        type: e.type
+      }));
+
+    createProjectGraphElements();
+
+    startSimulation();
+    
+    updateProjectLegend();
+  }
+
+  function createGraphElements(colorFn, borderColorFn, strokeWidthFn, fillFn) {
     linkElements = g.append('g')
       .attr('class', 'links')
       .selectAll('line')
@@ -388,7 +492,7 @@
       .data(nodes)
       .join('circle')
       .attr('r', d => d.radius)
-      .attr('fill', d => colorFn(d))
+      .attr('fill', d => fillFn(d))
       .attr('stroke', d => borderColorFn(d))
       .attr('stroke-width', d => strokeWidthFn(d))
       .attr('cursor', 'pointer')
@@ -399,6 +503,71 @@
         .on('start', dragStarted)
         .on('drag', dragged)
         .on('end', dragEnded));
+
+    labelElements = g.append('g')
+      .attr('class', 'labels')
+      .selectAll('text')
+      .data(nodes)
+      .join('text')
+      .text(d => d.name || d.id)
+      .attr('font-size', 9)
+      .attr('font-family', 'JetBrains Mono, Consolas, monospace')
+      .attr('fill', '#e0e0e0')
+      .attr('text-anchor', 'middle')
+      .attr('dy', d => d.radius + 10)
+      .attr('pointer-events', 'none')
+      .attr('opacity', 0);
+  }
+
+  function createProjectGraphElements() {
+    linkElements = g.append('g')
+      .attr('class', 'links')
+      .selectAll('line')
+      .data(links)
+      .join('line')
+      .attr('stroke', '#2a4a6a')
+      .attr('stroke-width', 1)
+      .attr('stroke-opacity', 0.5);
+
+    nodeElements = g.append('g')
+      .attr('class', 'nodes')
+      .selectAll('circle')
+      .data(nodes)
+      .join('circle')
+      .attr('r', d => d.radius)
+      .attr('fill', d => {
+        if (d.isOrphan) return COLORS.orphan;
+        if (d.isAssembly) return 'rgba(10, 10, 10, 0.3)';
+        if (d.isHybrid) return 'rgba(10, 10, 10, 0.3)';
+        return d.projectColor;
+      })
+      .attr('stroke', d => {
+        if (d.isOrphan) return COLORS.orphanBorder;
+        return d.projectColor;
+      })
+      .attr('stroke-width', d => {
+        if (d.isOrphan) return 1;
+        if (d.isAssembly) return 3;
+        if (d.isHybrid) return 3;
+        return 0;
+      })
+      .attr('cursor', 'pointer')
+      .on('mouseover', handleNodeMouseOver)
+      .on('mouseout', handleNodeMouseOut)
+      .on('click', handleNodeClick)
+      .call(d3.drag()
+        .on('start', dragStarted)
+        .on('drag', dragged)
+        .on('end', dragEnded));
+
+    centerDotElements = g.append('g')
+      .attr('class', 'center-dots')
+      .selectAll('circle')
+      .data(nodes.filter(n => n.isHybrid))
+      .join('circle')
+      .attr('r', d => Math.max(d.radius * 0.35, 3))
+      .attr('fill', d => d.projectColor)
+      .attr('pointer-events', 'none');
 
     labelElements = g.append('g')
       .attr('class', 'labels')
@@ -484,6 +653,10 @@
     nodeElements.attr('r', d => d.radius);
     labelElements.attr('dy', d => d.radius + 10);
     
+    if (centerDotElements) {
+      centerDotElements.attr('r', d => Math.max(d.radius * 0.35, 3));
+    }
+    
     simulation.force('collide').radius(d => d.radius + settings.collideRadius);
     simulation.alpha(0.3).restart();
   }
@@ -498,6 +671,12 @@
     nodeElements
       .attr('cx', d => d.x)
       .attr('cy', d => d.y);
+
+    if (centerDotElements) {
+      centerDotElements
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y);
+    }
 
     labelElements
       .attr('x', d => d.x)
@@ -525,7 +704,14 @@
     const isHighlight = d.isRoot || d.isAssembly;
     d3.select(event.target)
       .attr('filter', 'url(#glow)')
-      .attr('stroke-width', isHighlight ? 3 : 2);
+      .attr('stroke-width', function() {
+        if (settings.mode === 'project') {
+          if (d.isOrphan) return 2;
+          if (d.isAssembly || d.isHybrid) return 4;
+          return 1;
+        }
+        return isHighlight ? 3 : 2;
+      });
 
     labelElements
       .filter(n => n.id === d.id)
@@ -545,13 +731,31 @@
           (l.target.id === d.id && l.source.id === n.id));
         return connected ? 1 : 0.25;
       });
+
+    if (centerDotElements) {
+      centerDotElements
+        .attr('opacity', n => {
+          if (n.id === d.id) return 1;
+          const connected = links.some(l => 
+            (l.source.id === d.id && l.target.id === n.id) ||
+            (l.target.id === d.id && l.source.id === n.id));
+          return connected ? 1 : 0.25;
+        });
+    }
   }
 
   function handleNodeMouseOut(event, d) {
     const isHighlight = d.isRoot || d.isAssembly;
     d3.select(event.target)
       .attr('filter', null)
-      .attr('stroke-width', isHighlight ? 2 : 1);
+      .attr('stroke-width', function() {
+        if (settings.mode === 'project') {
+          if (d.isOrphan) return 1;
+          if (d.isAssembly || d.isHybrid) return 3;
+          return 0;
+        }
+        return isHighlight ? 2 : 1;
+      });
 
     labelElements
       .filter(n => n.id === d.id)
@@ -563,6 +767,10 @@
 
     nodeElements
       .attr('opacity', 1);
+
+    if (centerDotElements) {
+      centerDotElements.attr('opacity', 1);
+    }
   }
 
   function handleNodeClick(event, d) {
@@ -626,8 +834,8 @@
       showOrphans.addEventListener('change', () => {
         settings.showOrphans = showOrphans.checked;
         saveSettings();
-        if (settings.mode === 'assembly') {
-          loadMode('assembly');
+        if (settings.mode === 'assembly' || settings.mode === 'project') {
+          loadMode(settings.mode);
         }
       });
     }
@@ -751,6 +959,7 @@
     if (!searchTerm) {
       nodeElements.attr('opacity', 1);
       linkElements.attr('stroke-opacity', 0.5);
+      if (centerDotElements) centerDotElements.attr('opacity', 1);
       return;
     }
 
@@ -765,6 +974,7 @@
     if (matches.size === 0) {
       nodeElements.attr('opacity', 1);
       linkElements.attr('stroke-opacity', 0.5);
+      if (centerDotElements) centerDotElements.attr('opacity', 1);
       return;
     }
 
@@ -787,6 +997,14 @@
       if (neighborhood.has(d.id)) return 0.8;
       return 0.1;
     });
+
+    if (centerDotElements) {
+      centerDotElements.attr('opacity', d => {
+        if (matches.has(d.id)) return 1;
+        if (neighborhood.has(d.id)) return 0.8;
+        return 0.1;
+      });
+    }
 
     linkElements.attr('stroke-opacity', l => {
       if (neighborhood.has(l.source.id) && neighborhood.has(l.target.id)) return 0.8;
@@ -869,6 +1087,7 @@
 
     nodeElements.attr('opacity', 1);
     linkElements.attr('stroke-opacity', 0.5);
+    if (centerDotElements) centerDotElements.attr('opacity', 1);
     fitView();
     hideNodePanel();
   }
@@ -876,21 +1095,64 @@
   function updateLegend(mode) {
     const legendDir = document.getElementById('legend-directory');
     const legendAsm = document.getElementById('legend-assembly');
+    const legendProj = document.getElementById('legend-project');
     
     if (legendDir) legendDir.style.display = mode === 'directory' ? 'flex' : 'none';
     if (legendAsm) legendAsm.style.display = mode === 'assembly' ? 'flex' : 'none';
+    if (legendProj) legendProj.style.display = mode === 'project' ? 'block' : 'none';
+  }
+
+  function updateProjectLegend() {
+    const container = document.getElementById('project-colors');
+    if (!container) return;
+    
+    container.innerHTML = '';
+    
+    const sortedProjects = ['00-parts'].concat(
+      activeProjects.filter(p => p !== '00-parts')
+    ).filter(p => activeProjects.includes(p) || p === '00-parts');
+    
+    const displayProjects = sortedProjects.slice(0, 12);
+    
+    displayProjects.forEach(project => {
+      if (!activeProjects.includes(project) && project !== '00-parts') return;
+      
+      const item = document.createElement('div');
+      item.className = 'project-color-item';
+      
+      const dot = document.createElement('span');
+      dot.className = 'project-color-dot';
+      dot.style.backgroundColor = getProjectColor(project);
+      
+      const label = document.createElement('span');
+      label.className = 'project-color-label';
+      label.textContent = project;
+      
+      item.appendChild(dot);
+      item.appendChild(label);
+      container.appendChild(item);
+    });
+    
+    if (sortedProjects.length > 12) {
+      const more = document.createElement('div');
+      more.className = 'project-color-item';
+      more.innerHTML = '<span class="project-color-label">+' + (sortedProjects.length - 12) + ' more</span>';
+      container.appendChild(more);
+    }
   }
 
   function updatePanelFields(mode) {
     const dirFields = document.querySelectorAll('.panel-field-directory');
     const asmFields = document.querySelectorAll('.panel-field-assembly');
+    const projFields = document.querySelectorAll('.panel-field-project');
     
     dirFields.forEach(el => el.style.display = mode === 'directory' ? 'flex' : 'none');
-    asmFields.forEach(el => el.style.display = mode === 'assembly' ? 'flex' : 'none');
+    asmFields.forEach(el => el.style.display = (mode === 'assembly' || mode === 'project') ? 'flex' : 'none');
+    projFields.forEach(el => el.style.display = mode === 'project' ? 'flex' : 'none');
 
     const orphanRow = document.getElementById('orphan-toggle-row');
     if (orphanRow) {
-      orphanRow.style.display = mode === 'assembly' ? 'block' : 'none';
+      orphanRow.style.display = (mode === 'assembly' || mode === 'project') ? 'block' : 'none';
     }
   }
 
@@ -926,15 +1188,16 @@
         }
       } else {
         const nodeType = d.nodeType || classifyAssemblyNode(d);
+        const color = settings.mode === 'project' ? d.projectColor : COLORS[nodeType];
         if (nodeType === 'assembly') {
           typeEl.textContent = 'Assembly';
-          typeEl.style.color = COLORS.assembly;
+          typeEl.style.color = color || COLORS.assembly;
         } else if (nodeType === 'part') {
           typeEl.textContent = 'Part';
-          typeEl.style.color = COLORS.part;
+          typeEl.style.color = color || COLORS.part;
         } else if (nodeType === 'hybrid') {
           typeEl.textContent = 'Hybrid';
-          typeEl.style.color = COLORS.hybrid;
+          typeEl.style.color = color || COLORS.hybrid;
         } else {
           typeEl.textContent = 'Orphan';
           typeEl.style.color = COLORS.orphan;
@@ -960,6 +1223,12 @@
     const usedInEl = document.getElementById('panel-used-in');
     if (usedInEl) {
       usedInEl.textContent = d.used_in_count !== undefined ? d.used_in_count : '—';
+    }
+
+    const projectEl = document.getElementById('panel-project');
+    if (projectEl) {
+      projectEl.textContent = d.project || '—';
+      projectEl.style.color = d.projectColor || COLORS.orphan;
     }
 
     panel.classList.add('visible');
