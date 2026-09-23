@@ -726,7 +726,22 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [KQ2E07-35A](../designs/00-parts/smc-kq2/kq2e07-35a.md) | `00 - Parts / SMC KQ2` | [a360.co/4A6huA5](https://a360.co/4A6huA5) |
 | [KQ2H07-34AS](../designs/00-parts/smc-kq2/kq2h07-34as.md) | `00 - Parts / SMC KQ2` | [a360.co/4h0LeWj](https://a360.co/4h0LeWj) |
 | [KQ2H07-35AS](../designs/00-parts/smc-kq2/kq2h07-35as.md) | `00 - Parts / SMC KQ2` | [a360.co/4yA8Gkw](https://a360.co/4yA8Gkw) |
+| [KQ2H07-36AS](../designs/00-parts/smc-kq2/07/kq2h07-36as.md) | `00 - Parts / SMC KQ2 / 07` | [a360.co/4A5ukhV](https://a360.co/4A5ukhV) |
+| [KQ2L07-34AS](../designs/00-parts/smc-kq2/07/kq2l07-34as.md) | `00 - Parts / SMC KQ2 / 07` | [a360.co/4h1SilG](https://a360.co/4h1SilG) |
+| [KQ2L07-35AS](../designs/00-parts/smc-kq2/07/kq2l07-35as.md) | `00 - Parts / SMC KQ2 / 07` | [a360.co/46SYtDI](https://a360.co/46SYtDI) |
+| [KQ2T07-34AS](../designs/00-parts/smc-kq2/07/kq2t07-34as.md) | `00 - Parts / SMC KQ2 / 07` | [a360.co/4ytb649](https://a360.co/4ytb649) |
+| [KQ2T07-35AS](../designs/00-parts/smc-kq2/07/kq2t07-35as.md) | `00 - Parts / SMC KQ2 / 07` | [a360.co/3T1jB7r](https://a360.co/3T1jB7r) |
+| [KQ2H11-34AS](../designs/00-parts/smc-kq2/11/kq2h11-34as.md) | `00 - Parts / SMC KQ2 / 11` | [a360.co/3UGf5fj](https://a360.co/3UGf5fj) |
+| [KQ2H11-35AS](../designs/00-parts/smc-kq2/11/kq2h11-35as.md) | `00 - Parts / SMC KQ2 / 11` | [a360.co/4A3G4S4](https://a360.co/4A3G4S4) |
+| [KQ2H11-36AS](../designs/00-parts/smc-kq2/11/kq2h11-36as.md) | `00 - Parts / SMC KQ2 / 11` | [a360.co/3SFCqgB](https://a360.co/3SFCqgB) |
+| [KV2F03-34](../designs/00-parts/smc-kv2/kv2f03-34.md) | `00 - Parts / SMC KV2` | [a360.co/4gLIM7h](https://a360.co/4gLIM7h) |
+| [KV2H03-34S](../designs/00-parts/smc-kv2/kv2h03-34s.md) | `00 - Parts / SMC KV2` | [a360.co/4cGUAoN](https://a360.co/4cGUAoN) |
+| [KV2H03-35S](../designs/00-parts/smc-kv2/kv2h03-35s.md) | `00 - Parts / SMC KV2` | [a360.co/4gNLkBS](https://a360.co/4gNLkBS) |
+| [KV2L03-34S](../designs/00-parts/smc-kv2/kv2l03-34s.md) | `00 - Parts / SMC KV2` | [a360.co/4h5PRi1](https://a360.co/4h5PRi1) |
+| [KV2L03-35S](../designs/00-parts/smc-kv2/kv2l03-35s.md) | `00 - Parts / SMC KV2` | [a360.co/4xglhba](https://a360.co/4xglhba) |
+| [KV2T03-34S](../designs/00-parts/smc-kv2/kv2t03-34s.md) | `00 - Parts / SMC KV2` | [a360.co/4gOV6na](https://a360.co/4gOV6na) |
+| [KV2T03-35S](../designs/00-parts/smc-kv2/kv2t03-35s.md) | `00 - Parts / SMC KV2` | [a360.co/4r85nyk](https://a360.co/4r85nyk) |
 
 ---
 
-*722 designs indexed.*
+*737 designs indexed.*
