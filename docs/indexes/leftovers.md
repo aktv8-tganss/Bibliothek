@@ -1663,3 +1663,64 @@ All 15 designs from batch 041 were successfully indexed:
 
 14. ✓ 10" Screen — used in Oyster Asm
 15. ✓ 15" Screen — no Design References shown
+
+---
+
+## 00 - Parts — Batch 042
+
+!!! warning "00 - Parts NOT COMPLETE"
+    Additional 00 - Parts designs remain to be harvested. Do not declare 00 - Parts COMPLETE.
+
+### Batch 042
+
+All 15 designs from batch 042 were successfully indexed:
+
+**00 - Parts / Pi Components** (2 designs):
+
+1. ✓ 7" Screen — used in PCBA Flash Expanded
+2. ✓ Pi Case — used in 891201 FFT, Pi VESA Mount, PCBA Flash Expanded, Oyster Asm
+
+**00 - Parts / Pressure Transducers** (1 design):
+
+3. ✓ 67CP3220 — used in 891201 FFT; canonical 00 - Parts (distinct from A-0047 OTS shortlink if any)
+
+**00 - Parts / Regulators** (3 designs):
+
+4. ✓ Mini Regulator — used in 891201 FFT, Oyster Asm; **6-char shortlink** (`a360.co/4ij3Jp`) verified as genuine (Fusion as displayed); distinct from A-0047 Mini Regulator
+5. ✓ Mini Regulator Nut — no Design References shown
+6. ✓ NR Regulator — used in PCBA Flash Expanded
+
+**00 - Parts / SMC KQ2** (9 designs):
+
+7. ✓ KQ2H03-34AS — used in 891201 FFT, Valve Bank; canonical 00 - Parts (distinct from A-0047 OTS shortlink)
+8. ✓ KQ2H03-35AS — used in 891201 FFT; canonical 00 - Parts (distinct from A-0047 OTS shortlink)
+9. ✓ KQ2L03-34AS — used in Cylinder Assembly, Oyster Asm; **6-char shortlink** (`a360.co/3SXFKY`) verified as genuine (Fusion as displayed); distinct from A-0047 OTS shortlink
+10. ✓ KQ2L03-35AS — used in Oyster Asm
+11. ✓ KQ2T03-34AS — no Design References shown; canonical 00 - Parts (distinct from A-0047 OTS shortlink)
+12. ✓ KQ2T03-35AS — no Design References shown; canonical 00 - Parts (distinct from A-0047 OTS shortlink)
+13. ✓ KQ2E07-35A — used in Oyster Asm, 891201 FFT
+14. ✓ KQ2H07-34AS — no Design References shown
+15. ✓ KQ2H07-35AS — no Design References shown
+
+### Disambiguation Notes (Batch 042)
+
+!!! tip "6-Character Shortlinks"
+    Two designs in batch 042 have verified **6-character** Share codes as Fusion displays them:
+
+    - **Mini Regulator** — `a360.co/4ij3Jp` (exactly 6 chars)
+    - **KQ2L03-34AS** — `a360.co/3SXFKY` (exactly 6 chars)
+
+    These are genuine shortlinks, not truncated. Distinct from any A-0047 project-copy shortlinks of the same names.
+
+!!! tip "Canonical 00 - Parts vs A-0047 OTS Parts"
+    Several batch 042 designs share names with A-0047 TPMS / OTS Parts designs but have distinct shortlinks:
+
+    - **67CP3220** — 00 - Parts (`a360.co/46hhZd2`) distinct from A-0047 OTS (`a360.co/4xDh55C`)
+    - **Mini Regulator** — 00 - Parts (`a360.co/4ij3Jp`) distinct from A-0047 OTS (`a360.co/4y4YSio`)
+    - **KQ2H03-34AS** — 00 - Parts (`a360.co/4ywcV0n`) distinct from A-0047 OTS (`a360.co/4h71ZAq`)
+    - **KQ2H03-35AS** — 00 - Parts (`a360.co/4iVT0mO`) distinct from A-0047 OTS (`a360.co/47i3l5q`)
+    - **KQ2L03-34AS** — 00 - Parts (`a360.co/3SXFKY`) distinct from A-0047 OTS (`a360.co/4iEASxT`)
+    - **KQ2T03-34AS** — 00 - Parts (`a360.co/46dQa5g`) distinct from A-0047 OTS (`a360.co/4yMXvVt`)
+    - **KQ2T03-35AS** — 00 - Parts (`a360.co/4d9wZ0a`) distinct from A-0047 OTS (`a360.co/4yPdzWN`)
+
+    All batch 042 designs are canonical 00 - Parts versions.
