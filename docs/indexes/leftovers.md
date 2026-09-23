@@ -1373,3 +1373,81 @@ All 15 designs from batch 036 were successfully indexed:
     - **002390 (1)** — D-0058 (`a360.co/4yKfjke`) distinct from A-0047 TPMS (`a360.co/4hsxLyC`)
     - **002582 AA TPMS Thru Conmet (2)** — D-0058 (`a360.co/4hnaAxG`) distinct from A-0047 TPMS (`a360.co/4hxsJuZ`)
     - **Proc PCM** — D-0058 (`a360.co/4As4rZJ`) distinct from A-003 iLACM (`a360.co/4iXj29k`)
+
+---
+
+### Batch 037
+
+All 29 designs from batch 037 were successfully indexed:
+
+**D-0058 Root (14):**
+
+1. ✓ KW T401(1998)
+2. ✓ Lift Axle Switch
+3. ✓ BASICTRUCK
+4. ✓ Mini AC Compressor — OTS migration candidate
+5. ✓ NANUK_935_Bottom Shell_INNER SURFS_Step (D-0058) — project-copy migration candidate
+6. ✓ NANUK_935_Top Shell_INNER SURFS_Step (D-0058) — project-copy migration candidate
+7. ✓ Samsung Galaxy Note 20 Ultra 5G — OTS migration candidate
+8. ✓ Scoche MagicMount — OTS migration candidate
+9. ✓ PT Disp 2 (Apr 2024) — dated copy with distinct shortlink (`a360.co/4halQ1C`)
+10. ✓ PT Disp 3 (Sep 2026) — dated copy with distinct shortlink (`a360.co/4xnLF2V`)
+11. ✓ MAN TGX 29-440 2013
+12. ✓ PT Disp 3 (Apr 2024) — dated copy with distinct shortlink (`a360.co/3TnoqZ4`)
+13. ✓ Scoche Mount — OTS migration candidate
+14. ✓ Switch (D-0058) — project-copy migration candidate
+
+**D-0058 Comps (15):**
+
+15. ✓ AR2000 Reg — OTS migration candidate
+16. ✓ Dorse
+17. ✓ KQ2H01-34AS — OTS migration candidate
+18. ✓ KQ2H01-35AS — OTS migration candidate
+19. ✓ 1.5in Gauge — OTS migration candidate
+20. ✓ 092 Compressor — OTS migration candidate
+21. ✓ 240W DC PS — OTS migration candidate
+22. ✓ 2in Gauge — OTS migration candidate
+23. ✓ 918_Bottom_INNER SURFACES
+24. ✓ 918_top_INNER SURFACES
+25. ✓ AC Compressor — OTS migration candidate
+26. ✓ KQ2P-01 — OTS migration candidate
+27. ✓ KQ2ZT01-34AS — OTS migration candidate
+28. ✓ Nipple Spacer
+29. ✓ Tee Leak Fixture
+
+---
+
+## D-0058 TPMS & Load — COMPLETE for Bibliothek (2026-09-23)
+
+!!! success "D-0058 TPMS & Load Harvest COMPLETE"
+    Declared COMPLETE for Bibliothek purposes by Franklin/Charlotte on 2026-09-23 after batches 036–037. All 44 locatable Fusion designs with unique Share shortlinks have been indexed.
+
+### Covered
+
+- D-0058 root (29 designs across both batches)
+- D-0058 / Comps (15 designs in batch 037)
+
+### Final batch (037)
+
+- ✓ 14 root designs (KW T401 through Switch)
+- ✓ 15 Comps designs (AR2000 Reg through Tee Leak Fixture)
+- 16 migration candidates (13 OTS, 3 project-copies)
+
+### Known debt (not blocking COMPLETE)
+
+!!! warning "PT Disp 2/3 dated copies"
+    Batch 037 includes three PT Disp dated copies with distinct shortlinks from batch 036:
+
+    - **PT Disp 2** — batch-037 (`a360.co/4halQ1C`) distinct from batch-036 (`a360.co/3UN7Ge6`)
+    - **PT Disp 3** — batch-037 Sep 2026 (`a360.co/4xnLF2V`) and Apr 2024 (`a360.co/3TnoqZ4`) distinct from batch-036 (`a360.co/4d0Ttk9`)
+
+    All three dated copies indexed as separate pages with shortlink-suffix slugs.
+
+!!! warning "NANUK / Switch project copies"
+    Three designs are D-0058 project copies that may differ from A-0047/A-9999 Lab originals:
+
+    - **NANUK_935_Bottom Shell_INNER SURFS_Step** — D-0058 (`a360.co/4iJD07A`)
+    - **NANUK_935_Top Shell_INNER SURFS_Step** — D-0058 (`a360.co/4xLXeBn`)
+    - **Switch** — D-0058 (`a360.co/4dAbiGP`) distinct from A-9999 Lab (`a360.co/4hc4gcc`)
+
+*D-0058 TPMS & Load harvest declared COMPLETE for Bibliothek by Franklin/Charlotte, 2026-09-23.*

@@ -626,7 +626,36 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Samsung A8 Tablet](../designs/d-0058-tpms-load/samsung-a8-tablet.md) | `D-0058 TPMS & Load` | [a360.co/3STM6UL](https://a360.co/3STM6UL) |
 | [Trailer (45ft)](../designs/d-0058-tpms-load/trailer-45ft.md) | `D-0058 TPMS & Load` | [a360.co/4cGyeUx](https://a360.co/4cGyeUx) |
 | [Truck](../designs/d-0058-tpms-load/truck.md) | `D-0058 TPMS & Load` | [a360.co/4xSD5KO](https://a360.co/4xSD5KO) |
+| [AR2000 Reg](../designs/d-0058-tpms-load/comps/ar2000-reg.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4hu4BZc](https://a360.co/4hu4BZc) |
+| [Dorse](../designs/d-0058-tpms-load/comps/dorse.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4xvPe7p](https://a360.co/4xvPe7p) |
+| [KQ2H01-34AS](../designs/d-0058-tpms-load/comps/kq2h01-34as.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4xsLGmg](https://a360.co/4xsLGmg) |
+| [KQ2H01-35AS](../designs/d-0058-tpms-load/comps/kq2h01-35as.md) | `D-0058 TPMS & Load / Comps` | [a360.co/3Tvufnj](https://a360.co/3Tvufnj) |
+| [KW T401(1998)](../designs/d-0058-tpms-load/kw-t401-1998.md) | `D-0058 TPMS & Load` | [a360.co/4yqDLqv](https://a360.co/4yqDLqv) |
+| [Lift Axle Switch](../designs/d-0058-tpms-load/lift-axle-switch.md) | `D-0058 TPMS & Load` | [a360.co/4r3oHfY](https://a360.co/4r3oHfY) |
+| [1.5in Gauge](../designs/d-0058-tpms-load/comps/1-5in-gauge.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4xGc1gO](https://a360.co/4xGc1gO) |
+| [BASICTRUCK](../designs/d-0058-tpms-load/basictruck.md) | `D-0058 TPMS & Load` | [a360.co/4rkTjdk](https://a360.co/4rkTjdk) |
+| [092 Compressor](../designs/d-0058-tpms-load/comps/092-compressor.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4hbd81V](https://a360.co/4hbd81V) |
+| [240W DC PS](../designs/d-0058-tpms-load/comps/240w-dc-ps.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4iyFeXc](https://a360.co/4iyFeXc) |
+| [2in Gauge](../designs/d-0058-tpms-load/comps/2in-gauge.md) | `D-0058 TPMS & Load / Comps` | [a360.co/46uK4gZ](https://a360.co/46uK4gZ) |
+| [918_Bottom_INNER SURFACES](../designs/d-0058-tpms-load/comps/918-bottom-inner-surfaces.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4xs2LwI](https://a360.co/4xs2LwI) |
+| [918_top_INNER SURFACES](../designs/d-0058-tpms-load/comps/918-top-inner-surfaces.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4cOtX1i](https://a360.co/4cOtX1i) |
+| [AC Compressor](../designs/d-0058-tpms-load/comps/ac-compressor.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4rdyQqC](https://a360.co/4rdyQqC) |
+| [Mini AC Compressor](../designs/d-0058-tpms-load/mini-ac-compressor.md) | `D-0058 TPMS & Load` | [a360.co/4AwVu1A](https://a360.co/4AwVu1A) |
+| [NANUK_935_Bottom Shell_INNER SURFS_Step (D-0058)](../designs/d-0058-tpms-load/nanuk-935-bottom-shell-inner-surfs-step.md) | `D-0058 TPMS & Load` | [a360.co/4iJD07A](https://a360.co/4iJD07A) |
+| [NANUK_935_Top Shell_INNER SURFS_Step (D-0058)](../designs/d-0058-tpms-load/nanuk-935-top-shell-inner-surfs-step.md) | `D-0058 TPMS & Load` | [a360.co/4xLXeBn](https://a360.co/4xLXeBn) |
+| [Samsung Galaxy Note 20 Ultra 5G](../designs/d-0058-tpms-load/samsung-galaxy-note-20-ultra-5g.md) | `D-0058 TPMS & Load` | [a360.co/4xDkL7q](https://a360.co/4xDkL7q) |
+| [Scoche MagicMount](../designs/d-0058-tpms-load/scoche-magicmount.md) | `D-0058 TPMS & Load` | [a360.co/4haypu0](https://a360.co/4haypu0) |
+| [PT Disp 2 (Apr 2024)](../designs/d-0058-tpms-load/pt-disp-2-4halq1c.md) | `D-0058 TPMS & Load` | [a360.co/4halQ1C](https://a360.co/4halQ1C) |
+| [PT Disp 3 (Sep 2026)](../designs/d-0058-tpms-load/pt-disp-3-4xnlf2v.md) | `D-0058 TPMS & Load` | [a360.co/4xnLF2V](https://a360.co/4xnLF2V) |
+| [KQ2P-01](../designs/d-0058-tpms-load/comps/kq2p-01.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4AgopXx](https://a360.co/4AgopXx) |
+| [KQ2ZT01-34AS](../designs/d-0058-tpms-load/comps/kq2zt01-34as.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4j6uKyq](https://a360.co/4j6uKyq) |
+| [MAN TGX 29-440 2013](../designs/d-0058-tpms-load/man-tgx-29-440-2013.md) | `D-0058 TPMS & Load` | [a360.co/4yBRBX9](https://a360.co/4yBRBX9) |
+| [Nipple Spacer](../designs/d-0058-tpms-load/comps/nipple-spacer.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4iyFRA2](https://a360.co/4iyFRA2) |
+| [PT Disp 3 (Apr 2024)](../designs/d-0058-tpms-load/pt-disp-3-3tnoqz4.md) | `D-0058 TPMS & Load` | [a360.co/3TnoqZ4](https://a360.co/3TnoqZ4) |
+| [Scoche Mount](../designs/d-0058-tpms-load/scoche-mount.md) | `D-0058 TPMS & Load` | [a360.co/46tusuc](https://a360.co/46tusuc) |
+| [Switch (D-0058)](../designs/d-0058-tpms-load/switch.md) | `D-0058 TPMS & Load` | [a360.co/4dAbiGP](https://a360.co/4dAbiGP) |
+| [Tee Leak Fixture](../designs/d-0058-tpms-load/comps/tee-leak-fixture.md) | `D-0058 TPMS & Load / Comps` | [a360.co/4h5iTy8](https://a360.co/4h5iTy8) |
 
 ---
 
-*622 designs indexed.*
+*651 designs indexed.*
