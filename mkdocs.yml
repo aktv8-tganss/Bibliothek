@@ -55,6 +55,127 @@ nav:
     - 00 - Parts:
       - Arduino:
         - Amplifier Board: designs/00-parts/arduino/amplifier-board.md
+        - Arduino Mega 2560: designs/00-parts/arduino/arduino-mega-2560.md
+        - Mega Enclosure: designs/00-parts/arduino/mega-enclosure.md
+      - COM Modules:
+        - Segger Flasher: designs/00-parts/com-modules/segger-flasher.md
+      - DIN:
+        - DIN Clip Printable: designs/00-parts/din/din-clip-printable.md
+        - DIN End Block: designs/00-parts/din/din-end-block.md
+      - Fixtures:
+        - Fixture Top MFT: designs/00-parts/fixtures/fixture-top-mft.md
+      - Gauges:
+        - 1.5 Gauge Ring Clamp: designs/00-parts/gauges/1-5-gauge-ring-clamp.md
+        - 1.5in Gauge: designs/00-parts/gauges/1-5in-gauge.md
+        - "Panel Gauge 1.5\"": designs/00-parts/gauges/panel-gauge-1-5in.md
+      - Lights:
+        - Indicator LED: designs/00-parts/lights/indicator-led.md
+      - Linear Rails:
+        - SFC16 Linear Rail: designs/00-parts/linear-rails/sfc16-linear-rail.md
+      - McMC Bearings:
+        - 1/4 ID x 3/8 OD x 1/2 L Sleeve: designs/00-parts/mcmc-bearings/1-4-id-x-3-8-od-x-1-2-l-sleeve.md
+        - 1/4 ID x 3/8 OD x 3/4 L Sleeve: designs/00-parts/mcmc-bearings/1-4-id-x-3-8-od-x-3-4-l-sleeve.md
+        - 3/8 PTFE Bearing: designs/00-parts/mcmc-bearings/3-8-ptfe-bearing.md
+      - McMC Brass:
+        - 1/8 Branch Tee: designs/00-parts/mcmc-brass/1-8-branch-tee.md
+        - 1/8 Bulkhead Fitting: designs/00-parts/mcmc-brass/1-8-bulkhead-fitting.md
+        - 1/8 Nipple: designs/00-parts/mcmc-brass/1-8-nipple.md
+        - 1/8 Short Nipple: designs/00-parts/mcmc-brass/1-8-short-nipple.md
+        - 1/8 Union Tee: designs/00-parts/mcmc-brass/1-8-union-tee.md
+        - Elbow 1/8 NPT: designs/00-parts/mcmc-brass/elbow-1-8-npt.md
+        - FCV 1/8 to SAC in: designs/00-parts/mcmc-brass/fcv-1-8-to-sac-in.md
+        - Reducer 1/4 to 1/8: designs/00-parts/mcmc-brass/reducer-1-4-to-1-8.md
+      - McMC Cylinders:
+        - "3\" Stroke x 3/4 Bore Cylinder": designs/00-parts/mcmc-cylinders/3in-stroke-x-3-4-bore-cylinder.md
+        - 4in Stroke x 3/4 Bore Cylinder: designs/00-parts/mcmc-cylinders/4in-stroke-x-3-4-bore-cylinder.md
+        - 6498K144_Round Body Air Cylinder: designs/00-parts/mcmc-cylinders/6498k144-round-body-air-cylinder.md
+        - Cylinder 3/4 x 1: designs/00-parts/mcmc-cylinders/cylinder-3-4-x-1.md
+      - McMC Locating:
+        - 5/16 Diamond Pin: designs/00-parts/mcmc-locating/5-16-diamond-pin.md
+        - 5/16 Locating Hole: designs/00-parts/mcmc-locating/5-16-locating-hole.md
+        - 5/16 Round Pin: designs/00-parts/mcmc-locating/5-16-round-pin.md
+      - McMC Screws:
+        - 1/4 OD x 1 3/4 L x 10-24 Shoulder: designs/00-parts/mcmc-screws/1-4-od-x-1-3-4-l-x-10-24-shoulder.md
+        - 10-24 x 1/2 SHCS: designs/00-parts/mcmc-screws/10-24-x-1-2-shcs.md
+      - McMC Springs:
+        - 1/4 ID x 1 1/4 L x 2lb Comp Spring: designs/00-parts/mcmc-springs/1-4-id-x-1-1-4-l-x-2lb-comp-spring.md
+        - 5/8 ID x 2 L x 50lb Comp Spring: designs/00-parts/mcmc-springs/5-8-id-x-2-l-x-50lb-comp-spring.md
+      - Motor Adapters:
+        - Motor Adapter PSI 3: designs/00-parts/motor-adapters/motor-adapter-psi-3.md
+      - Nanuk Cases:
+        - Nanuk 909: designs/00-parts/nanuk-cases/nanuk-909.md
+        - Nanuk 910: designs/00-parts/nanuk-cases/nanuk-910.md
+      - PCBA:
+        - PCBA Flash Embryo: designs/00-parts/pcba/pcba-flash-embryo.md
+      - Pi Components:
+        - "10\" Screen": designs/00-parts/pi-components/10-screen.md
+        - "15\" Screen": designs/00-parts/pi-components/15-screen.md
+        - "7\" Screen": designs/00-parts/pi-components/7-screen.md
+        - Pi Case: designs/00-parts/pi-components/pi-case.md
+      - Pressure Transducers:
+        - 67CP3220: designs/00-parts/pressure-transducers/67cp3220.md
+      - PSUs:
+        - AC Extension: designs/00-parts/psus/ac-extension.md
+        - PSU 12V-5A Alitov: designs/00-parts/psus/psu-12v-5a-alitov.md
+        - USB AC Adapter Double: designs/00-parts/psus/usb-ac-adapter-double.md
+        - Vilros Pi PSU: designs/00-parts/psus/vilros-pi-psu.md
+      - Regulators:
+        - Mini Regulator Nut: designs/00-parts/regulators/mini-regulator-nut.md
+        - Mini Regulator: designs/00-parts/regulators/mini-regulator.md
+        - NR Regulator: designs/00-parts/regulators/nr-regulator.md
+      - SMC KQ2:
+        - KQ2E07-35A: designs/00-parts/smc-kq2/kq2e07-35a.md
+        - KQ2H03-34AS: designs/00-parts/smc-kq2/kq2h03-34as.md
+        - KQ2H03-35AS: designs/00-parts/smc-kq2/kq2h03-35as.md
+        - KQ2H07-34AS: designs/00-parts/smc-kq2/kq2h07-34as.md
+        - KQ2H07-35AS: designs/00-parts/smc-kq2/kq2h07-35as.md
+        - KQ2L03-34AS: designs/00-parts/smc-kq2/kq2l03-34as.md
+        - KQ2L03-35AS: designs/00-parts/smc-kq2/kq2l03-35as.md
+        - KQ2T03-34AS: designs/00-parts/smc-kq2/kq2t03-34as.md
+        - KQ2T03-35AS: designs/00-parts/smc-kq2/kq2t03-35as.md
+        - "07":
+          - KQ2H07-36AS: designs/00-parts/smc-kq2/07/kq2h07-36as.md
+          - KQ2L07-34AS: designs/00-parts/smc-kq2/07/kq2l07-34as.md
+          - KQ2L07-35AS: designs/00-parts/smc-kq2/07/kq2l07-35as.md
+          - KQ2T07-34AS: designs/00-parts/smc-kq2/07/kq2t07-34as.md
+          - KQ2T07-35AS: designs/00-parts/smc-kq2/07/kq2t07-35as.md
+        - "11":
+          - KQ2H11-34AS: designs/00-parts/smc-kq2/11/kq2h11-34as.md
+          - KQ2H11-35AS: designs/00-parts/smc-kq2/11/kq2h11-35as.md
+          - KQ2H11-36AS: designs/00-parts/smc-kq2/11/kq2h11-36as.md
+      - SMC KV2:
+        - KV2F03-34: designs/00-parts/smc-kv2/kv2f03-34.md
+        - KV2H03-34S: designs/00-parts/smc-kv2/kv2h03-34s.md
+        - KV2H03-35S: designs/00-parts/smc-kv2/kv2h03-35s.md
+        - KV2L03-34S: designs/00-parts/smc-kv2/kv2l03-34s.md
+        - KV2L03-35S: designs/00-parts/smc-kv2/kv2l03-35s.md
+        - KV2T03-34S: designs/00-parts/smc-kv2/kv2t03-34s.md
+        - KV2T03-35S: designs/00-parts/smc-kv2/kv2t03-35s.md
+        - "07":
+          - KV2E07-34: designs/00-parts/smc-kv2/07/kv2e07-34.md
+          - KV2E07-35: designs/00-parts/smc-kv2/07/kv2e07-35.md
+          - KV2H07-34S: designs/00-parts/smc-kv2/07/kv2h07-34s.md
+          - KV2H07-35S: designs/00-parts/smc-kv2/07/kv2h07-35s.md
+          - KV2H07-36S: designs/00-parts/smc-kv2/07/kv2h07-36s.md
+          - KV2L07-34S: designs/00-parts/smc-kv2/07/kv2l07-34s.md
+          - KV2L07-35S: designs/00-parts/smc-kv2/07/kv2l07-35s.md
+          - KV2T07-34S: designs/00-parts/smc-kv2/07/kv2t07-34s.md
+          - KV2T07-35S: designs/00-parts/smc-kv2/07/kv2t07-35s.md
+        - "11":
+          - KV2H11-34S: designs/00-parts/smc-kv2/11/kv2h11-34s.md
+          - KV2H11-35S: designs/00-parts/smc-kv2/11/kv2h11-35s.md
+          - KV2H11-36S: designs/00-parts/smc-kv2/11/kv2h11-36s.md
+      - Solenoid Valves:
+        - 3way Solenoid: designs/00-parts/solenoid-valves/3way-solenoid.md
+        - MAC 3way Solenoid: designs/00-parts/solenoid-valves/mac-3way-solenoid.md
+        - New Valve: designs/00-parts/solenoid-valves/new-valve.md
+      - Switches:
+        - Reed Switch: designs/00-parts/switches/reed-switch.md
+      - Switchgear:
+        - GCX3105: designs/00-parts/switchgear/gcx3105.md
+        - Switch: designs/00-parts/switchgear/switch.md
+      - Test Probes:
+        - S-1-J-3.8-G: designs/00-parts/test-probes/s-1-j-3-8-g.md
     - A-0001 WirelessOne:
       - "35063643": designs/a-0001-wirelessone/35063643.md
       - 72719 file for josh: designs/a-0001-wirelessone/72719-file-for-josh.md
