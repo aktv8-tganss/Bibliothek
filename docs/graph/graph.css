@@ -47,7 +47,7 @@
   height: 100%;
 }
 
-/* Home link - upper left - bare floating favicon, no chrome */
+/* Home link - upper left - bare floating SVG icon, no chrome */
 #home-link {
   position: absolute;
   top: 12px;
@@ -61,15 +61,41 @@
   line-height: 0;
 }
 
-#home-link img {
+#home-link svg {
   width: 24px;
   height: 24px;
+  fill: var(--text-primary);
   opacity: 0.7;
   transition: opacity 0.15s;
   display: block;
 }
 
-#home-link:hover img {
+#home-link:hover svg {
+  opacity: 1;
+}
+
+/* Hover name - large centered at viewport top */
+#hover-name {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 90;
+  font-family: 'JetBrains Mono', 'Consolas', monospace;
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.15s;
+  white-space: nowrap;
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#hover-name.visible {
   opacity: 1;
 }
 
