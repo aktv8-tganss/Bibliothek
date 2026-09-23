@@ -41,22 +41,22 @@ notes: ""
 This assembly references the following 17 components:
 
 1. [Plug Pogo Carrier](parts/plug-pogo-carrier.md)
-2. 10-24 x 3/8 PH Screw
+2. [10-24 x 3/8 PH Screw](ots-parts/10-24-x-3-8-ph-screw.md)
 3. [Steel Hose Adapter](parts/steel-hose-adapter.md)
-4. 6-32 x 7/16 CS Screw
+4. [6-32 x 7/16 CS Screw](ots-parts/6-32-x-7-16-cs-screw.md)
 5. [Box Bottom](parts/box-bottom.md)
 6. [GEN2 PROC MODULE 2026](../../a-0054-iair3-gen2/gen2-proc-module-2026.md)
 7. [Fixture Top](parts/fixture-top.md)
-8. VMT Shroud
+8. [VMT Shroud](../parts/vmt-shroud.md)
 9. [Reed Switch](../../00-parts/switches/reed-switch.md)
-10. 4-40 x 5/16 SH Screw
+10. [4-40 x 5/16 SH Screw](ots-parts/4-40-x-5-16-sh-screw.md)
 11. [Spear Clamp](parts/spear-clamp.md)
-12. 1/4-20 Thin Nylock
+12. [1/4-20 Thin Nylock](ots-parts/1-4-20-thin-nylock.md)
 13. Lid Prop Nut *(not indexed — shares shortlink with External1)*
 14. [Box Top](parts/box-top.md)
 15. [003270 FAST26](../../a-0010-iair6/a8-parts/003270-fast26.md)
 16. [Slide Plate](parts/slide-plate.md)
-17. 1/4-20 x 1 1-2 CS Screw
+17. [1/4-20 x 1 1/2 CS Screw](ots-parts/1-4-20-x-1-1-2-cs-screw.md)
 
 ## Used In
 

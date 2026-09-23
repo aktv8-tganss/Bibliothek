@@ -733,6 +733,15 @@ nav:
           - Slide Plate: designs/d-0012-eol/gen2-fixture/parts/slide-plate.md
           - Spear Clamp: designs/d-0012-eol/gen2-fixture/parts/spear-clamp.md
           - Steel Hose Adapter: designs/d-0012-eol/gen2-fixture/parts/steel-hose-adapter.md
+        - OTS Parts:
+          - 1/4-20 Thin Nylock: designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-thin-nylock.md
+          - 1/4-20 x 1 1/2 CS Screw: designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-x-1-1-2-cs-screw.md
+          - 1/4-20 x 3 3/4 SH Screw: designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-x-3-3-4-sh-screw.md
+          - 10-24 x 3/8 PH Screw: designs/d-0012-eol/gen2-fixture/ots-parts/10-24-x-3-8-ph-screw.md
+          - 4-40 x 5/16 SH Screw: designs/d-0012-eol/gen2-fixture/ots-parts/4-40-x-5-16-sh-screw.md
+          - 6-32 x 7/16 CS Screw: designs/d-0012-eol/gen2-fixture/ots-parts/6-32-x-7-16-cs-screw.md
+      - Parts:
+        - VMT Shroud: designs/d-0012-eol/parts/vmt-shroud.md
       - 891201 FFT:
         - 891201 FFT: designs/d-0012-eol/891201-fft/891201-fft.md
     - A-9999 Lab:

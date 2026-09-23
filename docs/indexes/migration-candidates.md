@@ -1291,4 +1291,29 @@ All 14 A8 Parts designs under D-0012 EOL are flagged for consolidation review.
 
 ---
 
-*306 migration candidates identified (+14 in batch 047).*
+## D-0012 EOL — Batch 049 (Gen2 Fixture OTS Parts + Parts)
+
+### Gen2 Fixture OTS Parts (6 designs)
+
+**Migration Candidates (6 of 6):**
+
+All 6 Gen2 Fixture OTS fastener designs are flagged for migration into `00 - Parts`.
+
+| Design | Current Path | Reason |
+|--------|--------------|--------|
+| [1/4-20 Thin Nylock](../designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-thin-nylock.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | OTS fastener outside `00 - Parts` |
+| [1/4-20 x 1 1/2 CS Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-x-1-1-2-cs-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | OTS fastener outside `00 - Parts` |
+| [1/4-20 x 3 3/4 SH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-x-3-3-4-sh-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | OTS fastener outside `00 - Parts` |
+| [10-24 x 3/8 PH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/10-24-x-3-8-ph-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | OTS fastener outside `00 - Parts` |
+| [4-40 x 5/16 SH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/4-40-x-5-16-sh-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | OTS fastener outside `00 - Parts` |
+| [6-32 x 7/16 CS Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/6-32-x-7-16-cs-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | OTS fastener outside `00 - Parts` |
+
+### Parts (1 design)
+
+**Not Migration Candidates (1 of 1):**
+
+- **VMT Shroud** — Custom shroud component. Not an OTS part.
+
+---
+
+*312 migration candidates identified (+6 in batch 049).*
