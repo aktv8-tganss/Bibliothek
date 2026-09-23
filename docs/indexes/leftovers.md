@@ -1820,3 +1820,56 @@ All 18 designs from batch 044 were successfully indexed:
     - **Switch** — 00 - Parts (`a360.co/4cAp4c7`) distinct from A-9999 Lab (`a360.co/4hc4gcc`) and D-0058 (`a360.co/4dAbiGP`)
 
     All batch 044 designs are canonical 00 - Parts versions.
+
+---
+
+## D-0012 EOL — Batch 048
+
+### Batch 048
+
+All 19 designs from batch 048 were successfully indexed:
+
+**Gen2 Fixture root (3):**
+
+1. ✓ External1
+2. ✓ Gen2 Fixture Asm
+3. ✓ Hose Steel Adapter
+
+**Gen2 Fixture / New JDC (1):**
+
+4. ✓ EOL fixture iAir3 G2
+
+**Gen2 Fixture / Old JDC (5):**
+
+5. ✓ box lock subassy
+6. ✓ iAir3G2 16 pin top
+7. ✓ iAir3G2 16 pin top v2
+8. ✓ iAir3G2 fixture plate
+9. ✓ spear clamp
+
+**Gen2 Fixture / Parts (9):**
+
+10. ✓ Air fitting adapter
+11. ✓ Box Bottom
+12. ✓ Box Top
+13. ✓ Fixture Top
+14. ✓ Handle
+15. ✓ Plug Pogo Carrier
+16. ✓ Slide Plate
+17. ✓ Spear Clamp
+18. ✓ Steel Hose Adapter
+
+**891201 FFT (1):**
+
+19. ✓ 891201 FFT
+
+### Known debt (batch 048)
+
+!!! warning "External1 ↔ Lid Prop Nut shortlink collision"
+    **External1** and **Lid Prop Nut** share the same Autodesk Share shortlink `https://a360.co/4j2Rdwf` in the Fusion UI. Only **External1** appears in the batch 048 JSONL harvest. **Lid Prop Nut** is confirmed as a Used-In reference from Gen2 Fixture Asm but has no separate shortlink. Do not invent a second page/link for Lid Prop Nut.
+
+!!! info "Nested Gen2 OTS deferred"
+    Any OTS parts nested under Gen2 Fixture are deferred to Charlotte ticket 049.
+
+!!! info "D-0012 EOL NOT COMPLETE"
+    D-0012 EOL remains NOT COMPLETE. Nested Gen2 OTS parts and FFT USB are tracked on Charlotte ticket 049.
