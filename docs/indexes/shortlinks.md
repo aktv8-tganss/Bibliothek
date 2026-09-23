@@ -666,7 +666,21 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [Compressor Motor (D-0072)](../designs/d-0072-a8-wheel-end/compressor-motor.md) | `D-0072 A8 Wheel End` | [a360.co/4A3PvRu](https://a360.co/4A3PvRu) |
 | [Hose Holder NPT](../designs/d-0072-a8-wheel-end/hose-holder-npt.md) | `D-0072 A8 Wheel End` | [a360.co/46CfiD3](https://a360.co/46CfiD3) |
 | [TAZ Dyno Cabinet (D-0072)](../designs/d-0072-a8-wheel-end/taz-dyno-cabinet.md) | `D-0072 A8 Wheel End` | [a360.co/4A8KQ0H](https://a360.co/4A8KQ0H) |
+| [35063643](../designs/a-0001-wirelessone/35063643.md) | `A-0001 WirelessOne` | [a360.co/4xNZFE9](https://a360.co/4xNZFE9) |
+| [Arduino Mega 2560](../designs/00-parts/arduino/arduino-mega-2560.md) | `00 - Parts / Arduino` | [a360.co/4r88g2a](https://a360.co/4r88g2a) |
+| [Mega Enclosure](../designs/00-parts/arduino/mega-enclosure.md) | `00 - Parts / Arduino` | [a360.co/4dychHt](https://a360.co/4dychHt) |
+| [Segger Flasher](../designs/00-parts/com-modules/segger-flasher.md) | `00 - Parts / Com Modules` | [a360.co/3SXw2RS](https://a360.co/3SXw2RS) |
+| [1.5 Gauge Ring Clamp](../designs/00-parts/gauges/1-5-gauge-ring-clamp.md) | `00 - Parts / Gauges` | [a360.co/4yRnPxN](https://a360.co/4yRnPxN) |
+| [1.5in Gauge](../designs/00-parts/gauges/1-5in-gauge.md) | `00 - Parts / Gauges` | [a360.co/4ywoVim](https://a360.co/4ywoVim) |
+| [Indicator LED](../designs/00-parts/lights/indicator-led.md) | `00 - Parts / Lights` | [a360.co/3UHyaxG](https://a360.co/3UHyaxG) |
+| [1/4 ID x 3/8 OD x 1/2 L Sleeve](../designs/00-parts/mcmc-bearings/1-4-id-x-3-8-od-x-1-2-l-sleeve.md) | `00 - Parts / McMC Bearings` | [a360.co/46Xo3HD](https://a360.co/46Xo3HD) |
+| [1/4 ID x 3/8 OD x 3/4 L Sleeve](../designs/00-parts/mcmc-bearings/1-4-id-x-3-8-od-x-3-4-l-sleeve.md) | `00 - Parts / McMC Bearings` | [a360.co/4cGAbjP](https://a360.co/4cGAbjP) |
+| [3/8 PTFE Bearing](../designs/00-parts/mcmc-bearings/3-8-ptfe-bearing.md) | `00 - Parts / McMC Bearings` | [a360.co/4r51udr](https://a360.co/4r51udr) |
+| [1/8 Branch Tee](../designs/00-parts/mcmc-brass/1-8-branch-tee.md) | `00 - Parts / McMC Brass` | [a360.co/4hlRzNj](https://a360.co/4hlRzNj) |
+| [1/8 Bulkhead Fitting](../designs/00-parts/mcmc-brass/1-8-bulkhead-fitting.md) | `00 - Parts / McMC Brass` | [a360.co/4xQ1f8A](https://a360.co/4xQ1f8A) |
+| [1/8 Nipple](../designs/00-parts/mcmc-brass/1-8-nipple.md) | `00 - Parts / McMC Brass` | [a360.co/4A4EwqS](https://a360.co/4A4EwqS) |
+| [1/8 Short Nipple](../designs/00-parts/mcmc-brass/1-8-short-nipple.md) | `00 - Parts / McMC Brass` | [a360.co/4xNQcwB](https://a360.co/4xNQcwB) |
 
 ---
 
-*662 designs indexed.*
+*676 designs indexed.*
