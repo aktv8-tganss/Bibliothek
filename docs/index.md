@@ -12,9 +12,9 @@ This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (768 total)
+- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (779 total)
 - [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (120 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (281 total)
+- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (292 total)
 
 ## Design Tree
 
@@ -76,8 +76,8 @@ Browse designs by project folder:
     - [Root Designs](designs/d-0058-tpms-load/pt-disp.md) — D-0058 root designs (29 designs, 10 migration candidates incl. 7 OTS + 3 project-copies)
     - [Comps](designs/d-0058-tpms-load/comps/ar2000-reg.md) — D-0058 Comps subfolder (15 designs, 13 migration candidates)
 - **[D-0072 A8 Wheel End](designs/d-0072-a8-wheel-end/taz-b-dyno.md)** — A8 Wheel End project designs (11 designs, 1 OTS migration candidate)
-- **[D-0012 EOL](designs/d-0012-eol/ots-parts/12v.md)** — EOL project designs (13 designs, all OTS migration candidates)
-    - [OTS Parts](designs/d-0012-eol/ots-parts/12v.md) — OTS Parts subfolder (13 designs, all migration candidates)
+- **[D-0012 EOL](designs/d-0012-eol/ots-parts/12v.md)** — EOL project designs (24 designs, all OTS migration candidates)
+    - [OTS Parts](designs/d-0012-eol/ots-parts/12v.md) — OTS Parts subfolder (24 designs, all migration candidates; **OTS Parts COMPLETE**)
 - **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
     - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
     - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
@@ -135,8 +135,9 @@ Browse designs by project folder:
 | 043 | 15 | 00 - Parts (15) — SMC KQ2/07 leftovers (5) + SMC KQ2/11 (3) + SMC KV2/03 (7); no migration candidates |
 | 044 | 18 | 00 - Parts (18) — SMC KV2/07 (9) + SMC KV2/11 (3) + Solenoid Valves (3) + Switchgear (2) + Test Probes (1); no migration candidates; **00 - Parts COMPLETE** |
 | 045 | 13 | D-0012 EOL / OTS Parts (13) — all 13 are OTS migration candidates; reconcile/migrate into 00 - Parts later |
+| 046 | 11 | D-0012 EOL / OTS Parts (11) — all 11 are OTS migration candidates; **D-0012 OTS Parts COMPLETE** |
 
-**Total designs indexed: 768**
+**Total designs indexed: 779**
 
 !!! success "A-0026 iTM COMPLETE for Bibliothek"
     A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
@@ -158,6 +159,9 @@ Browse designs by project folder:
 
 !!! success "00 - Parts COMPLETE for Bibliothek"
     00 - Parts harvest declared COMPLETE by Otto on 2026-09-22 after ticket 045 leftover survey. Batches 039–044 harvested canonical 00 - Parts folders through KV2, solenoids, switchgear, test probes, and earlier folder mop. Only exact shortlink duplicates of previous batches remain. Known debt: batch 045 designs live under D-0012 EOL / OTS Parts as migration candidates (outside 00 - Parts proper); reconcile/migrate vs library later. See [leftovers index](indexes/leftovers.md) for details.
+
+!!! success "D-0012 EOL / OTS Parts COMPLETE for Bibliothek"
+    D-0012 EOL / OTS Parts harvest declared COMPLETE by Otto on 2026-09-22 after batches 045–046, on Charlotte's recommendation. All 24 locatable OTS designs with unique Share shortlinks have been indexed; only Trash remains in the folder. Known debt: all 24 designs remain migration candidates vs `00 - Parts` until reconciled; other D-0012 folders (A8 Parts, Gen2 Fixture, Oyster, 891201 FFT) not surveyed this pass.
 
 ---
 

@@ -682,6 +682,17 @@ nav:
         - USB-2408-2AO (D-0012): designs/d-0012-eol/ots-parts/usb-2408-2ao.md
         - Valve Assy (D-0012): designs/d-0012-eol/ots-parts/valve-assy.md
         - Y201132R203NQ (D-0012): designs/d-0012-eol/ots-parts/y201132r203nq.md
+        - Screen (D-0012): designs/d-0012-eol/ots-parts/screen.md
+        - Screen 2 (D-0012): designs/d-0012-eol/ots-parts/screen-2.md
+        - ZD411: designs/d-0012-eol/ots-parts/zd411.md
+        - c-206061-1-ad-3d (D-0012): designs/d-0012-eol/ots-parts/c-206061-1-ad-3d.md
+        - c-206151-1-ag-3d (D-0012): designs/d-0012-eol/ots-parts/c-206151-1-ag-3d.md
+        - HDMI Passthru (D-0012): designs/d-0012-eol/ots-parts/hdmi-passthru.md
+        - IO Box_Fixture B: designs/d-0012-eol/ots-parts/io-box-fixture-b.md
+        - Keypad (D-0012): designs/d-0012-eol/ots-parts/keypad.md
+        - Mounting rail 2 (D-0012): designs/d-0012-eol/ots-parts/mounting-rail-2.md
+        - NUC8ixBEH-Chassis (D-0012): designs/d-0012-eol/ots-parts/nuc8ixbeh-chassis.md
+        - PCAN (D-0012): designs/d-0012-eol/ots-parts/pcan.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md
