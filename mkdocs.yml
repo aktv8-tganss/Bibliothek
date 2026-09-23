@@ -55,6 +55,12 @@ nav:
     - 00 - Parts:
       - Arduino:
         - Amplifier Board: designs/00-parts/arduino/amplifier-board.md
+    - A-0001 WirelessOne:
+      - "35063643": designs/a-0001-wirelessone/35063643.md
+      - 72719 file for josh: designs/a-0001-wirelessone/72719-file-for-josh.md
+      - Housing Bracket - Alford: designs/a-0001-wirelessone/housing-bracket-alford.md
+      - Marvin 4 exploded view: designs/a-0001-wirelessone/marvin-4-exploded-view.md
+      - Remote BedONails: designs/a-0001-wirelessone/remote-bedonails.md
     - A-003 iLACM:
       - 0 Pin: designs/a-003-ilacm/0-pin.md
       - 2 Pin: designs/a-003-ilacm/2-pin.md
@@ -443,6 +449,8 @@ nav:
         - Thru Screw Terminal: designs/a-0026-itm/taz-4/thru-screw-terminal.md
         - USB Adapter: designs/a-0026-itm/taz-4/usb-adapter.md
         - Whirlpool Motor: designs/a-0026-itm/taz-4/whirlpool-motor.md
+    - A-0044 TPP:
+      - 002361 AA (1): designs/a-0044-tpp/002361-aa-1.md
     - A-0047 TPMS:
       - 002390 (1): designs/a-0047-tpms/002390-1.md
       - 002582 AA TPMS Thru Conmet (2): designs/a-0047-tpms/002582-aa-tpms-thru-conmet-2.md
@@ -744,6 +752,8 @@ nav:
         - VMT Shroud: designs/d-0012-eol/parts/vmt-shroud.md
       - 891201 FFT:
         - 891201 FFT: designs/d-0012-eol/891201-fft/891201-fft.md
+    - A-8888 Release Prints:
+      - LSR Layout: designs/a-8888-release-prints/lsr-layout.md
     - A-9999 Lab:
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md

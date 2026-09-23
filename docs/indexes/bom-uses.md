@@ -130,6 +130,8 @@ Assemblies with non-empty component references (Uses).
 | [Hose Steel Adapter](../designs/d-0012-eol/gen2-fixture/hose-steel-adapter.md) | 1 | [a360.co/4j3HsOo](https://a360.co/4j3HsOo) |
 | [Slide Plate](../designs/d-0012-eol/gen2-fixture/parts/slide-plate.md) | 1 | [a360.co/4xTU7YO](https://a360.co/4xTU7YO) |
 | [891201 FFT](../designs/d-0012-eol/891201-fft/891201-fft.md) | 31 | [a360.co/4h4s5CY](https://a360.co/4h4s5CY) |
+| [Marvin 4 exploded view](../designs/a-0001-wirelessone/marvin-4-exploded-view.md) | 2 | [a360.co/3V8X5dz](https://a360.co/3V8X5dz) |
+| [002361 AA (1)](../designs/a-0044-tpp/002361-aa-1.md) | 1 | [a360.co/4xjXc3k](https://a360.co/4xjXc3k) |
 
 ---
 
@@ -1639,4 +1641,21 @@ The 891201 FFT assembly references the following 31 components:
 
 ---
 
-*130 assemblies with BOM data indexed.*
+## Marvin 4 exploded view — Bill of Materials
+
+The Marvin 4 exploded view assembly references the following 2 components:
+
+1. standard Nylon Insert Locknut *(external fastener)*
+2. Hexagon Socket Head Cap Screw *(external fastener)*
+
+---
+
+## 002361 AA (1) — Bill of Materials
+
+The 002361 AA (1) design references the following 1 component:
+
+1. autodesk generic router xyz *(external generic component)*
+
+---
+
+*132 assemblies with BOM data indexed.*
