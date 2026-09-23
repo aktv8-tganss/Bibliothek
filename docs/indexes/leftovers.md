@@ -1764,3 +1764,59 @@ All 15 designs from batch 043 were successfully indexed:
 
 !!! info "No disambiguation required"
     All batch 043 designs are canonical 00 - Parts fittings with no name collisions.
+
+---
+
+## 00 - Parts — Batch 044
+
+!!! warning "00 - Parts NOT COMPLETE"
+    Additional 00 - Parts designs remain to be harvested. Charlotte ticket 045 surveys earlier folders for leftovers. Do not declare 00 - Parts COMPLETE.
+
+### Batch 044
+
+All 18 designs from batch 044 were successfully indexed:
+
+**00 - Parts / SMC KV2 / 07** (9 designs):
+
+1. ✓ KV2E07-34 — no Design References shown
+2. ✓ KV2E07-35 — used in Hose Holder PSI
+3. ✓ KV2H07-34S — no Design References shown
+4. ✓ KV2H07-35S — used in Hose Holder PSI
+5. ✓ KV2H07-36S — no Design References shown
+6. ✓ KV2L07-34S — no Design References shown
+7. ✓ KV2L07-35S — no Design References shown
+8. ✓ KV2T07-34S — used in Valve Bank
+9. ✓ KV2T07-35S — no Design References shown
+
+**00 - Parts / SMC KV2 / 11** (3 designs):
+
+10. ✓ KV2H11-34S — no Design References shown
+11. ✓ KV2H11-35S — no Design References shown
+12. ✓ KV2H11-36S — no Design References shown
+
+**00 - Parts / Solenoid Valves** (3 designs):
+
+13. ✓ 3way Solenoid — uses 3 external fasteners; used in PCBA Flash Expanded, Oyster Asm; canonical 00 - Parts (distinct from A-0047 OTS shortlink)
+14. ✓ MAC 3way Solenoid — used in PCBA Flash Expanded, Oyster Asm
+15. ✓ New Valve — used in 891201 FFT, Valve Bank; canonical 00 - Parts (distinct from A-0047/D-0058 shortlinks)
+
+**00 - Parts / Switchgear** (2 designs):
+
+16. ✓ GCX3105 — used in Oyster Asm; canonical 00 - Parts (distinct from A-0047 OTS shortlink)
+17. ✓ Switch — used in PT Disp 2, PT Disp 4; canonical 00 - Parts (distinct from A-0047/D-0058 shortlinks)
+
+**00 - Parts / Test Probes** (1 design):
+
+18. ✓ S-1-J-3.8-G — used in Mantis Bed Plates
+
+### Disambiguation Notes (Batch 044)
+
+!!! tip "Canonical 00 - Parts Designs"
+    The following batch 044 designs share names with existing project-copy designs but have distinct shortlinks:
+
+    - **3way Solenoid** — 00 - Parts (`a360.co/4yBEAgx`) distinct from A-0010 DUT Box Parts (`a360.co/4yHCrzC`) and A-0047 OTS Parts
+    - **New Valve** — 00 - Parts (`a360.co/46VVBG4`) distinct from A-0047 OTS Parts and D-0058 instances
+    - **GCX3105** — 00 - Parts (`a360.co/4ij9DZx`) distinct from any A-0047 OTS shortlink
+    - **Switch** — 00 - Parts (`a360.co/4cAp4c7`) distinct from A-9999 Lab (`a360.co/4hc4gcc`) and D-0058 (`a360.co/4dAbiGP`)
+
+    All batch 044 designs are canonical 00 - Parts versions.

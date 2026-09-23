@@ -119,6 +119,7 @@ Assemblies with non-empty component references (Uses).
 | [Motor Adapter PSI 3](../designs/00-parts/motor-adapters/motor-adapter-psi-3.md) | 2 | [a360.co/3TjXIAu](https://a360.co/3TjXIAu) |
 | [Nanuk 909](../designs/00-parts/nanuk-cases/nanuk-909.md) | 2 | [a360.co/4xiMD0y](https://a360.co/4xiMD0y) |
 | [Nanuk 910](../designs/00-parts/nanuk-cases/nanuk-910.md) | 2 | [a360.co/4xem9x7](https://a360.co/4xem9x7) |
+| [3way Solenoid](../designs/00-parts/solenoid-valves/3way-solenoid.md) | 3 | [a360.co/4yBEAgx](https://a360.co/4yBEAgx) |
 
 ---
 
@@ -1470,4 +1471,14 @@ The Nanuk 910 design references the following 2 components:
 
 ---
 
-*119 assemblies with BOM data indexed.*
+## 3way Solenoid — Bill of Materials
+
+The 3way Solenoid design (00 - Parts / Solenoid Valves) references the following 3 components:
+
+1. Type I Cross Recessed 100° Flat Countersunk Head Machine Screw ANSI B18.6.3 4-48 UNF x 1.125 Steel Grade 2 Plain
+2. Type I Cross Recessed Binding Head Machine Screw ANSI B18.6.3 4-48 UNF x 0.3125 Steel Grade 2 Plain
+3. Knurled Nut DIN 467 - M5 Steel 6 Plain
+
+---
+
+*120 assemblies with BOM data indexed.*
