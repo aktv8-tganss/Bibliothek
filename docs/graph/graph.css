@@ -1,4 +1,4 @@
-/* Bibliothek Graph Canvas - Stark Engineering UI (Obsidian-style) */
+/* Bibliothek Graph Canvas - Stark Engineering UI (Directory + Assembly modes) */
 
 :root {
   --graph-bg: #0a0a0a;
@@ -6,6 +6,14 @@
   --graph-node-folder-border: #a67c00;
   --graph-node-file: #e07020;
   --graph-node-file-border: #b05010;
+  --graph-node-assembly: #3a7bd5;
+  --graph-node-assembly-border: #2a5aa0;
+  --graph-node-part: #27ae60;
+  --graph-node-part-border: #1e8449;
+  --graph-node-hybrid: #17a2b8;
+  --graph-node-hybrid-border: #117a8b;
+  --graph-node-orphan: #555555;
+  --graph-node-orphan-border: #444444;
   --graph-edge: #2a4a6a;
   --panel-bg: rgba(20, 20, 20, 0.92);
   --panel-border: #333333;
@@ -72,7 +80,7 @@
   letter-spacing: 0.5px;
 }
 
-/* Controls Panel - Collapsible - NOW UPPER RIGHT */
+/* Controls Panel - Collapsible - Upper Right */
 #graph-controls {
   position: absolute;
   top: 12px;
@@ -128,7 +136,7 @@
   gap: 8px;
 }
 
-/* Collapsed chip - NOW UPPER RIGHT */
+/* Collapsed chip - Upper Right */
 #controls-chip {
   position: absolute;
   top: 12px;
@@ -154,6 +162,28 @@
 #controls-expand:hover {
   color: var(--text-primary);
   border-color: var(--ui-accent);
+}
+
+/* Mode Dropdown */
+#mode-select {
+  width: 100%;
+  background: var(--graph-bg);
+  border: 1px solid var(--panel-border);
+  color: var(--text-primary);
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+#mode-select:focus {
+  outline: none;
+  border-color: var(--ui-accent);
+}
+
+/* Orphan toggle row - hidden by default, shown in assembly mode */
+#orphan-toggle-row {
+  display: none;
 }
 
 /* Controls inner elements */
@@ -230,22 +260,6 @@
 }
 
 #hop-count:focus {
-  outline: none;
-  border-color: var(--ui-accent);
-}
-
-#project-filter {
-  width: 100%;
-  background: var(--graph-bg);
-  border: 1px solid var(--panel-border);
-  color: var(--text-primary);
-  padding: 6px 8px;
-  font-family: inherit;
-  font-size: 12px;
-  cursor: pointer;
-}
-
-#project-filter:focus {
   outline: none;
   border-color: var(--ui-accent);
 }
@@ -361,7 +375,7 @@
   margin-top: 8px;
 }
 
-/* Node Detail Panel - Left side (moved from right to avoid controls) */
+/* Node Detail Panel - Left side */
 #node-panel {
   position: absolute;
   top: 50px;
@@ -448,8 +462,15 @@
   font-family: 'JetBrains Mono', 'Consolas', monospace;
   font-size: 10px;
   color: var(--text-secondary);
+}
+
+.legend-group {
   display: flex;
   gap: 12px;
+}
+
+#legend-assembly {
+  display: none;
 }
 
 .legend-item {
@@ -474,6 +495,23 @@
 .legend-dot.file {
   background: var(--graph-node-file);
   border: 1px solid var(--graph-node-file-border);
+}
+
+.legend-dot.assembly {
+  background: var(--graph-node-assembly);
+  border: 1px solid var(--graph-node-assembly-border);
+  width: 10px;
+  height: 10px;
+}
+
+.legend-dot.part {
+  background: var(--graph-node-part);
+  border: 1px solid var(--graph-node-part-border);
+}
+
+.legend-dot.hybrid {
+  background: var(--graph-node-hybrid);
+  border: 1px solid var(--graph-node-hybrid-border);
 }
 
 /* Stats footer */

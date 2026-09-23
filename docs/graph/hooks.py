@@ -1,10 +1,11 @@
 """
-MkDocs hook: Auto-generate graph.json from design library folder tree.
+MkDocs hook: Auto-generate graph.json with both Directory and Assembly views.
 
-Regenerates docs/graph/graph.json on every build by walking the docs/designs/**
-directory tree. Creates folder and file nodes with parent→child containment edges.
+Regenerates docs/graph/graph.json on every build with two datasets:
+- directory: Folder tree containment (folders + files, parent→child edges)
+- assembly: BOM relationships (design nodes only, uses/used_in edges)
 
-This is a FOLDER TREE view (containment only), NOT a BOM Uses/Used In view.
+The client switches between modes via a dropdown.
 """
 
 import json
@@ -14,6 +15,20 @@ import re
 from pathlib import Path
 
 log = logging.getLogger('mkdocs.plugins.graph_hooks')
+
+HUB_PAGES_TO_EXCLUDE = {
+    'shortlink index',
+    'shortlinks',
+    'bom assemblies index',
+    'bom / uses index',
+    'bom-uses',
+    'graph-edges index',
+    'migration-candidates',
+    'migration candidates',
+    'harvest-leftovers',
+    'leftovers',
+    'hub-projects',
+}
 
 
 def extract_frontmatter(content: str) -> dict | None:
@@ -35,14 +50,22 @@ def extract_frontmatter(content: str) -> dict | None:
         return None
 
 
-def generate_folder_tree_graph(docs_dir: Path) -> dict:
+def is_hub_page(name: str) -> bool:
+    """Check if a name corresponds to a hub/index page that should be excluded."""
+    if not name:
+        return False
+    normalized = name.lower().strip()
+    return normalized in HUB_PAGES_TO_EXCLUDE
+
+
+def generate_directory_graph(docs_dir: Path) -> dict:
     """
     Walk the designs directory tree and build a folder-tree graph.
     
     Returns:
         dict with 'nodes' and 'edges' arrays:
         - Nodes: folders and files with type='folder' or type='file'
-        - Edges: parent-folder → child (containment only, no BOM edges)
+        - Edges: parent-folder → child (containment only)
     """
     designs_dir = docs_dir / 'designs'
     if not designs_dir.exists():
@@ -51,10 +74,6 @@ def generate_folder_tree_graph(docs_dir: Path) -> dict:
     
     nodes = {}
     edges = []
-    
-    def get_node_id(rel_path: str) -> str:
-        """Generate a stable node ID from relative path."""
-        return rel_path
     
     def ensure_folder_chain(rel_path: str):
         """Ensure all parent folders exist as nodes with edges."""
@@ -187,11 +206,123 @@ def generate_folder_tree_graph(docs_dir: Path) -> dict:
     return {'nodes': node_list, 'edges': unique_edges}
 
 
+def generate_assembly_graph(docs_dir: Path) -> dict:
+    """
+    Scan design pages and build BOM relationship graph (assembly→part edges).
+    
+    Returns:
+        dict with 'nodes' and 'edges' arrays:
+        - Nodes: design files only (no folders), with uses_count and used_in_count
+        - Edges: assembly→part uses relationships
+    """
+    designs_dir = docs_dir / 'designs'
+    if not designs_dir.exists():
+        log.warning(f"Designs directory not found: {designs_dir}")
+        return {'nodes': [], 'edges': []}
+    
+    nodes_map = {}
+    edges = []
+    
+    for md_file in designs_dir.rglob('*.md'):
+        try:
+            content = md_file.read_text(encoding='utf-8')
+        except Exception as e:
+            log.warning(f"Failed to read {md_file}: {e}")
+            continue
+        
+        fm = extract_frontmatter(content)
+        if not fm:
+            continue
+        
+        name = fm.get('name', '')
+        if not name or is_hub_page(name):
+            continue
+        
+        shortlink = fm.get('shortlink', '')
+        uses = fm.get('uses', []) or []
+        used_in = fm.get('used_in', []) or []
+        
+        relative_path = md_file.relative_to(designs_dir)
+        path_str = str(relative_path.with_suffix('')).replace(os.sep, '/')
+        
+        if name not in nodes_map:
+            nodes_map[name] = {
+                'id': name,
+                'shortlink': shortlink,
+                'path': path_str,
+                'uses_count': 0,
+                'used_in_count': 0,
+                '_uses': set(),
+                '_used_in': set(),
+            }
+        else:
+            if shortlink and not nodes_map[name]['shortlink']:
+                nodes_map[name]['shortlink'] = shortlink
+            if path_str and not nodes_map[name]['path']:
+                nodes_map[name]['path'] = path_str
+        
+        for ref in uses:
+            if ref and not is_hub_page(ref):
+                nodes_map[name]['_uses'].add(ref)
+                if ref not in nodes_map:
+                    nodes_map[ref] = {
+                        'id': ref,
+                        'shortlink': '',
+                        'path': '',
+                        'uses_count': 0,
+                        'used_in_count': 0,
+                        '_uses': set(),
+                        '_used_in': set(),
+                    }
+                nodes_map[ref]['_used_in'].add(name)
+        
+        for ref in used_in:
+            if ref and not is_hub_page(ref):
+                nodes_map[name]['_used_in'].add(ref)
+                if ref not in nodes_map:
+                    nodes_map[ref] = {
+                        'id': ref,
+                        'shortlink': '',
+                        'path': '',
+                        'uses_count': 0,
+                        'used_in_count': 0,
+                        '_uses': set(),
+                        '_used_in': set(),
+                    }
+                nodes_map[ref]['_uses'].add(name)
+    
+    for node_id, node in nodes_map.items():
+        node['uses_count'] = len(node['_uses'])
+        node['used_in_count'] = len(node['_used_in'])
+        
+        for target in node['_uses']:
+            edges.append({
+                'source': node_id,
+                'target': target,
+                'type': 'uses'
+            })
+    
+    nodes = []
+    for node in nodes_map.values():
+        nodes.append({
+            'id': node['id'],
+            'shortlink': node['shortlink'],
+            'path': node['path'],
+            'uses_count': node['uses_count'],
+            'used_in_count': node['used_in_count'],
+        })
+    
+    nodes.sort(key=lambda n: n['id'])
+    edges.sort(key=lambda e: (e['source'], e['target']))
+    
+    return {'nodes': nodes, 'edges': edges}
+
+
 def on_pre_build(config, **kwargs):
     """
     MkDocs hook: regenerate graph.json before each build.
     
-    This ensures the graph always reflects the current design library folder tree.
+    Emits both directory and assembly datasets for client-side mode switching.
     """
     docs_dir = Path(config['docs_dir'])
     graph_dir = docs_dir / 'graph'
@@ -199,16 +330,26 @@ def on_pre_build(config, **kwargs):
     
     graph_dir.mkdir(parents=True, exist_ok=True)
     
-    log.info("Generating graph.json from folder tree...")
+    log.info("Generating graph.json (directory + assembly modes)...")
     
-    graph_data = generate_folder_tree_graph(docs_dir)
+    directory_data = generate_directory_graph(docs_dir)
+    assembly_data = generate_assembly_graph(docs_dir)
+    
+    combined = {
+        'directory': directory_data,
+        'assembly': assembly_data,
+    }
     
     with open(graph_json_path, 'w', encoding='utf-8') as f:
-        json.dump(graph_data, f, indent=2, ensure_ascii=False)
+        json.dump(combined, f, indent=2, ensure_ascii=False)
     
-    folder_count = sum(1 for n in graph_data['nodes'] if n['type'] == 'folder')
-    file_count = sum(1 for n in graph_data['nodes'] if n['type'] == 'file')
-    edge_count = len(graph_data['edges'])
-    log.info(f"Generated graph.json: {folder_count} folders, {file_count} files, {edge_count} edges")
+    dir_folders = sum(1 for n in directory_data['nodes'] if n['type'] == 'folder')
+    dir_files = sum(1 for n in directory_data['nodes'] if n['type'] == 'file')
+    dir_edges = len(directory_data['edges'])
+    asm_nodes = len(assembly_data['nodes'])
+    asm_edges = len(assembly_data['edges'])
+    
+    log.info(f"Directory mode: {dir_folders} folders, {dir_files} files, {dir_edges} edges")
+    log.info(f"Assembly mode: {asm_nodes} designs, {asm_edges} uses edges")
     
     return config
