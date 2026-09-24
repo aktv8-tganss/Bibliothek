@@ -132,6 +132,7 @@ Assemblies with non-empty component references (Uses).
 | [Slide Plate](../designs/d-0012-eol/gen2-fixture/parts/slide-plate.md) | 1 | [a360.co/4xTU7YO](https://a360.co/4xTU7YO) |
 | [891201 FFT](../designs/d-0012-eol/891201-fft/891201-fft.md) | 31 | [a360.co/4h4s5CY](https://a360.co/4h4s5CY) |
 | [Marvin 4 exploded view](../designs/a-0001-wirelessone/marvin-4-exploded-view.md) | 2 | [a360.co/3V8X5dz](https://a360.co/3V8X5dz) |
+| [Marvin 4 Print](../designs/a-0001-wirelessone/marvin-4-print.md) | 1 | [a360.co/46QUVlr](https://a360.co/46QUVlr) |
 | [002361 AA (1)](../designs/a-0044-tpp/002361-aa-1.md) | 1 | [a360.co/4xjXc3k](https://a360.co/4xjXc3k) |
 
 ---
@@ -1659,6 +1660,14 @@ The Marvin 4 exploded view assembly references the following 2 components:
 
 ---
 
+## Marvin 4 Print — Bill of Materials
+
+The Marvin 4 Print drawing references the following 1 component:
+
+1. Marvin 4 *(not yet indexed)*
+
+---
+
 ## 002361 AA (1) — Bill of Materials
 
 The 002361 AA (1) design references the following 1 component:
@@ -1667,4 +1676,4 @@ The 002361 AA (1) design references the following 1 component:
 
 ---
 
-*132 assemblies with BOM data indexed.*
+*133 assemblies with BOM data indexed.*

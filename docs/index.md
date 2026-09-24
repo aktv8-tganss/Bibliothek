@@ -14,8 +14,8 @@ Every design page includes an **a360.co shortlink**. Paste the shortlink into a 
 
 | Resource | Description |
 |----------|-------------|
-| [Shortlink Index](indexes/shortlinks.md) | All 831 indexed designs with direct A360 links |
-| [BOM / Uses Index](indexes/bom-uses.md) | 132 assemblies with component references |
+| [Shortlink Index](indexes/shortlinks.md) | All 832 indexed designs with direct A360 links |
+| [BOM / Uses Index](indexes/bom-uses.md) | 133 assemblies with component references |
 | [Migration Candidates](indexes/migration-candidates.md) | 292 designs flagged for potential relocation |
 | [Graph](graph/index.md) | Interactive relationship graph (Directory / Assembly / Project modes) |
 
@@ -26,7 +26,7 @@ Every design page includes an **a360.co shortlink**. Paste the shortlink into a 
 | Project | Designs | Status |
 |---------|---------|--------|
 | [00 - Parts](designs/00-parts/index.md) | 93 | Indexed |
-| [A-0001 WirelessOne](designs/a-0001-wirelessone/index.md) | 5 | Indexed |
+| [A-0001 WirelessOne](designs/a-0001-wirelessone/index.md) | 6 | Indexed |
 | [A-003 iLACM](designs/a-003-ilacm/index.md) | 11 | Indexed |
 | [A-0010 iAir6](designs/a-0010-iair6/index.md) | 60 | Indexed |
 | [A-0026 iTM](designs/a-0026-itm/index.md) | 164 | Indexed |

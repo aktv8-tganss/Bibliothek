@@ -1946,14 +1946,30 @@ See COMPLETE declarations below.
 
 !!! info "Skipped designs"
     - **35063643** — already harvested in batch 039
-    - **Marvin 4 Print** — drawing, not indexed
+    - ~~**Marvin 4 Print** — drawing, not indexed~~ → indexed in batch 052
 
 ---
 
-## A-0001 WirelessOne — COMPLETE for Bibliothek (2026-09-22)
+## Batch 052 — A-0001 WirelessOne Drawing
+
+### Batch 052
+
+1 design from batch 052 was successfully indexed:
+
+**A-0001 WirelessOne (1):**
+
+1. ✓ Marvin 4 Print — Fusion Drawing; Uses Marvin 4 (not yet indexed)
+
+### Known debt (batch 052)
+
+None. Marvin 4 (the referenced component) is not yet indexed; Uses points to external placeholder.
+
+---
+
+## A-0001 WirelessOne — COMPLETE for Bibliothek (2026-09-22, updated 2026-09-24)
 
 !!! success "A-0001 WirelessOne Harvest COMPLETE"
-    Declared COMPLETE for Bibliothek purposes by Otto on 2026-09-22 after ticket 050 (mop of remaining A-0001 designs plus earlier 35063643 from batch 039). All 5 locatable Fusion designs with unique Share shortlinks have been indexed.
+    Declared COMPLETE for Bibliothek purposes by Otto on 2026-09-22 after ticket 050 (mop of remaining A-0001 designs plus earlier 35063643 from batch 039). Updated 2026-09-24 after batch 052 added Marvin 4 Print. All 6 locatable Fusion designs with unique Share shortlinks have been indexed.
 
 ### Covered
 
@@ -1962,8 +1978,9 @@ See COMPLETE declarations below.
 - Housing Bracket - Alford (batch 050)
 - Marvin 4 exploded view (batch 050)
 - Remote BedONails (batch 050)
+- Marvin 4 Print (batch 052)
 
-*A-0001 WirelessOne harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22.*
+*A-0001 WirelessOne harvest declared COMPLETE for Bibliothek by Otto, 2026-09-22; updated 2026-09-24 with batch 052.*
 
 ---
 
