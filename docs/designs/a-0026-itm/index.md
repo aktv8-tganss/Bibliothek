@@ -4,7 +4,7 @@ iTM (Inflation Test Machine) project designs — the largest project in Biblioth
 
 | Metric | Value |
 |--------|-------|
-| **Designs** | 163 |
+| **Designs** | 164 |
 | **Status** | Indexed |
 | **Graph** | [View in Graph](../../graph/index.md) (select Project mode, search "a-0026") |
 
