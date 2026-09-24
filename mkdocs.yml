@@ -887,6 +887,9 @@ nav:
         - VMT Shroud: designs/d-0012-eol/parts/vmt-shroud.md
       - 891201 FFT:
         - 891201 FFT: designs/d-0012-eol/891201-fft/891201-fft.md
+      - Zebra Accessories:
+        - "Channel Spacer 1\"": designs/d-0012-eol/zebra-accessories/channel-spacer-1-inch.md
+        - Roller Wedge: designs/d-0012-eol/zebra-accessories/roller-wedge.md
     - A-8888 Release Prints:
       - Overview: designs/a-8888-release-prints/index.md
       - LSR Layout: designs/a-8888-release-prints/lsr-layout.md
