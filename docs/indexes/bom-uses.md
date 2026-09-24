@@ -1480,7 +1480,7 @@ The Motor Adapter PSI 3 design references the following 2 components:
 The Nanuk 909 design references the following 2 components:
 
 1. 909_Btm_Inner_Surfaces
-2. 909_Top_Inner_Surfaces
+2. [909_Top_Inner_Surfaces](../designs/default-project/909-top-inner-surfaces.md)
 
 ---
 
@@ -1672,7 +1672,7 @@ The Marvin 4 Print drawing references the following 1 component:
 
 The 002361 AA (1) design references the following 1 component:
 
-1. autodesk generic router xyz *(external generic component)*
+1. [autodesk generic router xyz](../designs/default-project/autodesk-generic-router-xyz.md)
 
 ---
 

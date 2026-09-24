@@ -17,9 +17,9 @@ This page organizes candidates into three buckets for triage.
 |--------|-------|--------|
 | (a) Move to 00 - Parts | 147 | Migrate to canonical `00 - Parts` folder |
 | (b) Reconcile duplicate | 59 | May be duplicate of existing design; reconcile before migrating |
-| (c) Review | 86 | Needs review to determine appropriate action |
+| (c) Review | 87 | Needs review to determine appropriate action |
 
-**Total:** 292 candidates
+**Total:** 293 candidates
 
 ---
 
@@ -339,6 +339,7 @@ Candidates that need review to determine appropriate action.
 | [DIN Resistor Bank](../designs/d-0012-eol/a8-parts/din-resistor-bank.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
 | [Keypad Bump-it](../designs/d-0012-eol/a8-parts/keypad-bump-it.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
 | [Pi VESA Mount](../designs/d-0012-eol/a8-parts/pi-vesa-mount.md) | `D-0012 EOL / A8 Parts` | A8 Parts folder outside `00 - Parts`; review for consolidation |
+| [autodesk generic router xyz](../designs/default-project/autodesk-generic-router-xyz.md) | `Default Project` | Generic router component; name previously seen as Uses reference in A-0044 TPP |
 
 ---
 

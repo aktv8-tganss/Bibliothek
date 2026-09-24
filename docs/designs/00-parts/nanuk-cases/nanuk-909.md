@@ -26,7 +26,7 @@ ots_migration_candidate: false
 This design references the following components:
 
 - 909_Btm_Inner_Surfaces
-- 909_Top_Inner_Surfaces
+- [909_Top_Inner_Surfaces](../../default-project/909-top-inner-surfaces.md)
 
 ## Used In
 

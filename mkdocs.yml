@@ -1011,6 +1011,10 @@ nav:
         - "20240917":
           - SPPV Plunger V3: designs/a-9999-lab/team-prints/20240917/sppv-plunger-v3.md
           - check barb pill: designs/a-9999-lab/team-prints/20240917/check-barb-pill.md
+    - Default Project:
+      - Overview: designs/default-project/index.md
+      - 909_Top_Inner_Surfaces: designs/default-project/909-top-inner-surfaces.md
+      - autodesk generic router xyz: designs/default-project/autodesk-generic-router-xyz.md
   - Indexes:
     - Shortlink Index: indexes/shortlinks.md
     - BOM / Uses Index: indexes/bom-uses.md
