@@ -15,7 +15,7 @@ Internal status page for harvest operators. For a reader-oriented introduction, 
 | Project | Status | Batches | Designs |
 |---------|--------|---------|---------|
 | 00 - Parts | Indexed | 039–044 | 93 |
-| A-0001 WirelessOne | Indexed | 039, 050 | 5 |
+| A-0001 WirelessOne | Indexed | 039, 050, 052 | 6 |
 | A-003 iLACM | Indexed | 035 | 11 |
 | A-0010 iAir6 | Indexed | 001–007 | 60 |
 | A-0026 iTM | Indexed | 010–020 | 163 |
@@ -84,8 +84,9 @@ Internal status page for harvest operators. For a reader-oriented introduction, 
 | 048 | 19 | D-0012 EOL: Gen2 Fixture (18) + 891201 FFT (1) — no migration candidates; External1 shortlink collides with Lid Prop Nut (only External1 indexed); nested Gen2 OTS deferred (Charlotte ticket 049) |
 | 049 | 7 | D-0012 EOL: Gen2 Fixture / OTS Parts (6) + Parts (1) — 6 OTS migration candidates (all Gen2 fasteners); VMT Shroud not a migration candidate; **D-0012 EOL COMPLETE** |
 | 050 | 6 | A-0001 WirelessOne (4) + A-0044 TPP (1) + A-8888 Release Prints (1) — no migration candidates; **A-0001 COMPLETE**, **A-0044 COMPLETE** |
+| 052 | 1 | A-0001 WirelessOne (1) — Marvin 4 Print Fusion Drawing; no migration candidates |
 
-**Total designs indexed: 827**
+**Total designs indexed: 832**
 
 ---
 
@@ -119,7 +120,7 @@ Internal status page for harvest operators. For a reader-oriented introduction, 
     D-0012 EOL harvest declared COMPLETE by Otto/Charlotte on 2026-09-23 after batch 049. All 66 locatable Fusion designs with unique Share shortlinks have been indexed across OTS Parts (24), A8 Parts (14), Oyster (2), Gen2 Fixture (24), Parts (1), and 891201 FFT (1). Known debt: External1 ↔ Lid Prop Nut shortlink collision (`a360.co/4j2Rdwf`) — only External1 indexed; Gen2 Fixture OTS Parts (6 fasteners) remain migration candidates vs `00 - Parts`. See [leftovers index](indexes/leftovers.md) for details.
 
 !!! success "A-0001 WirelessOne — Indexed"
-    A-0001 WirelessOne harvest declared COMPLETE by Otto on 2026-09-22 after ticket 050. All 5 locatable Fusion designs with unique Share shortlinks have been indexed (1 from batch 039, 4 from batch 050). See [leftovers index](indexes/leftovers.md) for details.
+    A-0001 WirelessOne harvest declared COMPLETE by Otto on 2026-09-22 after ticket 050; updated 2026-09-24 with batch 052 (Marvin 4 Print). All 6 locatable Fusion designs with unique Share shortlinks have been indexed (1 from batch 039, 4 from batch 050, 1 from batch 052). See [leftovers index](indexes/leftovers.md) for details.
 
 !!! success "A-0044 TPP — Indexed"
     A-0044 TPP harvest declared COMPLETE by Otto on 2026-09-22 after ticket 050 harvested the sole design `002361 AA (1)`. See [leftovers index](indexes/leftovers.md) for details.

@@ -674,6 +674,7 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [72719 file for josh](../designs/a-0001-wirelessone/72719-file-for-josh.md) | `A-0001 WirelessOne` | [a360.co/4h5sPaX](https://a360.co/4h5sPaX) |
 | [Housing Bracket - Alford](../designs/a-0001-wirelessone/housing-bracket-alford.md) | `A-0001 WirelessOne` | [a360.co/4r2bxzS](https://a360.co/4r2bxzS) |
 | [Marvin 4 exploded view](../designs/a-0001-wirelessone/marvin-4-exploded-view.md) | `A-0001 WirelessOne` | [a360.co/3V8X5dz](https://a360.co/3V8X5dz) |
+| [Marvin 4 Print](../designs/a-0001-wirelessone/marvin-4-print.md) | `A-0001 WirelessOne` | [a360.co/46QUVlr](https://a360.co/46QUVlr) |
 | [Remote BedONails](../designs/a-0001-wirelessone/remote-bedonails.md) | `A-0001 WirelessOne` | [a360.co/3UPaQxV](https://a360.co/3UPaQxV) |
 | [Arduino Mega 2560](../designs/00-parts/arduino/arduino-mega-2560.md) | `00 - Parts / Arduino` | [a360.co/4r88g2a](https://a360.co/4r88g2a) |
 | [Mega Enclosure](../designs/00-parts/arduino/mega-enclosure.md) | `00 - Parts / Arduino` | [a360.co/4dychHt](https://a360.co/4dychHt) |
@@ -838,4 +839,4 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 
 ---
 
-*827 designs indexed.*
+*832 designs indexed.*
