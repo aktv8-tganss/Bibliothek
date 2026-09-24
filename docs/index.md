@@ -14,9 +14,9 @@ Every design page includes an **a360.co shortlink**. Paste the shortlink into a 
 
 | Resource | Description |
 |----------|-------------|
-| [Shortlink Index](indexes/shortlinks.md) | All 832 indexed designs with direct A360 links |
+| [Shortlink Index](indexes/shortlinks.md) | All 834 indexed designs with direct A360 links |
 | [BOM / Uses Index](indexes/bom-uses.md) | 133 assemblies with component references |
-| [Migration Candidates](indexes/migration-candidates.md) | 292 designs flagged for potential relocation |
+| [Migration Candidates](indexes/migration-candidates.md) | 293 designs flagged for potential relocation |
 | [Graph](graph/index.md) | Interactive relationship graph (Directory / Assembly / Project modes) |
 
 ---
@@ -38,6 +38,7 @@ Every design page includes an **a360.co shortlink**. Paste the shortlink into a 
 | [D-0012 EOL](designs/d-0012-eol/index.md) | 66 | Indexed |
 | [D-0058 TPMS & Load](designs/d-0058-tpms-load/index.md) | 44 | Indexed |
 | [D-0072 A8 Wheel End](designs/d-0072-a8-wheel-end/index.md) | 11 | Indexed |
+| [Default Project](designs/default-project/index.md) | 2 | Indexed |
 
 **Indexed** — All locatable Fusion designs with unique Share shortlinks have been harvested. This does *not* mean product-complete; it means the available designs are catalogued here.
 
