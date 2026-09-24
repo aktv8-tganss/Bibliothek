@@ -4,7 +4,7 @@ EOL (End-of-Line) project designs — test fixtures for production line testing.
 
 | Metric | Value |
 |--------|-------|
-| **Designs** | 66 |
+| **Designs** | 68 |
 | **Status** | Indexed |
 | **Graph** | [View in Graph](../../graph/index.md) (select Project mode, search "d-0012") |
 
@@ -34,6 +34,7 @@ EOL (End-of-Line) project designs — test fixtures for production line testing.
 | [Gen2 Fixture / OTS Parts](gen2-fixture/ots-parts/1-4-20-thin-nylock.md) | 6 | Gen2 Fixture OTS Parts (all migration candidates) |
 | [Parts](parts/vmt-shroud.md) | 1 | Parts subfolder |
 | [891201 FFT](891201-fft/891201-fft.md) | 1 | 891201 FFT assembly |
+| [Zebra Accessories](zebra-accessories/channel-spacer-1-inch.md) | 2 | Zebra Accessories |
 
 ---
 

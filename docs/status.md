@@ -24,7 +24,7 @@ Internal status page for harvest operators. For a reader-oriented introduction, 
 | A-0054 iAir3 Gen2 | Indexed | 003, 008–009 | 40 |
 | A-8888 Release Prints | Indexed | 050 | 1 |
 | A-9999 Lab | Indexed | 019, 021–026 | 111 |
-| D-0012 EOL | Indexed | 045–049 | 66 |
+| D-0012 EOL | Indexed | 045–049, 054 | 68 |
 | D-0058 TPMS & Load | Indexed | 036–037 | 44 |
 | D-0072 A8 Wheel End | Indexed | 038 | 11 |
 
@@ -86,8 +86,9 @@ Internal status page for harvest operators. For a reader-oriented introduction, 
 | 050 | 6 | A-0001 WirelessOne (4) + A-0044 TPP (1) + A-8888 Release Prints (1) — no migration candidates; **A-0001 COMPLETE**, **A-0044 COMPLETE** |
 | 052 | 1 | A-0001 WirelessOne (1) — Marvin 4 Print Fusion Drawing; no migration candidates |
 | 053 | 2 | Default Project (2): 909_Top_Inner_Surfaces (used in Nanuk 909), autodesk generic router xyz (migration candidate vs 00 - Parts; name was previously seen as Uses reference in A-0044 TPP) |
+| 054 | 2 | D-0012 EOL / Zebra Accessories (2): Channel Spacer 1", Roller Wedge — new inventory fills under COMPLETE D-0012; no migration candidates |
 
-**Total designs indexed: 834**
+**Total designs indexed: 836**
 
 ---
 

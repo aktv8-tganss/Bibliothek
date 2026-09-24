@@ -834,6 +834,8 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 | [4-40 x 5/16 SH Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/4-40-x-5-16-sh-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4A7QIaF](https://a360.co/4A7QIaF) |
 | [6-32 x 7/16 CS Screw](../designs/d-0012-eol/gen2-fixture/ots-parts/6-32-x-7-16-cs-screw.md) | `D-0012 EOL / Gen2 Fixture / OTS Parts` | [a360.co/4h1vJgH](https://a360.co/4h1vJgH) |
 | [VMT Shroud](../designs/d-0012-eol/parts/vmt-shroud.md) | `D-0012 EOL / Parts` | [a360.co/46Xcy33](https://a360.co/46Xcy33) |
+| [Channel Spacer 1"](../designs/d-0012-eol/zebra-accessories/channel-spacer-1-inch.md) | `D-0012 EOL / Zebra Accessories` | [a360.co/46DVm2y](https://a360.co/46DVm2y) |
+| [Roller Wedge](../designs/d-0012-eol/zebra-accessories/roller-wedge.md) | `D-0012 EOL / Zebra Accessories` | [a360.co/4yWYO4o](https://a360.co/4yWYO4o) |
 | [002361 AA (1)](../designs/a-0044-tpp/002361-aa-1.md) | `A-0044 TPP` | [a360.co/4xjXc3k](https://a360.co/4xjXc3k) |
 | [LSR Layout](../designs/a-8888-release-prints/lsr-layout.md) | `A-8888 Release Prints` | [a360.co/4xQrqME](https://a360.co/4xQrqME) |
 | [909_Top_Inner_Surfaces](../designs/default-project/909-top-inner-surfaces.md) | `Default Project` | [a360.co/4gLNhyC](https://a360.co/4gLNhyC) |
@@ -841,4 +843,4 @@ All designs with A360.co shortlinks for direct access in Fusion 360.
 
 ---
 
-*834 designs indexed.*
+*836 designs indexed.*
