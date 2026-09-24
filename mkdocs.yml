@@ -51,8 +51,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - Status: status.md
   - Designs:
     - 00 - Parts:
+      - Overview: designs/00-parts/index.md
       - Arduino:
         - Amplifier Board: designs/00-parts/arduino/amplifier-board.md
         - Arduino Mega 2560: designs/00-parts/arduino/arduino-mega-2560.md
@@ -177,12 +179,14 @@ nav:
       - Test Probes:
         - S-1-J-3.8-G: designs/00-parts/test-probes/s-1-j-3-8-g.md
     - A-0001 WirelessOne:
+      - Overview: designs/a-0001-wirelessone/index.md
       - "35063643": designs/a-0001-wirelessone/35063643.md
       - 72719 file for josh: designs/a-0001-wirelessone/72719-file-for-josh.md
       - Housing Bracket - Alford: designs/a-0001-wirelessone/housing-bracket-alford.md
       - Marvin 4 exploded view: designs/a-0001-wirelessone/marvin-4-exploded-view.md
       - Remote BedONails: designs/a-0001-wirelessone/remote-bedonails.md
     - A-003 iLACM:
+      - Overview: designs/a-003-ilacm/index.md
       - 0 Pin: designs/a-003-ilacm/0-pin.md
       - 2 Pin: designs/a-003-ilacm/2-pin.md
       - Gen1 PCB: designs/a-003-ilacm/gen1-pcb.md
@@ -195,6 +199,7 @@ nav:
       - Proc PCM: designs/a-003-ilacm/proc-pcm.md
       - iAIR3 Gen1 Flash Runner Bed: designs/a-003-ilacm/iair3-gen1-flash-runner-bed.md
     - A-0010 iAir6:
+      - Overview: designs/a-0010-iair6/index.md
       - CEPHALOPOD 2: designs/a-0010-iair6/cephalopod-2.md
       - FAST26 Clamping Jaws: designs/a-0010-iair6/fast26-clamping-jaws.md
       - Heater - Tool: designs/a-0010-iair6/heater-tool.md
@@ -272,6 +277,7 @@ nav:
         - Prox Switch: designs/a-0010-iair6/ots-parts/prox-switch.md
         - SS Relay Board: designs/a-0010-iair6/ots-parts/ss-relay-board.md
     - A-0054 iAir3 Gen2:
+      - Overview: designs/a-0054-iair3-gen2/index.md
       - "22": designs/a-0054-iair3-gen2/design-22.md
       - GEN2 PROC MODULE: designs/a-0054-iair3-gen2/gen2-proc-module.md
       - GEN2 PROC MODULE 2026: designs/a-0054-iair3-gen2/gen2-proc-module-2026.md
@@ -327,6 +333,7 @@ nav:
         - PCBA Flash Expanded: designs/a-0054-iair3-gen2/flash-runner/pcba-flash-expanded.md
         - Screen VESA: designs/a-0054-iair3-gen2/flash-runner/screen-vesa.md
     - A-0026 iTM:
+      - Overview: designs/a-0026-itm/index.md
       - "12010717": designs/a-0026-itm/12010717.md
       - "880251": designs/a-0026-itm/880251.md
       - "880251 (Drawing)": designs/a-0026-itm/880251-4ae96i7.md
@@ -572,8 +579,10 @@ nav:
         - USB Adapter: designs/a-0026-itm/taz-4/usb-adapter.md
         - Whirlpool Motor: designs/a-0026-itm/taz-4/whirlpool-motor.md
     - A-0044 TPP:
+      - Overview: designs/a-0044-tpp/index.md
       - 002361 AA (1): designs/a-0044-tpp/002361-aa-1.md
     - A-0047 TPMS:
+      - Overview: designs/a-0047-tpms/index.md
       - 002390 (1): designs/a-0047-tpms/002390-1.md
       - 002582 AA TPMS Thru Conmet (2): designs/a-0047-tpms/002582-aa-tpms-thru-conmet-2.md
       - 003281_x4: designs/a-0047-tpms/003281-x4.md
@@ -740,6 +749,7 @@ nav:
         - pxc_1411244_00_01_A-INL-M32-N-S_3D: designs/a-0047-tpms/ots-parts/pxc-1411244-00-01-a-inl-m32-n-s-3d.md
         - 655-1203-104F (TPMS): designs/a-0047-tpms/ots-parts/655-1203-104f-tpms.md
     - D-0058 TPMS & Load:
+      - Overview: designs/d-0058-tpms-load/index.md
       - 002390 (1): designs/d-0058-tpms-load/002390-1.md
       - 002582 AA TPMS Thru Conmet (2): designs/d-0058-tpms-load/002582-aa-tpms-thru-conmet-2.md
       - BASICTRUCK: designs/d-0058-tpms-load/basictruck.md
@@ -786,6 +796,7 @@ nav:
         - Nipple Spacer: designs/d-0058-tpms-load/comps/nipple-spacer.md
         - Tee Leak Fixture: designs/d-0058-tpms-load/comps/tee-leak-fixture.md
     - D-0072 A8 Wheel End:
+      - Overview: designs/d-0072-a8-wheel-end/index.md
       - TAZ B Dyno: designs/d-0072-a8-wheel-end/taz-b-dyno.md
       - Motor Adapter PSI (D-0072): designs/d-0072-a8-wheel-end/motor-adapter-psi.md
       - Motor Adapter (D-0072): designs/d-0072-a8-wheel-end/motor-adapter.md
@@ -798,6 +809,7 @@ nav:
       - Hose Holder NPT: designs/d-0072-a8-wheel-end/hose-holder-npt.md
       - TAZ Dyno Cabinet (D-0072): designs/d-0072-a8-wheel-end/taz-dyno-cabinet.md
     - D-0012 EOL:
+      - Overview: designs/d-0012-eol/index.md
       - OTS Parts:
         - 12V (D-0012): designs/d-0012-eol/ots-parts/12v.md
         - 19V Adapter (D-0012): designs/d-0012-eol/ots-parts/19v-adapter.md
@@ -875,8 +887,10 @@ nav:
       - 891201 FFT:
         - 891201 FFT: designs/d-0012-eol/891201-fft/891201-fft.md
     - A-8888 Release Prints:
+      - Overview: designs/a-8888-release-prints/index.md
       - LSR Layout: designs/a-8888-release-prints/lsr-layout.md
     - A-9999 Lab:
+      - Overview: designs/a-9999-lab/index.md
       - "000003 Manifold, iAir3 Type I W1": designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md
       - "000004 Cover, iAir3 Air Lift": designs/a-9999-lab/000004-cover-iair3-air-lift.md
       - 000113 Link Tip tool: designs/a-9999-lab/000113-link-tip-tool.md

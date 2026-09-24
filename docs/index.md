@@ -1,192 +1,52 @@
 # AKTV8 Fusion Library — Bibliothek
 
-Welcome to the **Bibliothek**, a read-only mirror of the AKTV8 Fusion design library for browsing.
+A read-only browsing index for the AKTV8 Fusion 360 design library.
 
-This site provides an indexed view of Fusion 360 designs from the AKTV8 LLC team hub. Each design page includes:
+---
 
-- **Shortlink** — direct A360 link to the design
-- **Project Path** — location in the Fusion team hub
-- **Uses** — components this design references
-- **Used In** — assemblies that reference this design
-- **Notes** — additional metadata from the harvest
+## Opening a Design in Fusion
+
+Every design page includes an **a360.co shortlink**. Paste the shortlink into a browser or use Fusion's **File → Open from Link** to view the design.
+
+---
 
 ## Quick Links
 
-- [Shortlink Index](indexes/shortlinks.md) — all designs with A360 links (827 total)
-- [BOM / Uses Index](indexes/bom-uses.md) — assemblies with component references (132 total)
-- [Migration Candidates](indexes/migration-candidates.md) — designs flagged for potential relocation to `00 - Parts` (312 total)
+| Resource | Description |
+|----------|-------------|
+| [Shortlink Index](indexes/shortlinks.md) | All 827 indexed designs with direct A360 links |
+| [BOM / Uses Index](indexes/bom-uses.md) | 132 assemblies with component references |
+| [Migration Candidates](indexes/migration-candidates.md) | 312 designs flagged for potential relocation |
+| [Graph](graph/index.md) | Interactive relationship graph (Directory / Assembly / Project modes) |
 
-## Design Tree
+---
 
-Browse designs by project folder:
+## Projects
 
-- **[00 - Parts](designs/00-parts/arduino/amplifier-board.md)** — standard and purchased components
-- **[A-0001 WirelessOne](designs/a-0001-wirelessone/35063643.md)** — WirelessOne project designs (5 designs; **A-0001 COMPLETE**)
-- **[A-003 iLACM](designs/a-003-ilacm/pct-new.md)** — iLACM project designs (11 designs)
-- **[A-0010 iAir6](designs/a-0010-iair6/cephalopod-2.md)** — iAir6 project designs
-    - [A8 Parts](designs/a-0010-iair6/a8-parts/003234-x1a-manifold-iair6.md) — A8 subfolder designs (12 designs)
-    - [ALC Parts](designs/a-0010-iair6/alc-parts/height-arm.md) — ALC Parts designs (2 designs)
-    - [DUT Box Parts](designs/a-0010-iair6/dut-box-parts/cephalopod-3.md) — DUT Box Parts subfolder designs (18 designs)
-    - [DUT Mounting](designs/a-0010-iair6/dut-mounting/angle-clamp.md) — DUT Mounting designs (2 designs)
-    - [Flash Runner](designs/a-0010-iair6/flash-runner/urchin.md) — Flash Runner assembly designs (1 design)
-        - [Parts](designs/a-0010-iair6/flash-runner/parts/press-fixture.md) — Flash Runner parts (11 designs)
-    - [Obs](designs/a-0010-iair6/obs/cephalopod-1.md) — obsolete/archived designs (3 designs)
-    - [OTS Parts](designs/a-0010-iair6/ots-parts/prox-switch.md) — off-the-shelf components (14 designs, migration candidates)
-- **[A-0054 iAir3 Gen2](designs/a-0054-iair3-gen2/design-22.md)** — iAir3 Gen2 project designs
-    - [FFT (Obs) / IO Box](designs/a-0054-iair3-gen2/fft-obs/io-box/io-box.md) — IO Box assembly designs (6 designs)
-        - [Comps](designs/a-0054-iair3-gen2/fft-obs/io-box/comps/12v.md) — IO Box components (32 designs, 28 migration candidates)
-        - [Josh CAD](designs/a-0054-iair3-gen2/fft-obs/io-box/josh-cad/box-bottom.md) — Josh CAD designs (3 designs, 3 migration candidates)
-    - [Flash Runner](designs/a-0054-iair3-gen2/flash-runner/iair3-gen2-flash-runner-bed.md) — Flash Runner assembly designs (4 designs)
-- **[A-0026 iTM](designs/a-0026-itm/12010717.md)** — iTM project designs (163 designs)
-    - [ACROPORA](designs/a-0026-itm/acropora/acropora.md) — ACROPORA subfolder (4 designs, 3 migration candidates)
-    - [AEETES](designs/a-0026-itm/aeetes/aeetes-asm.md) — AEETES subfolder (22 designs, 1 migration candidate)
-        - [OTS Parts](designs/a-0026-itm/aeetes/ots-parts/1.md) — AEETES OTS parts (40 designs, all migration candidates)
-    - [Alford](designs/a-0026-itm/alford/million-mile-power-supply-mount.md) — Alford subfolder (1 design)
-    - [ASM TOOLING](designs/a-0026-itm/asm-tooling/inf-only-hose-cell.md) — ASM TOOLING subfolder (2 designs)
-        - [OTS Parts](designs/a-0026-itm/asm-tooling/ots-parts/fieldmann-ratchet-handle.md) — ASM TOOLING OTS parts (3 designs, all migration candidates)
-    - [ASM TOOLING SOW1](designs/a-0026-itm/asm-tooling-sow1/hose-assembly-cell.md) — ASM TOOLING SOW1 subfolder (19 designs)
-        - [COMPS](designs/a-0026-itm/asm-tooling-sow1/comps/2x2-cylinder.md) — SOW1 COMPS (12 designs, 1 migration candidate)
-    - [COMPS](designs/a-0026-itm/comps/horseshoe-cell.md) — COMPS subfolder (1 design)
-    - [ENIGMA](designs/a-0026-itm/enigma/dyno-assy.md) — ENIGMA subfolder (2 designs)
-    - [MTT03](designs/a-0026-itm/mtt03/tt03-10z-20z-50z.md) — MTT03 subfolder (3 designs)
-    - [ORTHRUS](designs/a-0026-itm/orthrus/orthrus.md) — ORTHRUS subfolder (1 design)
-        - [OTS Parts](designs/a-0026-itm/orthrus/ots-parts/sce-36n2408lp.md) — ORTHRUS OTS parts (9 designs, all migration candidates)
-            - [PNEU](designs/a-0026-itm/orthrus/ots-parts/pneu/dot5g-v-tanjk.md) — PNEU OTS parts (14 designs, 13 migration candidates)
-            - [ELEC](designs/a-0026-itm/orthrus/ots-parts/elec/19v-adapter.md) — ELEC OTS parts (21 designs, all migration candidates)
-        - [ELEC](designs/a-0026-itm/orthrus/elec/hcsd-20-d-02-50-01-n.md) — ORTHRUS ELEC (1 design)
-    - [OTS Parts](designs/a-0026-itm/ots-parts/hose-cutter.md) — OTS Parts subfolder (3 designs, all migration candidates)
-    - [PARTS](designs/a-0026-itm/parts/tee.md) — PARTS subfolder (7 designs)
-    - [PLT](designs/a-0026-itm/plt/plt-head.md) — PLT subfolder (5 designs)
-        - [COMPS](designs/a-0026-itm/plt/comps/hdmi-passthru.md) — PLT COMPS (17 designs, 4 migration candidates)
-    - [Rachel](designs/a-0026-itm/rachel/carrier-stand-2-0.md) — Rachel subfolder (5 designs)
-    - [TAZ 4](designs/a-0026-itm/taz-4/arduino-uno.md) — TAZ 4 subfolder (10 designs, 3 migration candidates)
-- **[A-0044 TPP](designs/a-0044-tpp/002361-aa-1.md)** — TPP project designs (1 design; **A-0044 COMPLETE**)
-- **[A-0047 TPMS](designs/a-0047-tpms/003501-thru-assembly.md)** — TPMS project designs (154 designs)
-    - [Root Designs](designs/a-0047-tpms/003501-thru-assembly.md) — TPMS root designs (10 designs)
-    - [Clam](designs/a-0047-tpms/clam/clam-asm.md) — Clam subfolder (8 designs)
-    - [Flash Runner](designs/a-0047-tpms/flash-runner/oyster-bed-3up-tpms.md) — Flash Runner designs (2 designs)
-    - [Limpet](designs/a-0047-tpms/limpet/limpet-asm.md) — Limpet subfolder (9 designs)
-    - [Mantis](designs/a-0047-tpms/mantis/mantis-etch-asm.md) — Mantis subfolder (9 designs)
-    - [Mantis 2](designs/a-0047-tpms/mantis-2/mantis-2-asm.md) — Mantis 2 subfolder (12 designs)
-        - [Obs](designs/a-0047-tpms/mantis-2/obs/mantis-2-asm-obs.md) — Mantis 2 / Obs nested subfolder (8 designs)
-    - [Moonfish](designs/a-0047-tpms/moonfish/moonfish-asm-2.md) — Moonfish subfolder (6 designs)
-        - [Obs](designs/a-0047-tpms/moonfish/obs/moonfish-asm.md) — Moonfish / Obs nested subfolder (9 designs)
-    - [Obs](designs/a-0047-tpms/obs/battery-spacing-blanks.md) — Obs subfolder (4 designs)
-    - [Stepper Control](designs/a-0047-tpms/stepper-control/stepper-enclosure.md) — Stepper Control subfolder (4 designs)
-    - [OTS Parts](designs/a-0047-tpms/ots-parts/ball-valve.md) — OTS Parts subfolder (73 designs, all migration candidates)
-- **[D-0058 TPMS & Load](designs/d-0058-tpms-load/pt-disp.md)** — TPMS & Load project designs (44 designs)
-    - [Root Designs](designs/d-0058-tpms-load/pt-disp.md) — D-0058 root designs (29 designs, 10 migration candidates incl. 7 OTS + 3 project-copies)
-    - [Comps](designs/d-0058-tpms-load/comps/ar2000-reg.md) — D-0058 Comps subfolder (15 designs, 13 migration candidates)
-- **[D-0072 A8 Wheel End](designs/d-0072-a8-wheel-end/taz-b-dyno.md)** — A8 Wheel End project designs (11 designs, 1 OTS migration candidate)
-- **[D-0012 EOL](designs/d-0012-eol/ots-parts/12v.md)** — EOL project designs (66 designs, 44 migration candidates; **D-0012 EOL COMPLETE**)
-    - [OTS Parts](designs/d-0012-eol/ots-parts/12v.md) — OTS Parts subfolder (24 designs, all migration candidates; **OTS Parts COMPLETE**)
-    - [A8 Parts](designs/d-0012-eol/a8-parts/881211-aa.md) — A8 Parts subfolder (14 designs, all migration candidates)
-    - [Oyster](designs/d-0012-eol/oyster/oyster-asm.md) — Oyster subfolder (2 designs)
-    - [Gen2 Fixture](designs/d-0012-eol/gen2-fixture/gen2-fixture-asm.md) — Gen2 Fixture subfolder (24 designs, 6 migration candidates)
-        - [New JDC](designs/d-0012-eol/gen2-fixture/new-jdc/eol-fixture-iair3-g2.md) — New JDC designs (1 design)
-        - [Old JDC](designs/d-0012-eol/gen2-fixture/old-jdc/box-lock-subassy.md) — Old JDC designs (5 designs)
-        - [Parts](designs/d-0012-eol/gen2-fixture/parts/box-bottom.md) — Gen2 Fixture Parts (9 designs)
-        - [OTS Parts](designs/d-0012-eol/gen2-fixture/ots-parts/1-4-20-thin-nylock.md) — Gen2 Fixture OTS Parts (6 designs, all migration candidates)
-    - [Parts](designs/d-0012-eol/parts/vmt-shroud.md) — Parts subfolder (1 design)
-    - [891201 FFT](designs/d-0012-eol/891201-fft/891201-fft.md) — 891201 FFT assembly (1 design)
-- **[A-8888 Release Prints](designs/a-8888-release-prints/lsr-layout.md)** — Release Prints project designs (1 design)
-- **[A-9999 Lab](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md)** — Lab project designs (111 designs)
-    - [Root Designs](designs/a-9999-lab/000003-manifold-iair3-type-i-w1.md) — Lab root designs (58 designs, 10 OTS migration candidates)
-    - [GEGENEES](designs/a-9999-lab/gegenees/6-dut-assem.md) — GEGENEES test fixture designs (23 designs, 5 OTS migration candidates)
-        - [Sterling CAN Controller](designs/a-9999-lab/gegenees/sterling-can-controller/sterling-6-dut-controller.md) — Sterling CAN Controller designs (4 designs)
-    - [PARTS](designs/a-9999-lab/parts/12v-psu.md) — Lab PARTS (6 designs, incl. USB-2637 + Mounting rail 1 distinct copies)
-    - [TEAM PRINTS](designs/a-9999-lab/team-prints/003354-x1a-hub.md) — TEAM PRINTS designs (21 designs)
-        - [20240917](designs/a-9999-lab/team-prints/20240917/sppv-plunger-v3.md) — 20240917 subfolder (2 designs)
+| Project | Designs | Status |
+|---------|---------|--------|
+| [00 - Parts](designs/00-parts/index.md) | 93 | Indexed |
+| [A-0001 WirelessOne](designs/a-0001-wirelessone/index.md) | 5 | Indexed |
+| [A-003 iLACM](designs/a-003-ilacm/index.md) | 11 | Indexed |
+| [A-0010 iAir6](designs/a-0010-iair6/index.md) | 60 | Indexed |
+| [A-0026 iTM](designs/a-0026-itm/index.md) | 163 | Indexed |
+| [A-0044 TPP](designs/a-0044-tpp/index.md) | 1 | Indexed |
+| [A-0047 TPMS](designs/a-0047-tpms/index.md) | 154 | Indexed |
+| [A-0054 iAir3 Gen2](designs/a-0054-iair3-gen2/index.md) | 40 | Indexed |
+| [A-8888 Release Prints](designs/a-8888-release-prints/index.md) | 1 | Indexed |
+| [A-9999 Lab](designs/a-9999-lab/index.md) | 111 | Indexed |
+| [D-0012 EOL](designs/d-0012-eol/index.md) | 66 | Indexed |
+| [D-0058 TPMS & Load](designs/d-0058-tpms-load/index.md) | 44 | Indexed |
+| [D-0072 A8 Wheel End](designs/d-0072-a8-wheel-end/index.md) | 11 | Indexed |
 
-## Batch Summary
+**Indexed** — All locatable Fusion designs with unique Share shortlinks have been harvested. This does *not* mean product-complete; it means the available designs are catalogued here.
 
-| Batch | Designs | Notes |
-|-------|---------|-------|
-| 001 | 3 | Initial harvest (Amplifier Board, CEPHALOPOD 2, FAST26 Clamping Jaws) |
-| 002 | 5 | A8 Parts (2), OTS parts (3 migration candidates) |
-| 003 | 5 | A-0054 iAir3 Gen2 (5 designs including Flash Runner subfolder) |
-| 004 | 17 | DUT Box Parts (17 designs under A-0010 iAir6) |
-| 005 | 12 | OTS Parts (11) + DUT Box Parts (1) — all 12 are migration candidates |
-| 006 | 15 | A8 Parts (9), Obs (3), Flash Runner (1), Root A-0010 (2) — product assemblies, no OTS candidates |
-| 007 | 17 | ALC Parts (2), DUT Mounting (2), Flash Runner/Parts (11), A8 Parts (1), Root A-0010 (1) — 7 OTS migration candidates |
-| 008 | 20 | FFT (Obs) / IO Box (5), IO Box Comps (12), Flash Runner (3) — 8 OTS migration candidates |
-| 009 | 24 | FFT (Obs) / IO Box (1), IO Box Comps (20), Josh CAD (3) — all 24 migration candidates |
-| 010 | 15 | A-0026 iTM root (11), ACROPORA (3), AEETES (1) — 3 OTS migration candidates |
-| 011 | 20 | A-0026 iTM: ACROPORA (1), AEETES (19) — 2 OTS migration candidates |
-| 012 | 29 | A-0026 iTM: ASM TOOLING SOW1 (19), ASM TOOLING (2), AEETES (2), Alford (1), ENIGMA (2), MTT03 (1), tooling/product assemblies — no OTS migration candidates |
-| 013 | 16 | A-0026 iTM: AEETES / OTS Parts (16) — all 16 are OTS migration candidates |
-| 014 | 24 | A-0026 iTM: AEETES / OTS Parts (24) — all 24 are OTS migration candidates; completes Priority A |
-| 015 | 17 | A-0026 iTM: COMPS (1), OTS Parts (3), PLT (4), MTT03 (2), ORTHRUS (1), PARTS (6) — 3 OTS migration candidates |
-| 016 | 21 | A-0026 iTM: Rachel (5), TAZ 4 (10), ORTHRUS / OTS PARTS (6) — 9 OTS migration candidates |
-| 017 | 22 | A-0026 iTM: ASM TOOLING/OTS (3), PARTS (1), SOW1 COMPS (12), ORTHRUS (3), PLT (3) — 6 OTS migration candidates |
-| 018 | 16 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (8), ORTHRUS / OTS PARTS / ELEC (5), ORTHRUS / OTS PARTS (1), PLT / COMPS (2) — 14 OTS migration candidates |
-| 019 | 36 | A-0026 iTM: ORTHRUS / OTS PARTS / ELEC (13), ORTHRUS / OTS PARTS / PNEU (6), PLT / COMPS (13); A-9999 Lab / PARTS (4 GIGADAQ children) — 22 OTS migration candidates |
-| 020 | 1 | A-0026 iTM: ORTHRUS / OTS PARTS / PNEU (1/4 1/8 NPT M Reducer) — 1 OTS migration candidate; mop-up concludes A-0026 |
-| 021 | 16 | A-9999 Lab root designs (16) — 2 OTS migration candidates; Lab NOT thin / MORE remain |
-| 022 | 18 | A-9999 Lab / GEGENEES (18) — 4 OTS migration candidates; GEGENEES MORE remain |
-| 023 | 12 | A-9999 Lab: GEGENEES (5), Sterling CAN Controller (3), PARTS (2), root (2) — 1 OTS migration candidate |
-| 024 | 20 | A-9999 Lab root (20) — 2 OTS migration candidates; Lab root MORE remain |
-| 025 | 23 | A-9999 Lab root (20) + TEAM PRINTS (3) — 6 OTS migration candidates |
-| 026 | 18 | A-9999 Lab / TEAM PRINTS (16) + TEAM PRINTS / 20240917 (2) — concludes A-9999 Lab |
-| 027 | 15 | A-0047 TPMS root (10), OTS Parts (5) — 5 OTS migration candidates; TPMS MORE remain |
-| 028 | 15 | A-0047 TPMS: Clam (3), Flash Runner (2), Limpet (2), Mantis (2), Mantis 2 (2), Moonfish (1), Obs (2), Stepper Control (1) — product folders; no new OTS candidates |
-| 029 | 19 | A-0047 TPMS: Clam (5), Limpet (7), Mantis (7) — product designs; no new OTS candidates; MORE remain |
-| 030 | 19 | A-0047 TPMS: Mantis 2 (6), Mantis 2 / Obs (8), Moonfish (5) — product designs; no new OTS candidates |
-| 031 | 18 | A-0047 TPMS: Obs (2), Stepper Control (3), Moonfish / Obs (9), Mantis 2 (4) — product designs; 2 OTS migration candidates |
-| 032 | 15 | A-0047 TPMS: OTS Parts (15) — all 15 are OTS migration candidates; OTS continues |
-| 033 | 31 | A-0047 TPMS: OTS Parts (31) — all 31 are OTS migration candidates; OTS continues |
-| 034 | 22 | A-0047 TPMS: OTS Parts (22) — all 22 are OTS migration candidates; **A-0047 COMPLETE** |
-| 035 | 11 | A-003 iLACM root (11) — product/root designs; includes dual ICT_TOP PLATE disambiguation; **A-003 COMPLETE** |
-| 036 | 15 | D-0058 TPMS & Load (15) — 7 migration candidates (4 OTS + 3 project-copies); Proc PCM path-disambiguated from A-003 |
-| 037 | 29 | D-0058 TPMS & Load (29) — 16 migration candidates (13 OTS + 3 project-copies); includes Comps subfolder (15); **D-0058 COMPLETE** |
-| 038 | 11 | D-0072 A8 Wheel End (11) — 1 OTS migration candidate (Compressor Motor); 4 path-disambiguations from A-0026; **D-0072 COMPLETE** |
-| 039 | 14 | 00 - Parts (13) + A-0001 WirelessOne (1) — canonical 00 - Parts designs in Arduino, Com Modules, Gauges, Lights, McMC Bearings, McMC Brass; no migration candidates |
-| 040 | 16 | 00 - Parts (16) — root leftovers (8) + McMC Brass (4) + McMC Cylinders (4); no migration candidates |
-| 041 | 15 | 00 - Parts (15) — McMC Locating (3) + McMC Screws (2) + McMC Springs (2) + Nanuk Cases (2) + PSUs (4) + Pi Components (2); no migration candidates |
-| 042 | 15 | 00 - Parts (15) — Pi Components (2) + Pressure Transducers (1) + Regulators (3) + SMC KQ2 (9); includes 2× verified 6-char shortlinks (Mini Regulator, KQ2L03-34AS); no migration candidates |
-| 043 | 15 | 00 - Parts (15) — SMC KQ2/07 leftovers (5) + SMC KQ2/11 (3) + SMC KV2/03 (7); no migration candidates |
-| 044 | 18 | 00 - Parts (18) — SMC KV2/07 (9) + SMC KV2/11 (3) + Solenoid Valves (3) + Switchgear (2) + Test Probes (1); no migration candidates; **00 - Parts COMPLETE** |
-| 045 | 13 | D-0012 EOL / OTS Parts (13) — all 13 are OTS migration candidates; reconcile/migrate into 00 - Parts later |
-| 046 | 11 | D-0012 EOL / OTS Parts (11) — all 11 are OTS migration candidates; **D-0012 OTS Parts COMPLETE** |
-| 047 | 16 | D-0012 EOL: A8 Parts (14) + Oyster (2) — 14 migration candidates (all A8 Parts); Oyster Asm references 00 - Parts assets; **D-0012 NOT COMPLETE** (Gen2 Fixture + 891201 FFT open) |
-| 048 | 19 | D-0012 EOL: Gen2 Fixture (18) + 891201 FFT (1) — no migration candidates; External1 shortlink collides with Lid Prop Nut (only External1 indexed); nested Gen2 OTS deferred (Charlotte ticket 049) |
-| 049 | 7 | D-0012 EOL: Gen2 Fixture / OTS Parts (6) + Parts (1) — 6 OTS migration candidates (all Gen2 fasteners); VMT Shroud not a migration candidate; **D-0012 EOL COMPLETE** |
-| 050 | 6 | A-0001 WirelessOne (4) + A-0044 TPP (1) + A-8888 Release Prints (1) — no migration candidates; **A-0001 COMPLETE**, **A-0044 COMPLETE** |
+---
 
-**Total designs indexed: 827**
+## Internal
 
-!!! success "A-0026 iTM COMPLETE for Bibliothek"
-    A-0026 iTM harvest declared COMPLETE by Otto on 2026-09-22 after batches 010–020. Known debt: PLT COMPS USB shortlink collision with CG-U3MINI7PH. See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "A-9999 Lab COMPLETE for Bibliothek"
-    A-9999 Lab harvest declared COMPLETE by Otto on 2026-09-22 after batches 019 (GIGADAQ children) + 021–026. Known debt: PCBA Gauge iAir6 V2 phantom (no Fusion search hit). See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "A-0047 TPMS COMPLETE for Bibliothek"
-    A-0047 TPMS harvest declared COMPLETE by Otto on 2026-09-22 after batches 027–034. All 154 locatable Fusion designs with unique Share shortlinks have been indexed, including 73 OTS Parts (all migration candidates). Known debt: 2× NANUK shells + 655-1203-104F may have A-9999 Lab / A-0026 PLT twins with distinct shortlinks — catalogued with (TPMS) suffix; Charlotte ticket 035 tracking. See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "A-003 iLACM COMPLETE for Bibliothek"
-    A-003 iLACM harvest declared COMPLETE by Otto/Charlotte on 2026-09-22 after batch 035 (thin project; root inventory emptied in one pass). All 11 root designs indexed, including two distinct `ICT_TOP PLATE_iAir3 jdc` designs with different shortlinks. Known debt: several empty Design References leaves; Light Arcade Switch external (already in A-9999 Lab). See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "D-0058 TPMS & Load COMPLETE for Bibliothek"
-    D-0058 TPMS & Load harvest declared COMPLETE by Franklin/Charlotte on 2026-09-23 after batches 036–037. All 44 locatable Fusion designs with unique Share shortlinks have been indexed. Known debt: 3× PT Disp dated copies (shortlink-suffix disambiguated from batch-036 originals); 3× project-copies (2× NANUK shells + Switch) may differ from A-0047/A-9999 Lab originals. See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "D-0072 A8 Wheel End COMPLETE for Bibliothek"
-    D-0072 A8 Wheel End harvest declared COMPLETE on 2026-09-23 after batch 038. All 11 designs indexed, including 4 assemblies with BOM data and 1 OTS migration candidate (Compressor Motor). Four designs path-disambiguated from A-0026 iTM / AEETES (Motor Adapter PSI, Motor Adapter, PSI Tee, Hose Holder M16). See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "00 - Parts COMPLETE for Bibliothek"
-    00 - Parts harvest declared COMPLETE by Otto on 2026-09-22 after ticket 045 leftover survey. Batches 039–044 harvested canonical 00 - Parts folders through KV2, solenoids, switchgear, test probes, and earlier folder mop. Only exact shortlink duplicates of previous batches remain. Known debt: batch 045 designs live under D-0012 EOL / OTS Parts as migration candidates (outside 00 - Parts proper); reconcile/migrate vs library later. See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "D-0012 EOL / OTS Parts COMPLETE for Bibliothek"
-    D-0012 EOL / OTS Parts harvest declared COMPLETE by Otto on 2026-09-22 after batches 045–046, on Charlotte's recommendation. All 24 locatable OTS designs with unique Share shortlinks have been indexed; only Trash remains in the folder. Known debt: all 24 designs remain migration candidates vs `00 - Parts` until reconciled; other D-0012 folders (A8 Parts, Gen2 Fixture, Oyster, 891201 FFT) not surveyed this pass.
-
-!!! success "D-0012 EOL COMPLETE for Bibliothek"
-    D-0012 EOL harvest declared COMPLETE by Otto/Charlotte on 2026-09-23 after batch 049. All 66 locatable Fusion designs with unique Share shortlinks have been indexed across OTS Parts (24), A8 Parts (14), Oyster (2), Gen2 Fixture (24), Parts (1), and 891201 FFT (1). Known debt: External1 ↔ Lid Prop Nut shortlink collision (`a360.co/4j2Rdwf`) — only External1 indexed; Gen2 Fixture OTS Parts (6 fasteners) remain migration candidates vs `00 - Parts`. See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "A-0001 WirelessOne COMPLETE for Bibliothek"
-    A-0001 WirelessOne harvest declared COMPLETE by Otto on 2026-09-22 after ticket 050. All 5 locatable Fusion designs with unique Share shortlinks have been indexed (1 from batch 039, 4 from batch 050). See [leftovers index](indexes/leftovers.md) for details.
-
-!!! success "A-0044 TPP COMPLETE for Bibliothek"
-    A-0044 TPP harvest declared COMPLETE by Otto on 2026-09-22 after ticket 050 harvested the sole design `002361 AA (1)`. See [leftovers index](indexes/leftovers.md) for details.
+- [Harvest Status](status.md) — Batch summary and COMPLETE declarations for operators
+- [Leftovers](indexes/leftovers.md) — Designs with incomplete data or known quirks
 
 ---
 
