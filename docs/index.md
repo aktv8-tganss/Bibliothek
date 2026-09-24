@@ -14,9 +14,9 @@ Every design page includes an **a360.co shortlink**. Paste the shortlink into a 
 
 | Resource | Description |
 |----------|-------------|
-| [Shortlink Index](indexes/shortlinks.md) | All 827 indexed designs with direct A360 links |
+| [Shortlink Index](indexes/shortlinks.md) | All 831 indexed designs with direct A360 links |
 | [BOM / Uses Index](indexes/bom-uses.md) | 132 assemblies with component references |
-| [Migration Candidates](indexes/migration-candidates.md) | 312 designs flagged for potential relocation |
+| [Migration Candidates](indexes/migration-candidates.md) | 292 designs flagged for potential relocation |
 | [Graph](graph/index.md) | Interactive relationship graph (Directory / Assembly / Project modes) |
 
 ---
@@ -29,12 +29,12 @@ Every design page includes an **a360.co shortlink**. Paste the shortlink into a 
 | [A-0001 WirelessOne](designs/a-0001-wirelessone/index.md) | 5 | Indexed |
 | [A-003 iLACM](designs/a-003-ilacm/index.md) | 11 | Indexed |
 | [A-0010 iAir6](designs/a-0010-iair6/index.md) | 60 | Indexed |
-| [A-0026 iTM](designs/a-0026-itm/index.md) | 163 | Indexed |
+| [A-0026 iTM](designs/a-0026-itm/index.md) | 164 | Indexed |
 | [A-0044 TPP](designs/a-0044-tpp/index.md) | 1 | Indexed |
 | [A-0047 TPMS](designs/a-0047-tpms/index.md) | 154 | Indexed |
 | [A-0054 iAir3 Gen2](designs/a-0054-iair3-gen2/index.md) | 40 | Indexed |
 | [A-8888 Release Prints](designs/a-8888-release-prints/index.md) | 1 | Indexed |
-| [A-9999 Lab](designs/a-9999-lab/index.md) | 111 | Indexed |
+| [A-9999 Lab](designs/a-9999-lab/index.md) | 114 | Indexed |
 | [D-0012 EOL](designs/d-0012-eol/index.md) | 66 | Indexed |
 | [D-0058 TPMS & Load](designs/d-0058-tpms-load/index.md) | 44 | Indexed |
 | [D-0072 A8 Wheel End](designs/d-0072-a8-wheel-end/index.md) | 11 | Indexed |

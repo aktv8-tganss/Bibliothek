@@ -4,7 +4,7 @@ Lab project designs — experimental, prototype, and miscellaneous designs.
 
 | Metric | Value |
 |--------|-------|
-| **Designs** | 111 |
+| **Designs** | 114 |
 | **Status** | Indexed |
 | **Graph** | [View in Graph](../../graph/index.md) (select Project mode, search "a-9999") |
 
