@@ -1,5 +1,6 @@
 ---
 hide:
+  - header
   - navigation
   - toc
   - footer

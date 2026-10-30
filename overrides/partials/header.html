@@ -1,0 +1,63 @@
+{#- Ocean mast: mark, breadcrumb, search. -#}
+{% set features = config.theme.features or [] %}
+{%- macro first_url(item) -%}
+  {%- if item.url -%}
+    {{ item.url }}
+  {%- elif item.children -%}
+    {{ first_url(item.children | first) }}
+  {%- endif -%}
+{%- endmacro -%}
+{% if page and page.meta and page.meta.hide and "header" in page.meta.hide %}
+{% else %}
+<header class="md-header ocean-mast" data-md-component="header">
+  <nav class="md-header__inner ocean-mast__inner" aria-label="{{ lang.t('header') }}">
+    <label class="md-header__button md-icon ocean-mast__menu" for="__drawer">
+      {% set icon = config.theme.icon.menu or "material/menu" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </label>
+    <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}" title="{{ config.site_name | e }}" class="ocean-mark" aria-label="{{ config.site_name }}">
+      <img src="{{ 'assets/images/mark.svg' | url }}" alt="" width="18" height="18">
+    </a>
+    <ol class="ocean-crumb">
+      <li>
+        <a href="{{ config.extra.homepage | d(nav.homepage.url, true) | url }}">BIBLIOTHEK</a>
+      </li>
+      {% for nav_item in (page.ancestors if page else []) | reverse %}
+        <li class="ocean-crumb__sep" aria-hidden="true">\</li>
+        <li>
+          {% set crumb = nav_item.title %}
+          {% if crumb in ["Home", "Designs", "Indexes", "Status", "Graph"] %}
+            {% set crumb = crumb | upper %}
+          {% endif %}
+          {% set href = first_url(nav_item) | trim %}
+          {% if href %}
+            <a href="{{ href | url }}">{{ crumb }}</a>
+          {% else %}
+            <span>{{ crumb }}</span>
+          {% endif %}
+        </li>
+      {% endfor %}
+      {% if page and not page.is_homepage %}
+        <li class="ocean-crumb__sep" aria-hidden="true">\</li>
+        <li class="ocean-crumb__here">
+          {% if page.meta and page.meta.title %}
+            {{ page.meta.title }}
+          {% else %}
+            {{ page.title }}
+          {% endif %}
+        </li>
+      {% endif %}
+    </ol>
+    {% if "material/search" in config.plugins or "search" in config.plugins %}
+      <div class="ocean-search">
+        <label class="md-header__button md-icon ocean-search__icon" for="__search">
+          {% set icon = config.theme.icon.search or "material/magnify" %}
+          {% include ".icons/" ~ icon ~ ".svg" %}
+        </label>
+        {% include "partials/search.html" %}
+      </div>
+    {% endif %}
+  </nav>
+  <div class="ocean-ticks" aria-hidden="true"></div>
+</header>
+{% endif %}

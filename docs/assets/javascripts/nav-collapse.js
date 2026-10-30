@@ -1,15 +1,22 @@
 (function() {
   "use strict";
 
+  var TREE = ".ocean-tree .md-nav__toggle";
+
   function setNavState(expand) {
-    var toggles = document.querySelectorAll(
-      '.md-nav--primary .md-nav__toggle:not([id="__toc"]):not([id="__drawer"])'
-    );
+    var toggles = document.querySelectorAll(TREE);
     toggles.forEach(function(toggle) {
       toggle.checked = expand;
       toggle.indeterminate = false;
       toggle.classList.remove("md-toggle--indeterminate");
     });
+    if (!expand) {
+      document.querySelectorAll(
+        ".ocean-tree .md-nav__item--active > .md-nav__toggle"
+      ).forEach(function(toggle) {
+        toggle.checked = true;
+      });
+    }
   }
 
   function updateButtonState(btn, isExpanded) {
@@ -25,10 +32,8 @@
   }
 
   function checkCurrentState() {
-    var toggles = document.querySelectorAll(
-      '.md-nav--primary .md-nav__toggle:not([id="__toc"]):not([id="__drawer"])'
-    );
-    if (toggles.length === 0) return true;
+    var toggles = document.querySelectorAll(TREE);
+    if (toggles.length === 0) return false;
     var checkedCount = 0;
     toggles.forEach(function(t) {
       if (t.checked || t.indeterminate) checkedCount++;
@@ -37,11 +42,14 @@
   }
 
   function initNavCollapse() {
-    var nav = document.querySelector(".md-nav--primary > .md-nav__list");
-    if (!nav) return;
+    var glyph = document.querySelector(".ocean-glyph");
+    var tree = document.querySelector(".ocean-tree");
+    if (!tree) return;
 
     var existingBtn = document.querySelector(".nav-collapse-btn");
     if (existingBtn) existingBtn.remove();
+    var existingWrap = document.querySelector(".nav-collapse-wrapper");
+    if (existingWrap) existingWrap.remove();
 
     var btn = document.createElement("button");
     btn.className = "nav-collapse-btn md-button";
@@ -60,7 +68,11 @@
     wrapper.className = "nav-collapse-wrapper";
     wrapper.appendChild(btn);
 
-    nav.parentNode.insertBefore(wrapper, nav);
+    if (glyph && glyph.parentNode) {
+      glyph.parentNode.insertBefore(wrapper, glyph.nextSibling);
+    } else {
+      tree.parentNode.insertBefore(wrapper, tree);
+    }
   }
 
   if (typeof document$ !== "undefined") {
@@ -72,23 +84,6 @@
       document.addEventListener("DOMContentLoaded", initNavCollapse);
     } else {
       initNavCollapse();
-    }
-
-    var observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function(mutation) {
-        if (mutation.type === "childList") {
-          var nav = document.querySelector(".md-nav--primary > .md-nav__list");
-          var btn = document.querySelector(".nav-collapse-btn");
-          if (nav && !btn) {
-            initNavCollapse();
-          }
-        }
-      });
-    });
-
-    var sidebar = document.querySelector(".md-sidebar--primary");
-    if (sidebar) {
-      observer.observe(sidebar, { childList: true, subtree: true });
     }
   }
 })();

@@ -1,0 +1,46 @@
+{#- Pipe-and-angle nav item. Checkbox expand kept for Material instant nav. -#}
+{%- macro render_title(nav_item, level) -%}
+  {%- if level == 1 -%}
+    {{ nav_item.title | upper }}
+  {%- else -%}
+    {{ nav_item.title }}
+  {%- endif -%}
+  {%- if nav_item.children -%}/{%- endif -%}
+{%- endmacro -%}
+
+{%- macro render(nav_item, path, level, prefix, is_last) -%}
+  {%- set class = "md-nav__item" -%}
+  {%- if nav_item.active -%}
+    {%- set class = class ~ " md-nav__item--active" -%}
+  {%- endif -%}
+  {%- set branch = "└── " if is_last else "├── " -%}
+  {%- set child_prefix = prefix ~ ("    " if is_last else "│   ") -%}
+  {%- if nav_item.children -%}
+    <li class="{{ class }} md-nav__item--nested">
+      {%- set checked = "checked" if nav_item.active -%}
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="{{ path }}" {{ checked }}>
+      <label class="md-nav__link ocean-tree__row" for="{{ path }}" id="{{ path }}_label" tabindex="0">
+        <span class="ocean-pipe" aria-hidden="true">{{ prefix ~ branch }}</span>
+        <svg class="ocean-disclose" viewBox="0 0 12 8" aria-hidden="true">
+          <path d="M1.2 1.2 L6 6.2 L10.8 1.2" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="square" stroke-linejoin="miter"/>
+        </svg>
+        <span class="ocean-tree__label">{{ render_title(nav_item, level) }}</span>
+      </label>
+      <nav class="md-nav" data-md-level="{{ level }}" aria-labelledby="{{ path }}_label" aria-expanded="{{ nav_item.active | tojson }}">
+        <ul class="md-nav__list">
+          {%- for item in nav_item.children -%}
+            {{ render(item, path ~ "_" ~ loop.index, level + 1, child_prefix, loop.last) }}
+          {%- endfor -%}
+        </ul>
+      </nav>
+    </li>
+  {%- else -%}
+    <li class="{{ class }}">
+      <a href="{{ nav_item.url | url }}" class="md-nav__link ocean-tree__row{% if nav_item.active %} md-nav__link--active{% endif %}">
+        <span class="ocean-pipe" aria-hidden="true">{{ prefix ~ branch }}</span>
+        <span class="ocean-tree__spacer" aria-hidden="true"></span>
+        <span class="ocean-tree__label">{{ render_title(nav_item, level) }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+{%- endmacro -%}
