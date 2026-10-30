@@ -1,0 +1,224 @@
+/* Ocean tokens on the Material shell. Catalogue pages are untouched. */
+
+@font-face {
+  font-family: "NK57 Monospace Semi-Condensed";
+  src: url("../fonts/nk57/NK57MonospaceSc-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NK57 Monospace Semi-Condensed";
+  src: url("../fonts/nk57/NK57MonospaceSc-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "NK57 Monospace Semi-Condensed";
+  src: url("../fonts/nk57/NK57MonospaceSc-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../fonts/archivo/Archivo[wdth,wght].woff2") format("woff2");
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root,
+[data-md-color-scheme="slate"],
+[data-md-color-scheme="default"] {
+  --black: #000000;
+  --panel-ink: #a0d8d0;
+  --bg-bezel: var(--black);
+  --bg-panel: rgb(160 216 208 / 15%);
+  --ink: #feffff;
+  --ice: #deeaf8;
+  --signal: #db7221;
+  --font-nk57: "NK57 Monospace Semi-Condensed", ui-monospace, monospace;
+  --font-archivo: "Archivo", sans-serif;
+  --caption-stretch: 62%;
+  --radius: 0;
+
+  --md-text-font: "NK57 Monospace Semi-Condensed";
+  --md-code-font: "NK57 Monospace Semi-Condensed";
+
+  --md-default-fg-color: var(--ink);
+  --md-default-fg-color--light: rgb(254 255 255 / 72%);
+  --md-default-fg-color--lighter: rgb(254 255 255 / 46%);
+  --md-default-fg-color--lightest: rgb(254 255 255 / 14%);
+  --md-default-bg-color: var(--bg-bezel);
+  --md-default-bg-color--light: rgb(0 0 0 / 92%);
+  --md-default-bg-color--lighter: rgb(0 0 0 / 76%);
+  --md-default-bg-color--lightest: rgb(0 0 0 / 54%);
+
+  --md-primary-fg-color: var(--bg-bezel);
+  --md-primary-fg-color--light: #111111;
+  --md-primary-fg-color--dark: var(--bg-bezel);
+  --md-primary-bg-color: var(--ink);
+  --md-primary-bg-color--light: rgb(254 255 255 / 72%);
+
+  --md-accent-fg-color: var(--ice);
+  --md-accent-fg-color--transparent: rgb(222 234 248 / 18%);
+  --md-accent-bg-color: var(--black);
+
+  --md-typeset-a-color: var(--ice);
+  --md-typeset-mark-color: rgb(219 114 33 / 32%);
+  --md-footer-bg-color: var(--bg-bezel);
+  --md-footer-fg-color: var(--ink);
+
+  --md-shadow-z1: none;
+  --md-shadow-z2: none;
+  --md-shadow-z3: none;
+}
+
+body,
+.md-typeset {
+  font-family: var(--font-nk57);
+  font-weight: 600;
+  background: var(--bg-bezel);
+  color: var(--ink);
+}
+
+.md-header,
+.md-tabs,
+.md-footer,
+.md-sidebar,
+.md-search__inner,
+.md-search-result {
+  background: var(--bg-bezel);
+  border-radius: var(--radius);
+}
+
+.md-header,
+.md-header__title,
+.md-tabs__link {
+  font-family: var(--font-archivo);
+  font-stretch: var(--caption-stretch);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.md-search__input {
+  font-family: var(--font-archivo);
+  font-stretch: var(--caption-stretch);
+  font-weight: 700;
+  border-radius: var(--radius);
+  background: var(--bg-bezel);
+  color: var(--ink);
+}
+
+.md-search__form {
+  border-radius: var(--radius);
+  border: 1px solid rgb(254 255 255 / 14%);
+  box-shadow: none;
+}
+
+.md-nav--primary {
+  font-family: var(--font-nk57);
+  font-weight: 700;
+}
+
+.md-nav--primary .md-nav__title,
+.md-nav--primary > .md-nav__list > .md-nav__item > .md-nav__link {
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.md-content {
+  background: var(--bg-panel);
+}
+
+.md-content__inner {
+  background: transparent;
+}
+
+.md-typeset h1 {
+  font-family: var(--font-nk57);
+  font-weight: 400;
+  font-size: 1.65em;
+  text-transform: none;
+  letter-spacing: 0;
+  color: var(--ink);
+}
+
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+  font-family: var(--font-nk57);
+  font-weight: 700;
+  text-transform: none;
+}
+
+.md-typeset table:not([class]) {
+  font-family: var(--font-nk57);
+  font-weight: 600;
+  border: 1px solid rgb(254 255 255 / 14%);
+  border-radius: var(--radius);
+  background: var(--bg-bezel);
+}
+
+.md-typeset table:not([class]) th {
+  font-family: var(--font-archivo);
+  font-stretch: var(--caption-stretch);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--bg-panel);
+  color: var(--ink);
+  border-bottom: 1px solid rgb(254 255 255 / 14%);
+}
+
+.md-typeset table:not([class]) td {
+  border-color: rgb(254 255 255 / 10%);
+}
+
+.md-button,
+.md-typeset .md-button,
+.md-typeset .md-clipboard {
+  border-radius: var(--radius);
+  box-shadow: none;
+}
+
+.md-typeset .admonition,
+.md-typeset details,
+.md-typeset pre,
+.md-typeset code,
+.md-typeset .highlight,
+.md-dialog,
+.md-tooltip {
+  border-radius: var(--radius);
+}
+
+.md-typeset a:focus-visible,
+.md-nav__link:focus-visible,
+.md-header__button:focus-visible,
+.md-search__input:focus-visible {
+  outline: 1px solid var(--signal);
+  outline-offset: 2px;
+}
+
+.md-nav__link:hover,
+.md-nav__link:focus,
+.md-header__button:hover {
+  color: var(--signal);
+}
+
+.md-typeset a:hover {
+  color: var(--signal);
+}
+
+.md-header[data-md-state="shadow"],
+.md-header--shadow {
+  box-shadow: none;
+  border-bottom: 1px solid rgb(254 255 255 / 14%);
+}

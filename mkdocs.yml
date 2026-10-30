@@ -5,19 +5,11 @@ site_url: https://aktv8-tganss.github.io/Bibliothek/
 theme:
   name: material
   custom_dir: overrides
+  font: false
   palette:
-    - scheme: default
-      primary: indigo
-      accent: amber
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      primary: indigo
-      accent: amber
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+    scheme: slate
+    primary: black
+    accent: orange
   features:
     - navigation.instant
     - navigation.tracking
@@ -28,6 +20,7 @@ theme:
     - content.code.copy
 
 extra_css:
+  - assets/stylesheets/ocean.css
   - assets/stylesheets/nav-collapse.css
 
 extra_javascript:

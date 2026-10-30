@@ -1,36 +1,40 @@
 .nav-collapse-wrapper {
   padding: 0.4rem 0.6rem;
-  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-bottom: 1px solid rgb(254 255 255 / 14%);
 }
 
 .nav-collapse-btn {
   display: inline-flex;
   align-items: center;
-  padding: 0.3rem 0.6rem;
-  font-size: 0.64rem;
+  padding: 0.35rem 0.7rem;
+  font-family: var(--font-archivo, "Archivo", sans-serif);
+  font-stretch: var(--caption-stretch, 62%);
+  font-size: 0.72rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--md-default-fg-color--light);
-  background: transparent;
-  border: 0.05rem solid var(--md-default-fg-color--lightest);
-  border-radius: 0.2rem;
+  letter-spacing: 0.04em;
+  color: var(--black, #000000);
+  background: var(--ice, #deeaf8);
+  border: 1px solid var(--ice, #deeaf8);
+  border-radius: var(--radius, 0);
+  box-shadow: none;
   cursor: pointer;
-  transition: color 0.15s, border-color 0.15s, background-color 0.15s;
 }
 
 .nav-collapse-btn:hover {
-  color: var(--md-accent-fg-color);
-  border-color: var(--md-accent-fg-color);
+  color: var(--black, #000000);
+  background: var(--ink, #feffff);
+  border-color: var(--ink, #feffff);
 }
 
 .nav-collapse-btn:focus {
-  outline: none;
-  box-shadow: 0 0 0 0.1rem var(--md-accent-fg-color--transparent);
+  outline: 1px solid var(--signal, #db7221);
+  outline-offset: 2px;
+  box-shadow: none;
 }
 
 .nav-collapse-btn:active {
-  background-color: var(--md-default-fg-color--lightest);
+  background: var(--ice, #deeaf8);
 }
 
 @media screen and (max-width: 76.1875em) {
